@@ -1,0 +1,171 @@
+\documentclass[11pt,a4paper,twoside]{book}
+%\usepackage[utf8]{inputenc}
+%\usepackage[francais]{babel}
+%\usepackage[T1]{fontenc}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+%\author{Tigrane Cantat-Moltrecht}
+%\title{Atomes de Rydberg piégés}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[includeheadfoot, width=144mm,top=23mm,bottom=20mm,bindingoffset=4mm]{geometry}
+\renewcommand{\topfraction}{0.5}     % autorise 1/2 page de graphique en haut
+\renewcommand{\bottomfraction}{0.3}  % autorise 1/3 page de graphique en bas
+\usepackage[fleqn]{amsmath}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage[detect-all]{siunitx}
+\sisetup{math-micro=\text{µ},text-micro=µ}
+\usepackage[font={small}, labelsep=space, labelfont=sf,bf,up,belowskip=14pt,aboveskip=12pt]{caption}
+\usepackage{verbatim}
+\usepackage[nottoc]{tocbibind}
+\usepackage[cmyk]{xcolor} 
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{rotating}
+
+ \usepackage{fancyvrb}
+ \usepackage{adjustbox} 
+ \usepackage{grffile}
+\include{}%./0_preamble}
+\usepackage{hyperxmp}
+\usepackage[pdfpagelayout=TwoPageRight,pdfpagelabels=true]{hyperref}
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=true,          % non-Latin characters in Acrobat�s bookmarks
+    pdftitle={Laser trapping of circular Rydberg atoms},    % title
+    pdfauthor={Tigrane Cantat-Moltrecht},     % author
+    pdfsubject={PhD thesis},   % subject of the document
+    pdfkeywords={Rydberg} {Atom chip} {Quantum simulation}, % list of keywords
+    pdfnewwindow=false,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=black,          % color of internal links
+    citecolor=green,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+\usepackage{booktabs}
+\usepackage{csquotes}
+\csname endofdump\endcsname
+\usepackage{enumitem}
+\usepackage{setspace}
+\newcommand\epigraph[3]{
+	\vspace{-2em}\hfill{}\begin{minipage}{#1}{\begin{spacing}{0.9}
+				\small\noindent\textit{#2}\end{spacing}
+			\vspace{1em}
+			\hfill{}{--- #3}}\vspace{6em}
+			\end{minipage}\\
+			
+			\noindent}
+\usepackage{afterpage}
+\usepackage{braket}
+%\usepackage{physics}
+%\usepackage[backend=biber,style=phys,%
+%articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
+%]{biblatex}
+%\DeclareFieldFormat{titlecase}{{#1}}
+\usepackage{chngcntr}
+%\addbibresource{7_bib.bib}
+%\usepackage{fontspec}
+\linespread{1.05}
+%\usepackage{unicode-math}
+%\setmainfont
+%[ BoldFont     = TeX Gyre Pagella-Bold,
+%ItalicFont     = TeX Gyre Pagella-Italic ,
+%BoldItalicFont = TeX Gyre Pagella-Bold Italic ]
+%{TeX Gyre Pagella-Regular}
+%\setmathfont{TeX Gyre Pagella Math}
+%\setmathfont[range=\mathcal]{TeX Gyre Termes  Math}
+%\setmathfont[range=\sqrt]{Asana Math}
+%\setmathfont[range=\tilde]{Asana Math}
+\newcommand{\CoverName}{Cover}%
+\newcommand{\BackCoverName}{Back Cover}%
+\title{Atomes de Rydberg piégés}
+\usepackage{coverpages}
+\input{coverdata}
+%%%%%%%%%%%%%%%%%%%%%%%%%------------
+\begin{document}
+\newcommand{\citefr}[1]{\cite{#1}}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\dip}{d}
+\newcommand{\VdW}{van der Waals }
+\newcommand{\umx}{\si{\um^6} }
+\newcommand{\uK}{\micro\kelvin}
+\newcommand{\Rb}[1]{${}^{#1}$Rb}
+\newcommand{\Ryd}{\textnormal{Ryd }}
+\newcommand{\pdt}{\partial_t}
+\newcommand{\eff}{\textnormal{eff }}
+\newcommand{\Id}{\mathbb{I}}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\frontmatter
+\pagenumbering{roman}
+\thispagestyle{empty}
+%\topskip0pt
+\vspace*{0.2\textheight}
+\begin{center}
+\emph{To science}
+\end{center}
+\vspace*{\fill}\clearpage
+\makeatletter
+\let\ps@plain\ps@empty
+
+\makeatother
+
+\include{}%0_Acknowledgement}
+\tableofcontents
+\thispagestyle{fancyplain}
+\listoffigures
+\thispagestyle{fancyplain}
+%%\pagebreak
+\mainmatter
+\pagenumbering{arabic}
+
+\chapter*{Introduction}\label{chapter:intro}
+\addcontentsline{toc}{chapter}{Introduction}
+\markboth{Introduction}{Introduction}
+\include{}%0_intro}
+
+%\chapter{Atomes de Rydberg : à bas $l$ ou circulaires}
+%\label{part:Rydberg}
+\include{Rydbergs}
+
+%\chapter{Dispositif expérimental : une puce atomique pour des atomes de Rydberg}
+%\label{chapter:setup}
+\include{Setup_coldatoms}
+
+\include{Setup_Rydberg}
+
+%\chapter{Excitation optique d'atomes de Rydberg à bas $l$ et simulations}
+%\label{chapter:60s}
+\include{low_l_Rydbergs}
+
+%\chapter{Excitation d'atomes de Rydberg circulaires et piégeage laser}
+%\label{chapter:50c}
+\include{circulars}
+
+\chapter*{Conclusion}\label{chapter:concl}
+\addcontentsline{toc}{chapter}{Conclusion}
+\markboth{Conclusion}{Conclusion}
+\include{}%0_intro}
+
+%\phantomsection
+%\titleformat{\part}[block]
+%{\bfseries\fontsize{26}{28}\selectfont}
+%{}
+%{10pt}
+%{
+%	\begin{tikzpicture}[remember picture, overlay]
+%	\node[anchor=south west, inner sep =0pt, outer sep =25pt](partnum) at (0,3){\partnumfont\itshape };
+%	\end{tikzpicture}\parbox[c]{.95\textwidth}%\justify
+%}
+\part*{Annexes}
+\appendix
+\renewcommand{\chaptermark}[1]{\markboth{\appendixname\ \thechapter: #1}{}}
+\include{}%6_appendix}
+\backmatter
+\include{}%0_intro_fr}
+\renewcommand{\bibname}{References}
+%    \printbibliography 
+\end{document}

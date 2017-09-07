@@ -1,0 +1,28 @@
+\select@language {french}
+\contentsline {chapter}{Table des figures}{v}{chapter*.2}
+\contentsline {chapter}{Introduction}{1}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Atomes de Rydberg alcalins : des hydrog\IeC {\'e}no\IeC {\"\i }des g\IeC {\'e}ants}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Th\IeC {\'e}orie g\IeC {\'e}n\IeC {\'e}rale des Rydberg}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Premier cas particulier : les interactions dipole-dipole et VdW \IeC {\`a} bas $l$}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Second cas particulier : les atomes de Rydberg circulaires}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Atomes de Rydberg circulaires en interaction}{4}{section.1.4}
+\contentsline {chapter}{\numberline {2}Des atomes froids en environnement cryog\IeC {\'e}nique}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Le cryostat}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}La puce et les bobines}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}S\IeC {\'e}quence de pi\IeC {\'e}geage et refroidissement}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}Imagerie atomique}{5}{section.2.4}
+\contentsline {section}{\numberline {2.5}Nuages typiques}{6}{section.2.5}
+\contentsline {chapter}{\numberline {3}Dispositif exp\IeC {\'e}rimental : des atomes de Rydberg sur puce}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Excitation et d\IeC {\'e}tection d'atomes de Rydberg}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Probl\IeC {\`e}me des champs \IeC {\'e}lectriques pr\IeC {\`e}s d'une puce}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Spectroscopie microonde}{7}{section.3.3}
+\contentsline {chapter}{\numberline {4}Interaction entre atomes de Rydberg sph\IeC {\'e}riques}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}R\IeC {\'e}gimes d'excitation en nuage dense : blocage et facilitation}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Spectroscopie optique du nuage et simulations}{9}{section.4.2}
+\contentsline {section}{\numberline {4.3}Spectroscopie microonde du nuage}{9}{section.4.3}
+\contentsline {chapter}{\numberline {5}Des atomes de Rydberg circulaires sur puce}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Comment exciter des atomes de Rydberg circulaires}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}Comment caract\IeC {\'e}riser les atomes de Rydberg circulaires}{11}{section.5.2}
+\contentsline {section}{\numberline {5.3}Th\IeC {\'e}orie de la force pond\IeC {\'e}ro-motrice appliqu\IeC {\'e}e aux 50C}{12}{section.5.3}
+\contentsline {section}{\numberline {5.4}Pi\IeC {\'e}geage des atomes circulaires}{12}{section.5.4}
+\contentsline {chapter}{Conclusion}{13}{chapter*.35}

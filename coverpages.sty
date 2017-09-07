@@ -1,0 +1,155 @@
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\ProvidesPackage{coverpages}[2014/10/13 3.01 Build coverpage for EDPIF thesis (J.Hare)]
+\RequirePackage{graphicx}
+\RequirePackage{geometry}[2010/03/13]
+\RequirePackage[normalem]{ulem}
+
+\def\head#1{\gdef\@head{#1}}
+\gdef\@head{\relax}
+\def\logos#1#2#3{\gdef\@logoone{#1}\gdef\@logotwo{#2}\gdef\@logothree{#3}}
+\def\lab#1{\gdef\@lab{#1}}
+\def\thesis#1{\gdef\@thesis{#1}}
+\def\@thesis{\@latex@error{No \noexpand\thesis given}\@ehc}
+\def\ecoledoct#1{\gdef\@ecoledoct{#1}}
+\def\specialite#1{\gdef\@specialite{#1}}
+\def\author#1{\gdef\@author{#1}}
+\def\@author{\@latex@warning@no@line{No \noexpand\author given}}
+\def\phdname#1{\gdef\@phdname{#1}}
+\def\@phdname{\@latex@warning@no@line{No \noexpand\phdname given}}
+\def\title#1{\gdef\@title{#1}}
+\def\@title{\@latex@error{No \noexpand\title given}\@ehc}
+\def\date#1{\gdef\@date{#1}}
+\gdef\@date{\today}
+\long\def\jury#1{\gdef\@jury{#1}}
+\def\@jury{\@latex@warning@no@line{No \noexpand\jury given}}
+\long\def\titlefr#1{\gdef\@titlefr{#1}}
+\def\@titlefr{\@latex@warning@no@line{No \noexpand\titlefr given}}
+\long\def\resume#1{\gdef\@resume{#1}}
+\def\@resume{\@latex@warning@no@line{No \noexpand\resume given}}
+\long\def\motscles#1{\gdef\@motscles{#1}}
+\def\@motscles{\@latex@warning@no@line{No \noexpand\motscles given}}
+\long\def\titleen#1{\gdef\@titleen{#1}}
+\def\@titleen{\@latex@warning@no@line{No \noexpand\titleen given}}
+\long\def\abstract#1{\gdef\@abstract{#1}}
+\def\@abstract{\@latex@warning@no@line{No \noexpand\abstract given}}
+\long\def\keywords#1{\gdef\@keywords{#1}}
+\def\@keywords{\@latex@warning@no@line{No \noexpand\keywords given}}
+
+\newlength{\th@skip}
+\newlength{\@hmargin}
+
+\newcommand{\clearevenpage}{\clearpage\if@twoside \ifodd\c@page
+    \hbox{}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+
+\long\def\frontcover{%
+    \begingroup
+    \setlength{\th@skip}{15mm plus 10mm minus 10mm}%
+    \newgeometry{left=12mm,right=12mm,bottom=12mm}
+    \pagestyle{empty}%
+\renewcommand{\thepage}{\CoverName}
+\begin{minipage}{1\textwidth}
+\begin{center}\vspace{-20pt}
+\@lab \vskip 0.2\th@skip%
+    \ifx\empty\@head
+        \relax%
+    \else%
+        {\large\bfseries\@head\par}%
+    \fi
+    \ifx\empty\@logoone
+        \relax%
+    \else%
+        \centerline\bgroup\hfill{\includegraphics[height=4cm]{\@logoone}}\hfill%
+        \ifx\empty\@logotwo
+            \relax
+        \else%
+            \hfill\clap{\includegraphics[height=2cm]{\@logotwo}}\hfill%
+        \fi
+
+        \egroup
+    \fi
+\end{center}
+\end{minipage}
+%%%%%%%%%%%%%%%%%
+\vspace{7mm}
+\begin{center}
+{\large 
+\uline{\@thesis} \vskip 0.2\th@skip%
+ Spécialité~:~ \textbf{\@specialite}
+}\\[0.8cm]
+{\huge\bfseries{\textsf{\vspace*{0.5cm}\@title}}}\vskip 0.7\th@skip
+
+présentée par \vskip 0.5\th@skip
+\textbf{\LARGE \@author}\\[1cm]
+pour obtenir le grade de \vskip .5\th@skip%
+\textbf{\@phdname}\\[1.5cm]
+Soutenue le \@date ~ devant le jury composé de~:~\par%
+   \vskip 0.5\th@skip%
+    \begin{large}
+    \begin{tabular}{p{0.2in}p{2.5in}p{1.5in}}
+        \@jury
+    \end{tabular}
+    \end{large}
+\end{center}
+\restoregeometry
+%\cleardoublepage
+  \endgroup
+  \par
+  \thispagestyle{empty}
+  \clearpage
+  \setcounter{page}{0}
+}
+%%%%%%%%%%% end of pagede couv
+\long\def\backcover{%
+    \begingroup
+    \setlength{\th@skip}{15mm plus 10mm minus 10mm}%
+    \newgeometry{left=20mm,right=20mm,bottom=25mm,top=25mm}
+	\clearpage\clearevenpage\flushbottom
+    \pagestyle{empty}%
+    \renewcommand{\thepage}{\BackCoverName}
+    \linespread{1.0}
+    \sffamily
+
+    \vskip \th@skip%
+     \begin{center}\Large\bfseries
+	\begin{quote}
+	\begin{minipage}[l]{0.8\linewidth}
+   	{\Large\bfseries\sffamily {\@titleen}\par}
+   	\end{minipage}\\
+   	\color{gray!50}\rule{\linewidth}{2pt}%\hrulefill
+	\color{black}
+   	\end{quote}
+   	\begin{quote}
+   	\noindent\normalsize\textbf{Abstract}:~\normalfont%
+   	\@abstract\par
+   	\bigskip
+   	\noindent\bfseries\sffamily{Keywords}:~\normalfont\normalsize%
+   	\@keywords
+   	\end{quote}
+   	   	\end{center}
+      		\vskip\th@skip%
+      	\vfill
+    \begin{center}\Large\bfseries
+	\begin{quote}
+		\begin{minipage}[l]{.8\linewidth}
+			{\Large\bfseries\sffamily {\@titlefr}\par}
+		\end{minipage}\\
+		\color{gray!50}\rule{\linewidth}{2pt}%\hrulefill
+		\color{black}
+	\end{quote}
+	\begin{quote}
+		\noindent\normalsize\textbf{Résumé}~:~\normalfont%
+		\@resume\par
+		\bigskip
+		\noindent\bfseries\sffamily{Mots-clés}~:~\normalfont\normalsize%
+		\@motscles\par
+	\end{quote}
+
+\end{center}
+   	\restoregeometry
+   	\endgroup
+}
+
+\AtBeginDocument{\frontcover}
+\AtEndDocument{\backcover}
+\endinput
+%end of pagedecouv package

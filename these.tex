@@ -26,9 +26,9 @@
 \usepackage{fancyhdr}
 \usepackage{rotating}
 
- \usepackage{fancyvrb}
- \usepackage{adjustbox} 
- \usepackage{grffile}
+\usepackage{fancyvrb}
+\usepackage{adjustbox} 
+\usepackage{grffile}
 \include{}%./0_preamble}
 \usepackage{hyperxmp}
 \usepackage[pdfpagelayout=TwoPageRight,pdfpagelabels=true]{hyperref}
@@ -133,13 +133,17 @@
 
 %\chapter{Dispositif expérimental : une puce atomique pour des atomes de Rydberg}
 %\label{chapter:setup}
-\include{Setup_coldatoms}
+\include{Setup_coldatoms_Rydberg}
 
-\include{Setup_Rydberg}
+%\include{Setup_Rydberg}
 
 %\chapter{Excitation optique d'atomes de Rydberg à bas $l$ et simulations}
 %\label{chapter:60s}
 \include{low_l_Rydbergs}
+
+%\chapter{Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}
+%\label{chapter:circsim}
+\include{circsim}
 
 %\chapter{Excitation d'atomes de Rydberg circulaires et piégeage laser}
 %\label{chapter:50c}

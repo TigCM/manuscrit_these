@@ -3,28 +3,58 @@
 
 \section{Les atomes froids}
 	\subsection{le cryostat et la puce}
+	\noindent schéma et description du cryostat \\
+	\noindent schéma et description de la puce supra et des bobines supra
 	\subsection{séquence de piégeage et refroidissement}
-		\noindent piégeage magnéto-optique
-		\noindent piégeage magnétique
-		\noindent refroidissement évaporatif jusqu'au BEC
+		\noindent piégeage magnéto-optique : 2D-MOT, QUAD-MOT, U-MOT \\
+		
+		\noindent piégeage magnétique de Ioffe Pritchard : principe et potentiel créé par le fil Z (cf. code Mathematica Radia)\\
+		
+		\noindent refroidissement évaporatif jusqu'au BEC : principe de l'évaporation RF et fils d'évap sur la puce
+		
 	\subsection{imagerie atomique}
-		\noindent optique d'imagerie
-		\noindent imagerie par absorption
-		\noindent tweaks : absorption no-log et réduction des franges
+		\noindent optique d'imagerie : schéma optique et caractéristiques des caméras \\
+		
+		\noindent imagerie par absorption : transition sonde, intensité de saturation \\
+		\noindent imagerie par réflexion sur la puce : spécificités de la géométrie et double absoprtion du faisceau sonde \\
+		
+		\noindent tweaks : absorption no-log et réduction des franges : qu'a-t-on utilisé comme méthodes de traitement pour améliorer notre imagerie $\rightarrow$ un paragraphe sur la réduction de franges et un(ou deux) paragraphe(s) sur l'absorption no-log et sa pertinence dans les mesures de mélasses.
+		
 	\subsection{nuages typiques}
-		\noindent quels MOTs, mélasses et nuages froids obtenus
+		\noindent quels MOTs, mélasses et nuages froids obtenus : tailles, températures, nombres d'atomes, distance à la puce.
 
 \section{Excitation et détection d'atomes de Rydberg près d'une puce}
+
 	\subsection{schéma d'excitation}
-		\noindent laser et niveaux atomiques
+		\noindent schéma de niveau de l'excitation à deux photons (Raul.figIII.1) et caractéristiques de l'éexciation à deux photons (Rabi vs Detuning du niveau intermédiaire) \\
+		\noindent schéma laser - puce - électrodes et petit mot sur la géométrie des faisceaux
+		
+		
 	\subsection{schéma de détection}
-		\noindent décrire la détection sélective en champ
-	\subsection{problème de champs électriques et flash de Rb}
-		\noindent vieilles raies larges et moches
-		\noindent flash Rb
-		\noindent belles raies fines
+		\noindent principe de la détection par ionisation \\
+		\noindent implémentation : géométrie des électrodes d'ionisation, de déflexion et du channeltron \\
+		\noindent avec une rampe de champ, on peut savoir quel niveau est détecté $\rightarrow$ principe des arrival times et note sur l'ionisation diabatique vs adiabatique. 
+		
+	\subsection{problème des champs électriques et flash de Rb}
+	on travaille près d'une puce qui est une surface, et avec des objets ultra-sensibles -> ça peut créer des problèmes ! \\
+		\noindent vieilles raies larges et moches : expliquer par l'effet Stark quadratique et l'élargiseement inhomogène. \\
+		\noindent potentiel de contact et flash de Rb : dessins et schéma + dispensers et leur emplacement et boîte de protection \\
+		\noindent c'est magiques, ça nous donne de belles raies fines !
+		
 	\subsection{compensation et contrôle des champs}
-		\noindent électrode Vcomp
-		\noindent électrodes RF
+	c'est bien d'avoir' ces raies fines mais on veut contrôler le champ électrique le mieux possible
+		\noindent électrode Vcomp et schéma de contrôle mixte excitation/détection. Le contrôle du champ sur $Oy$ c'est bien, ça permet de faire plein de trucs, mais il reste des gradients (au moins).\\
+		
+		\noindent si on veut faire encore mieux, il faut contrôler les champs selon $Ox$ et $Oy$ $\rightarrow$ électrodes RF :
+		\\ schéma d'installation des électrodes
+		\\ SIMION pour vérifier que ça permet de créer des champs y compris très près de la puce
+		\\ en plus, ça servira de source de RF polarisée !!
+		
 	\subsection{manipulation et observation des Rydbergs}
-		\noindent la spectroscopie microondes
+\noindent C'est bien de détecter des Rydberg, mais il faut aussi pouvoir les manipuler et les caractériser.
+Pour ça, on a un outil fabuleux : la spectroscopie microonde vers les niveaux voisins ! \\
+schéma de niveaux ? schéma de dispositif ? \\
+on peut mentionner ici qu'avec ça on a pu calibrer les champs électriques résiduels, et faire un qubit $60s-61s$ qui vit très longtemps.
+
+\section*{Conclusion}
+On a un dispositif lourd et complexe mais qui permet de faire beaucoup de belles choses avec des Rydbergs ultra-froids.

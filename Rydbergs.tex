@@ -3,31 +3,50 @@
 %Atomes de Rydberg : à bas $l$ ou circulaires
 
 \section{Théorie générale des Rydberg}
-	\subsection*{Hamiltonien de l'atome d'hydrogène}
-		\noindent particularités aux grands $n$
-	\subsection*{Défaut quantique : comment passer aux alcalins}
-		\noindent le défaut quantique comme un $n$ effectif
-		\noindent quantitativement : $\delta_{n,l,j}$ pour les niveaux qui nous concernent
-	\subsection*{Niveaux à bas $l$}
-		\noindent description rapide des spécificités et schéma de niveaux
+	\subsection{Hamiltonien de l'atome de Rydberg et défaut quantique}
+%cf Raul I.1
+		\noindent l'atome d'hydrogène : énergie des niveaux $E(n,l,j)= - \frac{E_I}{n^2}$
+		avec $E_I = \frac{1}{1+\frac{m_e}{M}}\frac{m_e q^4}{32\pi^2 \epsilon _0^2 \hbar ^2}$ l'énergie d'ionisation de l'électron dans le niveau $1S$ de l'atome d'hydrogène.
+		Etats propres : $\psi(r,\theta,\phi) = R_{nl}(r)\cdot Y_l^{m_l}(\theta,\phi)$
+		\\
+		+ structure fine $j,m_j$
+		\bigskip
+		
+		\noindent le défaut quantique comme un $n$ effectif : 
+		\[
+		E(n,l,j) = \frac{E_I}{(n-\delta_{nlj})^2}
+		\]
+		avec $\delta(n,l,j)=\delta_{lj,0} + \frac{\delta_{lj,2}}{(n-\delta_{lj0})^2} + \frac{\delta_{lj,4}}{(n-\delta_{lj0})^4} + \frac{\delta_{lj,6}}{(n-\delta_{lj0})^6} + \cdots$ \\
+		donner la table des défauts quantiques
+		\bigskip
+		
+		\noindent mention de calcul du dipôle entre niveaux de Rydberg $\langle n,l,j,m_j | q \mathbf{r} |n',l',j',m_j'\rangle$
+		
+	\subsection{Niveaux à bas $l$}
+	%	\noindent description rapide des spécificités et schéma de niveaux
 		\noindent taille, dipole
 		\noindent transitions vers niveaux proches, émission spontanée, temps de vie
-	\subsection*{Niveaux circulaires}
-		\noindent description rapide des spécificités et schéma de niveaux
+	\subsection{Niveaux circulaires}
+	%	\noindent description rapide des spécificités et schéma de niveaux
 		\noindent taille, dipole
 		\noindent transitions vers niveaux proches, émission spontanée, temps de vie
-	\subsection*{Les grandes caractéristiques des Rydberg}
-		\noindent gigantisme du dipole, sensibilité au champ EM, interactions
-		\noindent lois d'échelle
+	%\subsection{Les grandes caractéristiques des Rydberg}
+	%	\noindent gigantisme du dipole, sensibilité au champ EM, interactions
+	%	\noindent lois d'échelle
 
 \section{Atomes de Rydberg en interaction}
-	\subsection*{Deux atomes de Rydberg}
-		\noindent hamiltonien d'interaction
-		\noindent dipole-dipole
-		\noindent Van der Waals
-		\noindent interaction d'échange
-	\subsection*{les interactions entre Rydberg de bas $l$}
-		\noindent origine du $C_6$ pour 60s-60s et $C_6/A_6$ avec les voisins
-		\noindent blocage dipolaire et facilitation
-	\subsection*{les interactions entre Rydberg circulaires}
-		\noindent $C_6$ pour 50c-50c et $C_6/A_6$ avec les voisins
+	\subsection{Deux atomes de Rydberg}
+		\noindent hamiltonien d'interaction entre deux dipôles
+		\[
+		V_{dd} = \frac{1}{4\pi\epsilon_0 r^3} \left( \mathbf{d_1}\cdot \mathbf{d_2} - 3(\mathbf{d_1}\cdot \frac{\mathbf{r}}{r})(\mathbf{d_2}\cdot\frac{\mathbf{r}}{r}) \right)
+		\]
+		\noindent de l'interaction dipole-dipole générale au terme de Van der Waals en $1/r^6$ \\
+		\noindent terme d'énergie et terme d'échange
+	\subsection{les interactions entre Rydberg de bas $l$}
+		\noindent origine du $C_6$ pour 60s-60s et $C_6/A_6$ avec les voisins\\
+		reprendre Raul.figI.3 qui présente la partie radiale du dipôle 60s-ns en fonction de n\\
+		\noindent principe du blocage dipolaire et facilitation (rapide)
+	\subsection{les interactions entre Rydberg circulaires}
+		\noindent $C_6$ pour 50c-50c et $C_6/A_6$ avec les voisins \\
+		\noindent attention à l'anisotropie\\
+		équivalent de la figure ci dessus (Raul.figI.3) pour les 50c, à modifier pour l'anisotropie

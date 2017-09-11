@@ -1,52 +1,56 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \select@language {french}
 \contentsline {chapter}{Table des figures}{v}{chapter*.2}
-\contentsline {chapter}{Introduction}{1}{chapter*.3}
-\contentsline {chapter}{\numberline {1}Atomes de Rydberg alcalins en interaction}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Th\IeC {\'e}orie g\IeC {\'e}n\IeC {\'e}rale des Rydberg}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Hamiltonien de l'atome de Rydberg et d\IeC {\'e}faut quantique}{3}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Niveaux \IeC {\`a} bas $l$}{3}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Niveaux circulaires}{3}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Atomes de Rydberg en interaction}{3}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Deux atomes de Rydberg}{3}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}les interactions entre Rydberg de bas $l$}{4}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}les interactions entre Rydberg circulaires}{4}{subsection.1.2.3}
-\contentsline {chapter}{\numberline {2}Des atomes de Rydberg froids en environnement cryog\IeC {\'e}nique}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Les atomes froids}{5}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}le cryostat et la puce}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}s\IeC {\'e}quence de pi\IeC {\'e}geage et refroidissement}{5}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}imagerie atomique}{5}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}nuages typiques}{6}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Excitation et d\IeC {\'e}tection d'atomes de Rydberg pr\IeC {\`e}s d'une puce}{6}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}sch\IeC {\'e}ma d'excitation}{6}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}sch\IeC {\'e}ma de d\IeC {\'e}tection}{6}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}probl\IeC {\`e}me des champs \IeC {\'e}lectriques et flash de Rb}{6}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}compensation et contr\IeC {\^o}le des champs}{6}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}manipulation et observation des Rydbergs}{6}{subsection.2.2.5}
-\contentsline {chapter}{\numberline {3}Interaction entre atomes de Rydberg sph\IeC {\'e}riques et excitation de gaz dense}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}R\IeC {\'e}gimes d'excitation en nuage dense : blocage et facilitation}{9}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Rappels sur l'interaction}{9}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}mouvement des atomes au sein d'un gaz dense de Rydberg}{9}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Le blocage dipolaire et la facilitation}{9}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Spectroscopie optique du nuage}{9}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Description de la manip}{9}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Donn\IeC {\'e}es : \IeC {\'e}largissement de la raie laser par interactions}{9}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Mod\IeC {\`e}le de la dynamique d'excitation}{10}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Simulations}{10}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Les limites du mod\IeC {\`e}le}{10}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Spectroscopie microonde du nuage : voir le mouvement}{10}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Description de la manip}{10}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Donn\IeC {\'e}es et accord avec les simulations}{10}{subsection.3.4.2}
-\contentsline {chapter}{\numberline {4}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{11}{chapter.4}
-\contentsline {chapter}{\numberline {5}Des atomes de Rydberg circulaires sur puce}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Comment exciter des atomes de Rydberg circulaires}{13}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Les niveaux atomiques du fondamental au Rydberg circulaire}{13}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Spectroscopie 5s-50d}{13}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Spectroscopie 50d-50f}{13}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Comment caract\IeC {\'e}riser les atomes de Rydberg circulaires}{13}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Spectroscopie microonde vers les niveaux voisins}{13}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Temps de vie}{13}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Temps de coh\IeC {\'e}rence}{13}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}\IeC {\'E}jectable : Premi\IeC {\`e}re \IeC {\'e}vidence du pi\IeC {\'e}geage des atomes circulaires}{14}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Dispositif laser de pi\IeC {\'e}geage}{14}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{14}{subsection.5.3.2}
-\contentsline {chapter}{Conclusion}{15}{chapter*.7}
+\contentsline {chapter}{Liste des tableaux}{vii}{chapter*.3}
+\contentsline {chapter}{Introduction}{1}{chapter*.4}
+\contentsline {chapter}{\numberline {I}Atomes de Rydberg alcalins en interaction}{3}{chapter.1}
+\contentsline {section}{\numberline {I.1}Th\IeC {\'e}orie g\IeC {\'e}n\IeC {\'e}rale des Rydberg}{4}{section.1.1}
+\contentsline {subsection}{\numberline {I.1.1}Hamiltonien de l'atome de Rydberg et d\IeC {\'e}faut quantique}{5}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {I.1.2}Partie radiale de la fonction d'onde et calcul du dip\IeC {\^o}le de transition}{6}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {I.1.3}Temps de vie des niveaux de Rydberg}{7}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {I.1.4}Deux exemples : les niveaux 60S et 50C}{8}{subsection.1.1.4}
+\contentsline {section}{\numberline {I.2}Atomes de Rydberg en interaction}{11}{section.1.2}
+\contentsline {subsection}{\numberline {I.2.1}Deux atomes de Rydberg}{11}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {I.2.2}les interactions entre Rydberg de bas $l$}{11}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {I.2.3}les interactions entre Rydberg circulaires}{11}{subsection.1.2.3}
+\contentsline {chapter}{\numberline {II}Des atomes de Rydberg froids en environnement cryog\IeC {\'e}nique}{13}{chapter.2}
+\contentsline {section}{\numberline {II.1}Les atomes froids}{13}{section.2.1}
+\contentsline {subsection}{\numberline {II.1.1}le cryostat et la puce}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {II.1.2}s\IeC {\'e}quence de pi\IeC {\'e}geage et refroidissement}{13}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {II.1.3}imagerie atomique}{13}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {II.1.4}nuages typiques}{14}{subsection.2.1.4}
+\contentsline {section}{\numberline {II.2}Excitation et d\IeC {\'e}tection d'atomes de Rydberg pr\IeC {\`e}s d'une puce}{14}{section.2.2}
+\contentsline {subsection}{\numberline {II.2.1}sch\IeC {\'e}ma d'excitation}{14}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {II.2.2}sch\IeC {\'e}ma de d\IeC {\'e}tection}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {II.2.3}probl\IeC {\`e}me des champs \IeC {\'e}lectriques et flash de Rb}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {II.2.4}compensation et contr\IeC {\^o}le des champs}{14}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {II.2.5}manipulation et observation des Rydbergs}{14}{subsection.2.2.5}
+\contentsline {chapter}{\numberline {III}Interaction entre atomes de Rydberg sph\IeC {\'e}riques et excitation de gaz dense}{17}{chapter.3}
+\contentsline {section}{\numberline {III.1}R\IeC {\'e}gimes d'excitation en nuage dense : blocage et facilitation}{17}{section.3.1}
+\contentsline {subsection}{\numberline {III.1.1}Rappels sur l'interaction}{17}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {III.1.2}mouvement des atomes au sein d'un gaz dense de Rydberg}{17}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {III.1.3}Le blocage dipolaire et la facilitation}{17}{subsection.3.1.3}
+\contentsline {section}{\numberline {III.2}Spectroscopie optique du nuage}{17}{section.3.2}
+\contentsline {subsection}{\numberline {III.2.1}Description de la manip}{17}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {III.2.2}Donn\IeC {\'e}es : \IeC {\'e}largissement de la raie laser par interactions}{17}{subsection.3.2.2}
+\contentsline {section}{\numberline {III.3}Mod\IeC {\`e}le de la dynamique d'excitation}{18}{section.3.3}
+\contentsline {subsection}{\numberline {III.3.1}Simulations}{18}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {III.3.2}Les limites du mod\IeC {\`e}le}{18}{subsection.3.3.2}
+\contentsline {section}{\numberline {III.4}Spectroscopie microonde du nuage : voir le mouvement}{18}{section.3.4}
+\contentsline {subsection}{\numberline {III.4.1}Description de la manip}{18}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {III.4.2}Donn\IeC {\'e}es et accord avec les simulations}{18}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{19}{chapter.4}
+\contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{21}{chapter.5}
+\contentsline {section}{\numberline {V.1}Comment exciter des atomes de Rydberg circulaires}{21}{section.5.1}
+\contentsline {subsection}{\numberline {V.1.1}Les niveaux atomiques du fondamental au Rydberg circulaire}{21}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {V.1.2}Spectroscopie 5s-50d}{21}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {V.1.3}Spectroscopie 50d-50f}{21}{subsection.5.1.3}
+\contentsline {section}{\numberline {V.2}Comment caract\IeC {\'e}riser les atomes de Rydberg circulaires}{21}{section.5.2}
+\contentsline {subsection}{\numberline {V.2.1}Spectroscopie microonde vers les niveaux voisins}{21}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {V.2.2}Temps de vie}{21}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {V.2.3}Temps de coh\IeC {\'e}rence}{21}{subsection.5.2.3}
+\contentsline {section}{\numberline {V.3}\IeC {\'E}jectable : Premi\IeC {\`e}re \IeC {\'e}vidence du pi\IeC {\'e}geage des atomes circulaires}{22}{section.5.3}
+\contentsline {subsection}{\numberline {V.3.1}Dispositif laser de pi\IeC {\'e}geage}{22}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {V.3.2}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{22}{subsection.5.3.2}
+\contentsline {chapter}{Conclusion}{23}{chapter*.15}

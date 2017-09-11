@@ -9,6 +9,7 @@
 %\title{Atomes de Rydberg piégés}
 
 \usepackage[utf8]{inputenc}
+\usepackage{textcomp}
 \usepackage[T1]{fontenc}
 \usepackage[includeheadfoot, width=144mm,top=23mm,bottom=20mm,bindingoffset=4mm]{geometry}
 \renewcommand{\topfraction}{0.5}     % autorise 1/2 page de graphique en haut
@@ -62,12 +63,13 @@
 \usepackage{afterpage}
 \usepackage{braket}
 %\usepackage{physics}
-%\usepackage[backend=biber,style=phys,%
-%articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
-%]{biblatex}
-%\DeclareFieldFormat{titlecase}{{#1}}
+
+\usepackage[backend=biber,style=phys,%
+articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
+]{biblatex}
+\DeclareFieldFormat{titlecase}{{#1}}
 \usepackage{chngcntr}
-%\addbibresource{7_bib.bib}
+\addbibresource{tcm_these.bib}
 %\usepackage{fontspec}
 \linespread{1.05}
 %\usepackage{unicode-math}
@@ -87,6 +89,7 @@
 \input{coverdata}
 %%%%%%%%%%%%%%%%%%%%%%%%%------------
 \begin{document}
+\newcommand{\numv}[1]{\num[output-decimal-marker={,}]{#1}~}
 \newcommand{\citefr}[1]{\cite{#1}}
 \renewcommand{\vec}[1]{\mathbf{#1}}
 \newcommand{\dip}{d}
@@ -99,13 +102,17 @@
 \newcommand{\eff}{\textnormal{eff }}
 \newcommand{\Id}{\mathbb{I}}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand \thechapter{\Roman{chapter}}
+\newcommand{\kb}{\mathrm{k_B}}
+
+
 \frontmatter
 \pagenumbering{roman}
 \thispagestyle{empty}
 %\topskip0pt
 \vspace*{0.2\textheight}
 \begin{center}
-\emph{To science}
+\emph{To ???}
 \end{center}
 \vspace*{\fill}\clearpage
 \makeatletter
@@ -117,6 +124,7 @@
 \tableofcontents
 \thispagestyle{fancyplain}
 \listoffigures
+\listoftables
 \thispagestyle{fancyplain}
 %%\pagebreak
 \mainmatter
@@ -129,7 +137,308 @@
 
 %\chapter{Atomes de Rydberg : à bas $l$ ou circulaires}
 %\label{part:Rydberg}
-\include{Rydbergs}
+
+
+%-------------------------------------------------
+%\include{Rydbergs}
+\chapter{Atomes de Rydberg alcalins en interaction}
+\label{chapter:Rydberg}
+%Atomes de Rydberg : à bas $l$ ou circulaires
+
+Un atome de Rydberg est un atome dont un électron au moins occupe un état de grand nombre quantique principal $n$.
+Par là, un atome de Rydberg présente des grandeurs et propriétés physiques surdimensionnées par rapport à un atome non excité ou peu excité.
+On le remarque tout d'abord sur leur taille : un atome de rubidium dans le niveau $n=110$ a une extension spatiale de l'ordre d'$1 ~\si{\micro\meter}$, presque un million de fois plus grand que le rayon de Bohr qui représente l'ordre de grandeur caractéristique de la taille d'un atome dans son état fondamental.
+
+Avec un électron à une telle distance du c\oe ur atomique, les atomes de Rydberg présentent de très grands moments dipolaires de transition entre états de Rydberg voisins. On comprend alors aisément leur très grande sensibilité au rayonnement électromagnétique \cite{ENS_ENHANCED}.
+Ces très grands moments dipolaires de transition engendrent également de très forts couplages entre atomes de Rydberg voisins par l'intermédiaire de l'interaction dipolaire, couplages qui sont eux aussi plusieurs ordres de grandeur plus importants que ceux qui se manifestent entre des atomes dans le niveau fondamental.
+Cette interaction dipolaire entre atomes de Rydberg est au c\oe ur des travaux de recherches présents dans cette thèse et ce premier chapitre vise à en présenter les éléments théoriques importants pour la compréhension des résultats et discussions qui y seront abordés.
+
+La première partie de ce chapitre décrit la théorie du défaut quantique \cite{TXT_GALLAGHER}, qui permet de calculer les énergies propres des états de Rydberg et leur fonction d'onde radiale loin du c\oe ur atomique positif.
+Il est alors aisé de calculer l'opérateur de dipôle électrique entre deux niveaux de Rydberg.
+Connaître les dipôles de transition entre un niveau de Rydberg et les niveaux voisins est essentiel au calcul des interactions dipolaires entre deux atomes de Rydberg, ce que nous aborderons dans une deuxième partie.
+Enfin, nous verrons le détail de cette interaction dans deux cas particuliers  : les atomes de Rydberg en interaction autour du niveau $60$S et les atomes de Rydberg en interaction autour du niveau circulaire $50$C.
+Ces deux cas particuliers seront à nouveau discutés plus en détail dans des chapitres dédiés aux expérience que nous avons menées.
+
+\section{Théorie générale des Rydberg}
+Un atome de Rydberg alcalin a uns eul électron dans un niveau de grand nombre quantique principal $n$. L'essentiel de la fonction d'onde de cet électron est localisé dans des régions atomiques éloignées du c\oe ur, c'est-à-dire de l'ensemble du noyau atomique et des couches électroniques inférieures.
+Pour cette raison, il ressemble à un atome d'hydrogène, dont l'unique électron voit un c\oe ur protonique simple de charge totale $+q=\numv{1.602176565(35)d-19}\si{\coulomb}$ \cite{MX_CODATA14}.
+Dans le cas de l'hydrogène, ce c\oe ur est plusieurs ordres de grandeurs plus petit que la taille typique de son orbite : le niveau électronique fondamental $1$S a un \og rayon \fg{} caractéristique $a_0 = \numv{0,52917721092(17)}\si{\angstrom}$ \cite{MX_CODATA14}, alors que le proton a un rayon $r_p = \numv{0.8775(51)}\si{\femto\meter}$ \cite{MX_CODATA14}.
+
+Les cinq ordres de grandeur séparant le rayon de l'orbite électronique et le rayon du proton permettent de considérer que le potentiel vu par l'électron est parfaitement coulombien sur tout l'espace.
+Les énergies propres de l'atome d'hydrogène sont alors données par
+\begin{equation}\label{eq:Hatom}
+E(n,l,j)= - \frac{E_I}{n^2}
+\end{equation}
+
+avec
+\begin{equation}\label{eq:E_I}
+E_I = \frac{1}{1+\frac{m_e}{M}}\frac{m_e q^4}{32\pi^2 \epsilon _0^2 \hbar ^2}
+\end{equation}
+l'énergie d'ionisation pour l'électron dans le niveau $1$S de l'atome d'hydrogène, où $M$ est la masse du c\oe ur atomique (masse d'un proton pour l'atome d'hydrogène, masse atomique $m_{Rb87}$ pour l'atome de $^{87}Rb$ dans un état de Rydberg), $n$ le nombre quantique principal, $m_e$ la masse de l'électron, $\epsilon_0$ la permittivité diélectrique du vide, et $\hbar$ la constante de Planck réduite, c'est-à-dire divisée par $2\pi$.
+
+Les états propres de ce modèle s'écrivent en coordonnées sphériques comme le produit d'une partie radiale, fonction de $r$ qui est la distance de l'électron au c\oe ur atomique, par partie angulaire, fonction des coordonnées angulaires $\theta$ et $\phi$, \cite{TXT_COHEN1FR}
+\begin{equation}\label{eq:Hfonctonde}
+\psi(r,\theta,\phi) = R_{nl}(r)\cdot Y_l^{m_l}(\theta,\phi)
+\end{equation}
+Ici, $l$ est le nombre quantique azimutal et $m_l$ le nombre quantique associé à la projection du moment angulaire orbital de l'électron sur la direction de quantification.
+Cette première description ne prend pas en compte les corrections aux énergies dues au couplage entre le moment magnétique intrinsèque de l'électron, son spin, et son moment magnétique orbital, ce que l'on dénomme couplage fin.
+Elle néglige tout autant le couplage entre le moment magnétique total de l'électron et le moment magnétique du c\oe ur atomique, le couplage hyper-fin \cite{TXT_COHEN2FR}.
+
+En présence de couplage fin, les bons nombres quantiques deviennent $n,l,j,m_j$, avec $j=l+s$ où $s=1/2$ est le moment magnétique de spin de l'électron. Le couplage hyperfin étant très petit pour les niveaux de Rydberg, nous en ferons fi et continuerons d'utiliser la base avec moment cinétique total de l'électron $j$.
+
+En comparaison avec l'atome d'hydrogène, le c\oe ur positif de l'atome de Rydberg alcalin comporte une structure d'extension spatiale bien plus importante \cite{TXT_GALLAGHER}.
+Dans la région des couches électroniques inférieures, le potentiel est bien plus profond que le potentiel coulombien car l'effet d'écrantage partiel de la charge totale positive du c\oe ur par les électrons internes disparaît lorsque l'on s'en approche : c'est l'effet de pénétration du c\oe ur.
+Ensuite, la distribution spatiale des charges positives et négatives entraîne une polarisabilité du c\oe ur composé.
+L'électron de Rydberg interagit avec cette distribution de charge complexe, ce qui modifie sa fonction d'onde et son énergie propre.
+Afin de rendre compte de ces effets, il est nécessaire d'apporter une correction aux énergies propres de l'électron de Rydberg d'un atome alcalin : le défaut quantique.
+
+	\subsection{Hamiltonien de l'atome de Rydberg et défaut quantique}
+Les deux effets précédemment cités de pénétration du c\oe ur et de polarisabilité du c\oe ur peuvent être efficacement décrits par la théorie du défaut quantique. Celui-ci apparaît comme une correction $\delta_{nlj}$ au nombre quantique principal $n$ dans l'équation des énergies propres des niveaux électroniques \cite{TXT_GALLAGHER}, qui devient :
+\begin{equation}\label{eq:E_I_delta}
+E(n,l,j) = \frac{E_I}{(n-\delta_{nlj})^2}
+\end{equation}
+avec 
+\begin{equation}\label{eq:deltanlj}
+\delta(n,l,j)=\delta_{lj,0} + \frac{\delta_{lj,2}}{(n-\delta_{lj0})^2} + \frac{\delta_{lj,4}}{(n-\delta_{lj0})^4} + \frac{\delta_{lj,6}}{(n-\delta_{lj0})^6} + \cdots
+\end{equation}
+
+\begin{table}[tph!]
+	\centering
+	\caption[Table des défauts quantiques du $^{87}Rb$ et $^{85}Rb$]{Défauts quantiques  du \Rb{85} extraits de \cite{MX_GALLAGHERSPECRBNSND03, MX_GALLAGHERSPECRBNF06} et du \Rb{87} extraits de \cite{MX_MACKNSNDRYD}}
+	\label{tab:q_defect}
+	\begin{tabular}{ c S[table-format=1.12]S[table-format=2.8]  S[table-format=1.10]S[table-format=2.6]}
+		\toprule\midrule
+		 &  \multicolumn{2}{c}{\Rb{85}}	&   \multicolumn{2}{c}{\Rb{87}}  \\ 
+		 \midrule
+				  &		$\delta_{lj,0}$				&	$\delta_{lj,2}$		&	$\delta_{lj,0}$			&	$\delta_{lj,2}$ \\ 
+		\midrule
+		$nS_{1/2}$&  	3.1311804(10)		&	0.1784(6) 	& 3.1311807(8)	& 0.1787(2)	\\
+		$nP_{1/2}$&  	2.6548849(10)		&	0.2900(6)	&						&				\\
+		$nP_{3/2}$&  	2.6416737(10)		&	0.2950(7)	&						&				\\
+		$nD_{3/2}$&  	1.34809171(40)	&	-0.60286(26)&1.3480918(11)	&	-0.6054(4)	\\
+		$nD_{5/2}$&  	1.34646572(30)	&	-0.59600(18)&1.3464622(11)	&-0.5940(4)		\\
+		$nF_{5/2}$&  	0.0165192(9)		&	-0.085(9)	&						&				\\
+		$nF_{7/2}$&  	0.0165437(7)		&	-0.086(7)	&						&				\\
+%		$nG$	&0.00400(9)	&&&\\
+%		$n,l>4$ & {$0.004(4/l)^5$}&&&\\
+		\midrule
+		\bottomrule
+ 	\end{tabular}
+\end{table}
+
+La série \eqref{eq:deltanlj} développe le défaut quantique en puissance de $1/(n-\delta_{lj,0}) = 1/n^*$ : $n^*$ est le nombre quantique principal corrigé du défaut quantique.
+Ses coefficients, présentés en table \eqref{tab:q_defect}, sont extraits des mesures précises des fréquences de transition entre niveaux de Rydberg voisins \cite{ENS_SPECNA2,ENS_SPECCS,MX_MECHEDERYDSPECTRO87} et la série sous cette forme converge rapidement \cite{MX_MARTINSERIESSPECNA} :
+pour les niveaux de $n>40$ les deux premiers termes suffisent à obtenir une précision meilleure que le $\si{\kilo\hertz}$ sur une large gamme de valeur de $n$.
+Les coefficients de la série sont fonction de $l$ et $j$, ainsi que de l'espèce atomique.
+Nous n'avons pas connaissance de défauts quantiques mesurés pour le \Rb{87} autres que ceux présentés ici, mais l'utilisation de ceux du \Rb{85} fournit de bons résultats grâce à la grande similarité des structures électroniques de ces deux isotopes.
+En ce qui concerne les niveaux de $l>3$, leurs défauts quantiques sont petits et n'ont pas été mesurés lors des expériences ici reportées : ils seront donc négligés par la suite.
+Avec les valeurs connues des défauts quantiques, nous obtenons des fréquences de transition entre niveaux de Rydberg voisins avec une précision meilleure que $\sim 50\si{\kilo\hertz}$.
+
+		
+		
+	\subsection{Partie radiale de la fonction d'onde et calcul du dipôle de transition}
+	Ayant ces outils à notre disposition, nous pouvons désormais nous employer à calculer les éléments de matrice de l'opérateur de transition dipolaire $\vec{d}=q\vec{r}$ entre niveaux de Rydberg, qui apparaît de façon essentielle dans les termes de couplage des atomes avec le rayonnement électromagnétique et dans le couplage dipolaire entre deux niveaux de Rydberg $\ket{n,l,j,m_j}$ et $\ket{n',l',j',m_j'}$. Ces éléments de matrice s'écrivent :
+
+	\begin{equation}\label{eq:matrixelements}
+	\begin{aligned}
+	\bra{nl,l,j,m_j}q\vec{r}\ket{n',l',j',m_j'}= & ~q\bra{n,l,j,m_j} r\frac{\vec{r}}{r} \ket{n',l',j',m_j'} \\
+	= & ~q\cdot \int r^2dr~R^*_{nl}(r)~r~R_{n',l'}(r)~ \bra{l,j,m_j}\vec{r}\ket{l',j',m_j'} \\
+	= & ~q.\mathcal{R}.\mathcal{A}	
+	\end{aligned}
+	\end{equation}
+	
+\noindent c'est-à-dire comme produit d'une partie radiale $\mathcal{R}$ et d'une partie angulaire $\mathcal{A}$.
+Or la partie radiale $R_{n,l}(r)$ de la fonction d'onde est affectée par l'effet de pénétration du c\oe ur décrit en plus haut et doit donc être corrigée \cite{TXT_GALLAGHER}.
+Le calcul de $\mathcal{R}$ peut être fait numériquement par une méthode dite de Numerov \cite[pp.10-24]{TXT_GALLAGHER}.
+Cette méthode s'appuie sur le fait que le potentiel à l'extérieur du c\oe ur atomique reste coulombien et que donc la fonction d'onde peut y être calculée à partir de la même équation pour le terme radial, avec les mêmes conditions aux limites à $r \rightarrow \infty$, mais avec une énergie totale différente, fonction des défauts quantiques.
+
+\begin{figure}[hb!]
+	\centering
+	\includegraphics[width=0.6\linewidth]{figures/WaveFunc_60S}
+	\caption[Fonction d'onde du niveau 60S]{Probabilité de présence de l'électron dans le niveau $60$S.}
+	\label{fig:wavefunc60S}
+\end{figure}
+
+La figure \eqref{fig:wavefunc60S} montre la probabilité de présence de l'électron de Rydberg dans le niveau $60$S du \Rb{87}, qui vaut  $r^2R_{60S_{1/2}}(r)$.
+Cela montre que la fonction d'onde se situe essentiellement loin du c\oe ur atomique et justifie donc la validité de la méthode de Numerov.
+
+\`A partir du calcul de $R_{nl}(r)$, l'on peut aisément dériver la partie radiale de l'opérateur dipôle $\vec{d}$.
+L'on apprend en particulier que la partie radial de $\vec{d}$ entre deux niveaux de nombre quantique principal similaire varie comme $\mathcal{R} \sim a_0\cdot n^{*2}$.
+Mentionnons ici que le rayon moyen de l'orbitale électronique d'un niveau de Rydberg est un cas particulier du calcul de la partie radiale de l'opérateur dipôle :
+\begin{equation}\label{eq:orbital_size}
+\braket{r_{\ket{n,l,j,m_j}}} = \int r^2dr~R_{nl}(r).r.R_{nl}(r)
+\end{equation}
+%\`A titre d'exemple, le niveau $60$S a ainsi un rayon moyen de $\braket{r} = 4850~a_0 = \numv{256.5}~\si{\nano\meter}$.
+
+	\subsection{Temps de vie des niveaux de Rydberg}
+Avec la connaissance des dipôles de transition d'un niveau de Rydberg vers les niveaux voisins, 	il est possible de connaître le temps de vie de celui-ci.
+Deux processus entrent en jeu dans la désexcitation radiative à température finie de ces niveaux atomiques :
+les transitions par émission spontanée mais aussi les transitions par émission stimulée par le rayonnement de corps noir de leur environnement.
+En effet, les transitions entre niveaux de Rydberg proches en énergie sont dans le domaines des micro-ondes millimétriques.
+
+%Or les températures de rayonnement du corps noir associées à ces gammes de fréquence se situent dans la gamme de quelques \si{\milli\kelvin} à quelques \si{\kelvin}.
+\`A température nulle, le temps de vie d'un niveau excité est calculé uniquement à partir des coefficients d'Einstein pour l'émission spontanée \cite{MX_GALLAGHERBBODY}. Un électron dans un niveau excité est couplé aux niveaux de plus basse énergie par les modes électromagnétiques du vide et le taux de désexcitation d'un niveau initial $\ket{i}$ vers un niveau final $\ket{f}$ séparés d'une énergie $E_f - E_i = -\hbar \omega_{if} < 0$ est donné par :
+\begin{equation}\label{eq:EinsteinAif}
+A_{if} = \frac{2}{3}q^2\frac{\omega_{if}^3}{\epsilon_0c^3h}\cdot |\bra{i}r\ket{f}|^2
+\end{equation}
+Ce coefficient est le produit de la densité de modes du rayonnement électromagnétique autour de la fréquence résonante $\nu_{if}=\omega_{if}/2\pi$ et du moment dipolaire de transition entre les niveaux $\ket{i}$ et $\ket{f}$ couplés par ce rayonnement.
+Le temps de vie de l'état excité est alors calculé en sommant les taux d'émission spontanée vers chacun des niveaux auxquels il est couplé par l'interaction dipolaire.
+Les transitions dipolaires par émission d'un photon respectant la règle de sélection $\Delta_l = \pm1$, la quantité de termes à considérer s'en trouve heureusement limitée.
+
+\`A température finie cependant, l'émission stimulée vers les niveaux voisins entre en jeu.
+Le coefficient d'Einstein pour l'émission stiumlée s'écrit ici :
+\begin{equation}\label{eq:EinsteinBif}
+B_{if} = A_{if} \bar{n}(\omega_{if})
+\end{equation}
+Il s'agit alors de connaître, pour une température donnée, le taux d'occupation du rayonnement électromagnétique aux fréquences des transitions entre niveaux de Rydberg.
+Ce taux nous est donné par la distribution de Bose-Einstein pour un gaz de bosons \cite{TXT_GORECKIPHYSTAT} :
+\begin{equation}\label{eq:BoseStat}
+\bar{n}(\omega) = \frac{1}{e^{\frac{\hbar\omega}{\kb T}}-1}
+\end{equation}
+qui devient, lorsque $\kb T \gg \hbar\omega$,
+\begin{equation}\label{eq:BoseStat_blackbody}
+\bar{n}(\omega) \sim \frac{\kb T}{\hbar\omega}
+\end{equation}
+Le nombre de photons par mode varie alors linéairement avec la température et ces photons stimulent des transitions vers des niveaux de Rydberg proches, diminuant ainsi le temps de vie du niveau de départ.
+
+
+	\subsection{Deux exemples : les niveaux 60S et 50C}
+Afin d'illustrer les propriétés singulières des niveaux de Rydberg, prenons deux exemples qui nous serons utiles par la suite : le niveau de Rydberg 60S, qui a donc un moment cinétique orbital $l=0$, et le niveau de Rydberg circulaire 50C qui a un moment cinétique orbital $l=49$ maximal, ainsi qu'une projection maximale $m_l=l=49$ de ce moment cinétique.
+Pour ces deux niveaux, nous nous intéresserons à leur taille, à leurs dipôles de transition avec les niveaux voisins, et à leur temps de vie.
+
+\subsubsection*{Le niveau de Rydberg 60S : $\mathbf{\ket{n=60,l=0}}$}
+Grâce à l'équation \eqref{eq:orbital_size}, nous pouvons obtenir la taille de l'orbitale électronique dans le niveau 60S : son rayon moyen vaut $\braket{r} = 4850~a_0 = \numv{256.5}~\si{\nano\meter}$, valeur qui paraît très grande en comparaison avec l'extension spatiale d'un atome dans le niveau fondamental qui est de l'ordre de quelques $a_0$.
+De même, la fréquence de la transition entre le niveau $\ket{60\mathrm{S}1/2}$ et le niveau $\ket{59\mathrm{P}3/2}$ vaut par exemple $E/h = \numv{18.5213}\si{\giga\hertz}$, très faible par rapport aux fréquences laser des transitions entre les niveaux faiblement excités.
+%De même, la fréquence de la transition $\ket{50\mathrm{C}}=\ket{n=50,l=49,m_l=49} \rightarrow \ket{49\mathrm{C}}$ vaut $E/h = \numv{54.25955}\si{\giga\hertz}$.
+
+
+De par la règle de sélection $\Delta_l=\pm1$, les termes à considérer pour les transitions dipolaires depuis le niveaux $\ket{n=60,l=0}$ sont les couplages avec les niveaux $n\mathrm{P}_j = \ket{n,l=1,j},~j\in\{1/2,3/2\}$.
+La figure \eqref{fig:matrixelements} montre, pour tous les $n$, la somme des coefficients d'Einstein d'émission spontanée et d'émission stimulée à différentes températures vers les niveaux $n\mathrm{P}_j$.
+
+\begin{figure}[th!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/lifetime}
+	\caption[Coefficients d'Einstein de 60S vers $n\mathrm{P}_j,j\in{1/2,3/2}$]{
+	Coefficients d'Einstein pour l'émission spontanée (A) et pour l'émission stimulée par le rayonnement du corps noir(B), depuis le niveau 60S vers les niveaux $n\mathrm{P}_j$.
+	Pour chaque $n$, nous montrons la somme des coefficients vers $n\mathrm{P}_{j=1/2}$ et $n\mathrm{P}_{j=3/2}$.
+	%L'émission stimulée par le rayonnement du corps noir à $300\si{\kelvin}$ contribue presque autant à la réduction de la durée de vie du niveau 60S que l'émission spontanée vers les niveaux de faible $n$.
+	%\textit{A contrario}, le rayonnement du corps noir à $\numv{4.2}\si{\kelvin}$ a un effet bien moindre.
+	L'insert montre à une échelle plus adaptée la contribution du rayonnement du corps noir à $\numv{4.2}\si{\kelvin}$.
+	%Figure inspirée de \cite{MX_PFAURYDBERGTUTO12}.
+	}
+	\label{fig:matrixelements}
+\end{figure}
+
+Il est clair d'après la figure \eqref{fig:matrixelements} que le rayonnement du corps noir à $\numv{4.2}\si{\kelvin}$ contribue peu à une réduction de la durée de vie du niveau 60S par rapport à l'émission spontanée vers les niveaux de bas $n$, alors que le rayonnement du corps noir à $300 K$ aura un effet considérable.
+
+\begin{table}[h!]
+	\centering
+	\caption{Temps de vie du niveau 60S à température finie.}
+	\label{tab:q_defect}
+	\begin{tabular}{c|c c c}
+		\toprule\midrule
+		\multicolumn{1}{c}{  }
+		&\multicolumn{1}{c}{\text{temps de vie à }0\si{\kelvin}}
+		&\multicolumn{1}{c}{\text{temps de vie à }\numv{4.2}\si{\kelvin}}
+		&\multicolumn{1}{c}{\text{temps de vie à }300\si{\kelvin}}
+		\\ 
+		\midrule
+		$60\mathrm{S}_{1/2}$
+		&$\numv{244.5}\si{\micro\second}$
+		&$\numv{239.8}\si{\micro\second}$
+		&$\numv{99.4}\si{\micro\second}$\\
+		\midrule
+		\bottomrule
+ 	\end{tabular}
+\end{table}
+
+\newpage		
+\subsubsection*{Le niveau de Rydberg 50C : $\mathbf{\ket{n=50,l=49,m_l=49}}$}
+	
+	Le cas des niveaux circulaires est assez différent. En effet, ceux-ci sont définis par leur moment cinétique orbital maximal $l=n-1$, ainsi que par la projection de ce moment cinétique sur l'axe de quantification, elle aussi maximale : $m_l = \pm l = \pm (n-1)$.
+	Cela amène à une orbitale électronique qui se réduit à un tore, éloigné du c\oe ur atomique et contenu dans le plan perpendiculaire à l'axe de quantification du moment cinétique. La figure \eqref{fig:wavefunc60C} montre la probabilité de présence de l'électron dans le niveau de Rydberg 60C.
+	
+\begin{figure}[hb!]
+	\centering
+	\includegraphics[width=0.6\linewidth]{figures/WaveFunc_60C}
+	\caption[Fonction d'onde du niveau 60C]{Probabilité de présence de l'électron dans le niveau $60$C.}
+	\label{fig:wavefunc60C}
+\end{figure}
+
+\noindent L'on se rend compte ainsi que l'extension spatiale d'un niveau de Rydberg circulaire sera encore bien plus grande que celle d'un niveau de Rydberg à bas $l$ tel que le 60S que nous venons de traiter.
+En effet, la méthode de Numerov nous permet de calculer la taille de l'orbitale électronique du niveau 50C, dont le rayon moyen vaut :
+	$\braket{r} = ??~a_0 = ??~\si{\nano\meter}$.
+%Ici, la transition entre le niveau $50C$ et le niveau $49C=\ket{n=49,l=48,m_l=48}$ vaut $E/h = \numv{54.25955}\si{\giga\hertz}$.
+
+Une différence essentielle avec les niveaux de faible $l$, est que les niveaux circulaires n'ont de transition dipolaire possible que vers des niveaux eux aussi à très grand $l$.
+Il n'y a d'ailleurs qu'une seule transition spontanée possible depuis le niveau $\ket{n,l=n-1,m_l=l}$, c'est celle vers le niveau $\ket{n'=n-1,l'=n'-1,m_l'=l'}$.
+Le niveau 50C ne peut donc se désexciter spontanément que vers le niveau 49C, ce qui réduit considérablement la contribution de l'émission spontanée à son taux de désexcitation radiative.
+La limitation de la durée de vie du niveau 50C provient donc en premier lieu de l'émission stimulée par le rayonnement du corps noir vers les niveaux accessibles par transition dipolaire, et est donc fortement dépendante de la température, même lorsque celle-ci est très faible.
+
+\bigskip
+
+\noindent CALCULER :\\
+-Numerov rayon moyen du 50C\\
+-temps de vie à 0K du 50C\\
+-elements de matrice vers les voisins pour plotter une figure type I.2 ?
+
+\noindent INCLURE :\\
+-plot temps de vie vs T (cf Mathematica Clement)
+
+\noindent REMPLACER :\\
+- figure I.3 par la même pour le 50C au lieu du 60C
+
+\newpage
+\section{Atomes de Rydberg en interaction}
+	\subsection{Deux atomes de Rydberg}
+		\noindent hamiltonien d'interaction entre deux dipôles
+		\[
+		V_{dd} = \frac{1}{4\pi\epsilon_0 r^3} \left( \mathbf{d_1}\cdot \mathbf{d_2} - 3(\mathbf{d_1}\cdot \frac{\mathbf{r}}{r})(\mathbf{d_2}\cdot\frac{\mathbf{r}}{r}) \right)
+		\]
+		\noindent de l'interaction dipole-dipole générale au terme de Van der Waals en $1/r^6$ \\
+		\noindent terme d'énergie et terme d'échange
+	\subsection{les interactions entre Rydberg de bas $l$}
+		\noindent origine du $C_6$ pour 60s-60s et $C_6/A_6$ avec les voisins\\
+		reprendre Raul.figI.3 qui présente la partie radiale du dipôle 60s-ns en fonction de n\\
+		\noindent principe du blocage dipolaire et facilitation (rapide)
+	\subsection{les interactions entre Rydberg circulaires}
+		\noindent $C_6$ pour 50c-50c et $C_6/A_6$ avec les voisins \\
+		\noindent attention à l'anisotropie\\
+		équivalent de la figure ci dessus (Raul.figI.3) pour les 50c, à modifier pour l'anisotropie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%--------------------------------------------------
+
 
 %\chapter{Dispositif expérimental : une puce atomique pour des atomes de Rydberg}
 %\label{chapter:setup}
@@ -167,9 +476,11 @@
 \part*{Annexes}
 \appendix
 \renewcommand{\chaptermark}[1]{\markboth{\appendixname\ \thechapter: #1}{}}
+
+\renewcommand{\bibname}{References}
+\printbibliography
+
 \include{}%6_appendix}
 \backmatter
 \include{}%0_intro_fr}
-\renewcommand{\bibname}{References}
-%    \printbibliography 
 \end{document}

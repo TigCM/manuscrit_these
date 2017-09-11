@@ -1,0 +1,402 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{none}
+    \entry{ENS_ENHANCED}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=8f03a8ce1cae7b4c647e61d7753ec22d}{Goy}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=ecf83c99ef0071022d3a7c7403070541}{Raimond}{R\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=2e2bcd50a640d1e95845a461ed1d5bce}{Gross}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=8f03a8ce1cae7b4c647e61d7753ec22d}{Goy}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=ecf83c99ef0071022d3a7c7403070541}{Raimond}{R\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=2e2bcd50a640d1e95845a461ed1d5bce}{Gross}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9b04e5676317a1db3604239166c0440a}
+      \strng{fullhash}{2c0822ea2115b3c5849ab4d34a757cfb}
+      \field{sortinit}{0}
+      \field{labeltitle}{Observation of Cavity-Enhanced Single Atom Spontaneous Emission}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Observation of Cavity-Enhanced Single Atom Spontaneous Emission}
+      \field{volume}{50}
+      \field{year}{1983}
+      \field{pages}{1903}
+      \verb{file}
+      \verb ENS_ENHANCED.pdf:ens/ENS_ENHANCED.pdf:PDF;ENS_ENHANCED.pdf:ens/ENS_ENHANCED.pdf:PDF
+      \endverb
+      \keyw{CQED,ENS,history,Purcell}
+    \endentry
+    \entry{TXT_GALLAGHER}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=fc655d2e9dd9074fc9a726810332a705}{Gallagher}{G\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=fc655d2e9dd9074fc9a726810332a705}{Gallagher}{G\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{fc655d2e9dd9074fc9a726810332a705}
+      \strng{fullhash}{fc655d2e9dd9074fc9a726810332a705}
+      \field{sortinit}{0}
+      \field{labeltitle}{Rydberg Atoms}
+      \field{title}{Rydberg Atoms}
+      \field{year}{1994}
+      \keyw{TXT,Rydberg}
+    \endentry
+    \entry{MX_CODATA14}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=9f5cf344c821c3d04fbd49812e2e763a}{Mohr}{M\bibinitperiod}{Peter\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=0694b098ec23acc47ae0393cb71517ef}{Newell}{N\bibinitperiod}{David\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=5b70ea4caa66ce3c463bf6a6b21abc89}{Taylor}{T\bibinitperiod}{Barry\bibnamedelima N.}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=9f5cf344c821c3d04fbd49812e2e763a}{Mohr}{M\bibinitperiod}{Peter\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=0694b098ec23acc47ae0393cb71517ef}{Newell}{N\bibinitperiod}{David\bibnamedelima B.}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=5b70ea4caa66ce3c463bf6a6b21abc89}{Taylor}{T\bibinitperiod}{Barry\bibnamedelima N.}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f21b791a9718a47d9edd800fac87cc41}
+      \strng{fullhash}{e29f9b43dd1d93dc5d176306e5d3a602}
+      \field{sortinit}{0}
+      \field{labeltitle}{CODATA recommended values of the fundamental physical constants: 2014}
+      \field{issue}{3}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{title}{CODATA recommended values of the fundamental physical constants: 2014}
+      \field{volume}{88}
+      \field{year}{2016}
+      \field{pages}{035009}
+      \verb{file}
+      \verb MX_CODATA14.pdf:Users/jean-michel.raimond/Documents/bibliography/mx/MX_CODATA14.pdf:PDF
+      \endverb
+      \keyw{mx,metrology,review}
+    \endentry
+    \entry{TXT_COHEN1FR}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=0866ab881a83c572020279e903749986}{Cohen-Tannoudji}{C\bibinithyphendelim T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=6cdcf7bd0a0674193cf435bb4b5338a6}{Diu}{D\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1ae0063418035b4c572afb814072d364}{Laloë}{L\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=0866ab881a83c572020279e903749986}{Cohen-Tannoudji}{C\bibinithyphendelim T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=6cdcf7bd0a0674193cf435bb4b5338a6}{Diu}{D\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1ae0063418035b4c572afb814072d364}{Laloë}{L\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{publisher}{1}{%
+        {Hermann}%
+      }
+      \strng{namehash}{8764fcf1e6bf2cba9400f5b305782a38}
+      \strng{fullhash}{c109bae60d4b8ccd7217b247a8c8ffeb}
+      \field{sortinit}{0}
+      \field{labeltitle}{Mécanique Quantique}
+      \field{title}{Mécanique Quantique}
+      \field{volume}{1}
+      \field{year}{1977}
+      \keyw{TXT,QM}
+    \endentry
+    \entry{TXT_COHEN2FR}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=0866ab881a83c572020279e903749986}{Cohen-Tannoudji}{C\bibinithyphendelim T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=6cdcf7bd0a0674193cf435bb4b5338a6}{Diu}{D\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1ae0063418035b4c572afb814072d364}{Laloë}{L\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=0866ab881a83c572020279e903749986}{Cohen-Tannoudji}{C\bibinithyphendelim T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=6cdcf7bd0a0674193cf435bb4b5338a6}{Diu}{D\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1ae0063418035b4c572afb814072d364}{Laloë}{L\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{publisher}{1}{%
+        {Hermann}%
+      }
+      \strng{namehash}{8764fcf1e6bf2cba9400f5b305782a38}
+      \strng{fullhash}{c109bae60d4b8ccd7217b247a8c8ffeb}
+      \field{sortinit}{0}
+      \field{labeltitle}{Mécanique Quantique}
+      \field{title}{Mécanique Quantique}
+      \field{volume}{2}
+      \field{year}{1977}
+      \keyw{TXT,QM}
+    \endentry
+    \entry{MX_GALLAGHERSPECRBNSND03}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=2d7523cfbfd1862877bf9543ae15b316}{Li}{L\bibinitperiod}{Wenhui}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=36af8501ab94d89ae24f46e7152f8f67}{Mourachko}{M\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=9a57554bbb3d819d92e2fb30f299e926}{Noel}{N\bibinitperiod}{M.\bibnamedelimi W.}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=fc655d2e9dd9074fc9a726810332a705}{Gallagher}{G\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=2d7523cfbfd1862877bf9543ae15b316}{Li}{L\bibinitperiod}{Wenhui}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=36af8501ab94d89ae24f46e7152f8f67}{Mourachko}{M\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=9a57554bbb3d819d92e2fb30f299e926}{Noel}{N\bibinitperiod}{M.\bibnamedelimi W.}{M\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=fc655d2e9dd9074fc9a726810332a705}{Gallagher}{G\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{195a2b1613e79122bf6702e6d6fbb3ea}
+      \strng{fullhash}{757ca51e44f15e857d5a54e6457113ca}
+      \field{sortinit}{0}
+      \field{labeltitle}{Millimeter-wave spectroscopy of cold Rb Rydberg atoms in a magneto-optical trap: Quantum defects of the ns, np, and nd series}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{title}{Millimeter-wave spectroscopy of cold Rb Rydberg atoms in a magneto-optical trap: Quantum defects of the ns, np, and nd series}
+      \field{volume}{67}
+      \field{year}{2003}
+      \field{pages}{052502}
+      \verb{file}
+      \verb MX_GALLAGHERSPECRBNSND03.pdf:mx/MX_GALLAGHERSPECRBNSND03.pdf:PDF
+      \endverb
+      \keyw{mx,Rydberg,spectroscopy}
+    \endentry
+    \entry{MX_GALLAGHERSPECRBNF06}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=28aef4896a6e5f79fc51c1e92d10a77e}{Han}{H\bibinitperiod}{Jianing}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8c286c703feb21348ca365d153b3bf93}{Jamil}{J\bibinitperiod}{Yasir}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=d6751a1a8ffd4d382c9c69ed8b082109}{Norum}{N\bibinitperiod}{D.\bibnamedelimi V.\bibnamedelimi L.}{D\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77b236774547e699003b37267b090bbe}{Tanner}{T\bibinitperiod}{Paul\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=fc655d2e9dd9074fc9a726810332a705}{Gallagher}{G\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=28aef4896a6e5f79fc51c1e92d10a77e}{Han}{H\bibinitperiod}{Jianing}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=8c286c703feb21348ca365d153b3bf93}{Jamil}{J\bibinitperiod}{Yasir}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=d6751a1a8ffd4d382c9c69ed8b082109}{Norum}{N\bibinitperiod}{D.\bibnamedelimi V.\bibnamedelimi L.}{D\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77b236774547e699003b37267b090bbe}{Tanner}{T\bibinitperiod}{Paul\bibnamedelima J.}{P\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=fc655d2e9dd9074fc9a726810332a705}{Gallagher}{G\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{76aa6dfaccff88679f78a972f39f5daa}
+      \strng{fullhash}{1aec0f2deedee37ea9650eba41049631}
+      \field{sortinit}{0}
+      \field{labeltitle}{Rb nf quantum defects from millimeter-wave spectroscopy of cold Rb85 Rydberg atoms}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{title}{Rb nf quantum defects from millimeter-wave spectroscopy of cold Rb85 Rydberg atoms}
+      \field{volume}{74}
+      \field{year}{2006}
+      \field{pages}{054502}
+      \verb{file}
+      \verb MX_GALLAGHERSPECRBNF06.pdf:mx/MX_GALLAGHERSPECRBNF06.pdf:PDF
+      \endverb
+      \keyw{mx,Rydberg,spectroscopy}
+    \endentry
+    \entry{MX_MACKNSNDRYD}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=63800933a3573b0d8cc5baae1ca03cea}{{M}ack}{M\bibinitperiod}{{M}arkus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=815e8972b69b149c2fcae049d56a2f0c}{{K}arlewski}{K\bibinitperiod}{{F}lorian}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=ec9a6be9fc5eaeabd5328e99b5042d0f}{{H}attermann}{H\bibinitperiod}{{H}elge}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=4a6fbc6b4a76c2906da683278a011375}{{H}öckh}{H\bibinitperiod}{{S}imone}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=583718128babf3cdc76c78362072995d}{{J}essen}{J\bibinitperiod}{{F}lorian}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=b193dc8a1be5e589bdfba840ab0b9b21}{{C}ano}{C\bibinitperiod}{{D}aniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=ab72b0a2f4d8aa267fad1de2c5b764df}{{F}ortágh}{F\bibinitperiod}{{J}ózsef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=63800933a3573b0d8cc5baae1ca03cea}{{M}ack}{M\bibinitperiod}{{M}arkus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=815e8972b69b149c2fcae049d56a2f0c}{{K}arlewski}{K\bibinitperiod}{{F}lorian}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=ec9a6be9fc5eaeabd5328e99b5042d0f}{{H}attermann}{H\bibinitperiod}{{H}elge}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=4a6fbc6b4a76c2906da683278a011375}{{H}öckh}{H\bibinitperiod}{{S}imone}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=583718128babf3cdc76c78362072995d}{{J}essen}{J\bibinitperiod}{{F}lorian}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=b193dc8a1be5e589bdfba840ab0b9b21}{{C}ano}{C\bibinitperiod}{{D}aniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=ab72b0a2f4d8aa267fad1de2c5b764df}{{F}ortágh}{F\bibinitperiod}{{J}ózsef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {{A}merican {P}hysical {S}ociety}%
+      }
+      \strng{namehash}{441751269ac52a3eca38aa17c2e8aa51}
+      \strng{fullhash}{2d9c6f99d5ab165e44d5086de93e98e2}
+      \field{sortinit}{0}
+      \field{labeltitle}{{M}easurement of absolute transition frequencies of $^{87}\mathrm{Rb}$ to $\mathit{nS}$ and $\mathit{nD}$ {R}ydberg states by means of electromagnetically induced transparency}
+      \field{issue}{5}
+      \field{journaltitle}{{P}hys. {R}ev. {A}}
+      \field{month}{05}
+      \field{title}{{M}easurement of absolute transition frequencies of $^{87}\mathrm{Rb}$ to $\mathit{nS}$ and $\mathit{nD}$ {R}ydberg states by means of electromagnetically induced transparency}
+      \field{volume}{83}
+      \field{year}{2011}
+      \field{pages}{052515}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.83.052515
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevA.83.052515
+      \endverb
+    \endentry
+    \entry{ENS_SPECNA2}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=58148a9f26caab9d9eb677a8ceb2b64e}{Fabre}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=8f03a8ce1cae7b4c647e61d7753ec22d}{Goy}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=58148a9f26caab9d9eb677a8ceb2b64e}{Fabre}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=8f03a8ce1cae7b4c647e61d7753ec22d}{Goy}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ccf2edfb18bfc99747dcc1184d9f1c16}
+      \strng{fullhash}{6e4bd7f5b2f7d92816dc0e59df9685d2}
+      \field{sortinit}{0}
+      \field{labeltitle}{Millimeter Spectroscopy in {S}odium {R}ydberg states:Quantum Defects, Fine Structure and PolarisabilityMeasurements}
+      \field{title}{Millimeter Spectroscopy in {S}odium {R}ydberg states:Quantum Defects, Fine Structure and PolarisabilityMeasurements}
+      \field{volume}{18}
+      \field{year}{1978}
+      \field{pages}{229}
+      \verb{file}
+      \verb ENS_SPECNA2.pdf:ens/ENS_SPECNA2.pdf:PDF;ENS_SPECNA2.pdf:ens/ENS_SPECNA2.pdf:PDF
+      \endverb
+      \keyw{ENS,Rydberg,spectroscopy}
+    \endentry
+    \entry{ENS_SPECCS}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=8f03a8ce1cae7b4c647e61d7753ec22d}{Goy}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=ecf83c99ef0071022d3a7c7403070541}{Raimond}{R\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=2e3f55953d98e910ef616ac5752e98d9}{Vitrant}{V\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=8f03a8ce1cae7b4c647e61d7753ec22d}{Goy}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=ecf83c99ef0071022d3a7c7403070541}{Raimond}{R\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=2e3f55953d98e910ef616ac5752e98d9}{Vitrant}{V\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9b04e5676317a1db3604239166c0440a}
+      \strng{fullhash}{971593e5387dd4115999804f30d770f8}
+      \field{sortinit}{0}
+      \field{labeltitle}{Millimeter-Wave Spectroscopy in Cesium {R}ydberg states.Quantum Defects, Fine- and Hyperfine Structure Measurements}
+      \field{title}{Millimeter-Wave Spectroscopy in Cesium {R}ydberg states.Quantum Defects, Fine- and Hyperfine Structure Measurements}
+      \field{volume}{26}
+      \field{year}{1982}
+      \field{pages}{2733}
+      \verb{file}
+      \verb ENS_SPECCS.pdf:ens/ENS_SPECCS.pdf:PDF;ENS_SPECCS.pdf:ens/ENS_SPECCS.pdf:PDF
+      \endverb
+      \keyw{ENS,spectroscopy,Rydberg}
+    \endentry
+    \entry{MX_MECHEDERYDSPECTRO87}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=fbf12663d0e7775f576e27466c907362}{Meschede}{M\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=fbf12663d0e7775f576e27466c907362}{Meschede}{M\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fbf12663d0e7775f576e27466c907362}
+      \strng{fullhash}{fbf12663d0e7775f576e27466c907362}
+      \field{sortinit}{0}
+      \field{labeltitle}{Centimeter-Wave Spectroscopy of Highly Excited Rubidium Atoms}
+      \field{journaltitle}{J. opt. Soc. Am. B}
+      \field{title}{Centimeter-Wave Spectroscopy of Highly Excited Rubidium Atoms}
+      \field{volume}{4}
+      \field{year}{1987}
+      \field{pages}{413}
+      \verb{file}
+      \verb MX_MECHEDERYDSPECTRO87.pdf:mx/MX_MECHEDERYDSPECTRO87.pdf:PDF;MX_MECHEDERYDSPECTRO87.pdf:mx/MX_MECHEDERYDSPECTRO87.pdf:PDF
+      \endverb
+      \keyw{Rydberg,Spectroscopy}
+    \endentry
+    \entry{MX_MARTINSERIESSPECNA}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=d74f1ef73b70c0c769760143f2aa09d0}{Martin}{M\bibinitperiod}{W.\bibnamedelimi C.}{W\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d74f1ef73b70c0c769760143f2aa09d0}{Martin}{M\bibinitperiod}{W.\bibnamedelimi C.}{W\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {OSA}%
+      }
+      \strng{namehash}{d74f1ef73b70c0c769760143f2aa09d0}
+      \strng{fullhash}{d74f1ef73b70c0c769760143f2aa09d0}
+      \field{sortinit}{0}
+      \field{labeltitle}{Series formulas for the spectrum of atomic sodium (Na i)}
+      \field{abstract}{The available data on the energy levels of Na i yield Ritz quantum-defect formulas predicting all one-electron (nl) levels with an uncertainty of {\textpm} 0.03 cm−1 with respect to the 3s2S1/2 ground level. Such formulas are given here for the ns through ni series as expressions for the quantum defect $\delta$ in inverse even powers of n − $\delta$0, with $\delta$0 constant for each nl series. These formulas are usually more convenient for calculations than the formulas in powers of n − $\delta$ and core-polarization formulas given previously. Term differences or quantum defects predicted by the ns through nh formulas are compared with a number of more recent experimental determinations in the range n $=$ 13--41.}
+      \field{journaltitle}{J. Opt. Soc. Am.}
+      \field{month}{07}
+      \field{number}{7}
+      \field{title}{Series formulas for the spectrum of atomic sodium (Na i)}
+      \field{volume}{70}
+      \field{year}{1980}
+      \field{pages}{784\bibrangedash 788}
+      \verb{doi}
+      \verb 10.1364/JOSA.70.000784
+      \endverb
+      \verb{url}
+      \verb http://www.osapublishing.org/abstract.cfm?URI=josa-70-7-784
+      \endverb
+    \endentry
+    \entry{MX_GALLAGHERBBODY}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=fc655d2e9dd9074fc9a726810332a705}{Gallagher}{G\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=d46032a1ed47316c73b5809ea532df67}{Cooke}{C\bibinitperiod}{W.\bibnamedelimi E.}{W\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=fc655d2e9dd9074fc9a726810332a705}{Gallagher}{G\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=d46032a1ed47316c73b5809ea532df67}{Cooke}{C\bibinitperiod}{W.\bibnamedelimi E.}{W\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{aa4c465236d618a6356b46116667fb68}
+      \strng{fullhash}{aa4c465236d618a6356b46116667fb68}
+      \field{sortinit}{0}
+      \field{labeltitle}{Interactions of Blackbody Radiation with Atoms}
+      \field{issue}{13}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{03}
+      \field{title}{Interactions of Blackbody Radiation with Atoms}
+      \field{volume}{42}
+      \field{year}{1979}
+      \field{pages}{835\bibrangedash 839}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.42.835
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.42.835
+      \endverb
+    \endentry
+    \entry{TXT_GORECKIPHYSTAT}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=7ec47305edd43945fef341f5ac1b0c05}{BELORIZKY}{B\bibinitperiod}{Elie}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=7699ae8be1871f8aaac68feb27bab719}{GORECKI}{G\bibinitperiod}{Wladimir}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=7ec47305edd43945fef341f5ac1b0c05}{BELORIZKY}{B\bibinitperiod}{Elie}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=7699ae8be1871f8aaac68feb27bab719}{GORECKI}{G\bibinitperiod}{Wladimir}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {BIBLMH}%
+      }
+      \list{publisher}{1}{%
+        {Presses universitaires de Grenoble}%
+      }
+      \strng{namehash}{2417abe35aff858ca86a1cbfbebd71b4}
+      \strng{fullhash}{2417abe35aff858ca86a1cbfbebd71b4}
+      \field{sortinit}{0}
+      \field{labeltitle}{Introduction à la mécanique statistique}
+      \field{isbn}{2-7061-0449-X}
+      \field{title}{Introduction à la mécanique statistique}
+      \field{year}{1992}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

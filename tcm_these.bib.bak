@@ -183,4 +183,39 @@
   url       = {https://link.aps.org/doi/10.1103/PhysRevLett.42.835},
 }
 
+@Article{MX_PFAURYDBERGTUTO12,
+  author    = {Robert L{\"o}w and Hendrik Weimer and Johannes Nipper and Jonathan B Balewski and Bj{\"o}rn Butscher and Hans Peter B{\"a}chler and Tilman Pfau},
+  title     = {An experimental and theoretical guide to strongly interacting {R}ydberg gases},
+  journal   = {Journal of Physics B: Atomic, Molecular and Optical Physics},
+  year      = {2012},
+  volume    = {45},
+  pages     = {113001},
+  file      = {MX_PFAURYDBERGTUTO12.pdf:mx/MX_PFAURYDBERGTUTO12.pdf:PDF;MX_PFAURYDBERGTUTO12.pdf:mx/MX_PFAURYDBERGTUTO12.pdf:PDF},
+  keywords  = {Rydberg,Mx,Dipole,Vdw,Review},
+  owner     = {jmr},
+  timestamp = {2013.11.06},
+}
+
+@Book{TXT_JACKSON,
+  title     = {Classical Electrodynamics},
+  publisher = {Wiley},
+  year      = {1975},
+  author    = {J. D. Jackson},
+  address   = {New York},
+  edition   = {2},
+  comment   = {The Jackson},
+  keywords  = {TXT},
+}
+
+@Book{TXT_COHENGRYNBERG,
+  title     = {Atom-Photon Interactions: Basic Processes and Applications},
+  publisher = {Wiley},
+  year      = {1998},
+  author    = {Cohen-Tannoudji, C. and Dupont-Roc, J. and Grynberg, G.},
+  series    = {A Wiley-Interscience publication},
+  isbn      = {9780471293361},
+  lccn      = {91040587},
+  url       = {https://books.google.fr/books?id=Fo4gnAEACAAJ},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

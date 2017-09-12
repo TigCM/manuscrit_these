@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.14)  11 SEP 2017 20:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.14)  12 SEP 2017 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1547,7 +1547,10 @@ Package biblatex Info: ... file 'french.lbx' found.
 
 (d:/texlive/2013/texmf-dist/tex/latex/biblatex/lbx/french.lbx
 File: french.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
-) (./these.aux)
+) (./these.aux
+(./.aux) (./.aux) (./Rydbergs.aux) (./Interacting_Rydbergs.aux)
+(./Setup_coldatoms_Rydberg.aux) (./low_l_Rydbergs.aux) (./circsim.aux)
+(./circulars.aux) (./.aux) (./.aux) (./.aux))
 \openout1 = `these.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
@@ -1689,7 +1692,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'these.bbl' found.
- (./these.bbl)
+ (./these.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ??
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 91.
 Package biblatex Info: Reference segment=0 on input line 91.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1762,9 +1773,6 @@ Overfull \hbox (1.37013pt too wide) in paragraph at lines 91--91
 []|\T1/cmr/m/n/12 Pr.| 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page Cover undefined on input line 91.
-
 [1
 
 
@@ -1786,12 +1794,10 @@ LaTeX Warning: Reference `LastPage' on page Cover undefined on input line 91.
 
 
 
-]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+] (./these.toc [3])
 \tf@toc=\write6
 \openout6 = `these.toc'.
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1799,33 +1805,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] [4
-
-]
-
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
-
+[4] (./these.lof)
 \tf@lof=\write7
 \openout7 = `these.lof'.
 
-[5] [6
+ [5
 
-]
+] [6
 
-Package hyperref Warning: old lot file detected, not used; run LaTeX again.
-
+] (./these.lot)
 \tf@lot=\write8
 \openout8 = `these.lot'.
 
-[7] [8
+ [7] [8
 
 ] [1
 
 ]
 \openout2 = `.aux'.
 
- (d:/texlive/2013/texmf-dist/tex/latex/tools/.tex File ignored)
+
+(d:/texlive/2013/texmf-dist/tex/latex/tools/.tex File ignored)
+\openout2 = `Rydbergs.aux'.
+
+ (./Rydbergs.tex
 [2
+
 
 
 
@@ -1838,141 +1843,177 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [4]
 
 LaTeX Font Warning: Font shape `T1/cmss/bx/sc' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 207.
+(Font)              using `T1/cmss/bx/n' instead on input line 64.
 
 
-Overfull \hbox (1.21106pt too wide) detected at line 215
+Overfull \hbox (1.21106pt too wide) detected at line 72
  
  []
 
 
-Overfull \hbox (3.0223pt too wide) detected at line 218
+Overfull \hbox (3.0223pt too wide) detected at line 75
  
  []
 
 
-Overfull \hbox (1.21106pt too wide) detected at line 218
+Overfull \hbox (1.21106pt too wide) detected at line 75
  
  []
 
 
-Overfull \hbox (1.21106pt too wide) detected at line 218
+Overfull \hbox (1.21106pt too wide) detected at line 75
  
  []
 
 
-Overfull \hbox (3.0223pt too wide) detected at line 218
+Overfull \hbox (3.0223pt too wide) detected at line 75
  
  []
 
 
-Overfull \hbox (1.21106pt too wide) detected at line 218
+Overfull \hbox (1.21106pt too wide) detected at line 75
  
  []
 
 
-Overfull \hbox (3.0223pt too wide) detected at line 219
+Overfull \hbox (3.0223pt too wide) detected at line 76
  
  []
 
 
-Overfull \hbox (1.21106pt too wide) detected at line 219
+Overfull \hbox (1.21106pt too wide) detected at line 76
  
  []
 
 
-Overfull \hbox (1.21106pt too wide) detected at line 219
+Overfull \hbox (1.21106pt too wide) detected at line 76
  
  []
 
 
-Overfull \hbox (3.0223pt too wide) detected at line 219
+Overfull \hbox (3.0223pt too wide) detected at line 76
  
  []
 
 
-Overfull \hbox (1.21106pt too wide) detected at line 219
+Overfull \hbox (1.21106pt too wide) detected at line 76
  
  []
 
 
-Overfull \hbox (3.0223pt too wide) detected at line 220
+Overfull \hbox (3.0223pt too wide) detected at line 77
  
  []
 
 
-Overfull \hbox (3.0223pt too wide) detected at line 221
+Overfull \hbox (3.0223pt too wide) detected at line 78
  
  []
 
+[5] <figures/WaveFunc_60S_.pdf, id=429, 397.485pt x 400.49625pt>
+File: figures/WaveFunc_60S_.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `eq:deltanlj' on page 5 undefined on input line 229.
-
-
-LaTeX Warning: Reference `tab:q_defect' on page 5 undefined on input line 230.
-
-[5] <figures/WaveFunc_60S.pdf, id=340, 459.71652pt x 336.05533pt>
-File: figures/WaveFunc_60S.pdf Graphic file (type pdf)
-
-<use figures/WaveFunc_60S.pdf>
-Package pdftex.def Info: figures/WaveFunc_60S.pdf used on input line 257.
-(pdftex.def)             Requested size: 245.8343pt x 179.70834pt.
+<use figures/WaveFunc_60S_.pdf>
+Package pdftex.def Info: figures/WaveFunc_60S_.pdf used on input line 114.
+(pdftex.def)             Requested size: 245.8343pt x 247.7001pt.
 
 
-LaTeX Warning: Reference `fig:wavefunc60S' on page 6 undefined on input line 26
-2.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./figures/WaveFunc_60S.pdf>]
-Underfull \vbox (badness 1715) has occurred while \output is active []
+[6]
+Underfull \vbox (badness 2635) has occurred while \output is active []
 
- [7]
-
-LaTeX Warning: Reference `eq:orbital_size' on page 8 undefined on input line 31
-0.
-
-
-LaTeX Warning: Reference `fig:matrixelements' on page 8 undefined on input line
- 316.
-
-<figures/lifetime.pdf, id=371, 579.16376pt x 434.62375pt>
+ [7 <./figures/WaveFunc_60S_.pdf>]
+<figures/lifetime.pdf, id=454, 579.16376pt x 434.62375pt>
 File: figures/lifetime.pdf Graphic file (type pdf)
 
 <use figures/lifetime.pdf>
-Package pdftex.def Info: figures/lifetime.pdf used on input line 320.
+Package pdftex.def Info: figures/lifetime.pdf used on input line 180.
 (pdftex.def)             Requested size: 286.80252pt x 215.2223pt.
+ [8]
+<figures/WaveFunc_50C_.pdf, id=468, 397.485pt x 391.4625pt>
+File: figures/WaveFunc_50C_.pdf Graphic file (type pdf)
+
+<use figures/WaveFunc_50C_.pdf>
+Package pdftex.def Info: figures/WaveFunc_50C_.pdf used on input line 223.
+(pdftex.def)             Requested size: 245.8343pt x 242.11288pt.
 
 
-LaTeX Warning: Reference `fig:matrixelements' on page 8 undefined on input line
- 332.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]
+[9 <./figures/lifetime.pdf>]
+Overfull \hbox (3.32928pt too wide) in paragraph at lines 241--246
+[]$\T1/cmr/m/n/10.95 , c'est celle vers le ni-veau cir-cu-laire $[]$.
+ []
 
-LaTeX Warning: Reference `fig:wavefunc60C' on page 9 undefined on input line 35
-9.
+<figures/lifetime_50C.pdf, id=515, 239.89626pt x 166.6225pt>
+File: figures/lifetime_50C.pdf Graphic file (type pdf)
 
-<figures/WaveFunc_60C.pdf, id=379, 460.52052pt x 334.44847pt>
-File: figures/WaveFunc_60C.pdf Graphic file (type pdf)
-
-<use figures/WaveFunc_60C.pdf>
-Package pdftex.def Info: figures/WaveFunc_60C.pdf used on input line 363.
-(pdftex.def)             Requested size: 245.8343pt x 178.53265pt.
- [9 <./figures/lifetime.pdf> <./figures/WaveFunc_60C.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures/WaveFunc_60C.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->] [10]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 400.
+<use figures/lifetime_50C.pdf>
+Package pdftex.def Info: figures/lifetime_50C.pdf used on input line 252.
+(pdftex.def)             Requested size: 245.8343pt x 170.74847pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 400.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11]
+[10 <./figures/WaveFunc_50C_.pdf>]) [11 <./figures/lifetime_50C.pdf>]
+\openout2 = `Interacting_Rydbergs.aux'.
+
+
+(./Interacting_Rydbergs.tex [12
+
+
+]
+<figures/dipole_coupling_aacd.pdf, id=567, 104.39pt x 113.26595pt>
+File: figures/dipole_coupling_aacd.pdf Graphic file (type pdf)
+
+<use figures/dipole_coupling_aacd.pdf>
+Package pdftex.def Info: figures/dipole_coupling_aacd.pdf used on input line 70
+.
+(pdftex.def)             Requested size: 122.91714pt x 133.37611pt.
+ [13 <./figures/dipole_coupling_aacd.pdf>]
+Underfull \vbox (badness 2221) has occurred while \output is active []
+
+ [14]
+<figures/dipole_coupling_abab.pdf, id=595, 706.22206pt x 182.17755pt>
+File: figures/dipole_coupling_abab.pdf Graphic file (type pdf)
+
+<use figures/dipole_coupling_abab.pdf>
+Package pdftex.def Info: figures/dipole_coupling_abab.pdf used on input line 13
+7.
+(pdftex.def)             Requested size: 368.74521pt x 95.11925pt.
+
+<figures/VdW_60S60S.pdf, id=599, 677.55171pt x 520.29973pt>
+File: figures/VdW_60S60S.pdf Graphic file (type pdf)
+
+<use figures/VdW_60S60S.pdf>
+Package pdftex.def Info: figures/VdW_60S60S.pdf used on input line 161.
+(pdftex.def)             Requested size: 327.777pt x 251.70993pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./figures/dipole_coupling_abab.pdf>]
+<figures/VdW_60S60P.pdf, id=627, 797.89609pt x 495.07715pt>
+File: figures/VdW_60S60P.pdf Graphic file (type pdf)
+
+<use figures/VdW_60S60P.pdf>
+Package pdftex.def Info: figures/VdW_60S60P.pdf used on input line 185.
+(pdftex.def)             Requested size: 327.777pt x 203.38332pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <./figures/VdW_60S60S.pdf>])
+Underfull \hbox (badness 10000) in paragraph at lines 240--152
+
+ []
+
+[17 <./figures/VdW_60S60P.pdf>]
 \openout2 = `Setup_coldatoms_Rydberg.aux'.
 
- (./Setup_coldatoms_Rydberg.tex [12
+ (./Setup_coldatoms_Rydberg.tex [18
+
 
 
 ]
@@ -2003,7 +2044,7 @@ Overfull \hbox (2.3766pt too wide) in paragraph at lines 24--25
 em-pé-ra-tures, nombres d'atomes,
  []
 
-[13]
+[19]
 Overfull \hbox (7.94185pt too wide) in paragraph at lines 26--26
 []\T1/cmr/bx/n/14.4 Excitation et dé-tec-tion d'atomes de Ryd-berg près d'une
  []
@@ -2015,26 +2056,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 
 Overfull \hbox (76.5862pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 14 \T1/cmr/m/sl/10.95 CHAPITRE II.  DES ATOMES DE RYDBERG FRO
+\T1/cmr/m/n/10.95 20 \T1/cmr/m/sl/10.95 CHAPITRE II.  DES ATOMES DE RYDBERG FRO
 IDS EN ENVIRONNEMENT CRYOGÉNIQUE
  []
 
-[14])
+[20])
 Overfull \hbox (21.06157pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 II.2.  EXCITATION ET DÉTECTION D'ATOMES DE RYDBERG PRÈS D'UN
-E PUCE \T1/cmr/m/n/10.95 15
+E PUCE \T1/cmr/m/n/10.95 21
  []
 
-[15]
+[21]
 \openout2 = `low_l_Rydbergs.aux'.
 
  (./low_l_Rydbergs.tex
 Overfull \hbox (76.5862pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 16 \T1/cmr/m/sl/10.95 CHAPITRE II.  DES ATOMES DE RYDBERG FRO
+\T1/cmr/m/n/10.95 22 \T1/cmr/m/sl/10.95 CHAPITRE II.  DES ATOMES DE RYDBERG FRO
 IDS EN ENVIRONNEMENT CRYOGÉNIQUE
  []
 
-[16
+[22
 
 
 
@@ -2045,18 +2086,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-[17])
+[23])
 Overfull \hbox (175.30882pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 18 \T1/cmr/m/sl/10.95 CHAPITRE III.  INTERACTION ENTRE ATOMES
+\T1/cmr/m/n/10.95 24 \T1/cmr/m/sl/10.95 CHAPITRE III.  INTERACTION ENTRE ATOMES
  DE RYDBERG SPHÉRIQUES ET EXCITATION DE GAZ DENSE
  []
 
-[18]
+[24]
 \openout2 = `circsim.aux'.
 
  (./circsim.tex
 Chapitre IV.
-) [19
+) [25
 
 
 
@@ -2065,30 +2106,30 @@ Chapitre IV.
 
  (./circulars.tex
 Overfull \hbox (209.23746pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 20 \T1/cmr/m/sl/10.95 CHAPITRE IV.  LES ATOMES DE RYDBERG CIR
+\T1/cmr/m/n/10.95 26 \T1/cmr/m/sl/10.95 CHAPITRE IV.  LES ATOMES DE RYDBERG CIR
 CULAIRES EN INTERACTION : VERS UN SIMULATEUR QUANTIQUE
  []
 
-[20
+[26
 
 
 
 ]
 Chapitre V.
-[21]) [22] [23
+[27]) [28] [29
 
 
 ]
 \openout2 = `.aux'.
 
  (d:/texlive/2013/texmf-dist/tex/latex/tools/.tex File ignored)
-[24
+[30
 
 
 
-] [25] [26] [27
+] [31] [32] [33
 
-] [28]
+] [34]
 \openout2 = `.aux'.
 
  (d:/texlive/2013/texmf-dist/tex/latex/tools/.tex
@@ -2129,7 +2170,7 @@ File ignored)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-[29
+[35
 
 
 
@@ -2138,81 +2179,72 @@ File ignored)
 
 
 
-] [30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 486.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 486.
- (./these.aux
-
-Package atenddvi Warning: Rerun LaTeX, last page not yet found.
-
-(./.aux) (./.aux) (./Setup_coldatoms_Rydberg.aux) (./low_l_Rydbergs.aux)
-(./circsim.aux) (./circulars.aux) (./.aux) (./.aux) (./.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 486.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 486.
+]
+Package atenddvi Info: Last page = 46.
+ [36]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 443.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 443.
+ (./these.aux (./.aux) (./.aux) (./Rydbergs.aux)
+(./Interacting_Rydbergs.aux) (./Setup_coldatoms_Rydberg.aux)
+(./low_l_Rydbergs.aux) (./circsim.aux) (./circulars.aux) (./.aux) (./.aux)
+(./.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 443.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 443.
 Package rerunfilecheck Info: File `these.out' has not changed.
-(rerunfilecheck)             Checksum: DF115191292FED5801EE81E1E6E3143C;13493.
+(rerunfilecheck)             Checksum: FB131765109055C4CBBD8B161E001EB5;14214.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                these
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'these.run.xml'.
 \openout1 = `these.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 486.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 443.
  ) 
 Here is how much of TeX's memory you used:
- 29164 strings out of 493308
- 513471 string characters out of 6141367
- 903776 words of memory out of 5000000
- 31973 multiletter control sequences out of 15000+600000
- 39482 words of font info for 97 fonts, out of 8000000 for 9000
+ 29295 strings out of 493308
+ 515711 string characters out of 6141367
+ 921888 words of memory out of 5000000
+ 32032 multiletter control sequences out of 15000+600000
+ 40161 words of font info for 96 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 46i,17n,75p,10441b,1720s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,17n,77p,10441b,2389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{d:/texl
 ive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/texlive/2013/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2013/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/texlive/2013/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2013/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-6.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/
-texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
-fb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2013
-/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><d:/texlive/2013/texmf-dis
-t/fonts/type1/public/cm-super/sfbx1200.pfb><d:/texlive/2013/texmf-dist/fonts/ty
-pe1/public/cm-super/sfbx1440.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public
-/cm-super/sfbx1728.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/
-sfbx2074.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx2488.p
-fb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><d:/tex
-live/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/texlive/2013/
-texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><d:/texlive/2013/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2013/texmf-dist/fonts/typ
-e1/public/cm-super/sfsl1095.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/
-cm-super/sfsx1000.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/s
-fsx1095.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pf
-b><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><d:/texl
-ive/2013/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on these.pdf (40 pages, 924689 bytes).
+s/cm/cmmi6.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7
+.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2013/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2013/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b><d:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/tex
+live/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/texlive/2013/
+texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><d:/texlive/2013/texmf-dist
+/fonts/type1/public/cm-super/sfbx1200.pfb><d:/texlive/2013/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1440.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/
+cm-super/sfbx1728.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/s
+fbx2074.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pf
+b><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><d:/texl
+ive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><d:/texlive/2013/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/texlive/2013/texmf-dist/
+fonts/type1/public/cm-super/sfrm1095.pfb><d:/texlive/2013/texmf-dist/fonts/type
+1/public/cm-super/sfrm1200.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/c
+m-super/sfsl1095.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sf
+sx1000.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb
+><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><d:/texli
+ve/2013/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><d:/texlive/2013/te
+xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><d:/texlive/2013/texmf-dist/f
+onts/type1/public/cm-super/sfti1095.pfb>
+Output written on these.pdf (46 pages, 4427158 bytes).
 PDF statistics:
- 669 PDF objects out of 1000 (max. 8388607)
- 568 compressed objects within 6 object streams
- 132 named destinations out of 1000 (max. 500000)
- 440 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3425 PDF objects out of 3580 (max. 8388607)
+ 2438 compressed objects within 25 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 485 words of extra memory for PDF output out of 10000 (max. 10000000)
 

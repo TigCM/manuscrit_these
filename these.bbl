@@ -396,7 +396,61 @@
       \field{title}{Introduction à la mécanique statistique}
       \field{year}{1992}
     \endentry
+    \entry{TXT_JACKSON}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=9aa5341cd05478b90b40618cfe558125}{Jackson}{J\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9aa5341cd05478b90b40618cfe558125}{Jackson}{J\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{9aa5341cd05478b90b40618cfe558125}
+      \strng{fullhash}{9aa5341cd05478b90b40618cfe558125}
+      \field{sortinit}{0}
+      \field{labeltitle}{Classical Electrodynamics}
+      \field{edition}{2}
+      \field{title}{Classical Electrodynamics}
+      \field{year}{1975}
+      \keyw{TXT}
+    \endentry
+    \entry{MX_BROWAEYSDD14}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=fad1fe179d78a86b7de8e1b9f811a1ed}{Ravets}{R\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=554405c5934e3507d22f21d88ca5470e}{Labuhn}{L\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=85fee8f97c87a46ad8e800af73804ebd}{Barredo}{B\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=d2aa5993fce229a9e8a044c1f6474cf6}{Beguin}{B\bibinitperiod}{Lucas}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6306a2c150b957113a918488726559ee}{Lahaye}{L\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f243eee2a4dbf763fb80352db4b92e9d}{Browaeys}{B\bibinitperiod}{Antoine}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=fad1fe179d78a86b7de8e1b9f811a1ed}{Ravets}{R\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=554405c5934e3507d22f21d88ca5470e}{Labuhn}{L\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=85fee8f97c87a46ad8e800af73804ebd}{Barredo}{B\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=d2aa5993fce229a9e8a044c1f6474cf6}{Beguin}{B\bibinitperiod}{Lucas}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=6306a2c150b957113a918488726559ee}{Lahaye}{L\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f243eee2a4dbf763fb80352db4b92e9d}{Browaeys}{B\bibinitperiod}{Antoine}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{769bf42fc2cf41fdd08c511fd382ec05}
+      \strng{fullhash}{7965630565c162b6e40a8cfab81acfcb}
+      \field{sortinit}{0}
+      \field{labeltitle}{Coherent dipole-dipole coupling between two single {R}ydberg atoms at an electrically-tuned {Fö}rster resonance}
+      \field{journaltitle}{Nat. Phys.}
+      \field{title}{Coherent dipole-dipole coupling between two single {R}ydberg atoms at an electrically-tuned {Fö}rster resonance}
+      \field{volume}{10}
+      \field{year}{2014}
+      \field{pages}{914\bibrangedash 917}
+      \verb{file}
+      \verb MX_BROWAEYSDD14.pdf:mx/MX_BROWAEYSDD14.pdf:PDF
+      \endverb
+      \keyw{mx,rydberg,dipole}
+    \endentry
   \endsortlist
+  \missing{??}
 \endrefsection
 \endinput
 

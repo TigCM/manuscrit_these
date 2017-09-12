@@ -196,4 +196,39 @@
   timestamp = {2013.11.06},
 }
 
+@Book{TXT_JACKSON,
+  title     = {Classical Electrodynamics},
+  publisher = {Wiley},
+  year      = {1975},
+  author    = {J. D. Jackson},
+  address   = {New York},
+  edition   = {2},
+  comment   = {The Jackson},
+  keywords  = {TXT},
+}
+
+@Book{TXT_COHENGRYNBERG,
+  title     = {Atom-Photon Interactions: Basic Processes and Applications},
+  publisher = {Wiley},
+  year      = {1998},
+  author    = {Cohen-Tannoudji, C. and Dupont-Roc, J. and Grynberg, G.},
+  series    = {A Wiley-Interscience publication},
+  isbn      = {9780471293361},
+  lccn      = {91040587},
+  url       = {https://books.google.fr/books?id=Fo4gnAEACAAJ},
+}
+
+@Article{MX_BROWAEYSDD14,
+  author    = {Ravets, Sylvain and Labuhn, Henning and Barredo, Daniel and Beguin, Lucas and Lahaye, Thierry and Browaeys, Antoine},
+  title     = {Coherent dipole-dipole coupling between two single {R}ydberg atoms at an electrically-tuned {F\"o}rster resonance},
+  journal   = {Nat. Phys.},
+  year      = {2014},
+  volume    = {10},
+  pages     = {914--917},
+  file      = {MX_BROWAEYSDD14.pdf:mx/MX_BROWAEYSDD14.pdf:PDF},
+  keywords  = {mx,rydberg,dipole},
+  owner     = {jmr},
+  timestamp = {2014.12.09},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

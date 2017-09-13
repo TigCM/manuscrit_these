@@ -30,7 +30,7 @@
 \usepackage{fancyvrb}
 \usepackage{adjustbox} 
 \usepackage{grffile}
-\include{}%./0_preamble}
+%\include{./0_preamble}
 \usepackage{hyperxmp}
 \usepackage[pdfpagelayout=TwoPageRight,pdfpagelabels=true]{hyperref}
 \hypersetup{
@@ -143,23 +143,54 @@ articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
 %\label{part:Rydberg}
 
 
-%-------------------------------------------------
-\include{Rydbergs}
+
+
 %\chapter{Atomes de Rydberg alcalins en interaction}
 %\label{chapter:Rydberg}
-%Atomes de Rydberg : à bas $l$ ou circulaires
-%\section{Théorie générale des Rydberg}
 
+\include{Rydbergs}
 \include{Interacting_Rydbergs}
+
+%-------------------------------------------------
+\subsection{Les interactions dipolaires du niveau 50C}
+	
+\noindent L'interaction dipolaire entre atomes de Rydberg de très grand moment cinétique est rendue plus complexe du fait de leur forte anisotropie.
+En effet, l'interaction entre deux dipôles dépend de l'orientation relative de ceux-ci.
+Dans le cas des niveaux $l=0$ tel que le 60S, le problème ne se posait pas car ces niveaux sont à symétrie sphérique.
+Dès lors que l'on s'intéresse à l'interaction entre des niveaux à symétrie cylindrique, il est indispensable de savoir comment les atomes s'orientent l'un par rapport à l'autre.
+L'interaction dipolaire entre atomes circulaires est encore compliqué par l'introduction quasi-systématique d'un champ électrique extérieur, qui déplace et déforme les niveaux par effet Stark.
+Le détail de l'interaction dipolaire entre atomes circulaires en présence d'un champ sera discuté au chapitre \ref{chapter:circsim}, mais nous prendrons le temps ici de développer la situation la plus simple :
+celle de deux atomes dans le niveau 50C sans champ électrique extérieur, et dont les deux orbites sont contenues dans le même plan, comme l'illustre la figure \eqref{fig:double_torus}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=.8\linewidth]{figures/double_torus.png}
+\caption[Deux atomes circulaires côte à côte]{Représentation de deux atomes de Rydberg circulaires dont les orbites sont dans le même plan.
+Les tores bleus représentent les orbites électroniques et les flèches rouges la direction du moment cinétique.
+Si l'on imagine que le dessin est à l'échelle, alors les atomes sont ici séparés d'une distance d'environ \SIv{660}{\nm}.}
+\label{fig:double_torus}
+\end{figure}
+
+Les règles de sélection étant toujours valides, le couplage se fait à l'ordre deux, et l'équation \eqref{eq:VdW_aacd} permet d'en extraire le coefficient de Van der Waals comme nous l'avons fait pour l'interaction 60S-60S.
+%	Est-ce qu'on garde ça pour plus tard (circsim) ?\\
+%	NOTA : ça correspond à la section 5.3 de Thanh, qui a l'air beaucoup plus fournie que ce que j'avais dans l'idée de mettre ici.\\
+%		\noindent $C_6$ pour 50c-50c et $C_6/A_6$ avec les voisins \\
+%		\noindent attention à l'anisotropie\\
+		ICI, on ne traite le cas que de 50C-50C dans le plan de l'oribte. Le reste plus tard.
+		Par contre, est-ce que ça a vraiment un sens comme calcul à champ nul ??
+
 %--------------------------------------------------
 
-
+%------------------------------------------------
 %\chapter{Dispositif expérimental : une puce atomique pour des atomes de Rydberg}
 %\label{chapter:setup}
-\include{Setup_coldatoms_Rydberg}
+%\include{Setup_coldatoms_Rydberg}
+\include{Setup_coldatoms}
 
-%\include{Setup_Rydberg}
+		
+\include{Setup_Rydberg}
 
+%-----------------------------------------------
 %\chapter{Excitation optique d'atomes de Rydberg à bas $l$ et simulations}
 %\label{chapter:60s}
 \include{low_l_Rydbergs}

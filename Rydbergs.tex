@@ -17,7 +17,7 @@ Enfin, nous verrons le détail de cette interaction dans deux cas particuliers  
 Ces deux cas particuliers seront à nouveau discutés plus en détail dans des chapitres dédiés aux expériences que nous avons menées.
 
 \section{Les atomes de Rydberg alcalins : des hydrogénoïdes géants}
-Un atome de Rydberg alcalin a un seul électron dans un niveau de grand nombre quantique principal $n$. L'essentiel de la fonction d'onde de cet électron est localisé dans des régions atomiques éloignées du c\oe ur, c'est-à-dire de l'ensemble du noyau atomique et des couches électroniques inférieures.
+\noindent Un atome de Rydberg alcalin a un seul électron dans un niveau de grand nombre quantique principal $n$. L'essentiel de la fonction d'onde de cet électron est localisé dans des régions atomiques éloignées du c\oe ur, c'est-à-dire de l'ensemble du noyau atomique et des couches électroniques inférieures.
 Pour cette raison, il ressemble à un atome d'hydrogène, dont l'unique électron voit un c\oe ur protonique simple de charge totale $+q=\numv{1.602176565(35)d-19}\si{\coulomb}$ \cite{MX_CODATA14}.
 Dans le cas de l'hydrogène, ce c\oe ur est plusieurs ordres de grandeurs plus petit que la taille typique de l'orbite de l'électron : le niveau électronique fondamental $1$S a un \og rayon \fg{} caractéristique $a_0 = \numv{0,52917721092(17)}\si{\angstrom}$ \cite{MX_CODATA14}, alors que le proton a un rayon $r_p = \numv{0.8775(51)}\si{\femto\meter}$ \cite{MX_CODATA14}.
 
@@ -41,7 +41,7 @@ Ici, $l$ est le nombre quantique orbital et $m_l$ le nombre quantique magnétiqu
 Cette première description ne prend pas en compte les corrections aux énergies dues au couplage entre le moment magnétique intrinsèque de l'électron, son spin, et son moment magnétique orbital, ce que l'on dénomme couplage fin.
 Elle néglige tout autant le couplage entre le moment magnétique total de l'électron et le moment magnétique du c\oe ur atomique, le couplage hyperfin \cite{TXT_COHEN2FR}.
 
-En présence de couplage fin, les bons nombres quantiques deviennent $n,l,j,m_j$, avec $j=l+s$ où $s=1/2$ est le moment magnétique de spin de l'électron. Le couplage hyperfin étant très petit pour les niveaux de Rydberg, nous en ferons fi et continuerons d'utiliser la base avec moment cinétique total de l'électron $j$ pour décrire les niveaux électroniques.
+En présence de couplage fin, les bons nombres quantiques deviennent $n,l,j,m_j$, avec $j=l+s$ où $s=1/2$ est le moment magnétique de spin de l'électron. Le couplage hyperfin étant très petit pour les niveaux de Rydberg, nous en ferons fi et continuerons d'utiliser la base avec moment cinétique total $j$ de l'électron pour décrire les niveaux électroniques.
 
 En comparaison avec l'atome d'hydrogène, le c\oe ur positif de l'atome de Rydberg alcalin comporte une structure d'extension spatiale bien plus importante \cite{TXT_GALLAGHER}.
 Dans la région des couches électroniques inférieures, le potentiel est bien plus profond que le potentiel coulombien car l'effet d'écrantage partiel de la charge totale positive du c\oe ur par les électrons internes disparaît lorsque l'on s'en approche : c'est l'effet de pénétration du c\oe ur.
@@ -50,7 +50,7 @@ L'électron de Rydberg interagit avec cette distribution de charge complexe, ce 
 Afin de rendre compte de ces effets, il est nécessaire d'apporter une correction aux énergies propres de l'électron de Rydberg d'un atome alcalin : le défaut quantique.
 
 	\subsection{Hamiltonien de l'atome de Rydberg et défaut quantique}
-Les deux effets précédemment cités de pénétration du c\oe ur et de polarisabilité du c\oe ur peuvent être efficacement décrits par la théorie du défaut quantique. Celui-ci apparaît comme une correction $\delta_{nlj}$ au nombre quantique principal $n$ dans l'équation des énergies propres des niveaux électroniques \cite{TXT_GALLAGHER}, qui devient
+\noindent Les deux effets précédemment cités de pénétration du c\oe ur et de polarisabilité du c\oe ur peuvent être efficacement décrits par la théorie du défaut quantique. Celui-ci apparaît comme une correction $\delta_{nlj}$ au nombre quantique principal $n$ dans l'équation des énergies propres des niveaux électroniques \cite{TXT_GALLAGHER}, qui devient
 \begin{equation}\label{eq:E_I_delta}
 E(n,l,j) = \frac{- E_I}{(n-\delta_{nlj})^2} ,
 \end{equation}
@@ -61,7 +61,7 @@ avec
 
 \begin{table}[tph!]
 	\centering
-	\caption[Table des défauts quantiques du $^{87}Rb$ et $^{85}Rb$]{Défauts quantiques  du \Rb{85} extraits de \cite{MX_GALLAGHERSPECRBNSND03, MX_GALLAGHERSPECRBNF06} et du \Rb{87} extraits de \cite{MX_MACKNSNDRYD}}
+	\caption[Défauts quantiques du $^{87}Rb$ et $^{85}Rb$]{Défauts quantiques  du \Rb{85} extraits de \cite{MX_GALLAGHERSPECRBNSND03, MX_GALLAGHERSPECRBNF06} et du \Rb{87} extraits de \cite{MX_MACKNSNDRYD}}
 	\label{tab:q_defect}
 	\begin{tabular}{ c S[table-format=1.12]S[table-format=2.8]  S[table-format=1.10]S[table-format=2.6]}
 		\toprule\midrule
@@ -94,7 +94,7 @@ Avec les valeurs connues des défauts quantiques, nous obtenons des fréquences 
 Dans le cas extrême des niveaux de Rydberg circulaires, qui ont un moment orbital maximal $l=n-1$, le défaut quantique peut être considéré nul et alors on retrouve le modèle de l'atome d'hydrogène sans correction autre que la masse du c\oe ur.
 		
 	\subsection{Partie radiale de la fonction d'onde et calcul du dipôle de transition}
-	Ayant ces outils à notre disposition, nous pouvons désormais nous employer à calculer les éléments de matrice de l'opérateur de transition dipolaire $\vec{d}=q\vec{r}$ entre niveaux de Rydberg, qui apparaît de façon essentielle dans les termes de couplage des atomes avec le rayonnement électromagnétique et dans le couplage dipolaire entre deux niveaux de Rydberg $\ket{n,l,j,m_j}$ et $\ket{n',l',j',m_j'}$. Ces éléments de matrice s'écrivent
+\noindent Ayant ces outils à notre disposition, nous pouvons désormais nous employer à calculer les éléments de matrice de l'opérateur de transition dipolaire $\vec{d}=q\vec{r}$ entre niveaux de Rydberg, qui apparaît de façon essentielle dans les termes de couplage des atomes avec le rayonnement électromagnétique et dans le couplage dipolaire entre deux niveaux de Rydberg $\ket{n,l,j,m_j}$ et $\ket{n',l',j',m_j'}$. Ces éléments de matrice s'écrivent
 
 	\begin{equation}\label{eq:matrixelements}
 	\begin{aligned}
@@ -128,7 +128,7 @@ Mentionnons ici que le rayon moyen de l'orbitale électronique d'un niveau de Ry
 %\`A titre d'exemple, le niveau $60$S a ainsi un rayon moyen de $\braket{r} = 4850~a_0 = \numv{256.5}~\si{\nano\meter}$.
 
 	\subsection{Temps de vie des niveaux de Rydberg}
-Avec la connaissance des dipôles de transition d'un niveau de Rydberg vers les niveaux voisins, 	il est possible de connaître le temps de vie de celui-ci.
+\noindent Avec la connaissance des dipôles de transition d'un niveau de Rydberg vers les niveaux voisins, 	il est possible de connaître le temps de vie de celui-ci.
 Deux processus entrent en jeu dans la désexcitation radiative à température finie de ces niveaux atomiques :
 les transitions par émission spontanée mais aussi les transitions par absorption ou émission stimulée par le rayonnement de corps noir de leur environnement.
 En effet, les transitions entre niveaux de Rydberg proches en énergie sont dans le domaine des micro-ondes millimétriques.
@@ -164,7 +164,7 @@ Le nombre de photons par mode varie alors linéairement avec la température et 
 
 
 	\subsection{Le niveau de Rydberg 60S : $\mathbf{\ket{n=60,l=0}}$}
-Afin d'illustrer les propriétés singulières des niveaux de Rydberg, prenons un exemple qui nous sera utile par la suite : le niveau de Rydberg 60S, qui a donc un moment cinétique orbital $l=0$. Nous nous intéresserons à sa taille, à ses dipôles de transition avec les niveaux voisins, et à son temps de vie.
+\noindent Afin d'illustrer les propriétés singulières des niveaux de Rydberg, prenons un exemple qui nous sera utile par la suite : le niveau de Rydberg 60S, qui a donc un moment cinétique orbital $l=0$. Nous nous intéresserons à sa taille, à ses dipôles de transition avec les niveaux voisins, et à son temps de vie.
 
 Grâce à l'équation \eqref{eq:orbital_size}, nous pouvons obtenir la taille de l'orbitale électronique dans le niveau 60S : son rayon moyen vaut $\braket{r} = 4850~a_0 = \numv{256.5}\si{\nano\meter}$.
 %, valeur qui paraît très grande en comparaison avec l'extension spatiale d'un atome dans le niveau fondamental qui est de l'ordre de quelques $a_0$.
@@ -211,13 +211,20 @@ MAIS PAS ASSEZ -> CIRCULAIRES
 
 
 \section{Les niveaux de Rydberg circulaires}
-Les niveau de Rydberg de grand moment orbital, et en particulier les états de Rydberg circulaires, présentent une structure fine et un défaut quantique qui sont très largement négligeables.
-Les autres perturbations que peut subir le modèle de l'atome d'hydrogène en deviennent prépondérantes : la présence d'un champs électrique ou magnétique extérieur.
-En premier lieu, le champ extérieur définit un axe de quantification $(Oz)$ pour le moment cinétique orbital de l'atome.
-Cet axe privilégié brise la symétrie sphérique du problème et la description des fonctions d'onde en coordonnées sphériques, donc sur la base des harmoniques sphériques, n'est plus la mieux adaptée à la situation.
+\noindent Les niveaux de Rydberg de grand moment orbital, et en particulier les états de Rydberg circulaires, présentent une structure fine et un défaut quantique qui sont très largement négligeables.
+Ils sont en cela parfaitement similaires à l'atome d'hydrogène.
+On peut utiliser pour les étudier les fonctions d'onde analytiques hydrogénoïdes sans perte de précision.
+Pour la même raison, le nombre quantique $j$ qui rend compte du couplage fin n'est plus nécessaire.
+
+Les autres perturbations que peut subir le modèle de l'atome d'hydrogène, comme la présence d'un champ électrique ou magnétique extérieur en deviennent deviennent d'autant plus importantes à prendre en compte.
+De plus, les niveaux circulaires étant extrêmement anisotropes, l'absence d'axe de quantification leur est préjudiciable.
+Ils se mélangent alors rapidement aux niveaux voisins et il est utile de leur imposer un faible champ électrique afin de pallier ce problème.
+En premier lieu, le champ extérieur définit un axe de quantification pour le moment cinétique orbital de l'atome.
+Au cours de ce paragraphe, nous considérerons qu'un axe de quantification est défini selon $(Oz)$, mais sans nous soucier pour le moment de l'effet Stark, par lequel la présence d'un champ électrique extérieur influence les niveaux électroniques.
+L'axe privilégié $(Oz)$ brise la symétrie sphérique du problème et la description des fonctions d'onde en coordonnées sphériques, donc sur la base des harmoniques sphériques, n'est plus la mieux adaptée à la situation.
 
 \subsection{La base des états paraboliques}
-	La construction de la base des harmoniques sphériques était fondée sur la conservation du moment cinétique lors du mouvement.
+\noindent	La construction de la base des harmoniques sphériques était fondée sur la conservation du moment cinétique lors du mouvement.
 Rien ne contrarie cet invariant ici, mais il peut être utile d'en dégager un deuxième.
 En effet, dès lors que la fonction d'onde électronique reste loin du c\oe ur atomique, l'interaction entre l'électron de valence et le c\oe ur se réduit à un mouvement à force centrale.
 La mécanique céleste a traité extensivement des mouvements à force centrale, et nous apprend qu'ils ont en commun l'invariance du vecteur de Runge-Lenz, qui caractérise l'excentricité des trajectoires des corps.
@@ -307,7 +314,7 @@ le nombre quantique magnétique variant de
 \begin{figure}[!h]
 \centering
 \includegraphics[width=.7\linewidth]{figures/echelle_parabolique_mk}
-\caption[Échelle des niveaux paraboliques $\ket{n,m_1,m_2}$]{
+\caption[Échelle des niveaux paraboliques $\ket{n,m,k}$]{
 Niveaux paraboliques $\ket{n,m,k}$ de même nombre quantique principal $n$, classés horizontalement en fonction de leur nombre quantique magnétique $m$ et étiqueté selon le nombre quantique $k$.
 Seuls les niveaux de très grand $m$ sont représentés.
 }
@@ -327,6 +334,8 @@ Les niveaux de $m$ élevé mais non maximal seront appelés niveaux elliptiques 
 	Celle-ci décrit un tore de rayon $n^2a_0$ autour du c\oe ur atomique.}
 	\label{fig:wavefunc50C}
 \end{figure}
+
+%Les circulaires ont besoin d'un champ électrique pour se stabiliser.
 
 
 \subsection{Le niveau de Rydberg 50C : $\mathbf{\ket{n=50,l=49,m_l=49}}$}
@@ -348,13 +357,11 @@ Les niveaux de $m$ élevé mais non maximal seront appelés niveaux elliptiques 
 %\begin{equation}\label{eq:rayon_nC}
 %\braket{r}_{n\mathrm{C}} \simeq n^2\times a_0.
 %\end{equation}
-
-Parmi les niveaux de Rydberg circulaires, le niveau 50C sera d'un intérêt particulier pour nous.
-Dans le cas du niveau 50C, cela donne $\braket{r}_{50C} \simeq 50^2 a_0 = 2500 a_0 = \numv{132}\si{\nano\meter}$.
+\noindent Parmi les niveaux de Rydberg circulaires, le niveau 50C sera d'un intérêt particulier pour nous.
+Ce niveau circulaire $n=50$ a une taille valant $\braket{r}_{50C} \simeq 50^2 a_0 = 2500 a_0 = \numv{132}\si{\nano\meter}$.
 	
-%Ici, la transition entre le niveau $50C$ et le niveau $49C=\ket{n=49,l=48,m_l=48}$ vaut $E/h = \numv{54.25955}\si{\giga\hertz}$.
 
-En ce qui concerne leut temps de vie, les niveaux de Rydberg circulaires ont une différence essentielle avec les niveaux de faible $l$ : les niveaux circulaires n'ont de transition dipolaire possible que vers des niveaux eux aussi à très grand $l$, et donc à très grand $n$.
+En ce qui concerne leur temps de vie, les niveaux de Rydberg circulaires ont une différence essentielle avec les niveaux de faible $l$ : les niveaux circulaires n'ont de transition dipolaire possible que vers des niveaux eux aussi à très grand $l$, et donc à très grand $n$.
 Il n'y a d'ailleurs qu'une seule transition spontanée possible depuis le niveau $\ket{n,l=n-1,m_l=l}$, c'est celle vers le niveau circulaire $\ket{n'=n-1,l'=n'-1,m_l'=l'}$.
 En effet, il n'existe aucun niveau de plus basse énergie que $nC$ mais qui aurait un $l$ qui lui soit égal ou supérieur.
 La figure \eqref{fig:spontem_50C49C} représente les schémas de niveaux près de l'état circulaire $n=50$ et met en évidence l'absence de toute autre transition par émission spontanée depuis le niveau 50C.

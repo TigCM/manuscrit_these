@@ -1,21 +1,57 @@
-\chapter{Dispositif expérimental : des atomes de Rydberg sur puce}
-\label{chapter:setup_ryd}
+%\chapter{Dispositif expérimental : des atomes de Rydberg sur puce}
+%\label{chapter:setup_ryd}
+%
+%\section{Excitation et détection d'atomes de Rydberg}
+%	\subsection*{Schémas d'excitation}
+%		\noindent schéma laser : schéma de niveaux (60s ou 50d) et schéma optique		
+%	\subsection*{Schémas de détection}
+%		\noindent state selective ionization
+%		\noindent signaux d'ionisation et toutes les subtilités
+%		
+%\section{Problème des champs électriques près d'une puce}
+%	\subsection*{L'élargissement Stark inhomogène}
+%		\noindent raies de plusieurs dizaines de MHz de large, drift
+%	\subsection*{Recouvrir la puce de rubidium}
+%		\noindent dispositif dispensers et raies fines
+%	\subsection*{Contrôle du champ électrique}
+%		\noindent Lhomond et CdF, électronique de contrôle \\
+%		\noindent électrodes RF pour la circularisation (Simion ?) 
+%		
+%\section{Spectroscopie microonde}
+%	\noindent mention rapide des domaines de transition entre les niveaux de Rydberg
+%	
+\section{Excitation et détection d'atomes de Rydberg près d'une puce}
 
-\section{Excitation et détection d'atomes de Rydberg}
-	\subsection*{Schémas d'excitation}
-		\noindent schéma laser : schéma de niveaux (60s ou 50d) et schéma optique		
-	\subsection*{Schémas de détection}
-		\noindent state selective ionization
-		\noindent signaux d'ionisation et toutes les subtilités
+	\subsection{schéma d'excitation}
+		\noindent schéma de niveau de l'excitation à deux photons (Raul.figIII.1) et caractéristiques de l'éexciation à deux photons (Rabi vs Detuning du niveau intermédiaire) \\
+		\noindent schéma laser - puce - électrodes et petit mot sur la géométrie des faisceaux
 		
-\section{Problème des champs électriques près d'une puce}
-	\subsection*{L'élargissement Stark inhomogène}
-		\noindent raies de plusieurs dizaines de MHz de large, drift
-	\subsection*{Recouvrir la puce de rubidium}
-		\noindent dispositif dispensers et raies fines
-	\subsection*{Contrôle du champ électrique}
-		\noindent Lhomond et CdF, électronique de contrôle \\
-		\noindent électrodes RF pour la circularisation (Simion ?) 
 		
-\section{Spectroscopie microonde}
-	\noindent mention rapide des domaines de transition entre les niveaux de Rydberg
+	\subsection{schéma de détection}
+		\noindent principe de la détection par ionisation \\
+		\noindent implémentation : géométrie des électrodes d'ionisation, de déflexion et du channeltron \\
+		\noindent avec une rampe de champ, on peut savoir quel niveau est détecté $\rightarrow$ principe des arrival times et note sur l'ionisation diabatique vs adiabatique. 
+		
+	\subsection{problème des champs électriques et flash de Rb}
+	on travaille près d'une puce qui est une surface, et avec des objets ultra-sensibles -> ça peut créer des problèmes ! \\
+		\noindent vieilles raies larges et moches : expliquer par l'effet Stark quadratique et l'élargiseement inhomogène. \\
+		\noindent potentiel de contact et flash de Rb : dessins et schéma + dispensers et leur emplacement et boîte de protection \\
+		\noindent c'est magiques, ça nous donne de belles raies fines !
+		
+	\subsection{compensation et contrôle des champs}
+	c'est bien d'avoir' ces raies fines mais on veut contrôler le champ électrique le mieux possible
+		\noindent électrode Vcomp et schéma de contrôle mixte excitation/détection. Le contrôle du champ sur $Oy$ c'est bien, ça permet de faire plein de trucs, mais il reste des gradients (au moins).\\
+		
+		\noindent si on veut faire encore mieux, il faut contrôler les champs selon $Ox$ et $Oy$ $\rightarrow$ électrodes RF :
+		\\ schéma d'installation des électrodes
+		\\ SIMION pour vérifier que ça permet de créer des champs y compris très près de la puce
+		\\ en plus, ça servira de source de RF polarisée !!
+		
+	\subsection{manipulation et observation des Rydbergs}
+\noindent C'est bien de détecter des Rydberg, mais il faut aussi pouvoir les manipuler et les caractériser.
+Pour ça, on a un outil fabuleux : la spectroscopie microonde vers les niveaux voisins ! \\
+schéma de niveaux ? schéma de dispositif ? \\
+on peut mentionner ici qu'avec ça on a pu calibrer les champs électriques résiduels, et faire un qubit $60s-61s$ qui vit très longtemps.
+
+\section*{Conclusion}
+On a un dispositif lourd et complexe mais qui permet de faire beaucoup de belles choses avec des Rydbergs ultra-froids.

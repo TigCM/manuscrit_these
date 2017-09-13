@@ -13,8 +13,8 @@ En électromagnétisme classique, le terme de couplage entre deux dipôles élec
 V_{dd}(\vec{r}) = \frac{1}{4\pi\epsilon_0 r^3} \left( \vec{d_1}\cdot \vec{d_2} - 3(\vec{d_1}\cdot \frac{\vec{r}}{r})(\vec{d_2}\cdot\frac{\vec{r}}{r}) \right)
 \end{equation}
 où $\vec{d_1}$ décrit le premier dipôle, $\vec{d_2}$ le deuxième et $\vec{r}$ le vecteur d'espace qui les sépare.
-On peut alors écrire, par analogie, le hamiltonien d'interaction entre deux atomes en remplaçant les dipôles classiques par les opérateurs de dipôle électrique de chaque atome.
-La distance entre les atomes sera cependant traitée de façon classique, en supposant que la distance entre les atomes est très grande devant l'extension spatiale de leurs fonctions d'onde.
+On peut alors écrire, par analogie, le hamiltonien d'interaction entre deux atomes en remplaçant les dipôles classiques par les opérateurs dipôle électrique de chaque atome.
+La distance entre les atomes sera cependant traitée de façon classique, en supposant que la distance entre les atomes est très grande devant l'extension spatiale de leurs fonctions d'onde. C'est ce qu'on appelle l'approximation dipolaire.
 Le potentiel d'interaction dipolaire s'écrit dans ce cas
 \begin{equation}\label{eq:quantDipole}
 \begin{aligned}
@@ -95,7 +95,7 @@ Nous obtenons donc deux états propres $(\ket{aa}\mp \ket{C})/\sqrt{2}$ avec les
 \begin{equation}\label{eq:forster_aacd_energies}
 2E_a \pm \Delta E_{dd} = 2E_a \pm\frac{\braket{aa|V_{dd}|C}}{r^3}= 2E_a \pm\frac{\braket{aa|V_{dd}|cd}}{r^3}= 2E_a \pm\frac{C_{3,aa}}{r^3}.
 \end{equation}
-Ces cas particuliers sont appelés résonances de Förster \cite{MX_BROWAEYSDD14}.
+Ces cas particuliers sont analogues à ce que l'on appelle dans d'autres contextes les résonances de Förster \cite{MX_BROWAEYSDD14}.
 
 \subsection{Deux atomes dans des niveaux de Rydberg différents}
 \label{subsec:interaction_diff_levels}
@@ -147,6 +147,7 @@ En effet, les états propres de celui-ci, qui sont les combinaisons symétrique 
 \end{equation}
 
 Afin d'illustrer les calculs d'interaction que nous venons de présenter, nous allons les appliquer à nos deux exemples que sont le niveau 60S et le niveau 50C.
+Dans les deux cas, le calcul numérique consiste à diagonaliser le hamiltonien \eqref{eq:hamilt2atoms} à tous les ordres perturbatifs, en limitant l'espace de Hilbert à quelques centaines d'états de paire et sous l'approximation dipolaire.
 
 \subsection{Les interactions dipolaires du niveau 60S}
 
@@ -154,7 +155,7 @@ Afin d'illustrer les calculs d'interaction que nous venons de présenter, nous a
 Dans le cas de l'état $\ket{60\text{S},60\text{S}}$, le terme dominant dans la somme \eqref{eq:VdW_aacd} permettant de calculer le coefficient de Van der Waals $C_{6,\text{60S60S}}$ est le coulage avec les paires $\ket{60\text{P}_j,59\text{P}_j}$.
 Puisque $E_{60S}-E_{59P}>E_{60P}-E_{60S}$, le dénominateur du terme de couplage principal dans \eqref{eq:VdW_aacd} est positif.
 On en déduit que l'interaction 60S-60S, et plus généralement toute interaction dipolaire nS-nS, est toujours répulsive.
-
+%
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\linewidth]{figures/VdW_60S60S}
@@ -162,14 +163,14 @@ On en déduit que l'interaction 60S-60S, et plus généralement toute interactio
 L'insert représente le déplacement d'énergie en échelle log-log et son ajustement sous la forme de Van der Waals.}
 \label{fig:VdW_60s60s}
 \end{figure}
-
-\noindent Le calcul numérique de l'interaction 60S-60S et son ajustement sous la forme de Van der Waals, représentés en figure \eqref{fig:VdW_60s60s}, donnent la valeur
+%
+Le calcul numérique de l'interaction 60S-60S et son ajustement sous la forme de Van der Waals, représentés en figure \eqref{fig:VdW_60s60s}, donnent la valeur
 \begin{equation}
 \label{eq:C660S}
 C_{6,60S60S} = \numv{137.6(1)}\si{\giga\hertz\raiseto{6}\micro\meter}.
 \end{equation}
-%
-L'ajustement de Van der Waals fonctionne très bien aux distances supérieurs à $\SIv{3.1}{ \micro\meter}$.
+
+L'ajustement de Van der Waals fonctionne très bien aux distances supérieures à $\SIv{3.1}{ \micro\meter}$.
 Cependant, aux très courtes distances, la paire $\ket{60\text{S},60\text{S}}$ est très fortement couplée aux niveaux $\ket{60\text{P}_j,59\text{P}_j}$.
 La distance critique est celle à laquelle le couplage dipolaire est aussi fort que la différence d'énergie entre les deux états de paire non perturbés, soit ici $\sim \SIv{2}{\giga\hertz}$.
 En deçà de cette distance, les états propres de l'hamiltonien s'éloignent de plus en plus de l'état non perturbé $\ket{60\text{S},60\text{S}}$ et l'interaction évolue vers une interaction dipolaire résonante en $1/r^3$.
@@ -234,8 +235,8 @@ En procédant dela même façon, on peut obtenir les coefficients d'interaction 
 
 %		\noindent principe du blocage dipolaire et facilitation (rapide)
 		
-	\subsection{Les interactions dipolaires du niveau 50C}
-	
-	NOTA : ça correspond à la section 5.3 de Thanh, qui a l'air beaucoup plus fournie que ce que j'avais dans l'idée de mettre ici.\\
-		\noindent $C_6$ pour 50c-50c et $C_6/A_6$ avec les voisins \\
-		\noindent attention à l'anisotropie\\
+%	\subsection{Les interactions dipolaires du niveau 50C}
+%	
+%	NOTA : ça correspond à la section 5.3 de Thanh, qui a l'air beaucoup plus fournie que ce que j'avais dans l'idée de mettre ici.\\
+%		\noindent $C_6$ pour 50c-50c et $C_6/A_6$ avec les voisins \\
+%		\noindent attention à l'anisotropie\\

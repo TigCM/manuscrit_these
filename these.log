@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.14)  13 SEP 2017 16:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.14)  13 SEP 2017 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,10 +1081,6 @@ Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 )
-\@input{.aux}
-\openout2 = `.aux'.
-
-(d:/texlive/2013/texmf-dist/tex/latex/tools/.tex File ignored)
 (d:/texlive/2013/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
 Package: hyperxmp 2014/01/02 v2.4 Store hyperref metadata in XMP format
 
@@ -1549,8 +1545,8 @@ Package biblatex Info: ... file 'french.lbx' found.
 File: french.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 ) (./these.aux
 (./.aux) (./.aux) (./Rydbergs.aux) (./Interacting_Rydbergs.aux)
-(./Setup_coldatoms_Rydberg.aux) (./low_l_Rydbergs.aux) (./circsim.aux)
-(./circulars.aux) (./.aux) (./.aux) (./.aux))
+(./Setup_coldatoms.aux) (./Setup_Rydberg.aux) (./low_l_Rydbergs.aux)
+(./circsim.aux) (./circulars.aux) (./.aux) (./.aux) (./.aux))
 \openout1 = `these.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
@@ -1776,8 +1772,6 @@ Overfull \hbox (1.37013pt too wide) in paragraph at lines 91--91
 [1
 
 
-
-
 {d:/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 \c__siunitx_mathsf_int=\count390
 \c__siunitx_mathtt_int=\count391
@@ -1910,7 +1904,7 @@ Overfull \hbox (3.0223pt too wide) detected at line 78
  
  []
 
-[5] <figures/WaveFunc_60S_.pdf, id=452, 397.485pt x 400.49625pt>
+[5] <figures/WaveFunc_60S_.pdf, id=454, 397.485pt x 400.49625pt>
 File: figures/WaveFunc_60S_.pdf Graphic file (type pdf)
 
 <use figures/WaveFunc_60S_.pdf>
@@ -1943,13 +1937,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 166.
 
-
-Overfull \hbox (2.58762pt too wide) in paragraph at lines 167--168
-[]\T1/cmr/m/n/10.95 Afin d'illus-trer les pro-prié-tés sin-gu-lières des ni-vea
-ux de Ryd-berg, pre-nons un exemple
- []
-
-<figures/lifetime.pdf, id=476, 579.16376pt x 434.62375pt>
+<figures/lifetime.pdf, id=478, 579.16376pt x 434.62375pt>
 File: figures/lifetime.pdf Graphic file (type pdf)
 
 <use figures/lifetime.pdf>
@@ -1959,85 +1947,82 @@ Package pdftex.def Info: figures/lifetime.pdf used on input line 177.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9 <./figures/lifetime.pdf>]
-<figures/echelle_parabolique_m1m2.pdf, id=534, 1269.99469pt x 583.42969pt>
+[8] [9 <./figures/lifetime.pdf>] [10]
+<figures/echelle_parabolique_m1m2.pdf, id=544, 1269.99469pt x 583.42969pt>
 File: figures/echelle_parabolique_m1m2.pdf Graphic file (type pdf)
 
 <use figures/echelle_parabolique_m1m2.pdf>
 Package pdftex.def Info: figures/echelle_parabolique_m1m2.pdf used on input lin
-e 272.
+e 279.
 (pdftex.def)             Requested size: 409.71968pt x 188.22362pt.
+
+Overfull \hbox (2.67213pt too wide) in paragraph at lines 297--298
+[]\T1/cmr/m/n/10.95 Afin d'ai-der à la re-pré-sen-ta-tion des états ato-miques,
+ in-tro-dui-sons un nou-veau nombre
+ []
+
+<figures/echelle_parabolique_mk.pdf, id=545, 319.27989pt x 158.44243pt>
+File: figures/echelle_parabolique_mk.pdf Graphic file (type pdf)
+
+<use figures/echelle_parabolique_mk.pdf>
+Package pdftex.def Info: figures/echelle_parabolique_mk.pdf used on input line 
+316.
+(pdftex.def)             Requested size: 286.80252pt x 142.33817pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/WaveFunc_50C_.pdf, id=548, 397.485pt x 391.4625pt>
+File: figures/WaveFunc_50C_.pdf Graphic file (type pdf)
+
+<use figures/WaveFunc_50C_.pdf>
+Package pdftex.def Info: figures/WaveFunc_50C_.pdf used on input line 332.
+(pdftex.def)             Requested size: 245.8343pt x 242.11288pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.67213pt too wide) in paragraph at lines 290--291
-[]\T1/cmr/m/n/10.95 Afin d'ai-der à la re-pré-sen-ta-tion des états ato-miques,
- in-tro-dui-sons un nou-veau nombre
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-<figures/echelle_parabolique_mk.pdf, id=543, 319.27989pt x 158.44243pt>
-File: figures/echelle_parabolique_mk.pdf Graphic file (type pdf)
-
-<use figures/echelle_parabolique_mk.pdf>
-Package pdftex.def Info: figures/echelle_parabolique_mk.pdf used on input line 
-309.
-(pdftex.def)             Requested size: 286.80252pt x 142.33817pt.
-
-<figures/WaveFunc_50C_.pdf, id=546, 397.485pt x 391.4625pt>
-File: figures/WaveFunc_50C_.pdf Graphic file (type pdf)
-
-<use figures/WaveFunc_50C_.pdf>
-Package pdftex.def Info: figures/WaveFunc_50C_.pdf used on input line 325.
-(pdftex.def)             Requested size: 245.8343pt x 242.11288pt.
- [11 <./figures/echelle_parabolique_m1m2.pdf> <./figures/echelle_parabolique_mk
-.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures/echelle_parabolique_mk.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
->]
-
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 332.
+(hyperref)                removing `math shift' on input line 341.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathinner' on input line 332.
+(hyperref)                removing `\mathinner' on input line 341.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 332.
+(hyperref)                removing `subscript' on input line 341.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delimiter' on input line 332.
+(hyperref)                removing `\delimiter' on input line 341.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 332.
+(hyperref)                removing `math shift' on input line 341.
 
-<figures/spontem_50C49C.pdf, id=584, 394.70128pt x 275.7411pt>
+[11 <./figures/echelle_parabolique_m1m2.pdf>]
+<figures/spontem_50C49C.pdf, id=560, 394.70128pt x 275.7411pt>
 File: figures/spontem_50C49C.pdf Graphic file (type pdf)
 
 <use figures/spontem_50C49C.pdf>
-Package pdftex.def Info: figures/spontem_50C49C.pdf used on input line 367.
+Package pdftex.def Info: figures/spontem_50C49C.pdf used on input line 374.
 (pdftex.def)             Requested size: 286.80252pt x 200.36789pt.
 
-Overfull \hbox (3.32928pt too wide) in paragraph at lines 357--371
+Overfull \hbox (3.32928pt too wide) in paragraph at lines 364--378
 []$\T1/cmr/m/n/10.95 , c'est celle vers le ni-veau cir-cu-laire $[]$.
  []
 
-[12 <./figures/WaveFunc_50C_.pdf>]
-<figures/lifetime_50C.pdf, id=597, 239.89626pt x 166.6225pt>
+[12 <./figures/echelle_parabolique_mk.pdf> <./figures/WaveFunc_50C_.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/WaveFunc_50C_.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] <figures/lifetime_50C.pdf, id=599, 239.89626pt x 166.6225pt>
 File: figures/lifetime_50C.pdf Graphic file (type pdf)
 
 <use figures/lifetime_50C.pdf>
-Package pdftex.def Info: figures/lifetime_50C.pdf used on input line 381.
+Package pdftex.def Info: figures/lifetime_50C.pdf used on input line 388.
 (pdftex.def)             Requested size: 245.8343pt x 170.74847pt.
 
 
@@ -2051,7 +2036,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ]
-<figures/dipole_coupling_aacd.pdf, id=674, 104.39pt x 113.26595pt>
+<figures/dipole_coupling_aacd.pdf, id=676, 104.39pt x 113.26595pt>
 File: figures/dipole_coupling_aacd.pdf Graphic file (type pdf)
 
 <use figures/dipole_coupling_aacd.pdf>
@@ -2059,7 +2044,7 @@ Package pdftex.def Info: figures/dipole_coupling_aacd.pdf used on input line 70
 .
 (pdftex.def)             Requested size: 122.91714pt x 133.37611pt.
  [16 <./figures/dipole_coupling_aacd.pdf>] [17] <figures/dipole_coupling_abab.p
-df, id=702, 706.22206pt x 182.17755pt>
+df, id=704, 706.22206pt x 182.17755pt>
 File: figures/dipole_coupling_abab.pdf Graphic file (type pdf)
 
 <use figures/dipole_coupling_abab.pdf>
@@ -2067,121 +2052,127 @@ Package pdftex.def Info: figures/dipole_coupling_abab.pdf used on input line 13
 6.
 (pdftex.def)             Requested size: 368.74521pt x 95.11925pt.
 
-<figures/VdW_60S60S.pdf, id=706, 677.55171pt x 520.29973pt>
+<figures/VdW_60S60S.pdf, id=709, 677.55171pt x 520.29973pt>
 File: figures/VdW_60S60S.pdf Graphic file (type pdf)
 
 <use figures/VdW_60S60S.pdf>
-Package pdftex.def Info: figures/VdW_60S60S.pdf used on input line 160.
+Package pdftex.def Info: figures/VdW_60S60S.pdf used on input line 161.
 (pdftex.def)             Requested size: 327.777pt x 251.70993pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[18 <./figures/dipole_coupling_abab.pdf>]
-<figures/VdW_60S60P.pdf, id=733, 797.89609pt x 495.07715pt>
+ [18 <./figures/dipole_coupling_abab.pdf>]
+<figures/VdW_60S60P.pdf, id=735, 797.89609pt x 495.07715pt>
 File: figures/VdW_60S60P.pdf Graphic file (type pdf)
 
 <use figures/VdW_60S60P.pdf>
-Package pdftex.def Info: figures/VdW_60S60P.pdf used on input line 184.
+Package pdftex.def Info: figures/VdW_60S60P.pdf used on input line 185.
 (pdftex.def)             Requested size: 327.777pt x 203.38332pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./figures/VdW_60S60S.pdf>])
-Underfull \hbox (badness 10000) in paragraph at lines 239--153
+[19 <./figures/VdW_60S60S.pdf>]) [20 <./figures/VdW_60S60P.pdf>]
+<figures/double_torus.png, id=3292, 1547.7825pt x 311.1625pt>
+File: figures/double_torus.png Graphic file (type png)
 
- []
+<use figures/double_torus.png>
+Package pdftex.def Info: figures/double_torus.png used on input line 167.
+(pdftex.def)             Requested size: 327.777pt x 65.89206pt.
+ [21
 
-[20 <./figures/VdW_60S60P.pdf>]
-\openout2 = `Setup_coldatoms_Rydberg.aux'.
+ <./figures/double_torus.png (PNG copy)>]
+\openout2 = `Setup_coldatoms.aux'.
 
- (./Setup_coldatoms_Rydberg.tex
+
+(./Setup_coldatoms.tex [22
+
+
+]
 Chapitre II.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-
-Overfull \hbox (2.3766pt too wide) in paragraph at lines 24--25
+)
+Overfull \hbox (2.3766pt too wide) in paragraph at lines 69--188
 \T1/cmr/m/n/10.95 quels MOTs, mé-lasses et nuages froids ob-te-nus : tailles, t
 em-pé-ra-tures, nombres d'atomes,
  []
 
-[21
-
-
-
-]
-Overfull \hbox (7.94185pt too wide) in paragraph at lines 26--26
-[]\T1/cmr/bx/n/14.4 Excitation et dé-tec-tion d'atomes de Ryd-berg près d'une
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
-
- []
-
-
-Overfull \hbox (76.5862pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 22 \T1/cmr/m/sl/10.95 CHAPITRE II.  DES ATOMES DE RYDBERG FRO
-IDS EN ENVIRONNEMENT CRYOGÉNIQUE
- []
-
-[22])
-Overfull \hbox (21.06157pt too wide) has occurred while \output is active
-\T1/cmr/m/sl/10.95 II.2.  EXCITATION ET DÉTECTION D'ATOMES DE RYDBERG PRÈS D'UN
-E PUCE \T1/cmr/m/n/10.95 23
- []
-
 [23]
-\openout2 = `low_l_Rydbergs.aux'.
-
- (./low_l_Rydbergs.tex
 Overfull \hbox (76.5862pt too wide) has occurred while \output is active
 \T1/cmr/m/n/10.95 24 \T1/cmr/m/sl/10.95 CHAPITRE II.  DES ATOMES DE RYDBERG FRO
 IDS EN ENVIRONNEMENT CRYOGÉNIQUE
  []
 
-[24
+[24]
+\openout2 = `Setup_Rydberg.aux'.
 
+ (./Setup_Rydberg.tex
+Overfull \hbox (7.94185pt too wide) in paragraph at lines 23--23
+[]\T1/cmr/bx/n/14.4 Excitation et dé-tec-tion d'atomes de Ryd-berg près d'une
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+)
+Overfull \hbox (21.06157pt too wide) has occurred while \output is active
+\T1/cmr/m/sl/10.95 II.2.  EXCITATION ET DÉTECTION D'ATOMES DE RYDBERG PRÈS D'UN
+E PUCE \T1/cmr/m/n/10.95 25
+ []
+
+[25
 
 
 ]
+Overfull \hbox (76.5862pt too wide) has occurred while \output is active
+\T1/cmr/m/n/10.95 26 \T1/cmr/m/sl/10.95 CHAPITRE II.  DES ATOMES DE RYDBERG FRO
+IDS EN ENVIRONNEMENT CRYOGÉNIQUE
+ []
+
+[26]
+\openout2 = `low_l_Rydbergs.aux'.
+
+ (./low_l_Rydbergs.tex
 Chapitre III.
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-[25])
+[27
+
+
+
+])
 Overfull \hbox (175.30882pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 26 \T1/cmr/m/sl/10.95 CHAPITRE III.  INTERACTION ENTRE ATOMES
+\T1/cmr/m/n/10.95 28 \T1/cmr/m/sl/10.95 CHAPITRE III.  INTERACTION ENTRE ATOMES
  DE RYDBERG SPHÉRIQUES ET EXCITATION DE GAZ DENSE
  []
 
-[26]
+[28]
 \openout2 = `circsim.aux'.
 
  (./circsim.tex
 Chapitre IV.
-) [27
+) [29
 
 
 
@@ -2190,30 +2181,30 @@ Chapitre IV.
 
  (./circulars.tex
 Overfull \hbox (209.23746pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 28 \T1/cmr/m/sl/10.95 CHAPITRE IV.  LES ATOMES DE RYDBERG CIR
+\T1/cmr/m/n/10.95 30 \T1/cmr/m/sl/10.95 CHAPITRE IV.  LES ATOMES DE RYDBERG CIR
 CULAIRES EN INTERACTION : VERS UN SIMULATEUR QUANTIQUE
  []
 
-[28
+[30
 
 
 
 ]
 Chapitre V.
-[29]) [30] [31
+[31]) [32] [33
 
 
 ]
 \openout2 = `.aux'.
 
  (d:/texlive/2013/texmf-dist/tex/latex/tools/.tex File ignored)
-[32
+[34
 
 
 
-] [33] [34] [35
+] [35] [36] [37
 
-] [36]
+] [38]
 \openout2 = `.aux'.
 
  (d:/texlive/2013/texmf-dist/tex/latex/tools/.tex
@@ -2254,7 +2245,7 @@ File ignored)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-[37
+[39
 
 
 
@@ -2264,18 +2255,18 @@ File ignored)
 
 
 ]
-Package atenddvi Info: Last page = 48.
- [38]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 200.
+Package atenddvi Info: Last page = 50.
+ [40]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 231.
  (./these.aux (./.aux) (./.aux) (./Rydbergs.aux)
-(./Interacting_Rydbergs.aux) (./Setup_coldatoms_Rydberg.aux)
+(./Interacting_Rydbergs.aux) (./Setup_coldatoms.aux) (./Setup_Rydberg.aux)
 (./low_l_Rydbergs.aux) (./circsim.aux) (./circulars.aux) (./.aux) (./.aux)
 (./.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
 Package rerunfilecheck Info: File `these.out' has not changed.
-(rerunfilecheck)             Checksum: E8500BAFF2D2D2260EA1D61F3ACE8F89;15216.
+(rerunfilecheck)             Checksum: A30075ABB61803460BB70E3F1B70C27D;15216.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2283,13 +2274,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to 'these.run.xml'.
 \openout1 = `these.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
  ) 
 Here is how much of TeX's memory you used:
- 29333 strings out of 493308
- 516536 string characters out of 6141367
- 923437 words of memory out of 5000000
- 32060 multiletter control sequences out of 15000+600000
+ 29347 strings out of 493308
+ 516683 string characters out of 6141367
+ 923944 words of memory out of 5000000
+ 32066 multiletter control sequences out of 15000+600000
  40944 words of font info for 99 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  46i,17n,77p,10441b,2389s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2328,10 +2319,10 @@ texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><d:/texlive/2013/texmf-dist
 e1/public/cm-super/sfsx2074.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/
 cm-super/sfti1000.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/s
 fti1095.pfb>
-Output written on these.pdf (48 pages, 4591653 bytes).
+Output written on these.pdf (50 pages, 4629640 bytes).
 PDF statistics:
- 3537 PDF objects out of 3580 (max. 8388607)
- 2524 compressed objects within 26 object streams
- 174 named destinations out of 1000 (max. 500000)
- 524 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3554 PDF objects out of 3580 (max. 8388607)
+ 2538 compressed objects within 26 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 529 words of extra memory for PDF output out of 10000 (max. 10000000)
 

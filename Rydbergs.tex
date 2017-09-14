@@ -210,7 +210,7 @@ Le temps de vie du niveau 60S, de l'ordre de quelques $\SIv{100}{\micro\second}$
 MAIS PAS ASSEZ -> CIRCULAIRES
 
 
-\section{Les niveaux de Rydberg circulaires}
+\section{Les niveaux de Rydberg circulaires}\label{sec:circ_parabol}
 \noindent Les niveaux de Rydberg de grand moment orbital, et en particulier les états de Rydberg circulaires, présentent une structure fine et un défaut quantique qui sont très largement négligeables.
 Ils sont en cela parfaitement similaires à l'atome d'hydrogène.
 On peut utiliser pour les étudier les fonctions d'onde analytiques hydrogénoïdes sans perte de précision.
@@ -220,8 +220,8 @@ Les autres perturbations que peut subir le modèle de l'atome d'hydrogène, comm
 De plus, les niveaux circulaires étant extrêmement anisotropes, l'absence d'axe de quantification leur est préjudiciable.
 Ils se mélangent alors rapidement aux niveaux voisins et il est utile de leur imposer un faible champ électrique afin de pallier ce problème.
 En premier lieu, le champ extérieur définit un axe de quantification pour le moment cinétique orbital de l'atome.
-Au cours de ce paragraphe, nous considérerons qu'un axe de quantification est défini selon $(Oz)$, mais sans nous soucier pour le moment de l'effet Stark, par lequel la présence d'un champ électrique extérieur influence les niveaux électroniques.
-L'axe privilégié $(Oz)$ brise la symétrie sphérique du problème et la description des fonctions d'onde en coordonnées sphériques, donc sur la base des harmoniques sphériques, n'est plus la mieux adaptée à la situation.
+Au cours de ce paragraphe, nous considérerons qu'un axe de quantification est défini selon $(Oz)$ par un champ électrique, mais nous négligerons pour le moment l'effet Stark, par lequel la présence d'un champ électrique extérieur influence les niveaux électroniques.
+La présence d'un champ selon l'axe privilégié $(Oz)$ brise la symétrie sphérique du problème et la description des fonctions d'onde en coordonnées sphériques, donc sur la base des harmoniques sphériques, n'est plus la mieux adaptée à la situation.
 
 \subsection{La base des états paraboliques}
 \noindent	La construction de la base des harmoniques sphériques était fondée sur la conservation du moment cinétique lors du mouvement.
@@ -231,10 +231,10 @@ La mécanique céleste a traité extensivement des mouvements à force centrale,
 
 L'analogie entre l'interaction gravitationnelle des corps célestes et l'interaction coulombienne au sein des atomes permet de définir l'opérateur vectoriel :
 \begin{equation}\label{eq:RungeLenz}
-\hat{a} = \frac{1}{\sqrt{-2m_e E}} \left( \frac{1}{2} (\hat{\vec{p}}\wedge\hat{\vec{L}} - \hat{\vec{L}}\wedge\hat{\vec{p}}) - m_e e^2 \frac{\vec{r}}{r} \right).
+\hat{A} = \frac{1}{\sqrt{-2m_e E}} \left( \frac{1}{2} (\hat{\vec{p}}\wedge\hat{\vec{L}} - \hat{\vec{L}}\wedge\hat{\vec{p}}) - m_e e^2 \frac{\vec{r}}{r} \right).
 \end{equation}
 Cet invariant commute avec le hamiltonien de l'atome d'hydrogène et est de même dimension que l'opérateur de moment orbital $\vec{\hat{L}}$.
-Les vecteurs propres de $\hat{\vec{a}}$ prennent donc une forme similaire à ceux de $\hat{\vec{L}}$ et ses valeurs propres varient de $0$ à $\hbar(n-1)$.
+Les vecteurs propres de $\hat{\vec{A}}$ prennent donc une forme similaire à ceux de $\hat{\vec{L}}$ et ses valeurs propres varient de $0$ à $\hbar(n-1)$.
 %Les relations de commutation des opérateurs $\hat{L}_i$ et $\hat{a}_j$ permettent de construire un opérateur vectoriel $\{\hat{a}_x,\hat{a}_y,\hat{L}_z\}$ vérifiant les relations de commutation d'un moment cinétique :
 %\begin{equation} \label{eq:commut_Leta}
 %\left\{
@@ -247,14 +247,14 @@ Les vecteurs propres de $\hat{\vec{a}}$ prennent donc une forme similaire à ceu
 %\end{equation}
 %Ce vecteur est donc un générateur des rotations dans l'espace à trois dimensions, défini par les coordonnées $\{ \text{excentricité selon }(Ox), \text{ excentricité selon }(Oy), \text{moment cinétique selon }(Oz)\}$.
 
-Malheureusement, les opérateurs $\hat{L}$ et $\hat{a}$ ne commutent pas.
+Malheureusement, les opérateurs $\hat{L}$ et $\hat{A}$ ne commutent pas.
 Il est donc nécessaire de construire de nouveaux opérateurs qui commutent entre eux et vérifient les relations de commutation d'un moment cinétique à trois dimensions.
 Les opérateurs
 \begin{equation}\label{eq:defJ1J2}
 \begin{aligned}
-&\hat{\vec{J}}_1 = \frac{1}{2}\left( \hat{L} - \hat{a} \right)\\
+&\hat{\vec{J}}_1 = \frac{1}{2}\left( \hat{L} - \hat{A} \right)\\
 \text{et} & \\
-&\hat{\vec{J}}_2 = \frac{1}{2}\left( \hat{L} + \hat{a} \right).
+&\hat{\vec{J}}_2 = \frac{1}{2}\left( \hat{L} + \hat{A} \right).
 \end{aligned}
 \end{equation}
 vérifient ces propriétés, et commutent avec le hamiltonien.
@@ -366,7 +366,7 @@ Il n'y a d'ailleurs qu'une seule transition spontanée possible depuis le niveau
 En effet, il n'existe aucun niveau de plus basse énergie que $nC$ mais qui aurait un $l$ qui lui soit égal ou supérieur.
 La figure \eqref{fig:spontem_50C49C} représente les schémas de niveaux près de l'état circulaire $n=50$ et met en évidence l'absence de toute autre transition par émission spontanée depuis le niveau 50C.
 Le niveau 50C ne peut donc se désexciter spontanément que vers le niveau 49C, ce qui réduit considérablement la contribution de l'émission spontanée à son taux de désexcitation radiative.
-Le calcul du dipôle de transition $\braket{50\text{C}|\hat{\vec{d}}|49\text{C}}$ par la méthode de Numerov donne une valeur de $\numv{1704.71} e a_0$.
+Le calcul du dipôle de transition $\braket{50\text{C}|\hat{\vec{d}}|49\text{C}}$ donne une valeur de $\numv{1704.71} e a_0$.
 En appliquant l'équation \eqref{eq:EinsteinAif} à la fréquence de transition de $\SIv{54.25955}{\giga\hertz}$, on obtient un taux de désexcitation valant $\Gamma_{50C}(\SIvv{0}{\kelvin}) = A_{50C-49C} = \SIv{34.9056}{\hertz}$.
 Le temps de vie à température nulle du niveau 50C est donc de $\tau_{0,50C} = \SIv{28.65}{\ms}$, soit cent fois plus que celle du niveau 60S.
 \begin{figure}

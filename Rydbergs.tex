@@ -4,15 +4,17 @@
 
 Un atome de Rydberg est un atome dont un électron au moins occupe un état de grand nombre quantique principal $n$.
 Par là, un atome de Rydberg présente des propriétés physiques surdimensionnées par rapport à un atome non excité ou peu excité.
-On le remarque tout d'abord sur sa taille : un atome de rubidium dans le niveau $n=110$ a une extension spatiale de l'ordre d'$1 ~\si{\micro\meter}$, vingt mille fois plus grand que le rayon de Bohr qui représente l'ordre de grandeur caractéristique de la taille d'un atome dans son état fondamental.
+On le remarque tout d'abord sur sa taille : un atome de rubidium dans le niveau $n=110$ a une extension spatiale de l'ordre d'$1 ~\si{\micro\meter}$, vingt mille fois plus grande que le rayon de Bohr, qui représente l'ordre de grandeur caractéristique de la taille d'un atome dans son état fondamental.
 
 Avec un électron à une telle distance du c\oe ur atomique, les atomes de Rydberg présentent de très grands moments dipolaires de transition entre états de Rydberg voisins. On comprend dès lors leur très grande sensibilité au rayonnement électromagnétique \cite{ENS_ENHANCED}.
-Ces très grands moments dipolaires de transition engendrent également de très forts couplages entre atomes de Rydberg voisins par l'intermédiaire de l'interaction dipolaire. Ces couplages sont eux aussi plusieurs ordres de grandeur plus importants que ceux qui se manifestent entre des atomes dans le niveau fondamental.
-L'interaction dipolaire entre atomes de Rydberg est au c\oe ur des travaux de recherche présentés dans cette thèse. C²e premier chapitre vise à en apporter les éléments théoriques importants pour la compréhension des résultats et discussions qui seront abordés par la suite.
+Ces très grands moments dipolaires de transition engendrent également de très forts couplages entre atomes de Rydberg voisins, par l'intermédiaire de l'interaction dipolaire. Ces couplages sont eux aussi plusieurs ordres de grandeur plus importants que ceux qui se manifestent entre des atomes dans le niveau fondamental.
+L'interaction dipolaire entre atomes de Rydberg est au c\oe ur des travaux de recherche présentés dans cette thèse. Ce premier chapitre vise à en apporter les éléments théoriques importants pour la compréhension des résultats et discussions qui seront abordés par la suite.
 
 La première partie de ce chapitre décrit la théorie du défaut quantique \cite{TXT_GALLAGHER}, qui permet de calculer les énergies propres des états de Rydberg et leur fonction d'onde radiale loin du c\oe ur atomique positif.
 Il est alors aisé de calculer les éléments de matrice de l'opérateur de dipôle électrique entre deux niveaux de Rydberg.
-Connaître les dipôles de transition entre un niveau de Rydberg et les niveaux voisins est essentiel au calcul des interactions dipolaires entre deux atomes de Rydberg, ce que nous aborderons dans un deuxième paragraphe.
+Connaître les dipôles de transition entre un niveau de Rydberg et les niveaux voisins permet entre autres de calculer la durée de vie des niveaux de Rydberg.
+Nous introduirons ensuite la base des états paraboliques qui permet une description claire des niveaux de Rydberg circulaires en présence d'un champ extérieur.
+La connaissance des dipôles de transition est également essentielle au calcul des interactions dipolaires entre deux atomes de Rydberg, ce que nous aborderons dans un troisième paragraphe.
 Enfin, nous verrons le détail de cette interaction dans deux cas particuliers  : les atomes de Rydberg en interaction autour du niveau $60$S et les atomes de Rydberg en interaction autour du niveau circulaire $50$C.
 Ces deux cas particuliers seront à nouveau discutés plus en détail dans des chapitres dédiés aux expériences que nous avons menées.
 
@@ -112,18 +114,18 @@ Cette méthode s'appuie sur le fait que le potentiel à l'extérieur du c\oe ur 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\linewidth]{figures/WaveFunc_60S_}
-	\caption[Fonction d'onde du niveau 60S]{Probabilité de présence de l'électron dans le niveau $60$S.}
+	\caption[Fonction d'onde du niveau nS]{Probabilité de présence de l'électron dans le niveau nS : $r^2\times |R_{\mathrm{nS}}(r)|^2$, dans l'un quelconque de ses plans de symétrie.}
 	\label{fig:wavefunc60S}
 \end{figure}
 
-La figure \eqref{fig:wavefunc60S} montre la probabilité de présence $r^2|R_{60\mathrm{S}}(r)|^2$ de l'électron de Rydberg dans le niveau $60$S du \Rb{87}.
+La figure \eqref{fig:wavefunc60S} montre la probabilité de présence $r^2|R_{\mathrm{nS}}(r)|^2$ de l'électron de Rydberg dans le niveau nS du \Rb{87}.
 Cela montre que la fonction d'onde se situe essentiellement loin du c\oe ur atomique et justifie donc la validité de la méthode de Numerov.
 
 \`A partir du calcul de $R_{nl}(r)$, l'on peut aisément dériver la partie radiale de l'opérateur dipôle $\vec{d}$.
 L'on apprend en particulier que la partie radiale de $\vec{d}$ entre deux niveaux de nombre quantique principal similaire varie comme $\mathcal{R} \sim a_0\cdot n^{*2}$.
 Mentionnons ici que le rayon moyen de l'orbitale électronique d'un niveau de Rydberg est très similaire au calcul de la partie radiale de l'opérateur dipôle :
 \begin{equation}\label{eq:orbital_size}
-\braket{r_{\ket{n,l,j,m_j}}} = \int r^2dr~R_{nl}(r).r.R_{nl}(r) = \mathcal{R}(nl,nl)
+\braket{r_{\ket{n,l,j,m_j}}} = \int r^2dr~R_{nl}(r).r.R_{nl}(r) = \mathcal{R}(nl,nl) \propto a_0 \cdot n^{*2}.
 \end{equation}
 %\`A titre d'exemple, le niveau $60$S a ainsi un rayon moyen de $\braket{r} = 4850~a_0 = \numv{256.5}~\si{\nano\meter}$.
 
@@ -149,7 +151,7 @@ Les transitions dipolaires par émission d'un photon respectant la règle de sé
 \`A température finie cependant, l'absorption et l'émission stimulée vers les niveaux voisins entrent en jeu.
 Le coefficient d'Einstein pour l'absorption et  l'émission stimulée s'écrit ici
 \begin{equation}\label{eq:EinsteinBif}
-B_{if} = A_{if} \bar{n}(\omega_{if})
+B_{if} = A_{if} . \bar{n}(\omega_{if})
 \end{equation}
 Il s'agit alors de connaître, pour une température donnée, le taux d'occupation du rayonnement électromagnétique aux fréquences des transitions entre niveaux de Rydberg.
 Ce taux nous est donné par la distribution de Bose-Einstein pour un gaz de bosons \cite{TXT_GORECKIPHYSTAT} :
@@ -206,9 +208,10 @@ Il est clair d'après la figure \eqref{fig:matrixelements} que le rayonnement du
  	\end{tabular}
 \end{table}
 
-Le temps de vie du niveau 60S, de l'ordre de quelques $\SIv{100}{\micro\second}$ aux températures cryogéniques permet de manipuler et observer celui-ci pendant des temps qui sont longs
-MAIS PAS ASSEZ -> CIRCULAIRES
-
+Le temps de vie du niveau 60S, de l'ordre de $\SIvv{250}{\us}$ aux températures cryogéniques, permet d'observer et manipuler celui-ci pendant des temps qui sont longs à l'échelle du mouvement d'un nuage de Rydberg.
+Cependant si l'on souhaite développer une plateforme de simulation quantique, des temps d'observation beaucoup plus longs sont nécessaires.
+Les atomes de Rydberg circulaires ont des durées de vie à température nulle de l'ordre de la dizaine de \si{\ms}, soit cent fois plus que le niveau 60S.
+Cela fait des atomes circulaires de bons candidats pour un simulateur quantique.
 
 \section{Les niveaux de Rydberg circulaires}\label{sec:circ_parabol}
 \noindent Les niveaux de Rydberg de grand moment orbital, et en particulier les états de Rydberg circulaires, présentent une structure fine et un défaut quantique qui sont très largement négligeables.
@@ -216,7 +219,7 @@ Ils sont en cela parfaitement similaires à l'atome d'hydrogène.
 On peut utiliser pour les étudier les fonctions d'onde analytiques hydrogénoïdes sans perte de précision.
 Pour la même raison, le nombre quantique $j$ qui rend compte du couplage fin n'est plus nécessaire.
 
-Les autres perturbations que peut subir le modèle de l'atome d'hydrogène, comme la présence d'un champ électrique ou magnétique extérieur en deviennent deviennent d'autant plus importantes à prendre en compte.
+Les autres perturbations que peut subir le modèle de l'atome d'hydrogène, comme la présence d'un champ électrique ou magnétique extérieur en deviennent d'autant plus importantes à prendre en compte.
 De plus, les niveaux circulaires étant extrêmement anisotropes, l'absence d'axe de quantification leur est préjudiciable.
 Ils se mélangent alors rapidement aux niveaux voisins et il est utile de leur imposer un faible champ électrique afin de pallier ce problème.
 En premier lieu, le champ extérieur définit un axe de quantification pour le moment cinétique orbital de l'atome.
@@ -231,7 +234,7 @@ La mécanique céleste a traité extensivement des mouvements à force centrale,
 
 L'analogie entre l'interaction gravitationnelle des corps célestes et l'interaction coulombienne au sein des atomes permet de définir l'opérateur vectoriel :
 \begin{equation}\label{eq:RungeLenz}
-\hat{A} = \frac{1}{\sqrt{-2m_e E}} \left( \frac{1}{2} (\hat{\vec{p}}\wedge\hat{\vec{L}} - \hat{\vec{L}}\wedge\hat{\vec{p}}) - m_e e^2 \frac{\vec{r}}{r} \right).
+\hat{\vec{A}} = \frac{1}{\sqrt{-2m_e E}} \left( \frac{1}{2} (\hat{\vec{p}}\wedge\hat{\vec{L}} - \hat{\vec{L}}\wedge\hat{\vec{p}}) - m_e e^2 \frac{\vec{r}}{r} \right).
 \end{equation}
 Cet invariant commute avec le hamiltonien de l'atome d'hydrogène et est de même dimension que l'opérateur de moment orbital $\vec{\hat{L}}$.
 Les vecteurs propres de $\hat{\vec{A}}$ prennent donc une forme similaire à ceux de $\hat{\vec{L}}$ et ses valeurs propres varient de $0$ à $\hbar(n-1)$.
@@ -248,7 +251,7 @@ Les vecteurs propres de $\hat{\vec{A}}$ prennent donc une forme similaire à ceu
 %Ce vecteur est donc un générateur des rotations dans l'espace à trois dimensions, défini par les coordonnées $\{ \text{excentricité selon }(Ox), \text{ excentricité selon }(Oy), \text{moment cinétique selon }(Oz)\}$.
 
 Malheureusement, les opérateurs $\hat{L}$ et $\hat{A}$ ne commutent pas.
-Il est donc nécessaire de construire de nouveaux opérateurs qui commutent entre eux et vérifient les relations de commutation d'un moment cinétique à trois dimensions.
+Il est donc nécessaire, afin d'obtenir une bonne base de description, de construire de nouveaux opérateurs qui commutent entre eux et vérifient les relations de commutation d'un moment cinétique à trois dimensions.
 Les opérateurs
 \begin{equation}\label{eq:defJ1J2}
 \begin{aligned}
@@ -260,13 +263,13 @@ Les opérateurs
 vérifient ces propriétés, et commutent avec le hamiltonien.
 Au sein d'une même multiplicité, ces opérateurs vérifient 
 \begin{equation}\label{eq:defJ1J2sq}
-\hat{\vec{J}}_1^2 = \hat{\vec{J}}_2^2 = -\frac{\hbar^2}{4}-\frac{m_ee^4}{8E}
+\hat{\vec{J}}_1^2 = \hat{\vec{J}}_2^2 = -\frac{\hbar^2}{4}-\frac{m_ee^4}{8E},
 \end{equation}
 ce qui s'écrit aussi
 \begin{equation}\label{eq:E_j1_j2}
-E=-\frac{m_ee^4}{2\hbar^2(2j_1+1)^2}=-\frac{m_ee^4}{2\hbar^2(2j_2+1)^2}
+E=-\frac{m_ee^4}{2\hbar^2(2j_1+1)^2}=-\frac{m_ee^4}{2\hbar^2(2j_2+1)^2}~.
 \end{equation}
-L'on retrouve ici le fait que pour une énergie $E$ fixée et donc au sein d'une multiplicité de nombre quantique principal $n$, $\hat{\vec{J}}_1$ et $\hat{\vec{J}}_2$ définissent chacun un moment cinétique $(n-1)/2$.
+L'on retrouve ici le fait que pour une énergie $E$ fixée et donc au sein d'une multiplicité de nombre quantique principal $n$, $\hat{\vec{J}}_1$ et $\hat{\vec{J}}_2$ définissent chacun un moment cinétique $j_{1,2}=(n-1)/2$.
 
 Les états propres au sein d'une même multiplicité sont alors obtenus en diagonalisant $\hat{\vec{J}}_1^2$, $\hat{\vec{J}}_2^2$ et les composantes $\hat{J}_{1z}$ et $\hat{J}_{2z}$.
 En notant $\hbar m_{1,2}$ les valeurs propres de $\hat{J}_{1,2~z}$, on pourra caractériser les états propres par les nombres $\{j_1,m_1,j_2,m_2\}$.
@@ -304,8 +307,8 @@ le nombre quantique principal
 &m \text{ \begin{small}
 le nombre quantique magnétique variant de
 \end{small} }
-(-n+1)~~ \text{ \begin{small} à \end{small}} ~~(n-1)\\
-&k=m_1-m_2 \text{ \begin{small} variant de\end{small} } (-m-n+1)~~ \text{ \begin{small} à \end{small} } ~~(-m+n-1).
+-(n-1)~~ \text{ \begin{small} à \end{small}} ~~(n-1)\\
+&k=m_1-m_2 \text{ \begin{small} variant de\end{small} } (-m-(n-1))~~ \text{ \begin{small} à \end{small} } ~~(-m+n-1).
 \end{aligned} \right.
 \end{equation}
 %
@@ -325,12 +328,15 @@ Seuls les niveaux de très grand $m$ sont représentés.
 
 Le niveau de $m$ maximal dans une multiplicité donnée, $\ket{n,m=n-1,k=0} =\ket{n,l=n-1,m=l}$, est appelé le niveau circulaire nC.
 Sa fonction d'onde électronique se réduit à un tore éloigné du c\oe ur atomique, de rayon $\sim n(n-1)a_0$, et contenu dans le plan perpendiculaire à l'axe de quantification.
-La figure \eqref{fig:wavefunc50C} montre la probabilité de présence $r^2|R(r)|^2$ de l'électron dans le plan perpendiculaire à l'axe de quantification, pour le niveau de Rydberg nC. Celle-ci a une valeur moyenne valant $\sim n^2 a_0$.
+La figure \eqref{fig:wavefunc50C} montre la probabilité de présence $r^2|R(r)|^2$ de l'électron dans le plan perpendiculaire à l'axe de quantification, pour le niveau de Rydberg nC. Celle-ci a une présente un rayon moyen valant
+\begin{equation}\label{eq:rayon_nC}
+\braket{r_{\ket{\mathrm{nC}}}}\simeq  a_0 \cdot n^2.
+\end{equation}
 Les niveaux de $m$ élevé mais non maximal seront appelés niveaux elliptiques en raison de la forme de leurs fonctions d'onde et seront étiquetés sur la base $\ket{n,m,k}$.
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\linewidth]{figures/WaveFunc_50C_}
-	\caption[Fonction d'onde du niveau nC]{Probabilité de présence de l'électron dans le niveau nC : $r^2\times |R_{n\mathrm{C}}(r)|^2$.
+	\includegraphics[width=0.5\linewidth]{figures/WaveFunc_50C_}
+	\caption[Fonction d'onde du niveau nC]{Probabilité de présence de l'électron dans le niveau nC : $r^2\times |R_{n\mathrm{C}}(r)|^2$, dans le plan perpendiculaire à l'axe de quantification et passant par le noyau.
 	Celle-ci décrit un tore de rayon $n^2a_0$ autour du c\oe ur atomique.}
 	\label{fig:wavefunc50C}
 \end{figure}
@@ -339,37 +345,20 @@ Les niveaux de $m$ élevé mais non maximal seront appelés niveaux elliptiques 
 
 
 \subsection{Le niveau de Rydberg 50C : $\mathbf{\ket{n=50,l=49,m_l=49}}$}
-%	Le cas des niveaux circulaires est assez différent. En effet, ceux-ci sont définis par leur moment cinétique orbital maximal $l=n-1$, ainsi que par la projection de ce moment cinétique sur l'axe de quantification, elle aussi maximale : $|m_l| = l = (n-1)$.
-%	Cela amène à une orbitale électronique qui se réduit à un tore, éloigné du c\oe ur atomique et contenu dans le plan perpendiculaire à l'axe de quantification du moment cinétique. La figure \eqref{fig:wavefunc50C} montre la probabilité de présence de l'électron dans le niveau de Rydberg 50C.	
-%\begin{figure}[!h]
-%	\centering
-%	\includegraphics[width=0.6\linewidth]{figures/WaveFunc_50C_}
-%	\caption[Fonction d'onde du niveau 50C]{Probabilité de présence de l'électron dans le niveau 50C : $r^2\times |R_{50\mathrm{C}}(r)|^2$.}
-%	\label{fig:wavefunc50C}
-%\end{figure}
-%La méthode de Numerov permet de calculer le rayon moyen de cette orbitale électronique,
-%\begin{equation}
-%\braket{r}_{50\mathrm{C}} = 2500~a_0 = \numv{132}\si{\nano\meter},
-%\end{equation}
-%mais il est intéressant de noter que la partie radiale de la fonction d'onde se réduit à une expression analytique simple pour les niveaux circulaires.
-%
-%La dérivation de cette expression mène rapidement à l'affirmation que le maximum de $r^2|R_{nC}(r)|^2$ se situe exactement en $n^2 a_0$ et, étant donnée la forme de $r^2|R_{nC}(r)|^2$, que
-%\begin{equation}\label{eq:rayon_nC}
-%\braket{r}_{n\mathrm{C}} \simeq n^2\times a_0.
-%\end{equation}
+
 \noindent Parmi les niveaux de Rydberg circulaires, le niveau 50C sera d'un intérêt particulier pour nous.
 Ce niveau circulaire $n=50$ a une taille valant $\braket{r}_{50C} \simeq 50^2 a_0 = 2500 a_0 = \numv{132}\si{\nano\meter}$.
 	
 
 En ce qui concerne leur temps de vie, les niveaux de Rydberg circulaires ont une différence essentielle avec les niveaux de faible $l$ : les niveaux circulaires n'ont de transition dipolaire possible que vers des niveaux eux aussi à très grand $l$, et donc à très grand $n$.
-Il n'y a d'ailleurs qu'une seule transition spontanée possible depuis le niveau $\ket{n,l=n-1,m_l=l}$, c'est celle vers le niveau circulaire $\ket{n'=n-1,l'=n'-1,m_l'=l'}$.
-En effet, il n'existe aucun niveau de plus basse énergie que $nC$ mais qui aurait un $l$ qui lui soit égal ou supérieur.
+Il n'y a d'ailleurs qu'une seule transition spontanée possible depuis le niveau circulaire $\text{nC}=\ket{n,l=n-1,m_l=l}$, c'est celle vers le niveau circulaire $\text{(n-1)C}=\ket{n'=n-1,l'=n'-1,m_l'=l'}$.
+En effet, il n'existe aucun niveau de plus basse énergie que $\mathrm{nC}$ mais qui aurait un $l$ qui lui soit égal ou supérieur.
 La figure \eqref{fig:spontem_50C49C} représente les schémas de niveaux près de l'état circulaire $n=50$ et met en évidence l'absence de toute autre transition par émission spontanée depuis le niveau 50C.
 Le niveau 50C ne peut donc se désexciter spontanément que vers le niveau 49C, ce qui réduit considérablement la contribution de l'émission spontanée à son taux de désexcitation radiative.
 Le calcul du dipôle de transition $\braket{50\text{C}|\hat{\vec{d}}|49\text{C}}$ donne une valeur de $\numv{1704.71} e a_0$.
-En appliquant l'équation \eqref{eq:EinsteinAif} à la fréquence de transition de $\SIv{54.25955}{\giga\hertz}$, on obtient un taux de désexcitation valant $\Gamma_{50C}(\SIvv{0}{\kelvin}) = A_{50C-49C} = \SIv{34.9056}{\hertz}$.
-Le temps de vie à température nulle du niveau 50C est donc de $\tau_{0,50C} = \SIv{28.65}{\ms}$, soit cent fois plus que celle du niveau 60S.
-\begin{figure}
+En appliquant l'équation \eqref{eq:EinsteinAif} à la fréquence de transition $\mathrm{50C}\rightarrow \mathrm{49C}$ de $\SIv{54.25955}{\giga\hertz}$, on obtient un taux de désexcitation valant $\Gamma_{50C}(\SIvv{0}{\kelvin}) = A_{i=50C-f=49C} = \SIv{34.9056}{\hertz}$.
+Le temps de vie à température nulle du niveau 50C est donc de $\tau_{0,50C} = \SIv{28.65}{\ms}$, soit cent fois plus que pour le niveau 60S.
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{figures/spontem_50C49C}
 	\caption[Schéma de niveaux 50C-49C]{Schéma de niveaux des multiplicités $n=50$ et $n=49$ près des niveaux 50C et 49C. La seule transition possible par émission spontanée depuis le 50C est la transition vers le 49C.}
@@ -379,9 +368,10 @@ Le temps de vie à température nulle du niveau 50C est donc de $\tau_{0,50C} = 
 %La limitation de la durée de vie du niveau 50C provient donc en premier lieu de l'absorption et de l'émission stimulée par le rayonnement du corps noir vers les niveaux accessibles par transition dipolaire électrique.
 Étant donné le faible taux de désexcitation spontanée du niveau 50C, l'effet du rayonnement du corps noir sur sa durée de vie sera important dès les très basses températures.
 Le rayonnement du corps noir amplifiera non seulement le taux de désexcitation vers le niveau 49C, mais autorisera également par absorption les transitions vers les niveaux de $n$ supérieur.
-Ainsi, alors que la réduction du temps de vie du niveau 60S entre $\numv{0}\si{\kelvin}$ et $\numv{4.2}\si{\kelvin}$ est faible (voir table \ref{tab:lifetime_60S}), la réduction du temps de vie du niveau 50C entre $\numv{0}\si{\kelvin}$ et $\numv{4}\si{\kelvin}$ sera bien plus importante.
-\`A température ambiante de $\numv{300}\si{\kelvin}$, la durée de vie de 50C tombe en effet à $\numv{122}\si{\micro\second}$, très similaire à celle du niveau 60S.
+Ainsi, alors que la réduction du temps de vie du niveau 60S entre $\numv{0}\si{\kelvin}$ et $\numv{4.2}\si{\kelvin}$ est faible (voir table \ref{tab:lifetime_60S}, la durée de vie du 60S est réduite de $(1-\numvv{239.8}/\numvv{244.5}) = 2\%$), la réduction du temps de vie du niveau 50C entre $\SIvv{0}{\K}$ et $\SIvv{4.2}{\K}$ est bien plus importante et se porte à $(1-\numv{8.36}/\numv{28.65}) = 71\%$.
+\`A température ambiante de $\numv{300}\si{\kelvin}$, la durée de vie de 50C est même réduite à $\numv{122}\si{\micro\second}$, très similaire à celle du niveau 60S.
 La figure \eqref{fig:lifetime_50C} montre l'évolution de la durée de vie du niveau 50C en fonction de la température de rayonnement du corps noir, calculée à partir des équations \eqref{eq:EinsteinBif} et \eqref{eq:BoseStat}.
+
 
 \begin{figure}[!h]
 	\centering

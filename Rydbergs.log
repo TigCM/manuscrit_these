@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.14)  14 SEP 2017 21:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.14)  15 SEP 2017 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -440,6 +440,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -456,6 +457,7 @@ Missing character: There is no B in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -936,6 +938,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1203,8 +1206,6 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no C in font nullfont!
-Missing character: There is no � in font nullfont!
-Missing character: There is no � in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1749,8 +1750,255 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no � in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1761,6 +2009,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -1844,10 +2094,11 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no x in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no � in font nullfont!
 Missing character: There is no � in font nullfont!
@@ -2156,32 +2407,32 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 13--18
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--20
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 13--18
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 13--20
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 13--18
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 13--20
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 13--18
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 13--20
 \OT1/cmr/m/n/10 60$
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 13--18
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 13--20
 \OT1/cmr/m/n/10 50$
  []
 
 ! Undefined control sequence.
-l.19 \section
+l.21 \section
              {Les atomes de Rydberg alcalins : des hydrogénoïdes géants}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2196,7 +2447,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 \section{L
+l.21 \section{L
                es atomes de Rydberg alcalins : des hydrogénoïdes géants}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2621,7 +2872,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.21 ...otonique simple de charge totale $+q=\numv
+l.23 ...otonique simple de charge totale $+q=\numv
                                                   {1.602176565(35)d-19}\si{\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2630,7 +2881,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.21 ...e totale $+q=\numv{1.602176565(35)d-19}\si
+l.23 ...e totale $+q=\numv{1.602176565(35)d-19}\si
                                                   {\coulomb}$ \cite{MX_CODAT...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2639,7 +2890,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.21 ...$+q=\numv{1.602176565(35)d-19}\si{\coulomb
+l.23 ...$+q=\numv{1.602176565(35)d-19}\si{\coulomb
                                                   }$ \cite{MX_CODATA14}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2652,7 +2903,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.21 ...(35)d-19}\si{\coulomb}$ \cite{MX_CODATA14}
+l.23 ...(35)d-19}\si{\coulomb}$ \cite{MX_CODATA14}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2661,7 +2912,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `MX_CODATA14' on page  undefined on input line 21.
+LaTeX Warning: Citation `MX_CODATA14' on page  undefined on input line 23.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -2811,7 +3062,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.22 ...au électronique fondamental $1$S a un \og
+l.24 ...au électronique fondamental $1$S a un \og
                                                    rayon \fg{} caractéristi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2825,7 +3076,7 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.22 ...onique fondamental $1$S a un \og rayon \fg
+l.24 ...onique fondamental $1$S a un \og rayon \fg
                                                   {} caractéristique $a_0 =...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2850,7 +3101,7 @@ Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.22 ... rayon \fg{} caractéristique $a_0 = \numv
+l.24 ... rayon \fg{} caractéristique $a_0 = \numv
                                                   {0,52917721092(17)}\si{\an...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2859,7 +3110,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...istique $a_0 = \numv{0,52917721092(17)}\si
+l.24 ...istique $a_0 = \numv{0,52917721092(17)}\si
                                                   {\angstrom}$ \cite{MX_CODA...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2868,7 +3119,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ..._0 = \numv{0,52917721092(17)}\si{\angstrom
+l.24 ..._0 = \numv{0,52917721092(17)}\si{\angstrom
                                                   }$ \cite{MX_CODATA14}, alo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2881,7 +3132,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.22 ...092(17)}\si{\angstrom}$ \cite{MX_CODATA14}
+l.24 ...092(17)}\si{\angstrom}$ \cite{MX_CODATA14}
                                                   , alors que le proton a un...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2890,7 +3141,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `MX_CODATA14' on page  undefined on input line 22.
+LaTeX Warning: Citation `MX_CODATA14' on page  undefined on input line 24.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -2919,7 +3170,7 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.22 ...lors que le proton a un rayon $r_p = \numv
+l.24 ...lors que le proton a un rayon $r_p = \numv
                                                   {0.8775(51)}\si{\femto\met...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2928,7 +3179,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...ton a un rayon $r_p = \numv{0.8775(51)}\si
+l.24 ...ton a un rayon $r_p = \numv{0.8775(51)}\si
                                                   {\femto\meter}$ \cite{MX_C...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2937,7 +3188,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...n rayon $r_p = \numv{0.8775(51)}\si{\femto
+l.24 ...n rayon $r_p = \numv{0.8775(51)}\si{\femto
                                                   \meter}$ \cite{MX_CODATA14}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2946,7 +3197,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.22 ...n $r_p = \numv{0.8775(51)}\si{\femto\meter
+l.24 ...n $r_p = \numv{0.8775(51)}\si{\femto\meter
                                                   }$ \cite{MX_CODATA14}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2959,7 +3210,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.22 ...(51)}\si{\femto\meter}$ \cite{MX_CODATA14}
+l.24 ...(51)}\si{\femto\meter}$ \cite{MX_CODATA14}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2968,82 +3219,82 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `MX_CODATA14' on page  undefined on input line 22.
+LaTeX Warning: Citation `MX_CODATA14' on page  undefined on input line 24.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 19--23
+Overfull \hbox (20.0pt too wide) in paragraph at lines 21--25
 []
  []
 
 
-Overfull \hbox (6.00235pt too wide) in paragraph at lines 19--23
+Overfull \hbox (6.00235pt too wide) in paragraph at lines 21--25
 \OML/cmm/m/it/10 n$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--23
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 21--25
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--23
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 21--25
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (23.15622pt too wide) in paragraph at lines 19--23
+Overfull \hbox (23.15622pt too wide) in paragraph at lines 21--25
 \OT1/cmr/m/n/10 +\OML/cmm/m/it/10 q \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (97.9828pt too wide) in paragraph at lines 19--23
+Overfull \hbox (97.9828pt too wide) in paragraph at lines 21--25
 [][]$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 19--23
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 21--25
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--23
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 21--25
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 19--23
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--25
 \OT1/cmr/m/n/10 1$
  []
 
 
-Overfull \hbox (20.32753pt too wide) in paragraph at lines 19--23
+Overfull \hbox (20.32753pt too wide) in paragraph at lines 21--25
 \OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (82.22243pt too wide) in paragraph at lines 19--23
+Overfull \hbox (82.22243pt too wide) in paragraph at lines 21--25
 [][]$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 19--23
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 21--25
 []
  []
 
 
-Overfull \hbox (19.68944pt too wide) in paragraph at lines 19--23
+Overfull \hbox (19.68944pt too wide) in paragraph at lines 21--25
 \OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (45.5557pt too wide) in paragraph at lines 19--23
+Overfull \hbox (45.5557pt too wide) in paragraph at lines 21--25
 [][]$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 19--23
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 21--25
 [] 
  []
 
@@ -3054,7 +3305,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 L
+l.26 L
       es cinq ordres de grandeur séparant le rayon de l'orbite électroniqu...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3294,12 +3545,12 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 24--26
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--28
 []
  []
 
 
-Overfull \hbox (76.75731pt too wide) detected at line 28
+Overfull \hbox (76.75731pt too wide) detected at line 30
 []\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n; l; j\OT1/cmr/m/n/10 ) 
 = \OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 ;
  []
@@ -3311,7 +3562,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 a
+l.32 a
       vec
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3321,12 +3572,12 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 30--31
+Overfull \hbox (20.0pt too wide) in paragraph at lines 32--33
 [] 
  []
 
 
-Overfull \hbox (100.04494pt too wide) detected at line 33
+Overfull \hbox (100.04494pt too wide) detected at line 35
 []\OML/cmm/m/it/10 E[] \OT1/cmr/m/n/10 = [][]
  []
 
@@ -3630,47 +3881,47 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 33--35
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 35--37
        $\OT1/cmr/m/n/10 1$
  []
 
 
-Overfull \hbox (10.79166pt too wide) in paragraph at lines 33--35
+Overfull \hbox (10.79166pt too wide) in paragraph at lines 35--37
 \OML/cmm/m/it/10 M$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 33--35
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 35--37
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (26.82915pt too wide) in paragraph at lines 33--35
+Overfull \hbox (26.82915pt too wide) in paragraph at lines 35--37
 \OML/cmm/m/it/10 m[]$
  []
 
 
-Overfull \hbox (20.43407pt too wide) in paragraph at lines 33--35
+Overfull \hbox (20.43407pt too wide) in paragraph at lines 35--37
 []\OML/cmm/m/it/10 Rb$
  []
 
 
-Overfull \hbox (6.00235pt too wide) in paragraph at lines 33--35
+Overfull \hbox (6.00235pt too wide) in paragraph at lines 35--37
 \OML/cmm/m/it/10 n$
  []
 
 
-Overfull \hbox (13.07425pt too wide) in paragraph at lines 33--35
+Overfull \hbox (13.07425pt too wide) in paragraph at lines 35--37
 \OML/cmm/m/it/10 m[]$
  []
 
 
-Overfull \hbox (8.54517pt too wide) in paragraph at lines 33--35
+Overfull \hbox (8.54517pt too wide) in paragraph at lines 35--37
 \OML/cmm/m/it/10 ^^O[]$
  []
 
 
-Overfull \hbox (5.76172pt too wide) in paragraph at lines 33--35
+Overfull \hbox (5.76172pt too wide) in paragraph at lines 35--37
 []$
  []
 
@@ -3681,7 +3932,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 L
+l.38 L
       es états propres de ce modèle s'écrivent en coordonnées sphérique...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3898,7 +4149,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.36 ...res $\theta$ et $\phi$ \cite{TXT_COHEN1FR}
+l.38 ...res $\theta$ et $\phi$ \cite{TXT_COHEN1FR}
                                                    :
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3907,42 +4158,42 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `TXT_COHEN1FR' on page  undefined on input line 36.
+LaTeX Warning: Citation `TXT_COHEN1FR' on page  undefined on input line 38.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 36--37
+Overfull \hbox (20.0pt too wide) in paragraph at lines 38--39
 []
  []
 
 
-Overfull \hbox (4.78937pt too wide) in paragraph at lines 36--37
+Overfull \hbox (4.78937pt too wide) in paragraph at lines 38--39
 \OML/cmm/m/it/10 r$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 36--37
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 38--39
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (4.97223pt too wide) in paragraph at lines 36--37
+Overfull \hbox (4.97223pt too wide) in paragraph at lines 38--39
 \OML/cmm/m/it/10 ^^R$
  []
 
 
-Overfull \hbox (5.95834pt too wide) in paragraph at lines 36--37
+Overfull \hbox (5.95834pt too wide) in paragraph at lines 38--39
 \OML/cmm/m/it/10 ^^^$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 36--37
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 38--39
 []
  []
 
 
-Overfull \hbox (127.44368pt too wide) detected at line 39
+Overfull \hbox (127.44368pt too wide) detected at line 41
 []\OML/cmm/m/it/10  \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 r; ^^R; ^^^\OT1/cmr/m/n/1
 0 ) = \OML/cmm/m/it/10 R[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 r\OT1/cmr/m/n/10 ) 
 \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 Y[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^R;
@@ -4427,7 +4678,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.42 ..., le couplage hyperfin \cite{TXT_COHEN2FR}
+l.44 ..., le couplage hyperfin \cite{TXT_COHEN2FR}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4436,27 +4687,27 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `TXT_COHEN2FR' on page  undefined on input line 42.
+LaTeX Warning: Citation `TXT_COHEN2FR' on page  undefined on input line 44.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (3.18057pt too wide) in paragraph at lines 39--43
+Overfull \hbox (3.18057pt too wide) in paragraph at lines 41--45
  $\OML/cmm/m/it/10 l$
  []
 
 
-Overfull \hbox (11.8496pt too wide) in paragraph at lines 39--43
+Overfull \hbox (11.8496pt too wide) in paragraph at lines 41--45
 \OML/cmm/m/it/10 m[]$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 39--43
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 41--45
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 39--43
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 41--45
 [] 
  []
 
@@ -4467,7 +4718,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 E
+l.46 E
       n présence de couplage fin, les bons nombres quantiques deviennent $n...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4760,42 +5011,42 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 44--45
+Overfull \hbox (20.0pt too wide) in paragraph at lines 46--47
 []
  []
 
 
-Overfull \hbox (39.64479pt too wide) in paragraph at lines 44--45
+Overfull \hbox (39.64479pt too wide) in paragraph at lines 46--47
 \OML/cmm/m/it/10 n; l; j; m[]$
  []
 
 
-Overfull \hbox (15.246pt too wide) in paragraph at lines 44--45
+Overfull \hbox (15.246pt too wide) in paragraph at lines 46--47
 \OML/cmm/m/it/10 j \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (10.95837pt too wide) in paragraph at lines 44--45
+Overfull \hbox (10.95837pt too wide) in paragraph at lines 46--47
 \OML/cmm/m/it/10 l \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (4.6875pt too wide) in paragraph at lines 44--45
+Overfull \hbox (4.6875pt too wide) in paragraph at lines 46--47
 \OML/cmm/m/it/10 s$
  []
 
 
-Overfull \hbox (15.24301pt too wide) in paragraph at lines 44--45
+Overfull \hbox (15.24301pt too wide) in paragraph at lines 46--47
 \OML/cmm/m/it/10 s \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (15.00005pt too wide) in paragraph at lines 44--45
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 46--47
 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 2$
  []
 
 
-Overfull \hbox (4.69049pt too wide) in paragraph at lines 44--45
+Overfull \hbox (4.69049pt too wide) in paragraph at lines 46--47
 \OML/cmm/m/it/10 j$
  []
 
@@ -4806,7 +5057,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 E
+l.48 E
       n comparaison avec l'atome d'hydrogène, le c\oe ur positif de l'atome...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4948,7 +5199,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ... bien plus importante \cite{TXT_GALLAGHER}
+l.48 ... bien plus importante \cite{TXT_GALLAGHER}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4957,7 +5208,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `TXT_GALLAGHER' on page  undefined on input line 46.
+LaTeX Warning: Citation `TXT_GALLAGHER' on page  undefined on input line 48.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -5577,37 +5828,37 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 46--51
+Overfull \hbox (20.0pt too wide) in paragraph at lines 48--53
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 46--51
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 48--53
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--51
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 48--53
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 46--51
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 48--53
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 46--51
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 48--53
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 46--51
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 48--53
 \OT1/cmr/m/n/10 ^^[
  []
 
 ! Undefined control sequence.
-l.52 	\subsection
+l.54 	\subsection
                  {Hamiltonien de l'atome de Rydberg et défaut quantique}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5622,7 +5873,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 	\subsection{H
+l.54 	\subsection{H
                    amiltonien de l'atome de Rydberg et défaut quantique}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5939,7 +6190,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.53 ...iveaux électroniques \cite{TXT_GALLAGHER}
+l.55 ...iveaux électroniques \cite{TXT_GALLAGHER}
                                                   , qui devient
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5948,7 +6199,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `TXT_GALLAGHER' on page  undefined on input line 53.
+LaTeX Warning: Citation `TXT_GALLAGHER' on page  undefined on input line 55.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -5963,37 +6214,37 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 52--54
+Overfull \hbox (20.0pt too wide) in paragraph at lines 54--56
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 52--54
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 54--56
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 52--54
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 54--56
 \OT1/cmr/m/n/10 ^^[
  []
 
 
-Overfull \hbox (16.17079pt too wide) in paragraph at lines 52--54
+Overfull \hbox (16.17079pt too wide) in paragraph at lines 54--56
 \OML/cmm/m/it/10 ^^N[]$
  []
 
 
-Overfull \hbox (6.00235pt too wide) in paragraph at lines 52--54
+Overfull \hbox (6.00235pt too wide) in paragraph at lines 54--56
 \OML/cmm/m/it/10 n$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 52--54
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 54--56
 []
  []
 
 
-Overfull \hbox (103.66856pt too wide) detected at line 56
+Overfull \hbox (103.66856pt too wide) detected at line 58
 []\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n; l; j\OT1/cmr/m/n/10 ) 
 = []\OML/cmm/m/it/10 ;
  []
@@ -6003,7 +6254,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 
-Overfull \hbox (257.38245pt too wide) detected at line 60
+Overfull \hbox (257.38245pt too wide) detected at line 62
 []\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n; l; j\OT1/cmr/m/n/10 
 ) = \OML/cmm/m/it/10 ^^N[] \OT1/cmr/m/n/10 + [] + [] + [] + [] \OML/cmm/m/it/10
  :
@@ -6016,7 +6267,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 \begin{table}
+l.64 \begin{table}
                   [tph!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6029,7 +6280,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 \begin{table}[
+l.64 \begin{table}[
                    tph!]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6047,7 +6298,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 	\caption
+l.66 	\caption
               [Défauts quantiques du $^{87}Rb$ et $^{85}Rb$]{Défauts quant...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6098,7 +6349,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no u in font nullfont!
 ! Undefined control sequence.
-l.64 ... et $^{85}Rb$]{Défauts quantiques  du \Rb
+l.66 ... et $^{85}Rb$]{Défauts quantiques  du \Rb
                                                   {85} extraits de \cite{MX_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6123,7 +6374,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.64 ...AGHERSPECRBNSND03, MX_GALLAGHERSPECRBNF06}
+l.66 ...AGHERSPECRBNSND03, MX_GALLAGHERSPECRBNF06}
                                                    et du \Rb{87} extraits de...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6133,14 +6384,14 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `MX_GALLAGHERSPECRBNSND03' on page  undefined on input 
-line 64.
+line 66.
 
 Missing character: There is no , in font nullfont!
 \citation{MX_GALLAGHERSPECRBNF06}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.64 ...AGHERSPECRBNSND03, MX_GALLAGHERSPECRBNF06}
+l.66 ...AGHERSPECRBNSND03, MX_GALLAGHERSPECRBNF06}
                                                    et du \Rb{87} extraits de...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6150,7 +6401,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `MX_GALLAGHERSPECRBNF06' on page  undefined on input li
-ne 64.
+ne 66.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -6158,7 +6409,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no u in font nullfont!
 ! Undefined control sequence.
-l.64 ...BNSND03, MX_GALLAGHERSPECRBNF06} et du \Rb
+l.66 ...BNSND03, MX_GALLAGHERSPECRBNF06} et du \Rb
                                                   {87} extraits de \cite{MX_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6183,7 +6434,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.64 ... \Rb{87} extraits de \cite{MX_MACKNSNDRYD}
+l.66 ... \Rb{87} extraits de \cite{MX_MACKNSNDRYD}
                                                   }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6192,7 +6443,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `MX_MACKNSNDRYD' on page  undefined on input line 64.
+LaTeX Warning: Citation `MX_MACKNSNDRYD' on page  undefined on input line 66.
 
 Missing character: There is no ] in font nullfont!
 
@@ -6202,7 +6453,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6214,7 +6465,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6226,7 +6477,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6238,7 +6489,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6250,7 +6501,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6262,7 +6513,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6274,7 +6525,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6286,7 +6537,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6298,7 +6549,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6310,7 +6561,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6322,7 +6573,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6334,7 +6585,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6346,7 +6597,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6358,7 +6609,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6370,7 +6621,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6382,7 +6633,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6394,7 +6645,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6406,7 +6657,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6418,7 +6669,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6430,7 +6681,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6442,7 +6693,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6454,7 +6705,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6466,7 +6717,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6478,7 +6729,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6490,7 +6741,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6502,7 +6753,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6514,7 +6765,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6526,7 +6777,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6538,7 +6789,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6550,7 +6801,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6562,7 +6813,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6574,7 +6825,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6586,7 +6837,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6598,7 +6849,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6610,7 +6861,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6622,7 +6873,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6634,7 +6885,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6646,7 +6897,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6658,7 +6909,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6670,7 +6921,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6682,7 +6933,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6694,7 +6945,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6706,7 +6957,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6718,7 +6969,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6730,7 +6981,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6742,7 +6993,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6754,7 +7005,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6766,7 +7017,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6778,7 +7029,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6790,7 +7041,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6802,7 +7053,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6814,7 +7065,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6826,7 +7077,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6838,7 +7089,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6850,7 +7101,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6862,7 +7113,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6874,7 +7125,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6886,7 +7137,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6898,7 +7149,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6910,7 +7161,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6922,7 +7173,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6934,7 +7185,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6946,7 +7197,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6958,7 +7209,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6970,7 +7221,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6982,7 +7233,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6994,7 +7245,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7006,7 +7257,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7018,7 +7269,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7030,13 +7281,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...  S[table-format=1.10]S[table-format=2.6]}
+l.68 ...  S[table-format=1.10]S[table-format=2.6]}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.67 		\toprule
+l.69 		\toprule
                \midrule
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7045,7 +7296,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.67 		\toprule\midrule
+l.69 		\toprule\midrule
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7056,7 +7307,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@sharp ->\Rb 
               {85}
-l.68 		 &  \multicolumn{2}{c}{\Rb{85}}
+l.70 		 &  \multicolumn{2}{c}{\Rb{85}}
                                       	&   \multicolumn{2}{c}{\Rb{87}}  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7069,7 +7320,7 @@ Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
 \@sharp ->\Rb 
               {87}
-l.68 ...}{\Rb{85}}	&   \multicolumn{2}{c}{\Rb{87}}
+l.70 ...}{\Rb{85}}	&   \multicolumn{2}{c}{\Rb{87}}
                                                     \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7082,7 +7333,7 @@ Missing character: There is no 7 in font nullfont!
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.69 		 \midrule
+l.71 		 \midrule
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7093,7 +7344,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.71 		\midrule
+l.73 		\midrule
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7331,7 +7582,7 @@ Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.81 		\midrule
+l.83 		\midrule
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7340,7 +7591,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.82 		\bottomrule
+l.84 		\bottomrule
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7355,7 +7606,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 \end{table}
+l.86 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -7370,7 +7621,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.86 La série \eqref
+l.88 La série \eqref
                      {eq:deltanlj} développe le défaut quantique en puissa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7523,7 +7774,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.87 Ses coefficients, présentés en table \eqref
+l.89 Ses coefficients, présentés en table \eqref
                                                   {tab:q_defect}, sont extra...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7539,13 +7790,13 @@ Missing character: There is no q in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.87 ...cients, présentés en table \eqref{tab:q_
+l.89 ...cients, présentés en table \eqref{tab:q_
                                                   defect}, sont extraits des...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.87 ... présentés en table \eqref{tab:q_defect}
+l.89 ... présentés en table \eqref{tab:q_defect}
                                                   , sont extraits des mesure...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -7557,7 +7808,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.87 ...SPECNA2,ENS_SPECCS,MX_MECHEDERYDSPECTRO87}
+l.89 ...SPECNA2,ENS_SPECCS,MX_MECHEDERYDSPECTRO87}
                                                    et la série sous cette f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7566,13 +7817,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `ENS_SPECNA2' on page  undefined on input line 87.
+LaTeX Warning: Citation `ENS_SPECNA2' on page  undefined on input line 89.
 
 \citation{ENS_SPECCS}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.87 ...SPECNA2,ENS_SPECCS,MX_MECHEDERYDSPECTRO87}
+l.89 ...SPECNA2,ENS_SPECCS,MX_MECHEDERYDSPECTRO87}
                                                    et la série sous cette f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7581,13 +7832,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `ENS_SPECCS' on page  undefined on input line 87.
+LaTeX Warning: Citation `ENS_SPECCS' on page  undefined on input line 89.
 
 \citation{MX_MECHEDERYDSPECTRO87}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.87 ...SPECNA2,ENS_SPECCS,MX_MECHEDERYDSPECTRO87}
+l.89 ...SPECNA2,ENS_SPECCS,MX_MECHEDERYDSPECTRO87}
                                                    et la série sous cette f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7597,13 +7848,13 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `MX_MECHEDERYDSPECTRO87' on page  undefined on input li
-ne 87.
+ne 89.
 
 \citation{MX_MARTINSERIESSPECNA}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.87 ...ge rapidement \cite{MX_MARTINSERIESSPECNA}
+l.89 ...ge rapidement \cite{MX_MARTINSERIESSPECNA}
                                                    :
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7613,7 +7864,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `MX_MARTINSERIESSPECNA' on page  undefined on input lin
-e 87.
+e 89.
 
 Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
@@ -7630,7 +7881,7 @@ Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
 ! Undefined control sequence.
-l.88 ...tenir une précision meilleure que le $\si
+l.90 ...tenir une précision meilleure que le $\si
                                                   {\kilo\hertz}$ sur une lar...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7639,7 +7890,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.88 ...une précision meilleure que le $\si{\kilo
+l.90 ...une précision meilleure que le $\si{\kilo
                                                   \hertz}$ sur une large gam...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7648,7 +7899,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.88 ...écision meilleure que le $\si{\kilo\hertz
+l.90 ...écision meilleure que le $\si{\kilo\hertz
                                                   }$ sur une large gamme de ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7662,7 +7913,7 @@ Missing character: There is no � in font cmr10!
 Missing character: There is no l in font nullfont!
 Missing character: There is no j in font nullfont!
 ! Undefined control sequence.
-l.90 ...e défauts quantiques mesurés pour le \Rb
+l.92 ...e défauts quantiques mesurés pour le \Rb
                                                   {87} autres que ceux prés...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7671,7 +7922,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.90 ...és ici, mais l'utilisation de ceux du \Rb
+l.92 ...és ici, mais l'utilisation de ceux du \Rb
                                                   {85} fournit de bons résu...
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:

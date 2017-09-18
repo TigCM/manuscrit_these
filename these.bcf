@@ -1967,6 +1967,13 @@
     <bcf:citekey order="20">TXT_JACKSON</bcf:citekey>
     <bcf:citekey order="21">TXT_COHEN1FR</bcf:citekey>
     <bcf:citekey order="22">MX_BROWAEYSDD14</bcf:citekey>
+    <bcf:citekey order="23">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="24">PHD_NIRRENGARTEN</bcf:citekey>
+    <bcf:citekey order="25">PHD_ROUX</bcf:citekey>
+    <bcf:citekey order="26">MX_MEISSNEREFFECT</bcf:citekey>
+    <bcf:citekey order="27">ENS_CHIPLIFETIME</bcf:citekey>
+    <bcf:citekey order="28">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="29">DATA_STECKRB87</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

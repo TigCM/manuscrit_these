@@ -31,6 +31,30 @@
 \usepackage{adjustbox} 
 \usepackage{grffile}
 %\include{./0_preamble}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% En-têtes et redéfinition des environnements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% En-têtes %%%
+%%%%%%%%%%%%%%%%
+%\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{Chapitre {\thechapter}. #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection. #1}}
+\renewcommand{\subsectionmark}[1]{}%\markright{\thesubsection. #1}}
+
+\renewcommand{\labelitemi}{$\bullet$}
+
+
+\lhead{\footnotesize \bfseries \leftmark}
+\cfoot{\footnotesize \bfseries \thepage} 
+\rhead{\footnotesize \bfseries \rightmark}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\renewcommand{\theenumi}{\roman{enumi}}
+
+
 \usepackage{hyperxmp}
 \usepackage[pdfpagelayout=TwoPageRight,pdfpagelabels=true]{hyperref}
 \hypersetup{
@@ -87,8 +111,15 @@ articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
 \title{Atomes de Rydberg piégés}
 \usepackage{coverpages}
 \input{coverdata}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%------------
-\begin{document}
+\sisetup{output-decimal-marker = {,}}
+\sisetup{group-separator = \text{~}}
+\sisetup{range-phrase = \text{ à }}
+\DeclareSIUnit\gauss{G}
+
 \newcommand{\numv}[1]{\num[output-decimal-marker={,}]{#1}~}
 \newcommand{\numvv}[1]{\num[output-decimal-marker={,}]{#1}}
 \newcommand{\SIv}[2]{\SI[output-decimal-marker={,}]{#1}{#2}~}
@@ -110,7 +141,11 @@ articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \renewcommand \thechapter{\Roman{chapter}}
 \newcommand{\kb}{\mathrm{k_B}}
+\newcommand{\Khe}{\SIvv{4.2}{\K}}
+\newcommand{\mcal}[1]{$\mathcal{#1}$}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%------------
+\begin{document}
 
 \frontmatter
 \pagenumbering{roman}

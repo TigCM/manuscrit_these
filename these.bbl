@@ -449,8 +449,157 @@
       \endverb
       \keyw{mx,rydberg,dipole}
     \endentry
+    \entry{PHD_CELISTRINO}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{bffd6165fdb9dbce81c97035804449be}
+      \strng{fullhash}{bffd6165fdb9dbce81c97035804449be}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
+      \field{month}{09}
+      \field{title}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \verb{file}
+      \verb PHD_Raul.pdf:https\://tel.archives-ouvertes.fr/tel-01076337/file/PHD_Raul.pdf:PDF
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01076337
+      \endverb
+      \keyw{dipole blockade ; microwave spectroscopy ; atom chip ; Rydberg atoms ; dipole-dipole interaction ; atomes de Rydberg ; interaction dipolaire ; puce à atomes ; spectroscopie microonde ; blocage dipolaire}
+    \endentry
+    \entry{PHD_NIRRENGARTEN}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=9f3a8a8525115f32970c241dd830470f}{Nirrengarten}{N\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9f3a8a8525115f32970c241dd830470f}{Nirrengarten}{N\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Paris VI}%
+      }
+      \strng{namehash}{9f3a8a8525115f32970c241dd830470f}
+      \strng{fullhash}{9f3a8a8525115f32970c241dd830470f}
+      \field{sortinit}{0}
+      \field{labeltitle}{Piégeage magnétique d'atomes de Rubidium au voisinage d'une surface supraconductrice}
+      \field{title}{Piégeage magnétique d'atomes de Rubidium au voisinage d'une surface supraconductrice}
+      \field{type}{phdthesis}
+      \field{year}{2007}
+    \endentry
+    \entry{PHD_ROUX}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=113b3dcd23dcf540d238a7086ba8f664}{Roux}{R\bibinitperiod}{Cédric}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=113b3dcd23dcf540d238a7086ba8f664}{Roux}{R\bibinitperiod}{Cédric}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Paris VI}%
+      }
+      \strng{namehash}{113b3dcd23dcf540d238a7086ba8f664}
+      \strng{fullhash}{113b3dcd23dcf540d238a7086ba8f664}
+      \field{sortinit}{0}
+      \field{labeltitle}{Condensation de Bose-Einstein sur une puce à atomes supraconductrice}
+      \field{title}{Condensation de Bose-Einstein sur une puce à atomes supraconductrice}
+      \field{type}{phdthesis}
+      \field{year}{2008}
+    \endentry
+    \entry{MX_MEISSNEREFFECT}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=ae868bd80925068a0d089a94ee6ed0c9}{Meissner}{M\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=83c29bf2ec46a59fd1e2e9ca85716c1e}{Ochsenfeld}{O\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=ae868bd80925068a0d089a94ee6ed0c9}{Meissner}{M\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=83c29bf2ec46a59fd1e2e9ca85716c1e}{Ochsenfeld}{O\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {German}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{dc1a26d4cc7d3b161ef1fe40c351084e}
+      \strng{fullhash}{dc1a26d4cc7d3b161ef1fe40c351084e}
+      \field{sortinit}{0}
+      \field{labeltitle}{Ein neuer Effekt bei Eintritt der Supraleitfähigkeit}
+      \field{issn}{0028-1042}
+      \field{journaltitle}{Naturwissenschaften}
+      \field{number}{44}
+      \field{title}{Ein neuer Effekt bei Eintritt der Supraleitfähigkeit}
+      \field{volume}{21}
+      \field{year}{1933}
+      \field{pages}{787\bibrangedash 788}
+      \verb{doi}
+      \verb 10.1007/BF01504252
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/BF01504252
+      \endverb
+    \endentry
+    \entry{ENS_CHIPLIFETIME}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=4ee1d6c55017b25aaa8a3e1c21dff437}{Emmert}{E\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=20724ad7f072ab2728a21645fa2d20c5}{Lupaşcu}{L\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c245e2781362b93a573b4288e3934e68}{Nogues}{N\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=ecf83c99ef0071022d3a7c7403070541}{Raimond}{R\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=4ee1d6c55017b25aaa8a3e1c21dff437}{Emmert}{E\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=20724ad7f072ab2728a21645fa2d20c5}{Lupaşcu}{L\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c245e2781362b93a573b4288e3934e68}{Nogues}{N\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=ecf83c99ef0071022d3a7c7403070541}{Raimond}{R\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{1f31dac38c417e9cd08362f05d838abd}
+      \strng{fullhash}{8f6812bad6bea43458051dc9e5aaa99f}
+      \field{sortinit}{0}
+      \field{labeltitle}{Measurement of the trapping lifetime close to a cold metallic surface on a cryogenic atom-chip}
+      \field{journaltitle}{The European Physical Journal D}
+      \field{month}{01}
+      \field{number}{2}
+      \field{title}{Measurement of the trapping lifetime close to a cold metallic surface on a cryogenic atom-chip}
+      \field{volume}{51}
+      \field{year}{2009}
+      \field{pages}{173\bibrangedash 177}
+      \verb{doi}
+      \verb 10.1140/epjd/e2009-00001-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjd/e2009-00001-5
+      \endverb
+    \endentry
+    \entry{DATA_STECKRB87}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=c667d11f181c8a7236e877d6aacd31df}{Steck}{S\bibinitperiod}{Daniel\bibnamedelima A}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c667d11f181c8a7236e877d6aacd31df}{Steck}{S\bibinitperiod}{Daniel\bibnamedelima A}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c667d11f181c8a7236e877d6aacd31df}
+      \strng{fullhash}{c667d11f181c8a7236e877d6aacd31df}
+      \field{sortinit}{0}
+      \field{labeltitle}{Rubidium 87 D line data}
+      \field{title}{Rubidium 87 D line data}
+      \field{year}{2001}
+      \verb{url}
+      \verb http://www.steck.us/alkalidata/rubidium87numbers.1.6.pdf
+      \endverb
+    \endentry
   \endsortlist
-  \missing{??}
 \endrefsection
 \endinput
 

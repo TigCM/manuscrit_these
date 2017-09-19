@@ -599,6 +599,76 @@
       \verb http://www.steck.us/alkalidata/rubidium87numbers.1.6.pdf
       \endverb
     \endentry
+    \entry{MX_GUERYODELIN_SATABSIM}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=9b8b853f612a76fc721175df8f527b07}{Reinaudi}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5bd4e18e3b0969d94b1cafee00492fbd}{Lahaye}{L\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=92581400fc578eb34e4be9ef6e4afc33}{Wang}{W\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=64fbf0b2138a0f5b39116d9d76b2ef85}{Guéry-Odelin}{G\bibinithyphendelim O\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=9b8b853f612a76fc721175df8f527b07}{Reinaudi}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5bd4e18e3b0969d94b1cafee00492fbd}{Lahaye}{L\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=92581400fc578eb34e4be9ef6e4afc33}{Wang}{W\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=64fbf0b2138a0f5b39116d9d76b2ef85}{Guéry-Odelin}{G\bibinithyphendelim O\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {OSA}%
+      }
+      \strng{namehash}{eef744e48aafc3c82682f0a1e261560a}
+      \strng{fullhash}{7b9d7a3ab8d084a556a41d93f745ca11}
+      \field{sortinit}{0}
+      \field{labeltitle}{Strong saturation absorption imaging of dense clouds of ultracold atoms}
+      \field{abstract}{We report on a far above saturation absorption imaging technique to investigate the characteristics of dense packets of ultracold atoms. The transparency of the cloud is controlled by the incident light intensity as a result of the nonlinear response of the atoms to the probe beam. We detail our experimental procedure to calibrate the imaging system for reliable quantitative measurements and demonstrate the use of this technique to extract the profile and its spatial extent of an optically thick atomic cloud.}
+      \field{journaltitle}{Opt. Lett.}
+      \field{month}{11}
+      \field{number}{21}
+      \field{title}{Strong saturation absorption imaging of dense clouds of ultracold atoms}
+      \field{volume}{32}
+      \field{year}{2007}
+      \field{pages}{3143\bibrangedash 3145}
+      \verb{doi}
+      \verb 10.1364/OL.32.003143
+      \endverb
+      \verb{url}
+      \verb http://ol.osa.org/abstract.cfm?URI=ol-32-21-3143
+      \endverb
+      \keyw{Laser trapping; Imaging systems}
+    \endentry
+    \entry{MX_WHITLOCK_FRINGEREDUCTION}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=67cdfd9edcce3881203917e0289d976a}{Ockeloen}{O\bibinitperiod}{C.\bibnamedelimi F.}{C\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=c2434b3f9771ee924ccf343bb63c5c0a}{Tauschinsky}{T\bibinitperiod}{A.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=011f09fda7bb3b489d02a34c3ae0d4ba}{Spreeuw}{S\bibinitperiod}{R.\bibnamedelimi J.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef0242f9b777037b2e42ff1440fd54d}{Whitlock}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=67cdfd9edcce3881203917e0289d976a}{Ockeloen}{O\bibinitperiod}{C.\bibnamedelimi F.}{C\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=c2434b3f9771ee924ccf343bb63c5c0a}{Tauschinsky}{T\bibinitperiod}{A.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=011f09fda7bb3b489d02a34c3ae0d4ba}{Spreeuw}{S\bibinitperiod}{R.\bibnamedelimi J.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef0242f9b777037b2e42ff1440fd54d}{Whitlock}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{dc9a3f09cda76d13e4a092f46fd0c430}
+      \strng{fullhash}{e1be2e53944e575fa1730c9faedd7c02}
+      \field{sortinit}{0}
+      \field{labeltitle}{Detection of small atom numbers through image processing}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{12}
+      \field{title}{Detection of small atom numbers through image processing}
+      \field{volume}{82}
+      \field{year}{2010}
+      \field{pages}{061606}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.82.061606
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.82.061606
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

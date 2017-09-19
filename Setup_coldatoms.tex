@@ -2,12 +2,13 @@
 \label{chapter:setup_coldatoms_Rydberg}
 
 INTRODUCTION DU CHAPITRE\\
-entre autres, longue vie aux Rydberg en environnement cryogénique\\
-renvoi aux thèses précédentes pour plus de détail (Raul, T. Nirrengarten, C. Roux)
+entre autres, longue vie aux Rydberg en environnement cryogénique
 
-\section{Un nuage d'atomes froids sur puce, du MOT de capture au condensat de Bose-Einstein}
 
-OUAH COMMENT C4EST CHOUETTE LES ATOMES FROIDS
+\section{Un nuage d'atomes ultra-froids sur puce, du MOT de capture au condensat de Bose-Einstein}
+
+Introduction de la section:\\
+les atomes froids c'est super
 
 	\subsection{L'environnement cryogénique : cryostat et puce à atomes supraconductrice}\label{subsec:cryopuce}
 	
@@ -205,13 +206,13 @@ On peut alors se permettre d'augmenter le désaccord des faisceaux lasers afin d
 Les températures atteintes dans ce \og U-MOT proche\fg{} sont de l'ordre de $\SI{40}{\uK}$, pour un nuage d'environ $\numrange{e7}{e8}$ atomes.
 
 	\subsubsection*{Les étapes intermédiaires : mélasse optique et pompage Zeeman}
-L'objectif, après les étapes de piégeage magnéto-optique, est de transférer les atomes dans le piège de Ioffe-Pritchard créé par le fil \mcal{Z}.
+\noindent L'objectif, après les étapes de piégeage magnéto-optique, est de transférer les atomes dans le piège de Ioffe-Pritchard créé par le fil \mcal{Z}.
 Cela sera d'autant plus efficace que le nuage atomique sera froid, et que les atomes seront bien polarisés dans le sous-niveau Zeeman $m_F=+2$ du niveau hyperfin $\mathrm{5S1/2,F=2}$.
 Avant de les transférer vers le \og piège Z \fg{}, nous faisons donc subir aux atomes deux phases supplémentaires.
 
 Tout d'abord, nous éteignons les champs magnétiques du U-MOT en laissant les faisceaux lasers allumés.
 Cela initie une étape de mélasse optique d'une durée comprise entre $\num{1} et \SI{5}{\ms}$, au cours de laquelle le désaccord laser est augmenté alors que la puissance lumineuse est graduellement diminuée jusqu'à zéro.
-Cette mélasse optique nous permet de refroidir quelques $\numrange{e6}{e7}$ atomes à des températures de l'ordre de $\SIvv{10}{\uK}$.
+Cette mélasse optique nous permet de refroidir quelques $\numrange{e6}{e7}$ atomes à des températures inférieures à $\SIvv{10}{\uK}$.
 
 Après l'extinction des lasers de mélasse, un champ magnétique de \SIrange{1}{2}{\gauss} est rapidement allumé sur la direction $-y$, qui lève la dégénérescence des sous-niveaux Zeeman.
 Un laser de pompage optique polarisé $\sigma ^+$ se propageant selon $-y$ pompe alors les atomes dans le sous-niveau $m_F=+2$.
@@ -219,15 +220,67 @@ Après réflexion sur la puce ce faisceau laser repasse à travers le nuage atom
 Son hélicité a certes été inversée par la réflexion, mais sa polarisation du point de vue des atomes est restée la même.
 Les atomes sont donc encore pompés vers le sous-niveau $m_F=+2$.
 
-	\subsubsection*{Le piégeage magnétique et le refroidissement RF}
+	\subsubsection*{Le piégeage magnétique et le refroidissement évaporatif}
+\noindent Lorsque le nuage atomique est bien refroidi et polarisé par les étapes de mélasse et de pompage optique, le piège magnétique est allumé.
+Pour cela, un courant est imposé dans le fil \mcal{Z}.
+Un champ $B_z$ est généré par les bobines, qui permet d'obtenir un champ quadrupolaire comme nous l'avons évoqué en \ref{subsec:cryopuce}, centré sur la position du nuage atomique.
+Le champ au centre du piège est alors orienté selon la direction $x$ et le minimum de champ, strictement supérieur à $0$, permet d'éviter les pertes de Majorana par retournement du spin.
+Un second champ de biais, $B_x$, permet en outre de limiter les pertes atomiques dues à la présence d'un bruit radio-fréquence dans notre expérience.
+Ce bruit peut en effet causer des transitions atomiques vers les états non piégés $m_F<1$ et il s'agit d'ajuster $B_x$ afin d'éviter que les transitions ne soient résonantes avec la fréquence du bruit \cite{PHD_NIRRENGARTEN}.
 
+Une fois allumé, le piège magnétique est immédiatement comprimé afin d'augmenter le taux de collision entre les atomes en vue du refroidissement évaporatif.
+La compression du piège est réalisée adiabatiquement en \SI{150}{\ms}.
+Le piège comprimé a des fréquences de piégeage de l'ordre de $(\omega_x,\omega_y,\omega_z) \simeq 2\pi \times (\num{24},\num{3400},\num{3400})\si{\hertz}$ à une distance de \SI{80}{\um} de la puce.
+Nous pouvons alors mettre en \oe uvre une séquence de refroidissement évaporatif radio-fréquence :
+les atomes les plus chauds sont transférés vers les sous-niveaux Zeeman non piégés par des transitions radio-fréquence (RF), et ainsi sont éjectés du piège.
+La fréquence de ces transitions dépend du champ magnétique vu par chaque atome, et donc de sa position dans le potentiel de piégeage.
+La fréquence du signal RF, envoyé dans le fil vertical (KM) de la puce (cf figure \ref{fig:chip}), est progressivement diminuée afin d'évaporer les atomes les plus chauds en premier, puis de plus en plus froids.
+Le reste du nuage thermalise vite grâce au taux de collision élevé et se trouve ainsi refroidi.
+Plusieurs rampes de fréquence successives sont optimisées en durée et en puissance RF, afin d'obtenir le meilleur refroidissement du nuage atomique.
+L'étape de refroidissement évaporatif dure de \SIrange{0}{5}{\second} au total.
+Le schéma de principe du refroidissement évaporatif RF est donné en figure \eqref{fig:evapRF}.
+%
+\begin{figure}[]
+\centering
+\includegraphics[width=.7\linewidth]{figures/evapRF}
+\caption[Refroidissement évaporatif RF]{Refroidissement évaporatif radio-fréquence :
+le \og couteau \fg{} RF induit les transitions entre sous-niveaux Zeeman.
+Une fois dans les sous-niveaux $m_F<1$, les atomes ne sont plus piégés et sont éjectés du piège.
+L'aile chaude de la distribution de Boltzmann est évacuée et les atomes restant sont thermalisés à une température plus faible.
+}
+\label{fig:evapRF}
+\end{figure}
 
+Cette étape de refroidissement nous permet d'abaisser la température du nuage sous le seuil de condensation de Bose-Einstein.
+Nous pouvons ainsi produire de façon reproductible des condensats sur puce contenant de \SIrange{10000}{20000}{} atomes.
+La séquence de refroidissement peut également être interrompue avant la condensation, et en choisissant la fréquence finale de la rampe RF, nous pouvons choisir la température du nuage atomique.
+La figure \eqref{fig:BEC} montre des images du nuage atomique après temps de vol pour différentes valeurs de la fréquence finale de la rampe RF.
+%
+\begin{figure}[]
+\centering
+\includegraphics[width=1\linewidth]{figures/BEC}
+\caption[Condensat de Bose-Einstein sur puce]{
+Trois nuages de \Rb{87} évaporés jusqu'à des valeurs différentes de fréquence RF, imagés après un temps de vol de \SI{16.5}{\ms}.
+Les images donnent directement la distribution d'impulsion au sein du nuage.
+\`A gauche, la température est supérieure à la température critique de condensation $T_C$: le nuage est purement thermique et montre une distribution gaussienne d'impulsion.
+Au milieu, la température est inférieure à $T_C$, le nuage montre un double profil en impulsion : un condensat de Bose-Einstein au centre et les atomes du nuage thermique autour.
+\`A droite, la température est très petite devant $T_C$ et le condensat est quasi-pur : le nuage présente un profil de Thomas-Fermi dans l'espace des impulsions.
+}
+\label{fig:BEC}
+\end{figure}
+%
 
-\bigskip
+Enfin, une fois le nuage refroidi à la température souhaitée, le piège magnétique est décomprimé.
+Cela permet de choisir soit une distance particulière du nuage atomique à la puce, soit la taille du nuage atomique final.
 
-
+Les atomes qui seraient restés dans le sous-niveau $m_F=+1$ peuvent à leur tour être éliminés du piège en envoyant sur le nuage un signal micro-onde à \SI{6.8}{\GHz} adressant la transition hyperfine $\ket{F=2,m_F=1} \rightarrow \ket{F=1,m_F=0}$.
+En présence d'un champ magnétique, les sous-niveaux Zeeman sont suffisamment résolus pour adresser uniquement cette transition, sans affecter les atomes dans le niveau $\ket{F=2,m_F=+2}$.
 
 Une séquence expérimentale typique est présentée en figure \eqref{fig:exp_sequence}.
+Cette figure détaille les paramètres expérimentaux à chaque étape du piégeage et du refroidissement des atomes.
+L'étape d'élimination des atomes restant en $m_F=+1$ n'est pas représentée.
+Les étapes d'excitation et détection Rydberg et d'imagerie atomique seront discutées dans la suite de ce chapitre.
+
 %	
 \begin{sidewaysfigure}
 \centering
@@ -241,23 +294,232 @@ $\delta$ est le désaccord du laser en unité de la largeur de raie $\Gamma=\SI{
 }
 \label{fig:exp_sequence}
 \end{sidewaysfigure}
-%
 
-\bigskip
+		
+	\subsection{Imagerie atomique par absorption}
+	
+\noindent Dans une expérience d'atomes froids, il est essentiel de pouvoir imager et dénombrer correctement le nuage atomique.
+L'imagerie par absorption est une technique précise et efficace pour cela.
+%Elle consiste à envoyer sur les atomes un faisceau laser, résonnant avec une transition atomique choisie, et à mesurer quelle fraction de la lumière le nuage atomique a absorbé.
+Lorsqu'une telle expérience est menée au c\oe ur d'un cryostat, la tâche est rendue plus difficile en raisons des accès optiques limités qui contraignent fortement l'optique d'imagerie.
 
-		\noindent piégeage magnéto-optique : 2D-MOT, QUAD-MOT, U-MOT \\
+	\subsubsection*{Dispositif optique}
+
+Nous pouvons imager notre nuage atomique de deux façons différentes.
+Un premier faisceau sonde (\og sonde face \fg{})  entre dans le cryostat et en ressort perpendiculairement à la puce après réflexion sur celle-ci, par le hublot de face.
+Un miroir percé permet de laisser passer le faisceau d'entrée et de collecter le faisceau de sortie, qui est ensuite envoyé vers une caméra CCD.
+Grâce à l'installation d'une lentille de courte focale à la place du hublot de face sur la jupe hélium du cryostat, cet axe d'imagerie peut collecter beaucoup de lumière, avec une limite de résolution intéressante.
+
+Un deuxième faisceau sonde (\og sonde côté \fg{}) est envoyé par un hublot de côté ($+x$), se réfléchit sur la puce avec un angle variant de \SIrange{5}{10}{\degree}, et ressort par l'autre hublot de côté ($-x$). Il est ensuite envoyé vers une autre caméra CCD.
+Cet axe d'imagerie ne dispose pas d'une lentille interne au cryostat. Ainsi, la lumière collectée et la résolution optique sont limitées par le diamètre de la première lentille après la sortie du cryostat.
+Cette lentille est donc placée le plus près possible de l'enceinte du cryostat.
+En raison de cette géométrie, l'imagerie des atomes par la sonde côté forme deux images du nuage atomique : celui absorbe à la fois le faisceau incident et le faisceau réfléchi sur la puce.
+Cela nous permet d'évaluer précisément la distance du nuage atomique à la puce : elle vaut la moitié de la distance entre les deux images du même nuage.
+La figure \eqref{fig:double_cloud} montre une image d'absorption de la sonde côté par un nuage froid (piégé magnétiquement et refroidi), après un temps de vol de \SI{16.5}{\ms}.
+Le dispositif optique d'imagerie est représenté en figure \eqref{fig:probes_CdF}.
+%	
+\begin{figure}
+\centering
+\includegraphics[width=.7\linewidth]{figures/probes_CdF}
+\caption[Faisceaux sonde]{Schéma optique des faisceaux sonde dans le cryostat.
+L'insert montre de plus près la réflexion du faisceau sonde côté sur la puce et la formation des deux images du nuage.
+}
+\label{fig:probes_CdF}
+\end{figure}
+
+%	
+\begin{figure}
+\centering
+\includegraphics[width=.6\linewidth]{figures/double_cloud}
+\caption[Image par absorption du nuage par la sonde côté]{Image par absorption d'un nuage froid après temps de vol, éclairé par la sonde de côté. Les deux images du nuage sont dues à la réflexion du faisceau sur la puce.
+On distingue, entre les deux images du nuage atomique, les ombres portées par les fils de la puce.
+}
+\label{fig:double_cloud}
+\end{figure}
+
+	\subsubsection*{Principe de l'imagerie par absorption}
+	
+Les atomes peuvent être observés en temps réel par la collecte des photons qu'ils émettent par fluorescence, mais l'imagerie par absorption permet une meilleure précision sur l'estimation du nombre d'atome dans le nuage.
+Elle consiste à envoyer sur les atomes un faisceau laser, résonnant avec une transition atomique choisie, et à mesurer quelle fraction de la lumière le nuage atomique a absorbé.
+
+Lorsque l'intensité lumineuse reçue par les atomes est largement inférieure à l'intensité de saturation, l'absorption de celle-ci est bien décrite par la loi de Beer-Lambert :
+\begin{equation}
+\label{eq:Beer-Lambert}
+\frac{dI(x,y,z)}{dx} = -\sigma n(x,y,z) I(x,y,z),
+\end{equation}
+où $I(x,y,z)$ est l'intensité lumineuse au point de coordonnées $(x,y,z)$, $n$ la densité atomique en ce point, $x$ la direction de propagation du faisceau lumineux et $\sigma$ la section efficace de diffusion de la lumière par un atome unique.
+L'optique d'imagerie nous oblige cependant à intégrer cette équation dans la direction de propagation $x$.
+On obtient alors 
+\begin{equation}
+\label{eq:Beer-Lambert_integ}
+I_f(y,z) = I_i (y,z). e^{-\int dx~\sigma~n(x,y,z)}
+\end{equation}
+où $I_i$ est l'intensité du faisceau incident et $I_f$ l'intensité du faisceau à la sortie du nuage atomique.
+
+Les images enregistrées par les caméras permettent d'obtenir les quantités $I_i(y,z)$ et $I_f(y,z)$.
+On peut alors calculer la densité optique du nuage , définie comme $OD(y,z) = \int dx~\sigma~n(x,y,z)$, et qui d'après l'équation \eqref{eq:Beer-Lambert_integ} est égale à
+\begin{equation}
+\label{eq:OD}
+OD(y,z) = \int dx~\sigma~n(x,y,z) = -\ln \frac{I_f(y,z)}{I_i(y,z)}.
+\end{equation}
+L'on en extrait ensuite la densité atomique intégrée le long de l'axe de propagation du laser à partir de l'équation \eqref{eq:OD} :
+\begin{equation}
+\label{eq:atomic_density}
+n(x,y) = \int{dx~n(x,y,z)} = -\frac{1}{\sigma} \ln \frac{I_f(x,y)}{I_i(x,y)} = \frac{OD(y,z)}{\sigma}.
+\end{equation}
 		
-		\noindent piégeage magnétique de Ioffe Pritchard : principe et potentiel créé par le fil Z (cf. code Mathematica Radia)\\
+Dans le cas simple d'une lumière résonante avec  une transition non-dégénérée, la section efficace de diffusion $\sigma$ est donnée directement par la section efficace de diffusion résonante 
+\begin{equation}
+\sigma = \sigma_0 = \frac{3\lambda^2}{2\pi},
+\end{equation}
+où $\lambda$ est la longueur d'onde de la lumière résonante.
+Les atomes dans notre piège magnétique sont préparés dans l'état $\ket{5S1/2,F=2,m_F=+2}$, et la lumière de sonde est préparée de façon à adresser la transition $\sigma^+$ vers le niveau $\ket{5P3/2,F=3,m_F=+3}$.
+
+\subsubsection*{Corrections et améliorations de l'imagerie par absorption}
+\noindent Malgré l'apparente simplicité du dispositif d'imagerie par absorption, plusieurs effets perturbent les mesures du nombre d'atomes et méritent d'être corrigés.
+
+Premièrement, la section efficace de diffusion $\sigma$ dans notre expérience n'est pas égale à la section efficace de diffusion résonante $\sigma_0$.
+En effet, la lumière des faisceaux sonde n'est pas parfaitement polarisée $\sigma^+$.
+De plus, les atomes ne sont pas tous dans le sous-niveau $m_F=+2$, en particulier lorsque l'on souhaite imager le nuage dans le MOT ou après l'étape de mélasse optique sans le charger dans le piège magnétique.
+Enfin, l'interférence entre le faisceau sonde de côté et sa réflexion sur la puce module l'intensité de la lumière vue par le nuage atomique.
+La combinaison de ces effets réduit la section efficace de diffusion d'un facteur $\alpha$, que l'on sait calibrer expérimentalement \cite{PHD_CELISTRINO,MX_GUERYODELIN_SATABSIM}.
+Pour l'absorption de la sonde de côté par un nuage dans le piège magnétique, nous obtenons une valeur $\alpha_{magn} = \num{2.06} \pm \num{0.1}$.
+Pour l'absorption de la sonde de côté par un nuage juste après la mélasse optique, nous obtenons une valeur $\alpha_{melasse} = ??????????????????????????$.
+Le nombre d'atomes évalué à partir des images par absorption dépend directement de la valeur de ce paramètre $\alpha$.
+	
+Deuxièmement, l'acquisition du signal d'imagerie se fait en trois temps.
+Une première image est enregistrée où les atomes absorbent le faisceau sonde, ce qui nous donne l'intensité $I_f$.
+Puis une deuxième image est enregistrée après que les atomes sont tombés par gravité, qui nous donne l'intensité du faisceau sonde non absorbé $I_i$.
+Enfin, une troisième image est enregistrée, qui permet de soustraire la lumière de fond et le bruit électronique des deux images précédentes.
+Les délais de quelques dizaines de \si{\ms} entre les différentes images ont un effet délétère sur le signal : des vibrations et déformations lentes de la structure qui tient le cryostat et des variations d'indice de l'air le long du chemin optique génèrent des franges dans les images traitées par l'équation \eqref{eq:atomic_density}, semblables à des franges d'interférence.
+Ce problème se présente principalement sur l'imagerie par la sonde de face en raison des plus grands délais exigés par la caméra.
+Afin d'y remédier, nous avons implémenté un algorithme de réduction des franges qui, à partir d'une base de plusieurs images du faisceau sonde seul, reconstitue la meilleure combinaison linéaire de celles-ci pour chaque image où le nuage atomique est présent. Cet algorithme est décrit en détail dans \cite{MX_WHITLOCK_FRINGEREDUCTION}.
+La figure \eqref{fig:Fringe_Reduction} montre une image d'un nuage froid par absorption de la sonde face, non traitée et après traitement par cet algorithme.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.3\linewidth]{figures/Normal_abs2_horiz}
+\hspace{.2\linewidth}
+\includegraphics[width=0.3\linewidth]{figures/RF_abs2_horiz}
+\caption[Effet de l'algorithme de réduction des franges]{
+Images du nuage atomique froid par absorption du faisceau sonde face.
+\`A gauche, l'image est traitée selon l'équation \eqref{eq:atomic_density}.
+\`A droite, la même image après traitement par l'algorithme de réduction des franges.
+Les graphes sous les images sont les profils de densité du nuage en coupe horizontale.
+L'échelle de couleur est la même pour les deux images et a été optimisée pour l'image de droite.
+}
+\label{fig:Fringe_Reduction}
+\end{figure}		
+
+Troisièmement, il peut être intéressant pour des nuages très denses de ne pas calculer la densité optique $OD$ comme à l'équation \eqref{eq:Beer-Lambert_integ}, mais de s'arrêter à l'opération 
+\begin{equation}
+\label{eq:nolog_abs}
+\frac{I_f(y,z)}{I_i(y,z)} = e^{-OD(x,y)} = e^{-\sigma .n(y,z)}.
+\end{equation}
+Nous appellerons cette opération \og absorption no-log \fg{}.
+Si le nuage présente un profil de densité gaussien, cela permet de se concentrer sur les ailes de ce profil.
+Dans le cas d'un nuage très dense, comme par exemple pour les mélasses optiques, le centre du nuage où la densité est très haute donne un signal d'absorption bruité.
+L'ajustement du profil de densité est alors meilleur sur les bords du nuages.
+La figure \eqref{fig:nolog_gabs} montre l'image d'une mélasse optique par absorption de la sonde de côté, traitée d'après l'équation \eqref{eq:Beer-Lambert_integ} et d'après l'équation \eqref{eq:nolog_abs}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\linewidth]{figures/log_abs}
+\hspace{.1\linewidth}
+\includegraphics[width=0.4\linewidth]{figures/nolog_abs}
+\caption[Absorption \og no-log \fg{} ]{
+Images du nuage atomique de mélasse optique par absorption du faisceau sonde côté.
+\`A gauche, l'image est traitée par absorption selon l'équation \eqref{eq:Beer-Lambert_integ}.
+\`A droite, l'image est traitée selon l'équation \eqref{eq:nolog_abs}.
+Les graphes sous les images sont les profils de densité du nuage en coupe horizontale.
+L'échelle de couleur est différente pour les deux images, adaptée à l'échelle des profils en coupe représentés.
+Les zones bruitées à gauche et à droite ne sont pas éclairées par le faisceau sonde. 
+En absorption \og no-log \fg{}, le bruit dans les zones sombres est plus important, mais réduit au centre et sur les bords du nuage.
+%Le bruit y est beaucoup plus important si l'on ne prend pas le logarithme du signal (image de droite).
+%Cependant, le bruit y est fortement réduit au centre du nuage.
+}
+\label{fig:nolog_abs}
+\end{figure}	
+
+	\subsubsection*{Estimation de la température}
+\noindent L'imagerie par absorption permet facilement d'estimer la température du nuage atomique.
+En effet, la répartition des impulsions dans le nuage suit la distribution de Maxwell-Boltzmann tant que celui-ci n'est pas condensé.
+L'évolution de la taille gaussienne du nuage après extinction du piège, dictée par l'impulsion moyenne dans le nuage,  nous renseigne alors sur sa température par l'équation de diffusion :
+\begin{equation}
+\label{eq:tempfit}
+\Delta^2 x (t) = \Delta^2 x(t_0) + \frac{\kb T}{m}.(t-t_0)^2,
+\end{equation}
+où $\Delta x$ est l'extension spatiale du nuage dans la direction $x$, $t$ le temps et $t_0$ la référence de temps, $\kb$ la constante de Boltzmann, $m$ la masse d'un atome et $T$ la température du nuage.
+En imageant le nuage à différents moments de son expansion (\og temps de vol \fg{}) et en ajustant la largeur gaussienne du profil à l'équation \eqref{eq:tempfit}, on accède à la fois à la température $T$ du nuage et à sa taille initiale dans le piège $\Delta x(t=0)$.
 		
-		\noindent refroidissement évaporatif jusqu'au BEC : principe de l'évaporation RF et fils d'évap sur la puce
-		
-	\subsection{imagerie atomique}
-		\noindent optique d'imagerie : schéma optique et caractéristiques des caméras \\
-		
-		\noindent imagerie par absorption : transition sonde, intensité de saturation \\
-		\noindent imagerie par réflexion sur la puce : spécificités de la géométrie et double absoprtion du faisceau sonde \\
-		
-		\noindent tweaks : absorption no-log et réduction des franges : qu'a-t-on utilisé comme méthodes de traitement pour améliorer notre imagerie $\rightarrow$ un paragraphe sur la réduction de franges et un(ou deux) paragraphe(s) sur l'absorption no-log et sa pertinence dans les mesures de mélasses.
-		
-	\subsection{nuages typiques}
-		\noindent quels MOTs, mélasses et nuages froids obtenus : tailles, températures, nombres d'atomes, distance à la puce.
+	\subsection{Quelques nuages typiques}
+\noindent Nous avons décrit ici les éléments de notre dispositif qui servent à produire et caractériser des nuages d'atomes ultra-froids.
+Le tableau \ref{tab:nuages} présente les caractéristiques principales des différents types de nuages atomiques que nous utiliserons pour y exciter des atomes de Rydberg.
+
+\begin{table}[h!]
+	\centering
+	\caption[Quelques nuages typiques]{Quelques nuages typiques de notre expérience}
+	\label{tab:nuages}
+	\begin{tabular}{c | c c c c c}
+		\toprule\midrule
+		{nuage}
+		&N 
+		&$\Delta x$
+		&$\Delta y,z$
+		&T
+		&d
+		\\
+		\midrule
+		QUAD-MOT
+		&quelques \num{e8}
+		&
+		&
+		&\SI{400}{\uK}
+		&\SIrange{1}{3}{\mm}
+		\\
+%		U-MOT lointain
+%		&
+%		&
+%		&
+%		&idem
+%		&idem
+%		\\
+		U-MOT proche
+		&
+		&\SI{200}{\um}
+		&\SI{200}{\um}
+		&\SI{40}{\uK}
+		&\SIrange{0.5}{1}{\mm}
+		\\
+		mélasse optique
+		&\SI{5e7}
+		&\SI{80}{\um}
+		&\SI{80}{\um}
+		&\SI{10}{\uK}
+		&idem
+		\\
+		piège mag. chaud
+		&\SI{e7}
+		&
+		&
+		&\SI{40}{\uK}
+		&idem
+		\\
+		piège mag. froid
+		&\SIrange{e4}{e6}
+		&
+		&
+		&\SIrange{0.5}{2}{\uK}
+		&\SIrange{100}{700}{\um}
+		\\
+		BEC
+		&\SIrange{8000}{20000}
+		&
+		&
+		&\SIrange{30}{80}{\nano\K}
+		&
+		\\
+		\midrule
+		\bottomrule
+ 	\end{tabular}
+\end{table}

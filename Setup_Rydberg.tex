@@ -152,18 +152,113 @@ Les bruits électriques étant inévitables près d'une surface, la présence de
 
 \subsubsection*{Premiers spectres}
 \noindent Ce problème est très clair sur les premiers spectres que nous avons fait de la transition $\ket{\mathrm{5S_{1/2}}} \rightarrow \ket{\mathrm{60S_{1/2}}}$, présentés en figure \eqref{fig:vieilles_raies}.
-
-\begin{figure}[]
+%
+\begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{figures/arrTimes6057}
+\includegraphics[width=\linewidth]{figures/vieilles_raies}
 \caption[Spectres d'excitation laser 5S-60S avant le dépôt de rubidium sur la puce]{
 Deux spectres laser de la transition $5\mathrm{S}\rightarrow60\mathrm{S}$, avant correction des inhomogénéités et de la dérive du champ électrique.
-Leurs largeurs sont de $\SI{30}{\MHz}$ et $\SI{40}{\MHz}$ respectivement, et ils sont décalés en fréquence de $\SI{12}{\MHz}$ l'un par rapport à l'autre.}
+Leurs largeurs sont de $\SI{30}{\MHz}$ et $\SI{40}{\MHz}$ respectivement, et ils sont décalés en fréquence de $\SI{12}{\MHz}$ l'un par rapport à l'autre.
+Les deux spectres ont été pris dans les mêmes conditions, à \SI{1}{\hour} d'intervalle, pendant laquelle un MOT était piégé devant la puce.}
+\label{fig:vieilles_raies}
 \end{figure}
+%
+Ces premiers spectres présentent des largeurs de raie de plusieurs dizaines de $\si{\MHz}$, et une forme asymétrique caractéristique d'un élargissement Stark inhomogène.
+
+Cet effet est causé par la variation spatiale du champ électrique dans la région du nuage atomique.
+L'énergie des niveaux de Rydberg dépend fortement du champ électrique extérieur au niveau de chaque atome.
+Ainsi, si les atomes dans différentes régions du nuage voient des champs électriques différents, la fréquence de la transition $\mathrm{5S}\rightarrow\mathrm{60S}$ sera déplacée différemment dans chaque région, et la raie spectrale s'en trouvera élargie.
+
+	\subsubsection*{L'effet Stark}
+\noindent Afin de comprendre ce phénomène plus en détail, attardons-nous à décrire l'effet Stark.
+La présence d'un champ électrique constant $\vec{F}$ dans l'environnement ajoute au hamiltonien atomique un terme de couplage entre le champ et l'opérateur dipolaire électrique.
+En présence d'un champ électrique, le hamiltonien devient
+\begin{equation}
+\label{eq:hamilt_Stark}
+\hat{H} = \hat{H}_0 - \vec{\hat{d} \cdot F} = \hat{H}_0 + q~\vec{\hat{r}\cdot F},
+\end{equation}
+où $\hat{H}_0$ est le hamiltonien libre de l'atome, dont les énergies propres sont calculées par la théorie du défaut quantique selon l'équation \eqref{eq:E_I_delta}, $\hat{\vec{r}}$ l'opérateur position de l'électron dans le potentiel atomique et $q$ la charge élémentaire, supposée positive.
+
+Le hamiltonien Stark \eqref{eq:hamilt_Stark} perd la symétrie sphérique de $\hat{H}_0$, au profit d'une symétrie cylindrique autour de l'axe défini par le vecteur de champ électrique $\vec{F}$.
+Cet axe, que nous choisirons comme étant l'axe $(Oz)$, devient alors l'axe de quantification naturel du problème.
+Dans la base construite autour de cet axe, le terme d'énergie Stark prend la forme
+\begin{equation}
+\label{eq:dipole_Stark}
+\hat{H}_S = q\hat{z}|\vec{F}| = q\hat{r} \sqrt{\frac{4\pi}{3}} Y_1^0  |\vec{F}|.
+\end{equation}
+où $\hat{z}$ est la composante selon $z$ de l'opérateur position, $\hat{r}$ sa norme, et $Y_0^1$ l'harmonique sphérique $(l=0,m_l=1)$.
+Ce hamiltonien ne couple que les états de même $m_l$ et vérifiant $\Delta l = \pm 1$.
+
+Le calcul de l'effet Stark par diagonalisation du hamiltonien pour un niveau de Rydberg donné est alors simple à mener numériquement, en réduisant le sous-espace à considérer grâce à la règle de sélection $\Delta m_l = 0$.
+Cette même règle de sélection permet d'imposer la condition $\Delta m_j= \Delta m_l + \Delta m_s = 0$, car l'effet Stark n'introduit aucun terme permettant de coupler des états de spins électroniques différents.
+La figure \eqref{fig:Stark_60S} montre les énergies propres trouvées par diagonalisation du hamiltonien \eqref{eq:hamilt_Stark}, pour les états d'énergie proche de celle du niveau $\mathrm{60S_{1/2},m_j=1/2}$ et de même $m_j$.
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figures/Stark_60S}
+\caption[Diagramme Stark autour du niveau $\mathrm{60S}$]{
+Diagramme Stark autour du niveau $\mathrm{60S}$, pour les états de $m_j=1/2$.
+Le défaut quantique déplace beaucoup les niveaux S,P et D.
+Ces niveaux non-dégénérés ont un effet Stark quadratique en champ électrique.
+Les niveaux de grand $l$ sont dégénérés et ont un effet Stark linéaire (ce sont les multiplicités qui s'ouvrent en éventail).
+}
+\label{fig:Stark_60S}
+\end{figure}
+%
+Deux cas sont à distinguer. Les niveaux de faible moment orbital $l\leq 3$ sont déplacés en énergie par leur défaut quantique important.
+Le terme d'interaction Stark ne couplant que des niveaux ayant la même énergie en l'absence de champ électrique, ces niveaux S,P et D ne sont perturbés qu'au second ordre par l'effet Stark.
+Leur énergie varie donc de façon quadratique avec le champ électrique.
+Les niveaux de grand nombre quantique orbital $l$ et de même nombre quantique principal $n$ sont, eux, dégénérés.
+Le champ électrique sépare donc leurs énergies linéairement
+\footnote{
+Le cas de l'effet Stark pour les atomes de grand $l$ sera traité plus en détail dans le chapitre \ref{chapter:circsim}.
+}.
+La figure \eqref{fig:Stark_60S} montre deux telles multiplicités, $n=57$ et $n=58$.
+
+Les niveaux de bas $l$ présentent donc tous un effet Stark quadratique que l'on exprime sous la forme
+\begin{equation}
+\label{eq:Stark_quad}
+\Delta \nu_S = A.\vec{F}^2
+\end{equation}
+On comprend mieux ainsi la forme des raies présentées en figure \eqref{fig:vieilles_raies} :
+l'effet Stark ne peut que réduire la fréquence de transition $5S-60S$ et la raie n'est donc élargie que du côté des basses fréquences.
+
+La diagonalisation du hamiltonien \eqref{eq:hamilt_Stark} et l'ajustement des énergies propres ainsi calculées nous permettent d'extraire les coefficients d'effet Stark pour n'importe quel niveau.
+La table \eqref{tab:Stark_60S} repertorie les coefficients d'effet Stark quadratique pour quelques niveaux autour du $\mathrm{60S}$.
+
+\begin{table}[h!]
+	\centering
+	\caption[Effet Stark quadratique des niveaux proches du $\mathrm{60S}$]{Coefficients d'effet Stark quadratique de niveaux proches du $\mathrm{60S}$.
+	}
+	\label{tab:Stark_60S}
+	\begin{tabular}{c c }
+		\toprule\midrule
+		Niveau de Rydberg
+		& Coefficient Stark quadratique
+		\\
+		$\ket{n,l,j}$
+		& $A_{n,l,j,m_j}$ en $\si{\MHz \per (\V \per\cm) \squared}$ \\
+		\midrule
+		$\mathrm{60S_{1/2}}$
+		& \SI{-89.9}{} \\
+		$\mathrm{61S_{1/2}}$
+		& \SI{-100.9}{} \\
+		$\mathrm{60P_{3/2},m_j=\pm -1/2}$
+		& \SI{-676}{} \\
+		$\mathrm{60P_{3/2},m_j=\pm -3/2}$
+		& \SI{-569}{} \\
+		\midrule
+		\bottomrule
+ 	\end{tabular}
+\end{table}
+
+\noindent Si l'on suppose que la largeur des spectres de la figure \eqref{fig:vieilles_raies} est due principalement à l'effet Stark causé par des gradients de champ électrique, alors ceux-ci peuvent s'estimer grâce ax coefficients données en table \eqref{tab:Stark_60S}.
+Une largeur de raie de $\SI{40}{\MHz}$ correspond à un champ électrique variant de $\SIrange{0}{0.667}{\V/\cm}$ sur l'extension du nuage.
+Or le nuage utilisé pour ces spectres était un MOT de $\sim \SI{200}{\um}$ de diamètre, ce qui nous donne une valeur de gradient de champ électrique de l'ordre de $\SI{35}{(\V/\cm)\per\cm}$.
+
+%DISCREPANCY avec Raul, qui trouve $14 V/cm^2$. Ca semble se corriger par un facteur $2\pi$ dans la largeur, qui viendrait du fait qu'il a appelé $\Delta\omega$ la largeur de raie au lieu de $\Dela \nu$.
 
 	\newpage
-	on travaille près d'une puce qui est une surface, et avec des objets ultra-sensibles -> ça peut créer des problèmes ! \\
-		\noindent vieilles raies larges et moches : expliquer par l'effet Stark quadratique et l'élargiseement inhomogène. \\
 		\noindent potentiel de contact et flash de Rb : dessins et schéma + dispensers et leur emplacement et boîte de protection \\
 		\noindent c'est magiques, ça nous donne de belles raies fines !
 		

@@ -669,6 +669,27 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevA.82.061606
       \endverb
     \endentry
+    \entry{TXT_ASPECTFABRE_QUANTOPT}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=fccc0362116e0c0682dd49add5f4968b}{Grynberg}{G\bibinitperiod}{Gilbert}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=8c9fa133a0a3a13c45c38760904ddaf9}{Aspect}{A\bibinitperiod}{Alain}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b93a872cbc679301a44d92aade4ba549}{Fabre}{F\bibinitperiod}{Claude}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=fccc0362116e0c0682dd49add5f4968b}{Grynberg}{G\bibinitperiod}{Gilbert}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=8c9fa133a0a3a13c45c38760904ddaf9}{Aspect}{A\bibinitperiod}{Alain}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b93a872cbc679301a44d92aade4ba549}{Fabre}{F\bibinitperiod}{Claude}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{d0fddd240081a47b14a3065d49d20f08}
+      \strng{fullhash}{fd70ebb21cec4a0a7fedf5a027d22655}
+      \field{sortinit}{0}
+      \field{labeltitle}{Introduction to quantum optics: from the semi-classical approach to quantized light}
+      \field{title}{Introduction to quantum optics: from the semi-classical approach to quantized light}
+      \field{year}{2010}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

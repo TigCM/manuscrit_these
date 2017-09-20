@@ -418,9 +418,9 @@ Troisièmement, il peut être intéressant pour des nuages très denses de ne pa
 \end{equation}
 Nous appellerons cette opération \og absorption no-log \fg{}.
 Si le nuage présente un profil de densité gaussien, cela permet de se concentrer sur les ailes de ce profil.
-Dans le cas d'un nuage très dense, comme par exemple pour les mélasses optiques, le centre du nuage où la densité est très haute donne un signal d'absorption bruité.
+Dans le cas d'un nuage très dense optiquement, comme par exemple pour les mélasses optiques, le centre du nuage où la densité est très haute donne un signal d'absorption bruité.
 L'ajustement du profil de densité est alors meilleur sur les bords du nuages.
-La figure \eqref{fig:nolog_gabs} montre l'image d'une mélasse optique par absorption de la sonde de côté, traitée d'après l'équation \eqref{eq:Beer-Lambert_integ} et d'après l'équation \eqref{eq:nolog_abs}.
+La figure \eqref{fig:nolog_abs} montre l'image d'une mélasse optique par absorption de la sonde de côté, traitée d'après l'équation \eqref{eq:Beer-Lambert_integ} et d'après l'équation \eqref{eq:nolog_abs}.
 
 \begin{figure}[!h]
 \centering
@@ -434,7 +434,7 @@ Images du nuage atomique de mélasse optique par absorption du faisceau sonde c�
 Les graphes sous les images sont les profils de densité du nuage en coupe horizontale.
 L'échelle de couleur est différente pour les deux images, adaptée à l'échelle des profils en coupe représentés.
 Les zones bruitées à gauche et à droite ne sont pas éclairées par le faisceau sonde. 
-En absorption \og no-log \fg{}, le bruit dans les zones sombres est plus important, mais réduit au centre et sur les bords du nuage.
+En absorption \og no-log \fg{}, le bruit est plus important dans les zones sombres, mais réduit au centre et sur les bords du nuage.
 %Le bruit y est beaucoup plus important si l'on ne prend pas le logarithme du signal (image de droite).
 %Cependant, le bruit y est fortement réduit au centre du nuage.
 }
@@ -458,7 +458,9 @@ Le tableau \ref{tab:nuages} présente les caractéristiques principales des diff
 
 \begin{table}[h!]
 	\centering
-	\caption[Quelques nuages typiques]{Quelques nuages typiques de notre expérience}
+	\caption[Quelques nuages typiques]{Quelques nuages typiques de notre expérience.
+	Pour chacun, nous donnons les caractéristiques suivantes : nombre d'atomes $N$, taille $Delta x$ du nuage selon $x$, taille $\Delta y,z$ du nuage selon $y$ et $z$, température $T$ est distance à la puce $d$.
+	}
 	\label{tab:nuages}
 	\begin{tabular}{c | c c c c c}
 		\toprule\midrule
@@ -485,32 +487,32 @@ Le tableau \ref{tab:nuages} présente les caractéristiques principales des diff
 %		&idem
 %		\\
 		U-MOT proche
-		&
+		&\SI{e7}
 		&\SI{200}{\um}
 		&\SI{200}{\um}
 		&\SI{40}{\uK}
-		&\SIrange{0.5}{1}{\mm}
+		&\SI{600}{\um}
 		\\
 		mélasse optique
-		&\SI{5e7}
+		&\SI{5e6}
 		&\SI{80}{\um}
 		&\SI{80}{\um}
 		&\SI{10}{\uK}
-		&idem
+		&\SI{600}{\um}
 		\\
 		piège mag. chaud
-		&\SI{e7}
+		&\SI{1.5e6}
 		&
 		&
 		&\SI{40}{\uK}
-		&idem
+		&
 		\\
 		piège mag. froid
-		&\SIrange{e4}{e6}
-		&
-		&
-		&\SIrange{0.5}{2}{\uK}
-		&\SIrange{100}{700}{\um}
+		&\SI{1.2e4}
+		&\SI{45}{\um}
+		&\SI{4.5}{\um}
+		&\SI{0.75}{\uK}
+		&\SI{450}{\um}
 		\\
 		BEC
 		&\SIrange{8000}{20000}
@@ -523,3 +525,5 @@ Le tableau \ref{tab:nuages} présente les caractéristiques principales des diff
 		\bottomrule
  	\end{tabular}
 \end{table}
+
+\noindent Ces différents nuages d'atomes froids, ou ultra-froids, vont nous permettre d'explorer l'excitation d'atomes de Rydberg dans différentes conditions.

@@ -1978,6 +1978,8 @@
     <bcf:citekey order="31">PHD_CELISTRINO</bcf:citekey>
     <bcf:citekey order="31">MX_GUERYODELIN_SATABSIM</bcf:citekey>
     <bcf:citekey order="32">MX_WHITLOCK_FRINGEREDUCTION</bcf:citekey>
+    <bcf:citekey order="33">DATA_STECKRB87</bcf:citekey>
+    <bcf:citekey order="34">TXT_ASPECTFABRE_QUANTOPT</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

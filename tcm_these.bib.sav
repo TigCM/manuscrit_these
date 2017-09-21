@@ -384,4 +384,13 @@
   author    = {Grynberg, Gilbert and Aspect, Alain and Fabre, Claude},
 }
 
+@PhdThesis{PHD_EMMERT,
+  author    = {Andreas Emmert},
+  title     = {Puce à atomes supraconductrice : Atomes froids dans un environnement cryogénique et excitation d'atomes de Rydberg},
+  school    = {Universit\'e Paris VI},
+  year      = {2009},
+  owner     = {Raul},
+  timestamp = {2014.06.01},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -1,19 +1,19 @@
 [0] Config.pm:318> INFO - This is Biber 1.8
 [0] Config.pm:321> INFO - Logfile is 'these.blg'
-[70] biber-MSWIN:272> INFO - === %a %b %e, %Y, %H:%M:%S
-[71] Biber.pm:333> INFO - Reading 'these.bcf'
-[151] Biber.pm:630> INFO - Found 25 citekeys in bib section 0
-[187] Biber.pm:3053> INFO - Processing section 0
-[226] Biber.pm:3190> INFO - Looking for bibtex format file 'tcm_these.bib' for section 0
-[233] bibtex.pm:937> INFO - Decoding LaTeX character macros into UTF-8
-[241] bibtex.pm:812> INFO - Found BibTeX data source 'tcm_these.bib'
-[298] Utils.pm:169> WARN - BibTeX subsystem: C:\Users\s15\AppData\Local\Temp\9z2wYncVNq\tcm_these.bib_3216.utf8, line 109, warning: undefined macro "pra"
-[298] Utils.pm:169> WARN - BibTeX subsystem: C:\Users\s15\AppData\Local\Temp\9z2wYncVNq\tcm_these.bib_3216.utf8, line 120, warning: undefined macro "pra"
-[302] Utils.pm:169> WARN - The field 'journaltitle' in entry 'ENS_SPECNA2' cannot be null, deleting it
-[302] Utils.pm:169> WARN - The field 'journaltitle' in entry 'ENS_SPECCS' cannot be null, deleting it
-[348] Biber.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[348] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
-[348] Biber.pm:2949> INFO - No sort tailoring available for locale 'English_United States.1252'
-[391] bbl.pm:482> INFO - Writing 'these.bbl' with encoding 'UTF-8'
-[398] bbl.pm:555> INFO - Output to these.bbl
-[399] Biber.pm:105> INFO - WARNINGS: 4
+[178] biber-MSWIN:272> INFO - === %a %b %e, %Y, %H:%M:%S
+[179] Biber.pm:333> INFO - Reading 'these.bcf'
+[244] Biber.pm:630> INFO - Found 26 citekeys in bib section 0
+[374] Biber.pm:3053> INFO - Processing section 0
+[556] Biber.pm:3190> INFO - Looking for bibtex format file 'tcm_these.bib' for section 0
+[564] bibtex.pm:937> INFO - Decoding LaTeX character macros into UTF-8
+[571] bibtex.pm:812> INFO - Found BibTeX data source 'tcm_these.bib'
+[824] Utils.pm:169> WARN - BibTeX subsystem: C:\Users\s15\AppData\Local\Temp\eh_WqzqQSP\tcm_these.bib_8868.utf8, line 109, warning: undefined macro "pra"
+[825] Utils.pm:169> WARN - BibTeX subsystem: C:\Users\s15\AppData\Local\Temp\eh_WqzqQSP\tcm_these.bib_8868.utf8, line 120, warning: undefined macro "pra"
+[829] Utils.pm:169> WARN - The field 'journaltitle' in entry 'ENS_SPECNA2' cannot be null, deleting it
+[829] Utils.pm:169> WARN - The field 'journaltitle' in entry 'ENS_SPECCS' cannot be null, deleting it
+[938] Biber.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[938] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[938] Biber.pm:2949> INFO - No sort tailoring available for locale 'English_United States.1252'
+[981] bbl.pm:482> INFO - Writing 'these.bbl' with encoding 'UTF-8'
+[987] bbl.pm:555> INFO - Output to these.bbl
+[987] Biber.pm:105> INFO - WARNINGS: 4

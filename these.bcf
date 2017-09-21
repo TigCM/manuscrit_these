@@ -1967,19 +1967,23 @@
     <bcf:citekey order="20">TXT_JACKSON</bcf:citekey>
     <bcf:citekey order="21">TXT_COHEN1FR</bcf:citekey>
     <bcf:citekey order="22">MX_BROWAEYSDD14</bcf:citekey>
-    <bcf:citekey order="23">PHD_CELISTRINO</bcf:citekey>
-    <bcf:citekey order="24">PHD_NIRRENGARTEN</bcf:citekey>
-    <bcf:citekey order="25">PHD_ROUX</bcf:citekey>
-    <bcf:citekey order="26">MX_MEISSNEREFFECT</bcf:citekey>
-    <bcf:citekey order="27">ENS_CHIPLIFETIME</bcf:citekey>
-    <bcf:citekey order="28">PHD_CELISTRINO</bcf:citekey>
-    <bcf:citekey order="29">DATA_STECKRB87</bcf:citekey>
-    <bcf:citekey order="30">PHD_NIRRENGARTEN</bcf:citekey>
-    <bcf:citekey order="31">PHD_CELISTRINO</bcf:citekey>
-    <bcf:citekey order="31">MX_GUERYODELIN_SATABSIM</bcf:citekey>
-    <bcf:citekey order="32">MX_WHITLOCK_FRINGEREDUCTION</bcf:citekey>
+    <bcf:citekey order="23">PHD_NIRRENGARTEN</bcf:citekey>
+    <bcf:citekey order="24">PHD_ROUX</bcf:citekey>
+    <bcf:citekey order="25">PHD_EMMERT</bcf:citekey>
+    <bcf:citekey order="26">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="27">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="28">PHD_NIRRENGARTEN</bcf:citekey>
+    <bcf:citekey order="29">PHD_ROUX</bcf:citekey>
+    <bcf:citekey order="30">MX_MEISSNEREFFECT</bcf:citekey>
+    <bcf:citekey order="31">ENS_CHIPLIFETIME</bcf:citekey>
+    <bcf:citekey order="32">PHD_CELISTRINO</bcf:citekey>
     <bcf:citekey order="33">DATA_STECKRB87</bcf:citekey>
-    <bcf:citekey order="34">TXT_ASPECTFABRE_QUANTOPT</bcf:citekey>
+    <bcf:citekey order="34">PHD_NIRRENGARTEN</bcf:citekey>
+    <bcf:citekey order="35">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="35">MX_GUERYODELIN_SATABSIM</bcf:citekey>
+    <bcf:citekey order="36">MX_WHITLOCK_FRINGEREDUCTION</bcf:citekey>
+    <bcf:citekey order="37">DATA_STECKRB87</bcf:citekey>
+    <bcf:citekey order="38">TXT_ASPECTFABRE_QUANTOPT</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

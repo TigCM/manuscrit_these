@@ -1,14 +1,38 @@
 \chapter{Des atomes de Rydberg froids en environnement cryogénique}
 \label{chapter:setup_coldatoms_Rydberg}
+%
+%INTRODUCTION DU CHAPITRE\\
+%entre autres, longue vie aux Rydberg en environnement cryogénique
 
-INTRODUCTION DU CHAPITRE\\
-entre autres, longue vie aux Rydberg en environnement cryogénique
+\noindent L'observation d'atomes de Rydberg en interaction sur des temps longs, tant pour la question du mouvement d'un gaz de Rydberg ultra-froids que dans l'optique de la simulation quantique, requiert des conditions expérimentales spécifiques.
+D'une part, il est souhaitable que la durée de vie des niveaux de Rydberg soit la plus longue possible, ce qui nous pousse à travailler en environnement cryogénique.
+Les calculs menés dans le chapitre \ref{chapter:Rydberg} nous montrent l'importance de la température de l'environnement sur la durée de vie des atomes de Rydberg, plus cruciale encore si l'on souhaite travailler avec des atomes de Rydberg circulaires.
 
+D'autre part, il est nécessaire, étant donnés nos objectifs, que nos atomes de Rydberg soient aussi froids que possible.
+L'on pourrait imaginer piéger et refroidir des atomes qui auraient été préalablement excités dans des niveaux de Rydberg à partir d'un jet atomique chaud.
+Cependant, il n'y a pas de technique connue à ce jour qui permette cela, et la durée de vie des niveaux de Rydberg en limiterait très certainement les possibilités.
+Or les techniques de piégeage et de refroidissement des atomes alcalins non excités sont des outils bien maîtrisés.
+Voilà donc une piste bien plus prometteuse.
+
+Une première difficulté se présente ici : les techniques d'atomes ultra-froids sont pour la plupart développées au sein de dispositifs à température ambiante.
+Il s'agira donc ici de les concilier avec un environnement cryogénique.
+Avec cette contrainte à l'esprit, et dans l'optique d'obtenir des nuages atomiques très confinés, il a été choisi de centrer le dispositif autour d'une puce à atomes supraconductrice.
+Prenons note dès maintenant d'une deuxième difficulté technique posée par un tel dispositif :
+les atomes de Rydberg sont extrêmement sensibles au champ électromagnétique, et souhaitons les exciter et les observer au voisinage de la surface conductrice qu'est notre puce atomique.
+
+Ce chapitre sera donc dédié à la description de notre dispositif expérimental.
+Nous nous intéresserons d'abord à l'aspect du dispositif qui nous sert à piéger et refroidir des atomes de \Rb{87} sur une puce atomique supraconductrice.
+Nous nous attacherons ensuite à décrire comment nous excitons, manipulons et détectons les atomes de Rydberg au sein de ce dispositif.
 
 \section{Un nuage d'atomes ultra-froids sur puce, du MOT de capture au condensat de Bose-Einstein}
 
-Introduction de la section:\\
-les atomes froids c'est super
+\noindent Le développement de notre plateforme d'atomes froids autour d'une puce supraconductrice a été l'objet de plusieurs thèse de doctorat précédant celle-ci.
+Les thèses de Thomas Nirrengarten \cite{PHD_NIRRENGARTEN}, de Cédric Roux \cite{PHD_ROUX} et d'Andreas Emmert \cite{PHD_EMMERT} sont dédiées à la question du piégeage et du refroidissement jusqu'au BEC d'atomes de \Rb{87} près d'une surface à l'aide de fils supraconducteurs.
+La thèse de Raul Celistrino Teixeira \cite{PHD_CELISTRINO} détaille la fabrication et les caractéristiques de la puce atomique que nous avons utilisée pour nos expériences.
+
+Nous ferons donc ici une présentation rapide du cryostat et de la puce à atomes que nous utilisons, puis nous détaillerons la suite d'étapes que nécessite le piégeage et le refroidissement des atomes de rubidium au sein de notre dispositif.
+Enfin, après avoir présenté la technique d'imagerie atomique par absorption, nous présenterons quelques chiffres typiques de nos nuages atomiques.
+
 
 	\subsection{L'environnement cryogénique : cryostat et puce à atomes supraconductrice}\label{subsec:cryopuce}
 	
@@ -384,7 +408,7 @@ De plus, les atomes ne sont pas tous dans le sous-niveau $m_F=+2$, en particulie
 Enfin, l'interférence entre le faisceau sonde de côté et sa réflexion sur la puce module l'intensité de la lumière vue par le nuage atomique.
 La combinaison de ces effets réduit la section efficace de diffusion d'un facteur $\alpha$, que l'on sait calibrer expérimentalement \cite{PHD_CELISTRINO,MX_GUERYODELIN_SATABSIM}.
 Pour l'absorption de la sonde de côté par un nuage dans le piège magnétique, nous obtenons une valeur $\alpha_{magn} = \num{2.06} \pm \num{0.1}$.
-Pour l'absorption de la sonde de côté par un nuage juste après la mélasse optique, nous obtenons une valeur $\alpha_{melasse} = ??????????????????????????$.
+Pour l'absorption de la sonde de côté par un nuage juste après la mélasse optique, nous obtenons une valeur $\alpha_{melasse} = \SI{2.27}{} \pm \SI{0.1}{}??????????????????????????$.
 Le nombre d'atomes évalué à partir des images par absorption dépend directement de la valeur de ce paramètre $\alpha$.
 	
 Deuxièmement, l'acquisition du signal d'imagerie se fait en trois temps.
@@ -411,7 +435,7 @@ L'échelle de couleur est la même pour les deux images et a été optimisée po
 \label{fig:Fringe_Reduction}
 \end{figure}		
 
-Troisièmement, il peut être intéressant pour des nuages très denses de ne pas calculer la densité optique $OD$ comme à l'équation \eqref{eq:Beer-Lambert_integ}, mais de s'arrêter à l'opération 
+Troisièmement, il peut être intéressant, pour caractériser des nuages très denses, de ne pas calculer la densité optique $OD$ comme à l'équation \eqref{eq:Beer-Lambert_integ}, mais de s'arrêter à l'opération 
 \begin{equation}
 \label{eq:nolog_abs}
 \frac{I_f(y,z)}{I_i(y,z)} = e^{-OD(x,y)} = e^{-\sigma .n(y,z)}.

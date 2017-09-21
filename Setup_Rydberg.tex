@@ -1,28 +1,12 @@
-%\chapter{Dispositif expérimental : des atomes de Rydberg sur puce}
-%\label{chapter:setup_ryd}
-%
-%\section{Excitation et détection d'atomes de Rydberg}
-%	\subsection*{Schémas d'excitation}
-%		\noindent schéma laser : schéma de niveaux (60s ou 50d) et schéma optique		
-%	\subsection*{Schémas de détection}
-%		\noindent state selective ionization
-%		\noindent signaux d'ionisation et toutes les subtilités
-%		
-%\section{Problème des champs électriques près d'une puce}
-%	\subsection*{L'élargissement Stark inhomogène}
-%		\noindent raies de plusieurs dizaines de MHz de large, drift
-%	\subsection*{Recouvrir la puce de rubidium}
-%		\noindent dispositif dispensers et raies fines
-%	\subsection*{Contrôle du champ électrique}
-%		\noindent Lhomond et CdF, électronique de contrôle \\
-%		\noindent électrodes RF pour la circularisation (Simion ?) 
-%		
-%\section{Spectroscopie microonde}
-%	\noindent mention rapide des domaines de transition entre les niveaux de Rydberg
-%	
 \section{Excitation et détection d'atomes de Rydberg près d'une puce}
-intro de la section :\\
-??
+
+\noindent Cette diversité de nuages atomiques nous permet d'exciter des atomes de Rydberg dans différentes conditions de densité atomique, de température et de distance à la puce.
+Nous présentons dans le reste de ce chapitre la partie de notre dispositif expérimental servant à exciter, détecter et manipuler les atomes de Rydberg.
+Notre dispositif est particulier dans la mesure où tout ce que concerne les niveaux de Rydberg a lieu près d'une surface conductrice, ce qui rend les choses plus difficiles.
+
+Après avoir donné le principe de l'excitation à deux photons des niveaux de Rydberg et de la détection par ionisation sélective, nous ferons une présentation de rapide de l'effet Strak et de ses effets sur nos expériences.
+Nous décrirons ensuite les techniques mises en place afin de contrôler les champs électriques près de la puce.
+Nous finirons ce chapitre par une présentation de la technique de spectroscopie microonde des niveaux de Rydberg et de son utilisation pour mesurer les champs électriques résiduels.
 
 	\subsection{L'excitation à deux photons des atomes de Rydberg}
 
@@ -86,7 +70,7 @@ Ce paramètre peut être varié simplement en ajustant la puissance du laser rou
 \end{figure}
 
 		
-	\subsection{La détection par ionisation des atomes de Rydberg}
+	\subsection{La détection par ionisation des atomes de Rydberg}\label{subsec:detection}
 \noindent L'électron de valence d'un atome de Rydberg alcalin est très proche du seuil d'ionisation.
 Il est donc très facile de l'arracher au noyau en appliquant un champ électrique.
 Nous exploitons cette caractéristique pour détecter les atomes de Rydberg par ionisation en champ électrique :
@@ -313,20 +297,99 @@ La largeur de raie a été considérablement réduite par le dépôt contrôlé 
 \label{fig:raiefine_depot}
 \end{figure}
 
+		
+	\subsection{Contrôle du champ électrique}% et compensation}
+\noindent Le dépôt saturé de rubidium sur la puce nous a permis de réduire considérablement les inhomogénéités de champ électrique.
+% mais ne garantit en rien un champ nul
+Nous souhaitons néanmoins pouvoir contrôler la valeur moyenne du champ à la position du nuage atomique, dans deux optiques.
+La première est la réduction de l'effet des inhomogénéités résiduelles.
+En effet, plus la valeur moyenne du champ électrique sera élevée, plus la raie spectrale sera élargie par une même variation autour de la valeur moyenne.
+Cela est dû à la forme quadratique de l'effet Stark pour les niveaux de bas $l$, et se conçoit fort bien à l'observation de la figure \eqref{fig:Stark_60S}.
+La seconde optique d'un contrôle plus fin du champ électrique est de pouvoir déplacer en fréquence la transition laser vers les niveaux de Rydberg ainsi que les transitions microonde entre niveaux de Rydberg voisins.
+Cet aspect du contrôle des champs électriques nous sera surtout utile lorsque nous nous intéresserons aux niveaux de Rydberg circulaires, dans les chapitres \ref{chapter:circsim} et \ref{chapter:50c}.
+	
+Le moyen le plus direct dont nous disposons pour le contrôle du champ électrique est l'application d'une tension sur les électrodes d'ionisation $I_1$ et $I_2$ représentées en figure \eqref{fig:schema_detect}.
+Il est raisonnable de supposer, étant donner la grande surface de ces électrodes, que le champ créé entre celles-ci et la puce sera spatialement homogène, au moins là où se situe le nuage atomique.
+Le contrôle de la tension appliquée à ces électrodes présente une exigence technique particulière :
+%demande un certain raffinement technique :
+nous voulons contrôler le champ électrique vu par les atomes à l'échelle de la dizaine de $\si{\mV/\cm}$, tout en étant capable d'appliquer une tension de quelques centaines de Volts sur les mêmes électrodes afin d'ioniser et détecter les atomes de Rydberg.
 
-	\newpage
-		\noindent potentiel de contact et flash de Rb : dessins et schéma + dispensers et leur emplacement et boîte de protection \\
-		\noindent c'est magiques, ça nous donne de belles raies fines !
-		
-	\subsection{compensation et contrôle des champs}
-	c'est bien d'avoir' ces raies fines mais on veut contrôler le champ électrique le mieux possible
-		\noindent électrode Vcomp et schéma de contrôle mixte excitation/détection. Le contrôle du champ sur $Oy$ c'est bien, ça permet de faire plein de trucs, mais il reste des gradients (au moins).\\
-		
-		\noindent si on veut faire encore mieux, il faut contrôler les champs selon $Ox$ et $Oy$ $\rightarrow$ électrodes RF :
-		\\ schéma d'installation des électrodes
-		\\ SIMION pour vérifier que ça permet de créer des champs y compris très près de la puce
-		\\ en plus, ça servira de source de RF polarisée !!
-		
+Nous avons pour cela conçu un circuit électronique permettant de commuter rapidement la tension appliquée aux électrodes, entre une voie basse tension à bas bruit pendant l'excitation des atomes de Rydberg et une voie haute tension servant à leur détection.
+Ce circuit est schématisé en figure \eqref{fig:detectionbox_ENS}.
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=.8\linewidth]{figures/detectionbox_ENS}
+\caption[Premier circuit de contrôle de la tension des électrodes d'ionisation]{
+Premier circuit de contrôle de la tension des électrodes d'ionisation.
+Les tensions sont fournies par un générateur de fonctions arbitraires contrôlé par ordinateur, puis amplifiées par un amplificateur haute tension de gain $\times \num{50}$.
+Pendant l'excitation des atomes de Rydberg, l'optocoupleur est bloquant.
+Le pont diviseur de tension créé par la résistance de $\SI{50}{\kilo\ohm}$ d'une part et de $\SI{2.5}{} + \SI{4.7}{\kilo\ohm}$ divise par un facteur $\num{8}$ le bruit électronique au niveau des électrodes, au prix d'une réduction d'autant du signal.
+Pendant la phase de détection, l'optocoupleur est passant et le pont diviseur est ainsi court-circuité.
+La tension appliquée aux électrodes est alors directement la tension en sortie de l'amplificateur.
+}
+\label{fig:detectionbox_ENS}
+\end{figure}
+%
+
+Toutes les expériences que nous décrirons dans la suite de cette thèse ayant trait au niveau $\mathrm{60S}$ ont été réalisées à l'aide de ce circuit.
+Une particularité de son fonctionnement réside dans le fait que la phase d'excitation des atomes de Rydberg se fait à tension constante, et que le contrôle dynamique de la tension n'est permis que lors de la phase de détection, qui nécessite une rampe de tension comme évoqué en \ref{subsec:detection}.
+Cette limitation sera corrigée plus tard par l'introduction d'un second circuit de contrôle, représenté en figure \eqref{fig:detectionbox_CdF} et son fonctionnement est détaillé ci-après.
+Ce second circuit, qui permet l'application de deux rampes de tensions indépendantes pour l'excitation et la détection, a été utilisé dans toutes les éxpériences que nous décrirons ayant trait au niveau circulaire $\mathrm{50C}$.
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figures/detectionbox_CdF}
+\caption[Second circuit de contrôle de la tension des électrodes d'ionisation]{
+Second circuit de contrôle de la tension des électrodes d'ionisation.
+Les tensions sont fournies par deux générateurs de fonctions arbitraires indépendants et appliquées directement aux électrodes par deux voies séparées (voie basse tension à gauche et voie haute tension à droite).
+}
+\label{fig:detectionbox_CdF}
+\end{figure}
+
+Dans ce second circuit de contrôle de tension, l'ordinateur de contrôle permet de programmer une rampe arbitraire sur chacun des générateurs.
+La tension fournie par le générateur \og détection \fg{} est amplifiée $\num{50}$ fois et devient \og $\mathrm{V_{ion}}$ \fg{}.
+$\mathrm{V_{ion}}$ est introduite dans la voie haute tension du circuit de contrôle.
+La tension fournie par le générateur \og Stark \fg{} n'est pas amplifiée et est appelée \og $\mathrm{V_{Stark}}$ \fg{}.
+$\mathrm{V_{Stark}}$ est introduite dans la voie basse tension du circuit de contrôle.
+Pendant la phase d'excitation, le signal TTL est éteint. L'optocoupleur de la voie haute tension est alors bloquant, et les deux optocoupleurs de la voie basse tension sont passants.
+L'optocoupleur du haut sert à faire passer les tension négatives et celui du bas les tensions positives.
+Chacun est isolé par une diode à sa sortie, adaptée au sens de circulation du courant dans chaque voie.
+La tension $\mathrm{V_{Stark}}$ est alors directement appliquée aux électrodes.
+Pendant la phase de détection, le signal TTL est allumé. Les optocoupleurs de la voie basse tension deviennent bloquants et celui de la voie haute tension devient passant.
+La tension $\mathrm{V_{ion}}$ est alors directement appliquée aux électrodes.
+Les tensions en fin de rampe de détection peuvent aller de $\SI{-150}{\V}$ pour les niveaux voisins du $\mathrm{60S}$, et jusqu'à $\SI{-500}{\V}$ pour les niveaux voisins du $\mathrm{50C}$.
+Nous avons donc conçu ce circuit de contrôle en conséquence, en utilisant des optocoupleurs capables de bloquer des tensions élevées.
+	
+ \subsubsection*{Contrôle du champ parallèle à la puce et électrodes de circularisation}
+\noindent Les dispositifs de contrôle des champs électriques que nous venons de présenter ont une lacune majeure :
+ils ne permettent de varier le champ électrique que perpendiculairement à la puce, soit dans la direction $y$.
+Lorsque nous avons commencé à travailler dans l'optique d'obtenir des atomes de Rydberg circulaires, nous avons souhaité pouvoir contrôler le champ électrique parallèlement à la puce.
+Cela a deux conséquences.
+En premier lieu, nous serons en mesure de compenser les champs résiduels dans les directions $x$ et $z$.
+En second lieu, cela permettra d'appliquer un champ électrique radio-fréquence polarisé, nécessaire à la circularisation des niveaux de Rydberg, qui sera discutée au chapitre \ref{chapter:50c}.
+
+
+Notre dispositif de contrôle du champ parallèle à la puce consiste en quatre électrodes cylindriques (\og électrodes RF \fg{}) , disposées en carré autour de la zone de piégeage des atomes.
+La figure \ref{fig:RF_ELECTRODES} montre la disposition de ces électrodes au c\oe ur du dispositif expérimental.
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figures/RF_electrodes}
+\caption[Électrodes de circularisation et de contrôle du champ parallèle]{
+Électrodes \og RF \fg{} de circularisation et de contrôle du champ parallèle à la puce.
+}
+\label{fig:RF_ELECTRODES}
+\end{figure}
+%
+En appliquant des tensions arbitraires sur ces électrodes, nous pourrons compenser les champs résiduels dans les directions $x$ et $z$, et espérer compenser même les gradients de champ dans ces directions.
+En leur appliquant des tensions oscillant à une fréquence de $\SI{230}{\MHz}$ avec avec des phases bien optimisés, nous pourrons générer un champ électrique radio-fréquence arbitrairement polarisé au niveau des atomes.
+
+\bigskip
+\noindent rentrer dans une description détaillée de la géométrie et donner des résultats de SIMION ? nécessaire ou pas ?
+
+
+\newpage
 	\subsection{manipulation et observation des Rydbergs}
 \noindent C'est bien de détecter des Rydberg, mais il faut aussi pouvoir les manipuler et les caractériser.
 Pour ça, on a un outil fabuleux : la spectroscopie microonde vers les niveaux voisins ! \\

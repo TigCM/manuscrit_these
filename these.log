@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.14)  21 SEP 2017 12:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.14)  21 SEP 2017 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1786,19 +1786,19 @@ Overfull \hbox (1.37013pt too wide) in paragraph at lines 149--149
 \tf@toc=\write6
 \openout6 = `these.toc'.
 
- [4] (./these.lof)
+ [4] (./these.lof [5
+
+])
 \tf@lof=\write7
 \openout7 = `these.lof'.
 
- [5
-
-] [6
-
-] (./these.lot)
+ [6] (./these.lot)
 \tf@lot=\write8
 \openout8 = `these.lot'.
 
- [7] [8
+ [7
+
+] [8
 
 ] [1
 
@@ -1852,7 +1852,7 @@ Overfull \hbox (3.0223pt too wide) detected at line 80
  
  []
 
-[5] <figures/WaveFunc_60S_.pdf, id=507, 397.485pt x 400.49625pt>
+[5] <figures/WaveFunc_60S_.pdf, id=513, 397.485pt x 400.49625pt>
 File: figures/WaveFunc_60S_.pdf Graphic file (type pdf)
 
 <use figures/WaveFunc_60S_.pdf>
@@ -1883,7 +1883,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 168.
 
-<figures/lifetime.pdf, id=532, 579.16376pt x 434.62375pt>
+<figures/lifetime.pdf, id=538, 579.16376pt x 434.62375pt>
 File: figures/lifetime.pdf Graphic file (type pdf)
 
 <use figures/lifetime.pdf>
@@ -1897,7 +1897,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-<figures/echelle_parabolique_m1m2.pdf, id=596, 1269.99469pt x 583.42969pt>
+<figures/echelle_parabolique_m1m2.pdf, id=602, 1269.99469pt x 583.42969pt>
 File: figures/echelle_parabolique_m1m2.pdf Graphic file (type pdf)
 
 <use figures/echelle_parabolique_m1m2.pdf>
@@ -1910,7 +1910,7 @@ Overfull \hbox (2.67213pt too wide) in paragraph at lines 300--301
  in-tro-dui-sons un nou-veau nombre
  []
 
-<figures/echelle_parabolique_mk.pdf, id=597, 319.27989pt x 158.44243pt>
+<figures/echelle_parabolique_mk.pdf, id=603, 319.27989pt x 158.44243pt>
 File: figures/echelle_parabolique_mk.pdf Graphic file (type pdf)
 
 <use figures/echelle_parabolique_mk.pdf>
@@ -1922,7 +1922,7 @@ Package pdftex.def Info: figures/echelle_parabolique_mk.pdf used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11 <./figures/echelle_parabolique_m1m2.pdf>]
-<figures/WaveFunc_50C_.pdf, id=610, 397.485pt x 391.4625pt>
+<figures/WaveFunc_50C_.pdf, id=616, 397.485pt x 391.4625pt>
 File: figures/WaveFunc_50C_.pdf Graphic file (type pdf)
 
 <use figures/WaveFunc_50C_.pdf>
@@ -1953,14 +1953,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 pdfTeX warning: pdflatex.exe (file ./figures/WaveFunc_50C_.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] <figures/spontem_50C49C.pdf, id=649, 394.70128pt x 275.7411pt>
+>] <figures/spontem_50C49C.pdf, id=655, 394.70128pt x 275.7411pt>
 File: figures/spontem_50C49C.pdf Graphic file (type pdf)
 
 <use figures/spontem_50C49C.pdf>
 Package pdftex.def Info: figures/spontem_50C49C.pdf used on input line 363.
 (pdftex.def)             Requested size: 286.80252pt x 200.36789pt.
  [13 <./figures/spontem_50C49C.pdf>]
-<figures/lifetime_50C.pdf, id=685, 433.62pt x 289.08pt>
+<figures/lifetime_50C.pdf, id=691, 433.62pt x 289.08pt>
 File: figures/lifetime_50C.pdf Graphic file (type pdf)
 
 <use figures/lifetime_50C.pdf>
@@ -1974,7 +1974,7 @@ Package pdftex.def Info: figures/lifetime_50C.pdf used on input line 378.
 
 
 ]
-<figures/dipole_coupling_aacd.pdf, id=742, 104.39pt x 113.26595pt>
+<figures/dipole_coupling_aacd.pdf, id=748, 104.39pt x 113.26595pt>
 File: figures/dipole_coupling_aacd.pdf Graphic file (type pdf)
 
 <use figures/dipole_coupling_aacd.pdf>
@@ -1982,7 +1982,7 @@ Package pdftex.def Info: figures/dipole_coupling_aacd.pdf used on input line 69
 .
 (pdftex.def)             Requested size: 122.91714pt x 133.37611pt.
  [16 <./figures/dipole_coupling_aacd.pdf>] [17] <figures/dipole_coupling_abab.p
-df, id=770, 706.22206pt x 182.17755pt>
+df, id=776, 706.22206pt x 182.17755pt>
 File: figures/dipole_coupling_abab.pdf Graphic file (type pdf)
 
 <use figures/dipole_coupling_abab.pdf>
@@ -1990,14 +1990,14 @@ Package pdftex.def Info: figures/dipole_coupling_abab.pdf used on input line 13
 5.
 (pdftex.def)             Requested size: 368.74521pt x 95.11925pt.
 
-<figures/VdW_60S60S.pdf, id=775, 677.55171pt x 520.29973pt>
+<figures/VdW_60S60S.pdf, id=781, 677.55171pt x 520.29973pt>
 File: figures/VdW_60S60S.pdf Graphic file (type pdf)
 
 <use figures/VdW_60S60S.pdf>
 Package pdftex.def Info: figures/VdW_60S60S.pdf used on input line 160.
 (pdftex.def)             Requested size: 327.777pt x 251.70993pt.
  [18 <./figures/dipole_coupling_abab.pdf>]
-<figures/VdW_60S60P.pdf, id=802, 797.89609pt x 495.07715pt>
+<figures/VdW_60S60P.pdf, id=808, 797.89609pt x 495.07715pt>
 File: figures/VdW_60S60P.pdf Graphic file (type pdf)
 
 <use figures/VdW_60S60P.pdf>
@@ -2008,14 +2008,14 @@ Package pdftex.def Info: figures/VdW_60S60P.pdf used on input line 184.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./figures/VdW_60S60S.pdf>]
-<figures/double_torus.png, id=1605, 1547.7825pt x 311.1625pt>
+<figures/double_torus.png, id=1611, 1547.7825pt x 311.1625pt>
 File: figures/double_torus.png Graphic file (type png)
 
 <use figures/double_torus.png>
 Package pdftex.def Info: figures/double_torus.png used on input line 250.
 (pdftex.def)             Requested size: 327.777pt x 65.89206pt.
  [20 <./figures/VdW_60S60P.pdf>]
-<figures/VdW_50C50C_1Vcm.pdf, id=3364, 433.62pt x 289.08pt>
+<figures/VdW_50C50C_1Vcm.pdf, id=3370, 433.62pt x 289.08pt>
 File: figures/VdW_50C50C_1Vcm.pdf Graphic file (type pdf)
 
 <use figures/VdW_50C50C_1Vcm.pdf>
@@ -2040,25 +2040,19 @@ Overfull \hbox (7.59698pt too wide) in paragraph at lines 294--298
 
 ]
 Chapitre II.
-[25] <figures/cryo_vect_small.png, id=3454, 1003.75pt x 1284.8pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+<figures/cryo_vect_small.png, id=3464, 1003.75pt x 1284.8pt>
 File: figures/cryo_vect_small.png Graphic file (type png)
 
 <use figures/cryo_vect_small.png>
-Package pdftex.def Info: figures/cryo_vect_small.png used on input line 31.
+Package pdftex.def Info: figures/cryo_vect_small.png used on input line 55.
 (pdftex.def)             Requested size: 409.71968pt x 524.43849pt.
 
 
-LaTeX Warning: Float too large for page by 19.07523pt on input line 42.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 67.
-
-<figures/chip.pdf, id=3464, 843.91887pt x 500.56842pt>
-File: figures/chip.pdf Graphic file (type pdf)
- <use figures/chip.pdf>
-Package pdftex.def Info: figures/chip.pdf used on input line 69.
-(pdftex.def)             Requested size: 409.71968pt x 243.0198pt.
+LaTeX Warning: Float too large for page by 19.07523pt on input line 66.
 
 [26]
 Overfull \hbox (50.69115pt too wide) has occurred while \output is active
@@ -2069,277 +2063,338 @@ ture au condensat de Bose-Einstein \T1/cmr/m/n/10.95 27
 [27 <./figures/cryo_vect_small.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 90.
+               Default added (so using `tbp') on input line 91.
 
-<figures/magfields_chip.pdf, id=3490, 963.01039pt x 899.35088pt>
+<figures/chip.pdf, id=3490, 843.91887pt x 500.56842pt>
+File: figures/chip.pdf Graphic file (type pdf)
+ <use figures/chip.pdf>
+Package pdftex.def Info: figures/chip.pdf used on input line 93.
+(pdftex.def)             Requested size: 409.71968pt x 243.0198pt.
+
+[28]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 114.
+
+<figures/magfields_chip.pdf, id=3506, 963.01039pt x 899.35088pt>
 File: figures/magfields_chip.pdf Graphic file (type pdf)
 
 <use figures/magfields_chip.pdf>
-Package pdftex.def Info: figures/magfields_chip.pdf used on input line 92.
+Package pdftex.def Info: figures/magfields_chip.pdf used on input line 116.
 (pdftex.def)             Requested size: 409.71968pt x 382.63762pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (1.42973pt too wide) in paragraph at lines 141--146
+\T1/cmr/m/n/10.95 des pièges magnéto-optiques en trois di-men-sions. Dans beau-
+coup d'ex-pé-riences d'atomes
+ []
 
- [28 <./figures/chip.pdf>]
+
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+
 Overfull \hbox (50.69115pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 II.1. Un nuage d'atomes ultra-froids sur puce, du MOT de cap
 ture au condensat de Bose-Einstein \T1/cmr/m/n/10.95 29
  []
 
-[29 <./figures/magfields_chip.pdf>]
-Overfull \hbox (1.42973pt too wide) in paragraph at lines 117--122
-\T1/cmr/m/n/10.95 des pièges magnéto-optiques en trois di-men-sions. Dans beau-
-coup d'ex-pé-riences d'atomes
- []
-
-<figures/mirror_MOT.pdf, id=3574, 210.01082pt x 189.47215pt>
+[29 <./figures/chip.pdf>] [30 <./figures/magfields_chip.pdf>]
+<figures/mirror_MOT.pdf, id=3590, 210.01082pt x 189.47215pt>
 File: figures/mirror_MOT.pdf Graphic file (type pdf)
 
 <use figures/mirror_MOT.pdf>
-Package pdftex.def Info: figures/mirror_MOT.pdf used on input line 125.
+Package pdftex.def Info: figures/mirror_MOT.pdf used on input line 149.
 (pdftex.def)             Requested size: 245.8343pt x 221.80293pt.
 
-<figures/D2lineRb87.pdf, id=3576, 464.49771pt x 356.53499pt>
+<figures/D2lineRb87.pdf, id=3592, 464.49771pt x 356.53499pt>
 File: figures/D2lineRb87.pdf Graphic file (type pdf)
 
 <use figures/D2lineRb87.pdf>
-Package pdftex.def Info: figures/D2lineRb87.pdf used on input line 147.
+Package pdftex.def Info: figures/D2lineRb87.pdf used on input line 171.
 (pdftex.def)             Requested size: 327.777pt x 251.602pt.
- [30 <./figures/mirror_MOT.pdf>]
-<figures/2DMOT.pdf, id=3656, 722.7pt x 542.025pt>
-File: figures/2DMOT.pdf Graphic file (type pdf)
- <use figures/2DMOT.pdf>
-Package pdftex.def Info: figures/2DMOT.pdf used on input line 181.
-(pdftex.def)             Requested size: 245.8343pt x 184.37703pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Overfull \hbox (50.69115pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 II.1. Un nuage d'atomes ultra-froids sur puce, du MOT de cap
 ture au condensat de Bose-Einstein \T1/cmr/m/n/10.95 31
  []
 
-[31 <./figures/D2lineRb87.pdf>] [32 <./figures/2DMOT.pdf>]
+[31 <./figures/mirror_MOT.pdf>]
+<figures/2DMOT.pdf, id=3673, 722.7pt x 542.025pt>
+File: figures/2DMOT.pdf Graphic file (type pdf)
+ <use figures/2DMOT.pdf>
+Package pdftex.def Info: figures/2DMOT.pdf used on input line 205.
+(pdftex.def)             Requested size: 245.8343pt x 184.37703pt.
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 243.
-
-<figures/evapRF.pdf, id=3758, 332.29243pt x 201.37868pt>
-File: figures/evapRF.pdf Graphic file (type pdf)
-
-<use figures/evapRF.pdf>
-Package pdftex.def Info: figures/evapRF.pdf used on input line 245.
-(pdftex.def)             Requested size: 286.80252pt x 173.81526pt.
-
+[32 <./figures/D2lineRb87.pdf>]
 Overfull \hbox (50.69115pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 II.1. Un nuage d'atomes ultra-froids sur puce, du MOT de cap
 ture au condensat de Bose-Einstein \T1/cmr/m/n/10.95 33
  []
 
-[33]
+[33 <./figures/2DMOT.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 259.
+               Default added (so using `tbp') on input line 267.
 
-<figures/BEC.pdf, id=3767, 1249.66875pt x 437.635pt>
+<figures/evapRF.pdf, id=3776, 332.29243pt x 201.37868pt>
+File: figures/evapRF.pdf Graphic file (type pdf)
+
+<use figures/evapRF.pdf>
+Package pdftex.def Info: figures/evapRF.pdf used on input line 269.
+(pdftex.def)             Requested size: 286.80252pt x 173.81526pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 283.
+
+<figures/BEC.pdf, id=3778, 1249.66875pt x 437.635pt>
 File: figures/BEC.pdf Graphic file (type pdf)
  <use figures/BEC.pdf>
-Package pdftex.def Info: figures/BEC.pdf used on input line 261.
+Package pdftex.def Info: figures/BEC.pdf used on input line 285.
 (pdftex.def)             Requested size: 409.71968pt x 143.4851pt.
 
-<figures/exp_sequence.pdf, id=3769, 1081.52617pt x 738.2091pt>
+[34] <figures/exp_sequence.pdf, id=3785, 1081.52617pt x 738.2091pt>
 File: figures/exp_sequence.pdf Graphic file (type pdf)
 
 <use figures/exp_sequence.pdf>
-Package pdftex.def Info: figures/exp_sequence.pdf used on input line 287.
+Package pdftex.def Info: figures/exp_sequence.pdf used on input line 311.
 (pdftex.def)             Requested size: 663.36327pt x 452.79628pt.
-
-Underfull \vbox (badness 1077) has occurred while \output is active []
-
- [34 <./figures/evapRF.pdf>] <figures/probes_CdF.pdf, id=3912, 322.28633pt x 24
-1.3863pt>
-File: figures/probes_CdF.pdf Graphic file (type pdf)
-
-<use figures/probes_CdF.pdf>
-Package pdftex.def Info: figures/probes_CdF.pdf used on input line 323.
-(pdftex.def)             Requested size: 286.80252pt x 214.81104pt.
 
 Overfull \hbox (50.69115pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 II.1. Un nuage d'atomes ultra-froids sur puce, du MOT de cap
 ture au condensat de Bose-Einstein \T1/cmr/m/n/10.95 35
  []
 
-[35 <./figures/BEC.pdf>] [36 <./figures/exp_sequence.pdf>]
-<figures/double_cloud.png, id=3972, 314.17375pt x 202.7575pt>
+[35 <./figures/evapRF.pdf>]
+<figures/probes_CdF.pdf, id=3929, 322.28633pt x 241.3863pt>
+File: figures/probes_CdF.pdf Graphic file (type pdf)
+
+<use figures/probes_CdF.pdf>
+Package pdftex.def Info: figures/probes_CdF.pdf used on input line 347.
+(pdftex.def)             Requested size: 286.80252pt x 214.81104pt.
+
+<figures/double_cloud.png, id=3930, 314.17375pt x 202.7575pt>
 File: figures/double_cloud.png Graphic file (type png)
 
 <use figures/double_cloud.png>
-Package pdftex.def Info: figures/double_cloud.png used on input line 333.
+Package pdftex.def Info: figures/double_cloud.png used on input line 357.
 (pdftex.def)             Requested size: 245.8343pt x 158.65141pt.
-
+ [36 <./figures/BEC.pdf>]
 Overfull \hbox (50.69115pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 II.1. Un nuage d'atomes ultra-froids sur puce, du MOT de cap
 ture au condensat de Bose-Einstein \T1/cmr/m/n/10.95 37
  []
 
-[37 <./figures/probes_CdF.pdf>] [38 <./figures/double_cloud.png>]
-<figures/Normal_abs2_horiz.jpg, id=4078, 596.9502pt x 844.8363pt>
-File: figures/Normal_abs2_horiz.jpg Graphic file (type jpg)
-
-<use figures/Normal_abs2_horiz.jpg>
-Package pdftex.def Info: figures/Normal_abs2_horiz.jpg used on input line 401.
-(pdftex.def)             Requested size: 122.91714pt x 173.95314pt.
-
-<figures/RF_abs2_horiz.jpg, id=4079, 596.9502pt x 844.8363pt>
-File: figures/RF_abs2_horiz.jpg Graphic file (type jpg)
-
-<use figures/RF_abs2_horiz.jpg>
-Package pdftex.def Info: figures/RF_abs2_horiz.jpg used on input line 403.
-(pdftex.def)             Requested size: 122.91714pt x 173.95314pt.
-
+[37 <./figures/exp_sequence.pdf>] [38 <./figures/probes_CdF.pdf> <./figures/dou
+ble_cloud.png>]
 Overfull \hbox (50.69115pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 II.1. Un nuage d'atomes ultra-froids sur puce, du MOT de cap
 ture au condensat de Bose-Einstein \T1/cmr/m/n/10.95 39
  []
 
-[39 <./figures/Normal_abs2_horiz.jpg> <./figures/RF_abs2_horiz.jpg>]
-<figures/log_abs.jpg, id=4093, 596.9502pt x 844.8363pt>
+[39] <figures/Normal_abs2_horiz.jpg, id=4095, 596.9502pt x 844.8363pt>
+File: figures/Normal_abs2_horiz.jpg Graphic file (type jpg)
+
+<use figures/Normal_abs2_horiz.jpg>
+Package pdftex.def Info: figures/Normal_abs2_horiz.jpg used on input line 425.
+(pdftex.def)             Requested size: 122.91714pt x 173.95314pt.
+
+<figures/RF_abs2_horiz.jpg, id=4096, 596.9502pt x 844.8363pt>
+File: figures/RF_abs2_horiz.jpg Graphic file (type jpg)
+
+<use figures/RF_abs2_horiz.jpg>
+Package pdftex.def Info: figures/RF_abs2_horiz.jpg used on input line 427.
+(pdftex.def)             Requested size: 122.91714pt x 173.95314pt.
+
+Underfull \vbox (badness 1132) has occurred while \output is active []
+
+ [40 <./figures/Normal_abs2_horiz.jpg> <./figures/RF_abs2_horiz.jpg>]
+<figures/log_abs.jpg, id=4110, 596.9502pt x 844.8363pt>
 File: figures/log_abs.jpg Graphic file (type jpg)
 
 <use figures/log_abs.jpg>
-Package pdftex.def Info: figures/log_abs.jpg used on input line 427.
+Package pdftex.def Info: figures/log_abs.jpg used on input line 451.
 (pdftex.def)             Requested size: 163.88536pt x 231.93752pt.
 
-<figures/nolog_abs.jpg, id=4094, 596.9502pt x 844.8363pt>
+<figures/nolog_abs.jpg, id=4111, 596.9502pt x 844.8363pt>
 File: figures/nolog_abs.jpg Graphic file (type jpg)
 
 <use figures/nolog_abs.jpg>
-Package pdftex.def Info: figures/nolog_abs.jpg used on input line 429.
+Package pdftex.def Info: figures/nolog_abs.jpg used on input line 453.
 (pdftex.def)             Requested size: 163.88536pt x 231.93752pt.
- [40 <./figures/log_abs.jpg> <./figures/nolog_abs.jpg>]
-Overfull \hbox (11.38268pt too wide) in paragraph at lines 465--527
- [][] 
- []
 
-)
 Overfull \hbox (50.69115pt too wide) has occurred while \output is active
 \T1/cmr/m/sl/10.95 II.1. Un nuage d'atomes ultra-froids sur puce, du MOT de cap
 ture au condensat de Bose-Einstein \T1/cmr/m/n/10.95 41
  []
 
-[41]
+[41 <./figures/log_abs.jpg> <./figures/nolog_abs.jpg>]
+Overfull \hbox (11.38268pt too wide) in paragraph at lines 489--551
+ [][] 
+ []
+
+) [42]
 \openout2 = `Setup_Rydberg.aux'.
 
  (./Setup_Rydberg.tex
-Overfull \hbox (7.94185pt too wide) in paragraph at lines 23--23
+Overfull \hbox (7.94185pt too wide) in paragraph at lines 1--1
 []\T1/cmr/bx/n/14.4 Excitation et dé-tec-tion d'atomes de Ryd-berg près d'une
  []
 
-<figures/2photons.pdf, id=4115, 693.31593pt x 507.05074pt>
+<figures/2photons.pdf, id=4131, 693.31593pt x 507.05074pt>
 File: figures/2photons.pdf Graphic file (type pdf)
 
 <use figures/2photons.pdf>
-Package pdftex.def Info: figures/2photons.pdf used on input line 41.
+Package pdftex.def Info: figures/2photons.pdf used on input line 25.
 (pdftex.def)             Requested size: 327.777pt x 239.71426pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[43
 
-Overfull \hbox (17.16238pt too wide) in paragraph at lines 66--72
+
+]
+Overfull \hbox (17.16238pt too wide) in paragraph at lines 50--56
 []$ \T1/cmr/m/n/10.95 est ce-pen-dant bien plus faible que le pré-cé-dent, et v
 aut $[] []\OML/cmm/m/it/10.95 a[]$[][][][][]\T1/cmr/m/n/10.95 .
  []
 
-[42
-
-
-] <figures/lasers_excit.pdf, id=4125, 780.63826pt x 180.99684pt>
+<figures/lasers_excit.pdf, id=4141, 780.63826pt x 180.99684pt>
 File: figures/lasers_excit.pdf Graphic file (type pdf)
 
 <use figures/lasers_excit.pdf>
-Package pdftex.def Info: figures/lasers_excit.pdf used on input line 82.
+Package pdftex.def Info: figures/lasers_excit.pdf used on input line 66.
 (pdftex.def)             Requested size: 327.777pt x 75.99605pt.
- [43 <./figures/2photons.pdf> <./figures/lasers_excit.pdf
 
-pdfTeX warning: pdflatex.exe (file ./figures/lasers_excit.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->] <figures/schema_detect.jpg, id=4194, 595.59196pt x 226.2523pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44 <./figures/2photons.pdf>]
+<figures/schema_detect.jpg, id=4174, 595.59196pt x 226.2523pt>
 File: figures/schema_detect.jpg Graphic file (type jpg)
 
 <use figures/schema_detect.jpg>
-Package pdftex.def Info: figures/schema_detect.jpg used on input line 99.
+Package pdftex.def Info: figures/schema_detect.jpg used on input line 83.
 (pdftex.def)             Requested size: 409.71968pt x 155.64818pt.
-
-<figures/arrTimes6057.pdf, id=4198, 723.04314pt x 797.81479pt>
+ [45 <./figures/lasers_excit.pdf> <./figures/schema_detect.jpg>]
+<figures/arrTimes6057.pdf, id=4220, 723.04314pt x 797.81479pt>
 File: figures/arrTimes6057.pdf Graphic file (type pdf)
 
 <use figures/arrTimes6057.pdf>
-Package pdftex.def Info: figures/arrTimes6057.pdf used on input line 131.
+Package pdftex.def Info: figures/arrTimes6057.pdf used on input line 115.
 (pdftex.def)             Requested size: 286.80252pt x 316.45422pt.
- [44 <./figures/schema_detect.jpg>]
-<figures/vieilles_raies.pdf, id=4206, 639.76877pt x 368.21497pt>
+ [46 <./figures/arrTimes6057.pdf>]
+<figures/vieilles_raies.pdf, id=4249, 639.76877pt x 368.21497pt>
 File: figures/vieilles_raies.pdf Graphic file (type pdf)
 
 <use figures/vieilles_raies.pdf>
-Package pdftex.def Info: figures/vieilles_raies.pdf used on input line 158.
+Package pdftex.def Info: figures/vieilles_raies.pdf used on input line 142.
 (pdftex.def)             Requested size: 327.777pt x 188.65239pt.
- [45 <./figures/arrTimes6057.pdf>] [46 <./figures/vieilles_raies.pdf>]
-<figures/Stark_60S.png, id=4258, 799.3062pt x 561.5379pt>
+
+Underfull \vbox (badness 5274) has occurred while \output is active []
+
+ [47 <./figures/vieilles_raies.pdf>]
+<figures/Stark_60S.png, id=4273, 799.3062pt x 561.5379pt>
 File: figures/Stark_60S.png Graphic file (type png)
 
 <use figures/Stark_60S.png>
-Package pdftex.def Info: figures/Stark_60S.png used on input line 201.
+Package pdftex.def Info: figures/Stark_60S.png used on input line 185.
 (pdftex.def)             Requested size: 409.71968pt x 287.84573pt.
- [47 <./figures/Stark_60S.png>] [48]
-<figures/depotRb.pdf, id=4281, 1535.89531pt x 1034.21182pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[49 <./figures/Stark_60S.png>]
+<figures/depotRb.pdf, id=4298, 1535.89531pt x 1034.21182pt>
 File: figures/depotRb.pdf Graphic file (type pdf)
 
 <use figures/depotRb.pdf>
-Package pdftex.def Info: figures/depotRb.pdf used on input line 285.
+Package pdftex.def Info: figures/depotRb.pdf used on input line 269.
 (pdftex.def)             Requested size: 348.26422pt x 234.50241pt.
 
-Underfull \vbox (badness 4168) has occurred while \output is active []
 
- [49 <./figures/depotRb.pdf>]
-<figures/raiefine_depot.pdf, id=4340, 821.06757pt x 624.3325pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/raiefine_depot.pdf, id=4301, 821.06757pt x 624.3325pt>
 File: figures/raiefine_depot.pdf Graphic file (type pdf)
 
 <use figures/raiefine_depot.pdf>
-Package pdftex.def Info: figures/raiefine_depot.pdf used on input line 306.
+Package pdftex.def Info: figures/raiefine_depot.pdf used on input line 290.
 (pdftex.def)             Requested size: 327.777pt x 249.2332pt.
- [50 <./figures/raiefine_depot.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--324
 
- []
 
-) [51]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50] <figures/detectionbox_ENS.pdf, id=4311, 796.29735pt x 471.90652pt>
+File: figures/detectionbox_ENS.pdf Graphic file (type pdf)
+
+<use figures/detectionbox_ENS.pdf>
+Package pdftex.def Info: figures/detectionbox_ENS.pdf used on input line 322.
+(pdftex.def)             Requested size: 327.777pt x 194.2462pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/detectionbox_CdF.pdf, id=4314, 1720.99922pt x 1002.58029pt>
+File: figures/detectionbox_CdF.pdf Graphic file (type pdf)
+
+<use figures/detectionbox_CdF.pdf>
+Package pdftex.def Info: figures/detectionbox_CdF.pdf used on input line 342.
+(pdftex.def)             Requested size: 409.71968pt x 238.68132pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+<figures/RF_electrodes.jpg, id=4322, 932.48375pt x 632.3625pt>
+File: figures/RF_electrodes.jpg Graphic file (type jpg)
+
+<use figures/RF_electrodes.jpg>
+Package pdftex.def Info: figures/RF_electrodes.jpg used on input line 378.
+(pdftex.def)             Requested size: 409.71968pt x 277.8544pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[52]) [53] [54 <./figures/depotRb.pdf>] [55 <./figures/raiefine_depot.pdf> <./f
+igures/detectionbox_ENS.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/detectionbox_ENS.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>] [56 <./figures/detectionbox_CdF.pdf> <./figures/RF_electrodes.jpg>]
 \openout2 = `low_l_Rydbergs.aux'.
 
- (./low_l_Rydbergs.tex [52
 
-
-
-]
+(./low_l_Rydbergs.tex
 Chapitre III.
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-[53])
+[57
+
+
+
+])
 Overfull \hbox (6.26137pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 54 \T1/cmr/m/sl/10.95 Chapitre III. Interaction entre atomes 
+\T1/cmr/m/n/10.95 58 \T1/cmr/m/sl/10.95 Chapitre III. Interaction entre atomes 
 de Rydberg sphériques et excitation de gaz dense
  []
 
-[54]
+[58]
 \openout2 = `circsim.aux'.
 
  (./circsim.tex
 Chapitre IV.
-) [55
+) [59
 
 
 
@@ -2348,30 +2403,30 @@ Chapitre IV.
 
  (./circulars.tex
 Overfull \hbox (30.98053pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 56 \T1/cmr/m/sl/10.95 Chapitre IV. Les atomes de Rydberg circ
+\T1/cmr/m/n/10.95 60 \T1/cmr/m/sl/10.95 Chapitre IV. Les atomes de Rydberg circ
 ulaires en interaction : vers un simulateur quantique
  []
 
-[56
+[60
 
 
 
 ]
 Chapitre V.
-[57]) [58] [59
+[61]) [62] [63
 
 
 ]
 \openout2 = `.aux'.
 
  (d:/texlive/2013/texmf-dist/tex/latex/tools/.tex File ignored)
-[60
+[64
 
 
 
-] [61] [62] [63
+] [65] [66] [67
 
-] [64]
+] [68]
 \openout2 = `.aux'.
 
  (d:/texlive/2013/texmf-dist/tex/latex/tools/.tex
@@ -2412,7 +2467,7 @@ File ignored)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-[65
+[69
 
 
 
@@ -2422,32 +2477,35 @@ File ignored)
 
 
 ]
-Package atenddvi Info: Last page = 76.
- [66]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 239.
+Package atenddvi Info: Last page = 80.
+ [70]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 237.
  (./these.aux (./.aux) (./.aux) (./Rydbergs.aux)
 (./Interacting_Rydbergs.aux) (./Setup_coldatoms.aux) (./Setup_Rydberg.aux)
 (./low_l_Rydbergs.aux) (./circsim.aux) (./circulars.aux) (./.aux) (./.aux)
 (./.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
 Package rerunfilecheck Info: File `these.out' has not changed.
-(rerunfilecheck)             Checksum: 901AEC1B38133BCC9241DC2BBFBD4B81;16455.
+(rerunfilecheck)             Checksum: F633FBDD3B8D066CB1ED9F831C48E405;16420.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'these.run.xml'.
 \openout1 = `these.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
  ) 
 Here is how much of TeX's memory you used:
- 29622 strings out of 493308
- 522169 string characters out of 6141367
- 928572 words of memory out of 5000000
- 32237 multiletter control sequences out of 15000+600000
+ 29648 strings out of 493308
+ 522771 string characters out of 6141367
+ 929984 words of memory out of 5000000
+ 32254 multiletter control sequences out of 15000+600000
  45077 words of font info for 110 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  46i,18n,77p,10441b,2396s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2502,10 +2560,10 @@ pe1/public/cm-super/sfsx1095.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public
 /cm-super/sfsx1440.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/
 sfsx2074.pfb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfti1000.p
 fb><d:/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on these.pdf (76 pages, 8847134 bytes).
+Output written on these.pdf (80 pages, 9044783 bytes).
 PDF statistics:
- 4653 PDF objects out of 5155 (max. 8388607)
- 3304 compressed objects within 34 object streams
- 270 named destinations out of 1000 (max. 500000)
- 649 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4732 PDF objects out of 5155 (max. 8388607)
+ 3366 compressed objects within 34 object streams
+ 279 named destinations out of 1000 (max. 500000)
+ 664 words of extra memory for PDF output out of 10000 (max. 10000000)
 

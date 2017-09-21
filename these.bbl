@@ -449,32 +449,6 @@
       \endverb
       \keyw{mx,rydberg,dipole}
     \endentry
-    \entry{PHD_CELISTRINO}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {Université Pierre et Marie Curie - Paris VI}%
-      }
-      \strng{namehash}{bffd6165fdb9dbce81c97035804449be}
-      \strng{fullhash}{bffd6165fdb9dbce81c97035804449be}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
-      \field{month}{09}
-      \field{title}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
-      \field{type}{phdthesis}
-      \field{year}{2014}
-      \verb{file}
-      \verb PHD_Raul.pdf:https\://tel.archives-ouvertes.fr/tel-01076337/file/PHD_Raul.pdf:PDF
-      \endverb
-      \verb{url}
-      \verb https://tel.archives-ouvertes.fr/tel-01076337
-      \endverb
-      \keyw{dipole blockade ; microwave spectroscopy ; atom chip ; Rydberg atoms ; dipole-dipole interaction ; atomes de Rydberg ; interaction dipolaire ; puce à atomes ; spectroscopie microonde ; blocage dipolaire}
-    \endentry
     \entry{PHD_NIRRENGARTEN}{thesis}{}
       \name{labelname}{1}{}{%
         {{hash=9f3a8a8525115f32970c241dd830470f}{Nirrengarten}{N\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
@@ -510,6 +484,50 @@
       \field{title}{Condensation de Bose-Einstein sur une puce à atomes supraconductrice}
       \field{type}{phdthesis}
       \field{year}{2008}
+    \endentry
+    \entry{PHD_EMMERT}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=4044a2badc26cb255422b6f7b23de87f}{Emmert}{E\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=4044a2badc26cb255422b6f7b23de87f}{Emmert}{E\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Paris VI}%
+      }
+      \strng{namehash}{4044a2badc26cb255422b6f7b23de87f}
+      \strng{fullhash}{4044a2badc26cb255422b6f7b23de87f}
+      \field{sortinit}{0}
+      \field{labeltitle}{Puce à atomes supraconductrice : Atomes froids dans un environnement cryogénique et excitation d'atomes de Rydberg}
+      \field{title}{Puce à atomes supraconductrice : Atomes froids dans un environnement cryogénique et excitation d'atomes de Rydberg}
+      \field{type}{phdthesis}
+      \field{year}{2009}
+    \endentry
+    \entry{PHD_CELISTRINO}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{bffd6165fdb9dbce81c97035804449be}
+      \strng{fullhash}{bffd6165fdb9dbce81c97035804449be}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
+      \field{month}{09}
+      \field{title}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \verb{file}
+      \verb PHD_Raul.pdf:https\://tel.archives-ouvertes.fr/tel-01076337/file/PHD_Raul.pdf:PDF
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01076337
+      \endverb
+      \keyw{dipole blockade ; microwave spectroscopy ; atom chip ; Rydberg atoms ; dipole-dipole interaction ; atomes de Rydberg ; interaction dipolaire ; puce à atomes ; spectroscopie microonde ; blocage dipolaire}
     \endentry
     \entry{MX_MEISSNEREFFECT}{article}{}
       \name{labelname}{2}{}{%

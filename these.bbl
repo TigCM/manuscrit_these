@@ -708,6 +708,33 @@
       \field{title}{Introduction to quantum optics: from the semi-classical approach to quantized light}
       \field{year}{2010}
     \endentry
+    \entry{PHD_HERMANN}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=62009545a9ae63f3c1378297883ceeb9}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{Carla}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=62009545a9ae63f3c1378297883ceeb9}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{Carla}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{62009545a9ae63f3c1378297883ceeb9}
+      \strng{fullhash}{62009545a9ae63f3c1378297883ceeb9}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Towards deterministic preparation of single Rydberg atoms and applications to quantum information processing}}
+      \field{month}{11}
+      \field{number}{2014PA066351}
+      \field{title}{{Towards deterministic preparation of single Rydberg atoms and applications to quantum information processing}}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \verb{file}
+      \verb these_archivage_3072019opti.pdf:https\://tel.archives-ouvertes.fr/tel-01165050/file/these_archivage_3072019opti.pdf:PDF
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01165050
+      \endverb
+      \keyw{Rydberg atoms ; Superconducting atom-chip ; Superpositions d'etats mésoscopiques ; CQED ; Spectroscopie micro-ondes ; Puce à atomes supraconductrice ; Atomes de Rydberg}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

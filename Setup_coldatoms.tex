@@ -18,9 +18,9 @@ Une première difficulté se présente ici : les techniques d'atomes ultra-froid
 Il s'agira donc ici de les concilier avec un environnement cryogénique.
 Avec cette contrainte à l'esprit, et dans l'optique d'obtenir des nuages atomiques très confinés, il a été choisi de centrer le dispositif autour d'une puce à atomes supraconductrice.
 Prenons note dès maintenant d'une deuxième difficulté technique posée par un tel dispositif :
-les atomes de Rydberg sont extrêmement sensibles au champ électromagnétique, et souhaitons les exciter et les observer au voisinage de la surface conductrice qu'est notre puce atomique.
+les atomes de Rydberg sont extrêmement sensibles au champ électromagnétique, et nous souhaitons les exciter et les observer au voisinage de la surface conductrice qu'est notre puce atomique.
 
-Ce chapitre sera donc dédié à la description de notre dispositif expérimental.
+Ce chapitre sera donc dédié à la description du dispositif expérimental sur lequel nous avons effectué nos travaux.
 Nous nous intéresserons d'abord à l'aspect du dispositif qui nous sert à piéger et refroidir des atomes de \Rb{87} sur une puce atomique supraconductrice.
 Nous nous attacherons ensuite à décrire comment nous excitons, manipulons et détectons les atomes de Rydberg au sein de ce dispositif.
 
@@ -52,7 +52,7 @@ En second lieu, l'utilisation d'hélium et d'azote liquide au contact d'un vide 
 %
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{figures/cryo_vect.jpg}
+\includegraphics[width=\linewidth]{figures/setup/coldatoms/cryo_vect.jpg}
 \caption[Schéma du cryostat]{Schéma du dispositif cryogénique :
 \textbf{a)} coupe du plan de construction du cryostat, avec la puce tournée vers le côté gauche.
 Le réservoir d'azote liquide est indiqué en jaune, le réservoir d'hélium liquide en bleu.
@@ -90,7 +90,7 @@ Les détails de la fabrication de la puce sont présentés en annexe dans la th�
 %
 \begin{figure}[]
 \centering
-\includegraphics[width=\linewidth]{figures/chip}
+\includegraphics[width=\linewidth]{figures/setup/coldatoms/chip}
 \caption[Schéma de la puce à atomes supraconductrice]{Schéma de la puce supraconductrice.
 Les lettres étiquettent les pattes d'entrée/sortie des courants électriques sur la puce.
 Les couleurs sont une aide visuelle pour mieux suivre les fils : en vert, le \og fil \mcal{U}\fg{}, en orange le \og fil \mcal{Z}\fg{} et en bleu le \og fil RF \fg{}.
@@ -113,7 +113,7 @@ Le champ total permet ici la réalisation d'un piège magnéto optique sur puce 
 
 \begin{figure}[]
 \centering
-\includegraphics[width=\linewidth]{figures/magfields_chip}
+\includegraphics[width=\linewidth]{figures/setup/coldatoms/magfields_chip}
 \caption[Champs magnétiques créés par la puce]{
 Champs magnétiques créés par la puce.
 \textbf{a)} Les fils \mcal{U} et \mcal{Z} portent un courant dans la direction $x$ et une paire de courants parallèles dans la direction $z$.
@@ -146,7 +146,7 @@ Le schéma de cette configuration, appelée \og MOT miroir \fg{}, est donné en 
 
 \begin{figure}
 \centering
-\includegraphics[width=0.6\linewidth]{figures/mirror_MOT}
+\includegraphics[width=0.6\linewidth]{figures/setup/coldatoms/mirror_MOT}
 \caption[Schéma de principe du MOT miroir]{Schéma de principe du MOT miroir :
 Deux faisceaux contra-propageants sont envoyés parallèlement à la puce réfléchissante, selon l'axe $x$.
 Les deux autres faisceaux dans le plan $yz$ viennent frapper la puce avec un angle de \SIvv{45}{\degree}.
@@ -168,7 +168,7 @@ La raie D2 est représentée en figure \eqref{fig:D2lineRb87} avec le détail de
 %	
 \begin{figure}
 \centering
-\includegraphics[width=0.8\linewidth]{figures/D2lineRb87}
+\includegraphics[width=0.8\linewidth]{figures/setup/coldatoms/D2lineRb87}
 \caption[Raie D2 du \Rb{87}]{Structure hyperfine de la raie D2 du \Rb{87}.
 Les transitions cyclantes sont montrées pour le laser de refroidissement, le laser repompeur, le laser sonde et le laser de pompage Zeeman.
 }
@@ -202,7 +202,7 @@ Celui-ci est schématisé en figure \eqref{fig:2DMOT}.
 %	
 \begin{figure}
 \centering
-\includegraphics[width=0.6\linewidth]{figures/2DMOT}
+\includegraphics[width=0.6\linewidth]{figures/setup/coldatoms/2DMOT}
 \caption[Schéma du 2D-MOT]{Schéma du 2D-MOT avec ses trois étages de piégeage.
 Les polarisations des faisceaux incidents sont indiquées par les lettres HD (pour hélicité droite) et HG (hélicité gauche), relativement à la direction de propagation des faisceaux.
 Le sens des courants dans les bobines est indiqué par les flèches verts et la lettre $I$.
@@ -266,7 +266,7 @@ Le schéma de principe du refroidissement évaporatif RF est donné en figure \e
 %
 \begin{figure}[]
 \centering
-\includegraphics[width=.7\linewidth]{figures/evapRF}
+\includegraphics[width=.7\linewidth]{figures/setup/coldatoms/evapRF}
 \caption[Refroidissement évaporatif RF]{Refroidissement évaporatif radio-fréquence :
 le \og couteau \fg{} RF induit les transitions entre sous-niveaux Zeeman.
 Une fois dans les sous-niveaux $m_F<1$, les atomes ne sont plus piégés et sont éjectés du piège.
@@ -282,7 +282,7 @@ La figure \eqref{fig:BEC} montre des images du nuage atomique après temps de vo
 %
 \begin{figure}[]
 \centering
-\includegraphics[width=1\linewidth]{figures/BEC}
+\includegraphics[width=1\linewidth]{figures/setup/coldatoms/BEC}
 \caption[Condensat de Bose-Einstein sur puce]{
 Trois nuages de \Rb{87} évaporés jusqu'à des valeurs différentes de fréquence RF, imagés après un temps de vol de \SI{16.5}{\ms}.
 Les images donnent directement la distribution d'impulsion au sein du nuage.
@@ -308,7 +308,7 @@ Les étapes d'excitation et détection Rydberg et d'imagerie atomique seront dis
 %	
 \begin{sidewaysfigure}
 \centering
-\includegraphics[width=\linewidth]{figures/exp_sequence}
+\includegraphics[width=\linewidth]{figures/setup/coldatoms/exp_sequence}
 \caption[Séquence expérimentale typique]{Séquence expérimentale typique : la durée et les valeurs des paramètres à chaque étape sont précautionneusement optimisés.
 Les étapes de piégeage et de refroidissement sont numérotées de \numrange{1}{7} et discutées dans le texte.
 Les étapes ultérieures seront décrites par la suite.
@@ -344,7 +344,7 @@ Le dispositif optique d'imagerie est représenté en figure \eqref{fig:probes_Cd
 %	
 \begin{figure}
 \centering
-\includegraphics[width=.7\linewidth]{figures/probes_CdF}
+\includegraphics[width=.7\linewidth]{figures/setup/coldatoms/probes_CdF}
 \caption[Faisceaux sonde]{Schéma optique des faisceaux sonde dans le cryostat.
 L'insert montre de plus près la réflexion du faisceau sonde côté sur la puce et la formation des deux images du nuage.
 }
@@ -354,7 +354,7 @@ L'insert montre de plus près la réflexion du faisceau sonde côté sur la puce
 %	
 \begin{figure}
 \centering
-\includegraphics[width=.6\linewidth]{figures/double_cloud}
+\includegraphics[width=.6\linewidth]{figures/setup/coldatoms/double_cloud}
 \caption[Image par absorption du nuage par la sonde côté]{Image par absorption d'un nuage froid après temps de vol, éclairé par la sonde de côté. Les deux images du nuage sont dues à la réflexion du faisceau sur la puce.
 On distingue, entre les deux images du nuage atomique, les ombres portées par les fils de la puce.
 }
@@ -422,9 +422,9 @@ La figure \eqref{fig:Fringe_Reduction} montre une image d'un nuage froid par abs
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.3\linewidth]{figures/Normal_abs2_horiz}
+\includegraphics[width=0.3\linewidth]{figures/setup/coldatoms/Normal_abs2_horiz}
 \hspace{.2\linewidth}
-\includegraphics[width=0.3\linewidth]{figures/RF_abs2_horiz}
+\includegraphics[width=0.3\linewidth]{figures/setup/coldatoms/RF_abs2_horiz}
 \caption[Effet de l'algorithme de réduction des franges]{
 Images du nuage atomique froid par absorption du faisceau sonde face.
 \`A gauche, l'image est traitée selon l'équation \eqref{eq:atomic_density}.
@@ -448,9 +448,9 @@ La figure \eqref{fig:nolog_abs} montre l'image d'une mélasse optique par absorp
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.4\linewidth]{figures/log_abs}
+\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/log_abs}
 \hspace{.1\linewidth}
-\includegraphics[width=0.4\linewidth]{figures/nolog_abs}
+\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/nolog_abs}
 \caption[Absorption \og no-log \fg{} ]{
 Images du nuage atomique de mélasse optique par absorption du faisceau sonde côté.
 \`A gauche, l'image est traitée par absorption selon l'équation \eqref{eq:Beer-Lambert_integ}.

@@ -4,14 +4,14 @@
 Nous présentons dans le reste de ce chapitre la partie de notre dispositif expérimental servant à exciter, détecter et manipuler les atomes de Rydberg.
 Notre dispositif est particulier dans la mesure où tout ce que concerne les niveaux de Rydberg a lieu près d'une surface conductrice, ce qui rend les choses plus difficiles.
 
-Après avoir donné le principe de l'excitation à deux photons des niveaux de Rydberg et de la détection par ionisation sélective, nous ferons une présentation de rapide de l'effet Strak et de ses effets sur nos expériences.
+Après avoir donné le principe de l'excitation à deux photons des niveaux de Rydberg et de la détection par ionisation sélective, nous ferons une présentation de rapide de l'effet Stark et de ses conséquences sur nos expériences.
 Nous décrirons ensuite les techniques mises en place afin de contrôler les champs électriques près de la puce.
 Nous finirons ce chapitre par une présentation de la technique de spectroscopie microonde des niveaux de Rydberg et de son utilisation pour mesurer les champs électriques résiduels.
 
 	\subsection{L'excitation à deux photons des atomes de Rydberg}
 
 \noindent Les atomes de rubidium piégés dans un nuage près de la puce sont excités vers les niveaux de Rydberg par une transition laser à deux photons désaccordée par rapport au niveau intermédiaire.
-Dans nos recherches, deux niveaux de Rydberg différents ont été excités par laser à partir de l'état fondamental 5S$_{1/2}$ : le niveau 60S$_{1/2}$ et le niveau 50D$_{3/2}$.
+Dans nos expériences, deux niveaux de Rydberg différents ont été excités par laser à partir de l'état fondamental 5S$_{1/2}$ : le niveau 60S$_{1/2}$ et le niveau 50D$_{3/2}$.
 Nous décrivons ici l'excitation d'un nuage d'atomes de Rydberg au sein d'un nuage froid dans le piège magnétique, en négligeant les interactions entre atomes de Rydberg et en nous concentrant sur le niveau $\mathrm{60S_{1/2}}$.
 
 La transition du niveau fondamental au niveau de Rydberg est faite par l'absorption d'un photon rouge à $\lambda = \SI{780}{\nano\meter}$, désaccordé de $\delta=+\SI{540}{\MHz}$ par rapport à la transition $\mathrm{5S_{1/2},F=2 \rightarrow 5P_{3/2},F'=3}$, et d'un photon bleu à $\lambda = \SI{480}{\nano\meter}$, accordé pour satisfaire la condition de résonance vers le niveau choisi.
@@ -22,7 +22,7 @@ Dans cette configuration, seul le sous-niveau $m_j=+1/2$ du niveau 60S est excit
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.8\linewidth]{figures/2photons}
+\includegraphics[width=.8\linewidth]{figures/setup/rydberg/2photons}
 \caption[Excitation du niveau 60S]{Schéma de l'excitation laser du niveau 60S, à partir d'atomes de \Rb{87} dans le niveau fondamental dans le piège magnétique.
 La polarisation de chaque laser est indiquée.
 $\Omega_r$ et $\Omega_b$ sont les fréquences de Rabi des transitions à \num{780} et \SI{480}{\nano\meter} respectivement.
@@ -63,7 +63,7 @@ Ce paramètre peut être varié simplement en ajustant la puissance du laser rou
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.8\linewidth]{figures/lasers_excit}
+\includegraphics[width=.8\linewidth]{figures/setup/rydberg/lasers_excit}
 \caption[Faisceaux laser pour l'excitation des Rydberg]{Schéma représentant la géométrie des faisceaux laser d'excitation.
 }
 \label{fig:lasers_excit}
@@ -80,7 +80,7 @@ une fois l'atome ionisé, le c\oe ur atomique est accéléré par des électrode
 %
 \begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{figures/schema_detect}
+\includegraphics[width=\linewidth]{figures/setup/rydberg/schema_detect}
 \caption[Système de détection des atomes de Rydberg]{Schéma représentant le système de détection des atomes de Rydberg.
 \textbf{a)} vu de dessus et \textbf{b)} en projection axonométrique.
 Après excitation, les atomes de Rydberg sont ionisés par les élctrodes $I_1$ et $I_2$.
@@ -95,24 +95,24 @@ La figure \eqref{fig:schema_detect} présente un schéma détaillé du système 
 Au moment de la détection, une tension négative est appliquée sur les électrodes d'ionisation $I_1$ et $I_2$.
 La tension sur ces électrodes crée un champ électrique au niveau des atomes, la puce étant mise à la masse.
 Ce champ électrique ionise les atomes de Rydberg et accélère les ions positifs ainsi créés.
-Ces ions sont ensuite défléchis en direction du Channeltron par les électrodes $D_1$ et $D_2$, chargées en permanence à une tension $V_{defl} = +\SI{150}{\V}$.
+Ces ions sont ensuite défléchis en direction du Channeltron par les électrodes $D_1$ et $D_2$, mises en permanence à un potentiel $V_{defl} = +\SI{150}{\V}$.
 Une grille placée à l'entrée du Channeltron est alimentée par une tension de $\SI{-3000}{\V}$.
 Une électrode trouée mise à la masse est placée devant cette grille afin d'écranter les $\SI{-3000}{\V}$ pour la région de piégeage des atomes.
-Lorsque les ions arrivent dans le Channeltron, celui-ci génère par avalanche un signal électronique qui est envoyer vers un amplificateur et un discriminateur permettant de décompter les ions détectés.
+Lorsque les ions arrivent dans le Channeltron, celui-ci génère par avalanche un signal électronique qui est envoyé vers un amplificateur et un discriminateur permettant de décompter les ions détectés.
 Le Channeltron est isolé thermiquement et chauffé à une température de $\SI{42}{\K}$ afin d'augmenter son efficacité.
 
 \subsubsection*{Sélectivité de niveau de la détection par ionisation}
 \noindent Chaque atome de Rydberg présente une énergie différente, telle que discutée en \ref{sec:alkalRydberg}.
 Cela signifie qu'ils sont tous à une distance différente du seuil d'ionisation, et \textit{in fine} que chaque niveau de Rydberg sera ionisé pour une valeur de champ électrique spécifique.
-L'on peut ainsi appliquer une rampe de tension sur les électrodes d'ionisation, afin que chaque niveau de Rydberg soit ionisé à un instant différent.
-Alors, les ions correspondants arriveront à des instants différents au Channeltron et pourront être distingués.
+On peut ainsi appliquer une rampe de tension sur les électrodes d'ionisation, afin que chaque niveau de Rydberg soit ionisé à un instant différent.
+Alors, les ions correspondants seront détectés à des instants différents par le Channeltron et pourront être distingués.
 La figure \eqref{fig:arrTimes6057} montre un signal de détection sélective des niveaux de Rydberg $\mathrm{60S_{1/2}}$ et $\mathrm{57S_{1/2}}$.
 La rampe de tension et les fenêtres temporelles de détection sont optimisées afin de distinguer au mieux les différents niveaux de Rydberg détectés.
 L'efficacité de détection de notre dispositif a été mesurée à $\SI{90}{} \pm \SI{10}{\percent}$.
 %
 \begin{figure}[h]
 \centering
-\includegraphics[width=.7\linewidth]{figures/arrTimes6057}
+\includegraphics[width=.7\linewidth]{figures/setup/rydberg/arrTimes6057}
 \caption[Détection sélective des niveaux $\mathrm{60S_{1/2}}$ et $\mathrm{57S_{1/2}}$]{
 Détection sélective des atomes de Rydberg.
 \textbf{a)} une rampe de tension $V_{ion}$ typique appliquée sur les électrodes d'ionisation.
@@ -132,14 +132,14 @@ Les échelles de temps sont différentes en \textbf{a)} et \textbf{b)}.
 	%problème des champs électriques et flash de Rb}
 \noindent Comme nous l'avons dit au chapitre \ref{chapter:Rydberg}, les atomes de Rydberg sont des objets extrêmement sensibles au champ électromagnétique.
 Or, dans notre expérience, nous souhaitons exciter et manipuler des atomes de Rydberg à proximité immédiate d'une surface, la puce à atomes.
-Les bruits électriques étant inévitables près d'une surface, la présence de la puce va rendre difficile l'excitation et la manipulation des atomes de Rydberg.
+Les champs électriques parasites étant inévitables près d'une surface, la présence de la puce va rendre difficile l'excitation et la manipulation des atomes de Rydberg.
 
 \subsubsection*{Premiers spectres}
-\noindent Ce problème est très clair sur les premiers spectres que nous avons fait de la transition $\ket{\mathrm{5S_{1/2}}} \rightarrow \ket{\mathrm{60S_{1/2}}}$, présentés en figure \eqref{fig:vieilles_raies}.
+\noindent Ce problème est très clair sur les premiers spectres optiques que nous avons fait de la transition $\ket{\mathrm{5S_{1/2}}} \rightarrow \ket{\mathrm{60S_{1/2}}}$, présentés en figure \eqref{fig:vieilles_raies}.
 %
 \begin{figure}[h]
 \centering
-\includegraphics[width=.8\linewidth]{figures/vieilles_raies}
+\includegraphics[width=.8\linewidth]{figures/setup/rydberg/vieilles_raies}
 \caption[Spectres d'excitation laser 5S-60S avant le dépôt de rubidium sur la puce]{
 Deux spectres laser de la transition $5\mathrm{S}\rightarrow60\mathrm{S}$, avant correction des inhomogénéités et de la dérive du champ électrique.
 Leurs largeurs sont de $\SI{30}{\MHz}$ et $\SI{40}{\MHz}$ respectivement, et ils sont décalés en fréquence de $\SI{12}{\MHz}$ l'un par rapport à l'autre.
@@ -182,7 +182,7 @@ La figure \eqref{fig:Stark_60S} montre les énergies propres trouvées par diago
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=\linewidth]{figures/Stark_60S}
+\includegraphics[width=\linewidth]{figures/setup/rydberg/Stark_60S}
 \caption[Diagramme Stark autour du niveau $\mathrm{60S}$]{
 Diagramme Stark autour du niveau $\mathrm{60S}$, pour les états de $m_j=1/2$.
 Le défaut quantique déplace beaucoup les niveaux S,P et D.
@@ -256,7 +256,7 @@ Un potentiel électrostatique de contact est alors créé entre l'or et le rubid
 La surface de la puce étant mise à la masse, ce sont les plaques de rubidium déposé qui se chargent à $\SI{2.5}{\V}$ environ.
 Or le dépôt de rubidium depuis les nuages piégés est un processus lent et non contrôlé, sur des échelles de longueur de l'ordre du $\si{\mm}$.
 Cela a pour conséquence un champ électrique variant dans le temps et inhomogène à une distance de la puce inférieure à quelques $\si{\mm}$.
-C'est justement là que se trouve les atomes piégés que l'on souhaite exciter.
+C'est justement là que se trouvent les atomes piégés que l'on souhaite exciter.
 
 La solution que nous avons envisagée et mise en \oe uvre fut de saturer le dépôt de rubidium sur la puce, en faisant un dépôt contrôlé macroscopique sur une surface grande devant la région de piégeage.
 Pour que cela fonctionne, il est important que le rubidium déposé reste métallique, non oxydé, et ne migre pas dans le cryostat en raison de différences de températures.
@@ -266,7 +266,7 @@ La figure \eqref{fig:depotRb} illustre qualitativement la structure des champs �
 %
 \begin{figure}[h]
 \centering
-\includegraphics[width=.7\linewidth]{figures/depotRb}
+\includegraphics[width=.7\linewidth]{figures/setup/rydberg/depotRb}
 \caption[Dépôt contrôlé de rubidium sur la puce]{
 Schéma illustrant les dépôts de rubidium sur la puce et les champs électriques qui en résultent.
 Les dépôts de rubidium sont représentés en rouge et les traits gris fléchés représentent les lignes de champ électrique
@@ -287,7 +287,7 @@ Le dépôt de rubidium a donc eu un effet extrêmement bénéfique sur l'excitat
 %
 \begin{figure}[!th]
 \centering
-\includegraphics[width=.8\linewidth]{figures/raiefine_depot}
+\includegraphics[width=.8\linewidth]{figures/setup/rydberg/raiefine_depot}
 \caption[Spectre d'excitation laser 5S-60S juste après le dépôt de rubidium sur la puce]{
 Spectre d'excitation laser 5S-60S d'atomes piégés dans un MOT, juste après le dépôt de rubidium sur la puce.
 La largeur de raie a été considérablement réduite par le dépôt contrôlé de rubidium.
@@ -318,7 +318,7 @@ Ce circuit est schématisé en figure \eqref{fig:detectionbox_ENS}.
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.8\linewidth]{figures/detectionbox_ENS}
+\includegraphics[width=.8\linewidth]{figures/setup/rydberg/detectionbox_ENS}
 \caption[Premier circuit de contrôle de la tension des électrodes d'ionisation]{
 Premier circuit de contrôle de la tension des électrodes d'ionisation.
 Les tensions sont fournies par un générateur de fonctions arbitraires contrôlé par ordinateur, puis amplifiées par un amplificateur haute tension de gain $\times \num{50}$.
@@ -338,7 +338,7 @@ Ce second circuit, qui permet l'application de deux rampes de tensions indépend
 %
 \begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{figures/detectionbox_CdF}
+\includegraphics[width=\linewidth]{figures/setup/rydberg/detectionbox_CdF}
 \caption[Second circuit de contrôle de la tension des électrodes d'ionisation]{
 Second circuit de contrôle de la tension des électrodes d'ionisation.
 Les tensions sont fournies par deux générateurs de fonctions arbitraires indépendants et appliquées directement aux électrodes par deux voies séparées (voie basse tension à gauche et voie haute tension à droite).
@@ -377,10 +377,13 @@ La figure \ref{fig:RF_ELECTRODES} montre la disposition de ces électrodes au c\
 %
 \begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{figures/RF_electrodes}
+\includegraphics[width=.4\linewidth]{figures/setup/rydberg/electrodes_RF_3D_labeled.jpg}
+\includegraphics[width=.4\linewidth]{figures/setup/rydberg/electrodes_RF_photo}
 \caption[Électrodes de circularisation et de contrôle du champ parallèle]{
 Électrodes \og RF \fg{} de circularisation et de contrôle du champ parallèle à la puce.
-A REMPLACER PAR LES VUES DE PASCAL
+\`A gauche, schéma représentant les électrodes RF, fixées sur l'électrode d'ionisation $I_1$, et numérotées de $1$ à $4$.
+\`A droite, photographie du c\oe ur de l'expérience.
+On y voit la \og boîte \fg{} de protection de l'un des dispenseurs de rubidium, les bobines de biais $B_z$ et l'une des bobines de biais $B_x$, les deux électrodes d'ionisation, et les deux électrodes RF du bas (3 et 4).
 }
 \label{fig:RF_ELECTRODES}
 \end{figure}
@@ -423,7 +426,7 @@ Cette structure simplifiée est représentée en figure \eqref{fig:RF_elec_SIMIO
 %
 \begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{figures/RF_electrodes}
+\includegraphics[width=\linewidth]{figures/setup/rydberg/RF_electrodes_Simion}
 \caption[Électrodes de circularisation et de contrôle du champ parallèle]{
 Électrodes \og RF \fg{} et leur environnement tels que programmés dans nos simulations SIMION.
 Les quatre électrodes RF sont représentées, dans l'ordre de leur numérotation, en bleu foncé (1), rose (2), violet (3) et bleu turquoise (4).
@@ -447,7 +450,7 @@ La figure \eqref{fig:simion_fullregion} présente le résultat de la simulation.
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=\linewidth]{figures/simion_4quadrants}
+\includegraphics[width=\linewidth]{figures/setup/rydberg/simion_4quadrants}
 \caption[Champ électrique créé par les électrodes RF]{
 Champ électrique créé par les électrodes RF, dans le plan $(yOz),x=0$. Les échelles de longueur en $y$ et en $z$ sont différentes.
 \`A gauche la composante $F_z$, à droite la composante $F_x$.
@@ -510,7 +513,7 @@ La spectroscopie de la transition $\ket{g}=\ket{\mathrm{60S_{1/2},m_j=1/2}} \rig
 \begin{figure}[h]
 \centering
 \vspace{1em}
-\includegraphics[width=.8\linewidth]{figures/spectro_60S61S}
+\includegraphics[width=.8\linewidth]{figures/setup/rydberg/spectro_60S61S}
 \caption[Spectroscopie de la transition 60S-61S]{
 Spectroscopie de la transition 60S-61S.
 \textbf{a)} Diagramme de niveaux de la transition microonde à deux photons.
@@ -525,7 +528,7 @@ Afin d'estimer son temps de cohérence de façon plus rigoureuse, nous avons eff
 \begin{figure}[!h]
 \centering
 \vspace{1em}
-\includegraphics[width=.8\linewidth]{figures/spinEcho_60S61S}
+\includegraphics[width=.8\linewidth]{figures/setup/rydberg/spinEcho_60S61S}
 \caption[Écho de spin 60S-61S]{
 Spectroscopie Ramsey avec écho de spin sur la transition 60S-61S.
 \textbf{a)} Principe de l'écho de spin représenté sur la sphère de Bloch. $\ket{g}$ et $\ket{e}$ représentent les états $\mathrm{60S_{1/2}}$ et $\mathrm{61S_{1/2}}$ respectivement.
@@ -590,7 +593,38 @@ La table \ref{tab:fieldGrad} synthétise ces mesures.
 Nous pouvons en déduire que la distance à la puce à laquelle nous choisissons de placer les atomes de Rydberg aura une influence déterminante sur leur exposition à un effet Stark inhomogène.
 
 \subsection{Temps de vie des atomes de Rydberg et température effective}
-mesure du temps de vie par raul -> température blackbody effective d'environ 36K pour le 60S.
+\noindent Nous avons calculé, au chapitre \ref{chapter:Rydberg}, la durée de vie du niveau $\mathrm{60S}$ à différentes températures.
+La figure \ref{fig:lifetime_60S} montre une mesure expérimentale du nombre d'atomes de Rydberg détectés dans le nuage atomique, en fonction du délai entre l'excitation et la détection des atomes de Rydberg.
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\linewidth]{figures/setup/rydberg/lifetime_60S}
+\caption[Durée de vie du niveau 60S]{
+Nombre d'atomes de Rydberg dans le niveau $\mathrm{60S}$ détectés, en fonction du délai entre l'impulsion laser d'excitation et la rampe d'ionisation servant à leur détection.
+L'ajustement exponentielle donne un temps de vie de $\SI{210}{} \pm \SI{4}{\us}$.
+}
+\label{fig:lifetime_60S}
+\end{figure}
+%
+L'ajustement exponentiel de cette mesure donne un temps de vie de $\tau_{\mathrm{60S}} = \SI{210}{} \pm \SI{4}{\us}$, alors que le temps de vie théorique calculé à la température de l'hélium liquide vaut $\SI{239.8}{\us}$ (cf table \ref{tab:lifetime_60S}).
+La différence de temps de vie peut s'expliquer par différents effets :
+les atomes sont exposés au rayonnement du corps noir à température ambiante et à la température de l'azote liquide, qui peut entrer par les hublots d'accès optique.
+De plus, la géométrie complexe des surfaces conductrices au voisinage des atomes (puce et électrodes) changent la densité de mode du rayonnement électromagnétique par rapport à celle du vide.
+
+Afin de rendre compte simplement de ces effets, nous calculons une température effective.
+C'est la température pour laquelle le calcul du temps de vie théorique présenté au chapitre \ref{chapter:Rydberg} donnerait la valeur de temps de vie mesurée.
+Cette température effective pour le niveau $\mathrm{60S}$ dans notre cryostat est de $\SI{36}{\kelvin}$.
+
 
 \section*{Conclusion}
-On a un dispositif lourd et complexe mais qui permet de faire beaucoup de belles choses avec des Rydbergs ultra-froids.
+\noindent Nous avons, dans le présent chapitre, décrit le fonctionnement du dispositif expérimental sur lequel nous avons effectué nos travaux.
+Le dispositif cryogénique et la puce à atomes nous permettent de piéger et refroidir des nuages d'atomes de \Rb{87} jusqu'à la condensation de Bose-Einstein.
+Un second aspect du dispositif nous permet d'exciter, manipuler et détecter des atomes de Rydberg au sein de ces nuages d'atomes ultra-froids.
+
+La difficulté particulière que présente la manipulation d'atomes de Rydberg près d'une surface, due à leur très grande sensibilité au champ électromagnétique, a été surmontée par le dépôt contrôlé d'une couche macroscopique de rubidium sur la surface de la puce atomique.
+Ce dépôt garantit en effet une bonne homogénéité des champs électriques résiduels, mise en évidence par l'étroitesse des raies de transition optique et par la longévité du qubit de Rydberg réalisé entre les niveaux $\mathrm{60S}$ et $\mathrm{61S}$.
+
+Nous disposons ainsi 
+%, malgré ses fortes exigences techniques,
+d'un dispositif performant et prometteur pour l'étude des interactions entre atomes de Rydberg.
+% froids.

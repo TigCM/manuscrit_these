@@ -3,7 +3,7 @@
 %Atomes de Rydberg : à bas $l$ ou circulaires
 
 Un atome de Rydberg est un atome dont un électron au moins occupe un état de grand nombre quantique principal $n$.
-Par là, un atome de Rydberg présente des propriétés physiques surdimensionnées par rapport à un atome non excité ou peu excité.
+Par là, un atome de Rydberg présente des propriétés physiques exacerbées par rapport à un atome non excité ou peu excité.
 On le remarque tout d'abord sur sa taille : un atome de rubidium dans le niveau $n=110$ a une extension spatiale de l'ordre d'$1 ~\si{\micro\meter}$, vingt mille fois plus grande que le rayon de Bohr, qui représente l'ordre de grandeur caractéristique de la taille d'un atome dans son état fondamental.
 
 Avec un électron à une telle distance du c\oe ur atomique, les atomes de Rydberg présentent de très grands moments dipolaires de transition entre états de Rydberg voisins. On comprend dès lors leur très grande sensibilité au rayonnement électromagnétique \cite{ENS_ENHANCED}.
@@ -15,7 +15,7 @@ Il est alors aisé de calculer les éléments de matrice de l'opérateur de dip�
 Connaître les dipôles de transition entre un niveau de Rydberg et les niveaux voisins permet entre autres de calculer la durée de vie des niveaux de Rydberg.
 Nous introduirons ensuite la base des états paraboliques qui permet une description claire des niveaux de Rydberg circulaires en présence d'un champ extérieur.
 La connaissance des dipôles de transition est également essentielle au calcul des interactions dipolaires entre deux atomes de Rydberg, ce que nous aborderons dans un troisième paragraphe.
-Enfin, nous verrons le détail de cette interaction dans deux cas particuliers  : les atomes de Rydberg en interaction autour du niveau $60$S et les atomes de Rydberg en interaction autour du niveau circulaire $50$C.
+Enfin, nous discuterons le détail de cette interaction dans deux cas particuliers  : les atomes de Rydberg en interaction autour du niveau $60$S et les atomes de Rydberg en interaction autour du niveau circulaire $50$C.
 Ces deux cas particuliers seront à nouveau discutés plus en détail dans des chapitres dédiés aux expériences que nous avons menées.
 
 \section{Les atomes de Rydberg alcalins : des hydrogénoïdes géants}\label{sec:alkalRydberg}
@@ -40,14 +40,14 @@ Les états propres de ce modèle s'écrivent en coordonnées sphériques comme l
 \psi(r,\theta,\phi) = R_{nl}(r)\cdot Y_l^{m_l}(\theta,\phi).
 \end{equation}
 Ici, $l$ est le nombre quantique orbital et $m_l$ le nombre quantique magnétique, associé à la projection du moment angulaire orbital de l'électron sur l'axe de quantification.
-Cette première description ne prend pas en compte les corrections aux énergies dues au couplage entre le moment magnétique intrinsèque de l'électron, son spin, et son moment magnétique orbital, ce que l'on dénomme couplage fin.
+Cette première description ne prend pas en compte les corrections aux énergies dues au couplage entre le moment magnétique intrinsèque de l'électron, son spin, et son moment magnétique orbital correspondant à la structure fine.
 Elle néglige tout autant le couplage entre le moment magnétique total de l'électron et le moment magnétique du c\oe ur atomique, le couplage hyperfin \cite{TXT_COHEN2FR}.
 
-En présence de couplage fin, les bons nombres quantiques deviennent $n,l,j,m_j$, avec $j=l+s$ où $s=1/2$ est le moment magnétique de spin de l'électron. Le couplage hyperfin étant très petit pour les niveaux de Rydberg, nous en ferons fi et continuerons d'utiliser la base avec moment cinétique total $j$ de l'électron pour décrire les niveaux électroniques.
+Là où la structure fine est importante, les bons nombres quantiques deviennent $n,l,j,m_j$, avec $j=l+s$ où $s=1/2$ est le moment magnétique de spin de l'électron. Le couplage hyperfin étant très petit pour les niveaux de Rydberg, nous en ferons fi et continuerons d'utiliser la base avec moment cinétique total $j$ de l'électron pour décrire les niveaux électroniques.
 
 En comparaison avec l'atome d'hydrogène, le c\oe ur positif de l'atome de Rydberg alcalin comporte une structure d'extension spatiale bien plus importante \cite{TXT_GALLAGHER}.
 Dans la région des couches électroniques inférieures, le potentiel est bien plus profond que le potentiel coulombien car l'effet d'écrantage partiel de la charge totale positive du c\oe ur par les électrons internes disparaît lorsque l'on s'en approche : c'est l'effet de pénétration du c\oe ur.
-Ensuite, la distribution spatiale des charges positives et négatives entraîne une polarisabilité du c\oe ur composé.
+Par ailleurs, la distribution spatiale des charges positives et négatives entraîne une polarisabilité du c\oe ur composé.
 L'électron de Rydberg interagit avec cette distribution de charge complexe, ce qui modifie sa fonction d'onde et son énergie propre.
 Afin de rendre compte de ces effets, il est nécessaire d'apporter une correction aux énergies propres de l'électron de Rydberg d'un atome alcalin : le défaut quantique.
 
@@ -109,11 +109,12 @@ Dans le cas extrême des niveaux de Rydberg circulaires, qui ont un moment orbit
 \noindent c'est-à-dire comme produit d'une partie radiale $\mathcal{R}$ et d'une partie angulaire $\mathcal{A}$.
 Or la partie radiale $R_{n,l}(r)$ de la fonction d'onde est affectée par l'effet de pénétration du c\oe ur décrit plus haut et doit donc être corrigée \cite{TXT_GALLAGHER}.
 Le calcul de $\mathcal{R}$ peut être fait numériquement par une méthode dite de Numerov \cite[pp.10-24]{TXT_GALLAGHER}.
-Cette méthode s'appuie sur le fait que le potentiel à l'extérieur du c\oe ur atomique reste coulombien. La partie radiale de la fonction d'onde peut donc y être calculée à partir de la même équation, avec les mêmes conditions aux limites à $r \rightarrow \infty$, mais avec une énergie totale différente qui est imposée par les défauts quantiques.
+Cette méthode s'appuie sur le fait que le potentiel à l'extérieur du c\oe ur atomique reste coulombien.
+La partie radiale de la fonction d'onde peut donc y être calculée à partir de la même équation que pour l'atome d'hydrogène, avec les mêmes conditions aux limites à $r \rightarrow \infty$, mais avec une énergie totale différente qui est fixée par les défauts quantiques, et en tronquant à une distance finie du c\oe ur pour éviter la divergence du potentiel à distance nulle.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\linewidth]{figures/WaveFunc_60S_}
+	\includegraphics[width=0.6\linewidth]{figures/theory/WaveFunc_60S_}
 	\caption[Fonction d'onde du niveau nS]{Probabilité de présence de l'électron dans le niveau nS : $r^2\times |R_{\mathrm{nS}}(r)|^2$, dans l'un quelconque de ses plans de symétrie.}
 	\label{fig:wavefunc60S}
 \end{figure}
@@ -176,7 +177,7 @@ La figure \eqref{fig:matrixelements} montre, pour tous les $n$, la somme des coe
 
 \begin{figure}[th!]
 	\centering
-	\includegraphics[width=0.7\linewidth]{figures/lifetime}
+	\includegraphics[width=0.7\linewidth]{figures/theory/lifetime}
 	\caption[Coefficients d'Einstein de 60S vers $n\mathrm{P}_j,j\in{1/2,3/2}$]{
 	Coefficients d'Einstein pour l'émission spontanée (A) et pour l'absorption et émission stimulée par le rayonnement du corps noir(B), depuis le niveau 60S vers les niveaux $n\mathrm{P}_j$.
 	Pour chaque $n$, nous montrons la somme des coefficients vers $n\mathrm{P}_{j=1/2}$ et $n\mathrm{P}_{j=3/2}$.
@@ -263,7 +264,7 @@ Les opérateurs
 vérifient ces propriétés, et commutent avec le hamiltonien.
 Au sein d'une même multiplicité, ces opérateurs vérifient 
 \begin{equation}\label{eq:defJ1J2sq}
-\hat{\vec{J}}_1^2 = \hat{\vec{J}}_2^2 = -\frac{\hbar^2}{4}-\frac{m_ee^4}{8E},
+\hat{\vec{J}}_1^2 = \hat{\vec{J}}_2^2 = -\frac{\hbar^2}{4}-\frac{m_ee^4}{8E_n},
 \end{equation}
 ce qui s'écrit aussi
 \begin{equation}\label{eq:E_j1_j2}
@@ -279,7 +280,7 @@ La figure \eqref{fig:parab_m1m2} propose une représentation schématique des ni
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=1.\linewidth]{figures/echelle_parabolique_m1m2}
+\includegraphics[width=1.\linewidth]{figures/theory/echelle_parabolique_m1m2}
 \caption[Échelle des niveaux paraboliques $\ket{n,m_1,m_2}$]{
 Niveaux paraboliques $\ket{n,m_1,m_2}$ de même nombre quantique principal $n$, classés horizontalement en fonction de leur nombre quantique magnétique $m=m_1+m_2$. Le nombre $j=j_1=j_2$ est la valeur des moments cinétiques $\hat{\vec{J}}_1$ et $\hat{\vec{J}}_2$ et vaut $j=(n-1)/2$.
 La diagonale jaune représente la direction de variation de $m_2$ à $m_1$ fixé et la diagonale rouge la direction de variation de $m_1$ à $m_2$ fixé.
@@ -316,7 +317,7 @@ le nombre quantique magnétique variant de
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.7\linewidth]{figures/echelle_parabolique_mk}
+\includegraphics[width=.7\linewidth]{figures/theory/echelle_parabolique_mk}
 \caption[Échelle des niveaux paraboliques $\ket{n,m,k}$]{
 Niveaux paraboliques $\ket{n,m,k}$ de même nombre quantique principal $n$, classés horizontalement en fonction de leur nombre quantique magnétique $m$ et étiqueté selon le nombre quantique $k$.
 Seuls les niveaux de très grand $m$ sont représentés.
@@ -335,7 +336,7 @@ La figure \eqref{fig:wavefunc50C} montre la probabilité de présence $r^2|R(r)|
 Les niveaux de $m$ élevé mais non maximal seront appelés niveaux elliptiques en raison de la forme de leurs fonctions d'onde et seront étiquetés sur la base $\ket{n,m,k}$.
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.5\linewidth]{figures/WaveFunc_50C_}
+	\includegraphics[width=0.5\linewidth]{figures/theory/WaveFunc_50C_}
 	\caption[Fonction d'onde du niveau nC]{Probabilité de présence de l'électron dans le niveau nC : $r^2\times |R_{n\mathrm{C}}(r)|^2$, dans le plan perpendiculaire à l'axe de quantification et passant par le noyau.
 	Celle-ci décrit un tore de rayon $n^2a_0$ autour du c\oe ur atomique.}
 	\label{fig:wavefunc50C}
@@ -360,7 +361,7 @@ En appliquant l'équation \eqref{eq:EinsteinAif} à la fréquence de transition 
 Le temps de vie à température nulle du niveau 50C est donc de $\tau_{0,50C} = \SIv{28.65}{\ms}$, soit cent fois plus que pour le niveau 60S.
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.7\linewidth]{figures/spontem_50C49C}
+	\includegraphics[width=0.7\linewidth]{figures/theory/spontem_50C49C}
 	\caption[Schéma de niveaux 50C-49C]{Schéma de niveaux des multiplicités $n=50$ et $n=49$ près des niveaux 50C et 49C. La seule transition possible par émission spontanée depuis le 50C est la transition vers le 49C.}
 	\label{fig:spontem_50C49C}
 \end{figure}
@@ -375,7 +376,7 @@ La figure \eqref{fig:lifetime_50C} montre l'évolution de la durée de vie du ni
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\linewidth]{figures/lifetime_50C}
+	\includegraphics[width=0.6\linewidth]{figures/theory/lifetime_50C}
 	\caption[Durée de vie du niveau 50C]{Durée de vie radiative du niveau de Rydberg 50C en fonction de la température de rayonnement du corps noir.}
 	\label{fig:lifetime_50C}
 \end{figure}

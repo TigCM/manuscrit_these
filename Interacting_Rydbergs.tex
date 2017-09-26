@@ -13,7 +13,8 @@ V_{dd}(\vec{r}) = \frac{1}{4\pi\epsilon_0 r^3} \left( \vec{d_1}\cdot \vec{d_2} -
 \end{equation}
 où $\vec{d_1}$ décrit le premier dipôle, $\vec{d_2}$ le deuxième dipôle et $\vec{r}$ le vecteur d'espace qui les sépare.
 On peut alors écrire, par analogie, le hamiltonien d'interaction entre deux atomes en remplaçant les dipôles classiques par les opérateurs dipôle électrique de chaque atome.
-La distance entre les atomes sera cependant traitée de façon classique, en supposant que la distance entre les atomes est très grande devant l'extension spatiale de leurs fonctions d'onde. C'est ce qu'on appelle l'approximation dipolaire.
+La distance entre les atomes sera cependant traitée de façon classique, en supposant que la distance entre les atomes est très grande devant l'extension spatiale de leurs fonctions d'onde.
+% C'est ce qu'on appelle l'approximation dipolaire. FAUX (commentaire Michel 15 sept
 Le potentiel d'interaction dipolaire s'écrit dans ce cas
 \begin{equation}\label{eq:quantDipole}
 \begin{aligned}
@@ -101,7 +102,7 @@ Ces cas particuliers sont analogues à ce que l'on appelle dans d'autres context
 Intéressons-nous désormais aux interactions entre deux atomes de Rydberg dans les états $a$ et $b$.
 Il y a alors deux états de paire dégénérés $\ket{ab}$ et $\ket{ba}$.
 De même que précédemment, les termes de couplage $\braket{ab|\hat{V}|ab}=\braket{ba|\hat{V}|ba}$ sont nuls.
-L'on peut tout de même introduire un opérateur potentiel effectif $V_{eff}$ pour le système à deux niveaux $\ket{ab}$ et $\ket{ba}$, qui tiendra compte des couplages de second ordre avec des états intermédiaires.
+L'on peut tout de même introduire un opérateur potentiel effectif $V_{eff}$ pour le système à deux niveaux $\ket{ab}$ et $\ket{ba}$, qui tiendra compte du couplage éventuel au premier ordre entre $\ket{ab}$ et $\ket{ba}$ mais également des couplages de second ordre avec des états intermédiaires.
 Les éléments de matrice de $V_{eff}$ sont
 %
 \begin{equation}\label{eq:Cab_Aab}
@@ -145,8 +146,8 @@ En effet, les états propres de celui-ci, qui sont les combinaisons symétrique 
 \Delta E_{dd} = C_{ab} \mp A_{ab}.
 \end{equation}
 
-Afin d'illustrer les calculs d'interaction que nous venons de présenter, nous allons les appliquer à nos deux exemples que sont le niveau 60S et le niveau 50C.
-Dans les deux cas, le calcul numérique consiste à diagonaliser le hamiltonien \eqref{eq:hamilt2atoms} à tous les ordres perturbatifs, en limitant l'espace de Hilbert à quelques centaines d'états de paire et sous l'approximation dipolaire.
+Afin d'illustrer la discussion des interactions que nous venons de présenter, nous allons les appliquer à nos deux exemples que sont le niveau 60S et le niveau 50C.
+Dans les deux cas, le calcul numérique consiste à diagonaliser le hamiltonien \eqref{eq:hamilt2atoms} à tous les ordres perturbatifs, en limitant l'espace de Hilbert à quelques centaines d'états de paire et en traitant la distance interatomique de façon classique.
 
 \subsection{Les interactions dipolaires du niveau 60S}
 
@@ -278,7 +279,7 @@ C_{6,50C50C}(\SIvv{1}{V/cm}) = \SIv{483.17}{\GHz\raiseto{6}\um}.
 \end{equation}
 Mais dès que les atomes se rapprochent à une distance inférieure à $\SIvv{10}{\um}$, l'énergie d'interaction varie en $1/r^3$ jusqu'à très courte distance.
 En effet, lorsque l'interaction dipolaire devient suffisamment forte, le champ électrique extérieur ne suffit plus à définir le plan des orbites, et le niveau de paire est perturbé.
-C'est ce que l'on retrouve sur la coloration de la courbe : à une distance critique de l'ordre de $\SIvv{10}{\um}$ le niveau de la paire s'éloigne du niveau non perturbé $\ket{\mathrm{50C50C}}$.
+C'est ce que l'on retrouve sur la coloration de la courbe : à une distance critique de l'ordre de $\SIvv{10}{\um}$ le niveau de la paire s'éloigne du niveau non perturbé $\ket{\mathrm{50C,50C}}$.
 La paire est alors dans un état superposé de plusieurs $\ket{nmk,n'm'k'}$, entre lesquels apparaissent des couplages dipolaires résonants en $1/r^3$.
 Ce problème sera traité en détail dans le chapitre \ref{chapter:circsim}, lorsque nous nous intéresserons aux conditions dans lesquelles les interactions entre atomes circulaires sont les plus avantageuses pour la simulation quantique.
 
@@ -289,7 +290,7 @@ Il est alors très difficile de décrire simplement l'interaction dipolaire.
 \noindent Nous avons dans ce chapitre présenté les caractéristiques physiques principales des atomes de Rydberg alcalins.
 Nous avons utilisé la théorie du défaut quantique afin de décrire les niveaux de Rydberg de faible moment cinétique.
 Ceux-ci dévient en effet du modèle de l'atome d'hydrogène par les effets de pénétration et de polarisabilité du c\oe ur atomique, ce que permet de corriger le défaut quantique.
-Ainsi nous avons pu calculer décrire le niveau 60S, en donnant la forme de sa fonction d'onde, sa taille et sa durée de vie radiative à différentes températures.
+Ainsi nous avons pu décrire le niveau 60S, en donnant la forme de sa fonction d'onde, sa taille et sa durée de vie radiative à différentes températures.
 
 Nous nous sommes ensuite intéressés aux niveaux de Rydberg circulaires, qui semblent être de meilleurs candidats pour la simulation quantique grâce à leur temps de vie plus long.
 La théorie du défaut quantique n'est plus nécessaire pour décrire les niveaux circulaires.
@@ -298,7 +299,7 @@ Nous avons ainsi pu décrire le niveau de Rydberg circulaire 50C, qui présente 
 
 En dernier lieu, nous avons vu comment les atomes de Rydberg interagissent entre eux par interaction dipolaire.
 \`A grande distance, l'interaction dipolaire entre deux atomes de Rydberg prend la forme de Van der Waals avec une dépendance en $C_6/r^6$, où $r$ est la distance entre les deux atomes.
-Nous avons pu déterminer les coefficients de Van der Waals $C_6$ pour l'interaction entre une paire d'atomes dans les niveaux $\ket{\text{60S60S}}$, $\ket{\text{60S,nl}}$ et $\ket{\text{50C50C}}$, en diagonalisant à chaque fois le hamiltonien complet du système pour toutes les distances $r$.
+Nous avons pu déterminer les coefficients de Van der Waals $C_6$ pour l'interaction entre une paire d'atomes dans les niveaux $\ket{\text{60S,60S}}$, $\ket{\text{60S,nl}}$ et $\ket{\text{50C,50C}}$, en diagonalisant à chaque fois le hamiltonien complet du système pour toutes les distances $r$.
 Aux distances très courtes, lorsque l'interaction dipolaire devient comparable aux différences d'énergie entre les niveaux de Rydberg, les niveaux de Rydberg se mélangent et l'interaction dipolaire ne peut plus être traitée simplement.
 
 Les expériences que nous avons menées portent sur l'étude de l'interaction dipolaire entre atomes de Rydberg.

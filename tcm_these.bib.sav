@@ -393,4 +393,11 @@
   timestamp = {2014.06.01},
 }
 
+@Book{TXT_BETHE_ONELECTRONATOMS,
+  title     = {Quantum mechanics of one-and two-electron atoms},
+  publisher = {Springer Science \& Business Media},
+  year      = {2012},
+  author    = {Bethe, Hans A and Salpeter, Edwin E},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

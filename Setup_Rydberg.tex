@@ -2,7 +2,7 @@
 
 \noindent Cette diversité de nuages atomiques nous permet d'exciter des atomes de Rydberg dans différentes conditions de densité atomique, de température et de distance à la puce.
 Nous présentons dans le reste de ce chapitre la partie de notre dispositif expérimental servant à exciter, détecter et manipuler les atomes de Rydberg.
-Notre dispositif est particulier dans la mesure où tout ce que concerne les niveaux de Rydberg a lieu près d'une surface conductrice, ce qui rend les choses plus difficiles.
+Notre dispositif est particulier dans la mesure où tout ce qui concerne les niveaux de Rydberg a lieu près d'une surface conductrice, ce qui rend les choses plus difficiles.
 
 Après avoir donné le principe de l'excitation à deux photons des niveaux de Rydberg et de la détection par ionisation sélective, nous ferons une présentation de rapide de l'effet Stark et de ses conséquences sur nos expériences.
 Nous décrirons ensuite les techniques mises en place afin de contrôler les champs électriques près de la puce.
@@ -22,7 +22,7 @@ Dans cette configuration, seul le sous-niveau $m_j=+1/2$ du niveau 60S est excit
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.8\linewidth]{figures/setup/rydberg/2photons}
+\includegraphics[width=.7\linewidth]{figures/setup/rydberg/2photons}
 \caption[Excitation du niveau 60S]{Schéma de l'excitation laser du niveau 60S, à partir d'atomes de \Rb{87} dans le niveau fondamental dans le piège magnétique.
 La polarisation de chaque laser est indiquée.
 $\Omega_r$ et $\Omega_b$ sont les fréquences de Rabi des transitions à \num{780} et \SI{480}{\nano\meter} respectivement.
@@ -32,7 +32,7 @@ $\delta=\SI{540}{\MHz}$ est le désaccord par rapport au niveau intermédiaire.
 \end{figure}
 
 Le faisceau rouge a typiquement un col de $\SI{150}{\um}$ et une puissance de $\SI{50}{\micro\watt}$ au niveau des atomes.
-Le laser rouge est désaccordé de $\delta=\SI{540}{\MHz}$ par rapport à la transition $ \ket{\mathrm{5S_{1/2},F=2,m_F=+2}} \rightarrow \ket{\mathrm{5P_{3/2},F'=3,m_F'=+3}}$, dont le moment de transition dipolaire vaut $\SI{2.98931 (62)} ea_0$ \cite{DATA_STECKRB87}.
+Le laser rouge est désaccordé de $\delta=+\SI{540}{\MHz}$ par rapport à la transition $ \ket{\mathrm{5S_{1/2},F=2,m_F=+2}} \rightarrow \ket{\mathrm{5P_{3/2},F'=3,m_F'=+3}}$, dont le moment de transition dipolaire vaut $\SI{2.98931 (62)} ea_0$ \cite{DATA_STECKRB87}.
 D'après les caractéristiques du faisceau, la fréquence de Rabi correspondant à cette transition est de l'ordre de $\Omega_r \simeq 2\pi\times \SI{40}{\MHz}$.
 Le taux d'émission spontanée de photons rouge par le niveau intermédiaire, de durée de vie $\Gamma^{-1} \simeq \SI{26}{\ns}$, est donné par
 \begin{equation}
@@ -40,7 +40,7 @@ Le taux d'émission spontanée de photons rouge par le niveau intermédiaire, de
 \Gamma_{sp} = \frac{1}{2} \frac{\Omega_r^2 \Gamma}{\delta^2 + \Omega_r^2 + \Gamma^2}
 \simeq \frac{\Omega_r^2}{2\delta^2} \Gamma,
 \end{equation}
-où $\Gamma = 2\pi \times 6.065 MHz$ est la largeur naturelle du niveau $\mathrm{5P_{3/2}}$.
+où $\Gamma = 2\pi \times \SI{6.065}{\MHz}$ est la largeur naturelle du niveau $\mathrm{5P_{3/2}}$.
 La dernière égalité est vérifiée dans l'approximation $\delta^2 \gg \Omega_r^2, \Gamma^2$, qui est ici valide.
 Avec nos valeurs d'intensité et de désaccord du laser, on obtient $\Gamma_{sp} \simeq \num{2.5e-3} \Gamma = 2\pi\times \SI{0.657}{\MHz}$, ce qui correspond à l'émission d'un photon  toutes les $\Gamma_{sp}^{-1} = \SI{0.24}{\us}$.
 Or lorsqu'un atome absorbe et ré-émet un tel photon, il gagne une énergie moyenne
@@ -51,7 +51,7 @@ Le faisceau bleu a typiquement un col de $\SI{22}{\um}$ et une puissance estimé
 Le moment dipolaire de la transition $ \ket{\mathrm{5P_{3/2},F'=3,m_F'=+3}} \rightarrow \ket{\mathrm{60S_{1/2},m_j=+1/2}}$ est cependant bien plus faible que le précédent, et vaut $\SI{9.9e-3} ea_0$
 \footnote{Nous rappelons ici que, comme nous l'avons mentionné en \ref{sec:alkalRydberg}, le bon nombre quantique magnétique pour les niveaux de Rydberg est $m_j$ et non pas $m_F$.}.
 La fréquence de Rabi pour cette transition est alors de $\Omega_b = 2\pi\times \SI{8}{\MHz}$.
-Les fréquences de Rabi des deux trasitions satisfont l'approximation $\Omega_{r,b} \ll \delta$, ce qui nous permet de négliger l'occupation du niveau intermédiaire, et donc de l'éliminer adiabatiquement \cite{TXT_ASPECTFABRE_QUANTOPT}.
+Les fréquences de Rabi des deux transitions satisfont l'approximation $\Omega_{r,b} \ll \delta$, ce qui nous permet de négliger l'occupation du niveau intermédiaire, et donc de l'éliminer adiabatiquement \cite{TXT_ASPECTFABRE_QUANTOPT}.
 Le système à trois niveaux se ramène alors à un système effectif à deux niveaux, couplés par une fréquence de Rabi
 \begin{equation}
 \label{eq:Rabi_2photons}
@@ -63,7 +63,7 @@ Ce paramètre peut être varié simplement en ajustant la puissance du laser rou
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.8\linewidth]{figures/setup/rydberg/lasers_excit}
+\includegraphics[width=.6\linewidth]{figures/setup/rydberg/lasers_excit}
 \caption[Faisceaux laser pour l'excitation des Rydberg]{Schéma représentant la géométrie des faisceaux laser d'excitation.
 }
 \label{fig:lasers_excit}
@@ -93,7 +93,7 @@ La trajectoire des ions est indiquée en lignes pointillées et les faisceaux la
 %
 La figure \eqref{fig:schema_detect} présente un schéma détaillé du système de détection par ionisation.
 Au moment de la détection, une tension négative est appliquée sur les électrodes d'ionisation $I_1$ et $I_2$.
-La tension sur ces électrodes crée un champ électrique au niveau des atomes, la puce étant mise à la masse.
+La tension sur ces électrodes crée un champ électrique de l'ordre de quelques $\SI{100}{\V/\cm}$ au niveau des atomes, la puce étant mise à la masse.
 Ce champ électrique ionise les atomes de Rydberg et accélère les ions positifs ainsi créés.
 Ces ions sont ensuite défléchis en direction du Channeltron par les électrodes $D_1$ et $D_2$, mises en permanence à un potentiel $V_{defl} = +\SI{150}{\V}$.
 Une grille placée à l'entrée du Channeltron est alimentée par une tension de $\SI{-3000}{\V}$.
@@ -106,16 +106,17 @@ Le Channeltron est isolé thermiquement et chauffé à une température de $\SI{
 Cela signifie qu'ils sont tous à une distance différente du seuil d'ionisation, et \textit{in fine} que chaque niveau de Rydberg sera ionisé pour une valeur de champ électrique spécifique.
 On peut ainsi appliquer une rampe de tension sur les électrodes d'ionisation, afin que chaque niveau de Rydberg soit ionisé à un instant différent.
 Alors, les ions correspondants seront détectés à des instants différents par le Channeltron et pourront être distingués.
+Des fenêtres temporelles de détection peuvent alors être définies, qui permettent de compter les atomes détectés dans chacun des différents niveaux.
 La figure \eqref{fig:arrTimes6057} montre un signal de détection sélective des niveaux de Rydberg $\mathrm{60S_{1/2}}$ et $\mathrm{57S_{1/2}}$.
 La rampe de tension et les fenêtres temporelles de détection sont optimisées afin de distinguer au mieux les différents niveaux de Rydberg détectés.
-L'efficacité de détection de notre dispositif a été mesurée à $\SI{90}{} \pm \SI{10}{\percent}$.
+L'efficacité de détection de notre dispositif a été mesurée à $\SI{90}{} \pm \SI{10}{\percent}$ \cite{PHD_CELISTRINO}.
 %
-\begin{figure}[h]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=.7\linewidth]{figures/setup/rydberg/arrTimes6057}
 \caption[Détection sélective des niveaux $\mathrm{60S_{1/2}}$ et $\mathrm{57S_{1/2}}$]{
 Détection sélective des atomes de Rydberg.
-\textbf{a)} une rampe de tension $V_{ion}$ typique appliquée sur les électrodes d'ionisation.
+\textbf{a)} Une rampe de tension $V_{ion}$ typique appliquée sur les électrodes d'ionisation.
 Les seuils d'ionisation des niveaux $\mathrm{60S_{1/2}}$ et $\mathrm{57S_{1/2}}$ sont indiqués en rouge et bleu respectivement.
 \textbf{b)} Temps d'arrivée des ions correspondants. Des fenêtres temporelles de détection, représentées en pointillés, sont définies pour compter sélectivement les atomes dans les niveaux $\mathrm{60S_{1/2}}$ et $\mathrm{57S_{1/2}}$.
 Les atomes sont préparés dans l'état $\mathrm{60S_{1/2}}$ et le niveau $\mathrm{57S_{1/2}}$ est peuplé par une impulsion $\pi$ de la transition microonde adéquate.
@@ -137,7 +138,7 @@ Les champs électriques parasites étant inévitables près d'une surface, la pr
 \subsubsection*{Premiers spectres}
 \noindent Ce problème est très clair sur les premiers spectres optiques que nous avons fait de la transition $\ket{\mathrm{5S_{1/2}}} \rightarrow \ket{\mathrm{60S_{1/2}}}$, présentés en figure \eqref{fig:vieilles_raies}.
 %
-\begin{figure}[h]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=.8\linewidth]{figures/setup/rydberg/vieilles_raies}
 \caption[Spectres d'excitation laser 5S-60S avant le dépôt de rubidium sur la puce]{
@@ -152,95 +153,95 @@ L'origine de l'axe des abscisses correspond à la fréquence résonante de la tr
 Ces premiers spectres présentent des largeurs de raie de plusieurs dizaines de $\si{\MHz}$, et une forme asymétrique caractéristique d'un élargissement Stark inhomogène.
 De plus, une heure de fonctionnement de l'expérience cause un déplacement en fréquence de la raie de \SI{12}{\MHz}.
 
-Cet effet est causé par la variation spatiale et temporelle du champ électrique dans la région du nuage atomique.
-L'énergie des niveaux de Rydberg dépend fortement du champ électrique extérieur au niveau de chaque atome.
-Ainsi, si les atomes dans différentes régions du nuage voient des champs électriques différents, la fréquence de la transition $\mathrm{5S}\rightarrow\mathrm{60S}$ sera déplacée différemment dans chaque région, et la raie spectrale s'en trouvera élargie.
-
-	\subsubsection*{L'effet Stark}
-\noindent Afin de comprendre ce phénomène plus en détail, attardons-nous à décrire l'effet Stark.
-La présence d'un champ électrique constant $\vec{F}$ dans l'environnement ajoute au hamiltonien atomique un terme de couplage entre le champ et l'opérateur dipolaire électrique.
-En présence d'un champ électrique, le hamiltonien devient
-\begin{equation}
-\label{eq:hamilt_Stark}
-\hat{H} = \hat{H}_0 - \vec{\hat{d} \cdot F} = \hat{H}_0 + q~\vec{\hat{r}\cdot F},
-\end{equation}
-où $\hat{H}_0$ est le hamiltonien libre de l'atome, dont les énergies propres sont calculées par la théorie du défaut quantique selon l'équation \eqref{eq:E_I_delta}, $\hat{\vec{r}}$ l'opérateur position de l'électron dans le potentiel atomique et $q$ la charge élémentaire, supposée positive.
-
-Le hamiltonien Stark \eqref{eq:hamilt_Stark} perd la symétrie sphérique de $\hat{H}_0$, au profit d'une symétrie cylindrique autour de l'axe défini par le vecteur de champ électrique $\vec{F}$.
-Cet axe, que nous choisirons comme étant l'axe $(Oz)$, devient alors l'axe de quantification naturel du problème.
-Dans la base construite autour de cet axe, le terme d'énergie Stark prend la forme
-\begin{equation}
-\label{eq:dipole_Stark}
-\hat{H}_S = q\hat{z}|\vec{F}| = q\hat{r} \sqrt{\frac{4\pi}{3}} Y_1^0  |\vec{F}|.
-\end{equation}
-où $\hat{z}$ est la composante selon $z$ de l'opérateur position, $\hat{r}$ sa norme, et $Y_0^1$ l'harmonique sphérique $(l=0,m_l=1)$.
-Ce hamiltonien ne couple que les états de même $m_l$ et vérifiant $\Delta l = \pm 1$.
-
-Le calcul de l'effet Stark par diagonalisation du hamiltonien pour un niveau de Rydberg donné est alors simple à mener numériquement, en réduisant le sous-espace à considérer grâce à la règle de sélection $\Delta m_l = 0$.
-Cette même règle de sélection permet d'imposer la condition $\Delta m_j= \Delta m_l + \Delta m_s = 0$, car l'effet Stark n'introduit aucun terme permettant de coupler des états de spins électroniques différents.
-La figure \eqref{fig:Stark_60S} montre les énergies propres trouvées par diagonalisation du hamiltonien \eqref{eq:hamilt_Stark}, pour les états d'énergie proche de celle du niveau $\mathrm{60S_{1/2},m_j=1/2}$ et de même $m_j$.
+Cet effet est causé par la variation spatiale et temporelle du champ électrique dans la région du nuage atomique :
+%L'énergie des niveaux de Rydberg dépend fortement du champ électrique extérieur au niveau de chaque atome.Ainsi, 
+si les atomes dans différentes régions du nuage voient des champs électriques différents, la fréquence de la transition $\mathrm{5S}\rightarrow\mathrm{60S}$ sera déplacée différemment dans chaque région par l'effet Stark, et la raie spectrale s'en trouvera élargie.
 %
-\begin{figure}[!h]
-\centering
-\includegraphics[width=\linewidth]{figures/setup/rydberg/Stark_60S}
-\caption[Diagramme Stark autour du niveau $\mathrm{60S}$]{
-Diagramme Stark autour du niveau $\mathrm{60S}$, pour les états de $m_j=1/2$.
-Le défaut quantique déplace beaucoup les niveaux S,P et D.
-Ces niveaux non-dégénérés ont un effet Stark quadratique en champ électrique.
-Les niveaux de grand $l$ sont dégénérés et ont un effet Stark linéaire (ce sont les multiplicités qui s'ouvrent en éventail).
-}
-\label{fig:Stark_60S}
-\end{figure}
+%	\subsubsection*{L'effet Stark}
+%\noindent Afin de comprendre ce phénomène plus en détail, attardons-nous à décrire l'effet Stark.
+%La présence d'un champ électrique constant $\vec{F}$ dans l'environnement ajoute au hamiltonien atomique un terme de couplage entre le champ et l'opérateur dipolaire électrique.
+%En présence d'un champ électrique, le hamiltonien devient
+%\begin{equation}
+%\label{eq:hamilt_Stark}
+%\hat{H} = \hat{H}_0 - \vec{\hat{d} \cdot F} = \hat{H}_0 + q~\vec{\hat{r}\cdot F},
+%\end{equation}
+%où $\hat{H}_0$ est le hamiltonien libre de l'atome, dont les énergies propres sont calculées par la théorie du défaut quantique selon l'équation \eqref{eq:E_I_delta}, $\hat{\vec{r}}$ l'opérateur position de l'électron dans le potentiel atomique et $q$ la charge élémentaire, supposée positive.
 %
-Deux cas sont à distinguer. Les niveaux de faible moment orbital $l\leq 3$ sont déplacés en énergie par leur défaut quantique important.
-Le terme d'interaction Stark ne couplant que des niveaux ayant la même énergie en l'absence de champ électrique, ces niveaux S,P et D ne sont perturbés qu'au second ordre par l'effet Stark.
-Leur énergie varie donc de façon quadratique avec le champ électrique.
-Les niveaux de grand nombre quantique orbital $l$ et de même nombre quantique principal $n$ sont, eux, dégénérés.
-Le champ électrique sépare donc leurs énergies linéairement
-\footnote{
-Le cas de l'effet Stark pour les atomes de grand $l$ sera traité plus en détail dans le chapitre \ref{chapter:circsim}.
-}.
-La figure \eqref{fig:Stark_60S} montre deux telles multiplicités, $n=57$ et $n=58$.
-
-Les niveaux de bas $l$ présentent donc tous un effet Stark quadratique que l'on exprime sous la forme
-\begin{equation}
-\label{eq:Stark_quad}
-\Delta \nu_S = A.\vec{F}^2
-\end{equation}
-On comprend mieux ainsi la forme des raies présentées en figure \eqref{fig:vieilles_raies} :
-l'effet Stark ne peut que réduire la fréquence de transition $5S-60S$ et la raie n'est donc élargie que du côté des basses fréquences.
-
-La diagonalisation du hamiltonien \eqref{eq:hamilt_Stark} et l'ajustement des énergies propres ainsi calculées nous permettent d'extraire les coefficients d'effet Stark pour n'importe quel niveau.
-La table \eqref{tab:Stark_60S} repertorie les coefficients d'effet Stark quadratique pour quelques niveaux autour du $\mathrm{60S}$.
-
-\begin{table}[!h]
-	\centering
-	\caption[Effet Stark quadratique des niveaux proches du $\mathrm{60S}$]{Coefficients d'effet Stark quadratique de niveaux proches du $\mathrm{60S}$.
-	}
-	\label{tab:Stark_60S}
-	\begin{tabular}{c c }
-		\toprule\midrule
-		Niveau de Rydberg
-		& Coefficient Stark quadratique
-		\\
-		$\ket{n,l,j}$
-		& $A_{n,l,j,m_j}$ en $\si{\MHz \per (\V \per\cm) \squared}$ \\
-		\midrule
-		$\mathrm{60S_{1/2}}$
-		& \SI{-89.9}{} \\
-		$\mathrm{61S_{1/2}}$
-		& \SI{-100.9}{} \\
-		$\mathrm{60P_{3/2},m_j=\pm -1/2}$
-		& \SI{-676}{} \\
-		$\mathrm{60P_{3/2},m_j=\pm -3/2}$
-		& \SI{-569}{} \\
-		\midrule
-		\bottomrule
- 	\end{tabular}
-\end{table}
-
-\noindent Si l'on suppose que la largeur des spectres de la figure \eqref{fig:vieilles_raies} est due principalement à l'effet Stark causé par des gradients de champ électrique, alors ceux-ci peuvent s'estimer grâce ax coefficients données en table \eqref{tab:Stark_60S}.
-Une largeur de raie de $\SI{40}{\MHz}$ correspond à un champ électrique variant de $\SIrange{0}{0.667}{\V/\cm}$ sur l'extension du nuage.
+%Le hamiltonien Stark \eqref{eq:hamilt_Stark} perd la symétrie sphérique de $\hat{H}_0$, au profit d'une symétrie cylindrique autour de l'axe défini par le vecteur de champ électrique $\vec{F}$.
+%Cet axe, que nous choisirons comme étant l'axe $(Oz)$, devient alors l'axe de quantification naturel du problème.
+%Dans la base construite autour de cet axe, le terme d'énergie Stark prend la forme
+%\begin{equation}
+%\label{eq:dipole_Stark}
+%\hat{H}_S = q\hat{z}|\vec{F}| = q\hat{r} \sqrt{\frac{4\pi}{3}} Y_1^0  |\vec{F}|.
+%\end{equation}
+%où $\hat{z}$ est la composante selon $z$ de l'opérateur position, $\hat{r}$ sa norme, et $Y_0^1$ l'harmonique sphérique $(l=0,m_l=1)$.
+%Ce hamiltonien ne couple que les états de même $m_l$ et vérifiant $\Delta l = \pm 1$.
+%
+%Le calcul de l'effet Stark par diagonalisation du hamiltonien pour un niveau de Rydberg donné est alors simple à mener numériquement, en réduisant le sous-espace à considérer grâce à la règle de sélection $\Delta m_l = 0$.
+%Cette même règle de sélection permet d'imposer la condition $\Delta m_j= \Delta m_l + \Delta m_s = 0$, car l'effet Stark n'introduit aucun terme permettant de coupler des états de spins électroniques différents.
+%La figure \eqref{fig:Stark_60S} montre les énergies propres trouvées par diagonalisation du hamiltonien \eqref{eq:hamilt_Stark}, pour les états d'énergie proche de celle du niveau $\mathrm{60S_{1/2},m_j=1/2}$ et de même $m_j$.
+%%
+%\begin{figure}[!h]
+%\centering
+%\includegraphics[width=\linewidth]{figures/setup/rydberg/Stark_60S}
+%\caption[Diagramme Stark autour du niveau $\mathrm{60S}$]{
+%Diagramme Stark autour du niveau $\mathrm{60S}$, pour les états de $m_j=1/2$.
+%Le défaut quantique déplace beaucoup les niveaux S,P et D.
+%Ces niveaux non-dégénérés ont un effet Stark quadratique en champ électrique.
+%Les niveaux de grand $l$ sont dégénérés et ont un effet Stark linéaire (ce sont les multiplicités qui s'ouvrent en éventail).
+%}
+%\label{fig:Stark_60S}
+%\end{figure}
+%%
+%Deux cas sont à distinguer. Les niveaux de faible moment orbital $l\leq 3$ sont déplacés en énergie par leur défaut quantique important.
+%Le terme d'interaction Stark ne couplant que des niveaux ayant la même énergie en l'absence de champ électrique, ces niveaux S,P et D ne sont perturbés qu'au second ordre par l'effet Stark.
+%Leur énergie varie donc de façon quadratique avec le champ électrique.
+%Les niveaux de grand nombre quantique orbital $l$ et de même nombre quantique principal $n$ sont, eux, dégénérés.
+%Le champ électrique sépare donc leurs énergies linéairement
+%\footnote{
+%Le cas de l'effet Stark pour les atomes de grand $l$ sera traité plus en détail dans le chapitre \ref{chapter:circsim}.
+%}.
+%La figure \eqref{fig:Stark_60S} montre deux telles multiplicités, $n=57$ et $n=58$.
+%
+%Les niveaux de bas $l$ présentent donc tous un effet Stark quadratique que l'on exprime sous la forme
+%\begin{equation}
+%\label{eq:Stark_quad}
+%\Delta \nu_S = A.\vec{F}^2
+%\end{equation}
+%On comprend mieux ainsi la forme des raies présentées en figure \eqref{fig:vieilles_raies} :
+%l'effet Stark ne peut que réduire la fréquence de transition $5S-60S$ et la raie n'est donc élargie que du côté des basses fréquences.
+%
+%La diagonalisation du hamiltonien \eqref{eq:hamilt_Stark} et l'ajustement des énergies propres ainsi calculées nous permettent d'extraire les coefficients d'effet Stark pour n'importe quel niveau.
+%La table \eqref{tab:Stark_60S} repertorie les coefficients d'effet Stark quadratique pour quelques niveaux autour du $\mathrm{60S}$.
+%
+%\begin{table}[!h]
+%	\centering
+%	\caption[Effet Stark quadratique des niveaux proches du $\mathrm{60S}$]{Coefficients d'effet Stark quadratique de niveaux proches du $\mathrm{60S}$.
+%	}
+%	\label{tab:Stark_60S}
+%	\begin{tabular}{c c }
+%		\toprule\midrule
+%		Niveau de Rydberg
+%		& Coefficient Stark quadratique
+%		\\
+%		$\ket{n,l,j}$
+%		& $A_{n,l,j,m_j}$ en $\si{\MHz \per (\V \per\cm) \squared}$ \\
+%		\midrule
+%		$\mathrm{60S_{1/2}}$
+%		& \SI{-89.9}{} \\
+%		$\mathrm{61S_{1/2}}$
+%		& \SI{-100.9}{} \\
+%		$\mathrm{60P_{3/2},m_j=\pm -1/2}$
+%		& \SI{-676}{} \\
+%		$\mathrm{60P_{3/2},m_j=\pm -3/2}$
+%		& \SI{-569}{} \\
+%		\midrule
+%		\bottomrule
+% 	\end{tabular}
+%\end{table}
+%
+%\noindent Si l'on suppose que la largeur des spectres de la figure \eqref{fig:vieilles_raies} est due principalement à l'effet Stark causé par des gradients de champ électrique, alors ceux-ci peuvent s'estimer grâce ax coefficients données en table \eqref{tab:Stark_60S}.
+Une largeur de raie de $\SI{40}{\MHz}$ correspond à un champ électrique variant de $\SIrange{0}{0.667}{\V/\cm}$ sur l'extension du nuage, d'après les coefficients Stark donnés en table \ref{tab:Stark_60S}.
 Or le nuage utilisé pour ces spectres était un MOT de $\sim \SI{200}{\um}$ de diamètre, ce qui nous donne une valeur de gradient de champ électrique de l'ordre de $\SI{35}{(\V/\cm)\per\cm}$.
 
 %DISCREPANCY avec Raul, qui trouve $14 V/cm^2$. Ca semble se corriger par un facteur $2\pi$ dans la largeur, qui viendrait du fait qu'il a appelé $\Delta\omega$ la largeur de raie au lieu de $\Dela \nu$.
@@ -250,7 +251,7 @@ Or le nuage utilisé pour ces spectres était un MOT de $\sim \SI{200}{\um}$ de 
 lorsque les atomes du piège sont relâchés à la fin de chaque séquence, une partie d'entre eux entre en contact avec la surface froide de la puce et s'y dépose.
 Des dépôts volontaires d'atomes sur la puce, à partir de nuages piégés, nous ont confirmé l'importance de ce phénomène et de ses effets sur les spectres d'excitation laser.
 
-L'accumulation d'atomes de rubidium sur la puce forme d'important dipôles électriques.
+L'accumulation d'atomes de rubidium sur la puce forme d'importants dipôles électriques.
 En effet, les niveaux de Fermi de l'or et du rubidium étant différents, lorsque les deux métaux sont mis en contact les électrons se déplacent de l'un à l'autre pour équilibrer les niveaux de Fermi.
 Un potentiel électrostatique de contact est alors créé entre l'or et le rubidium.
 La surface de la puce étant mise à la masse, ce sont les plaques de rubidium déposé qui se chargent à $\SI{2.5}{\V}$ environ.
@@ -258,10 +259,10 @@ Or le dépôt de rubidium depuis les nuages piégés est un processus lent et no
 Cela a pour conséquence un champ électrique variant dans le temps et inhomogène à une distance de la puce inférieure à quelques $\si{\mm}$.
 C'est justement là que se trouvent les atomes piégés que l'on souhaite exciter.
 
-La solution que nous avons envisagée et mise en \oe uvre fut de saturer le dépôt de rubidium sur la puce, en faisant un dépôt contrôlé macroscopique sur une surface grande devant la région de piégeage.
+La solution que nous avons mise en \oe uvre fut de saturer le dépôt de rubidium sur la puce, en faisant un dépôt contrôlé macroscopique sur une surface grande devant la région de piégeage.
 Pour que cela fonctionne, il est important que le rubidium déposé reste métallique, non oxydé, et ne migre pas dans le cryostat en raison de différences de températures.
 Ces contraintes nous ont décidés à faire le dépôt de rubidium à froid, lorsque le cryostat est sous vide et thermiquement stable.
-Le dépôt de contrôlé a été réalisé grâce à l'installation de dispenseurs de rubidium dans le cryostat, orientés de façon à pouvoir couvrir la puce de rubidium métallique.
+Le dépôt contrôlé a été réalisé grâce à l'installation de dispenseurs de rubidium dans le cryostat, orientés de façon à pouvoir couvrir la puce de rubidium métallique.
 La figure \eqref{fig:depotRb} illustre qualitativement la structure des champs électriques au voisinage de la puce avant et après le dépôt de rubidium.
 %
 \begin{figure}[h]
@@ -302,13 +303,25 @@ La largeur de raie a été considérablement réduite par le dépôt contrôlé 
 % mais ne garantit en rien un champ nul
 Nous souhaitons néanmoins pouvoir contrôler la valeur moyenne du champ à la position du nuage atomique, dans deux optiques.
 La première est la réduction de l'effet des inhomogénéités résiduelles.
-En effet, plus la valeur moyenne du champ électrique sera élevée, plus la raie spectrale sera élargie par une même variation autour de la valeur moyenne.
+En effet, plus la valeur moyenne du champ électrique est élevée, plus la raie spectrale sera élargie par une même variation autour de la valeur moyenne.
+Pour des valeurs de champ électrique comprises entre $F-\Delta F$ et $F + \Delta F$, l'élargissement de la raie spectrale vaut
+%
+\begin{equation}
+\label{eq:Stark_broadening}
+\begin{aligned}
+\nu(F-\Delta F) - \nu(F+\Delta F) &= A (F-\Delta F)^2 - A (F-\Delta F)^2 \\
+&= A\cdot [(F-\Delta F)^2 - (F+\Delta F)^2] \\
+&= -4A \cdot F\cdot \Delta F
+\end{aligned}
+\end{equation}
 Cela est dû à la forme quadratique de l'effet Stark pour les niveaux de bas $l$, et se conçoit fort bien à l'observation de la figure \eqref{fig:Stark_60S}.
-La seconde optique d'un contrôle plus fin du champ électrique est de pouvoir déplacer en fréquence la transition laser vers les niveaux de Rydberg ainsi que les transitions microonde entre niveaux de Rydberg voisins.
+
+La seconde optique d'un contrôle plus fin du champ électrique est de pouvoir déplacer en fréquence %la transition laser vers les niveaux de Rydberg ainsi que 
+les transitions microonde entre niveaux de Rydberg voisins.
 Cet aspect du contrôle des champs électriques nous sera surtout utile lorsque nous nous intéresserons aux niveaux de Rydberg circulaires, dans les chapitres \ref{chapter:circsim} et \ref{chapter:50c}.
 	
 Le moyen le plus direct dont nous disposons pour le contrôle du champ électrique est l'application d'une tension sur les électrodes d'ionisation $I_1$ et $I_2$ représentées en figure \eqref{fig:schema_detect}.
-Il est raisonnable de supposer, étant donner la grande surface de ces électrodes, que le champ créé entre celles-ci et la puce sera spatialement homogène, au moins là où se situe le nuage atomique.
+Il est raisonnable de supposer, étant donnée la grande surface de ces électrodes, que le champ créé entre celles-ci et la puce est homogène spatialement, au moins là où se situe le nuage atomique.
 Le contrôle de la tension appliquée à ces électrodes présente une exigence technique particulière :
 %demande un certain raffinement technique :
 nous voulons contrôler le champ électrique vu par les atomes à l'échelle de la dizaine de $\si{\mV/\cm}$, tout en étant capable d'appliquer une tension de quelques centaines de Volts sur les mêmes électrodes afin d'ioniser et détecter les atomes de Rydberg.
@@ -331,159 +344,159 @@ La tension appliquée aux électrodes est alors directement la tension en sortie
 \end{figure}
 %
 
-Toutes les expériences que nous décrirons dans la suite de cette thèse ayant trait au niveau $\mathrm{60S}$ ont été réalisées à l'aide de ce circuit.
-Une particularité de son fonctionnement réside dans le fait que la phase d'excitation des atomes de Rydberg se fait à tension constante, et que le contrôle dynamique de la tension n'est permis que lors de la phase de détection, qui nécessite une rampe de tension comme évoqué en \ref{subsec:detection}.
-Cette limitation sera corrigée plus tard par l'introduction d'un second circuit de contrôle, représenté en figure \eqref{fig:detectionbox_CdF} et son fonctionnement est détaillé ci-après.
-Ce second circuit, qui permet l'application de deux rampes de tensions indépendantes pour l'excitation et la détection, a été utilisé dans toutes les éxpériences que nous décrirons ayant trait au niveau circulaire $\mathrm{50C}$.
+%Toutes les expériences que nous décrirons dans la suite de cette thèse ayant trait au niveau $\mathrm{60S}$ ont été réalisées à l'aide de ce circuit.
+%Une particularité de son fonctionnement réside dans le fait que la phase d'excitation des atomes de Rydberg se fait à tension constante, et que le contrôle dynamique de la tension n'est permis que lors de la phase de détection, qui nécessite une rampe de tension comme évoqué en \ref{subsec:detection}.
+%Cette limitation sera corrigée plus tard par l'introduction d'un second circuit de contrôle, représenté en figure \eqref{fig:detectionbox_CdF} et son fonctionnement est détaillé ci-après.
+%Ce second circuit, qui permet l'application de deux rampes de tensions indépendantes pour l'excitation et la détection, a été utilisé dans toutes les éxpériences que nous décrirons ayant trait au niveau circulaire $\mathrm{50C}$.
+%%
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=\linewidth]{figures/setup/rydberg/detectionbox_CdF}
+%\caption[Second circuit de contrôle de la tension des électrodes d'ionisation]{
+%Second circuit de contrôle de la tension des électrodes d'ionisation.
+%Les tensions sont fournies par deux générateurs de fonctions arbitraires indépendants et appliquées directement aux électrodes par deux voies séparées (voie basse tension à gauche et voie haute tension à droite).
+%}
+%\label{fig:detectionbox_CdF}
+%\end{figure}
 %
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{figures/setup/rydberg/detectionbox_CdF}
-\caption[Second circuit de contrôle de la tension des électrodes d'ionisation]{
-Second circuit de contrôle de la tension des électrodes d'ionisation.
-Les tensions sont fournies par deux générateurs de fonctions arbitraires indépendants et appliquées directement aux électrodes par deux voies séparées (voie basse tension à gauche et voie haute tension à droite).
-}
-\label{fig:detectionbox_CdF}
-\end{figure}
-
-Dans ce second circuit de contrôle de tension, l'ordinateur de contrôle permet de programmer une rampe arbitraire sur chacun des générateurs.
-La tension fournie par le générateur \og détection \fg{} est amplifiée $\num{50}$ fois et devient \og $\mathrm{V_{ion}}$ \fg{}.
-$\mathrm{V_{ion}}$ est introduite dans la voie haute tension du circuit de contrôle.
-La tension fournie par le générateur \og Stark \fg{} n'est pas amplifiée et est appelée \og $\mathrm{V_{Stark}}$ \fg{}.
-$\mathrm{V_{Stark}}$ est introduite dans la voie basse tension du circuit de contrôle.
-Pendant la phase d'excitation, le signal TTL est éteint. L'optocoupleur de la voie haute tension est alors bloquant, et les deux optocoupleurs de la voie basse tension sont passants.
-L'optocoupleur du haut sert à faire passer les tension négatives et celui du bas les tensions positives.
-Chacun est isolé par une diode à sa sortie, adaptée au sens de circulation du courant dans chaque voie.
-La tension $\mathrm{V_{Stark}}$ est alors directement appliquée aux électrodes.
-Pendant la phase de détection, le signal TTL est allumé. Les optocoupleurs de la voie basse tension deviennent bloquants et celui de la voie haute tension devient passant.
-La tension $\mathrm{V_{ion}}$ est alors directement appliquée aux électrodes.
-Les tensions en fin de rampe de détection peuvent aller de $\SI{-150}{\V}$ pour les niveaux voisins du $\mathrm{60S}$, et jusqu'à $\SI{-500}{\V}$ pour les niveaux voisins du $\mathrm{50C}$.
-Nous avons donc conçu ce circuit de contrôle en conséquence, en utilisant des optocoupleurs capables de bloquer des tensions élevées.
+%Dans ce second circuit de contrôle de tension, l'ordinateur de contrôle permet de programmer une rampe arbitraire sur chacun des générateurs.
+%La tension fournie par le générateur \og détection \fg{} est amplifiée $\num{50}$ fois et devient \og $\mathrm{V_{ion}}$ \fg{}.
+%$\mathrm{V_{ion}}$ est introduite dans la voie haute tension du circuit de contrôle.
+%La tension fournie par le générateur \og Stark \fg{} n'est pas amplifiée et est appelée \og $\mathrm{V_{Stark}}$ \fg{}.
+%$\mathrm{V_{Stark}}$ est introduite dans la voie basse tension du circuit de contrôle.
+%Pendant la phase d'excitation, le signal TTL est éteint. L'optocoupleur de la voie haute tension est alors bloquant, et les deux optocoupleurs de la voie basse tension sont passants.
+%L'optocoupleur du haut sert à faire passer les tension négatives et celui du bas les tensions positives.
+%Chacun est isolé par une diode à sa sortie, adaptée au sens de circulation du courant dans chaque voie.
+%La tension $\mathrm{V_{Stark}}$ est alors directement appliquée aux électrodes.
+%Pendant la phase de détection, le signal TTL est allumé. Les optocoupleurs de la voie basse tension deviennent bloquants et celui de la voie haute tension devient passant.
+%La tension $\mathrm{V_{ion}}$ est alors directement appliquée aux électrodes.
+%Les tensions en fin de rampe de détection peuvent aller de $\SI{-150}{\V}$ pour les niveaux voisins du $\mathrm{60S}$, et jusqu'à $\SI{-500}{\V}$ pour les niveaux voisins du $\mathrm{50C}$.
+%Nous avons donc conçu ce circuit de contrôle en conséquence, en utilisant des optocoupleurs capables de bloquer des tensions élevées.
 	
- \subsection{Contrôle du champ parallèle à la puce}% et électrodes RF de circularisation}
-\noindent Les dispositifs de contrôle des champs électriques que nous venons de présenter ont une lacune majeure :
-ils ne permettent de varier le champ électrique que perpendiculairement à la puce, soit dans la direction $y$.
-Lorsque nous avons commencé à travailler dans l'optique d'obtenir des atomes de Rydberg circulaires, nous avons souhaité pouvoir contrôler le champ électrique parallèlement à la puce.
-Cela a deux conséquences.
-En premier lieu, nous serons en mesure de compenser les champs résiduels dans les directions $x$ et $z$.
-En second lieu, cela permettra d'appliquer un champ électrique radio-fréquence polarisé, nécessaire à la circularisation des niveaux de Rydberg, qui sera discutée au chapitre \ref{chapter:50c}.
-
-
-Notre dispositif de contrôle du champ parallèle à la puce consiste en quatre électrodes cylindriques (\og électrodes RF \fg{}) , disposées en carré autour de la zone de piégeage des atomes.
-En appliquant des tensions arbitraires sur ces électrodes, nous pourrons compenser les champs résiduels dans les directions $x$ et $z$, et espérer compenser même les gradients de champ dans ces directions.
-En leur appliquant des tensions oscillant à une fréquence de $\SI{230}{\MHz}$ avec avec des phases bien optimisés, nous pourrons générer un champ électrique radio-fréquence arbitrairement polarisé au niveau des atomes.
-
-La figure \ref{fig:RF_ELECTRODES} montre la disposition de ces électrodes au c\oe ur du dispositif expérimental.
+% \subsection{Contrôle du champ parallèle à la puce}% et électrodes RF de circularisation}
+%\noindent Les dispositifs de contrôle des champs électriques que nous venons de présenter ont une lacune majeure :
+%ils ne permettent de varier le champ électrique que perpendiculairement à la puce, soit dans la direction $y$.
+%Lorsque nous avons commencé à travailler dans l'optique d'obtenir des atomes de Rydberg circulaires, nous avons souhaité pouvoir contrôler le champ électrique parallèlement à la puce.
+%Cela a deux conséquences.
+%En premier lieu, nous serons en mesure de compenser les champs résiduels dans les directions $x$ et $z$.
+%En second lieu, cela permettra d'appliquer un champ électrique radio-fréquence polarisé, nécessaire à la circularisation des niveaux de Rydberg, qui sera discutée au chapitre \ref{chapter:50c}.
 %
-\begin{figure}[h]
-\centering
-\includegraphics[width=.4\linewidth]{figures/setup/rydberg/electrodes_RF_3D_labeled.jpg}
-\includegraphics[width=.4\linewidth]{figures/setup/rydberg/electrodes_RF_photo}
-\caption[Électrodes de circularisation et de contrôle du champ parallèle]{
-Électrodes \og RF \fg{} de circularisation et de contrôle du champ parallèle à la puce.
-\`A gauche, schéma représentant les électrodes RF, fixées sur l'électrode d'ionisation $I_1$, et numérotées de $1$ à $4$.
-\`A droite, photographie du c\oe ur de l'expérience.
-On y voit la \og boîte \fg{} de protection de l'un des dispenseurs de rubidium, les bobines de biais $B_z$ et l'une des bobines de biais $B_x$, les deux électrodes d'ionisation, et les deux électrodes RF du bas (3 et 4).
-}
-\label{fig:RF_ELECTRODES}
-\end{figure}
 %
-
-\subsubsection*{Description technique du dispositif}
-\noindent Chaque électrode RF est un cylindre de $\SI{6}{\mm}$ de diamètre et de $\SI{12}{\mm}$ de long, en cuivre doré.
-Les quatre cylindres sont disposés perpendiculairement à la puce en un carré de $\SI{30}{\mm}$ de côté.
-Afin de fixer les cylindres au sein du dispositif, nous avons percé des trous dans l'électrode d'ionisation $I_1$.
-Chaque électrode est fixée par une tige filetée traversant l'un de ces trous et maintenue par un écrou.
-Or les électrodes RF doivent être isolées de l'électrode $I_1$.
-Les écrous de fixation sont ainsi isolés de $I_1$ par des rondelles en nylon.
-Les tiges filetées sont quant à elles isolées par des espaceurs en céramique MACOR, logés dans la base élargie et évidée de chaque cylindre et traversant l'électrode $I_1$.
-Le recouvrement de ces pièces diélectriques par les électrodes elles-mêmes est crucial, afin de limiter au maximum l'exposition des atomes à des surfaces non-conductrices susceptibles d'emmagasiner des charges électriques et de créer ainsi des champs parasites.
-La longueur des cylindres en cuivre et l'épaisseur des espaceurs en céramique sont calculés pour que le bout de chaque cylindre arrive à une distance d'environ $\SI{2}{\mm}$ de la surface de la puce.
-
-La tension appliquée à chacune des électrodes RF est amenée \textit{via} des câbles coaxiaux,  permettant de propager des signaux radio-fréquence aussi bien que des tensions constantes.
-Ces câbles coaxiaux semi-rigides fins traversent le cryostat, sont thermalisés à $\SI{4.2}{\K}$ au fond de la jupe hélium.
-\`A l'approche du c\oe ur de l'expérience, ils sont terminées par des connecteurs SMA, auxquels viennent se brancher des câbles plus courts et plus épais.
-Cette deuxième section de câblage a deux intérêts.
-Premièrement, la connexion des câbles aux cosses qui sont en contact avec les électrodes est facilitée par l'épaisseur et la solidité de ces deuxièmes câbles.
-Ces cosses sont intercalées entre l'écrou de fixation de chaque électrode et un second écrou de blocage, qui garantit le contact électrique avec la tige filetée et ainsi avec l'électrode.
-Deuxièmement, cela nous permet, au prix d'une simple déconnexion de connecteurs SMA, de démonter ou ajuster indépendamment les câbles coaxiaux semi-rigides et le porte-puce assorti de ses électrodes.
-%La construction de ce dispositif a été l'occasion de repenser le système de fixation des électrodes d'ionisation.
-%Celles-ci sont désormais fixées directement au porte-puce, par l'intermédiaire d'espaceurs métalliques isolés. Cela a permis de stabiliser le montage et la distance séparant les différents éléments.
-
-Les tensions constantes appliquées aux électrodes sont fournies par une source analogique contrôlée par ordinateur, dont les sorties sont filtrées par un circuit RC de temps caractéristique $\tau=\SI{1}{\us}$.
-Cela permet de réduire le bruit électrique de cette source à une amplitude inférieure à $\SI{5}{\milli\V}_{\mathrm{pp}}$.
-
-\subsubsection*{Simulation du champ créé par les électrodes RF}
-\noindent Il était important, afin de bien concevoir la géométrie de ces électrodes RF, de savoir quel serait l'effet des tensions appliquées dessus en termes de champ électrique au niveau des atomes.
-L'estimation du champ créé ne peut pas se faire simplement par les approximations de conducteurs infinis pour lesquels il suffirait de diviser la différence de potentiel entre eux par la distance les séparant.
-En effet, la géométrie des électrodes est assez éloignée de ce genre de modèle et limite ainsi déjà la validité qu'aurait une telle approximation.
-De plus, la région où nous souhaitons créer du champ électrique est très proche de la puce, entre $\SI{0.5}{}$ et $\SI{2}{\mm}$ de celle-ci.
-C'est-à-dire que d'une part cette région est située en dehors du volume délimité par les quatre électrodes, et d'autre part que la présence proche d'une surface conductrice considérée comme infinie (la puce) perturbera grandement les lignes de champ dans cette région.
-
-Afin d'estimer le champ créé par les électrodes, nous avons utilisé le logiciel SIMION, destiné au calcul de potentiels et champs électriques et de trajectoires de particules chargées dans des structures arbitraires.
-Les éléments que nous y avons programmés sont les suivants : la surface de la puce, les électrodes RF et les électrodes d'ionisation.
-Cette structure simplifiée est représentée en figure \eqref{fig:RF_elec_SIMION}.
+%Notre dispositif de contrôle du champ parallèle à la puce consiste en quatre électrodes cylindriques (\og électrodes RF \fg{}) , disposées en carré autour de la zone de piégeage des atomes.
+%En appliquant des tensions arbitraires sur ces électrodes, nous pourrons compenser les champs résiduels dans les directions $x$ et $z$, et espérer compenser même les gradients de champ dans ces directions.
+%En leur appliquant des tensions oscillant à une fréquence de $\SI{230}{\MHz}$ avec avec des phases bien optimisés, nous pourrons générer un champ électrique radio-fréquence arbitrairement polarisé au niveau des atomes.
 %
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{figures/setup/rydberg/RF_electrodes_Simion}
-\caption[Électrodes de circularisation et de contrôle du champ parallèle]{
-Électrodes \og RF \fg{} et leur environnement tels que programmés dans nos simulations SIMION.
-Les quatre électrodes RF sont représentées, dans l'ordre de leur numérotation, en bleu foncé (1), rose (2), violet (3) et bleu turquoise (4).
-La puce est représentée par une surface jaune, et les électrodes d'ionisation en vert clair ($I_1$) et vert foncé ($I_2$).
-Les axes indiqués par les lettres $X$, $Y$ et $Z$ sont les axes que nous utilisons habituellement, bien que l'origine $O$ du repère ne soit pas la même.
-Par souci de clarté visuelle, la figure de gauche représente les électrodes RF et d'ionisation sans la puce, et la figure de droite représente les électrodes RF et la puce, sans les électrodes d'ionisation.
-}
-\label{fig:RF_elec_SIMION}
-\end{figure}
+%La figure \ref{fig:RF_ELECTRODES} montre la disposition de ces électrodes au c\oe ur du dispositif expérimental.
+%%
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=.4\linewidth]{figures/setup/rydberg/electrodes_RF_3D_labeled.jpg}
+%\includegraphics[width=.4\linewidth]{figures/setup/rydberg/electrodes_RF_photo}
+%\caption[Électrodes de circularisation et de contrôle du champ parallèle]{
+%Électrodes \og RF \fg{} de circularisation et de contrôle du champ parallèle à la puce.
+%\`A gauche, schéma représentant les électrodes RF, fixées sur l'électrode d'ionisation $I_1$, et numérotées de $1$ à $4$.
+%\`A droite, photographie du c\oe ur de l'expérience.
+%On y voit la \og boîte \fg{} de protection de l'un des dispenseurs de rubidium, les bobines de biais $B_z$ et l'une des bobines de biais $B_x$, les deux électrodes d'ionisation, et les deux électrodes RF du bas (3 et 4).
+%}
+%\label{fig:RF_ELECTRODES}
+%\end{figure}
+%%
 %
-
-Nous présentons ci-dessous un exemple de simulation où l'on impose les potentiels suivants :
-$\SI{+10}{\V}$ aux deux électrodes RF du haut (1 et 2), $\SI{-10}{\V}$ aux deux électrodes RF du bas (3 et 4), et $\SI{0}{\V}$ à la puce et aux électrodes d'ionisation.
-%\begin{tabular}{cc}
-%$10$ & $10$\\
-%$-10$ & $-10$
-%\end{tabular}
-On espère alors appliquer un champ électrique vertical dirigé vers le bas au niveau des atomes.
-
-La figure \eqref{fig:simion_fullregion} présente le résultat de la simulation.
+%\subsubsection*{Description technique du dispositif}
+%\noindent Chaque électrode RF est un cylindre de $\SI{6}{\mm}$ de diamètre et de $\SI{12}{\mm}$ de long, en cuivre doré.
+%Les quatre cylindres sont disposés perpendiculairement à la puce en un carré de $\SI{30}{\mm}$ de côté.
+%Afin de fixer les cylindres au sein du dispositif, nous avons percé des trous dans l'électrode d'ionisation $I_1$.
+%Chaque électrode est fixée par une tige filetée traversant l'un de ces trous et maintenue par un écrou.
+%Or les électrodes RF doivent être isolées de l'électrode $I_1$.
+%Les écrous de fixation sont ainsi isolés de $I_1$ par des rondelles en nylon.
+%Les tiges filetées sont quant à elles isolées par des espaceurs en céramique MACOR, logés dans la base élargie et évidée de chaque cylindre et traversant l'électrode $I_1$.
+%Le recouvrement de ces pièces diélectriques par les électrodes elles-mêmes est crucial, afin de limiter au maximum l'exposition des atomes à des surfaces non-conductrices susceptibles d'emmagasiner des charges électriques et de créer ainsi des champs parasites.
+%La longueur des cylindres en cuivre et l'épaisseur des espaceurs en céramique sont calculés pour que le bout de chaque cylindre arrive à une distance d'environ $\SI{2}{\mm}$ de la surface de la puce.
 %
-\begin{figure}[!h]
-\centering
-\includegraphics[width=\linewidth]{figures/setup/rydberg/simion_4quadrants}
-\caption[Champ électrique créé par les électrodes RF]{
-Champ électrique créé par les électrodes RF, dans le plan $(yOz),x=0$. Les échelles de longueur en $y$ et en $z$ sont différentes.
-\`A gauche la composante $F_z$, à droite la composante $F_x$.
-En haut, une grande région est représentée, sur laquelle sont marquées la puce et les électrodes d'ionisation(les traits épais sont les endroits où ces électrodes sont dans le plan $(x=0)$ et les traits fins sont la projection des électrodes entières sur ce plan). Les projections des électrodes RF sur le plan $(x=0)$ sont représentées en filigrane gris (rectangles), de même que la zone de piégeage des atomes (petit ovale proche de la puce).
-En bas, une région beaucoup plus petite est représentée, englobant la région typique de piégeage des atomes, représentée en filigrane gris.
-\`A des fins de lisibilité, les échelles de couleur sont différentes sur chacun des graphes.
-}
-\label{fig:simion_fullregion}
-\end{figure}
+%La tension appliquée à chacune des électrodes RF est amenée \textit{via} des câbles coaxiaux,  permettant de propager des signaux radio-fréquence aussi bien que des tensions constantes.
+%Ces câbles coaxiaux semi-rigides fins traversent le cryostat, sont thermalisés à $\SI{4.2}{\K}$ au fond de la jupe hélium.
+%\`A l'approche du c\oe ur de l'expérience, ils sont terminées par des connecteurs SMA, auxquels viennent se brancher des câbles plus courts et plus épais.
+%Cette deuxième section de câblage a deux intérêts.
+%Premièrement, la connexion des câbles aux cosses qui sont en contact avec les électrodes est facilitée par l'épaisseur et la solidité de ces deuxièmes câbles.
+%Ces cosses sont intercalées entre l'écrou de fixation de chaque électrode et un second écrou de blocage, qui garantit le contact électrique avec la tige filetée et ainsi avec l'électrode.
+%Deuxièmement, cela nous permet, au prix d'une simple déconnexion de connecteurs SMA, de démonter ou ajuster indépendamment les câbles coaxiaux semi-rigides et le porte-puce assorti de ses électrodes.
+%%La construction de ce dispositif a été l'occasion de repenser le système de fixation des électrodes d'ionisation.
+%%Celles-ci sont désormais fixées directement au porte-puce, par l'intermédiaire d'espaceurs métalliques isolés. Cela a permis de stabiliser le montage et la distance séparant les différents éléments.
 %
-Les deux graphes à grande échelle (en haut), permettent de confirmer que le champ créé est largement selon $z$.
-En effet, la composante $F_z$ varie de $\SIrange{+3}{-5}{\V/\cm}$ lorsque la composante $F_x$ varie de $\SIrange{-0.08}{+0.08}{\V/\cm}$.
-L'on retrouve le comportement idéal des conducteurs infinis dans la zone au centre des électrodes RF, autour du point $(y= \SI{8}{\mm}, z=\SI{0}{})$ : le champ y est homogène avec des valeurs de $F_z=\SI{-5}{\V/\cm}$ et $F_x=0$.
-Malheureusement, nous piégeons habituellement les atomes bien plus près de la puce, à des distance comprises entre $y=\SI{0.3}{\mm}$ et $y=\SI{1.5}{\mm}$.
-Il est donc important de vérifier que, dans nos régions habituelles de piégeage, notre dispositif sera suffisamment performant.
-Les deux graphes à petite échelle (en bas), nous confirment cela :
-nous serons capables de créer un champ de l'ordre de $F_z=\SIrange{-0.5}{-1.5}{\V/\cm}$, avec une composante $F_x$ quasi-nulle, de l'ordre du $\SI{}{\milli\V/\cm}$.
-
-La symétrie de la structure en $x$ et en $z$ est un argument suffisant pour affirmer que nous pourrons tout aussi bien créer un champ opposé à celui-ci, c'est-à-dire avec une composant $F_z$ positive, ou encore un champ très largement orienté selon $x$.
-Nous avons néanmoins occulté dans notre description un effet indésirable :
-Les électrodes RF créent également un champ selon $y$ dans la région qui les sépare de la puce.
-Les atomes étant piégés dans cette région, délimitée par $\num{0} < y \leq \SI{2}{\mm}$, ils subiront un champ $F_y$ dû à ces électrodes.
-Dans les mêmes conditions de tensions appliquées, le champ $F_y$ varie selon $z$, dans un intervalle compris entre $\SI{-0.4}{\V/\cm}$ en $z=\SI{+0.4}{\mm}$ et $\SI{+0.4}{\V/\cm}$ en $z=\SI{-0.5}{\mm}$.
-Fort heureusement le champ $F_y$ reste suffisamment homogène à l'échelle de taille des nuages atomiques de diamètre $\Delta z < \SI{300}{\um}$, une taille qui est atteinte dès le stade de mélasse optique.
-De plus, nous pouvons compenser sa valeur moyenne grâce aux électrodes d'ionisation, comme nous l'avons expliqué en \ref{subsec:compensation}.
-
-Enfin, la simulation confirme que nous pourrons appliquer un champ radio-fréquence tournant dans le plan $(xOz)$ perpendiculaire à la puce, en vue de la circularisation des atomes de Rydberg sous un champ statique selon $y$.
-En effet, une différence de potentiel entre les électrodes du haut (1 et 2) et celles du bas (3 et 4) crée un champ $F_z$ quasi-pur et une différence de potentiel entre les électrodes de gauche (1 et 3) et celles de droite (2 et 4) crée un champ $F_x$ quasi-pur.
-Le détail des champs tournants pour la circularisation sera discuté au chapitre \ref{chapter:50c}.
-
-%EN VRAI, MERDE ! Gros gradients de champ selon E_y quand on est près de la puce !!
-
-Nous disposons ainsi d'un outil de contrôle du champ électrique dans toutes les directions, grâce aux électrodes d'ionisation et aux électrodes RF.
+%Les tensions constantes appliquées aux électrodes sont fournies par une source analogique contrôlée par ordinateur, dont les sorties sont filtrées par un circuit RC de temps caractéristique $\tau=\SI{1}{\us}$.
+%Cela permet de réduire le bruit électrique de cette source à une amplitude inférieure à $\SI{5}{\milli\V}_{\mathrm{pp}}$.
+%
+%\subsubsection*{Simulation du champ créé par les électrodes RF}
+%\noindent Il était important, afin de bien concevoir la géométrie de ces électrodes RF, de savoir quel serait l'effet des tensions appliquées dessus en termes de champ électrique au niveau des atomes.
+%L'estimation du champ créé ne peut pas se faire simplement par les approximations de conducteurs infinis pour lesquels il suffirait de diviser la différence de potentiel entre eux par la distance les séparant.
+%En effet, la géométrie des électrodes est assez éloignée de ce genre de modèle et limite ainsi déjà la validité qu'aurait une telle approximation.
+%De plus, la région où nous souhaitons créer du champ électrique est très proche de la puce, entre $\SI{0.5}{}$ et $\SI{2}{\mm}$ de celle-ci.
+%C'est-à-dire que d'une part cette région est située en dehors du volume délimité par les quatre électrodes, et d'autre part que la présence proche d'une surface conductrice considérée comme infinie (la puce) perturbera grandement les lignes de champ dans cette région.
+%
+%Afin d'estimer le champ créé par les électrodes, nous avons utilisé le logiciel SIMION, destiné au calcul de potentiels et champs électriques et de trajectoires de particules chargées dans des structures arbitraires.
+%Les éléments que nous y avons programmés sont les suivants : la surface de la puce, les électrodes RF et les électrodes d'ionisation.
+%Cette structure simplifiée est représentée en figure \eqref{fig:RF_elec_SIMION}.
+%%
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=\linewidth]{figures/setup/rydberg/RF_electrodes_Simion}
+%\caption[Électrodes de circularisation et de contrôle du champ parallèle]{
+%Électrodes \og RF \fg{} et leur environnement tels que programmés dans nos simulations SIMION.
+%Les quatre électrodes RF sont représentées, dans l'ordre de leur numérotation, en bleu foncé (1), rose (2), violet (3) et bleu turquoise (4).
+%La puce est représentée par une surface jaune, et les électrodes d'ionisation en vert clair ($I_1$) et vert foncé ($I_2$).
+%Les axes indiqués par les lettres $X$, $Y$ et $Z$ sont les axes que nous utilisons habituellement, bien que l'origine $O$ du repère ne soit pas la même.
+%Par souci de clarté visuelle, la figure de gauche représente les électrodes RF et d'ionisation sans la puce, et la figure de droite représente les électrodes RF et la puce, sans les électrodes d'ionisation.
+%}
+%\label{fig:RF_elec_SIMION}
+%\end{figure}
+%%
+%
+%Nous présentons ci-dessous un exemple de simulation où l'on impose les potentiels suivants :
+%$\SI{+10}{\V}$ aux deux électrodes RF du haut (1 et 2), $\SI{-10}{\V}$ aux deux électrodes RF du bas (3 et 4), et $\SI{0}{\V}$ à la puce et aux électrodes d'ionisation.
+%%\begin{tabular}{cc}
+%%$10$ & $10$\\
+%%$-10$ & $-10$
+%%\end{tabular}
+%On espère alors appliquer un champ électrique vertical dirigé vers le bas au niveau des atomes.
+%
+%La figure \eqref{fig:simion_fullregion} présente le résultat de la simulation.
+%%
+%\begin{figure}[!h]
+%\centering
+%\includegraphics[width=\linewidth]{figures/setup/rydberg/simion_4quadrants}
+%\caption[Champ électrique créé par les électrodes RF]{
+%Champ électrique créé par les électrodes RF, dans le plan $(yOz),x=0$. Les échelles de longueur en $y$ et en $z$ sont différentes.
+%\`A gauche la composante $F_z$, à droite la composante $F_x$.
+%En haut, une grande région est représentée, sur laquelle sont marquées la puce et les électrodes d'ionisation(les traits épais sont les endroits où ces électrodes sont dans le plan $(x=0)$ et les traits fins sont la projection des électrodes entières sur ce plan). Les projections des électrodes RF sur le plan $(x=0)$ sont représentées en filigrane gris (rectangles), de même que la zone de piégeage des atomes (petit ovale proche de la puce).
+%En bas, une région beaucoup plus petite est représentée, englobant la région typique de piégeage des atomes, représentée en filigrane gris.
+%\`A des fins de lisibilité, les échelles de couleur sont différentes sur chacun des graphes.
+%}
+%\label{fig:simion_fullregion}
+%\end{figure}
+%%
+%Les deux graphes à grande échelle (en haut), permettent de confirmer que le champ créé est largement selon $z$.
+%En effet, la composante $F_z$ varie de $\SIrange{+3}{-5}{\V/\cm}$ lorsque la composante $F_x$ varie de $\SIrange{-0.08}{+0.08}{\V/\cm}$.
+%L'on retrouve le comportement idéal des conducteurs infinis dans la zone au centre des électrodes RF, autour du point $(y= \SI{8}{\mm}, z=\SI{0}{})$ : le champ y est homogène avec des valeurs de $F_z=\SI{-5}{\V/\cm}$ et $F_x=0$.
+%Malheureusement, nous piégeons habituellement les atomes bien plus près de la puce, à des distance comprises entre $y=\SI{0.3}{\mm}$ et $y=\SI{1.5}{\mm}$.
+%Il est donc important de vérifier que, dans nos régions habituelles de piégeage, notre dispositif sera suffisamment performant.
+%Les deux graphes à petite échelle (en bas), nous confirment cela :
+%nous serons capables de créer un champ de l'ordre de $F_z=\SIrange{-0.5}{-1.5}{\V/\cm}$, avec une composante $F_x$ quasi-nulle, de l'ordre du $\SI{}{\milli\V/\cm}$.
+%
+%La symétrie de la structure en $x$ et en $z$ est un argument suffisant pour affirmer que nous pourrons tout aussi bien créer un champ opposé à celui-ci, c'est-à-dire avec une composant $F_z$ positive, ou encore un champ très largement orienté selon $x$.
+%Nous avons néanmoins occulté dans notre description un effet indésirable :
+%Les électrodes RF créent également un champ selon $y$ dans la région qui les sépare de la puce.
+%Les atomes étant piégés dans cette région, délimitée par $\num{0} < y \leq \SI{2}{\mm}$, ils subiront un champ $F_y$ dû à ces électrodes.
+%Dans les mêmes conditions de tensions appliquées, le champ $F_y$ varie selon $z$, dans un intervalle compris entre $\SI{-0.4}{\V/\cm}$ en $z=\SI{+0.4}{\mm}$ et $\SI{+0.4}{\V/\cm}$ en $z=\SI{-0.5}{\mm}$.
+%Fort heureusement le champ $F_y$ reste suffisamment homogène à l'échelle de taille des nuages atomiques de diamètre $\Delta z < \SI{300}{\um}$, une taille qui est atteinte dès le stade de mélasse optique.
+%De plus, nous pouvons compenser sa valeur moyenne grâce aux électrodes d'ionisation, comme nous l'avons expliqué en \ref{subsec:compensation}.
+%
+%Enfin, la simulation confirme que nous pourrons appliquer un champ radio-fréquence tournant dans le plan $(xOz)$ perpendiculaire à la puce, en vue de la circularisation des atomes de Rydberg sous un champ statique selon $y$.
+%En effet, une différence de potentiel entre les électrodes du haut (1 et 2) et celles du bas (3 et 4) crée un champ $F_z$ quasi-pur et une différence de potentiel entre les électrodes de gauche (1 et 3) et celles de droite (2 et 4) crée un champ $F_x$ quasi-pur.
+%Le détail des champs tournants pour la circularisation sera discuté au chapitre \ref{chapter:50c}.
+%
+%%EN VRAI, MERDE ! Gros gradients de champ selon E_y quand on est près de la puce !!
+%
+%Nous disposons ainsi d'un outil de contrôle du champ électrique dans toutes les directions, grâce aux électrodes d'ionisation et aux électrodes RF.
 
 	\subsection{Manipulation cohérente des états de Rydberg}% par spectroscopie microonde}
 	\label{subsec:mw_spectro}
@@ -499,8 +512,9 @@ Son application pour l'étude du mouvement d'un nuage dense d'atomes de Rydberg 
 Son application à l'étude des atomes de Rydberg circulaires et à leur manipulation cohérente sera discutée aux chapitres \ref{chapter:circsim} et \ref{chapter:50c}.
 
 Ici, nous évoquerons la manipulation cohérente d'un \og qubit de Rydberg \fg{} réalisé entre les états $\mathrm{60S}$ et $\mathrm{61S}$, ainsi que l'utilisation de la spectroscopie de la transition $\mathrm{60S} \rightarrow \mathrm{60P}$ pour mesurer les champs électriques résiduels.
-Ces deux expériences ont été menées avant l'installation des électrodes RF, et avec le premier circuit de contrôle du champ électrique (cf. \ref{subsec:compensation}).
-Elles sont décrites en détail dans la thèse de Carla Hermann Avigliano \cite{PHD_HERMANN}.
+Ces deux expériences 
+%ont été menées avant l'installation des électrodes RF, et avec le premier circuit de contrôle du champ électrique (cf. \ref{subsec:compensation}). Elles 
+sont décrites en détail dans la thèse de Carla Hermann Avigliano \cite{PHD_HERMANN}.
 
 \subsubsection*{Un qubit de Rydberg d'une grande longévité}
 \noindent Au sein de notre dispositif, la cohérence d'un système quantique à deux niveaux réalisé entre deux niveaux de Rydberg est limitée en premier lieu par l'inhomogénéité du champ électrique résiduel.
@@ -523,7 +537,7 @@ Spectroscopie de la transition 60S-61S.
 \end{figure}
 %
 La largeur de raie de $\Delta\nu=\SI{6.6}{\kHz}$ est de bon augure pour la manipulation cohérente de ce qubit.
-Afin d'estimer son temps de cohérence de façon plus rigoureuse, nous avons effectué une spectroscopie Ramsey avec écho de spin entre les deux niveaux, schématisée en figure \eqref{fig:spinEcho_60S61S}
+Afin d'estimer son temps de cohérence de façon plus précise, nous avons effectué une spectroscopie Ramsey avec écho de spin entre les deux niveaux, schématisée en figure \eqref{fig:spinEcho_60S61S}
 %
 \begin{figure}[!h]
 \centering
@@ -537,7 +551,7 @@ Spectroscopie Ramsey avec écho de spin sur la transition 60S-61S.
 \label{fig:spinEcho_60S61S}
 \end{figure}
 %
-La technique d'écho de spin permet de se libérer des sources de décohérences stables dans le temps, telles que l'inhomogénéité spatiale du champ électrique.
+La technique d'écho de spin permet de se libérer des sources de décohérence stables dans le temps, telles que l'inhomogénéité spatiale du champ électrique.
 L'impulsion $\pi$ intercalée à la moitié de l'évolution de la superposition d'état agit comme un renversement du temps.
 Les effets de déphasage de la superposition ne variant pas dans le temps sont ainsi compensés dans la deuxième moitié de son évolution.
 L'ajustement gaussien du contraste des franges de Ramsey en fonction du temps total d'évolution permet d'extraire un temps de cohérence à $1/e$ de la superposition de $T_2 = \SI{631}{\us}$.

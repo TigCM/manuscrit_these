@@ -396,6 +396,25 @@
       \field{title}{Introduction à la mécanique statistique}
       \field{year}{1992}
     \endentry
+    \entry{TXT_BETHE_ONELECTRONATOMS}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=b4150dd9565b616f33d64afb5d18f6cd}{Bethe}{B\bibinitperiod}{Hans\bibnamedelima A}{H\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8afdb6505a00e06f8b2648329829938d}{Salpeter}{S\bibinitperiod}{Edwin\bibnamedelima E}{E\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b4150dd9565b616f33d64afb5d18f6cd}{Bethe}{B\bibinitperiod}{Hans\bibnamedelima A}{H\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8afdb6505a00e06f8b2648329829938d}{Salpeter}{S\bibinitperiod}{Edwin\bibnamedelima E}{E\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{397dfede1fdd215cc94ef6ba47917729}
+      \strng{fullhash}{397dfede1fdd215cc94ef6ba47917729}
+      \field{sortinit}{0}
+      \field{labeltitle}{Quantum mechanics of one-and two-electron atoms}
+      \field{title}{Quantum mechanics of one-and two-electron atoms}
+      \field{year}{2012}
+    \endentry
     \entry{TXT_JACKSON}{book}{}
       \name{labelname}{1}{}{%
         {{hash=9aa5341cd05478b90b40618cfe558125}{Jackson}{J\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%

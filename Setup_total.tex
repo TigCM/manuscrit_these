@@ -52,15 +52,19 @@ En second lieu, l'utilisation d'hélium et d'azote liquide à proximité d'un vi
 %
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{figures/setup/coldatoms/cryo_vect.jpg}
+\includegraphics[width=\linewidth]{figures/setup/coldatoms/cryo_vect2.jpg}
 \caption[Schéma du cryostat]{Schéma du dispositif cryogénique :
-\textbf{a)} Coupe du du cryostat, avec la puce tournée vers le côté gauche.
+\textbf{a)} Coupe du du cryostat, avec la puce (colorée en violet) tournée vers le côté droit.
 Le réservoir d'azote liquide est indiqué en jaune, le réservoir d'hélium liquide en bleu.
 Le c\oe ur de l'expérience est visible, ainsi que les deux \og jupes \fg{} et l'enceinte extérieure à température ambiante.
 Cinq hublots, trois en face de la puce et un sur chaque côté, sont installés sur chacune de ces jupes pour l'accès optiques.
-\textbf{b)} Vue schématique du c\oe ur de l'expérience. La puce fait face à la direction $y$. Les bobines (vert foncé), le channeltron et les différentes électrodes sont représentées. On ne voit pas les \og jupes \fg{} d'azote et d'hélium, ni l'enceinte extérieure.
+Derrière la puce, du côté gauche du schéma, les hublots optiques sont remplacés par des disques métalliques.
+Les atomes proviennent du \og 2D-MOT \fg{}, une enceinte externe située sous le cryostat, où l'on réalise un piège magnéto-optique à deux dimensions.
+\textbf{b)} Vue schématique du c\oe ur de l'expérience. La puce est fixée sur le porte-puce et fait face à la direction $y$. Les bobines (vert foncé) servent à créer des champs magnétiques pour le piégeage des atomes de rubidium.
+Le channeltron et les différentes électrodes représentées servent à la détection des atomes de Rydberg. On ne voit pas les \og jupes \fg{} d'azote et d'hélium, ni l'enceinte extérieure.
 \textbf{c)} Vue de près des bobines : la bobine QUAD (mauve) génère un champ quadrupolaire pour faire un MOT sur puce. L'emplacement de la puce est représenté par le rectangle bleu devant la bobine QUAD et la bobine $B_y$ (vert clair).
-La zone rouge indique l'endroit où les atomes de rubidium sont piégés.
+La zone rouge indique l'endroit où les atomes de rubidium sont piégés, devant la puce.
+Les axes sont les mêmes qu'en \textbf{b)}.
 }
 \label{fig:cryo}
 \end{figure}
@@ -102,7 +106,7 @@ Les axes $x,y$ et $z$ coïncident avec ceux de la figure \eqref{fig:cryo}.
 \end{figure}
 %
 
-Les fils en \mcal{U} et en \mcal{Z} sont la simplification d'un dispositif en forme de $\mathcal{H}$ qui repose sur la circulation d'un courant perpendiculairement à deux autres courants parallèles entre eux.
+Les fils en \mcal{U} et en \mcal{Z} sont la simplification d'un dispositif en forme de $\mathcal{H}$ qui repose sur la circulation d'un premier courant perpendiculairement à deux autres courants qui sont parallèles entre eux.
 La figure \eqref{fig:magfields_chip} représente les différentes configurations de champ magnétique créées par les fils \mcal{U} et \mcal{Z} de la puce.
 Lors du passage d'un courant $I$ dans le fil \mcal{Z}, le segment parallèle à l'axe $x$ crée un champ qui, superposé avec un champ de biais $B_Z$ selon l'axe $z$, forme un champ quadrupolaire dans le plan $yz$.
 Le courant dans les deux bras verticaux circule dans le même sens et crée un champ selon $x$, avec un  minimum non-nul au voisinage du centre du champ quadrupolaire.
@@ -143,6 +147,9 @@ Comme nous l'avons mentionné, notre dispositif nous permet de mettre en \oe uvr
 Dans beaucoup d'expériences d'atomes froids, ceux-ci sont réalisés à l'aide de trois paires de faisceaux laser contra-propageants, une dans chaque direction de l'espace.
 Il nous est impossible d'envisager cette configuration, puisque l'axe $y$ est rendu inaccessible par la présence de la puce.
 L'on peut cependant, avec deux paires de faisceaux laser seulement, simuler une configuration à six faisceaux, en utilisant la surface réfléchissante de la puce.
+Deux faisceaux sont alors envoyés parallèlement à la surface de la puce, selon l'axe $x$.
+Deux autres faisceaux sont envoyés dans le plan $yz$ et viennent se réfléchir sur la puce avec un angle de $\SI{45}{\degree}$.
+Ces réflexions sont équivalentes aux deux faisceaux manquants, réalisant ainsi la configuration à six faisceaux souhaitée.
 Le schéma de cette configuration, appelée \og MOT miroir \fg{}, est donné en figure \eqref{fig:mirror_MOT}.
 
 \begin{figure}[!h]
@@ -152,16 +159,34 @@ Le schéma de cette configuration, appelée \og MOT miroir \fg{}, est donné en 
 Deux faisceaux contra-propageants sont envoyés parallèlement à la puce réfléchissante, selon l'axe $x$.
 Les deux autres faisceaux dans le plan $yz$ viennent frapper la puce avec un angle de \SIvv{45}{\degree}.
 Leur réflexion sur la puce équivaut à deux faisceaux supplémentaires d'hélicité inversée, représentés en ombre derrière la puce.
-On obtient bien ainsi une configuration de MOT à six faisceaux.
+On obtient bien ainsi une configuration de MOT à six faisceaux, avec les polarisations adaptées, représentées par des flèches tournant autour des faisceaux.
 }
 \label{fig:mirror_MOT}
 \end{figure}
 
 
-	\subsection{Séquence de piégeage et refroidissement}
+	\subsection{Séquence de piégeage et refroidissement}\label{subsec:exp_seq}
 	
 \noindent Grâce à ce dispositif, nous pouvons piéger des nuages d'atomes froids sur puce.
 Nous donnons dans ce paragraphe le détail des différentes étapes de piégeage et de refroidissement des atomes.
+Les atomes sont envoyés dans le cryostat à partir d'un piège magnéto-optique à deux-dimensions externe, puis ils sont capturés dans deux pièges magnéto-optiques sur puce successifs.
+Enfin, les atomes sont transférés dans un piège magnétique pour y être refroidis par évaporation.
+L'ensemble de cette séquence est représentée en figure \ref{fig:exp_sequence}.
+%	
+\begin{sidewaysfigure}
+\centering
+\includegraphics[width=\linewidth]{figures/setup/coldatoms/exp_sequence}
+\caption[Séquence expérimentale typique]{Séquence expérimentale typique.% : la durée et les valeurs des paramètres à chaque étape sont précautionneusement optimisés.
+Les étapes de piégeage et de refroidissement sont %numérotées de \numrange{1}{7} et 
+discutées dans le texte.
+Les étapes ultérieures seront décrites par la suite.
+$I_{Q,U,Z}$ sont les courants dans la bobine QUAD, le fil \mcal{U} et le fil \mcal{Z}, en Ampères.
+$B_{0~x,y,z}$ sont les champs de biais générés par les bobines dans les directions $x,y,z$, en Gauss.
+$\delta$ est le désaccord du laser en unité de la largeur de raie $\Gamma=\SI{6.065}{\MHz}$, et $I_{master}$ son intensité en \si[per-mode=symbol]{\milli\watt \per\squared\cm}.
+}
+\label{fig:exp_sequence}
+\end{sidewaysfigure}
+
 
 	\subsubsection*{Système laser}
 \noindent Le piégeage magnéto-optique du rubidium 87 exploite la raie D2 de celui-ci.
@@ -182,6 +207,7 @@ Le laser de refroidissement est généré par un système commercial de diode la
 La fréquence de ce laser est asservie par battement (\og beatlock \fg{}) à un laser maître, lui-même stabilisé par une cavité Fabry-Pérot.
 Cette cavité est verrouillée en fréquence sur la transition de refroidissement par absorption saturée dans une cellule de \Rb{87}.
 Une commande de tension permet de définir la fréquence du battement et ainsi de contrôler le désaccord du laser de refroidissement par rapport à la transition $\ket{F=2}\rightarrow\ket{F'=3}$.
+Le système laser est détaillé en annexe \ref{app:laserlock}.
 
 Il arrive qu'un photon du laser de refroidissement excite un atome du niveau $\ket{F=2}$ vers le niveau $\ket{F'=2}$ au lieu de $\ket{F'=3}$.
 Cet atome peut alors se désexciter non pas vers le niveau $\ket{F=2}$ mais vers le niveau $\ket{F=1}$, qui est un niveau noir pour le laser de refroidissement.
@@ -303,25 +329,25 @@ Cela permet de choisir soit une distance particulière du nuage atomique à la p
 Les atomes qui seraient restés dans le sous-niveau $m_F=+1$ peuvent à leur tour être éliminés du piège en envoyant sur le nuage un signal micro-onde à \SI{6.8}{\GHz} adressant la transition hyperfine $\ket{F=2,m_F=1} \rightarrow \ket{F=1,m_F=0}$.
 En présence d'un champ magnétique, les sous-niveaux Zeeman sont suffisamment résolus pour adresser uniquement cette transition, sans affecter les atomes dans le niveau $\ket{F=2,m_F=+2}$.
 
-Une séquence expérimentale typique est présentée en figure \eqref{fig:exp_sequence}.
-Cette figure détaille les paramètres expérimentaux à chaque étape du piégeage et du refroidissement des atomes.
-L'étape d'élimination des atomes restant en $m_F=+1$ n'est pas représentée.
-Les étapes d'excitation et détection Rydberg et d'imagerie atomique seront discutées dans la suite de ce chapitre.
+%Une séquence expérimentale typique est présentée en figure \eqref{fig:exp_sequence}.
+%Cette figure détaille les paramètres expérimentaux à chaque étape du piégeage et du refroidissement des atomes.
+%L'étape d'élimination des atomes restant en $m_F=+1$ n'est pas représentée.
+%Les étapes d'excitation et détection Rydberg et d'imagerie atomique seront discutées dans la suite de ce chapitre.
 
-%	
-\begin{sidewaysfigure}
-\centering
-\includegraphics[width=\linewidth]{figures/setup/coldatoms/exp_sequence}
-\caption[Séquence expérimentale typique]{Séquence expérimentale typique.% : la durée et les valeurs des paramètres à chaque étape sont précautionneusement optimisés.
-Les étapes de piégeage et de refroidissement sont %numérotées de \numrange{1}{7} et 
-discutées dans le texte.
-Les étapes ultérieures seront décrites par la suite.
-$I_{Q,U,Z}$ sont les courants dans la bobine QUAD, le fil \mcal{U} et le fil \mcal{Z}, en Ampères.
-$B_{0~x,y,z}$ sont les champs de biais générés par les bobines dans les directions $x,y,z$, en Gauss.
-$\delta$ est le désaccord du laser en unité de la largeur de raie $\Gamma=\SI{6.065}{\MHz}$, et $I_{master}$ son intensité en \si[per-mode=symbol]{\milli\watt \per\squared\cm}.
-}
-\label{fig:exp_sequence}
-\end{sidewaysfigure}
+%%	
+%\begin{sidewaysfigure}
+%\centering
+%\includegraphics[width=\linewidth]{figures/setup/coldatoms/exp_sequence}
+%\caption[Séquence expérimentale typique]{Séquence expérimentale typique.% : la durée et les valeurs des paramètres à chaque étape sont précautionneusement optimisés.
+%Les étapes de piégeage et de refroidissement sont %numérotées de \numrange{1}{7} et 
+%discutées dans le texte.
+%Les étapes ultérieures seront décrites par la suite.
+%$I_{Q,U,Z}$ sont les courants dans la bobine QUAD, le fil \mcal{U} et le fil \mcal{Z}, en Ampères.
+%$B_{0~x,y,z}$ sont les champs de biais générés par les bobines dans les directions $x,y,z$, en Gauss.
+%$\delta$ est le désaccord du laser en unité de la largeur de raie $\Gamma=\SI{6.065}{\MHz}$, et $I_{master}$ son intensité en \si[per-mode=symbol]{\milli\watt \per\squared\cm}.
+%}
+%\label{fig:exp_sequence}
+%\end{sidewaysfigure}
 
 		
 	\subsection{Imagerie atomique par absorption}
@@ -401,9 +427,9 @@ n(y,z) = \int{dx~n(x,y,z)} = -\frac{1}{\sigma} \ln \frac{I_f(y,z)}{I_i(y,z)} = \
 		
 Dans le cas simple d'une lumière résonante avec la transition non-dégénérée d'un système à deux niveaux, la section efficace de diffusion $\sigma$ est donnée directement par la section efficace de diffusion résonante 
 \begin{equation}
-\sigma = \sigma_0 = \frac{3\lambda^2}{2\pi},
+\sigma = \sigma_0 = \frac{3\lambda^2}{2\pi} = \frac{\Gamma \hbar\omega}{2I_{sat,0}},
 \end{equation}
-où $\lambda$ est la longueur d'onde de la lumière résonante.
+où $\lambda$ est la longueur d'onde de la lumière résonante et $I_{sat,0}$ l'intensité de saturation de la transition dans ce cas idéal.
 Les atomes dans notre piège magnétique sont préparés dans l'état $\ket{5S1/2,F=2,m_F=+2}$, et la lumière de sonde est préparée de façon à adresser la transition $\sigma^+$ vers le niveau $\ket{5P3/2,F=3,m_F=+3}$.
 
 \subsubsection*{Corrections et améliorations de l'imagerie par absorption}
@@ -413,27 +439,36 @@ Premièrement, la section efficace de diffusion $\sigma$ dans notre expérience 
 En effet, la lumière des faisceaux sonde n'est pas parfaitement polarisée $\sigma^+$.
 De plus, les atomes ne sont pas tous dans le sous-niveau $m_F=+2$, en particulier lorsque l'on souhaite imager le nuage dans le MOT ou après l'étape de mélasse optique sans le charger dans le piège magnétique.
 Enfin, l'interférence entre le faisceau sonde de côté et sa réflexion sur la puce module l'intensité de la lumière vue par le nuage atomique.
-La combinaison de ces effets réduit la section efficace de diffusion d'un facteur $\alpha$, que l'on sait calibrer expérimentalement \cite{PHD_CELISTRINO,MX_GUERYODELIN_SATABSIM}.
+La combinaison de ces effets réduit peut être décrite en corrigeant la section efficace de diffusion d'un facteur $\alpha$ \cite{PHD_CELISTRINO,MX_GUERYODELIN_SATABSIM}.
+On obtient alors une section efficace de diffusion effective $\sigma = \sigma_0 / \alpha$, ou, de façon équivalente, une intensité de saturation effective $I_{sat} = \alpha\cdot I_{sat,0}$.
+La calibration expérimentale de ce paramètre $\alpha$ est effectuée par la mesure de l'intensité de saturation effective $I_{sat}$.
 Pour l'absorption de la sonde de côté par un nuage dans le piège magnétique, nous obtenons une valeur $\alpha_{magn} = \num{2.06} \pm \num{0.1}$.
-Pour l'absorption de la sonde de côté par un nuage juste après la mélasse optique, nous obtenons une valeur $\alpha_{melasse} = \SI{2.27}{} \pm \SI{0.1}{}??????????????????????????$.
+Pour l'absorption de la sonde de côté par un nuage juste après la mélasse optique, nous obtenons une valeur $\alpha_{melasse} = \SI{2.27}{} \pm \SI{0.1}{}$.
 Le nombre d'atomes évalué à partir des images par absorption dépend directement de la valeur de ce paramètre $\alpha$.
+Les valeurs expérimentales proches de $\alpha=2$ sont tout à fait cohérentes avec le fait que notre faisceau sonde est polarisé linéairement : seule la composante $\sigma^+$ de la lumière résonante avec la transition sonde peut être absorbée.
+Cette composante représente la moitié de l'intensité totale envoyée, et seule cette moitié contribue à la saturation de la transition.
+Pour un même paramètre de saturation, l'intensité totale du faisceau doit donc être deux fois plus grande que si le faisceau était polarisé $\sigma^+$.
 	
 Deuxièmement, l'acquisition du signal d'imagerie se fait en trois temps.
 Une première image est enregistrée où les atomes absorbent le faisceau sonde, ce qui nous donne l'intensité $I_f$.
 Puis une deuxième image est enregistrée après que les atomes sont tombés par gravité, qui nous donne l'intensité du faisceau sonde non absorbé $I_i$.
-Enfin, une troisième image est enregistrée sans aucun laser allumé, qui permet de soustraire la lumière de fond 
+Enfin, une troisième image est enregistrée sans aucun laser allumé, qui permet de soustraire la lumière de fond
 %et le bruit électronique
 des deux images précédentes.
-Les délais de quelques dizaines de \si{\ms} entre les différentes images ont un effet délétère sur le signal : des vibrations et déformations lentes de la structure qui tient le cryostat et des variations d'indice de l'air le long du chemin optique génèrent des franges dans les images traitées par l'équation \eqref{eq:atomic_density}, semblables à des franges d'interférence.
-Ce problème se présente principalement sur l'imagerie par la sonde de face en raison des plus grands délais exigés par la caméra.
+Les délais de quelques dizaines de \si{\ms} entre les différentes images ont un effet délétère sur le signal.
+En effet, le signal enregistré par la caméra subit un bruit d'imagerie sous la forme de franges, dues à la diffraction et aux interférences du faisceau laser le long de son chemin optique et lors de sa réflexion sur la surface de la puce.
+Des vibrations et déformations de petite amplitude des éléments optiques et des variations d'indice de l'air le long du chemin optique décalent ces franges d'une image à l'autre.
+L'opération de traitement des images (équation \ref{eq:atomic_density}) ne permet pas de d'affranchir des fluctuations de ces franges, qui viennent ainsi brouiller le signal d'imagerie.
+%génèrent des franges dans les images traitées par l'équation \eqref{eq:atomic_density}, semblables à des franges d'interférence.
+Ce problème se présente principalement sur l'imagerie par la sonde de face en raison des plus grands délais exigés par la caméra et de la plus grande sensibilité mécanique du chemin optique.
 Afin d'y remédier, nous avons implémenté un algorithme de réduction des franges qui, à partir d'une base de plusieurs images du faisceau sonde seul, reconstitue la meilleure combinaison linéaire de celles-ci pour chaque image où le nuage atomique est présent. Cet algorithme est décrit en détail dans \cite{MX_WHITLOCK_FRINGEREDUCTION}.
 La figure \eqref{fig:Fringe_Reduction} montre une image d'un nuage froid par absorption de la sonde face, non traitée et après traitement par cet algorithme.
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.3\linewidth]{figures/setup/coldatoms/Normal_abs2_horiz}
-\hspace{.2\linewidth}
-\includegraphics[width=0.3\linewidth]{figures/setup/coldatoms/RF_abs2_horiz}
+\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/Normal_abs2_onlyPic}
+\hfill%\hspace{.0\linewidth}
+\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/RF_abs2_onlyPic}
 \caption[Effet de l'algorithme de réduction des franges]{
 Images du nuage atomique froid par absorption du faisceau sonde face.
 \`A gauche, l'image est traitée selon l'équation \eqref{eq:atomic_density}.
@@ -444,15 +479,22 @@ L'échelle de couleur est la même pour les deux images et a été optimisée po
 \label{fig:Fringe_Reduction}
 \end{figure}		
 
-Troisièmement, il peut être intéressant, pour caractériser des nuages très denses, de ne pas calculer la densité optique $OD$ comme à l'équation \eqref{eq:Beer-Lambert_integ}, mais de s'arrêter à l'opération 
+Troisièmement, %il peut être intéressant, pour caractériser des nuages très denses, de ne pas calculer la densité optique $OD$ comme à l'équation \eqref{eq:Beer-Lambert_integ}.
+%En effet, 
+dans le cas d'un nuage très dense optiquement, comme par exemple pour les mélasses optiques, le centre du nuage où la densité atomique est très haute peut absorber l'intégralité de l'intensité incidente $I_i$.
+Le rapport des intensités $I_f/I_i$ est alors très faible et dominé par le bruit.
+Le signal $I_f/I_i$ au centre du nuage peut ainsi présenter des valeurs négatives, qui seront problématiques lorsque l'on souhaitera en prendre le logarithme.
+%Or la valeur de la densité optique au centre du nuage est cruciale à l'ajustement de la densité à un profil gaussien.
+Afin de remédier à cela, il peut être intéressant de ne pas calculer la densité optique $OD$ comme à l'équation \eqref{eq:Beer-Lambert_integ}, mais de s'arrêter à l'opération 
 \begin{equation}
 \label{eq:nolog_abs}
 \frac{I_f(y,z)}{I_i(y,z)} = e^{-OD(x,y)} = e^{-\sigma .n(y,z)}.
 \end{equation}
 Nous appellerons cette opération \og absorption no-log \fg{}.
-Si le nuage présente un profil de densité gaussien, cela permet de se concentrer sur les ailes de ce profil.
-Dans le cas d'un nuage très dense optiquement, comme par exemple pour les mélasses optiques, le centre du nuage où la densité est très haute donne un signal d'absorption bruité.
-L'ajustement du profil de densité est alors meilleur sur les bords du nuages.
+%Si le nuage présente un profil de densité gaussien, cela permet de se concentrer sur les ailes de ce profil.
+Ce traitement du signal permet de s'affranchir de \og l'amplification \fg{} du bruit au centre par le logarithme et du problème des valeurs négatives, en se concentrant sur le signal aux bords du nuage.
+Le profil de densité est alors ajusté à l'exponentielle d'un profil gaussien.
+%L'ajustement du profil de densité est alors meilleur sur les bords du nuages.
 La figure \eqref{fig:nolog_abs} montre l'image d'une mélasse optique par absorption de la sonde de côté, traitée d'après l'équation \eqref{eq:Beer-Lambert_integ} et d'après l'équation \eqref{eq:nolog_abs}.
 
 \begin{figure}[!h]
@@ -484,6 +526,19 @@ L'évolution de la taille gaussienne du nuage après extinction du piège, dict�
 \end{equation}
 où $\Delta x$ est l'extension spatiale du nuage dans la direction $x$, $t$ le temps et $t_0$ la référence de temps, $\kb$ la constante de Boltzmann, $m$ la masse d'un atome et $T$ la température du nuage.
 En imageant le nuage à différents moments de son expansion (\og temps de vol \fg{}) et en ajustant la largeur gaussienne du profil à l'équation \eqref{eq:tempfit}, on accède à la fois à la température $T$ du nuage et à sa taille initiale dans le piège $\Delta x(t=0)$.
+La figure \ref{fig:Tempfit} représente un ajustement de l'évolution de la taille du nuage après relâchement du piège.
+%
+\begin{figure}[!h]
+\centering
+\includegraphics[width=.6\linewidth]{figures/setup/coldatoms/Tempfit}
+%donnees du 1er sept 2017
+\caption[Estimation de la température d'un nuage par temps de vol]{
+Estimation de la température d'un nuage par temps de vol.
+Le graphe représente l'évolution de la taille d'un nuage de mélasse optique, en fonction du temps écoulé depuis l'extinction des lasers.
+L'ajustement selon l'équation \eqref{eq:tempfit} permet d'estimer la température du nuage à $\SI{6.43}{} \pm\SI{1}{\uK}$, et sa taille initiale à $\SI{142}{} \pm \SI{13}{\um}$.
+}
+\label{fig:Tempfit}
+\end{figure}
 		
 	\subsection{Quelques nuages typiques}
 \noindent Nous avons décrit ici les éléments de notre dispositif qui servent à produire et caractériser des nuages d'atomes ultra-froids.
@@ -565,7 +620,8 @@ Le tableau \ref{tab:nuages} présente les caractéristiques principales des diff
 
 \noindent Cette diversité de nuages atomiques nous permet d'exciter des atomes de Rydberg dans différentes conditions de densité atomique, de température et de distance à la puce.
 Nous présentons dans le reste de ce chapitre la partie de notre dispositif expérimental servant à exciter, détecter et manipuler les atomes de Rydberg.
-Notre dispositif est particulier dans la mesure où tout ce qui concerne les niveaux de Rydberg a lieu près d'une surface conductrice, ce qui rend les choses plus difficiles.
+Notre dispositif est particulier dans la mesure où tout ce qui concerne les niveaux de Rydberg a lieu près d'une surface, la puce atomique.
+Des champs parasites électriques parasites étant inévitables à proximité d'une surface, la grande sensibilité électromagnétique des atomes de Rydberg sera mise à rude épreuve.
 
 Après avoir donné le principe de l'excitation à deux photons des niveaux de Rydberg et de la détection par ionisation sélective, nous ferons une présentation de rapide de l'effet Stark et de ses conséquences sur nos expériences.
 Nous décrirons ensuite les techniques mises en place afin de contrôler les champs électriques près de la puce.
@@ -577,7 +633,7 @@ Nous finirons ce chapitre par une présentation de la technique de spectroscopie
 Dans nos expériences, deux niveaux de Rydberg différents ont été excités par laser à partir de l'état fondamental 5S$_{1/2}$ : le niveau 60S$_{1/2}$ et le niveau 50D$_{3/2}$.
 Nous décrivons ici l'excitation d'un nuage d'atomes de Rydberg au sein d'un nuage froid dans le piège magnétique, en négligeant les interactions entre atomes de Rydberg et en nous concentrant sur le niveau $\mathrm{60S_{1/2}}$.
 
-La transition du niveau fondamental au niveau de Rydberg est faite par l'absorption d'un photon rouge à $\lambda = \SI{780}{\nano\meter}$, désaccordé de $\delta=+\SI{540}{\MHz}$ par rapport à la transition $\mathrm{5S_{1/2},F=2 \rightarrow 5P_{3/2},F'=3}$, et d'un photon bleu à $\lambda = \SI{480}{\nano\meter}$, accordé pour satisfaire la condition de résonance vers le niveau choisi.
+La transition du niveau fondamental au niveau de Rydberg est faite par l'absorption d'un photon rouge à $\lambda = \SI{780}{\nano\meter}$, désaccordé de $\delta=+2\pi\times\SI{540}{\MHz}$ par rapport à la transition $\mathrm{5S_{1/2},F=2 \rightarrow 5P_{3/2},F'=3}$, et d'un photon bleu à $\lambda = \SI{480}{\nano\meter}$, accordé pour satisfaire la condition de résonance vers le niveau choisi.
 La figure \eqref{fig:2photons} représente le schéma de niveaux de l'excitation du niveau $\mathrm{60S_{1/2}}$.
 Les deux faisceaux d'excitation sont superposés et se propagent selon la direction $+x$. Leurs polarisations sont définies par rapport à l'axe de quantification des niveaux atomiques, déterminé par le champ magnétique de biais $B_x$ dans le fond du piège.
 La figure \eqref{fig:lasers_excit} représente la géométrie des faisceaux laser d'excitation.
@@ -589,10 +645,18 @@ Dans cette configuration, seul le sous-niveau $m_j=+1/2$ du niveau 60S est excit
 \caption[Excitation du niveau 60S]{Schéma de l'excitation laser du niveau 60S, à partir d'atomes de \Rb{87} dans le niveau fondamental dans le piège magnétique.
 La polarisation de chaque laser est indiquée.
 $\Omega_r$ et $\Omega_b$ sont les fréquences de Rabi des transitions à \num{780} et \SI{480}{\nano\meter} respectivement.
-$\delta=\SI{540}{\MHz}$ est le désaccord par rapport au niveau intermédiaire.
+$\delta=+2\pi\times\SI{540}{\MHz}$ est le désaccord par rapport au niveau intermédiaire.
 }
 \label{fig:2photons}
 \end{figure}
+
+Le laser rouge d'excitation est extrait du laser maître, mentionné en \ref{subsec:exp_seq}, puis décalé en fréquence par un modulateur acousto-optique.
+Le laser bleu à $\SI{480}{\nm}$ est généré par un système commercial TOPTICA SHG-110 de diode laser amplifiée puis doublée en fréquence.
+La lumière laser à $\SI{960}{\nm}$ est asservie en fréquence à la même cavité de Fabry-Pérot que le laser maître.
+Un modulateur acousto-optique intervient entre la diode et la cavité Fabry-Pérot, qui nous permet de contrôler la fréquence de la diode sur une plage d'environ $\SI{75}{\MHz}$.
+%Le laser à $\SI{960}{\nm}$ est ensuite amplifié puis doublé en fréquence grâce à un cristal non-linéaire placé dans une cavité.
+Après doublage de la fréquence, cela correspond à un balayage de la fréquence du laser bleu sur une plage de $\SI{150}{\MHz}$.
+Le détail du système laser est donné en annexe \ref{app:laserlock}.
 
 Le faisceau rouge a typiquement un col de $\SI{150}{\um}$ et une puissance de $\SI{50}{\micro\watt}$ au niveau des atomes.
 Le laser rouge est désaccordé de $\delta=+\SI{540}{\MHz}$ par rapport à la transition $ \ket{\mathrm{5S_{1/2},F=2,m_F=+2}} \rightarrow \ket{\mathrm{5P_{3/2},F'=3,m_F'=+3}}$, dont le moment de transition dipolaire vaut $\SI{2.98931 (62)} ea_0$ \cite{DATA_STECKRB87}.
@@ -607,7 +671,8 @@ où $\Gamma = 2\pi \times \SI{6.065}{\MHz}$ est la largeur naturelle du niveau $
 La dernière égalité est vérifiée dans l'approximation $\delta^2 \gg \Omega_r^2, \Gamma^2$, qui est ici valide.
 Avec nos valeurs d'intensité et de désaccord du laser, on obtient $\Gamma_{sp} \simeq \num{2.5e-3} \Gamma = 2\pi\times \SI{0.657}{\MHz}$, ce qui correspond à l'émission d'un photon  toutes les $\Gamma_{sp}^{-1} = \SI{0.24}{\us}$.
 Or lorsqu'un atome absorbe et ré-émet un tel photon, il gagne une énergie moyenne
-$\Delta E = p^2/(2m_{Rb87}) = h^2/(2m_{Rb87} \lambda^2) = \SI{180}{\nano\kelvin} / \kb$.
+$\Delta E = p^2/(2m_{Rb87}) = h^2/(2m_{Rb87} \lambda^2) = \kb\times\SI{180}{\nano\kelvin}$.
+Étant données nos valeurs d'intensité et de désaccord, cela implique un taux de chauffage de $\Gamma_{sp}\Delta E /\kb = \SI{750}{\nano\K/\us}$.
 Le piège est ainsi chauffé par le laser rouge d'excitation, ce qui limite à la fois la puissance que l'on peut envoyer sur le nuage, et le nombre d'impulsions laser d'exciation que l'on peut faire subir à un même nuage sans l'altérer.
 
 Le faisceau bleu a typiquement un col de $\SI{22}{\um}$ et une puissance estimée à $\SI{4}{\milli\watt}$ au niveau des atomes.
@@ -837,11 +902,11 @@ Les dépôts de rubidium sont représentés en rouge et les traits gris fléché
 Les surfaces représentées en jaune (puce et électrode d'ionisation) sont mise à la masse.
 L'ovale orange représente la position du nuage atomique (les échelles ne sont pas respéctées).
 \`A gauche, dépôt non-contrôlé dû aux atomes piégés : le champ électrique est inhomogène  et varie dans le temps.
-\`A droite, dépôt contrôlé réalisé grâce aux dispenseurs de rubidium (indiqués par les cercles rouges) : le champ électrique est homogène et stable dans le temps.
+\`A droite, dépôt contrôlé réalisé grâce aux dispenseurs de rubidium (indiqués par les cercles rouges) : le champ électrique créé par le potentiel de contact rubidium-or est homogène et stable dans le temps.
 }
 \label{fig:depotRb}
 \end{figure}
-
+%
 Les dispenseurs nous ont permis de déposer une couche de rubidium, estimée à environ $\SI{80}{\nano\meter}$ d'épaisseur, sur une partie importante de la surface de la puce.
 %Une telle épaisseur représente quelques centaines de mono-couches atomiques, et justifie que l'on puisse traiter le dépôt comme bulk metal
 
@@ -851,13 +916,18 @@ Le dépôt de rubidium a donc eu un effet extrêmement bénéfique sur l'excitat
 %
 \begin{figure}[!th]
 \centering
-\includegraphics[width=.8\linewidth]{figures/setup/rydberg/raiefine_depot}
-\caption[Spectre d'excitation laser 5S-60S juste après le dépôt de rubidium sur la puce]{
-Spectre d'excitation laser 5S-60S d'atomes piégés dans un MOT, juste après le dépôt de rubidium sur la puce.
-La largeur de raie a été considérablement réduite par le dépôt contrôlé de rubidium.
+\includegraphics[width=\linewidth]{figures/setup/rydberg/avant-apres-coating}
+%setup/rydberg/raiefine_depot}
+\caption[Spectres d'excitations laser 5S-60S avant et après le dépôt de rubidium sur la puce]{
+Spectres d'excitations laser 5S-60S d'atomes piégés dans un MOT, juste avant (noir et rouge) et juste après (bleu) le dépôt de rubidium sur la puce.
+L'insert reprend le spectre bleu à une échelle plus adaptée.
+L'ajustement gaussien donne une largeur de $\Delta\nu=\SI{1.7}{MHz}$ :
+la largeur de raie a été considérablement réduite par le dépôt contrôlé de rubidium.
 }
 \label{fig:raiefine_depot}
 \end{figure}
+
+Des optimisations ultérieures des conditions d'excitation nous ont permis d'obtenir des raies spectrales d'une largeur de $\Delta\nu \simeq \SI{625}{\kHz}$, que nous attribuons majoritairement à une fluctuation lente de la fréquence des lasers \cite{PHD_CELISTRINO}.
 
 		
 	\subsection{Contrôle du champ électrique perpendiculaire à la puce}\label{subsec:compensation}
@@ -866,7 +936,7 @@ La largeur de raie a été considérablement réduite par le dépôt contrôlé 
 % mais ne garantit en rien un champ nul
 Nous souhaitons néanmoins pouvoir contrôler la valeur moyenne du champ à la position du nuage atomique, dans deux optiques.
 La première est la réduction de l'effet des inhomogénéités résiduelles.
-En effet, plus la valeur moyenne du champ électrique est élevée, plus la raie spectrale sera élargie par une même variation autour de la valeur moyenne.
+En effet, en raison de la forme quadratique de l'effet Stark, plus la valeur moyenne du champ électrique est élevée, plus la raie spectrale sera élargie par une même variation autour de la valeur moyenne.
 Pour des valeurs de champ électrique comprises entre $F-\Delta F$ et $F + \Delta F$, l'élargissement de la raie spectrale vaut
 %
 \begin{equation}
@@ -877,7 +947,7 @@ Pour des valeurs de champ électrique comprises entre $F-\Delta F$ et $F + \Delt
 &= -4A \cdot F\cdot \Delta F
 \end{aligned}
 \end{equation}
-Cela est dû à la forme quadratique de l'effet Stark pour les niveaux de bas $l$, et se conçoit fort bien à l'observation de la figure \eqref{fig:Stark_60S}.
+%Cela se conçoit fort bien à l'observation de la figure \eqref{fig:Stark_60S}.
 
 La seconde optique d'un contrôle plus fin du champ électrique est de pouvoir déplacer en fréquence %la transition laser vers les niveaux de Rydberg ainsi que 
 les transitions microonde entre niveaux de Rydberg voisins.
@@ -897,7 +967,7 @@ Ce circuit est schématisé en figure \eqref{fig:detectionbox_ENS}.
 \includegraphics[width=.8\linewidth]{figures/setup/rydberg/detectionbox_ENS}
 \caption[Premier circuit de contrôle de la tension des électrodes d'ionisation]{
 Premier circuit de contrôle de la tension des électrodes d'ionisation.
-Les tensions sont fournies par un générateur de fonctions arbitraires contrôlé par ordinateur, puis amplifiées par un amplificateur haute tension de gain $\times \num{50}$.
+Les tensions sont fournies par un générateur de fonctions arbitraires contrôlé par ordinateur, puis amplifiées par un amplificateur haute tension de gain $\times \num{50}$, délvrant jusqu'à $\pm \SI{150}{\V}$.
 Pendant l'excitation des atomes de Rydberg, l'optocoupleur est bloquant.
 Le pont diviseur de tension créé par la résistance de $\SI{50}{\kilo\ohm}$ d'une part et de $\SI{2.5}{} + \SI{4.7}{\kilo\ohm}$ divise par un facteur $\num{8}$ le bruit électronique au niveau des électrodes, au prix d'une réduction d'autant du signal.
 Pendant la phase de détection, l'optocoupleur est passant et le pont diviseur est ainsi court-circuité.

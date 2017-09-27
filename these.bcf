@@ -1986,7 +1986,8 @@
     <bcf:citekey order="38">DATA_STECKRB87</bcf:citekey>
     <bcf:citekey order="39">TXT_ASPECTFABRE_QUANTOPT</bcf:citekey>
     <bcf:citekey order="40">PHD_CELISTRINO</bcf:citekey>
-    <bcf:citekey order="41">PHD_HERMANN</bcf:citekey>
+    <bcf:citekey order="41">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="42">PHD_HERMANN</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

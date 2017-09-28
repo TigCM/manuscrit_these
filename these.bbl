@@ -754,6 +754,77 @@
       \endverb
       \keyw{Rydberg atoms ; Superconducting atom-chip ; Superpositions d'etats mésoscopiques ; CQED ; Spectroscopie micro-ondes ; Puce à atomes supraconductrice ; Atomes de Rydberg}
     \endentry
+    \entry{ENS_CHIPINTERACTION15}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c8dd25340b3da7ce863424fce300c923}
+      \strng{fullhash}{a4695b4be43e7f47756784f1aa0530cf}
+      \field{sortinit}{0}
+      \field{labeltitle}{Microwaves Probe Dipole Blockade and van der Waals Forces in a Cold Rydberg Gas}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{06}
+      \field{title}{Microwaves Probe Dipole Blockade and van der Waals Forces in a Cold Rydberg Gas}
+      \field{volume}{115}
+      \field{year}{2015}
+      \field{pages}{013001}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.115.013001
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.115.013001
+      \endverb
+    \endentry
+    \entry{MX_TELLER_ADDITIVEVDW}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=214f689084dab06bcf4a61f106a9173d}{Axilrod}{A\bibinitperiod}{B.\bibnamedelimi M.}{B\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=30ffbf80ceb2cb02041f9de6aab9400b}{Teller}{T\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=214f689084dab06bcf4a61f106a9173d}{Axilrod}{A\bibinitperiod}{B.\bibnamedelimi M.}{B\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=30ffbf80ceb2cb02041f9de6aab9400b}{Teller}{T\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{734073ac5f292970198776c949121ebe}
+      \strng{fullhash}{734073ac5f292970198776c949121ebe}
+      \field{sortinit}{0}
+      \field{labeltitle}{Interaction of the van der Waals Type Between Three Atoms}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{number}{6}
+      \field{title}{Interaction of the van der Waals Type Between Three Atoms}
+      \field{volume}{11}
+      \field{year}{1943}
+      \field{pages}{299\bibrangedash 300}
+      \verb{doi}
+      \verb 10.1063/1.1723844
+      \endverb
+      \verb{eprint}
+      \verb http://dx.doi.org/10.1063/1.1723844
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.1723844
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

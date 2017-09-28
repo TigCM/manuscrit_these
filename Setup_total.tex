@@ -108,13 +108,27 @@ Les axes $x,y$ et $z$ coïncident avec ceux de la figure \eqref{fig:cryo}.
 
 Les fils en \mcal{U} et en \mcal{Z} sont la simplification d'un dispositif en forme de $\mathcal{H}$ qui repose sur la circulation d'un premier courant perpendiculairement à deux autres courants qui sont parallèles entre eux.
 La figure \eqref{fig:magfields_chip} représente les différentes configurations de champ magnétique créées par les fils \mcal{U} et \mcal{Z} de la puce.
-Lors du passage d'un courant $I$ dans le fil \mcal{Z}, le segment parallèle à l'axe $x$ crée un champ qui, superposé avec un champ de biais $B_Z$ selon l'axe $z$, forme un champ quadrupolaire dans le plan $yz$.
-Le courant dans les deux bras verticaux circule dans le même sens et crée un champ selon $x$, avec un  minimum non-nul au voisinage du centre du champ quadrupolaire.
-Le champ total forme alors un piège magnétique de Ioffe-Pritchard (cf figure \ref{fig:magfields_chip}c)).
 
-De façon similaire, le fil en \mcal{U} crée aussi, avec l'aide d'un champ de biais $B_Z$, un champ quadrupolaire dans le plan $yz$.
-Les courants dans les bras verticaux circulent cette fois dans des sens opposés, ce qui résulte en la présence d'un zéro de champ près du centre du champ quadrupolaire.
-Le champ total permet ici la réalisation d'un piège magnéto-optique sur puce en trois dimensions (\og 3D-MOT miroir\fg{}, cf figure \ref{fig:magfields_chip}d)).
+Le passage d'un courant dans la partie horizontale du fil \mcal{U}(segment parallèle à l'axe $x$) crée un champ contenu orienté dans le plan $yz$, que l'on peut approximer au champ créé par un fil infini.
+L'ajout d'un champ de biais $B_z$ selon l'axe $z$ permet alors de créer un zéro de champ, là où le champ de biais compense exactement le champ créé par le fil.
+Autour de ce zéro, le champ magnétique est quadrupolaire dans le plan $yz$ (cf figure \ref{fig:magfields_chip}b)).
+Afin de compléter ce champ quadrupolaire dans la direction $x$, un courant parcourt les bras verticaux du fil en \mcal{U} : le sens opposé de circulation dans ces deux bras crée directement un champ quadrupolaire dans la direction $x$ avec un minimum nul (cf figure \ref{fig:magfields_chip}d)).
+La composante de champ résiduelle selon $y$ est compensée par un champ de biais $B_y$.
+En fin de compte, le champ magnétique présente un comportement quadrupolaire dans les trois directions, autour d'un minimum nul dans les trois directions.
+Le champ total permet ici la réalisation d'un piège magnéto-optique sur puce en trois dimensions (\og 3D-MOT miroir\fg{}).
+
+Lors du passage d'un courant $I$ dans le fil \mcal{Z}, le champ créé dans le plan $yz$ est similaire au cas du fil en \mcal{U}.
+Cependant, le courant dans les deux bras verticaux circule dans le même sens et crée ainsi un champ quadrupolaire dans le plan $xy$.
+Le champ magnétique présente donc aussi un comportement quadrupolaire dans les trois directions, mais autour d'un minimum qui est cette fois non-nul (cf figure \ref{fig:magfields_chip}c)).
+Le champ total forme alors un piège magnétique de Ioffe-Pritchard.
+
+%Lors du passage d'un courant $I$ dans le fil \mcal{Z}, le segment parallèle à l'axe $x$ crée un champ qui, superposé avec un champ de biais $B_Z$ selon l'axe $z$, forme un champ quadrupolaire dans le plan $yz$.
+%Le courant dans les deux bras verticaux circule dans le même sens et crée un champ selon $x$, avec un  minimum non-nul au voisinage du centre du champ quadrupolaire.
+%Le champ total forme alors un piège magnétique de Ioffe-Pritchard (cf figure \ref{fig:magfields_chip}c)).
+%
+%De façon similaire, le fil en \mcal{U} crée aussi, avec l'aide d'un champ de biais $B_Z$, un champ quadrupolaire dans le plan $yz$.
+%Les courants dans les bras verticaux circulent cette fois dans des sens opposés, ce qui résulte en la présence d'un zéro de champ près du centre du champ quadrupolaire.
+%Le champ total permet ici la réalisation d'un piège magnéto-optique sur puce en trois dimensions (\og 3D-MOT miroir\fg{}, cf figure \ref{fig:magfields_chip}d)).
 
 \begin{figure}[]
 \centering
@@ -231,12 +245,12 @@ Celui-ci est schématisé en figure \eqref{fig:2DMOT}.
 %	
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.6\linewidth]{figures/setup/coldatoms/2DMOT}
+\includegraphics[width=0.6\linewidth]{figures/setup/coldatoms/2DMOT_2}
 \caption[Schéma du 2D-MOT]{Schéma du 2D-MOT avec ses trois étages de piégeage.
 Les polarisations des faisceaux incidents sont indiquées par les lettres HD (pour hélicité droite) et HG (hélicité gauche).%, relativement à la direction de propagation des faisceaux.
 Le sens des courants dans les bobines est indiqué par les flèches vertes et la lettre $I$.
 Chaque faisceau est rétro-réfléchi par un miroir, et le double passage par une lame quart d'onde permet de garantir la bonne polarisation du faisceau réfléchi.
-Le jet atomique produit par le 2D-MOT est représenté par une flèche qui pointe vers le cryostat.
+Le jet atomique produit par le 2D-MOT est représenté par une flèche violette qui pointe vers le cryostat.
 }
 \label{fig:2DMOT}
 \end{figure}
@@ -315,7 +329,8 @@ La figure \eqref{fig:BEC} montre des images du nuage atomique après temps de vo
 \caption[Condensat de Bose-Einstein sur puce]{
 Trois nuages de \Rb{87} évaporés jusqu'à des valeurs différentes de fréquence RF, imagés après un temps de vol de \SI{16.5}{\ms}.
 Les images donnent directement la distribution d'impulsion au sein du nuage.
-\`A gauche, la température est supérieure à la température critique de condensation $T_C$: le nuage est purement thermique et montre une distribution gaussienne d'impulsion.
+Le nuage contient environ $\SI{e4}{}$ atomes, et la tepérature critique de condensation est de l'ordre de $T_C = \SI{100}{\nano\K}$.
+\`A gauche, la température est supérieure à $T_C$: le nuage est purement thermique et montre une distribution gaussienne d'impulsion.
 Au milieu, la température est inférieure à $T_C$, le nuage montre un double profil en impulsion : un condensat de Bose-Einstein au centre et les atomes du nuage thermique autour.
 \`A droite, la température est très petite devant $T_C$ et le condensat est quasi-pur : le nuage présente un profil de Thomas-Fermi dans l'espace des impulsions.
 }
@@ -499,9 +514,9 @@ La figure \eqref{fig:nolog_abs} montre l'image d'une mélasse optique par absorp
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/log_abs}
-\hspace{.1\linewidth}
-\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/nolog_abs}
+\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/log_abs_onlyPic}
+\hfill
+\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/nolog_abs_onlyPic}
 \caption[Absorption \og no-log \fg{} ]{
 Images du nuage atomique de mélasse optique par absorption du faisceau sonde côté.
 \`A gauche, l'image est traitée par absorption selon l'équation \eqref{eq:Beer-Lambert_integ}.

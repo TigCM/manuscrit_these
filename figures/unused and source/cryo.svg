@@ -468,18 +468,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="744.39909"
-     inkscape:cy="2149.3394"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="-1164.1672"
+     inkscape:cy="1357.1547"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1181"
-     inkscape:window-x="1596"
-     inkscape:window-y="-4"
-     inkscape:window-maximized="1"
+     inkscape:window-width="694"
+     inkscape:window-height="420"
+     inkscape:window-x="2650"
+     inkscape:window-y="85"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -1296,16 +1296,16 @@
     <text
        id="text5011"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.04999924px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       x="-1.2677222"
-       y="698.99341">
+       x="8.353981"
+       y="693.64801">
       <tspan
-         y="698.99341"
-         x="-1.2677222"
+         y="693.64801"
+         x="8.353981"
          sodipodi:role="line"
          id="tspan6007">Hublots d'accès</tspan>
       <tspan
-         y="722.80591"
-         x="-1.2677222"
+         y="717.46051"
+         x="8.353981"
          sodipodi:role="line"
          id="tspan6009">optique</tspan>
     </text>
@@ -1365,30 +1365,33 @@ He</tspan>
 </tspan>
     </text>
     <path
-       d="M 53.675178,676.1446 V 460.07774 L 0.70068863,459.76765"
+       d="M 80.133511,676.1446 V 460.07774 L 0.70068863,459.76765"
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5049"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
     <path
        d="M 7.6487253,459.70848 10.406246,456.9055 0.70076863,459.76774 10.451696,462.466 Z"
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5053"
        inkscape:connector-curvature="0" />
     <path
-       d="M 37.306651,676.1446 V 540.2285 L 1.8292186,539.91841"
+       d="M 63.764984,676.1446 V 540.2285 L 1.8292186,539.91841"
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5057"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
     <path
        d="m 8.7786553,539.8607 2.7561067,-2.80297 -9.7054734,2.86083 9.7523334,2.69825 z"
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5061"
        inkscape:connector-curvature="0" />
     <path
-       d="M 20.93848,676.1446 V 615.86511 L 0.70068863,615.55361"
+       d="M 47.396813,676.1446 V 615.86511 L 0.70068863,615.55361"
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5065"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
     <path
        d="m 7.6485753,615.49562 2.7575207,-2.80297 -9.70547737,2.86224 9.75091737,2.69684 z"
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1428,21 +1431,21 @@ He</tspan>
        x="-95.552956"
        y="512.28424" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
-       d="m -87.912236,557.15266 99.711698,-0.0108 -0.0215,19.7323"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
+       d="m -87.912236,538.63183 28.689182,-0.005 0.05709,30.68897 60.3820907,-0.003"
        id="path6912"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="cccc" />
     <text
-       y="587.11237"
-       x="-9.205224"
+       y="573.97028"
+       x="3.1540241"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.04999924px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
        id="text7260">
       <tspan
          id="tspan7258"
          sodipodi:role="line"
-         x="-9.205224"
-         y="587.11237">Puce</tspan>
+         x="3.1540241"
+         y="573.97028">Puce</tspan>
     </text>
     <flowRoot
        xml:space="preserve"

@@ -542,7 +542,7 @@ Comment se comportent ces atomes de Rydberg lorsqu'ils ne sont plus isolés mais
 %		\noindent attention à l'anisotropie\\
 %		équivalent de la figure ci dessus (Raul.figI.3) pour les 50c, à modifier pour l'anisotropie
 
-\section{Atomes de Rydberg en interaction}
+\section{Atomes de Rydberg en interaction}\label{sec:interacting_rydbergs}
 Dans cette thèse, nous allons nous intéresser aux interactions entre plusieurs atomes de Rydberg voisins, dans des niveaux identiques ou proches en énergie.
 Le reste de ce chapitre est consacré au calcul de ces interactions et à leur application aux deux cas qui nous concernent : autour des niveaux 60S et 50C.
 
@@ -596,13 +596,13 @@ Cette condition définit un sous-espace des niveaux de même $M$ pour la paire d
 Il sera donc nécessaire, pour calculer l'interaction entre les deux atomes, de tronquer ce sous-espace.
 Dans le sous-espace tronqué, nous pouvons diagonaliser le hamiltonien \eqref{eq:hamilt2atoms} pour chaque distance interatomique $r$.
 
-\subsection{Deux atomes dans le même niveau de Rydberg}
+\subsection{Deux atomes dans le même niveau de Rydberg}\label{subsec:interaction_same_level}
 Dans le cas de deux atomes dans le même niveau de Rydberg $a$, la règle de sélection $\Delta l = \pm 1$ impose que $\braket{aa|\hat{V}_{dd}|aa} = 0$.
 L'opérateur d'interaction dipolaire n'agit donc sur la paire $\ket{aa}$ que comme une perturbation de second ordre, \textit{via} le couplage à des niveaux de paire intermédiaires $\ket{cd}$.
 La figure \eqref{fig:Dip_aacd} représente ce couplage au second ordre.
 L'énergie d'interaction résultant de cette perturbation prend la forme
 \begin{equation}\label{eq:VdW_aacd}
-C_{aa}(r)=\sum_{\ket{cd}}{\frac{\braket{aa|\hat{V}_{dd}|cd}\braket{cd|\hat{V}_{dd}|aa}}{2E_a - E_c - E_d}}  = \frac{C_{6,aa}}{r^6}
+hC_{aa}(r)=\sum_{\ket{cd}}{\frac{\braket{aa|\hat{V}_{dd}|cd}\braket{cd|\hat{V}_{dd}|aa}}{2E_a - E_c - E_d}}  = \frac{hC_{6,aa}}{r^6}
 \end{equation}
 où $E_i$ est l'énergie d'un atome de Rydberg individuel dans l'état $i$.
 L'interaction dipolaire prend donc la forme d'une interaction de Van der Waals en $1/r^6$, avec un coefficient valant $C_{6,aa}$.
@@ -627,7 +627,7 @@ H_{aa-cc} = \bordermatrix{~ 	&\ket{aa} 	& \ket{cc} \cr
 %
 Les états propres de ce hamiltonien sont les combinaisons symétrique et antisymétrique $(\ket{aa}\pm\ket{cd})/\sqrt{2}$, et présentent les énergies propres
 \begin{equation}\label{eq:forster_aacc_energies}
-2E_a \pm \Delta E_{dd} = 2E_a \pm\frac{\braket{aa|V_{dd}|cc}}{r^3}= 2E_a \pm\frac{C_{3,aa}}{r^3}.
+2E_a \pm \Delta E_{dd} = 2E_a \pm\frac{\braket{aa|V_{dd}|cc}}{r^3}= 2E_a \pm\frac{hC_{3,aa}}{r^3}.
 \end{equation}
 
 Si, au contraire, $\ket{c}\neq \ket{d}$, on est alors en présence de trois états dégénérés : $\ket{aa}$, $\ket{cd}$ et $\ket{dc}$.
@@ -636,7 +636,7 @@ En effet, $\hat{V}_{dd}$ ne couple pas le niveau $\ket{aa}$ avec le niveau $\ket
 On peut donc appliquer le traitement réservé jusqu'ici au cas $\ket{c}=\ket{d}$ en remplaçant $\ket{cc}$ par $\ket{C}$.
 Nous obtenons donc deux états propres $(\ket{aa}\mp \ket{C})/\sqrt{2}$ avec les énergies
 \begin{equation}\label{eq:forster_aacd_energies}
-2E_a \pm \Delta E_{dd} = 2E_a \pm\frac{\braket{aa|V_{dd}|C}}{r^3}= 2E_a \pm\frac{\braket{aa|V_{dd}|cd}}{r^3}= 2E_a \pm\frac{C_{3,aa}}{r^3}.
+2E_a \pm \Delta E_{dd} = 2E_a \pm\frac{\braket{aa|V_{dd}|C}}{r^3}= 2E_a \pm\frac{\braket{aa|V_{dd}|cd}}{r^3}= 2E_a \pm\frac{hC_{3,aa}}{r^3}.
 \end{equation}
 Ces cas particuliers sont analogues à ce que l'on appelle dans d'autres contextes les résonances de Förster \cite{MX_BROWAEYSDD14}.
 
@@ -650,15 +650,15 @@ Les éléments de matrice de $V_{eff}$ sont
 %
 \begin{equation}\label{eq:Cab_Aab}
 \begin{aligned}
-&C_{ab}=\braket{ab|V_{eff}|ab}=\braket{ba|V_{eff}|ba} \\
+&hC_{ab}=\braket{ab|V_{eff}|ab}=\braket{ba|V_{eff}|ba} \\
 \text{et} &\\
-&A_{ab}=\braket{ab|V_{eff}|ba}=\braket{ab|V_{eff}|ba}.
+&hA_{ab}=\braket{ab|V_{eff}|ba}=\braket{ab|V_{eff}|ba}.
 \end{aligned}
 \end{equation}
 %
 L'hamiltonien d'interaction s'écrit sous forme matricielle
 \begin{equation}\label{eq:MatrixCab_Aab}
-V_{eff} = \bordermatrix{~ 	&\ket{ab} 	& \ket{ba} \cr
+V_{eff} = h\cdot \bordermatrix{~ 	&\ket{ab} 	& \ket{ba} \cr
 	\ket{ab}		&C_{ab} 		&A_{ab}	\cr 
 	\ket{ba} 		&A_{ab} 		&C_{ab} \cr} \ .
 \end{equation}
@@ -666,7 +666,7 @@ V_{eff} = \bordermatrix{~ 	&\ket{ab} 	& \ket{ba} \cr
 Les termes diagonaux de ce hamiltonien représentent l'interaction directe d'un état de paire avec lui-même, qui se calcule donc comme une perturbation de second ordre \textit{via} les niveaux intermédiaires $\ket{cd}$.
 Comme c'était le cas pour deux atomes dans le même état de Rydberg, cette interaction prend la forme de Van der Waals avec un coefficient $C_{6,ab}$ :
 \begin{equation}\label{eq:VdW_abab}
-C_{ab}(r)=\sum_{\ket{cd}}{\frac{\braket{ab|\hat{V}_{dd}|cd}\braket{cd|\hat{V}_{dd}|ab}}{E_a + E_b - E_c - E_d}}  = \frac{C_{6,ab}}{r^6}.
+hC_{ab}(r)=\sum_{\ket{cd}}{\frac{\braket{ab|\hat{V}_{dd}|cd}\braket{cd|\hat{V}_{dd}|ab}}{E_a + E_b - E_c - E_d}}  = \frac{hC_{6,ab}}{r^6}.
 \end{equation}
 
 Les termes non-diagonaux $A_{ab}$ correspondent eux à une interaction au cours de laquelle les deux atomes échangent leurs états.
@@ -686,7 +686,7 @@ Lorsque les termes d'échange $A_{ab}$ deviennent comparables aux termes d'inter
 En effet, les états propres de celui-ci, qui sont les combinaisons symétrique et anti-symérique $(\ket{ab}\pm \ket{ba})/\sqrt{2}$, ne sont plus dégénérés et présentent respectivement des déplacements d'énergie
 \begin{equation}
 \label{eq:shift_abab}
-\Delta E_{dd} = C_{ab} \mp A_{ab}.
+\Delta E_{dd} /h = C_{ab} \mp A_{ab}.
 \end{equation}
 
 Afin d'illustrer la discussion des interactions que nous venons de présenter, nous allons les appliquer à nos deux exemples que sont le niveau 60S et le niveau 50C.

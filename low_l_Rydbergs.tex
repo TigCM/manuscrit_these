@@ -2,14 +2,76 @@
 \label{chapter:60s}
 %Excitation optique d'atomes de Rydberg à bas $l$ et simulations
 \noindent Les premières expériences que nous avons menées sur les interactions entre atomes de Rydberg ont eu lieu dans un nuage dense d'atomes froids au sein duquel sont excités de nombreux atomes vers l'état de Rydberg $\mathrm{60S}$.
+Cela permet de mettre en évidence deux aspects différents de l'interaction au sein d'un nuage de Rydberg froid : l'influence des interactions sur la dynamique d'excitation des atomes de Rydberg et le mouvement des atomes en interaction au sein du nuage.
+
+Après un rappel de la forme de l'interaction dipolaire, nous en expliquerons les effets sur le mouvement des atomes de Rydberg dans le nuage et sur la dynamique d'excitation de ces mêmes atomes.
+Nous présenterons ensuite une expérience de spectroscopie optique mettant en evidence ces effets.
+Le modèle numérique de simulation que nous avons développé nous permettra de confirmer notre compréhension de ces effets et leur importance.
+Enfin, nous présenterons une expérience de spectroscopie microonde permettant de sonder plus précisément les énergies d'interactions dans un nuage d'atomes de Rydberg, à différents moments de son expansion.
+
+%\section{Régimes d'excitation en nuage dense : blocage et facilitation}
+\section{Les effets de l'interaction dipolaire en nuage dense}
 
 
-\section{Régimes d'excitation en nuage dense : blocage et facilitation}
-	\subsection{Rappels sur l'interaction}
-		\noindent hamiltonien d'interaction de paire \\
-		approximation de $N$ atomes comme somme de $\frac{N(N-1)}{2}$ paires
-	\subsection{mouvement des atomes au sein d'un gaz dense de Rydberg}
-		\noindent  traitement classique du mouvement et ordres de grandeurs pertinents
+	\subsection{Rappels sur l'interaction dipolaire}
+\noindent L'interaction dipolaire entre deux atomes de Rydberg dans le même état $\ket{a}$ et séparés d'une distance $r$ prend la forme suivante, établie en \ref{subsec:interaction_same_level} :
+\begin{equation}
+\label{eq:Vdd_aa}
+\hat{V}_{dd}(r) = \frac{hC_6}{r^6} \cdot \ket{aa}\bra{aa}.
+\end{equation}
+Ce potentiel d'interaction agit donc comme un simple déplacement de l'énergie de la paire d'atomes par une quantité $E_{int} (r)=hC_6/r^6$ .
+Nous travaillerons dans l'hypothèse que cette interaction de Van der Waals est additive pour un ensemble de $N$ atomes.
+Ainsi, l'atome $i$ subira la somme des interactions de paire avec les autres atomes $j$ de l'ensemble :
+\begin{equation}
+\label{eq:Eint_isum}
+E_{int}(i) = \sum_{j\neq i} E_{int}(i,j) = \sum_{j\neq i} E_{int}(r_{ij}) = h C_6 \cdot \sum_{j \neq i} \frac{1}{r_{ij}^6}.
+\end{equation}
+Cette hypothèse d'additivité est valide dès lors que l'on se limite au second ordre du couplage dipôle-dipôle \cite{ENS_CHIPINTERACTION15,MX_TELLER_ADDITIVEVDW}.
+La figure \eqref{fig:VdW_sum_N} représente un tel ensemble d'atomes en interaction.
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{figures/low_l/Natomes}
+\caption[Ensemble de $N$ atomes de Rydberg en interaction Van der Waals]
+{Ensemble de $N$ atomes de Rydberg en interaction Van der Waals.
+L'énergie d'interaction de chaque atome est la somme de ses énergies d'interaction de paire avec tous les autres.
+}
+\label{fig:VdW_sum_N}
+\end{figure}
+
+	\subsection{Mouvement des atomes au sein d'un gaz dense de Rydberg}
+	\noindent Le premier effet des interactions dipolaires au sein d'un nuage d'atomes de Rydberg est un effet mécanique.
+Comme nous l'avons vu en \ref{sec:interacting_rydbergs}, l'interaction est répulsive entre atomes de Rydberg dans le même niveau $\ket{\mathrm{nS}}$.
+Ainsi, deux atomes de Rydberg en interaction dipolaire subiront chacun une force répulsive, directement dérivée de leur énergie d'interaction,
+\begin{equation}
+\label{eq:repuls_2atoms}
+F = - \frac{d E_{int}}{dr}  = + \frac{6hC_6}{r^7}.
+\end{equation}
+Cela équivaut à un traitement classique de l'effet mécanique de l'interaction dipolaire, bien que le calcul de cette même interaction ne le soit pas.
+Cela nous est permis par la forme simple de l'interaction dipolaire entre deux atomes dans le même état de Rydberg, donnée par l'équation \eqref{eq:Vdd_aa}, qui consiste en un simple déplacement d'énergie du niveau de paire $\ket{aa}$.
+
+Prenons l'exemple de deux atomes dans le niveau $\mathrm{60S}$, séparés d'une distance de $\SI{5}{\um}$ : leur énergie d'interaction vaut $hC_6/r^6 = h\cdot {\SI{137.6}{\GHz\raiseto{6}\um}}/(\SI{5}{\um})^6 = \SI{8.8}{\MHz}$.
+Ils se repoussent donc avec une force valant %$6hC_6/r^7 = 6h\cdot \SI{137.6}{\GHz\raiseto{6}\um}/(\SI{5}{\um})^7 = \SI{6.97e-27}{\mega\newton} = \SI{6.97e-21}{\newton}$.
+$6hC_6/r^7 =\SI{6.97e-21}{\newton}$.
+Étant donnée la masse du rubidium, cette force répulsive correspond à une accélération valant $F/m_{Rb87} = \SI{4.83e4}{\m\per\s\squared}$, soit $\num{5000}$ fois plus que l'accélération de la gravité.
+Une intégration numérique grossière permet d'extraire un ordre de grandeur du déplacement des atomes : en $\SI{20}{\us}$, ils auront presque atteint leur vitesse relative maximale de $\SI{0.284}{\m\per\s}$ et en $\SI{10}{\us}$ seulement la distance qui les sépare aura augmenté de $\SI{1.75}{\um}$.
+Leur énergie d'interaction aura par là chuté d'un facteur $\SI{5.77}{}$, ce qui constitue une modification considérable du système.
+
+La généralisation à $N$ atomes se fait en additionnant vectoriellement les forces répulsives dues à chaque interaction de paire :
+\begin{equation}
+\label{eq:repuls_Natomes}
+\vec{F}(i) =  \sum_{j\neq i} -\vec{\nabla}E_{int}(i,j)
+= \sum_{j\neq i} \frac{6hC_6}{r_{ij}^7} \cdot \frac{-\vec{r}_{ij}}{r_{ij}}
+= - 6hC_6 \cdot \sum_{j\neq i} \frac{\vec{r}_{ij}}{r_{ij}^8}.
+\end{equation}
+%
+Cette force répulsive décroît très vite avec la distance.
+On s'attend ainsi à ce que deux atomes de Rydberg en interaction s'accélère mutuellement pendant un temps court, se propageant ensuite balistiquement dans des directions opposées.
+C'est ce que confirme l'exemple de la paire $\ket{\mathrm{60S,60S}}$ précédemment cité.
+Il est intéressant de noter qu'au sein d'un nuage d'atomes de Rydberg, les atomes du c\oe ur  sont repoussés par les interactions dipolaires de tous les côtés.
+Les atomes du bord du nuage seront alors expulsés en premier, puis petit à petit les atomes plus au centre pourront commencer à se déplacer.
+Le nuage subit ainsi une expansion hydrodynamique non triviale, que nous mesurerons expérimentalement et simulerons numériquement.
+
 	\subsection{Le blocage dipolaire et la facilitation}
 		\noindent les deux régimes d'excitation déterminée par les interactions :\\
 		explication du blocage dipolaire, et des effets qui le limitent (ailes de la gaussienne du nuage) \\

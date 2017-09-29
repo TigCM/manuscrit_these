@@ -400,4 +400,42 @@
   author    = {Bethe, Hans A and Salpeter, Edwin E},
 }
 
+@Article{MX_TELLER_ADDITIVEVDW,
+  author  = {B. M. Axilrod and E. Teller},
+  title   = {Interaction of the van der Waals Type Between Three Atoms},
+  journal = {The Journal of Chemical Physics},
+  year    = {1943},
+  volume  = {11},
+  number  = {6},
+  pages   = {299-300},
+  doi     = {10.1063/1.1723844},
+  eprint  = {http://dx.doi.org/10.1063/1.1723844},
+  url     = { 
+        http://dx.doi.org/10.1063/1.1723844
+    
+},
+}
+
+@Article{MX_BROWAEYS_COLLECRABIBLOCK,
+  author               = {{G}aetan, {A}lpha and {M}iroshnychenko, {Y}evhen and {W}ilk, {T}atjana and {C}hotia, {A}modsen and {V}iteau, {M}atthieu and {C}omparat, {D}aniel and {P}illet, {P}ierre and {B}rowaeys, {A}ntoine and {G}rangier, {P}hilippe},
+  title                = {{Observation of collective excitation of two individual atoms in the Rydberg blockade regime}},
+  journal              = {{N}at {P}hys},
+  year                 = {2009},
+  volume               = {5},
+  number               = {2},
+  pages                = {115--118},
+  month                = feb,
+  issn                 = {1745-2473},
+  abstract             = {{When two quantum systems interact strongly with each other, their simultaneous excitation by the same driving pulse may be forbidden. The phenomenon is known as blockade of excitation. Recently, extensive studies have been devoted to the so-called Rydberg blockade between neutral atoms, which appears when the atoms are in highly excited electronic states, owing to the interaction induced by the accompanying large dipole moments. Rydberg blockade has been proposed as a basic tool in quantum-information processing with neutral atoms1, 2, 3, 4, 5, and can be used to deterministically generate entanglement of several atoms. Here, we demonstrate Rydberg blockade between two atoms individually trapped in optical tweezers at a distance of 4 m. Moreover, we show experimentally that collective two-atom behaviour, associated with the excitation of an entangled state between the ground and Rydberg levels, enhances the allowed single-atom excitation. These observations should be a crucial step towards the deterministic manipulation of entanglement of two or more atoms, with possible implications for quantum-information science, as well as for quantum metrology, the study of strongly correlated systems in many-body physics, and fundamental studies in quantum physics.}},
+  citeulike-article-id = {4000464},
+  citeulike-linkout-0  = {http://dx.doi.org/10.1038/nphys1183},
+  citeulike-linkout-1  = {http://dx.doi.org/10.1038/nphys1183},
+  day                  = {11},
+  doi                  = {10.1038/nphys1183},
+  keywords             = {blockade, rydberg},
+  posted-at            = {2009-02-03 10:44:02},
+  publisher            = {{N}ature {P}ublishing {G}roup},
+  url                  = {http://dx.doi.org/10.1038/nphys1183},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

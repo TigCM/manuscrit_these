@@ -825,6 +825,136 @@
       \verb http://dx.doi.org/10.1063/1.1723844
       \endverb
     \endentry
+    \entry{MX_BROWAEYS_COLLECRABIBLOCK}{article}{}
+      \name{labelname}{9}{}{%
+        {{hash=cffc154ce64efdc3532623dcd0fa86e8}{{G}aetan}{G\bibinitperiod}{{A}lpha}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=322557a50a3e3525d3666643450a17a3}{{M}iroshnychenko}{M\bibinitperiod}{{Y}evhen}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=60ce4aa44456c98348fd61af0f3ad8a0}{{W}ilk}{W\bibinitperiod}{{T}atjana}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1e71193db8596bddc5b7dd4338cf9e89}{{C}hotia}{C\bibinitperiod}{{A}modsen}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=3700e4ef62366410614036d0f860e7ea}{{V}iteau}{V\bibinitperiod}{{M}atthieu}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=d7310d3c9f9a8c45580df60637a7b887}{{C}omparat}{C\bibinitperiod}{{D}aniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=644d002ab55aa10a235bb1e2288e398e}{{P}illet}{P\bibinitperiod}{{P}ierre}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=237b547e7e697f5a2da42896cb778b93}{{B}rowaeys}{B\bibinitperiod}{{A}ntoine}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=9726e690e8419f2426bb73578b502058}{{G}rangier}{G\bibinitperiod}{{P}hilippe}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{hash=cffc154ce64efdc3532623dcd0fa86e8}{{G}aetan}{G\bibinitperiod}{{A}lpha}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=322557a50a3e3525d3666643450a17a3}{{M}iroshnychenko}{M\bibinitperiod}{{Y}evhen}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=60ce4aa44456c98348fd61af0f3ad8a0}{{W}ilk}{W\bibinitperiod}{{T}atjana}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1e71193db8596bddc5b7dd4338cf9e89}{{C}hotia}{C\bibinitperiod}{{A}modsen}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=3700e4ef62366410614036d0f860e7ea}{{V}iteau}{V\bibinitperiod}{{M}atthieu}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=d7310d3c9f9a8c45580df60637a7b887}{{C}omparat}{C\bibinitperiod}{{D}aniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=644d002ab55aa10a235bb1e2288e398e}{{P}illet}{P\bibinitperiod}{{P}ierre}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=237b547e7e697f5a2da42896cb778b93}{{B}rowaeys}{B\bibinitperiod}{{A}ntoine}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=9726e690e8419f2426bb73578b502058}{{G}rangier}{G\bibinitperiod}{{P}hilippe}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {{N}ature {P}ublishing {G}roup}%
+      }
+      \strng{namehash}{f5ce9bb13d8579cc4723a4ef426cb045}
+      \strng{fullhash}{37091e08f7e79d2347692369d6024c51}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Observation of collective excitation of two individual atoms in the Rydberg blockade regime}}
+      \field{abstract}{{When two quantum systems interact strongly with each other, their simultaneous excitation by the same driving pulse may be forbidden. The phenomenon is known as blockade of excitation. Recently, extensive studies have been devoted to the so-called Rydberg blockade between neutral atoms, which appears when the atoms are in highly excited electronic states, owing to the interaction induced by the accompanying large dipole moments. Rydberg blockade has been proposed as a basic tool in quantum-information processing with neutral atoms1, 2, 3, 4, 5, and can be used to deterministically generate entanglement of several atoms. Here, we demonstrate Rydberg blockade between two atoms individually trapped in optical tweezers at a distance of 4 m. Moreover, we show experimentally that collective two-atom behaviour, associated with the excitation of an entangled state between the ground and Rydberg levels, enhances the allowed single-atom excitation. These observations should be a crucial step towards the deterministic manipulation of entanglement of two or more atoms, with possible implications for quantum-information science, as well as for quantum metrology, the study of strongly correlated systems in many-body physics, and fundamental studies in quantum physics.}}
+      \field{day}{11}
+      \field{issn}{1745-2473}
+      \field{journaltitle}{{N}at {P}hys}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{{Observation of collective excitation of two individual atoms in the Rydberg blockade regime}}
+      \field{volume}{5}
+      \field{year}{2009}
+      \field{pages}{115\bibrangedash 118}
+      \verb{doi}
+      \verb 10.1038/nphys1183
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nphys1183
+      \endverb
+      \keyw{blockade,rydberg}
+    \endentry
+    \entry{MX_BLOCH_SUPERATOM}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=ebd99a912e076a7dc696db17cf8b435f}{Zeiher}{Z\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=603e530e271da48b67eec37283b4dac5}{Schauß}{S\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bf9e67b98f798f9f9b49a855acc96270}{Hild}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6a7683a1107c13e43a17a2a893454450}{Macrì}{M\bibinitperiod}{Tommaso}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=ebd99a912e076a7dc696db17cf8b435f}{Zeiher}{Z\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=603e530e271da48b67eec37283b4dac5}{Schauß}{S\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bf9e67b98f798f9f9b49a855acc96270}{Hild}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6a7683a1107c13e43a17a2a893454450}{Macrì}{M\bibinitperiod}{Tommaso}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{579786b0a6a8d4aa9d381b3ed863ba84}
+      \strng{fullhash}{e6335a31568c60c5a08359b2a2463d33}
+      \field{sortinit}{0}
+      \field{labeltitle}{Microscopic Characterization of Scalable Coherent Rydberg Superatoms}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. X}
+      \field{month}{08}
+      \field{title}{Microscopic Characterization of Scalable Coherent Rydberg Superatoms}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{pages}{031015}
+      \verb{doi}
+      \verb 10.1103/PhysRevX.5.031015
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevX.5.031015
+      \endverb
+    \endentry
+    \entry{MX_OTT_SUPERATOM}{article}{}
+      \name{labelname}{9}{}{%
+        {{hash=eeda0b03831d8d380c2bb403882e5386}{Weber}{W\bibinitperiod}{T.\bibnamedelimi M.}{T\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=d909c2560d64fddc1797a24ab629ebb7}{Höning}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=52066fcb94d5323b8738534a76c09e96}{Niederprüm}{N\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=428c958ac4811a1ace0f49551c35e06d}{Manthey}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d3bb0c20285da0a857f33f9f7374cb0d}{Thomas}{T\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=f338f2bcda0c0a0075d9c67d4331a502}{Guarrera}{G\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0431104352abad4c7b1ecb28b18a2a54}{Fleischhauer}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e0c327111e213c28f5af7a2bea22de33}{Barontini}{B\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0231e82be58e0d004bdd967e03a11ae9}{Ott}{O\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{9}{}{%
+        {{hash=eeda0b03831d8d380c2bb403882e5386}{Weber}{W\bibinitperiod}{T.\bibnamedelimi M.}{T\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=d909c2560d64fddc1797a24ab629ebb7}{Höning}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=52066fcb94d5323b8738534a76c09e96}{Niederprüm}{N\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=428c958ac4811a1ace0f49551c35e06d}{Manthey}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d3bb0c20285da0a857f33f9f7374cb0d}{Thomas}{T\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=f338f2bcda0c0a0075d9c67d4331a502}{Guarrera}{G\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0431104352abad4c7b1ecb28b18a2a54}{Fleischhauer}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e0c327111e213c28f5af7a2bea22de33}{Barontini}{B\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=0231e82be58e0d004bdd967e03a11ae9}{Ott}{O\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{e9dd39aa535639982ec3d7523379989b}
+      \strng{fullhash}{ed10271ae74c3551e5edcba7ec507b46}
+      \field{sortinit}{0}
+      \field{labeltitle}{Mesoscopic Rydberg-blockaded ensembles in the superatom regime and beyond}
+      \field{journaltitle}{Nat Phys}
+      \field{month}{01}
+      \field{number}{2}
+      \field{title}{Mesoscopic Rydberg-blockaded ensembles in the superatom regime and beyond}
+      \field{volume}{11}
+      \field{year}{2015}
+      \field{pages}{157\bibrangedash 161}
+      \verb{doi}
+      \verb 10.1038/nphys3214
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nphys3214
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

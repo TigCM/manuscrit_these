@@ -1990,6 +1990,9 @@
     <bcf:citekey order="42">PHD_HERMANN</bcf:citekey>
     <bcf:citekey order="43">ENS_CHIPINTERACTION15</bcf:citekey>
     <bcf:citekey order="43">MX_TELLER_ADDITIVEVDW</bcf:citekey>
+    <bcf:citekey order="44">MX_BROWAEYS_COLLECRABIBLOCK</bcf:citekey>
+    <bcf:citekey order="45">MX_BLOCH_SUPERATOM</bcf:citekey>
+    <bcf:citekey order="46">MX_OTT_SUPERATOM</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

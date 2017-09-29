@@ -6,6 +6,7 @@ Cela permet de mettre en évidence deux aspects différents de l'interaction au 
 
 Après un rappel de la forme de l'interaction dipolaire, nous en expliquerons les effets sur le mouvement des atomes de Rydberg dans le nuage et sur la dynamique d'excitation de ces mêmes atomes.
 Nous présenterons ensuite une expérience de spectroscopie optique mettant en evidence ces effets.
+
 Le modèle numérique de simulation que nous avons développé nous permettra de confirmer notre compréhension de ces effets et leur importance.
 Enfin, nous présenterons une expérience de spectroscopie microonde permettant de sonder plus précisément les énergies d'interactions dans un nuage d'atomes de Rydberg, à différents moments de son expansion.
 
@@ -72,7 +73,86 @@ Il est intéressant de noter qu'au sein d'un nuage d'atomes de Rydberg, les atom
 Les atomes du bord du nuage seront alors expulsés en premier, puis petit à petit les atomes plus au centre pourront commencer à se déplacer.
 Le nuage subit ainsi une expansion hydrodynamique non triviale, que nous mesurerons expérimentalement et simulerons numériquement.
 
-	\subsection{Le blocage dipolaire et la facilitation}
+	\subsection{Deux régimes d'excitation en interaction dipolaire forte}\label{subsec:excitation_bloc_facil}
+	%Le blocage dipolaire et la facilitation}
+
+\noindent Les interactions dipolaires ont également une influence importante sur l'excitation d'un ensemble dense d'atomes de Rydberg.	
+En effet, la présence d'un atome de Rydberg conditionne l'excitation ultérieure d'autres atomes de Rydberg dans son voisinage.
+Lorsque l'excitation est faite à résonance, cet effet est connu sous le nom de \og blocage dipolaire \fg{}.
+
+	\subsubsection*{Blocage dipolaire et super-atomes}
+\noindent Le mécanisme du blocage dipolaire est illustré en figure (\ref{fig:dip_block} a)).
+Considérons deux atomes dans l'état fondamental $\ket{g}$, séparés d'une distance $r$.
+L'état de la paire est alors $\ket{g,g}$.
+Un laser est accordé à résonance pour exciter l'un quelconque de ces deux atomes vers le niveau de Rydberg $\ket{ry}$.
+L'état de la paire devient ainsi $\ket{g,ry}$.% ou $\ket{ry,g}$.
+Si l'on souhaite exciter le second atome vers le niveau $\ket{ry}$, alors il faut considérer l'énergie nécessaire à la transition $\ket{g,ry} \rightarrow \ket{ry,ry}$.
+Or ce dernier état de paire subit un déplacement d'énergie dû à l'interaction de Van der Waals
+%
+\begin{equation}
+\label{eq:DeltaE_block}
+\Delta E_{\ket{ry,ry}}(r) = E_{\ket{ry,ry}}(r)-E_{\ket{ry,ry}}(\infty)
+= E_{int}(r).
+\end{equation}
+%
+Le laser, qui était à résonance avec la transition $\ket{g,g}\rightarrow\ket{g,ry}$, n'est ainsi plus à résonance avec la transition $\ket{g,ry}\rightarrow\ket{ry,ry}$.
+L'excitation du second atome vers un niveau de Rydberg s'en trouve bloquée.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[height=.3\textheight]{figures/low_l/dip_block}
+\caption[Mécanisme du blocage dipolaire]{
+Illustration du mécanisme de blocage dipolaire.
+\textbf{a)} Diagramme d'énergie des niveaux de paire à zéro, un ou deux atomes excités, en fonction de la distance interatomique $r$.
+$\ket{g}$ est le niveau fondamental et $\ket{ry}$ le niveau de Rydberg considéré.
+Aux courtes distances, l'interaction dipolaire déplace l'excitation du deuxième atome vers le niveau de Rydberg hors de résonance avec le laser ayant excité le premier atome.
+$\gamma$ représente la largeur spectrale de la raie d'excitation à un atome, $E_{int}$ l'énergie d'interaction entre deux atomes de Rydberg et $r_b$ le \og rayon de blocage \fg{}.
+\textbf{b)} Généralisation à un ensemble d'atomes. Les points bleus sont des atomes dans l'état fondamental et les points rouges sont des atomes de Rydberg.
+Le mécanisme de blocage empêche l'excitation de deux atomes de Rydberg dans un même sphère de rayon $r_b$, représentée par les disques rouges.
+}
+\label{fig:dip_block}
+\end{figure}
+
+Le laser d'excitation n'est pas infiniment fin spectralement et l'effet de blocage dipolaire sera limité par sa largeur spectrale.
+On peut en effet considérer que le laser est résonant avec la transition dès lors que le désaccord entre eux est inférieur à la demi-largeur spectrale $\gamma/2$ de la raie d'excitation.
+Nous définirons ainsi le \og rayon de blocage \fg{} $r_b$ comme étant la distance en-deçà de laquelle le désaccord est supérieur à la demi-largeur spectrale :
+\begin{equation}
+\label{eq:def_rayon_bloc}
+\Delta E_{int}(r_b) = \gamma /2 
+\end{equation}
+%
+Dans le cas qui nous intéresse, l'interaction dipolaire a une forme de Van der Waals en $1/^6$, permettant de réécrire l'équation \eqref{eq:def_rayon_bloc} sous la forme
+\begin{equation}
+\label{eq:def_rayon_bloc}
+\frac{C_6}{r^6} = \gamma /2 \text{ , soit } r_b = \sqrt[6]{\frac{C_6}{\gamma /2}}
+\end{equation}
+%
+Le mécanisme de blocage est donc effectif à l'intérieur d'un \og volume de blocage\fg{} autour de chaque atome de Rydberg déjà excité.
+Ce volume de blocage est une sphère de rayon $r_b$, représentée en figure (\ref{fig:dip_block} b)).
+
+Revenons au cas de deux atomes :
+il existe deux états de paire à une excitation, qui sont $\ket{g,ry}$ et $\ket{ry,g}$.
+Ces deux états sont dégénérés et le laser couple le niveau fondamental $\ket{g,g}$ indifféremment à $\ket{g,ry}$ et à $\ket{ry,g}$, avec même une fréquence de Rabi $\Omega$.
+La combinaison symétrique $\ket{D} = \left( \ket{g,ry} + \ket{ry,g} \right) / \sqrt{2}$, appelée état collectif de Dicke des deux atomes, est alors couplée à l'état fondamental avec une fréquence de Rabi augmentée $\Omega\sqrt{2}$.
+Ce facteur d'accroissement a été mis en évidence expérimentalement par le groupe de A. Browaeys et P. Grangier \cite{MX_BROWAEYS_COLLECRABIBLOCK}, en observant deux atomes piégés dans des pinces optiques.
+
+L'idée se généralise au cas à $N$ atomes en utilisant encore une fois le modèle de Dicke.
+Dans un rayon de blocage contenant $N_b$ atomes, l'état du système oscille entre l'état fondamental et l'état de Dicke à une excitation, toute excitation supplémentaire étant interdite par blocage dipolaire.
+Cette oscillation se fait cette fois avec une fréquence de Rabi $\Omega\sqrt{N_b}$.
+Un modèle simple de ce phénomène consiste à voir l'ensemble de ces $N_b$ atomes comme un unique \og super-atome \fg{} ayant un moment de transition dipolaire $\sqrt{N_b}$ plus grand  que celui d'un atome isolé.
+Ce modèle de super-atome a été exploité avec succès pour expliquer des observations expérimentales par les groupes d'I. Bloch \cite{MX_BLOCH_SUPERATOM} et de H. Ott \cite{MX_OTT_SUPERATOM}.
+
+
+	\subsubsection*{Excitation facilitée et agrégats de Rydberg}
+	
+\begin{figure}[!h]
+\centering
+\includegraphics[height=.3\textheight]{figures/low_l/dip_facil}
+\caption[Mécanisme de facilitation]{
+Mécanisme de facilitation
+}
+\end{figure}
+
 		\noindent les deux régimes d'excitation déterminée par les interactions :\\
 		explication du blocage dipolaire, et des effets qui le limitent (ailes de la gaussienne du nuage) \\
 		pourquoi c'est difficile dans un BEC : mention du Pfau shift \\

@@ -438,4 +438,35 @@
   url                  = {http://dx.doi.org/10.1038/nphys1183},
 }
 
+@Article{MX_BLOCH_SUPERATOM,
+  author    = {Zeiher, Johannes and Schau\ss{}, Peter and Hild, Sebastian and Macr\`{\i}, Tommaso and Bloch, Immanuel and Gross, Christian},
+  title     = {Microscopic Characterization of Scalable Coherent Rydberg Superatoms},
+  journal   = {Phys. Rev. X},
+  year      = {2015},
+  volume    = {5},
+  pages     = {031015},
+  month     = {Aug},
+  doi       = {10.1103/PhysRevX.5.031015},
+  issue     = {3},
+  numpages  = {8},
+  publisher = {American Physical Society},
+  url       = {http://link.aps.org/doi/10.1103/PhysRevX.5.031015},
+}
+
+@Article{MX_OTT_SUPERATOM,
+  author    = {T. M. Weber and M. Höning and T. Niederprüm and T. Manthey and O. Thomas and V. Guarrera and M. Fleischhauer and G. Barontini and H. Ott},
+  title     = {Mesoscopic Rydberg-blockaded ensembles in the superatom regime and beyond},
+  journal   = {Nat Phys},
+  year      = {2015},
+  volume    = {11},
+  number    = {2},
+  pages     = {157--161},
+  month     = {jan},
+  doi       = {10.1038/nphys3214},
+  owner     = {absenthe},
+  publisher = {Nature Publishing Group},
+  timestamp = {2016.08.24},
+  url       = {http://dx.doi.org/10.1038/nphys3214},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

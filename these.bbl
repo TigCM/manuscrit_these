@@ -955,6 +955,41 @@
       \verb http://dx.doi.org/10.1038/nphys3214
       \endverb
     \endentry
+    \entry{MX_PFAURYDBERGBEC13}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=2167314705a0d17019ee4aabd28e05a6}{Balewski}{B\bibinitperiod}{Jonathan\bibnamedelima B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=861b9a98cc33eebad589b51665a78ab7}{Krupp}{K\bibinitperiod}{Alexander\bibnamedelima T.}{A\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=46dd63593beed2e94e22d1f74361af76}{Gaj}{G\bibinitperiod}{Anita}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a83439621b17728ad3d8aae092a8ab9}{Peter}{P\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fd9286862c5ccea8738cfb40dc6cf8a3}{Buchler}{B\bibinitperiod}{Hans\bibnamedelima Peter}{H\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=5f947f341a908c84d4660ee38bf64f72}{Low}{L\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=90fabdf255aeacc953f9277e08529a30}{Hofferberth}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b5b6c947d8102c98efc30d21d308f18b}{Pfau}{P\bibinitperiod}{Tilman}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=2167314705a0d17019ee4aabd28e05a6}{Balewski}{B\bibinitperiod}{Jonathan\bibnamedelima B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=861b9a98cc33eebad589b51665a78ab7}{Krupp}{K\bibinitperiod}{Alexander\bibnamedelima T.}{A\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=46dd63593beed2e94e22d1f74361af76}{Gaj}{G\bibinitperiod}{Anita}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a83439621b17728ad3d8aae092a8ab9}{Peter}{P\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fd9286862c5ccea8738cfb40dc6cf8a3}{Buchler}{B\bibinitperiod}{Hans\bibnamedelima Peter}{H\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=5f947f341a908c84d4660ee38bf64f72}{Low}{L\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=90fabdf255aeacc953f9277e08529a30}{Hofferberth}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=b5b6c947d8102c98efc30d21d308f18b}{Pfau}{P\bibinitperiod}{Tilman}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{26c9a38162635cb58f2c44426e631f46}
+      \strng{fullhash}{9a92c793089df5eadbfa0066d048c718}
+      \field{sortinit}{0}
+      \field{labeltitle}{Coupling a single electron to a Bose-Einstein condensate}
+      \field{journaltitle}{Nature}
+      \field{title}{Coupling a single electron to a Bose-Einstein condensate}
+      \field{volume}{502}
+      \field{year}{2013}
+      \field{pages}{664\bibrangedash 667}
+      \verb{file}
+      \verb MX_PFAURYDBERGBEC13.pdf:mx/MX_PFAURYDBERGBEC13.pdf:PDF;MX_PFAURYDBERGBEC13.pdf:mx/MX_PFAURYDBERGBEC13.pdf:PDF
+      \endverb
+      \keyw{Mx,Rydberg,Bec,Dipole}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

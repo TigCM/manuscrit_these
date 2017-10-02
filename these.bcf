@@ -1993,6 +1993,9 @@
     <bcf:citekey order="44">MX_BROWAEYS_COLLECRABIBLOCK</bcf:citekey>
     <bcf:citekey order="45">MX_BLOCH_SUPERATOM</bcf:citekey>
     <bcf:citekey order="46">MX_OTT_SUPERATOM</bcf:citekey>
+    <bcf:citekey order="47">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="48">MX_PFAURYDBERGBEC13</bcf:citekey>
+    <bcf:citekey order="49">MX_PFAURYDBERGBEC13</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

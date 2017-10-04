@@ -40,25 +40,28 @@
 \contentsline {section}{\numberline {III.2}Observation exp\IeC {\'e}rimentale des interactions}{64}{section.3.2}
 \contentsline {subsection}{\numberline {III.2.1}Spectroscopie optique du nuage : diff\IeC {\'e}rents r\IeC {\'e}gimes d'excitation}{64}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {III.2.2}Spectroscopie microonde : une sonde pour l'\IeC {\'e}nergie d'interaction}{67}{subsection.3.2.2}
-\contentsline {section}{\numberline {III.3}Premier mod\IeC {\`e}le num\IeC {\'e}rique et accord qualitatif}{74}{section.3.3}
-\contentsline {section}{\numberline {III.4}Raffinement du mod\IeC {\`e}le de la dynamique d'excitation}{74}{section.3.4}
-\contentsline {subsection}{\numberline {III.4.1}Simulations}{74}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {III.4.2}Les limites du mod\IeC {\`e}le}{74}{subsection.3.4.2}
-\contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{75}{chapter.4}
-\contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{77}{chapter.5}
-\contentsline {section}{\numberline {V.1}Modifications du dispositif exp\IeC {\'e}rimental}{77}{section.5.1}
-\contentsline {subsection}{\numberline {V.1.1}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{77}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {V.1.2}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{78}{subsection.5.1.2}
-\contentsline {section}{\numberline {V.2}Comment exciter des atomes de Rydberg circulaires}{82}{section.5.2}
-\contentsline {subsection}{\numberline {V.2.1}Les niveaux atomiques du fondamental au Rydberg circulaire}{82}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {V.2.2}Spectroscopie 5s-50d}{82}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {V.2.3}Spectroscopie 50d-50f}{83}{subsection.5.2.3}
-\contentsline {section}{\numberline {V.3}Comment caract\IeC {\'e}riser les atomes de Rydberg circulaires}{83}{section.5.3}
-\contentsline {subsection}{\numberline {V.3.1}Spectroscopie microonde vers les niveaux voisins}{83}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {V.3.2}Temps de vie}{83}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {V.3.3}Temps de coh\IeC {\'e}rence}{83}{subsection.5.3.3}
-\contentsline {section}{\numberline {V.4}\IeC {\'E}jectable : Premi\IeC {\`e}re \IeC {\'e}vidence du pi\IeC {\'e}geage des atomes circulaires}{83}{section.5.4}
-\contentsline {subsection}{\numberline {V.4.1}Dispositif laser de pi\IeC {\'e}geage}{83}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {V.4.2}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{83}{subsection.5.4.2}
-\contentsline {chapter}{Conclusion}{85}{chapter*.99}
-\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{89}{appendix.A}
+\contentsline {section}{\numberline {III.3}Premier mod\IeC {\`e}le num\IeC {\'e}rique et accord qualitatif}{73}{section.3.3}
+\contentsline {subsection}{\numberline {III.3.1}Au c\oe ur du mod\IeC {\`e}le num\IeC {\'e}rique}{74}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {III.3.2}Comparaison aux spectres microonde exp\IeC {\'e}rimentaux}{75}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {III.3.3}La limite du mod\IeC {\`e}le : l'absence de temps}{76}{subsection.3.3.3}
+\contentsline {section}{\numberline {III.4}Raffinement du mod\IeC {\`e}le de la dynamique d'excitation}{78}{section.3.4}
+\contentsline {subsection}{\numberline {III.4.1}Simulations}{78}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {III.4.2}Les limites du mod\IeC {\`e}le}{78}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{79}{chapter.4}
+\contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{81}{chapter.5}
+\contentsline {section}{\numberline {V.1}Modifications du dispositif exp\IeC {\'e}rimental}{81}{section.5.1}
+\contentsline {subsection}{\numberline {V.1.1}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{81}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {V.1.2}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{82}{subsection.5.1.2}
+\contentsline {section}{\numberline {V.2}Comment exciter des atomes de Rydberg circulaires}{86}{section.5.2}
+\contentsline {subsection}{\numberline {V.2.1}Les niveaux atomiques du fondamental au Rydberg circulaire}{86}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {V.2.2}Spectroscopie 5s-50d}{86}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {V.2.3}Spectroscopie 50d-50f}{87}{subsection.5.2.3}
+\contentsline {section}{\numberline {V.3}Comment caract\IeC {\'e}riser les atomes de Rydberg circulaires}{87}{section.5.3}
+\contentsline {subsection}{\numberline {V.3.1}Spectroscopie microonde vers les niveaux voisins}{87}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {V.3.2}Temps de vie}{87}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {V.3.3}Temps de coh\IeC {\'e}rence}{87}{subsection.5.3.3}
+\contentsline {section}{\numberline {V.4}\IeC {\'E}jectable : Premi\IeC {\`e}re \IeC {\'e}vidence du pi\IeC {\'e}geage des atomes circulaires}{87}{section.5.4}
+\contentsline {subsection}{\numberline {V.4.1}Dispositif laser de pi\IeC {\'e}geage}{87}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {V.4.2}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{87}{subsection.5.4.2}
+\contentsline {chapter}{Conclusion}{89}{chapter*.102}
+\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{93}{appendix.A}

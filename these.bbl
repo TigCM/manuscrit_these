@@ -990,6 +990,81 @@
       \endverb
       \keyw{Mx,Rydberg,Bec,Dipole}
     \endentry
+    \entry{MX_WEIDEMULLERRYDAGREGATES14}{article}{}
+      \name{labelname}{11}{}{%
+        {{hash=b8b6b1e013b959a383e8e820540d8ba9}{Schempp}{S\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=3effc610b9449494aa757860d03eb625}{Günter}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=2974b9657fbc95356f63dc4aaab192c6}{Robert-de-Saint-Vincent}{R\bibinithyphendelim S\bibinithyphendelim V\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=44cedddd04876d6816276c24791d8528}{Hofmann}{H\bibinitperiod}{C.\bibnamedelimi S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=c0fe3798e82178f6c72ea29a550a479a}{Breyel}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7953ea24aa42a09ef3c02d9119ce3d96}{Komnik}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=33042aa692cd5ba66ab10fddb2370bf7}{Schönleber}{S\bibinitperiod}{D.\bibnamedelimi W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=5f316d8ff5e48d2a16c3cc0c13a65a42}{Gärttner}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=54c434b929b62426c226539b3f6f162e}{Evers}{E\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef0242f9b777037b2e42ff1440fd54d}{Whitlock}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=bdbe197c12bd1a8d3f9421d2b44006ee}{Weidemüller}{W\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{hash=b8b6b1e013b959a383e8e820540d8ba9}{Schempp}{S\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=3effc610b9449494aa757860d03eb625}{Günter}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=2974b9657fbc95356f63dc4aaab192c6}{Robert-de-Saint-Vincent}{R\bibinithyphendelim S\bibinithyphendelim V\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=44cedddd04876d6816276c24791d8528}{Hofmann}{H\bibinitperiod}{C.\bibnamedelimi S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=c0fe3798e82178f6c72ea29a550a479a}{Breyel}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7953ea24aa42a09ef3c02d9119ce3d96}{Komnik}{K\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=33042aa692cd5ba66ab10fddb2370bf7}{Schönleber}{S\bibinitperiod}{D.\bibnamedelimi W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=5f316d8ff5e48d2a16c3cc0c13a65a42}{Gärttner}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=54c434b929b62426c226539b3f6f162e}{Evers}{E\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef0242f9b777037b2e42ff1440fd54d}{Whitlock}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=bdbe197c12bd1a8d3f9421d2b44006ee}{Weidemüller}{W\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{75024709a5ec750f1daa24c2b4433959}
+      \strng{fullhash}{db97208eb652985ae08b092d0ca81171}
+      \field{sortinit}{0}
+      \field{labeltitle}{Full Counting Statistics of Laser Excited Rydberg Aggregates in a One-Dimensional Geometry}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{01}
+      \field{title}{Full Counting Statistics of Laser Excited Rydberg Aggregates in a One-Dimensional Geometry}
+      \field{volume}{112}
+      \field{year}{2014}
+      \field{pages}{013002}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.112.013002
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.112.013002
+      \endverb
+    \endentry
+    \entry{PHD_NGUYEN}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{ff3b5d5276beae6f337805de454e85e5}
+      \strng{fullhash}{ff3b5d5276beae6f337805de454e85e5}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
+      \field{month}{11}
+      \field{number}{2016PA066695}
+      \field{title}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
+      \field{type}{Theses}
+      \field{year}{2016}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01609840
+      \endverb
+      \keyw{Quantum simulation ; Rydberg atoms ; Atom chip ; Simulation quantique ; Atomes de Rydberg ; Atomes circulaires ; Interaction dipolaire ; Puce à atome ; Spectroscopie micro-onde}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

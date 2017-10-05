@@ -642,7 +642,7 @@ Après avoir donné le principe de l'excitation à deux photons des niveaux de R
 Nous décrirons ensuite les techniques mises en place afin de contrôler les champs électriques près de la puce.
 Nous finirons ce chapitre par une présentation de la technique de spectroscopie microonde des niveaux de Rydberg et de son utilisation pour mesurer les champs électriques résiduels.
 
-	\subsection{L'excitation à deux photons des atomes de Rydberg}
+	\subsection{L'excitation à deux photons des atomes de Rydberg}\label{subsec:2photon_excite}
 
 \noindent Les atomes de rubidium piégés dans un nuage près de la puce sont excités vers les niveaux de Rydberg par une transition laser à deux photons désaccordée par rapport au niveau intermédiaire.
 Dans nos expériences, deux niveaux de Rydberg différents ont été excités par laser à partir de l'état fondamental 5S$_{1/2}$ : le niveau 60S$_{1/2}$ et le niveau 50D$_{3/2}$.
@@ -686,9 +686,11 @@ où $\Gamma = 2\pi \times \SI{6.065}{\MHz}$ est la largeur naturelle du niveau $
 La dernière égalité est vérifiée dans l'approximation $\delta^2 \gg \Omega_r^2, \Gamma^2$, qui est ici valide.
 Avec nos valeurs d'intensité et de désaccord du laser, on obtient $\Gamma_{sp} \simeq \num{2.74e-3} \Gamma = 2\pi\times \SI{0.0166}{\MHz}$, ce qui correspond à l'émission d'un photon  toutes les $\Gamma_{sp}^{-1} = \SI{9.565}{\us}$.
 Or lorsqu'un atome absorbe et ré-émet un tel photon, il gagne une énergie moyenne
-$\Delta E = p^2/(2m_{Rb87}) = h^2/(2m_{Rb87} \lambda^2) = \kb\times\SI{180}{\nano\kelvin}$.
-Étant données nos valeurs d'intensité et de désaccord, cela implique un taux de chauffage de $\Gamma_{sp}\,\Delta E /\kb = \SI{18.8}{\nano\K/\us}$.
-Le piège est ainsi chauffé par le laser rouge d'excitation, ce qui limite à la fois la puissance que l'on peut envoyer sur le nuage, et le nombre d'impulsions laser d'exciation que l'on peut faire subir à un même nuage sans l'altérer.
+$\Delta E = p^2/(2m_{Rb87}) = h^2/(2m_{Rb87} \lambda^2) = \frac{3}{2}\kb\times\SI{120}{\nano\kelvin}$.
+Étant données nos valeurs d'intensité et de désaccord, cela implique un taux de chauffage de $\Gamma_{sp}\,\Delta E /\kb = \SI{12.6}{\nano\K/\us}$.
+Le piège est ainsi chauffé par le laser rouge d'excitation\footnote{
+Le problème du chauffage du nuage est discuté plus en détail en \ref{subsec:rate_equation}.
+}, ce qui limite à la fois la puissance que l'on peut envoyer sur le nuage, et le nombre d'impulsions laser d'exciation que l'on peut faire subir à un même nuage sans l'altérer.
 
 Le faisceau bleu a typiquement un col de $\SI{22}{\um}$ et une puissance estimée à $\SI{4}{\milli\watt}$ au niveau des atomes.
 Le moment dipolaire de la transition $ \ket{\mathrm{5P_{3/2},F'=3,m_F'=+3}} \rightarrow \ket{\mathrm{60S_{1/2},m_j=+1/2}}$ est cependant bien plus faible que le précédent, et vaut $\SI{9.9e-3} ea_0$

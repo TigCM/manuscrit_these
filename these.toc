@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {french}
-\contentsline {chapter}{Table des figures}{v}{chapter*.2}
-\contentsline {chapter}{Liste des tableaux}{vii}{chapter*.3}
+\contentsline {chapter}{Table des figures}{vii}{chapter*.2}
+\contentsline {chapter}{Liste des tableaux}{ix}{chapter*.3}
 \contentsline {chapter}{Introduction}{1}{chapter*.4}
 \contentsline {chapter}{\numberline {I}Atomes de Rydberg alcalins en interaction}{3}{chapter.1}
 \contentsline {section}{\numberline {I.1}Les atomes de Rydberg alcalins : des hydrog\IeC {\'e}no\IeC {\"\i }des g\IeC {\'e}ants}{4}{section.1.1}
@@ -48,8 +48,17 @@
 \contentsline {subsection}{\numberline {III.4.1}Mod\IeC {\`e}le d'\IeC {\'e}quation de taux et adaptation de l'algorithme}{78}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {III.4.2}Estimation et prise en compte du chauffage du nuage atomique}{81}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {III.4.3}Simulations}{83}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {III.4.4}Les limites du mod\IeC {\`e}le}{83}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {III.4.4}Caract\IeC {\'e}ristiques des nuages simul\IeC {\'e}s}{83}{subsection.3.4.4}
 \contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{85}{chapter.4}
+\contentsline {section}{\numberline {IV.1}Les interactions dip\IeC {\^o}le-dip\IeC {\^o}le entre atomes de Rydberg circulaires}{85}{section.4.1}
+\contentsline {section}{\numberline {IV.2}Le hamiltonien $XXZ$ simul\IeC {\'e}}{85}{section.4.2}
+\contentsline {subsection}{\numberline {IV.2.1}Mise sous forme XXZ}{85}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {IV.2.2}"Tunabilit\IeC {\'e}" des interactions}{85}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {IV.2.3}Quelle physique ? Diagramme de phase}{85}{subsection.4.2.3}
+\contentsline {section}{\numberline {IV.3}Principes techniques du simulateur}{85}{section.4.3}
+\contentsline {subsection}{\numberline {IV.3.1}Pi\IeC {\'e}geage laser des Rydberg circulaires}{85}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {IV.3.2}Pr\IeC {\'e}servation des \IeC {\'e}tats de Rydberg}{85}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {IV.3.3}Pr\IeC {\'e}paration d\IeC {\'e}terministe d'une cha\IeC {\^\i }ne}{85}{subsection.4.3.3}
 \contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{87}{chapter.5}
 \contentsline {section}{\numberline {V.1}Modifications du dispositif exp\IeC {\'e}rimental}{87}{section.5.1}
 \contentsline {subsection}{\numberline {V.1.1}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{87}{subsection.5.1.1}
@@ -65,6 +74,6 @@
 \contentsline {section}{\numberline {V.4}\IeC {\'E}jectable : Premi\IeC {\`e}re \IeC {\'e}vidence du pi\IeC {\'e}geage des atomes circulaires}{93}{section.5.4}
 \contentsline {subsection}{\numberline {V.4.1}Dispositif laser de pi\IeC {\'e}geage}{93}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {V.4.2}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{93}{subsection.5.4.2}
-\contentsline {chapter}{Conclusion}{95}{chapter*.105}
+\contentsline {chapter}{Conclusion}{95}{chapter*.108}
 \contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{99}{appendix.A}
 \contentsline {chapter}{\numberline {B}Algorithme de simulation}{101}{appendix.B}

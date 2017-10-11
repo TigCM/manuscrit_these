@@ -458,12 +458,13 @@ où
 \begin{equation}
 \label{eq:Stark_circular}
 \begin{aligned}
-&E^{(0)} = -\frac{1}{2n^2} \\
-&E^{(1)} = \frac{3}{2}nk|\vec{F}| \\
-&E^{(2)} = -\frac{1}{16}\cdot (19+17n^2-9m^2-3k^2) \cdot n^4|\vec{F}|^2.
+&E^{(0)}/2E_I = -\frac{1}{2n^2} \\
+&E^{(1)}/2E_I = \frac{3}{2}nk|\vec{F}|*\frac{ea_0}{2E_I} \\
+&E^{(2)}/2E_I = -\frac{1}{16}\cdot (19+17n^2-9m^2-3k^2) \cdot n^4|\vec{F}|^2*\left( \frac{ea_0}{2E_I}\right) ^2,
 \end{aligned}
 \end{equation}
 %
+en exprimant $F$ en unités du système international.
 On remarque ici que les états à $k=0$, et en particulier l'état circulaire, ne subissent l'effet Stark qu'au second ordre.
 
 Nous pouvons désormais représenter les niveaux paraboliques $\ket{n,m,k}$ en présence d'un champ électrique qui lève leur dégénérescence.
@@ -531,7 +532,7 @@ Comment se comportent ces atomes de Rydberg lorsqu'ils ne sont plus isolés mais
 %		\[
 %		V_{dd} = \frac{1}{4\pi\epsilon_0 r^3} \left( \mathbf{d_1}\cdot \mathbf{d_2} - 3(\mathbf{d_1}\cdot \frac{\mathbf{r}}{r})(\mathbf{d_2}\cdot\frac{\mathbf{r}}{r}) \right)
 %		\]
-%		\noindent de l'interaction dipole-dipole générale au terme de Van der Waals en $1/r^6$ \\
+%		\noindent de l'interaction dipole-dipole générale au terme de van der Waals en $1/r^6$ \\
 %		\noindent terme d'énergie et terme d'échange
 %	\subsection{les interactions entre Rydberg de bas $l$}
 %		\noindent origine du $C_6$ pour 60s-60s et $C_6/A_6$ avec les voisins\\
@@ -605,7 +606,7 @@ L'énergie d'interaction résultant de cette perturbation prend la forme
 hC_{aa}(r)=\sum_{\ket{cd}}{\frac{\braket{aa|\hat{V}_{dd}|cd}\braket{cd|\hat{V}_{dd}|aa}}{2E_a - E_c - E_d}}  = \frac{hC_{6,aa}}{r^6}
 \end{equation}
 où $E_i$ est l'énergie d'un atome de Rydberg individuel dans l'état $i$.
-L'interaction dipolaire prend donc la forme d'une interaction de Van der Waals en $1/r^6$, avec un coefficient valant $C_{6,aa}$.
+L'interaction dipolaire prend donc la forme d'une interaction de van der Waals en $1/r^6$, avec un coefficient valant $C_{6,aa}$.
 
 \begin{figure}[!h]
 \centering
@@ -664,7 +665,7 @@ V_{eff}/h = \bordermatrix{~ 	&\ket{ab} 	& \ket{ba} \cr
 \end{equation}
 %
 Les termes diagonaux de ce hamiltonien représentent l'interaction directe d'un état de paire avec lui-même, qui se calcule donc comme une perturbation de second ordre \textit{via} les niveaux intermédiaires $\ket{cd}$.
-Comme c'était le cas pour deux atomes dans le même état de Rydberg, cette interaction prend la forme de Van der Waals avec un coefficient $C_{6,ab}$ :
+Comme c'était le cas pour deux atomes dans le même état de Rydberg, cette interaction prend la forme de van der Waals avec un coefficient $C_{6,ab}$ :
 \begin{equation}\label{eq:VdW_abab}
 hC_{ab}(r)=\sum_{\ket{cd}}{\frac{\braket{ab|\hat{V}_{dd}|cd}\braket{cd|\hat{V}_{dd}|ab}}{E_a + E_b - E_c - E_d}}  = \frac{hC_{6,ab}}{r^6}.
 \end{equation}
@@ -695,32 +696,32 @@ Dans les deux cas, le calcul numérique consiste à diagonaliser le hamiltonien 
 \subsection{Les interactions dipolaires du niveau 60S}
 
 \subsubsection*{L'interaction 60S-60S}
-Dans le cas de l'état $\ket{60\text{S},60\text{S}}$, le terme dominant dans la somme \eqref{eq:VdW_aacd} permettant de calculer le coefficient de Van der Waals $C_{6,\text{60S60S}}$ est le coulage avec les paires $\ket{60\text{P}_j,59\text{P}_j}$.
+Dans le cas de l'état $\ket{60\text{S},60\text{S}}$, le terme dominant dans la somme \eqref{eq:VdW_aacd} permettant de calculer le coefficient de van der Waals $C_{6,\text{60S60S}}$ est le coulage avec les paires $\ket{60\text{P}_j,59\text{P}_j}$.
 Puisque $E_{60S}-E_{59P}>E_{60P}-E_{60S}$, le dénominateur du terme de couplage principal dans \eqref{eq:VdW_aacd} est positif.
 On en déduit que l'interaction 60S-60S, et plus généralement toute interaction dipolaire nS-nS, est toujours répulsive.
 %
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\linewidth]{figures/theory/VdW_60S60S}
-\caption[Interaction dipolaire 60S-60S]{Déplacement en énergie de la paire 60S-60S par interaction de Van der Waals. Les différents sous-niveaux $\ket{60\text{P}_j,59\text{P}_j}$ sont représentés. L'échelle de couleur représente le carré de la projection sur l'état non perturbé $\ket{60\text{S},60\text{S}}$.
-L'insert représente le déplacement d'énergie en échelle log-log et son ajustement sous la forme de Van der Waals.}
+\caption[Interaction dipolaire 60S-60S]{Déplacement en énergie de la paire 60S-60S par interaction de van der Waals. Les différents sous-niveaux $\ket{60\text{P}_j,59\text{P}_j}$ sont représentés. L'échelle de couleur représente le carré de la projection sur l'état non perturbé $\ket{60\text{S},60\text{S}}$.
+L'insert représente le déplacement d'énergie en échelle log-log et son ajustement sous la forme de van der Waals.}
 \label{fig:VdW_60s60s}
 \end{figure}
 %
-Le calcul numérique de l'interaction 60S-60S et son ajustement sous la forme de Van der Waals, représentés en figure \eqref{fig:VdW_60s60s}, donnent la valeur
+Le calcul numérique de l'interaction 60S-60S et son ajustement sous la forme de van der Waals, représentés en figure \eqref{fig:VdW_60s60s}, donnent la valeur
 \begin{equation}
 \label{eq:C660S}
 C_{6,60S60S} = \numv{137.6(1)}\si{\giga\hertz\raiseto{6}\micro\meter}.
 \end{equation}
 
-L'ajustement de Van der Waals fonctionne très bien aux distances supérieures à $\sim\SIvv{3}{ \micro\meter}$.
+L'ajustement de van der Waals fonctionne très bien aux distances supérieures à $\sim\SIvv{3}{ \micro\meter}$.
 Cependant, aux très courtes distances, la paire $\ket{60\text{S},60\text{S}}$ est très fortement couplée aux niveaux $\ket{60\text{P}_j,59\text{P}_j}$.
 La distance critique est celle à laquelle le couplage dipolaire est aussi fort que la différence d'énergie entre les deux états de paire non perturbés, soit ici $\sim \SIv{2}{\giga\hertz}$.
 En deçà de cette distance, les états propres du hamiltonien s'éloignent de plus en plus de l'état non perturbé $\ket{60\text{S},60\text{S}}$ et l'interaction évolue vers une interaction dipolaire résonante en $1/r^3$.
 
 \subsubsection*{Les interactions 60S-$nl$}
 Le niveau 60S interagit également avec des états de $n$ et $l$ différents.
-Il convient alors, comme nous l'avons montré en \eqref{subsec:interaction_diff_levels}, de calculer non seulement les coefficients de Van der Waals $C_{ab}$, mais aussi les éléments de matrice d'échange $A_{ab}$.
+Il convient alors, comme nous l'avons montré en \eqref{subsec:interaction_diff_levels}, de calculer non seulement les coefficients de van der Waals $C_{ab}$, mais aussi les éléments de matrice d'échange $A_{ab}$.
 De plus, il est possible ici d'avoir des termes d'échange dûs à un couplage dipolaire direct et qui varient donc en $r^3$.
 
 \begin{figure}[!h]
@@ -743,7 +744,7 @@ En procédant dela même façon, on peut obtenir les coefficients d'interaction 
 
 \begin{table}[!h]
 	\centering
-	\caption[Coefficients de Van der Waals 60S-nl]{Coefficients de Van der Waals pour les interactions de paire entre le niveau 60S et différents niveaux voisins $nl$.}
+	\caption[Coefficients de van der Waals 60S-nl]{Coefficients de van der Waals pour les interactions de paire entre le niveau 60S et différents niveaux voisins $nl$.}
 	\label{tab:VdWcoef_60S_nl}
 	\begin{tabular}{c c c c}
 		\toprule\midrule
@@ -778,7 +779,7 @@ En procédant dela même façon, on peut obtenir les coefficients d'interaction 
 
 
 
-\subsection{Les interactions dipolaires du niveau 50C}
+\subsection{Les interactions dipolaires du niveau 50C}\label{subsec:interac50C_I}
 	
 \noindent L'interaction dipolaire entre atomes de Rydberg de très grand moment cinétique est rendue plus complexe du fait de leur forte anisotropie.
 En effet, l'interaction entre deux dipôles dépend de l'orientation relative de ceux-ci.
@@ -801,21 +802,21 @@ Si l'on imagine que le dessin est à l'échelle, alors les atomes sont ici sépa
 Comme il a été dit en \ref{sec:circ_parabol}, les atomes de Rydberg circulaires ont besoin d'un champ électrique extérieur pour se stabiliser.
 Nous imposerons donc un champ de \SIvvSym{1}{\V\per\cm}, qui définit l'axe de quantification, parallèle aux flèches rouges sur la figure \eqref{fig:double_torus}.
 
-Les règles de sélection étant toujours valides, le couplage se fait \textit{a priori} à l'ordre deux, et l'équation \eqref{eq:VdW_aacd} permet d'en extraire le coefficient de Van der Waals comme nous l'avons fait pour l'interaction 60S-60S.
+Les règles de sélection étant toujours valides, le couplage se fait \textit{a priori} à l'ordre deux, et l'équation \eqref{eq:VdW_aacd} permet d'en extraire le coefficient de van der Waals comme nous l'avons fait pour l'interaction 60S-60S.
 Cependant, l'équation \eqref{eq:Vdd_rr1r2} ne prend plus la même forme dans la base parabolique et le moment magnétique total $M$ de la paire atomique n'est plus conservé, ce que doit prendre en compte le calcul numérique.
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=1\linewidth]{figures/theory/VdW_50C50C_1Vcm}
 \caption[Interaction dipolaire 50C-50C]{Déplacement en énergie de la paire 50C-50C placés côte à côte (cf fig\eqref{fig:double_torus}) par interaction dipolaire, sous un champ électrique de $\SIvv{1}{\V / \cm}$. L'échelle de couleur représente le carré de la projection sur l'état non perturbé $\ket{50\text{C},50\text{C}}$ de l'état propre du hamiltonien qui le suit adiabatiquement.
-Le comportement dévie franchement de la forme de Van der Waals en $1/r^6$ dès que la distance interatomique est inférieure à $\SIv{10}{\micro\meter}$.
+Le comportement dévie franchement de la forme de van der Waals en $1/r^6$ dès que la distance interatomique est inférieure à $\SIv{10}{\micro\meter}$.
 %Aux très courtes distances, le couplage vers d'autres niveaux atomiques devient très fort et l'énergie d'interaction}
 }
 \label{fig:VdW_50C50C_1Vcm}
 \end{figure}
 
 La figure \eqref{fig:VdW_50C50C_1Vcm} présente le résultat du calcul numérique.
-Aux grandes distances, l'énergie d'interaction varie bien en $1/r^6$ comme on l'attend, avec un coefficient de Van der Waals 
+Aux grandes distances, l'énergie d'interaction varie bien en $1/r^6$ comme on l'attend, avec un coefficient de van der Waals 
 \begin{equation}
 \label{eq:C6_50C50C}
 C_{6,50C50C}(\SIvv{1}{V/cm}) = \SIv{483.17}{\GHz\raiseto{6}\um}.
@@ -841,8 +842,8 @@ Cependant, l'introduction de la base des états paraboliques est d'une grande ai
 Nous avons ainsi pu décrire le niveau de Rydberg circulaire 50C, qui présente un temps de vie à température nulle de presque \SIvv{30}{\ms}.
 
 En dernier lieu, nous avons vu comment les atomes de Rydberg interagissent entre eux par interaction dipolaire.
-\`A grande distance, l'interaction dipolaire entre deux atomes de Rydberg prend la forme de Van der Waals avec une dépendance en $C_6/r^6$, où $r$ est la distance entre les deux atomes.
-Nous avons pu déterminer les coefficients de Van der Waals $C_6$ pour l'interaction entre une paire d'atomes dans les niveaux $\ket{\text{60S,60S}}$, $\ket{\text{60S,nl}}$ et $\ket{\text{50C,50C}}$, en diagonalisant à chaque fois le hamiltonien complet du système pour toutes les distances $r$.
+\`A grande distance, l'interaction dipolaire entre deux atomes de Rydberg prend la forme de van der Waals avec une dépendance en $C_6/r^6$, où $r$ est la distance entre les deux atomes.
+Nous avons pu déterminer les coefficients de van der Waals $C_6$ pour l'interaction entre une paire d'atomes dans les niveaux $\ket{\text{60S,60S}}$, $\ket{\text{60S,nl}}$ et $\ket{\text{50C,50C}}$, en diagonalisant à chaque fois le hamiltonien complet du système pour toutes les distances $r$.
 Aux distances très courtes, lorsque l'interaction dipolaire devient comparable aux différences d'énergie entre les niveaux de Rydberg, les niveaux de Rydberg se mélangent et l'interaction dipolaire ne peut plus être traitée simplement.
 
 Les expériences que nous avons menées portent sur l'étude de l'interaction dipolaire entre atomes de Rydberg.

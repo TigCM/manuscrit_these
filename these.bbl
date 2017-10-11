@@ -754,6 +754,33 @@
       \endverb
       \keyw{Rydberg atoms ; Superconducting atom-chip ; Superpositions d'etats mésoscopiques ; CQED ; Spectroscopie micro-ondes ; Puce à atomes supraconductrice ; Atomes de Rydberg}
     \endentry
+    \entry{PHD_NGUYEN}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{ff3b5d5276beae6f337805de454e85e5}
+      \strng{fullhash}{ff3b5d5276beae6f337805de454e85e5}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
+      \field{month}{11}
+      \field{number}{2016PA066695}
+      \field{title}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
+      \field{type}{Theses}
+      \field{year}{2016}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01609840
+      \endverb
+      \keyw{Quantum simulation ; Rydberg atoms ; Atom chip ; Simulation quantique ; Atomes de Rydberg ; Atomes circulaires ; Interaction dipolaire ; Puce à atome ; Spectroscopie micro-onde}
+    \endentry
     \entry{ENS_CHIPINTERACTION15}{article}{}
       \name{labelname}{8}{}{%
         {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
@@ -1038,32 +1065,40 @@
       \verb http://link.aps.org/doi/10.1103/PhysRevLett.112.013002
       \endverb
     \endentry
-    \entry{PHD_NGUYEN}{thesis}{}
-      \name{labelname}{1}{}{%
+    \entry{ENS_PRE_CIRCSIM}{article}{}
+      \true{morelabelname}
+      \name{labelname}{10}{}{%
         {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=47ee5c326631af4387d6f16fe9485b6c}{Raimond}{R\bibinitperiod}{Jean-Michel}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=6eb2c837654fc899fd5ad6005058e8b4}{Sayrin}{S\bibinitperiod}{Clément}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=659f404514a812db7553ca90e16bf27f}{Cortinas}{C\bibinitperiod}{Rodrigo}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=50c35ff01cb6c11511d5ab2e9600ed79}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{Tigrane}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f0084c9a1b8e100216b1ab02f273f2f6}{Assemat}{A\bibinitperiod}{Fédéric}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=4e97cdff83e256b64b32910bd5c33470}{Dotsenko}{D\bibinitperiod}{Igor}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=36efa873b129cdc51e0f9d87007156c5}{Gleyzes}{G\bibinitperiod}{Sébastien}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=95f4489b413610dbe1c5717f5996a94b}{Haroche}{H\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d57bcd36ef117c2b1e6b7750011ac270}{Roux}{R\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{1}{}{%
+      \true{moreauthor}
+      \name{author}{10}{}{%
         {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=47ee5c326631af4387d6f16fe9485b6c}{Raimond}{R\bibinitperiod}{Jean-Michel}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=6eb2c837654fc899fd5ad6005058e8b4}{Sayrin}{S\bibinitperiod}{Clément}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=659f404514a812db7553ca90e16bf27f}{Cortinas}{C\bibinitperiod}{Rodrigo}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=50c35ff01cb6c11511d5ab2e9600ed79}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{Tigrane}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f0084c9a1b8e100216b1ab02f273f2f6}{Assemat}{A\bibinitperiod}{Fédéric}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=4e97cdff83e256b64b32910bd5c33470}{Dotsenko}{D\bibinitperiod}{Igor}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=36efa873b129cdc51e0f9d87007156c5}{Gleyzes}{G\bibinitperiod}{Sébastien}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=95f4489b413610dbe1c5717f5996a94b}{Haroche}{H\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d57bcd36ef117c2b1e6b7750011ac270}{Roux}{R\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
       }
-      \list{institution}{1}{%
-        {Université Pierre et Marie Curie - Paris VI}%
-      }
-      \strng{namehash}{ff3b5d5276beae6f337805de454e85e5}
-      \strng{fullhash}{ff3b5d5276beae6f337805de454e85e5}
+      \strng{namehash}{d5e47f87a06f6d24c6679c01cfee354f}
+      \strng{fullhash}{9258160246e6bc581673608d2651d276}
       \field{sortinit}{0}
-      \field{labeltitle}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
-      \field{month}{11}
-      \field{number}{2016PA066695}
-      \field{title}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
-      \field{type}{Theses}
-      \field{year}{2016}
-      \verb{file}
-      \verb https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf
-      \endverb
-      \verb{url}
-      \verb https://tel.archives-ouvertes.fr/tel-01609840
-      \endverb
-      \keyw{Quantum simulation ; Rydberg atoms ; Atom chip ; Simulation quantique ; Atomes de Rydberg ; Atomes circulaires ; Interaction dipolaire ; Puce à atome ; Spectroscopie micro-onde}
+      \field{labeltitle}{Towards quantum simulation with circular Rydberg atoms}
+      \field{journaltitle}{arXiv preprint arXiv:1707.04397}
+      \field{title}{Towards quantum simulation with circular Rydberg atoms}
+      \field{year}{2017}
     \endentry
   \endsortlist
 \endrefsection

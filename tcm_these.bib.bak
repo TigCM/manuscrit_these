@@ -497,19 +497,26 @@
   url       = {http://link.aps.org/doi/10.1103/PhysRevLett.112.013002},
 }
 
-@phdthesis{nguyen:tel-01609840,
-  TITLE = {{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}},
-  AUTHOR = {Nguyen, Thanh Long},
-  URL = {https://tel.archives-ouvertes.fr/tel-01609840},
-  NUMBER = {2016PA066695},
-  SCHOOL = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
-  YEAR = {2016},
-  MONTH = Nov,
-  KEYWORDS = {Quantum simulation ; Rydberg atoms ; Atom chip ; Simulation quantique ; Atomes de Rydberg ; Atomes circulaires ; Interaction dipolaire ; Puce {\`a} atome ; Spectroscopie micro-onde},
-  TYPE = {Theses},
-  PDF = {https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf},
-  HAL_ID = {tel-01609840},
-  HAL_VERSION = {v1},
+@PhdThesis{PHD_NGUYEN,
+  author      = {Nguyen, Thanh Long},
+  title       = {{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}},
+  school      = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
+  year        = {2016},
+  type        = {Theses},
+  month       = Nov,
+  hal_id      = {tel-01609840},
+  hal_version = {v1},
+  keywords    = {Quantum simulation ; Rydberg atoms ; Atom chip ; Simulation quantique ; Atomes de Rydberg ; Atomes circulaires ; Interaction dipolaire ; Puce {\`a} atome ; Spectroscopie micro-onde},
+  number      = {2016PA066695},
+  pdf         = {https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf},
+  url         = {https://tel.archives-ouvertes.fr/tel-01609840},
+}
+
+@Article{ENS_PRE_CIRCSIM,
+  author  = {Nguyen, Thanh Long and Raimond, Jean-Michel and Sayrin, Cl{\'e}ment and Cortinas, Rodrigo and Cantat-Moltrecht, Tigrane and Assemat, F{\'e}d{\'e}ric and Dotsenko, Igor and Gleyzes, S{\'e}bastien and Haroche, Serge and Roux, Guillaume and others},
+  title   = {Towards quantum simulation with circular Rydberg atoms},
+  journal = {arXiv preprint arXiv:1707.04397},
+  year    = {2017},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

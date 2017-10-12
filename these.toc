@@ -51,31 +51,31 @@
 \contentsline {subsection}{\numberline {III.4.4}Caract\IeC {\'e}ristiques des nuages simul\IeC {\'e}s}{83}{subsection.3.4.4}
 \contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{85}{chapter.4}
 \contentsline {section}{\numberline {IV.1}Les interactions dip\IeC {\^o}le-dip\IeC {\^o}le entre atomes de Rydberg circulaires}{85}{section.4.1}
-\contentsline {subsection}{\numberline {IV.1.1}Les niveaux circulaires et leurs interactions en pr\IeC {\'e}sence de champs \IeC {\'e}lectrique et magn\IeC {\'e}tique}{86}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {IV.1.2}Forme g\IeC {\'e}n\IeC {\'e}rale de l'interaction et choix des niveaux}{88}{subsection.4.1.2}
-\contentsline {section}{\numberline {IV.2}Le hamiltonien $XXZ$ simul\IeC {\'e}}{89}{section.4.2}
-\contentsline {subsection}{\numberline {IV.2.1}Mise sous forme XXZ}{89}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {IV.2.2}"Tunabilit\IeC {\'e}" des interactions}{89}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {IV.2.3}Quelle physique ? Diagramme de phase}{89}{subsection.4.2.3}
-\contentsline {section}{\numberline {IV.3}Principes techniques du simulateur}{89}{section.4.3}
-\contentsline {subsection}{\numberline {IV.3.1}Pi\IeC {\'e}geage laser des Rydberg circulaires}{89}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {IV.3.2}Pr\IeC {\'e}servation des \IeC {\'e}tats de Rydberg}{89}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {IV.3.3}Pr\IeC {\'e}paration d\IeC {\'e}terministe d'une cha\IeC {\^\i }ne}{89}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{91}{chapter.5}
-\contentsline {section}{\numberline {V.1}Modifications du dispositif exp\IeC {\'e}rimental}{91}{section.5.1}
-\contentsline {subsection}{\numberline {V.1.1}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{91}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {V.1.2}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{92}{subsection.5.1.2}
-\contentsline {section}{\numberline {V.2}Comment exciter des atomes de Rydberg circulaires}{96}{section.5.2}
-\contentsline {subsection}{\numberline {V.2.1}Les niveaux atomiques du fondamental au Rydberg circulaire}{96}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {V.2.2}Spectroscopie 5s-50d}{96}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {V.2.3}Spectroscopie 50d-50f}{97}{subsection.5.2.3}
-\contentsline {section}{\numberline {V.3}Comment caract\IeC {\'e}riser les atomes de Rydberg circulaires}{97}{section.5.3}
-\contentsline {subsection}{\numberline {V.3.1}Spectroscopie microonde vers les niveaux voisins}{97}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {V.3.2}Temps de vie}{97}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {V.3.3}Temps de coh\IeC {\'e}rence}{97}{subsection.5.3.3}
-\contentsline {section}{\numberline {V.4}\IeC {\'E}jectable : Premi\IeC {\`e}re \IeC {\'e}vidence du pi\IeC {\'e}geage des atomes circulaires}{97}{section.5.4}
-\contentsline {subsection}{\numberline {V.4.1}Dispositif laser de pi\IeC {\'e}geage}{97}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {V.4.2}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{97}{subsection.5.4.2}
-\contentsline {chapter}{Conclusion}{99}{chapter*.109}
-\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{103}{appendix.A}
-\contentsline {chapter}{\numberline {B}Algorithme de simulation}{105}{appendix.B}
+\contentsline {subsection}{\numberline {IV.1.1}Les niveaux circulaires en pr\IeC {\'e}sence de champs \IeC {\'e}lectrique et magn\IeC {\'e}tique}{86}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {IV.1.2}L'interaction circulaire-circulaire en pr\IeC {\'e}sence de champs \IeC {\'e}lectrique et magn\IeC {\'e}tique ext\IeC {\'e}rieurs}{88}{subsection.4.1.2}
+\contentsline {section}{\numberline {IV.2}Le hamiltonien $XXZ$ simul\IeC {\'e}}{90}{section.4.2}
+\contentsline {subsection}{\numberline {IV.2.1}\IeC {\'E}quivalence avec une paire de spins $1/2$}{90}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {IV.2.2}Extension \IeC {\`a} une cha\IeC {\^\i }ne de $N$ atomes et habillage microonde}{91}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {IV.2.3}Contr\IeC {\^o}le du hamilotnien et choix des niveaux 50C et 48C}{92}{subsection.4.2.3}
+\contentsline {section}{\numberline {IV.3}Principes techniques du simulateur}{94}{section.4.3}
+\contentsline {subsection}{\numberline {IV.3.1}Pi\IeC {\'e}geage laser des Rydberg circulaires}{94}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {IV.3.2}Pr\IeC {\'e}servation des \IeC {\'e}tats de Rydberg}{94}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {IV.3.3}Pr\IeC {\'e}paration d\IeC {\'e}terministe d'une cha\IeC {\^\i }ne}{94}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{97}{chapter.5}
+\contentsline {section}{\numberline {V.1}Modifications du dispositif exp\IeC {\'e}rimental}{97}{section.5.1}
+\contentsline {subsection}{\numberline {V.1.1}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{97}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {V.1.2}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{98}{subsection.5.1.2}
+\contentsline {section}{\numberline {V.2}Comment exciter des atomes de Rydberg circulaires}{102}{section.5.2}
+\contentsline {subsection}{\numberline {V.2.1}Les niveaux atomiques du fondamental au Rydberg circulaire}{102}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {V.2.2}Spectroscopie 5s-50d}{102}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {V.2.3}Spectroscopie 50d-50f}{103}{subsection.5.2.3}
+\contentsline {section}{\numberline {V.3}Comment caract\IeC {\'e}riser les atomes de Rydberg circulaires}{103}{section.5.3}
+\contentsline {subsection}{\numberline {V.3.1}Spectroscopie microonde vers les niveaux voisins}{103}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {V.3.2}Temps de vie}{103}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {V.3.3}Temps de coh\IeC {\'e}rence}{103}{subsection.5.3.3}
+\contentsline {section}{\numberline {V.4}\IeC {\'E}jectable : Premi\IeC {\`e}re \IeC {\'e}vidence du pi\IeC {\'e}geage des atomes circulaires}{103}{section.5.4}
+\contentsline {subsection}{\numberline {V.4.1}Dispositif laser de pi\IeC {\'e}geage}{103}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {V.4.2}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{103}{subsection.5.4.2}
+\contentsline {chapter}{Conclusion}{105}{chapter*.112}
+\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{109}{appendix.A}
+\contentsline {chapter}{\numberline {B}Algorithme de simulation}{111}{appendix.B}

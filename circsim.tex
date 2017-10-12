@@ -23,7 +23,7 @@ Comme nous l'avons mentionné en \ref{subsec:interac50C_I}, la présence d'un ch
 Dans la présente discussion, nous considérerons que les atomes de Rydberg circulaires sont placés sur un axe $Ox$, perpendiculaire au champ directeur selon $Oz$, tels que représentés en figure \eqref{fig:double_torus}.
 
 %\subsection{La structure des niveaux atomiques et des niveaux de paire près des circulaires}
-\subsection{Les niveaux circulaires et leurs interactions en présence de champs électrique et magnétique}
+\subsection{Les niveaux circulaires en présence de champs électrique et magnétique}
 \noindent En présence d'un champ électrique, les niveaux à grand moment cinétique d'une même multiplicité voient leur dégénérescence partiellement levée.
 Le diagramme d'énergie de ces niveaux est représenté en figure (\ref{fig:ener_StarknC_nCnC}a)).
 Le niveau circulaire est noté $\ket{\mathrm{nC}}$ et les deux niveaux \og elliptiques \fg{} voisins sont notés $\ket{\mathrm{nE^{\pm}}} = \ket{n,m=n-2,k=\pm1}$.
@@ -124,7 +124,7 @@ Dans les conditions du paragraphe \ref{subsec:interac50C_I}, c'est-à-dire sous 
 Si l'on ajoute un champ magnétique $B_z$ de $\SI{10}{\gauss}=\SI{1}{\milli\tesla}$, la distance en énergie devient $\Delta E = h\times \SI{28.17}{\MHz}$, soit presque $\SI{200}{}$ fois plus.
 Un faible champ magnétique nous permet ainsi de lever la dégénérescence entre les niveaux de  paire voisins de $\ket{\mathrm{nC,nC}}$.
 
-\subsection{Forme générale de l'interaction et choix des niveaux}
+\subsection{L'interaction circulaire-circulaire en présence de champs électrique et magnétique extérieurs}
 \noindent Dans les condition que nous venons d'établir il nous est possible de calculer l'interaction dipôle-dipôle entre deux atomes circulaires, tout en limitant la perturbation de ces niveaux qui serait due à un couplage résonant.
 Ce calcul s'effectue de la même façon qu'en \ref{sec:interacting_rydbergs}, en diagonalisant le hamiltonien complet de la paire atomique\footnote{
 La même méthode permet tout aussi bien de calculer l'interaction entre deux atomes dans des niveaux différents, de même qu'en \ref{sec:interacting_rydbergs}.
@@ -141,23 +141,243 @@ où $\hat{H}_{0,i},\hat{H}_{S,i},\hat{H}_{Z,i}$ sont respectivement les hamilton
 
 Nous pouvons, ici encore, écrire l'interaction entre un atome dans le niveau $\mathrm{nC}$ et un atome dans le niveau $\mathrm{n'C}$ comme un hamiltonien effectif
 \begin{equation}
-V_{eff} = \left(\begin{array}{cc}
+\label{eq:Veff_nCn'C}
+V_{eff}/h = \left(\begin{array}{cc}
 C_{\mathrm{nC},\mathrm{n'C}} & A_{\mathrm{nC},\mathrm{n'C}} \\
 A_{\mathrm{nC},\mathrm{n'C}} & C_{\mathrm{nC},\mathrm{n'C}},
 \end{array} \right)
 \end{equation}
 où $C_{\mathrm{nC},\mathrm{n'C}}$ et $A_{\mathrm{nC},\mathrm{n'C}}$ sont respectivement les termes d'interaction directe et d'échange entre les niveaux $\mathrm{nC}$ et $\mathrm{n'C}$.
 De manière générale, ces termes se décomposent en une composante \og van der Waals \fg{} en $1/r^6$ et une composante de couplage direct en $1/r^3$.
-De plus, ils dépendront désormais fortement des champs électrique et magnétique imposés.
+De plus, ils dépendent désormais fortement des champs électrique et magnétique imposés.
 
-%\subsection{Choix du niveau 50-48 et courbes d'interaction}
+Reprenons l'exemple d'une paire $\ket{\mathrm{50C,50C}}$.
+Les deux atomes étant dans le même état, l'interaction se limitera aux termes diagonaux du hamiltonien \eqref{eq:Veff_nCn'C} et aucune interaction d'échange n'aura lieu.
+Dans le paragraphe \ref{subsec:interac50C_I}, sans champ magnétique extérieur et sous $\SI{1}{\V/\cm}$, le niveau de paire se mélangeait dès que la distance entre les deux atomes était inférieure à $\SI{10}{\um}$.
+Le résultat de ce calcul est à nouveau présenté en figure (\ref{fig:VdW_50C50C_1Vcm_10G} a).
+En refaisant le calcul avec un champ magnétique $B_z=\SI{10}{\gauss}$, on obtient la courbe d'énergie présentée en figure (\ref{fig:VdW_50C50C_1Vcm_10G} b).
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figures/circsim/VdW_50C50C_1Vcm_0_10G}
+\caption[Interaction dipolaire 50C-50C en présence d'un champ magnétique]{
+Déplacement en énergie de la paire 50C-50C par interaction dipolaire.
+Les deux atomes sont placés côte à côte sur l'axe $Ox$, sous un champ électrique de $\SIvv{1}{\V / \cm}$ selon l'axe $Oz$. L'échelle de couleur représente le carré de la projection sur l'état non perturbé $\ket{50\text{C},50\text{C}}$ de l'état propre du hamiltonien qui le suit adiabatiquement.
+\textbf{a)} Sans champ magnétique extérieur et \textbf{b)} avec un champ magnétique $B_z = \SI{10}{\gauss}$ selon $Oz$.
+}
+\label{fig:VdW_50C50C_1Vcm_10G}
+\end{figure}
+%
+Alors qu'en l'absence de champ magnétique le niveau de paire circulaire-circulaire était perturbé dès que la distance entre les deux atomes était inférieure à $\SI{10}{\um}$, un champ magnétique de $\SI{10}{\gauss}$ selon $Oz$ permet d'éviter cet effet.
+L'énergie d'interaction évolue ainsi en $1/r^6$ pour les distances supérieures à $\SI{2}{\um}$.
+Cependant, l'interaction est rendue moins forte.
+En effet, un ajustement en $1/r^6$ donne un coefficient de van der Waals $C_{6,\mathrm{50C-50C}}(\SI{10}{\gauss}) = \SI{4.45}{\GHz\raiseto{6}\um}$ au lieu de $\SI{489.18}{\GHz\raiseto{6}\um}$ en champ magnétique nul.
+Cela s'explique par le fait que le couplage dipolaire second de ordre varie comme l'inverse des distances en énergie entre le niveau de paire considéré et les niveaux médiateurs du couplage.
+Le champ magnétique ayant pour effet de déplacer les niveaux de paire de façon à supprimer les couplages quasi résonants, il s'en suit que les distance en énergie entre niveaux de paire sont augmentées et l'interaction d'autant diminuée.
 
+En raison de cette réduction du coefficient de van der Waals $C_6$, l'interaction à grande distance n'est plus dominée par les couplages de second ordre en $1/r^6$, mais par des couplages de premier ordre en $1/r^3$.
+Il devient donc nécessaire, afin de bien décrire l'évolution de l'énergie d'interaction à grande distance, de l'ajuster à une forme mixte en $C_3/r^3 + C_6/r^6$.
+Un tel ajustement est présenté en figure (\ref{fig:VdW_50C50C_1Vcm_10G} b).
+Il donne les coefficients $C_{6,\mathrm{50C-50C}}(\SI{10}{\gauss}) = \SI{4.23}{\GHz\raiseto{6}\um}$ et $C_{3,\mathrm{50C-50C}}(\SI{10}{\gauss}) = \SI{1.02e-5}{\GHz\raiseto{3}\um}$.
+Dans les discussions qui suivent, nous nous limiterons à des distances inter-atomiques de l'ordre de $\SI{5}{\um}$, et omettrons par conséquent d'indiquer cette composante en $1/r^3$ de l'interaction, qui n'est importante qu'à grande distance.
+
+Dans le cas d'une paire d'atomes dans l'état $\ket{\mathrm{nC,n'C}}$ avec $n'\neq n$, une interaction d'échange décrite par le coefficient $A_{\mathrm{nC},\mathrm{n'C}}$ aura lieu, en plus de l'interaction directe décrite par le coefficient $C_{\mathrm{nC},\mathrm{n'C}}$.
+Celle-ci permet d'envisager la simulation d'un ensemble de spins $1/2$.
 
 \section{Le hamiltonien $XXZ$ simulé}
-	\subsection{Mise sous forme XXZ}
-	\subsection{"Tunabilité" des interactions}\label{subsec:tunability}
-		Comment justifier le domaine de champs électrique et magnétique statiques dans lequel on se place, avant d'avoir parlé du problème de la durée de vie ??
-	\subsection{Quelle physique ? Diagramme de phase}
+\newcommand{\CnCnC}{C_{\mathrm{nC},\mathrm{nC}}}
+\newcommand{\CnpCnpC}{C_{\mathrm{n'C},\mathrm{n'C}}}
+\newcommand{\CnCnpC}{C_{\mathrm{nC},\mathrm{n'C}}}
+\newcommand{\AnCnpC}{A_{\mathrm{nC},\mathrm{n'C}}}
+
+	\subsection{Équivalence avec une paire de spins $1/2$}
+\noindent Étant donné que nous souhaitons simuler une chaîne de spins $1/2$, il nous faut étendre la base des états accessibles.
+L'état d'un spin $1/2$ est décrit sur la base $\{\ket{\uparrow},\ket{\downarrow}\}$ et l'état d'une paire de spins $1/2$ est décrit sur la base $\{ \ket{\uparrow \uparrow},\ket{\uparrow \downarrow}, \ket{\downarrow\uparrow}, \ket{\downarrow\downarrow} \}$.
+Ainsi en encodant le spin sur des états de Rydberg circulaires par l'équivalence $\ket{\uparrow} = \ket{\mathrm{nC}} , \ket{\downarrow} = \ket{\mathrm{n'C}}$, le hamiltonien d'interaction de la paire de spin doit être étendu à la base 
+$\{ \ket{\mathrm{nC},\mathrm{nC}},\ket{\mathrm{nC},\mathrm{n'C}}, \ket{\mathrm{n'C},\mathrm{nC}}, \ket{\mathrm{n'C},\mathrm{n'C}} \}$.
+Sur cette base, le hamiltonien d'interaction prend la forme
+\begin{equation}
+\label{eq:V_eff_nCnC_n'Cn'c}
+\hat{V}_{eff}/h = \bordermatrix{
+~ 	&\ket{\mathrm{nC},\mathrm{nC}} 	&\ket{\mathrm{nC},\mathrm{n'C}} 
+&\ket{\mathrm{n'C},\mathrm{nC}} &\ket{\mathrm{n'C},\mathrm{n'C}} \cr
+	\bra{\mathrm{nC},\mathrm{nC}}	& C_{\mathrm{nC},\mathrm{nC}} & 0 & 0 & 0 \cr 
+	\bra{\mathrm{nC},\mathrm{n'C}} 	& 0 & C_{\mathrm{nC},\mathrm{n'C}} & A_{\mathrm{nC},\mathrm{n'C}} & 0 \cr
+	\bra{\mathrm{n'C},\mathrm{nC}} 	& 0 & A_{\mathrm{nC},\mathrm{n'C}} & C_{\mathrm{nC},\mathrm{n'C}} & 0 \cr
+	\bra{\mathrm{n'C},\mathrm{n'C}} & 0 & 0 &  0	& C_{\mathrm{n'C},\mathrm{n'C}}\cr
+	}
+\end{equation}
+
+
+Nous souhaitons écrire ce hamiltonien sur la base des opérateurs de spin.
+Pour chacun des spins, ces opérateurs sont décrits sur la base de l'identité et des matrices de Pauli $\{\mathbbm{1},\sigma^\alpha \}_{\alpha=x,y,z}$.
+Afin d'agir sur l'espace produit tensoriel de deux spins, il nous faut définir les opérateurs suivants
+\begin{equation}
+\label{eq:Pauli_tensor_space}
+\begin{aligned}
+\sigma_1^\alpha &= \sigma^\alpha \otimes \mathbbm{1} \\
+\sigma_2^\alpha &= \mathbbm{1} \otimes \sigma^\alpha
+\end{aligned},
+\end{equation}
+où l'indice $1$ ou $2$ indique sur quel atome agit l'opérateur.
+La famille formée par les produits matriciels deux à deux de ces opérateurs $\mathbbm{1}$\footnote{
+Nous omettons délibérément la dimension de l'espace sur lequel agit l'opérateur d'identité. Celui-ci devrait en toute rigueur s'écrire $\mathbbm{1}\otimes \mathbbm{1} = \mathbbm{1}^{\otimes 2}$.
+} et $\sigma_i^\alpha$ permet de générer tous les opérateurs agissant sur la paire de spins.
+Nous pouvons ainsi réécrire le hamiltonien d'interaction \eqref{eq:V_eff_nCnC_n'Cn'c} sous la forme
+%
+\begin{equation}
+\label{eq:Veff_2at_Pauli}
+\begin{aligned}
+\hat{V}_{eff}/h &= \delta E~\mathbbm{1}
++ \frac{\delta\zeta}{2}\left( \sigma_1^z + \sigma_2^z \right)
++ J_z\left( \sigma_1^z \sigma_2^z \right)
++ J \left( \sigma_1^x \sigma_2^x + \sigma_1^y \sigma_2^y \right) \\
+&= \left( \begin{array}{cccc}
+\delta E + \delta \zeta + J_z & 0 & 0 & 0 \\
+0 & \delta E - J_z & 2J & 0 \\
+0 & 2J & \delta E - J_z & 0 \\
+0 & 0 & 0 & \delta E - \delta \zeta + J_z \\
+\end{array} \right),
+\end{aligned}
+\end{equation}
+%
+où l'on identifie :
+%
+\begin{equation}
+\label{eq:ident_XXZ}
+\left\{
+\begin{aligned}
+\delta E &= \left( \CnCnC + 2\CnCnpC + \CnpCnpC \right)/4, \\
+\delta \zeta &= \left( \CnCnC - \CnpCnpC \right)/2, \\
+J_z &= \left( \CnCnC - 2\CnCnpC + \CnpCnpC \right)/4, \\
+J &= \AnCnpC /2~.
+\end{aligned} \right.
+\end{equation}
+%
+Notons que le terme $\delta E \mathbbm{1}$ ne fait que redéfinir l'origine des énergies, et peut donc être ignoré.
+Le hamiltonien d'interaction de la paire devient ainsi
+\begin{equation}
+\label{eq:XXZint_2atoms}
+\hat{V}_{eff,\text{2 atomes}}/h = \frac{\delta\zeta}{2}\left( \sigma_1^z + \sigma_2^z \right)
++ J_z\left( \sigma_1^z \sigma_2^z \right)
++ J \left( \sigma_1^x \sigma_2^x + \sigma_1^y \sigma_2^y \right).
+\end{equation}
+%connu comme \og hamiltonien XXZ \fg{}.
+
+	\subsection{Extension à une chaîne de $N$ atomes et habillage microonde}
+\noindent Le hamiltonien d'interaction à deux atomes s'étend facilement à une chaîne de $N$ atomes régulièrement espacés d'un distance $r$ et numérotés de $1$ à $N$.
+Nous pouvons ici négliger les interactions au-delà du premier voisin.
+En effet, dès lors que les termes d'interaction évoluent en $1/r^6$, la contribution d'un second voisin est $\SI{64}{}$ fois plus petite que celle des premiers voisins.
+Le hamiltonien d'interaction d'une telle chaîne de spin s'écrit alors, en généralisant le hamiltonien à deux atomes \eqref{eq:XXZint_2atoms},
+%
+\begin{equation}
+\label{eq:XXZint_Natoms}
+\hat{V}_{eff,\text{N}}/h =
+\frac{\delta\zeta}{2} \left( \sigma_1^z + \sigma_N^z \right)
++ \delta\zeta \sum_{i=2}^{N-1} \sigma_i^z
++ J_z \sum_{i=1}^{N-1} \sigma_i^z \sigma_{i+1}^z
++ J \sum_{i=1}^{N-1} \left( \sigma_i^x \sigma_{i+1}^x + \sigma_i^y \sigma_{i+1}^y \right) ,
+\end{equation}
+%
+où les opérateurs de spin $\sigma_i^\alpha$ agissant sur l'atome $i$ sont définis par
+%
+\begin{equation}
+\label{eq:Pauli_Natoms}
+\sigma_i^\alpha = \overset{\substack{1\\ \downarrow \\}}{\mathbbm{1}}
+\otimes\dots\otimes \overset{\substack{i\\ \downarrow \\}}{\sigma^\alpha}
+\otimes\dots\otimes \overset{\substack{N\\ \downarrow \\}}{\mathbbm{1}}.
+\end{equation}
+%
+Le premier terme du hamiltonien \eqref{eq:XXZ_Natoms} provient d'un effet de bord :
+les atomes à chaque bout de la chaîne n'ont chacun qu'un seul voisin, cependant que les autres atomes en ont chacun deux.
+L'énergie d'interaction des atomes $1$ et $N$ est donc deux fois inférieure à celle des atomes du \og c\oe ur \fg{} de la chaîne, numérotés de $2$ à $N-1$.
+
+Le hamiltonien d'interaction \eqref{eq:XXZ_Natoms} ne décrit que l'interaction dipôle-dipôle entre ces atomes.
+Or l'évolution de la chaîne de spin dépend également du hamiltonien libre $\hat{H}_0$ de chaque atome, qui induit une différence d'énergie $h\nu_0$ entre les niveaux $\ket{\mathrm{nC}}=\ket{\uparrow}$ et $\ket{\mathrm{n'C}}=\ket{\downarrow}$.
+Cette contribution s'écrit sous la forme d'un hamiltonien libre à $N$ atomes $\hat{H}_{0,N}/h = \frac{\nu_0}{2} \sum_{i=1}^{N}\sigma_i^z$.
+De plus, un champ microonde peut coupler les deux niveaux de atomiques.
+avec une pulsation de Rabi $\Omega$ et un désaccord $\delta\nu$ par rapport à la transition atomique.
+En se plaçant dans le référentiel tournant à la fréquence du champ microonde et sous l'approximation séculaire, ce champ microonde agit sur chaque atome par le hamiltonien $\hat{H}_{\mu o}/h = \frac{\Omega}{2}\sigma_i^x + \frac{\delta\nu}{2} \sigma_i^z$.
+
+Ces deux contributions s'ajoutent au hamiltonien d'interaction, et nous aboutissons à un hamiltonien total
+%
+\begin{equation}
+\label{eq:hamilt_tot_N}
+\begin{aligned}
+\hat{H}/h =& \hat{H}_{0,N}/h + \hat{H}_{\mu o,N}/h + \hat{V}_{eff,N}/h \\
+=& \frac{\nu_0}{2} \sum_{i=1}^{N}\sigma_i^z + \frac{\Omega}{2}\sum_{i=1}^{N}\sigma_i^x + \frac{\delta\nu-\nu_0}{2}\sum_{i=1}^{N}\sigma_i^z 
++\frac{\delta\zeta}{2} \left( \sigma_1^z + \sigma_N^z \right)
++ \delta\zeta \sum_{i=2}^{N-1} \sigma_i^z \\
+&+ J_z \sum_{i=1}^{N-1} \sigma_i^z \sigma_{i+1}^z
++ J \sum_{i=1}^{N-1} \left( \sigma_i^x \sigma_{i+1}^x + \sigma_i^y \sigma_{i+1}^y \right).
+\end{aligned}
+\end{equation}
+%
+La factorisation de cette expression amène finalement au hamiltonien \og XXZ \fg{} d'une chaîne de spins couplés :
+\begin{equation}
+\label{eq:XXZ_Natoms}
+\begin{aligned}
+\hat{H}_{\text{XXZ,N}} =
+J\cdot & \left[
+\sum_{i=1}^{N-1} \left( \sigma_i^x\sigma_{i+1}^x 
++ \sigma_i^y \sigma_{i+1}^y
++ \frac{J_z}{J} \sigma_i^z\sigma_{i+1}^z \right) \right. \\
+&\left. + \frac{\Delta}{2J}\sum_{i=1}^{N} \sigma_i^z
++ \frac{\Omega}{2J}\sum_{i=1}^{N} \sigma_i^x \right]
+- \frac{\delta\zeta}{2}\left( \sigma_1^z + \sigma_N^z \right),
+\end{aligned}
+\end{equation}
+où $\Delta=\delta\nu+\delta\zeta$.
+Sous cette forme, le couplage transverse entre les spins de la chaîne est réglé par le paramètre $J$ et le couplage longitudinal par le paramètre $J_z$.
+Le paramètre d'anisotropie du couplage est donné directement par le rapport $J_z/J$.
+Le couplage microonde entre les niveaux atomiques est équivalent, pour des spins, à la présence d'un champ magnétique externe.
+La composante longitudinale de ce \og champ \fg{} est représentée par le terme $\Delta/(2J)$ et sa composante transverse par le terme $\Omega/(2J)$.
+Le dernier terme du hamiltonien représente l'effet de bord de la chaîne évoqué plus haut, qui déplace l'énergie des atomes à chaque bout de la chaîne.
+
+Les paramètres permettant l'exploration de différents régimes d'interaction et d'évolution de la chaîne se réduisent en fin de compte aux trois rapports $J_z/J$, $\Omega/J$ et $\Delta/J$.
+
+	\subsection{Contrôle du hamilotnien et choix des niveaux 50C et 48C}
+\noindent Le niveau de contrôle du hamiltonien \eqref{eq:XXZ_Natoms} est limité par la gamme accessible au rapport $J_z/J$.
+Les rapports $\Omega/J$ et $\Delta/J$ sont en effet facilement contrôlables par les paramètres du champ microonde utilisé, alors que $J_z/J$ dépend des niveaux atomiques choisis et des champs électrique et magnétique extérieurs.
+
+Le rapport $J_z/J$ dépend tout particulièrement de la différence de nombre quantique principal entre les deux niveaux atomiques choisis.
+La dépendance des termes d'échange et d'interaction directe en fonction des niveaux atoiques est discutée en détail dans la thèse de Thanh Long Nugyen \cite{PHD_NGUYEN}.
+Les calculs d'interaction montrent que pour une paire $\ket{\mathrm{nC},\mathrm{n'C}}$, si $|n-n'|=1$, le terme d'échange est très grand et varie en $1/r^3$.
+On se trouve alors dans une situation où $J_z/J$ est toujours petit devant $1$ et dépend de la distance inter-atomique.
+% et où, de plus, les interactions évoluent souvent en $1/r^3$.
+%De plus, une forte interaction d'échange a pour conséquence l'apparition d'une branche attractive forte, comme évoqué en \ref{subsec:inter_60Snl}.
+Au contraire, si $|n-n'|>2$ alors le terme d'échange devient vite négligeable et $J_z/J$ est toujours grand devant $1$.
+On se trouve dans une situation quasi classique où l'interaction entre les particules se limite à un déplacement d'énergie répulsif.
+Enfin, la situation $|n-n'|=2$ permet d'obtenir des termes d'échange et d'interaction directe qui sont comparables et évoluent tous deux en $1/r^6$.
+Le rapport $J_z/J$ ne dépend pas que de la différence $|n-n'|$, mais aussi du nombre quantique principal $n$ lui-même.
+En effet, les termes d'interaction directe et d'échange entre les niveaux $\ket{\mathrm{nC}}$ et $\ket{\mathrm{(n-2)C}}$ ne varient pas de la même façon avec $n$.
+Le choix $n=50,n'=48$ permet de se situer dans un domaine propice à la flexibilité du simulateur, où $J_z$ et $J$ sont comparables, tout en laissant la possibilité de contrôler la valeur de $J_z/J$ en faisant varier les champs électrique et magnétique extérieurs.
+La figure \eqref{fig:Jz_Jscan} représente les valeurs accessibles de $J_z/J$ pour les niveaux $\ket{\mathrm{50C}}$ et $\ket{\mathrm{48C}}$, en fonction du champ électrique imposé, pour différents champs magnétiques.
+%
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/circsim/Jz_Jscan}
+\caption[Variation de $J_z/J$]{
+Variation de $J_z/J$ pour une paire d'atomes dans les niveaux $\ket{\mathrm{50C}}$ et $\ket{\mathrm{48C}}$, en fonction du champ électrique $F$.
+Le champ électrique est dirigé selon $Oz$ et les atomes sont situés sur l'axe $Ox$.
+Les points sont obtenus par diagonalisation du hamiltonien de paire complet pour différentes valeurs de champ magnétique $B_z=\SI{9}{},\SI{10}{},\SI{11}{},\SI{12}{},\SI{13}{},\SI{14}{}$ et $\SI{15}{\gauss}$, de gauche à droite (points de couleur magenta, noir, bleu, vert, rouge, cyan et violet respectivement).
+Les lignes qui les relient sont des guides visuels.
+}
+\label{fig:Jz_Jscan}
+\end{figure}
+
+Quelle physique ? Diagramme de phase.
+%
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/circsim/phase_diagram}
+\caption[Diagramme de phase]{
+Diagramme de phase.
+}
+\label{fig:phase_diagram}
+\end{figure}
+
+\newpage
 
 \section{Principes techniques du simulateur}
 	\subsection{Piégeage laser des Rydberg circulaires}

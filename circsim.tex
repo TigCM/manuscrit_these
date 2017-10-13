@@ -7,17 +7,53 @@
 Un premier obstacle majeur s'oppose à cette idée.
 La préparation d'une chaîne régulière d'atomes de Rydberg dans le niveau $\mathrm{60S}$ en s'appuyant sur le mécanisme d'excitation facilitée paraît difficile \cite{PHD_NGUYEN}.
 
-Nous présentons ici une proposition de simulateur quantique à partir d'atomes de Rydberg circulaires piégés par laser.
-Cette proposition est formulée en détail dans la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN}.
-L'article \cite{ENS_PRE_CIRCSIM} en reprend les points essentiels.
+Nous présentons ici une proposition de simulateur quantique fondé sur des atomes de Rydberg circulaires piégés par laser.
+Cette proposition est ébauchée dans la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN} et l'article \cite{ENS_PRE_CIRCSIM} en discute les points essentiels.
 
 Le simulateur proposé repose sur les interactions entre atomes de Rydberg circulaires.
-Nous dirons quelques mots de celles-ci en présence d'un champ électrique et d'un champ magnétique externe, en complément de \ref{subsec:interac50C_I}.
+Après avoir présenté le principe général du simulateur, nous dirons quelques mots des interactions entre atomes de Rydberg circulaires en présence d'un champ électrique et d'un champ magnétique externe, en complément de \ref{subsec:interac50C_I}.
 Ces interactions permettent de simuler le hamiltonien \og XXZ \fg{} d'une chaîne de spins $1/2$, que nous présenterons.
 Nous terminerons ce chapitre avec une discussion des points techniques nécessaires à la réalisation d'un tel simulateur : le piégeage laser des atomes de Rydberg circulaires, l'allongement de leur durée de vie par inhibition de l'émission spontanée et la préparation déterministe d'une chaîne de tels atomes.
 
+\section{Principe général du simulateur}
+\noindent Le simulateur quantique que nous proposons est schématisé en figure \ref{fig:scheme_simul}.
+%
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/circsim/scheme_simulator}
+\caption[Schéma de principe du simulateur quantique]
+{Schéma de principe du simulateur quantique proposé.
+Les atomes de Rydberg circulaires, représentés par les sphères rouges, sont placés dans un condensateur et piégés dans des faisceaux laser : un faisceau \og creux \fg{} selon l'axe $Ox$, représenté en bleu, et un réseau ajustable créé par l'interférence de deux faisceaux quasi-parallèles, représentés en vert.
+}
+\label{fig:scheme_simul}
+\end{figure}
+%
+%
+Des atomes de Rydberg circulaires sont piégés par un potentiel pondéro-moteur créé par des faisceaux laser de longueur d'onde $\lambda = \SI{1064}{\nano\meter}$.
+Le confinement radial sur l'axe $Ox$ est assuré par un faisceau \og creux \fg{} présentant un profil d'intensité de Laguerre-Gauss.
+Le confinement longitudinal est assuré par un réseau unidimensionnel ajustable, formé par l'interférence de deux faisceaux se propageant dans le plan $xOy$, présentant des angles petits et opposés par rapport à l'axe $Oy$.
+La variation de cet angle peut mener à un pas de réseau de $r=\SI{5}{}$ ou $\SI{7}{\um}$ par exemple, ces deux valeurs correspondant respectivement à un régime d'interaction dipôle-dipôle forte ou modérée.
+Le principe du piégeage pondéro-moteur des atomes de Rydberg circulaires, ainsi que la géométrie des lasers de piégeage, seront discutés en \ref{subsec:circ_laser_trapping}.
 
-\section{Les interactions dipôle-dipôle entre atomes de Rydberg circulaires}
+Les atomes de Rydberg circulaires piégés sont placés à l'intérieur d'un condensateur formé par deux électrodes planes parallèles au plan $xOy$.
+En premier lieu, cela inhibe l'émission spontanée $\sigma^+$ du niveau circulaire $\mathrm{nC}$ vers le niveau circulaire $\mathrm{(n-1)C}$.
+Comme nous l'avons vu en \ref{subsec:level_50C}, ce canal d'émission est largement responsable de la durée de vie finie des niveaux circulaires.
+L'inhibition de ce canal par le condensateur permettra d'accroître significativement la durée de vie des niveaux de Rydberg, jusqu'à des temps de l'ordre de la centaine de secondes.
+Le temps de vie des atomes circulaires dans un tel condensateur sera discuté en \ref{subsec:inhibition}.
+Le condensateur permet en second lieu, d'imposer un champ électrique statique homogène selon l'axe $Oz$.
+
+Une technique analogue au refroidissement évaporatif, reposant sur les interactions répulsives entre atomes de Rydberg, permet de préparer de façon déterministe une chaîne régulière de plusieurs dizaines d'atomes de Rydberg circulaires.
+\`A la fin d'une simulation, les atomes de Rydberg pourront être détectés un par un grâce à cette même technique, qui sera discutée en \ref{subsec:vdW_evap}.
+
+Les états de spin $\ket{\uparrow}$ et $\ket{\downarrow}$ sont encodés sur les états de Rydberg circulaires $\mathrm{50C}$ et $\mathrm{48C}$ respectivement.
+Ces deux états sont couplés par une transition microonde à deux photons.
+L'interaction dipôle-dipôle est alors analogue à un hamiltonien XXZ pour une chaîne de spins $1/2$ en interaction avec leurs plus proches voisins.
+Le contrôle des champs électrique et magnétique ainsi que de la source microonde couplant les deux niveaux de Rydberg autorisent un contrôle précis et rapide du hamiltonien simulé, sur une large gamme de paramètres.
+Cette analogie entre atomes de Rydberg circulaires et spins $1/2$ est établie en \ref{sec:circ_interactions}, où nous discuterons le choix des niveaux $\mathrm{50C}$ et $\mathrm{48C}$ ainsi que le contrôle du hamiltonien et le diagramme de phase qui en découle.
+
+
+
+\section{Les interactions dipôle-dipôle entre atomes de Rydberg circulaires}\label{sec:circ_interactions}
 \noindent Les interactions dipôle-dipôle entre atomes de Rydberg circulaires sont au c\oe ur de notre proposition de simulateur.
 Comme nous l'avons mentionné en \ref{subsec:interac50C_I}, la présence d'un champ électrique externe permet de fixer un axe de quantification, et donc de fixer l'orientation des orbites de grand moment cinétique.
 Dans la présente discussion, nous considérerons que les atomes de Rydberg circulaires sont placés sur un axe $Ox$, perpendiculaire au champ directeur selon $Oz$, tels que représentés en figure \eqref{fig:double_torus}.
@@ -40,19 +76,6 @@ Le champ électrique est dirigé selon $Oz$, perpendiculaire au vecteur qui sép
 \label{fig:ener_StarknC_nCnC}
 \end{figure}
 
-%\noindent Il est utile de rappeler ici la forme analytique de l'énergie des niveaux proches du circulaire en présence d'un champ électrique $\vec{F}$, tirée de l'équation \eqref{eq:Stark_circular} :
-%%
-%\begin{equation}
-%\label{eq:Stark_nC_explicit}
-%\begin{aligned}
-%E_{\mathrm{nC}} &= -\frac{1}{2n^2} - \frac{1}{16}n^4(8n^2+18n+10)|\vec{F}|^2\\
-%&=-\frac{1}{2n^2}+\alpha_{\mathrm{nC}}|\vec{F}|^2 ,\\
-%E_{\mathrm{nE^{\pm}}} &= -\frac{1}{2n^2} \pm \frac{3n}{2}|\vec{F}| -  \frac{1}{16}n^4(8n^2+36n-20)|\vec{F}|^2 \\
-%&=-\frac{1}{2n^2} \pm \frac{3n}{2} +\alpha_{\mathrm{nE^{\pm}}}|\vec{F}|^2 ,
-%\end{aligned}
-%\end{equation}
-%%
-%où les coefficients $\alpha$ d'effet Stark quadratique sont introduits pour simplifier l'écriture.
 
 Il s'agit maintenant de comprendre quelle forme prend l'interaction dipôle-dipôle dans le cas présent.
 Replaçons nous dans le cas de deux atomes séparés d'une distance $r$.
@@ -74,7 +97,7 @@ La figure (\ref{fig:ener_StarknC_nCnC} b) représente les niveaux de paire proch
 Ces couplages quasi résonants, dès lors que la distance entre les atomes est suffisamment petite, perturbent le niveau $\ket{\mathrm{nC,nC}}$ en le mélangeant aux niveaux de paires d'énergie suffisamment proche.
 C'est ce que nous avions vu en \ref{subsec:interac50C_I} : en figure \eqref{fig:VdW_50C50C_1Vcm}, lorsque les deux atomes de la paire sont plus proches que $\SI{10}{\um}$, l'état propre du hamiltonien complet s'éloigne du niveau non perturbé $\ket{\mathrm{50C,50C}}$.
 Cet effet de mélange a plusieurs conséquences néfastes.
-Tout d'abord, l'interaction dipôle-dipôle ne peut plus être simplement approximée par un déplacement d'énergie en $1/r^6$ entre deux atomes dans un niveau de paire $\ket{n,k,m}\ket{n,k,m}$.
+Tout d'abord, l'interaction dipôle-dipôle ne peut plus être simplement représentée par un déplacement d'énergie en $1/r^6$ entre deux atomes dans un niveau de paire $\ket{n,k,m}\ket{n,k,m}$.
 De plus, le mélange avec les niveaux elliptiques réduit le temps de vie du niveau de paire à deux atomes circulaires.
 En effet, les niveaux elliptiques peuvent être deséxcités par des transitions $\pi$ vers la multiplicité inférieure alors que le niveau circulaire ne peut être deséxcité que par une transition $\sigma^+$.
 Or le dispositif d'inhibition de l'émission spontanée que nous proposons, qui sera discuté en \ref{subsec:inhibition}, ne peut inhiber que l'émission spontanée $\sigma^+$.
@@ -87,7 +110,7 @@ Les niveaux de paire non perturbés sont d'autant plus distants en énergie que 
 Cependant, la variation du champ électrique nous servira à faire varier l'interaction elle-même comme nous l'expliquerons en \ref{subsec:tunability}.
 Le second moyen dont nous disposons est l'imposition d'un champ magnétique extérieur $B_z$, orienté selon $Oz$, qui déplacera les niveaux par effet Zeeman.
 
-Le hamiltonien Zeeman pour un état circulaire prend alors la forme%\footnote{
+Le hamiltonien Zeeman pour un état circulaire prend la forme%\footnote{
 %on néglige le spin de l'électron
 %}
 \begin{equation}
@@ -359,33 +382,100 @@ La figure \eqref{fig:Jz_Jscan} représente les valeurs accessibles de $J_z/J$ po
 \includegraphics[width=0.7\linewidth]{figures/circsim/Jz_Jscan}
 \caption[Variation de $J_z/J$]{
 Variation de $J_z/J$ pour une paire d'atomes dans les niveaux $\ket{\mathrm{50C}}$ et $\ket{\mathrm{48C}}$, en fonction du champ électrique $F$.
-Le champ électrique est dirigé selon $Oz$ et les atomes sont situés sur l'axe $Ox$.
+Le champ électrique est dirigé selon $Oz$ et les atomes sont séparés d'une distance $r=\SI{5}{\um}$ selon l'axe $Ox$.
 Les points sont obtenus par diagonalisation du hamiltonien de paire complet pour différentes valeurs de champ magnétique $B_z=\SI{9}{},\SI{10}{},\SI{11}{},\SI{12}{},\SI{13}{},\SI{14}{}$ et $\SI{15}{\gauss}$, de gauche à droite (points de couleur magenta, noir, bleu, vert, rouge, cyan et violet respectivement).
 Les lignes qui les relient sont des guides visuels.
 }
 \label{fig:Jz_Jscan}
 \end{figure}
+%
 
-Quelle physique ? Diagramme de phase.
+Les niveaux atomiques choisis permettent de varier facilement le rapport $J_z/J$ sur une large gamme allant de $-3$ à $+3$, en balayant le champ électrique $F$.
+Le contrôle de la source microonde couplant les niveaux atomiques $\mathrm{50C}$ et $\mathrm{48C}$ permet de varier facilement les termes $\Omega$ et $\Delta$ du hamiltonien \eqref{eq:XXZ_Natoms}.
+Le contrôle du champ électrique comme de la source microonde sont rapides, de l'ordre de la nano-seconde.
+Le hamiltonien est ainsi sous contrôle expérimental intégral, à des échelles temporelles très inférieures au temps caractéristique de l'évolution du système, dominé par le terme d'échange dans l'interaction.
+Ce temps d'échange est donné par $\tau_{\text{\'ech}} = 1/(4J) = \SI{14.7}{\us}$ si les atomes sont séparés de $r=\SI{5}{\um}$ et $\SI{108}{\us}$ si les atomes sont séparés de $r=\SI{7}{\um}$.
+
+Grâce à ce très bon niveau de contrôle du hamiltonien, il est possible d'explorer à volonté le diagramme de phase présenté en figure \eqref{fig:phase_diagram}, extrait des résultats de \cite{MX_DMITRIEV02} et détaillé dans \cite{ENS_PRE_CIRCSIM}.
 %
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\linewidth]{figures/circsim/phase_diagram}
-\caption[Diagramme de phase]{
-Diagramme de phase.
+\caption[Diagramme de phase XXZ]{
+Schéma du diagramme de phase du hamiltonien \eqref{eq:XXZ_Natoms} pour $\Delta=0$ et en négligeant le terme d'effet de bord $\delta\zeta$.
+Les différentes phases représentées sont : une phase $P_x$ dans laquelle les spins suivent un ordre ferromagnétique selon la direction $x$, une phase $F$ ferromagnétique selon la direction $z$, deux phases de Néel $N_y$ et $N_z$ selon les axes $y$ et $z$ repsectivement.
+La phase $P_x$ est séparée des autres par des lignes \og de transition d'Ising \fg{}, le long desquelles le système se réduit au modèle d'Ising.
+Le long des frontières entre les phases $N_z$ et $N_y$ et entre les phases $N_y$ et $F$, le système se comporte comme un \og liquide de Luttinger \fg{}, généralisation en présence d'un champ magnétique des \og points de Heisenberg \fg{}.
+Le point singulier $XY$ marque la situation où le terme $J_z$ est nul.
 }
 \label{fig:phase_diagram}
 \end{figure}
-
-\newpage
+%
+Ce diagramme de phase présente une grande richesse de phases et de transitions de phase.
+Une approche statique permettrait de calibrer le simulateur sur des phases connues, puis de simuler une évolution adiabatique passant par des transitions de phase quantiques.
+Le rapidité de contrôle du hamiltonien permettrait ensuite de simuler des trempes : des changements de paramètres brusques induisant des états hors-équilibre.
 
 \section{Principes techniques du simulateur}
-	\subsection{Piégeage laser des Rydberg circulaires}
+\noindent Dans la seconde partie de ce chapitre, nous discutons les techniques nécessaires à la réalisation du simulateur quantique proposé :
+le piégeage laser des atomes de Rydberg circulaire, l'accroissement de leur durée de vie par inhibition de l'émission spontanée et la méthode d'\og évaporation van der Waals \fg{} permettant la préparation déterministe d'une chaîne régulière d'atomes de Rydberg.
+
+	\subsection{Piégeage laser des Rydberg circulaires}\label{subsec:circ_laser_trapping}
+\noindent Les atomes de Rydberg circulaires peuvent être piégés grâce au potentiel pondéro-moteur créé, pour l'électron de valence, par un faisceau laser.
+Cet électron de valence, quasi libre, se comporte comme une particule chargée dans un champ électrique rapidement oscillant.
+Il subit ainsi un déplacement d'énergie positif, proportionnel à l'intensité lumineuse $I_L$ \cite{MX_FABRERYDHF76} :
+\begin{equation}
+\label{eq:pondero_energy}
+\mathcal{E} = \frac{q^2}{2m_e \epsilon_0 c \omega_L^2} I_L
+= \frac{h\alpha}{m_e\omega_L^2}I_L,
+\end{equation}
+où $\omega_L/2\pi$ est la fréquence du laser et $\alpha = q^2/(4\pi\hbar\epsilon_0 c)$ est la constante de structure fine.
+Le c\oe ur positif de l'atome de Rydberg subit un déplacement d'énergie négatif $\mathcal{E}_{\text{c\oe ur}} = - h\alpha I_L/(M\omega_l^2)$, où $M$ est la masse du c\oe ur atomique.
+Celle-ci étant très grande devant la masse $m_e$ de l'électron, l'effet du laser sur le c\oe ur atomique peut être négligé.
+En fin de compte, le potentiel pondéro-moteur \eqref{eq:pondero_energy} agit sur l'atome de Rydberg de sorte que celui-ci recherche les basses intensités lumineuses.
+
+La géométrie que nous cherchons à obtenir est une chaîne unidimensionnelle.
+Le confinement radial selon l'axe $Ox$ est assuré par un faisceau \og creux \fg{} de longueur d'onde $\lambda=\SI{1064}{\nano\meter}$, présentant un profil d'intensité de Laguerre-Gauss d'ordre $(0,1)$.
+Ce profil d'intensité $LG_0^1$ est proportionnel à $(2\rho^2/w^4)\cdot e^{-2\rho^2/w^2}$, où $\rho$ est la distance à l'axe optique et $w$ le col du faisceau\footnote{
+La définition du col pour un profil de Laguerre-Gauss découle directement de celle pour un faisceau gaussien.
+}.
+La figure (\ref{fig:pondero_trap} a) représente le potentiel créé par ce faisceau dans le plan $x=0$, pour une puissance laser de $\SI{0.5}{\watt}$ focalisée sur un col $w=\SI{7}{\um}$.
+Dans ces conditions, les atomes sont piégés transversalement à l'axe $Ox$ avec des fréquences de piégeage $\omega_y=\omega_z= 2\pi\times \SI{12}{\kHz}$.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figures/circsim/pondero_trap}
+\caption[Potentiel de piégeage pondéro-moteur]{
+\textbf{a)} Coupe dans le plan $yOz$ du potentiel pondéro-moteur créé par le faisceau Laguerre-Gauss se propageant selon l'axe $Ox$.
+\textbf{b)}Coupe dans le plan $xOz$ du potentiel de piégeage pondéro-moteur créé par le faisceau Laguerre-Gauss et les deux faisceaux gaussiens en interférence.
+Le potentiel est exprimé en unités de fréquence. L'échelle de couleur est commune aux deux graphes.
+}
+\label{fig:pondero_trap}
+\end{figure}
+	
+Le confinement longitudinal doit permettre de fixer la distance séparant les atomes de la chaîne.
+Ce piégeage doit donc être périodique.
+En effet, l'interaction de van der Waals répulsive les atomes de Rydberg entraînerait un mouvement important des atomes le long de l'axe $Ox$ en l'absence de piégeage périodique longitudinal.
+Afin de réaliser ce confinement, nous proposons d'utiliser un réseau lumineux d'un pas ajustable de l'ordre de $d=\SI{5}{}$ à $\SI{7}{\um}$.
+Ce réseau est créé par l'interférence à petit angle de deux faisceaux gaussiens.
+Ceux-ci sont décalés en fréquence de quelques dizaines de $\SI{}{\MHz}$ par rapport au faisceau Laguerre-Gauss afin de ne pas interférer avec lui.
+Les deux faisceaux gaussiens se propagent dans le plan $xOy$ avec un angle $\pm \theta$ par rapport à l'axe $Oy$.
+Pour obtenir un pas de réseau de $d=\SI{5}{}$ ou $\SI{7}{\um}$, cet angle doit prendre respectivement les valeurs $\theta=\SI{5.7}{\degree}$ ou $\theta = \SI{4.1}{\degree}$.
+Ces deux faisceaux gaussiens sont allongés selon l'axe $Ox$ afin que le réseau créé puisse recouvrir toute la longueur de la chaîne atomique.
+Ainsi, leur col selon $x$ vaut $w_x = \SI{200}{\um}$ alors que leur col selon $z$ vaut $w_z=\SI{7}{\um}$.
+Dans ces conditions, et avec une puissance totale par faisceau de $\SI{1.45}{\watt}$ pour $d=\SI{5}{\um}$, ou de $\SI{2.8}{\watt}$ pour $d=\SI{7}{\um}$, les atomes sont piégés dans la direction $x$ avec une fréquence $\omega_x = 2\pi \times \SI{24}{\kHz}$ et une profondeur de piège proche de $\SI{4}{\MHz}$, soit environ $\SI{200}{\uK}$.
+
+Le potentiel créé dans le plan $xOz$ par la superposition du faisceau Laguerre-Gauss et de ces deux faisceaux gaussiens est représenté en figure (\ref{fig:pondero_trap} b), pour un pas de réseau de $\SI{5}{\um}$.
+Nous disposons ainsi d'une chaîne de pièges profonds régulièrement espacés sur l'axe $Ox$.
+
+
+
+
+	
+	
+	
+	
 	\subsection{Préservation des états de Rydberg}\label{subsec:inhibition}
 		\subsubsection*{Temps de vie dans l'espace libre}
 		\subsubsection*{Inhibition de l'émission spontanée}
 		\subsubsection*{Problème du mixing et solution}
-	\subsection{Préparation déterministe d'une chaîne}
-
-\newpage
-Reprendre le PRX
+	\subsection{Préparation déterministe d'une chaîne}\label{subsec:vdW_evap}

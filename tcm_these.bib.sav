@@ -534,4 +534,31 @@
   url       = {https://link.aps.org/doi/10.1103/PhysRevLett.47.233},
 }
 
+@Article{MX_DMITRIEV02,
+  author    = {Dmitriev, D. V. and Krivnov, V. Ya. and Ovchinnikov, A. A. and Langari, A.},
+  title     = {One-dimensional anisotropic {H}eisenberg model in the transverse magnetic field},
+  journal   = {Journal of Experimental and Theoretical Physics},
+  year      = {2002},
+  volume    = {95},
+  number    = {3},
+  pages     = {538--549},
+  file      = {MX_DMITRIEV02.pdf:mx/MX_DMITRIEV02.pdf:PDF},
+  keywords  = {mx,transport,theory},
+  owner     = {jmr},
+  timestamp = {2017-06-18},
+}
+
+@Article{MX_FABRERYDHF76,
+  author    = {Avan, P. and Cohen-Tannoudji, C. and Dupont-Roc, J. and Fabre, C.},
+  title     = {Effect of high-frequency irradiation on the dynamical Properties of weakly bound Electrons},
+  journal   = {Journal de Physique},
+  year      = {1976},
+  volume    = {37},
+  pages     = {993-1009},
+  file      = {MX_FABRERYDHF76.pdf:Users/jean-michel.raimond/Documents/bibliography/mx/MX_FABRERYDHF76.pdf:PDF},
+  keywords  = {mx,Rydberg,theory},
+  owner     = {jmr},
+  timestamp = {2017-03-28},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

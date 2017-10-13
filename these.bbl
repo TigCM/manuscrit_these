@@ -1100,6 +1100,61 @@
       \field{title}{Towards quantum simulation with circular Rydberg atoms}
       \field{year}{2017}
     \endentry
+    \entry{MX_DMITRIEV02}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=296aa6ce181ac01f87704755874edd2c}{Dmitriev}{D\bibinitperiod}{D.\bibnamedelimi V.}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=6e49c9bed9c64f90d34e09468f338302}{Krivnov}{K\bibinitperiod}{V.\bibnamedelimi Ya.}{V\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=a58ccef6981d1ba15f5646a521a93eeb}{Ovchinnikov}{O\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=4ab97483859fb5f79eeaa6f5f0bcb8f7}{Langari}{L\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=296aa6ce181ac01f87704755874edd2c}{Dmitriev}{D\bibinitperiod}{D.\bibnamedelimi V.}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=6e49c9bed9c64f90d34e09468f338302}{Krivnov}{K\bibinitperiod}{V.\bibnamedelimi Ya.}{V\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=a58ccef6981d1ba15f5646a521a93eeb}{Ovchinnikov}{O\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=4ab97483859fb5f79eeaa6f5f0bcb8f7}{Langari}{L\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{243046143fa3141916b9816ec1a8f033}
+      \strng{fullhash}{65c7957b4d3148730c0daa4530ed097d}
+      \field{sortinit}{0}
+      \field{labeltitle}{One-dimensional anisotropic {H}eisenberg model in the transverse magnetic field}
+      \field{journaltitle}{Journal of Experimental and Theoretical Physics}
+      \field{number}{3}
+      \field{title}{One-dimensional anisotropic {H}eisenberg model in the transverse magnetic field}
+      \field{volume}{95}
+      \field{year}{2002}
+      \field{pages}{538\bibrangedash 549}
+      \verb{file}
+      \verb MX_DMITRIEV02.pdf:mx/MX_DMITRIEV02.pdf:PDF
+      \endverb
+      \keyw{mx,transport,theory}
+    \endentry
+    \entry{MX_FABRERYDHF76}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=63bb2cfe7863655efd6f4e9d62e9b808}{Avan}{A\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0866ab881a83c572020279e903749986}{Cohen-Tannoudji}{C\bibinithyphendelim T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=8ddb2693efad1b148d33726d72736ca4}{Dupont-Roc}{D\bibinithyphendelim R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=58148a9f26caab9d9eb677a8ceb2b64e}{Fabre}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=63bb2cfe7863655efd6f4e9d62e9b808}{Avan}{A\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0866ab881a83c572020279e903749986}{Cohen-Tannoudji}{C\bibinithyphendelim T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=8ddb2693efad1b148d33726d72736ca4}{Dupont-Roc}{D\bibinithyphendelim R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=58148a9f26caab9d9eb677a8ceb2b64e}{Fabre}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{533adcb495eedb8a19b47a69d27c87d0}
+      \strng{fullhash}{3067a2d8694947a0da6e2b1e2e777b18}
+      \field{sortinit}{0}
+      \field{labeltitle}{Effect of high-frequency irradiation on the dynamical Properties of weakly bound Electrons}
+      \field{journaltitle}{Journal de Physique}
+      \field{title}{Effect of high-frequency irradiation on the dynamical Properties of weakly bound Electrons}
+      \field{volume}{37}
+      \field{year}{1976}
+      \field{pages}{993\bibrangedash 1009}
+      \verb{file}
+      \verb MX_FABRERYDHF76.pdf:Users/jean-michel.raimond/Documents/bibliography/mx/MX_FABRERYDHF76.pdf:PDF
+      \endverb
+      \keyw{mx,Rydberg,theory}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

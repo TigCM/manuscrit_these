@@ -59,7 +59,7 @@ Comme nous l'avons mentionné en \ref{subsec:interac50C_I}, la présence d'un ch
 Dans la présente discussion, nous considérerons que les atomes de Rydberg circulaires sont placés sur un axe $Ox$, perpendiculaire au champ directeur selon $Oz$, tels que représentés en figure \eqref{fig:double_torus}.
 
 %\subsection{La structure des niveaux atomiques et des niveaux de paire près des circulaires}
-\subsection{Les niveaux circulaires en présence de champs électrique et magnétique}
+\subsection{Les niveaux circulaires en présence de champs électrique et magnétique}\label{subsec:circulars_in_fieds}
 \noindent En présence d'un champ électrique, les niveaux à grand moment cinétique d'une même multiplicité voient leur dégénérescence partiellement levée.
 Le diagramme d'énergie de ces niveaux est représenté en figure (\ref{fig:ener_StarknC_nCnC}a)).
 Le niveau circulaire est noté $\ket{\mathrm{nC}}$ et les deux niveaux \og elliptiques \fg{} voisins sont notés $\ket{\mathrm{nE^{\pm}}} = \ket{n,m=n-2,k=\pm1}$.
@@ -411,7 +411,7 @@ Le point singulier $XY$ marque la situation où le terme $J_z$ est nul.
 \label{fig:phase_diagram}
 \end{figure}
 %
-Ce diagramme de phase présente une grande richesse de phases et de transitions de phase.
+Ce diagramme présente une grande richesse de phases et de transitions de phase.
 Une approche statique permettrait de calibrer le simulateur sur des phases connues, puis de simuler une évolution adiabatique passant par des transitions de phase quantiques.
 Le rapidité de contrôle du hamiltonien permettrait ensuite de simuler des trempes : des changements de paramètres brusques induisant des états hors-équilibre.
 
@@ -467,15 +467,121 @@ Dans ces conditions, et avec une puissance totale par faisceau de $\SI{1.45}{\wa
 Le potentiel créé dans le plan $xOz$ par la superposition du faisceau Laguerre-Gauss et de ces deux faisceaux gaussiens est représenté en figure (\ref{fig:pondero_trap} b), pour un pas de réseau de $\SI{5}{\um}$.
 Nous disposons ainsi d'une chaîne de pièges profonds régulièrement espacés sur l'axe $Ox$.
 
-
-
-
-	
-	
-	
 	
 	\subsection{Préservation des états de Rydberg}\label{subsec:inhibition}
-		\subsubsection*{Temps de vie dans l'espace libre}
-		\subsubsection*{Inhibition de l'émission spontanée}
-		\subsubsection*{Problème du mixing et solution}
+\noindent Le piégeage laser présenté ci-dessus permet de fixer les positions des atomes de Rydberg circulaires au sein d'une chaîne unidimensionnelle.
+Si l'on en reste au calcul de \ref{subsec:level_50C}, chaque atome dans le niveau $\mathrm{50C}$ a une durée de vie de $\SI{8.36}{\ms}$.
+Une chaîne de quarante atomes a ainsi une durée de vie de $\SI{8.36}{}/\SI{40}{} = \SI{0.21}{\ms}$.
+Avec des atomes séparés de $d=\SI{5}{\um}$ et donc un temps d'échange $\tau_{\text{éch}} = \SI{14.7}{\us}$, la chaîne d'atomes vit le temps d'une quinzaine d'échanges.
+C'est-à-dire qu'une excitation placée à un bout de la chaîne n'aurait pas le temps de se propager jusqu'au milieu de la chaîne.
+La solution la plus évidente pour rallonger la durée de vie d'un niveau de Rydberg consiste à refroidir l'environnement.
+Cependant, cela ne permettrait ici de l'améliorer que d'un facteur $\SI{8.36}{}/\SI{28.65}{} \simeq \SI{3.5}{}$.
+
+Comme nous l'avons vu en \ref{subsec:level_50C}, le seul processus limitant la durée de vie à température nulle d'un niveau de Rydberg circulaire $\mathrm{nC}$ est la désexcitation spontanée vers le niveau $\mathrm{(n-1)C}$ par une transition $\sigma^+$.
+Inhiber cette transition pourrait ainsi permettre d'augmenter significativement le temps de vie d'un niveau circulaire.
+Mais comment inhiber l'émission spontanée ?
+L'effet Purcell, observé en 1946 \cite{Purcell46_Purcelleffect}, consiste à augmenter le taux d'émission spontanée en plaçant le système émetteur dans une cavité résonante avec la transition considérée.
+Cet effet repose sur l'augmentation des fluctuations du vide électromagnétique dans le mode d'émission.
+Au contraire, il s'agit pour nous de réduire le plus possible ces fluctuations afin d'inhiber l'émission.
+Pour cela, il suffit que la cavité soit de dimensions plus petites que la longueur d'onde du rayonnement que l'on souhaite inhiber \cite{MX_KELPPNER_INHIBITION,MX_KLEPPNERINHIBITION85}.
+Plus, précisément,dans le cas d'un condensateur formée de deux plans parallèles, la distance $D$ entre ces deux plans doit être inférieure à la moitié de la longueur d'onde $\lambda$ du rayonnement :
+%
+\begin{equation}
+\label{eq:condition_inhib}
+D< \lambda/2.
+\end{equation}
+%
+Les transitions $\mathrm{50C}\rightarrow \mathrm{49C}$ et $\mathrm{48C}\rightarrow \mathrm{47C}$ ont des fréquences respectives de $\SI{54.249}{\GHz}$ et $\SI{61.407}{\GHz}$, correspondant à des longueurs d'onde de $\SI{5.525}{\mm}$ et $\SI{4.882}{\mm}$.
+La condition \eqref{eq:condition_inhib} nous impose donc de placer les atomes de Rydberg circulaires dans un condensateur dont les deux plaques sont distantes de $D<\SI{2.4}{\mm}$.
+Dans le cas d'un condensateur infini idéal, cela suffirait à inhiber complètement le rayonnement à ces fréquences, et ainsi à rendre la durée de vie des niveaux circulaires infinie.
+
+En pratique, il est nécessaire de tenir compte de la taille et de la conductivité finies du condensateur dans lequel nous placerons les atomes.
+%De plus, en raison de la température finie de l'environnement, quelques photons thermiques sont présents qui peuvent stimuler des transitions $\pi$ depuis un niveau circulaire $\mathrm{nC}$ vers un niveau elliptique $\mathrm{nE^{\pm}}$ de la multiplicité du dessus.
+%Ces transitions $\pi$ ne sont malheureusement pas inhibées par le condensateur puisqu'elles ont lieu dans le plan de celui-ci.
+Une simulation effectuée avec la suite logicielle CST Studio permet de calculer numériquement le taux d'émission spontanée résiduelle $\Gamma$ des atomes à l'intérieur d'un condensateur formé de deux plaques d'or carrées de côté $a$, refroidies à une température d'$\SI{1}{\K}$ et distantes de $D$.
+La figure \eqref{fig:inhibition_factor} représente le rapport $\Gamma/\Gamma_{\mathrm{48C}}$ en fonction de $a$ et $D$, où $\Gamma_{\mathrm{48C}}$ est le taux d'émission spontanée depuis le niveau circulaire $\mathrm{48C}$ dans l'espace libre.
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=.7\linewidth]{figures/circsim/inhibition_factor}
+\caption[Inhibition de l'émission spontanée en fonction des dimensions du condensateur]{
+Rapport d'inhibition de l'émission spontanée $\Gamma/\Gamma_{\mathrm{48C}}$ en échelle log, en fonction de l'espacement $D$ et de la taille $a$ du condensateur.
+La ligne pointillée se situe à $D=\lambda/2$ et le triangle rouge représente les paramètres choisis $D=\SI{2}{\mm}$ et $a=\SI{13}{\mm}$.
+L'émission spontanée y est inhibée de $\SI{50}{\decibel}$.
+}
+\label{fig:inhibition_factor}
+\end{figure}
+%
+Nous choisissons les paramètres $D=\SI{2}{\mm}$ et $a=\SI{13}{\mm}$, où l'émission spontanée depuis le niveau $\mathrm{48C}$ est inhibée d'un facteur $\SI{50}{\decibel}$.
+Cela amène la durée de vie du niveau $\mathrm{48C}$ à environ $\SI{2500}{\second}$.
+L'effet d'inhibition est encore meilleur pour le niveau $\mathrm{50C}$ puisque l'émission spontanée depuis celui-ci se fait à une longueur d'onde plus grande.
+
+Dès lors que l'on presque supprimé le facteur principal limitant la durée de vie des niveaux de Rydberg, il devient nécessaire de prendre en compte des facteurs qui paraissaient auparavant négligeables :
+la présence de photons thermiques à température finie, les collisions avec le gaz résiduel,  la photo-ionisation due au laser de piégeage ainsi que la diffusion élastique des photons de ce même laser, la relaxation dipolaire, et le mélange des niveaux circulaires avec des niveaux elliptiques.
+
+Le premier de ces facteurs est la température finie de l'environnement.
+Celle-ci induit des photons thermiques dans le domaine microonde qui stimulent la transition $\pi$ depuis le niveau $\mathrm{nC}$ vers l'un des deux niveau elliptiques $\mathrm{(n+1)E^\pm}$ de la multiplicité du dessus.
+Ces transitions ne sont pas inhibées par le condensateur.
+Au contraire, elles sont favorisées par le grand nombre de modes électromagnétiques qui peuvent se propager entre les deux plaques et parallèlement à celles-ci.
+Le taux d'émission de ces transitions est augmenté d'un facteur $\approx \SI{2}{}$.
+Il est donc important de refroidir l'environnement expérimental le mieux possible, et nous proposons une température de $\SI{0.4}{\K}$, accessible avec un cryostat à $^3$He sans dilution.
+Un deuxième facteur de réduction de la durée de vie provient des collisions des atomes avec le gaz résiduel dans l'enceinte à vide.
+
+En environnement cryogénique, des pressions de l'ordre de $\SI{e-14}{\milli\bar}$ sont accessibles sans trop de difficulté \cite{MX_GABRIELSEANTIPROTON90,MX_WERTHCRYOION98}, limitant cet effet.
+La photo-ionisation des atomes de Rydberg due au laser de piégeage doit aussi être prise en compte.
+Heureusement, cet effet reste petit pour les niveaux circulaires, en raison du mauvais recouvrement entre leur fonction d'onde et les fonctions d'onde des électrons dans le continuum
+\footnote{Les fonctions d'onde électroniques dans le continuum oscillent rapidement, alors que la fonction d'onde de l'électron dans un niveau circulaire varie lentement avec la distance au noyau.}.
+Les photons du laser de piégeage peuvent également être élastiquement diffusés par les électrons de Rydberg. L'électron recevrait alors une importante quantité de mouvement causant une transition vers un niveau elliptique.
+La contribution de cet effet peut être calculée dans un modèle classique de diffusion Thomson.
+Les processus de relaxation dipolaire peuvent limiter la durée de vie : une paire d'atomes dans le niveau $\ket{\mathrm{nC,nC}}$ est transférée dans le niveau de paire $\ket{\mathrm{nE^- , nE^-}}$, et l'énergie libérée par cette transition est convertie en énergie cinétique. Les deux atomes elliptiques concernés seraient alors expulsés à grande vitesse.
+Cependant, l'élément de matrice de transition entre l'état initial piégé et l'état final, qui est une onde plane d'énergie élevée, est faible.
+
+Enfin, en raison des interactions dipôle-dipôle, les niveaux de paire circulaire-circulaire sont perturbés et mélangés avec des niveaux de paires elliptiques, comme nous l'avons évoqué en \ref{subsec:circulars_in_fieds}.
+Or les niveaux elliptiques $\mathrm{nE^{\pm}}$ peuvent se désexciter spontanément par d'autres transitions que le niveaux circulaire $\mathrm{nC}$, en particulier vers le niveau $\mathrm{(n-1)C}$ par une transition $\pi$ et vers le niveau $\mathrm{(n-2)C}$ par une transition $\sigma^+$ de plus petite longueur d'onde.
+Aucune de ces deux transitions, représentées en figure \ref{fig:sigma_pi}, n'étant inhibée par le condensateur, il est important de limiter au mieux le mélange des niveaux de paire, en imposant un champ électrique et un champ magnétique qui permettent de lever les dégénérescences entre niveaux de paire.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7 \linewidth]{figures/circsim/sigma_pi}
+\caption[Transitions spontanées depuis les niveaux elliptiques $\mathrm{nE^\pm}$]{
+Transitions spontanées depuis le niveau circulaire $\mathrm{nC}$ et les niveaux elliptiques $\mathrm{nE^\pm}$.
+Les transitions $\sigma^+$ de la multiplicité $n$ vers la multiplicité $n-1$ sont inhibées par le condensateur.
+Les transitions $\pi$ et $\sigma^+$ depuis les niveaux $\mathrm{nE^\pm}$ vers les niveaux $\mathrm{(n-1)C}$ et $\mathrm{(n-2)C}$ respectivement ne sont pas inhibées.
+}
+\label{fig:sigma_pi}
+\end{figure}
+
+Les contributions de chacun de ces effets sont discutées dans la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN} et dans \cite{ENS_PRE_CIRCSIM}.
+Le tableau \ref{tab:lifetime_circsim} en fait la synthèse
+%
+\begin{table}[!h]
+	\centering
+	\caption[Contributions des différents effets limitant le temps de vie des atomes circulaires]{Contributions des différents effets limitant le temps de vie des atomes circulaires, pour une paire d'atomes dans le niveau $\mathrm{48C}$, séparés d'une distance $d=\SI{5}{\um}$, sous un champ électrique $F=\SI{6}{\V/\cm}$ et un champ magnétique $B_z=\SI{13}{\gauss}$.
+	Les atomes sont placés dans un condensateur de taille $a=\SI{13}{\mm}$ et d'écartement $D=\SI{2}{\mm}$ et l'environnement est refroidi à $\SI{0.4}{\K}$ sous une pression de $\SI{e-14}{\milli\bar}$.
+	}
+	\label{tab:lifetime_circsim}
+	\begin{tabular}{c c}
+		\toprule\midrule
+		Phénomène
+		& Temps de vie (\si{\second})\\
+		\midrule
+		Émission spontanée résiduelle & \SI{2500}{} \\
+		Émission stimulée par rayonnement du corps noir & \SI{630}{} \\
+		Collisions avec le gaz résiduel à $\SI{e-14}{\milli\bar}$ & \SI{400}{} \\
+		Photo-ionisation & $\infty$ \\
+		Diffusion élastique des photons du piège & \SI{> 180}{} \\
+		Relaxation dipolaire & $\infty$ \\
+		Mélange des niveaux de paire & \SI{88}{} \\
+		\midrule \midrule
+		Temps de vie total & 47 \\
+		\midrule \bottomrule
+ 	\end{tabular}
+\end{table}
+%
+En tenant compte de tous ces effets, nous estimons la durée de vie d'un atome individuel à $\SI{47}{\second}$.
+La durée de vie d'une chaîne de $\SI{40}{}$ atomes est alors supérieure à la seconde.
+Cette borne inférieure est vérifiée dans l'ensemble du domaine de champs électrique et magnétique représenté en figure \ref{fig:Jz_Jscan} permettant le contrôle du paramètre $J_z/J$.
+Cette durée de vie supérieure à une seconde représente de l'ordre de $\SI{80000}{}$ temps d'échange $\tau_{\text{éch}}$ à $d=\SI{5}{\um}$.
+Le simulateur quantique pourra ainsi évoluer sur des temps très longs et permettre d'observer des dynamiques lentes telles que des rétablissements d'équilibre ou des processus de thermalisation.
+
 	\subsection{Préparation déterministe d'une chaîne}\label{subsec:vdW_evap}

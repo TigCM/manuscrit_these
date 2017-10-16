@@ -2009,6 +2009,13 @@
     <bcf:citekey order="60">MX_DMITRIEV02</bcf:citekey>
     <bcf:citekey order="61">ENS_PRE_CIRCSIM</bcf:citekey>
     <bcf:citekey order="62">MX_FABRERYDHF76</bcf:citekey>
+    <bcf:citekey order="63">Purcell46_Purcelleffect</bcf:citekey>
+    <bcf:citekey order="64">MX_KELPPNER_INHIBITION</bcf:citekey>
+    <bcf:citekey order="64">MX_KLEPPNERINHIBITION85</bcf:citekey>
+    <bcf:citekey order="65">MX_GABRIELSEANTIPROTON90</bcf:citekey>
+    <bcf:citekey order="65">MX_WERTHCRYOION98</bcf:citekey>
+    <bcf:citekey order="66">PHD_NGUYEN</bcf:citekey>
+    <bcf:citekey order="67">ENS_PRE_CIRCSIM</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

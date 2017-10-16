@@ -1155,6 +1155,183 @@
       \endverb
       \keyw{mx,Rydberg,theory}
     \endentry
+    \entry{Purcell46_Purcelleffect}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=4ef6f93878347f386b9c8f66579e37e3}{Purcell}{P\bibinitperiod}{E.\bibnamedelimi M.}{E\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=4ef6f93878347f386b9c8f66579e37e3}{Purcell}{P\bibinitperiod}{E.\bibnamedelimi M.}{E\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{4ef6f93878347f386b9c8f66579e37e3}
+      \strng{fullhash}{4ef6f93878347f386b9c8f66579e37e3}
+      \field{sortinit}{0}
+      \field{labeltitle}{Proceedings of the American Physical Society}
+      \field{issue}{11-12}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{06}
+      \field{title}{Proceedings of the American Physical Society}
+      \field{volume}{69}
+      \field{year}{1946}
+      \field{pages}{681\bibrangedash 681}
+      \verb{doi}
+      \verb 10.1103/PhysRev.69.674.2
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.69.674.2
+      \endverb
+    \endentry
+    \entry{MX_KELPPNER_INHIBITION}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=0f9d26ff6d9900263bd06697aa4d9d62}{Kleppner}{K\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=0f9d26ff6d9900263bd06697aa4d9d62}{Kleppner}{K\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0f9d26ff6d9900263bd06697aa4d9d62}
+      \strng{fullhash}{0f9d26ff6d9900263bd06697aa4d9d62}
+      \field{sortinit}{0}
+      \field{labeltitle}{Inhibited Spontaneous Emission}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{07}
+      \field{title}{Inhibited Spontaneous Emission}
+      \field{volume}{47}
+      \field{year}{1981}
+      \field{pages}{233\bibrangedash 236}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.47.233
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.47.233
+      \endverb
+    \endentry
+    \entry{MX_KLEPPNERINHIBITION85}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=e34d5b147dd1f2ea0916724c13a5005c}{Hulet}{H\bibinitperiod}{Randall\bibnamedelima G.}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=a4b6b0ce9306d16769bc89c9f1da74e8}{Hilfer}{H\bibinitperiod}{Eric\bibnamedelima S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=0f9d26ff6d9900263bd06697aa4d9d62}{Kleppner}{K\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e34d5b147dd1f2ea0916724c13a5005c}{Hulet}{H\bibinitperiod}{Randall\bibnamedelima G.}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=a4b6b0ce9306d16769bc89c9f1da74e8}{Hilfer}{H\bibinitperiod}{Eric\bibnamedelima S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=0f9d26ff6d9900263bd06697aa4d9d62}{Kleppner}{K\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{77b9f7a8ffaa8c91314b16dc2473216b}
+      \strng{fullhash}{add492a80b0a808e44b6f98ea401017a}
+      \field{sortinit}{0}
+      \field{labeltitle}{Inhibited Spontaneous Emission by a Rydberg Atom}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Inhibited Spontaneous Emission by a Rydberg Atom}
+      \field{volume}{55}
+      \field{year}{1985}
+      \field{pages}{2137\bibrangedash 2140}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.55.2137
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.55.2137
+      \endverb
+    \endentry
+    \entry{MX_GABRIELSEANTIPROTON90}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=ff0ee17add4e992d1fd71cef7c1a1e22}{Gabrielse}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=30606e5d8cf476742b225e04af9e1c25}{Fei}{F\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef2eafa66338c599c2af157dfae561e}{Orozco}{O\bibinitperiod}{L.\bibnamedelimi A.}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1008d5b87b1f3dcf97dfe45323ed05c1}{Tjoelker}{T\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=b547605b8305fb6e4c727fd932588008}{Haas}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b7a14218c9a2318eef534b944e8bb18a}{Kalinowsky}{K\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=54fb5c623d2d55bdc65cdf588b24acfb}{Trainor}{T\bibinitperiod}{T.\bibnamedelimi A.}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=93bf36f987734bdf487abc17670d5300}{Kells}{K\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=ff0ee17add4e992d1fd71cef7c1a1e22}{Gabrielse}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=30606e5d8cf476742b225e04af9e1c25}{Fei}{F\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef2eafa66338c599c2af157dfae561e}{Orozco}{O\bibinitperiod}{L.\bibnamedelimi A.}{L\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1008d5b87b1f3dcf97dfe45323ed05c1}{Tjoelker}{T\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=b547605b8305fb6e4c727fd932588008}{Haas}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b7a14218c9a2318eef534b944e8bb18a}{Kalinowsky}{K\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=54fb5c623d2d55bdc65cdf588b24acfb}{Trainor}{T\bibinitperiod}{T.\bibnamedelimi A.}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=93bf36f987734bdf487abc17670d5300}{Kells}{K\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{18af979c29f1f05c63a6a0d3d2385b16}
+      \strng{fullhash}{75c425d9f2b075f916514bf1cd009533}
+      \field{sortinit}{0}
+      \field{labeltitle}{Thousandfold improvement in the measured antiproton mass}
+      \field{issue}{11}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{09}
+      \field{title}{Thousandfold improvement in the measured antiproton mass}
+      \field{volume}{65}
+      \field{year}{1990}
+      \field{pages}{1317\bibrangedash 1320}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.65.1317
+      \endverb
+      \verb{file}
+      \verb MX_GABRIELSEANTIPROTON90.pdf:mx/MX_GABRIELSEANTIPROTON90.pdf:PDF;MX_GABRIELSEANTIPROTON90.pdf:mx/MX_GABRIELSEANTIPROTON90.pdf:PDF
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.65.1317
+      \endverb
+      \keyw{MX,metrology,techniques}
+    \endentry
+    \entry{MX_WERTHCRYOION98}{article}{}
+      \name{labelname}{10}{}{%
+        {{hash=5b877063b73f13e5aa80492341fd2a2d}{Diederich}{D\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=06cadf85edaa4eb76ffffc9d6edb6e2b}{Häffner}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=87c2508e78249c74de521675729921fe}{Hermanspahn}{H\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=fce60726ff91b8366c88c1ebee54d87b}{Immel}{I\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=35f27070d422773272ddcafd855a28ca}{Kluge}{K\bibinitperiod}{HJ}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=d0169fb7821175f3d0827c041335fc92}{Ley}{L\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=fe2badfba5deaa293d57af0949b38ae0}{Mann}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9a3c8471b37f2e662d98a4283f34f4ce}{Quint}{Q\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2ca60c945406865ce808abfb687f85}{Stahl}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d738b0f862b12c5199704d20d7fe3e2c}{Werth}{W\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{hash=5b877063b73f13e5aa80492341fd2a2d}{Diederich}{D\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=06cadf85edaa4eb76ffffc9d6edb6e2b}{Häffner}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=87c2508e78249c74de521675729921fe}{Hermanspahn}{H\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=fce60726ff91b8366c88c1ebee54d87b}{Immel}{I\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=35f27070d422773272ddcafd855a28ca}{Kluge}{K\bibinitperiod}{HJ}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=d0169fb7821175f3d0827c041335fc92}{Ley}{L\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=fe2badfba5deaa293d57af0949b38ae0}{Mann}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9a3c8471b37f2e662d98a4283f34f4ce}{Quint}{Q\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2ca60c945406865ce808abfb687f85}{Stahl}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d738b0f862b12c5199704d20d7fe3e2c}{Werth}{W\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e784c42e7c77651244955f395566aca1}
+      \strng{fullhash}{cacbe1986b65589490b1f9175e7a8b15}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Observing a single hydrogen-like ion in a Penning trap at T= 4 K}}
+      \field{journaltitle}{Hyperfine Interactions}
+      \field{number}{1}
+      \field{title}{{Observing a single hydrogen-like ion in a Penning trap at T= 4 K}}
+      \field{volume}{115}
+      \field{year}{1998}
+      \field{pages}{185\bibrangedash 192}
+      \verb{file}
+      \verb ION_WERTHCRYOION98.pdf:ion/ION_WERTHCRYOION98.pdf:PDF;ION_WERTHCRYOION98.pdf:ion/ION_WERTHCRYOION98.pdf:PDF
+      \endverb
+      \keyw{ion,techniques}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

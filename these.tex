@@ -113,6 +113,57 @@ articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
 \usepackage{coverpages}
 \input{coverdata}
 
+%%%%********************************************************************
+% fancy quotes
+\definecolor{quotemark}{gray}{0.7}
+\makeatletter
+\def\fquote{%
+    \@ifnextchar[{\fquote@i}{\fquote@i[]}%]
+           }%
+\def\fquote@i[#1]{%
+    \def\tempa{#1}%
+    \@ifnextchar[{\fquote@ii}{\fquote@ii[]}%]
+                 }%
+\def\fquote@ii[#1]{%
+    \def\tempb{#1}%
+    \@ifnextchar[{\fquote@iii}{\fquote@iii[]}%]
+                      }%
+\def\fquote@iii[#1]{%
+    \def\tempc{#1}%
+    \vspace{1em}%
+    \noindent%
+    \begin{list}{}{%
+         \setlength{\leftmargin}{0.1\textwidth}%
+         \setlength{\rightmargin}{0.1\textwidth}%
+                  }%
+         \item[]%
+         \begin{picture}(0,0)%
+         \put(-15,-5){\makebox(0,0){\scalebox{3}{\textcolor{quotemark}{``}}}}%
+         \end{picture}%
+         \begingroup\itshape}%
+ %%%%********************************************************************
+  \def\endfquote{%
+ \endgroup\par%
+ \makebox[0pt][l]{%
+ \hspace{0.8\textwidth}%
+ \begin{picture}(0,0)(0,0)%
+ \put(15,15){\makebox(0,0){%
+ \scalebox{3}{\color{quotemark}''}}}%
+ \end{picture}}%
+ \ifx\tempa\empty%
+ \else%
+    \ifx\tempc\empty%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb}%
+
+   \else%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb},\ \tempc%
+   \fi\fi\par%
+   \vspace{0.5em}%
+ \end{list}%
+ }%
+ \makeatother
+ 
+ %%%%********************************************************************
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%------------
@@ -148,6 +199,11 @@ articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
 \newcommand{\mcal}[1]{$\mathcal{#1}$}
 \newcommand{\Nryd}{N_{Ryd}}
 
+
+\usepackage[francais,shortext]{minitoc}
+%\usepackage{mtcoff}
+\setcounter{minitocdepth}{2}
+\setlength{\mtcindent}{24pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%------------
 \begin{document}
 
@@ -165,58 +221,39 @@ articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
 
 \makeatother
 
-\include{}%0_Acknowledgement}
+\dominitoc
+%\include{}%0_Acknowledgement}
 \tableofcontents
 \thispagestyle{fancyplain}
-\listoffigures
-\listoftables
+\listoffigures \mtcaddchapter
+\listoftables \mtcaddchapter
 \thispagestyle{fancyplain}
 %%\pagebreak
 \mainmatter
 \pagenumbering{arabic}
 
+
 \chapter*{Introduction}\label{chapter:intro}
-\addcontentsline{toc}{chapter}{Introduction}
+\addcontentsline{toc}{chapter}{Introduction} \mtcaddchapter
 \markboth{Introduction}{Introduction}
-\include{}%0_intro}
-
-%\chapter{Atomes de Rydberg : à bas $l$ ou circulaires}
-%\label{part:Rydberg}
-
-
-
-
-%\chapter{Atomes de Rydberg alcalins en interaction}
-%\label{chapter:Rydberg}
+\begin{fquote}[Michel Bakounine][Dieu et l'État]
+La science comprend la pensée de la réalité, non la réalité elle-même, la pensée de la vie, non la vie. Voilà sa limite, la seule limite vraiment infranchissable pour elle, parce qu’elle est fondée sur la nature même de la pensée humaine, qui est l’unique organe de la science.
+\end{fquote}
 
 \include{Rydbergs}
-%\include{Rydbergs_nonInteracting}
-%\include{Interacting_Rydbergs}
 
-%------------------------------------------------
-%\chapter{Dispositif expérimental : une puce atomique pour des atomes de Rydberg}
-%\label{chapter:setup}
 \include{Setup_total}
-%\include{Setup_coldatoms}
-%\include{Setup_Rydberg}
 
-%-----------------------------------------------
-%\chapter{Excitation optique d'atomes de Rydberg à bas $l$ et simulations}
-%\label{chapter:60s}
 \include{low_l_Rydbergs}
 
-%\chapter{Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}
-%\label{chapter:circsim}
 \include{circsim}
 
-%\chapter{Excitation d'atomes de Rydberg circulaires et piégeage laser}
-%\label{chapter:50c}
 \include{circulars}
 
 \chapter*{Conclusion}\label{chapter:concl}
-\addcontentsline{toc}{chapter}{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion} \mtcaddchapter
 \markboth{Conclusion}{Conclusion}
-\include{}%0_intro}
+%\include{}%0_intro}
 
 %\phantomsection
 %\titleformat{\part}[block]

@@ -29,6 +29,7 @@ Après avoir présenté le principe général du simulateur, nous dirons quelque
 \caption[Schéma de principe du simulateur quantique]
 {Schéma de principe du simulateur quantique proposé.
 Les atomes de Rydberg circulaires, représentés par les sphères rouges, sont placés dans un condensateur et piégés dans des faisceaux laser : un faisceau \og creux \fg{} selon l'axe $Ox$, représenté en bleu, et un réseau ajustable créé par l'interférence de deux faisceaux quasi-parallèles, représentés en vert.
+Un champ électrique $F$ est imposé entre les deux plaques du condensateur.
 }
 \label{fig:scheme_simul}
 \end{figure}
@@ -50,7 +51,7 @@ Le confinement longitudinal étant réalisé par un réseau optique, il présent
 Le principe du piégeage laser des atomes de Rydberg circulaires, ainsi que la géométrie des lasers de piégeage, seront discutés en \ref{subsec:circ_laser_trapping}.
 
 Les atomes de Rydberg circulaires piégés sont placés à l'intérieur d'un condensateur formé par deux électrodes planes parallèles au plan $xOy$.
-En premier lieu, cela inhibe l'émission spontanée $\sigma^+$ du niveau circulaire $\mathrm{nC}$ vers le niveau circulaire $\mathrm{(n-1)C}$.
+En plus de permettre l'imposition d'un champ électrique dirigé selon $Oz$, cela inhibe l'émission spontanée $\sigma^+$ du niveau circulaire $\mathrm{nC}$ vers le niveau circulaire $\mathrm{(n-1)C}$.
 Comme nous l'avons vu en \ref{subsec:level_50C}, ce canal d'émission est largement responsable de la durée de vie finie des niveaux circulaires.
 L'inhibition de ce canal par le condensateur permettra d'accroître significativement la durée de vie des niveaux de Rydberg, jusqu'à des temps de l'ordre de la centaine de secondes.
 Le temps de vie des atomes circulaires dans un tel condensateur sera discuté en \ref{subsec:inhibition}.
@@ -145,9 +146,9 @@ Le hamiltonien d'interaction de la paire devient ainsi
 %connu comme \og hamiltonien XXZ \fg{}.
 
 	\subsubsection*{Extension à une chaîne de $N$ atomes et habillage microonde}
-\noindent Le hamiltonien d'interaction à deux atomes s'étend facilement à une chaîne de $N$ atomes régulièrement espacés d'un distance $r$ et numérotés de $1$ à $N$.
+\noindent Le hamiltonien d'interaction à deux atomes s'étend facilement à une chaîne de $N$ atomes régulièrement espacés d'une distance $d$ et numérotés de $1$ à $N$.
 Nous pouvons ici négliger les interactions au-delà du premier voisin.
-En effet, dès lors que les termes d'interaction évoluent en $1/r^6$, la contribution d'un second voisin est $\SI{64}{}$ fois plus petite que celle des premiers voisins.
+En effet, dès lors que les termes d'interaction évoluent en $1/d^6$, la contribution d'un second voisin est $\SI{64}{}$ fois plus petite que celle des premiers voisins.
 Le hamiltonien d'interaction d'une telle chaîne de spin s'écrit alors, en généralisant le hamiltonien à deux atomes \eqref{eq:XXZint_2atoms},
 %
 \begin{equation}
@@ -172,7 +173,7 @@ Le premier terme du hamiltonien \eqref{eq:XXZ_Natoms} provient d'un effet de bor
 les atomes à chaque bout de la chaîne n'ont chacun qu'un seul voisin, cependant que les autres atomes en ont chacun deux.
 L'énergie d'interaction des atomes $1$ et $N$ est donc deux fois inférieure à celle des atomes du \og c\oe ur \fg{} de la chaîne, numérotés de $2$ à $N-1$.
 
-Le hamiltonien d'interaction \eqref{eq:XXZ_Natoms} ne décrit que l'interaction dipôle-dipôle entre ces atomes.
+Le hamiltonien d'interaction \eqref{eq:XXZint_Natoms} ne décrit que l'interaction dipôle-dipôle entre ces atomes.
 Or l'évolution de la chaîne de spin dépend également du hamiltonien libre $\hat{H}_0$ de chaque atome, qui induit une différence d'énergie $h\nu_0$ entre les niveaux $\ket{\mathrm{nC}}=\ket{\uparrow}$ et $\ket{\mathrm{n'C}}=\ket{\downarrow}$.
 Cette contribution s'écrit sous la forme d'un hamiltonien libre à $N$ atomes $\hat{H}_{0,N}/h = \frac{\nu_0}{2} \sum_{i=1}^{N}\sigma_i^z$.
 L'écart d'énergie $h\nu_0$ étant très grand par rapport aux termes d'interaction, nous introduisons 
@@ -223,12 +224,14 @@ La composante longitudinale de ce \og champ \fg{} est représentée par le terme
 Le dernier terme du hamiltonien représente l'effet de bord de la chaîne évoqué plus haut, qui déplace l'énergie des atomes à chaque bout de la chaîne.
 
 Les paramètres permettant l'exploration de différents régimes d'interaction et d'évolution de la chaîne se réduisent en fin de compte aux trois rapports $J_z/J$, $\Omega/J$ et $\Delta/J$.
+Le paramètre $J$, qui rend compte de l'interaction d'échange, règle quant à lui le temps caractéristique d'évolution de la chaîne.
+Ce temps est donné par $\tau_{\text{\'ech}} = 1/(4J)$.
 
 	\subsection*{Contrôle du hamiltonien et choix des niveaux 50C et 48C}
 \noindent Le niveau de contrôle du hamiltonien \eqref{eq:XXZ_Natoms} est limité par la gamme accessible au rapport $J_z/J$.
-Les rapports $\Omega/J$ et $\Delta/J$ sont en effet facilement contrôlables en variant respectivement la puissance et la fréquence du champ microonde utilisé, alors que $J_z/J$ dépend des niveaux atomiques choisis et des champs électrique et magnétique extérieurs.
+Les rapports $\Omega/J$ et $\Delta/J$ sont en effet facilement contrôlables en variant respectivement la puissance et la fréquence du champ microonde utilisé, alors que $J_z/J$ dépend des niveaux atomiques choisis et des champs électrique et magnétique extérieurs que l'on impose aux atomes.
 Nous souhaitons que les termes $J_z$ et $J$ soient de même ordre de grandeur, la compétition de ces deux termes ouvrant de larges possibilités d'exploration.
-Dans le cas contraire la dynamique serait largement dominée soit par l'interaction directe soit par l'interaction d'échange, limitant par là la portée du simulateur.
+Dans le cas contraire, la dynamique serait largement dominée soit par l'interaction directe soit par l'interaction d'échange, limitant par là la portée du simulateur.
 
 Le rapport $J_z/J$ dépend tout particulièrement de la différence de nombre quantique principal entre les deux niveaux atomiques choisis.
 La dépendance des termes d'échange et d'interaction directe en fonction des niveaux atomiques est discutée en détail dans la thèse de Thanh Long Nugyen \cite{PHD_NGUYEN}.
@@ -242,9 +245,19 @@ Lorsque $|n-n'|>2$ alors le terme d'échange devient vite négligeable et $J_z/J
 On se trouve alors dans une situation quasi-classique où l'interaction entre les particules se limite à un déplacement d'énergie répulsif.
 %Enfin, la situation $|n-n'|=2$ permet d'obtenir des termes d'échange et d'interaction directe qui sont comparables et évoluent tous deux en $1/r^6$.
 
+Lorsque l'on fait varier le champ électrique $F$ imposé aux atomes, l'effet Stark déplace les niveaux atomiques les uns par rapport aux autres.
+Or les termes d'interaction dipôle-dipôle, calculés comme une perturbation de second ordre des énergies, varient comme l'inverse des distances en énergie entre les niveaux.
+En changeant ces distances, une variation de $F$ peut avoir un effet important sur les termes d'interaction.
+En particulier, $J_z$ est une différence de différents termes d'interaction directe (cf équation \eqref{eq:ident_XXZ}).
+Si les termes de cette différence sont suffisamment proches, alors une petite variation de champ électrique peut faite varier grandement $J_z$. %, et même le faire changer de signe.
+Le terme $J$, au contraire, est directement proportionnel au terme d'interaction d'échange entre les deux niveaux atomiques.
+Sa variation avec $F$ sera donc beaucoup moins forte que celle de $J_z$.
+Le champ magnétique a un effet similaire : en déplaçant les énergies des niveaux atomiques par effet Zeeman, il fait varier les coefficients d'interaction.
+
 Le rapport $J_z/J$ ne dépend pas que de la différence $|n-n'|$, mais aussi du nombre quantique principal $n$ lui-même.
 En effet, les termes d'interaction directe et d'échange entre les niveaux $\ket{\mathrm{nC}}$ et $\ket{\mathrm{(n-2)C}}$ ne varient pas de la même façon avec $n$.
 Le choix $n=50,n'=48$ permet de se situer dans un domaine propice à la flexibilité du simulateur, où $J_z$ et $J$ sont comparables, tout en laissant la possibilité de contrôler la valeur de $J_z/J$ en faisant varier les champs électrique et magnétique extérieurs.
+En particulier, les termes d'interaction directe sont suffisamment proches pour permettre un passage par zéro du terme de couplage $J_z$.
 La figure \eqref{fig:Jz_Jscan} représente les valeurs accessibles de $J_z/J$ pour les niveaux $\ket{\mathrm{50C}}$ et $\ket{\mathrm{48C}}$, en fonction du champ électrique imposé, pour différents champs magnétiques.
 %
 \begin{figure}[!h]
@@ -265,8 +278,8 @@ Le contrôle de la source microonde couplant les niveaux atomiques $\mathrm{50C}
 Notons que la variation du terme d'échange $J$ avec les champs électrique et magnétique est très faible alors que le terme d'interaction directe $J_z$, lui, varie beaucoup.
 Les trois rapports $J_z/J, \Omega/J$ et $\Delta/J$ sont donc contrôlables de façon quasi-indépendante, puisque $J$ est presque constant.
 
-L'évolution temporelle du système est dominée par le terme d'échange de l'interaction de van der Waals, avec un temps caractéristique $\tau_{\text{\'ech}} = 1/(4J)$.
-Ce temps d'échange vaut $\tau_{\text{\'ech}} = \SI{14.7}{\us}$ lorsque les atomes sont séparés de $r=\SI{5}{\um}$.
+L'évolution temporelle du système est dominée par le terme d'échange de l'interaction de van der Waals.
+Le temps caractéristique d'échange vaut $\tau_{\text{\'ech}} = \SI{14.7}{\us}$ lorsque les atomes sont séparés de $d=\SI{5}{\um}$.
 Or le contrôle du champ électrique comme de la source microonde sont rapides, de l'ordre de la centaine de nano-secondes.
 Le hamiltonien est ainsi sous contrôle expérimental intégral, à des échelles temporelles très inférieures au temps caractéristique de l'évolution du système.
 %, dominé par le terme d'échange dans l'interaction.
@@ -292,8 +305,9 @@ Une approche statique permettrait de calibrer le simulateur sur des phases connu
 Le rapidité de contrôle du hamiltonien permettrait ensuite de simuler des trempes : des changements de paramètres brusques induisant des états hors-équilibre.
 
 	\subsection{Piégeage laser des atomes de Rydberg circulaires}\label{subsec:circ_laser_trapping}
-\noindent Les atomes de Rydberg circulaires peuvent être piégés grâce au potentiel pondéro-moteur créé, pour l'électron de valence, par un faisceau laser.
-Cet électron de valence, quasi libre, se comporte comme une particule chargée dans un champ électrique rapidement oscillant.
+\noindent Afin de pouvoir observer les atomes de Rydberg en interaction pendant des temps longs, il est nécessaire de les piéger.
+Les atomes de Rydberg circulaires peuvent être piégés grâce au potentiel pondéro-moteur créé, pour l'électron de valence, par un faisceau laser.
+Cet électron de valence, quasi-libre, se comporte comme une particule chargée dans un champ électrique rapidement oscillant.
 Il subit ainsi un déplacement d'énergie positif, proportionnel à l'intensité lumineuse $I_L$ \cite{MX_FABRERYDHF76} :
 \begin{equation}
 \label{eq:pondero_energy}
@@ -318,7 +332,7 @@ Dans ces conditions, les atomes sont piégés transversalement à l'axe $Ox$ ave
 \includegraphics[width=\linewidth]{figures/circsim/pondero_trap}
 \caption[Potentiel de piégeage pondéro-moteur]{
 \textbf{a)} Coupe dans le plan $yOz$ du potentiel pondéro-moteur créé par le faisceau Laguerre-Gauss se propageant selon l'axe $Ox$.
-\textbf{b)}Coupe dans le plan $xOz$ du potentiel de piégeage pondéro-moteur créé par le faisceau Laguerre-Gauss et les deux faisceaux gaussiens en interférence.
+\textbf{b)} Coupe dans le plan $xOz$ du potentiel de piégeage pondéro-moteur créé par le faisceau Laguerre-Gauss et les deux faisceaux gaussiens en interférence.
 Le potentiel est exprimé en unités de fréquence. L'échelle de couleur est commune aux deux graphes.
 }
 \label{fig:pondero_trap}
@@ -326,12 +340,12 @@ Le potentiel est exprimé en unités de fréquence. L'échelle de couleur est co
 	
 Le confinement longitudinal doit permettre de fixer la distance séparant les atomes de la chaîne.
 Ce piégeage doit donc être périodique.
-En effet, l'interaction de van der Waals répulsive les atomes de Rydberg entraînerait un mouvement important des atomes le long de l'axe $Ox$ en l'absence de piégeage périodique longitudinal.
+En effet, l'interaction de van der Waals répulsive entre atomes de Rydberg entraînerait un mouvement important des atomes le long de l'axe $Ox$ en l'absence de piégeage périodique longitudinal.
 Afin de réaliser ce confinement, nous proposons d'utiliser un réseau lumineux d'un pas ajustable de l'ordre de $d=\SI{5}{}$.
 Ce réseau est créé par l'interférence à petit angle de deux faisceaux gaussiens.
 Ceux-ci sont décalés en fréquence de quelques dizaines de $\SI{}{\MHz}$ par rapport au faisceau Laguerre-Gauss afin de ne pas interférer avec lui.
 Les deux faisceaux gaussiens se propagent dans le plan $xOy$ avec un angle $\pm \theta$ par rapport à l'axe $Oy$.
-Pour obtenir un pas de réseau de $d=\SI{5}{}$, cet angle doit prendre une valeur $\theta=\SI{5.7}{\degree}$.
+Pour obtenir un pas de réseau de $d=\SI{5}{\um}$, cet angle doit prendre une valeur $\theta=\SI{5.7}{\degree}$.
 Ces deux faisceaux gaussiens sont allongés selon l'axe $Ox$ afin que le réseau créé puisse recouvrir toute la longueur de la chaîne atomique.
 Ainsi, leur col selon $x$ vaut $w_x = \SI{200}{\um}$ alors que leur col selon $z$ vaut $w_z=\SI{7}{\um}$.
 Dans ces conditions, et avec une puissance totale par faisceau de $\SI{1.45}{\watt}$, les atomes sont piégés dans la direction $x$ avec une fréquence $\omega_x = 2\pi \times \SI{24}{\kHz}$ et une profondeur de piège proche de $\SI{4}{\MHz}$, soit environ $\SI{200}{\uK}$.
@@ -342,12 +356,13 @@ Nous disposons ainsi d'une chaîne de pièges profonds régulièrement espacés 
 	
 	\subsection{Préservation des états de Rydberg}\label{subsec:inhibition}
 \noindent Le piégeage laser présenté ci-dessus permet de fixer les positions des atomes de Rydberg circulaires au sein d'une chaîne unidimensionnelle.
-Si l'on en reste au calcul de \ref{subsec:level_50C}, chaque atome dans le niveau $\mathrm{50C}$ a une durée de vie de $\SI{8.36}{\ms}$.
+Si l'on en reste au calcul de \ref{subsec:level_50C}, chaque atome dans le niveau $\mathrm{50C}$ a une durée de vie de $\SI{8.36}{\ms}$ à $\SI{4.2}{\K}$.
 Une chaîne de quarante atomes a ainsi une durée de vie de $\SI{8.36}{}/\SI{40}{} = \SI{0.21}{\ms}$.
 Avec des atomes séparés de $d=\SI{5}{\um}$ et donc un temps d'échange $\tau_{\text{éch}} = \SI{14.7}{\us}$, la chaîne d'atomes vit le temps d'une quinzaine d'échanges.
 C'est-à-dire qu'une excitation placée à un bout de la chaîne n'aurait pas le temps de se propager jusqu'au milieu de la chaîne.
-La solution la plus évidente pour rallonger la durée de vie d'un niveau de Rydberg consiste à refroidir l'environnement.
-Cependant, cela ne permettrait ici de l'améliorer que d'un facteur $\SI{8.36}{}/\SI{28.65}{} \simeq \SI{3.5}{}$.
+La solution la plus évidente pour rallonger la durée de vie d'un niveau de Rydberg consiste à refroidir l'environnement afin de réduire au mieux l'émission stimulée par le rayonnement du corps noir.
+Cependant, cela ne permettrait ici de l'améliorer que d'un facteur $%\SI{8.36}{}/\SI{28.65}{} \simeq 
+\SI{3.5}{}$ au maximum, la durée de vie à température nulle étant de $\SI{28.65}{\ms}$ pour le niveau $\mathrm{50C}$.
 
 Comme nous l'avons vu en \ref{subsec:level_50C}, le seul processus limitant la durée de vie à température nulle d'un niveau de Rydberg circulaire $\mathrm{nC}$ est la désexcitation spontanée vers le niveau $\mathrm{(n-1)C}$ par une transition $\sigma^+$.
 Inhiber cette transition pourrait ainsi permettre d'augmenter significativement le temps de vie d'un niveau circulaire.
@@ -356,13 +371,18 @@ L'effet Purcell, observé en 1946 \cite{Purcell46_Purcelleffect}, consiste à au
 Cet effet repose sur l'augmentation des fluctuations du vide électromagnétique dans le mode d'émission.
 Au contraire, il s'agit pour nous de réduire le plus possible ces fluctuations afin d'inhiber l'émission.
 Pour cela, il suffit que la cavité soit de dimensions plus petites que la longueur d'onde du rayonnement que l'on souhaite inhiber \cite{MX_KELPPNER_INHIBITION,MX_KLEPPNERINHIBITION85}.
-Plus, précisément,dans le cas d'un condensateur formée de deux plans parallèles, la distance $D$ entre ces deux plans doit être inférieure à la moitié de la longueur d'onde $\lambda$ du rayonnement :
+Plus, précisément, dans le cas d'un condensateur formé de deux plans parallèles, la distance $D$ entre ces deux plans doit être inférieure à la moitié de la longueur d'onde $\lambda$ du rayonnement :
 %
 \begin{equation}
 \label{eq:condition_inhib}
 D< \lambda/2.
 \end{equation}
 %
+L'émission de photons dans la direction normale aux plaques du condensateur peut alors être inhibée sous la condition \eqref{eq:condition_inhib}, alors que l'émission selon une direction parallèle aux plaques ne l'est pas.
+Or, lorsque l'on impose un champ électrique entre les deux plaques du condensateur, celui-ci fixe l'axe de quantification du moment cinétique des atomes de Rydberg.
+L'émission sur une transition $\sigma^+$ se fait alors nécessairement dans la direction normale aux plaques et peut être inhibée.
+%L'émission dans une direction parallèle aux plaques n'est pas inhibée.
+
 Les transitions $\mathrm{50C}\rightarrow \mathrm{49C}$ et $\mathrm{48C}\rightarrow \mathrm{47C}$ ont des fréquences respectives de $\SI{54.249}{\GHz}$ et $\SI{61.407}{\GHz}$, correspondant à des longueurs d'onde de $\SI{5.525}{\mm}$ et $\SI{4.882}{\mm}$.
 La condition \eqref{eq:condition_inhib} nous impose donc de placer les atomes de Rydberg circulaires dans un condensateur dont les deux plaques sont distantes de $D<\SI{2.4}{\mm}$.
 Dans le cas d'un condensateur infini idéal, cela suffirait à inhiber complètement le rayonnement à ces fréquences, et ainsi à rendre la durée de vie des niveaux circulaires infinie.
@@ -387,6 +407,7 @@ L'émission spontanée y est inhibée de $\SI{50}{\decibel}$.
 Nous choisissons les paramètres $D=\SI{2}{\mm}$ et $a=\SI{13}{\mm}$, où l'émission spontanée depuis le niveau $\mathrm{48C}$ est inhibée d'un facteur $\SI{50}{\decibel}$.
 Cela amène la durée de vie du niveau $\mathrm{48C}$ à environ $\SI{2500}{\second}$.
 L'effet d'inhibition est encore meilleur pour le niveau $\mathrm{50C}$ puisque l'émission spontanée depuis celui-ci se fait à une longueur d'onde plus grande.
+Nous disposons donc \textit{a priori} d'un temps de vie quasi-infini par rapport aux échelles de temps de l'évolution de la chaîne de spins.
 
 	\subsection{Préparation déterministe d'une chaîne}\label{subsec:vdW_evap}
 \noindent À des fins évidentes de reproductibilité, la chaîne de $N$ atomes constituant le simulateur doit être préparée de façon déterministe.
@@ -396,10 +417,10 @@ Ce processus d'évaporation refroidit les atomes presque jusqu'à l'état fondam
 Cette technique permet également d'obtenir une détection individuelle des atomes de Rydberg.
 
 Une séquence expérimentale typique commence par la préparation d'un nuage thermique de \Rb{87} près d'une puce supraconductrice, très allongé dans la direction $x$ et refroidi à une température inférieure à $\SI{1}{\uK}$, proche de la dégénérescence.
-Ce nuage est ensuite piégé dans un faisceau laser focalisé et déplacé vers le condensateur d'inhibition précédemment décrit.
-Là, après extinction du piège dipolaire, une impulsion laser à deux photons excite un nuage d'atomes de Rydberg à bas moment cinétique dans le niveau $n=50$, en régime de blocage dipolaire.
+Ce nuage est ensuite piégé dans le potentiel dipolaire, créé par un faisceau laser focalisé, et déplacé vers le condensateur d'inhibition précédemment décrit.
+Là, après extinction du piège dipolaire, une impulsion laser à deux photons excite un nuage d'atomes de Rydberg à bas moment cinétique de nombre quantique principal $n=50$, en régime de blocage dipolaire.
 En raison de la forme allongée du nuage d'atomes dans l'état fondamental et du blocage dipolaire, cet ensemble d'atomes de Rydberg est une chaîne irrégulière contenant une centaine d'atomes distants de $\SI{9}{}\pm\SI{3}{\um}$.
-Les atomes dans l'état fondamental sont expulsés par une impulsion laser résonante à $\SI{780}{\nano\meter}$ , et les atomes de Rydberg sont transférés vers l'état circulaire $\mathrm{50C}$ grâce à un champ radio-fréquence polarisé $\sigma^+$\footnote{Le processus de circularisation sera discuté au chapitre \ref{chapter:50c}.}.
+Les atomes dans l'état fondamental sont expulsés par une impulsion laser résonante à $\SI{780}{\nano\meter}$, et les atomes de Rydberg sont transférés vers l'état circulaire $\mathrm{50C}$ grâce à un champ radio-fréquence polarisé $\sigma^+$\footnote{Le processus de circularisation sera discuté au chapitre \ref{chapter:50c}.}.
 
 Lorsque les atomes de Rydberg circulaires sont excités, le faisceau Laguerre-Gauss de confinement radial est allumé, en même temps que deux faisceaux gaussiens \og bouchons \fg{} parallèles à l'axe $Oy$.
 Ces deux faisceaux à $\SI{1064}{\nano\meter}$ créent deux barrières d'énergie sur l'axe $Ox$, centrées en $x=\pm L/2$, représentées en figure (\ref{fig:plugs_evap} a).
@@ -413,9 +434,9 @@ Le nombre final d'atomes dans la chaîne est déterminé par la valeur finale de
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\linewidth]{figures/circsim/plugs_evap}
-\caption[Schéma de l'\og evaporation van der Waals \fg{} ]{
-Schéma de l'\og evaporation van der Waals \fg{}.
-\textbf{a)} Une chaîne irrégulière est préparée et piégée entre deux \og bouchons \fg{} laser spéarés d'une distance $L$.
+\caption[Schéma de l'\og évaporation van der Waals \fg{} ]{
+Schéma de l'\og évaporation van der Waals \fg{}.
+\textbf{a)} Une chaîne irrégulière est préparée et piégée entre deux \og bouchons \fg{} laser séparés d'une distance $L$.
 \textbf{b)} En diminuant $L$, on augmente les interactions de van der Waals répulsives entre les atomes de la chaîne.
 La barrière énergétique étant plus basse à droite, l'atome au bout de la chaîne est éjecté.
 \textbf{c)} \`A la fin du processus d'évaporation, on obtient de façon déterministe une chaîne régulière de $N$ atomes. Un réseau laser est allumé afin de piéger chaque atome.
@@ -459,14 +480,26 @@ En fin de compte, l'état de chaque spin peut être individuellement mesuré en 
 Cela permet d'accéder à des fonctions de corrélations complexes et aux propriétés d'intrication de la chaîne de spins.
 
 \section{Le mélange des niveaux de paire entre atomes de Rydberg circulaires}
+\noindent Les interactions dipôle-dipôle entre atomes de Rydberg circulaires sont au c\oe ur de notre proposition de simulateur.
+Or, comme nous l'avions évoqué en \ref{subsec:interac50C_I}, les interactions entre atomes de Rydberg circulaires sont compliquées par le mélange des niveaux de paires atomiques avec des niveaux de paire voisins.
+Dans notre exemple du chapitre \ref{chapter:Rydberg}, cela se produisait pour une paire d'atomes dans le niveau $\mathrm{50C}$ dans un champ électrique de $\SI{1}{\V/\cm}$, dès que la distance inter-atomique étaient inférieure à $\SI{10}{\um}$.
+
+Ce problème de mélange des niveaux a deux effets principaux en ce qui nous concerne.
+Tout d'abord, les interactions dipôle-dipôle en dépendent fortement.
+De plus, les transitions de désexcitation des niveaux elliptiques ne sont pas toutes inhibées par le condensateur dans lequel nous souhaitons placer les atomes.
+Le mélange des niveaux atomiques aura donc une incidence importante sur le temps de vie de la chaîne.
+
+Après avoir présenté plus en détail ce problème du mélange des niveaux et indiqué comment le limiter par l'introduction d'un champ magnétique extérieur, nous évaluerons son influence, ainsi que celle d'autres facteurs secondaires, sur le temps de vie des atomes de Rydberg circulaire dans le condensateur. 
+
 \subsection{Interactions dipôle-dipôle entre atomes de Rydberg circulaires : mélange de niveaux}
 \label{subsec:circ_interactions}
-\noindent Les interactions dipôle-dipôle entre atomes de Rydberg circulaires sont au c\oe ur de notre proposition de simulateur.
-Comme nous l'avons mentionné en \ref{subsec:interac50C_I}, la présence d'un champ électrique externe permet de fixer un axe de quantification, et donc de fixer l'orientation des orbites de grand moment cinétique.
-Dans la présente discussion, nous considérerons que les atomes de Rydberg circulaires sont placés sur un axe $Ox$, perpendiculaire au champ directeur selon $Oz$, tels que représentés en figure \eqref{fig:double_torus}.
 
-\subsubsection{Les niveaux circulaires en présence de champs électrique et magnétique}\label{subsec:circulars_in_fieds}
-\noindent En présence d'un champ électrique, les niveaux à grand moment cinétique d'une même multiplicité voient leur dégénérescence partiellement levée.
+\noindent Les atomes de Rydberg de grand moment cinétique nécessitent un champ électrique extérieur afin de fixer un axe de quantification, et donc de fixer l'orientation des orbites électroniques.
+Dans la présente discussion, nous considérerons que les atomes de Rydberg circulaires sont placés sur un axe $Ox$, perpendiculaire au champ directeur selon $Oz$, tels que représentés en figure \eqref{fig:scheme_simul}.
+
+%\subsubsection{Les niveaux circulaires en présence de champs électrique et magnétique}%\label{subsec:circulars_in_fieds}
+%\noindent 
+En présence d'un champ électrique, les niveaux à grand moment cinétique d'une même multiplicité voient leur dégénérescence partiellement levée.
 Le diagramme d'énergie de ces niveaux est représenté en figure (\ref{fig:ener_StarknC_nCnC}a)).
 Le niveau circulaire est noté $\ket{\mathrm{nC}}$ et les deux niveaux \og elliptiques \fg{} voisins sont notés $\ket{\mathrm{nE^{\pm}}} = \ket{n,m=n-2,k=\pm1}$.
 De la même façon, les niveaux de $m=n-3$ sont notés $\ket{\mathrm{nEE^0}} = \ket{n,m=n-3,k=0}$ et $\ket{\mathrm{nEE^{\pm}}} = \ket{n,m=n-3,k=\pm 2}$.
@@ -487,7 +520,7 @@ Il s'agit maintenant de comprendre quelle forme prend l'interaction dipôle-dip�
 Replaçons nous dans le cas de deux atomes séparés d'une distance $r$.
 En \ref{sec:interacting_rydbergs} nous avions exprimé, en l'absence de champ électrique extérieur, le hamiltonien de couplage dans la base des harmoniques sphériques (cf. équation \eqref{eq:Vdd_rr1r2}).
 De plus, l'axe de quantification était alors déterminé par le vecteur séparant la paire d'atomes en interaction.
-Ici au contraire, l'axe de quantification est déterminé par le champ électrique extérieur, selon $Oz$ donc, et le vecteur séparant les atomes sont situés sur l'axe $Ox$, à des positions $\vec{r_1},\vec{r_2}$ respectivement.
+Ici au contraire, l'axe de quantification est déterminé par le champ électrique extérieur, selon $Oz$ donc, et les atomes sont situés sur l'axe $Ox$, à des positions $\vec{r_1},\vec{r_2}$ respectivement.
 Le hamiltonien d'interaction dipôle-dipôle prend alors la forme
 \begin{equation}
 \label{eq:dipdip_nC}
@@ -496,24 +529,27 @@ Le hamiltonien d'interaction dipôle-dipôle prend alors la forme
 - \frac{3}{2} \left(  Y_1^{+1}Y_1^{+1} + Y_1^{-1}Y_1^{-1} \right) \right],
 \end{equation}
 où les $Y_l^m$ sont les harmoniques sphériques.
-On remarque ici que le moment magnétique total de la paire atomique n'est plus nécessairement conservé par l'interaction dipôle-dipôle.
-Ainsi le niveau de paire $\ket{\mathrm{nC},\mathrm{nC}}$ se trouve couplé de façon quasi résonante avec le niveau de paire $\ket{\mathrm{nE^+},\mathrm{nE^-}}$, lui-même couplé aux niveaux de paire $\ket{\mathrm{nEE^+},\mathrm{nEE^-}}$ et $\ket{\mathrm{nEE^0},\mathrm{nEE^0}}$, et ainsi de suite.
+On remarque ici que l'interaction dipôle-dipôle permet une variation du moment magnétique total de la paire atomique $\Delta M \leq 2$.
+Ainsi le niveau de paire $\ket{\mathrm{nC},\mathrm{nC}}$ se trouve couplé de façon quasi-résonante avec les niveaux symétriques de paire dont l'énergie est suffisamment proche et dont le moment magnétique total est supérieur  à $2(n-2)$, tel que par exemple le niveau de paire $(\ket{\mathrm{nE^+},\mathrm{nE^-}}\pm\ket{\mathrm{nE^-},\mathrm{nE^+}})/\sqrt{2}$.
+Ces niveaux sont à leur tour couplés au niveaux symétriques de paire proches en énergie et dont le moment magnétique total est supérieur à $2(n-2)$, tel que par exemple $\ket{\mathrm{nEE^0},\mathrm{nEE^0}}$.
 La figure (\ref{fig:ener_StarknC_nCnC} b) représente les niveaux de paire proches du niveau $\ket{\mathrm{nC},\mathrm{nC}}$ en présence d'un champ électrique.
 
-Ces couplages quasi résonants, dès lors que la distance entre les atomes est suffisamment petite, perturbent le niveau $\ket{\mathrm{nC,nC}}$ en le mélangeant aux niveaux de paires d'énergie suffisamment proche.
-C'est ce que nous avions vu en \ref{subsec:interac50C_I} : en figure \eqref{fig:VdW_50C50C_1Vcm}, lorsque les deux atomes de la paire sont plus proches que $\SI{10}{\um}$, l'état propre du hamiltonien complet s'éloigne du niveau non perturbé $\ket{\mathrm{50C,50C}}$.
-Cet effet de mélange a plusieurs conséquences néfastes.
-Tout d'abord, l'interaction dipôle-dipôle ne peut plus être simplement représentée par un déplacement d'énergie en $1/r^6$ entre deux atomes dans un niveau de paire $\ket{n,k,m}\ket{n,k,m}$.
-De plus, le mélange avec les niveaux elliptiques réduit le temps de vie du niveau de paire à deux atomes circulaires.
-En effet, les niveaux elliptiques peuvent être deséxcités par des transitions $\pi$ vers la multiplicité inférieure alors que le niveau circulaire ne peut être deséxcité que par une transition $\sigma^+$.
-Or le dispositif d'inhibition de l'émission spontanée que nous proposons, qui sera discuté en \ref{subsec:inhibition}, ne peut inhiber que l'émission spontanée $\sigma^+$.
-Ainsi donc, le gain de temps de vie permis par ce dispositif est perdu dès lors que des transitions $\pi$ sont accessibles.
+Ces couplages quasi-résonants, dès lors que la distance entre les atomes est suffisamment petite, perturbent le niveau $\ket{\mathrm{nC,nC}}$ en le mélangeant aux niveaux de paires d'énergie suffisamment proche.
+C'est ce que nous avions vu en \ref{subsec:interac50C_I} : lorsque les deux atomes de la paire sont plus proches que $\SI{10}{\um}$, l'état propre du hamiltonien complet s'éloigne du niveau non perturbé $\ket{\mathrm{50C,50C}}$.
+La figure (\ref{fig:VdW_50C50C_1Vcm_10G} a) reproduit la figure \eqref{fig:VdW_50C50C_1Vcm}, représentant l'énergie d'interaction d'une telle paire atomique en fonction de la distance entre les deux atomes.
+On y voit la première conséquence néfaste de l'effet de mélange : l'interaction dipôle-dipôle entre deux atomes de Rydberg circulaires dans le même niveau ne peut plus être simplement représentée par un déplacement d'énergie en $1/r^6$ .
+%Cet effet de mélange a plusieurs conséquences néfastes.
+%Tout d'abord, l'interaction dipôle-dipôle ne peut plus être simplement représentée par un déplacement d'énergie en $1/r^6$ entre deux atomes dans un niveau de paire $\ket{n,m,k}\ket{n,m,k}$.
+%De plus, le mélange avec les niveaux elliptiques réduit le temps de vie du niveau de paire à deux atomes circulaires.
+%En effet, les niveaux elliptiques peuvent être deséxcités par des transitions $\pi$ vers la multiplicité inférieure alors que le niveau circulaire ne peut être deséxcité que par une transition $\sigma^+$.
+%Or le dispositif d'inhibition de l'émission spontanée que nous proposons, discuté en \ref{subsec:inhibition}, ne peut inhiber que l'émission spontanée $\sigma^+$.
+%Ainsi donc, le gain de temps de vie permis par ce dispositif est perdu dès lors que des transitions $\pi$ sont accessibles.
 
 Afin de contourner cette difficulté, il faut trouver un moyen de lever la dégénérescence des niveaux de paire non perturbés représentés en figure (\ref{fig:ener_StarknC_nCnC} b).
 Deux paramètres sont à notre disposition pour ce faire.
 Le premier est la valeur du champ électrique.
 Les niveaux de paire non perturbés sont d'autant plus distants en énergie que le champ électrique est élevé.
-Cependant, la variation du champ électrique nous servira à faire varier l'interaction elle-même comme nous l'expliquerons en \ref{subsec:tunability}.
+Cependant, la variation du champ électrique nous sert à faire varier l'interaction elle-même, comme nous l'expliquions en \ref{subsec:XXZhamiltonian}.
 Le second moyen dont nous disposons est l'imposition d'un champ magnétique extérieur $B_z$, orienté selon $Oz$, qui déplacera les niveaux par effet Zeeman.
 
 Le hamiltonien Zeeman pour un état circulaire prend la forme%\footnote{
@@ -525,11 +561,11 @@ Le hamiltonien Zeeman pour un état circulaire prend la forme%\footnote{
 %\frac{\mu_B g_l}{\hbar}~\hat{\vec{L}}\cdot\vec{B} = \frac{\mu_B g_l}{\hbar}\hat{L}_zB_z,
 \end{equation}
 où $\mu_B$ est le magnéton de Bohr et $g_l$ le facteur de Landé pour le nombre quantique orbital $l$.
-Dans la mesure où l'on néglige le spin de l'électron, qui est très petit devant $l$ ($s=1/2 \ll l\simeq 50$), le facteur de Landé peut être approximé à $g_l \simeq -1$.
+Dans la mesure où l'on néglige le spin de l'électron, qui est très petit devant $l$ ($s=1/2 \ll l\simeq 50$), le facteur de Landé peut être approximé à $g_l \simeq 1$.
 Ce hamiltonien conserve le nombre quantique magnétique $m$, qui n'est autre que la valeur propre de l'opérateur $\hat{L_z}$\footnote{
 Si le champ magnétique avait des composantes non nulles selon $Ox$ et $Oy$, celles-ci coupleraient des états de $m$ différents.}.
 Tant que le champ magnétique $B_z$ reste suffisamment petit, l'effet Zeeman agit comme une perturbation au premier ordre du hamiltonien \eqref{eq:hamilt_Stark} de l'atome dans un champ électrique.
-La seule conséquence de l'effet Zeeman sur le niveau $\ket{n,m,k}$ sera un déplacement d'énergie
+La seule conséquence de l'effet Zeeman sur le niveau $\ket{n,m,k}$ sera alors un déplacement d'énergie
 \begin{equation}
 \label{eq:Zeeman_shift}
 \Delta E_Z (n,m,k) = \braket{n,m,k|g_l \hat{L}_z | n,m,k}\cdot \mu_B B_z \simeq m\cdot \mu_B B_z = \Delta E_Z (m).
@@ -553,45 +589,45 @@ Dans les conditions du paragraphe \ref{subsec:interac50C_I}, c'est-à-dire sous 
 Si l'on ajoute un champ magnétique $B_z$ de $\SI{10}{\gauss}=\SI{1}{\milli\tesla}$, la distance en énergie devient $\Delta E = h\times \SI{28.17}{\MHz}$, soit presque $\SI{200}{}$ fois plus.
 Un faible champ magnétique nous permet ainsi de lever la dégénérescence entre les niveaux de  paire voisins de $\ket{\mathrm{nC,nC}}$.
 
-\subsubsection*{L'interaction circulaire-circulaire en présence de champs électrique et magnétique extérieurs}
-\noindent Dans les conditions que nous venons d'établir il nous est possible de calculer l'interaction dipôle-dipôle entre deux atomes circulaires, tout en limitant la perturbation de ces niveaux qui serait due à un couplage résonant.
-Ce calcul s'effectue de la même façon qu'en \ref{sec:interacting_rydbergs}, en diagonalisant le hamiltonien complet de la paire atomique\footnote{
-La même méthode permet tout aussi bien de calculer l'interaction entre deux atomes dans des niveaux différents, de même qu'en \ref{sec:interacting_rydbergs}.
-}.
-Ce hamiltonien complet s'écrit
-\begin{equation}
-\label{eq:hamilt_Vdd_ZeeStark}
-\begin{aligned}
-\hat{H} &= \hat{H}_1 + \hat{H}_2 + \hat{V}_{dd}(\vec{r}) \\
- &= \hat{H}_{0,1} + \hat{H}_{0,2} + \hat{H}_{S,1} + \hat{H}_{S,2} + \hat{H}_{Z,1} + \hat{H}_{Z,2} + \hat{V}_{dd}(\vec{r}),
-\end{aligned}
-\end{equation}
-où $\hat{H}_{0,i},\hat{H}_{S,i},\hat{H}_{Z,i}$ sont respectivement les hamiltoniens libre, Stark et Zeeman de l'atome $i$ et $\hat{H}_i$ le hamiltonien total de l'atome $i$ isolé.
+%\subsubsection*{L'interaction circulaire-circulaire en présence de champs électrique et magnétique extérieurs}
+%\noindent Dans les conditions que nous venons d'établir il nous est possible de calculer l'interaction dipôle-dipôle entre deux atomes circulaires, tout en limitant la perturbation de ces niveaux qui serait due à un couplage résonant.
+%Ce calcul s'effectue de la même façon qu'en \ref{sec:interacting_rydbergs}, en diagonalisant le hamiltonien complet de la paire atomique\footnote{
+%La même méthode permet tout aussi bien de calculer l'interaction entre deux atomes dans des niveaux différents, de même qu'en \ref{sec:interacting_rydbergs}.
+%}.
+%Ce hamiltonien complet s'écrit
+%\begin{equation}
+%\label{eq:hamilt_Vdd_ZeeStark}
+%\begin{aligned}
+%\hat{H} &= \hat{H}_1 + \hat{H}_2 + \hat{V}_{dd}(\vec{r}) \\
+% &= \hat{H}_{0,1} + \hat{H}_{0,2} + \hat{H}_{S,1} + \hat{H}_{S,2} + \hat{H}_{Z,1} + \hat{H}_{Z,2} + \hat{V}_{dd}(\vec{r}),
+%\end{aligned}
+%\end{equation}
+%où $\hat{H}_{0,i},\hat{H}_{S,i},\hat{H}_{Z,i}$ sont respectivement les hamiltoniens libre, Stark et Zeeman de l'atome $i$ et $\hat{H}_i$ le hamiltonien total de l'atome $i$ isolé.
+%
+%Nous pouvons, ici encore, écrire l'interaction entre un atome dans le niveau $\mathrm{nC}$ et un atome dans le niveau $\mathrm{n'C}$ comme un hamiltonien effectif
+%\begin{equation}
+%\label{eq:Veff_nCn'C}
+%V_{eff}/h = \left(\begin{array}{cc}
+%C_{\mathrm{nC},\mathrm{n'C}} & A_{\mathrm{nC},\mathrm{n'C}} \\
+%A_{\mathrm{nC},\mathrm{n'C}} & C_{\mathrm{nC},\mathrm{n'C}},
+%\end{array} \right)
+%\end{equation}
+%où $C_{\mathrm{nC},\mathrm{n'C}}$ et $A_{\mathrm{nC},\mathrm{n'C}}$ sont respectivement les termes d'interaction directe et d'échange entre les niveaux $\mathrm{nC}$ et $\mathrm{n'C}$.
+%De manière générale, ces termes se décomposent en une composante \og van der Waals \fg{} en $1/r^6$ et une composante de couplage direct en $1/r^3$.
+%De plus, ils dépendent désormais fortement des champs électrique et magnétique imposés.
 
-Nous pouvons, ici encore, écrire l'interaction entre un atome dans le niveau $\mathrm{nC}$ et un atome dans le niveau $\mathrm{n'C}$ comme un hamiltonien effectif
-\begin{equation}
-\label{eq:Veff_nCn'C}
-V_{eff}/h = \left(\begin{array}{cc}
-C_{\mathrm{nC},\mathrm{n'C}} & A_{\mathrm{nC},\mathrm{n'C}} \\
-A_{\mathrm{nC},\mathrm{n'C}} & C_{\mathrm{nC},\mathrm{n'C}},
-\end{array} \right)
-\end{equation}
-où $C_{\mathrm{nC},\mathrm{n'C}}$ et $A_{\mathrm{nC},\mathrm{n'C}}$ sont respectivement les termes d'interaction directe et d'échange entre les niveaux $\mathrm{nC}$ et $\mathrm{n'C}$.
-De manière générale, ces termes se décomposent en une composante \og van der Waals \fg{} en $1/r^6$ et une composante de couplage direct en $1/r^3$.
-De plus, ils dépendent désormais fortement des champs électrique et magnétique imposés.
-
-Reprenons l'exemple d'une paire $\ket{\mathrm{50C,50C}}$.
-Les deux atomes étant dans le même état, l'interaction se limitera aux termes diagonaux du hamiltonien \eqref{eq:Veff_nCn'C} et aucune interaction d'échange n'aura lieu.
-Dans le paragraphe \ref{subsec:interac50C_I}, sans champ magnétique extérieur et sous $\SI{1}{\V/\cm}$, le niveau de paire se mélangeait dès que la distance entre les deux atomes était inférieure à $\SI{10}{\um}$.
-Le résultat de ce calcul est à nouveau présenté en figure (\ref{fig:VdW_50C50C_1Vcm_10G} a).
-En refaisant le calcul avec un champ magnétique $B_z=\SI{10}{\gauss}$, on obtient la courbe d'énergie présentée en figure (\ref{fig:VdW_50C50C_1Vcm_10G} b).
+Reprenons l'exemple de deux atomes dans l'état $\ket{\mathrm{50C,50C}}$.
+%Les deux atomes étant dans le même état, l'interaction se limitera aux termes diagonaux du hamiltonien \eqref{eq:Veff_nCn'C} et aucune interaction d'échange n'aura lieu.
+%Dans le paragraphe \ref{subsec:interac50C_I}, sans champ magnétique extérieur et sous $\SI{1}{\V/\cm}$, le niveau de paire se mélangeait dès que la distance entre les deux atomes était inférieure à $\SI{10}{\um}$.
+%Le résultat de ce calcul est à nouveau présenté en figure (\ref{fig:VdW_50C50C_1Vcm_10G} a).
+En refaisant le calcul de l'interaction, cette fois avec un champ magnétique $B_z=\SI{10}{\gauss}$, on obtient la courbe d'énergie présentée en figure (\ref{fig:VdW_50C50C_1Vcm_10G} b).
 %
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{figures/circsim/VdW_50C50C_1Vcm_0_10G}
 \caption[Interaction dipolaire 50C-50C en présence d'un champ magnétique]{
 Déplacement en énergie de la paire 50C-50C par interaction dipolaire.
-Les deux atomes sont placés côte à côte sur l'axe $Ox$, sous un champ électrique de $\SIvv{1}{\V / \cm}$ selon l'axe $Oz$. L'échelle de couleur représente le carré de la projection sur l'état non perturbé $\ket{50\text{C},50\text{C}}$ de l'état propre du hamiltonien qui le suit adiabatiquement.
+Les deux atomes sont placés côte à côte sur l'axe $Ox$, sous un champ électrique de $\SIvv{1}{\V / \cm}$ selon l'axe $Oz$. L'échelle de couleur, commune aux deux graphes, représente le carré de la projection sur l'état non perturbé $\ket{50\text{C},50\text{C}}$ de l'état propre du hamiltonien qui le suit adiabatiquement.
 \textbf{a)} Sans champ magnétique extérieur et \textbf{b)} avec un champ magnétique $B_z = \SI{10}{\gauss}$ selon $Oz$.
 }
 \label{fig:VdW_50C50C_1Vcm_10G}
@@ -600,45 +636,22 @@ Les deux atomes sont placés côte à côte sur l'axe $Ox$, sous un champ élect
 Alors qu'en l'absence de champ magnétique le niveau de paire circulaire-circulaire était perturbé dès que la distance entre les deux atomes était inférieure à $\SI{10}{\um}$, un champ magnétique de $\SI{10}{\gauss}$ selon $Oz$ permet d'éviter cet effet.
 L'énergie d'interaction évolue ainsi en $1/r^6$ pour les distances supérieures à $\SI{2}{\um}$.
 Cependant, l'interaction est rendue moins forte.
-En effet, un ajustement en $1/r^6$ donne un coefficient de van der Waals $C_{6,\mathrm{50C-50C}}(\SI{10}{\gauss}) = \SI{4.45}{\GHz\raiseto{6}\um}$ au lieu de $\SI{489.18}{\GHz\raiseto{6}\um}$ en champ magnétique nul.
+En effet, un ajustement en $1/r^6$ donne un coefficient de van der Waals $C_{6,\mathrm{50C-50C}}(\SI{10}{\gauss}) = \SI{4.448}{\GHz\raiseto{6}\um}$ au lieu de $\SI{489.18}{\GHz\raiseto{6}\um}$ en champ magnétique nul.
 Cela s'explique par le fait que le couplage dipolaire second de ordre varie comme l'inverse des distances en énergie entre le niveau de paire considéré et les niveaux médiateurs du couplage.
 Le champ magnétique ayant pour effet de déplacer les niveaux de paire de façon à supprimer les couplages quasi résonants, il s'en suit que les distance en énergie entre niveaux de paire sont augmentées et l'interaction d'autant diminuée.
-
-En raison de cette réduction du coefficient de van der Waals $C_6$, l'interaction à grande distance n'est plus dominée par les couplages de second ordre en $1/r^6$, mais par des couplages de premier ordre en $1/r^3$.
-Il devient donc nécessaire, afin de bien décrire l'évolution de l'énergie d'interaction à grande distance, de l'ajuster à une forme mixte en $C_3/r^3 + C_6/r^6$.
-Un tel ajustement est présenté en figure (\ref{fig:VdW_50C50C_1Vcm_10G} b).
-Il donne les coefficients $C_{6,\mathrm{50C-50C}}(\SI{10}{\gauss}) = \SI{4.23}{\GHz\raiseto{6}\um}$ et $C_{3,\mathrm{50C-50C}}(\SI{10}{\gauss}) = \SI{1.02e-5}{\GHz\raiseto{3}\um}$.
-Dans les discussions qui suivent, nous nous limiterons à des distances inter-atomiques de l'ordre de $\SI{5}{\um}$, et omettrons par conséquent d'indiquer cette composante en $1/r^3$ de l'interaction, qui n'est importante qu'à grande distance.
-
-Dans le cas d'une paire d'atomes dans l'état $\ket{\mathrm{nC,n'C}}$ avec $n'\neq n$, une interaction d'échange décrite par le coefficient $A_{\mathrm{nC},\mathrm{n'C}}$ aura lieu, en plus de l'interaction directe décrite par le coefficient $C_{\mathrm{nC},\mathrm{n'C}}$.
-Celle-ci permet d'envisager la simulation d'un ensemble de spins $1/2$.
+%
+%Dans le cas d'une paire d'atomes dans l'état $\ket{\mathrm{nC,n'C}}$ avec $n'\neq n$, une interaction d'échange décrite par le coefficient $A_{\mathrm{nC},\mathrm{n'C}}$ aura lieu, en plus de l'interaction directe décrite par le coefficient $C_{\mathrm{nC},\mathrm{n'C}}$.
+%La présence d'un champ magnétique permet, ici aussi, de lever les dégénérescences de niveaux qui induiraient une interaction d'échange de premier ordre, c'est-à-dire variant en $1/r^3$.
 
 \subsection{Limitation du temps de vie des niveaux circulaires}
 
-Dès lors que l'on presque supprimé le facteur principal limitant la durée de vie des niveaux de Rydberg, il devient nécessaire de prendre en compte des facteurs qui paraissaient auparavant négligeables :
-la présence de photons thermiques à température finie, les collisions avec le gaz résiduel,  la photo-ionisation due au laser de piégeage ainsi que la diffusion élastique des photons de ce même laser, la relaxation dipolaire, et le mélange des niveaux circulaires avec des niveaux elliptiques.
-
-Le premier de ces facteurs est la température finie de l'environnement.
-Celle-ci induit des photons thermiques dans le domaine microonde qui stimulent la transition $\pi$ depuis le niveau $\mathrm{nC}$ vers l'un des deux niveau elliptiques $\mathrm{(n+1)E^\pm}$ de la multiplicité du dessus.
-Ces transitions ne sont pas inhibées par le condensateur.
-Au contraire, elles sont favorisées par le grand nombre de modes électromagnétiques qui peuvent se propager entre les deux plaques et parallèlement à celles-ci.
-Le taux d'émission de ces transitions est augmenté d'un facteur $\approx \SI{2}{}$.
-Il est donc important de refroidir l'environnement expérimental le mieux possible, et nous proposons une température de $\SI{0.4}{\K}$, accessible avec un cryostat à $^3$He sans dilution.
-Un deuxième facteur de réduction de la durée de vie provient des collisions des atomes avec le gaz résiduel dans l'enceinte à vide.
-
-En environnement cryogénique, des pressions de l'ordre de $\SI{e-14}{\milli\bar}$ sont accessibles sans trop de difficulté \cite{MX_GABRIELSEANTIPROTON90,MX_WERTHCRYOION98}, limitant cet effet.
-La photo-ionisation des atomes de Rydberg due au laser de piégeage doit aussi être prise en compte.
-Heureusement, cet effet reste petit pour les niveaux circulaires, en raison du mauvais recouvrement entre leur fonction d'onde et les fonctions d'onde des électrons dans le continuum
-\footnote{Les fonctions d'onde électroniques dans le continuum oscillent rapidement, alors que la fonction d'onde de l'électron dans un niveau circulaire varie lentement avec la distance au noyau.}.
-Les photons du laser de piégeage peuvent également être élastiquement diffusés par les électrons de Rydberg. L'électron recevrait alors une importante quantité de mouvement causant une transition vers un niveau elliptique.
-La contribution de cet effet peut être calculée dans un modèle classique de diffusion Thomson.
-Les processus de relaxation dipolaire peuvent limiter la durée de vie : une paire d'atomes dans le niveau $\ket{\mathrm{nC,nC}}$ est transférée dans le niveau de paire $\ket{\mathrm{nE^- , nE^-}}$, et l'énergie libérée par cette transition est convertie en énergie cinétique. Les deux atomes elliptiques concernés seraient alors expulsés à grande vitesse.
-Cependant, l'élément de matrice de transition entre l'état initial piégé et l'état final, qui est une onde plane d'énergie élevée, est faible.
-
-Enfin, en raison des interactions dipôle-dipôle, les niveaux de paire circulaire-circulaire sont perturbés et mélangés avec des niveaux de paires elliptiques, comme nous l'avons évoqué en \ref{subsec:circulars_in_fieds}.
-Or les niveaux elliptiques $\mathrm{nE^{\pm}}$ peuvent se désexciter spontanément par d'autres transitions que le niveaux circulaire $\mathrm{nC}$, en particulier vers le niveau $\mathrm{(n-1)C}$ par une transition $\pi$ et vers le niveau $\mathrm{(n-2)C}$ par une transition $\sigma^+$ de plus petite longueur d'onde.
-Aucune de ces deux transitions, représentées en figure \ref{fig:sigma_pi}, n'étant inhibée par le condensateur, il est important de limiter au mieux le mélange des niveaux de paire, en imposant un champ électrique et un champ magnétique qui permettent de lever les dégénérescences entre niveaux de paire.
-
+\noindent Dès lors que l'on presque supprimé le facteur principal limitant la durée de vie des niveaux de Rydberg, il devient nécessaire de prendre en compte des facteurs qui paraissaient auparavant négligeables.
+Le plus important de ces effets est le mélange des niveaux de paire décrit ci-dessus.
+En effet, les niveaux elliptiques $\mathrm{nE^{\pm}}$ peuvent se désexciter spontanément par d'autres transitions que le niveaux circulaire $\mathrm{nC}$, en particulier vers le niveau $\mathrm{(n-1)C}$ par une transition $\pi$ et vers le niveau $\mathrm{(n-2)C}$ par une transition $\sigma^+$ de plus petite longueur d'onde.
+Aucune de ces deux transitions, représentées sur la figure \ref{fig:sigma_pi}, n'étant inhibée par le condensateur, il est essentiel pour la durée de vie de notre chaîne atomique de limiter le mélange des niveaux de paire.
+Pour cela, il faudrait imposer de grands champs électrique et magnétique.
+Les valeurs de ces champs doivent toutefois être limitées, car nous souhaitons conserver la possibilité de faire varier le paramètre d'interaction $J_z/J$.
+La gamme de champs présentée en \ref{subsec:XXZhamiltonian}, de $\SI{2}{}$ à $\SI{12}{\V/\cm}$ pour le champ électrique et de $\SI{9}{}$ à $\SI{13}{\gauss}$ pour le champ électrique, est un bon compromis entre ces deux exigences.
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7 \linewidth]{figures/circsim/sigma_pi}
@@ -649,6 +662,28 @@ Les transitions $\pi$ et $\sigma^+$ depuis les niveaux $\mathrm{nE^\pm}$ vers le
 }
 \label{fig:sigma_pi}
 \end{figure}
+
+D'autres effets viennent réduire la durée de vie de nos atomes de Rydberg piégés. % : la présence de photons thermiques à température finie, les collisions avec le gaz résiduel,  la photo-ionisation due au laser de piégeage ainsi que la diffusion élastique des photons de ce même laser.
+%
+En premier lieu, la température finie de l'environnement induit des photons thermiques dans le domaine microonde, qui stimulent la transition $\pi$ depuis le niveau $\mathrm{nC}$ vers l'un des deux niveaux elliptiques $\mathrm{(n+1)E^\pm}$ de la multiplicité du dessus.
+Or ces transitions ne sont pas inhibées par le condensateur.
+Au contraire, elles sont favorisées par le grand nombre de modes électromagnétiques qui peuvent se propager entre les deux plaques et parallèlement à celles-ci.
+Le taux d'émission de ces transitions est augmenté d'un facteur $\approx \SI{2}{}$.
+Il est donc important de refroidir l'environnement expérimental le mieux possible, et nous proposons une température de $\SI{0.4}{\K}$, accessible avec un cryostat à $^3$He sans dilution.
+
+Un facteur supplémentaire de réduction de la durée de vie provient des collisions des atomes avec le gaz résiduel dans l'enceinte à vide.
+En environnement cryogénique, des pressions de l'ordre de $\SI{e-14}{\milli\bar}$ sont accessibles sans trop de difficulté \cite{MX_GABRIELSEANTIPROTON90,MX_WERTHCRYOION98}, limitant cet effet.
+
+La photo-ionisation des atomes de Rydberg due au laser de piégeage doit aussi être prise en compte.
+Heureusement, cet effet reste petit pour les niveaux circulaires, en raison du mauvais recouvrement entre leur fonction d'onde et les fonctions d'onde des électrons dans le continuum
+\footnote{Les fonctions d'onde électroniques dans le continuum oscillent rapidement, alors que la fonction d'onde de l'électron dans un niveau circulaire varie lentement avec la distance au noyau.}.
+
+Les photons du laser de piégeage peuvent également être élastiquement diffusés par les électrons de Rydberg. L'électron recevrait alors une importante quantité de mouvement pouvant induire une transition vers un niveau elliptique.
+La contribution de cet effet peut être calculée dans un modèle classique de diffusion Thomson.
+
+Enfin, les processus de relaxation dipolaire peuvent également limiter la durée de vie : une paire d'atomes dans le niveau $\ket{\mathrm{nC,nC}}$ est transférée dans le niveau de paire $\ket{\mathrm{nE^- , nE^-}}$, et l'énergie libérée par cette transition est convertie en énergie cinétique. Les deux atomes elliptiques concernés seraient alors expulsés à grande vitesse.
+Cependant, l'élément de matrice de transition entre l'état initial piégé et l'état final, qui est une onde plane d'énergie élevée, est faible.
+
 
 Les contributions de chacun de ces effets sont discutées dans la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN} et dans \cite{ENS_PRE_CIRCSIM}.
 Le tableau \ref{tab:lifetime_circsim} en fait la synthèse
@@ -756,7 +791,7 @@ Le simulateur quantique pourra ainsi évoluer sur des temps très longs et perme
 \section*{Conclusion}
 \noindent Dans ce chapitre, nous avons développé une proposition expérimentale complète pour un simulateur quantique constitué d'atomes de Rydberg circulaires en interaction.
 La méthode d'\og évaporation van der Waals \fg{} permet de préparer de façon déterministe une chaîne régulière d'une quarantaine d'atomes distants de $\SI{5}{\um}$.
-Cette chaîne atomique est piégée dans un potentiel laser périodique, avec une durée de vie supérieure à la seconde grâce à l'inhibition de l'émission spontanée.
+Cette chaîne atomique est piégée dans un potentiel laser périodique, avec une durée de vie supérieure à la seconde grâce à l'inhibition de l'émission spontanée par un condensateur.
 
 Les interactions dipôle-dipôle entre les niveaux de Rydberg circulaires $\mathrm{48C}$ et $\mathrm{50C}$ nous permettent de simuler le hamiltonien XXZ d'une chaîne de spins $1/2$.
 Les paramètres de ce hamiltonien peuvent être contrôlés à l'envi, en variant les champs électrique et magnétique imposés aux atomes ainsi que la puissance et la fréquence d'une source microonde classique.

@@ -22,57 +22,94 @@ Enfin, un passage adiabatique rapide amène les atomes dans le niveau circulaire
 }\label{fig:levels_circ}
 \end{figure}
 
-Dans ce chapitre, nous présenterons les modifications que nous avons faites sur le dispositif expérimental afin de pouvoir exciter des atomes de Rydberg circulaires, puis nous décrirons et caractériserons chaque étape de l'excitation depuis le niveau fondamental jusqu'au niveau de Rydberg circulaire.
+Dans ce chapitre, nous présenterons le principe du passage adiabatique de circularisation et les modifications que nous avons apportées au dispositif expérimental afin de pouvoir le mettre en \oe uvre.
+Nous décrirons et caractériserons ensuite chaque étape de l'excitation depuis le niveau fondamental jusqu'au niveau de Rydberg circulaire.
 Nous montrerons les premiers résultats expérimentaux mettant en évidence, par spectroscopie microonde, l'excitation d'atomes de Rydberg circulaires près d'une puce.
 
-\section{Principe du passage adiabatique et modifications du dispositif expérimental}
+\section{Principe du passage adiabatique}
+ \subsection{Le passage adiabatique idéal pour l'atome d'hydrogène}
+\noindent Les niveaux de Rydberg de grand moment cinétique ne sont pas accessibles par excitation laser.
+En effet, une excitation laser à deux photons depuis le niveau $\mathrm{5S}$ ne peut au maximum amener les atomes que dans un état de moment cinétique $l=2$\footnote{
+Des dispositifs d'excitation à trois lasers peuvent être mis en place mais le problème reste entier.
+}.
+Il faut donc trouver un moyen d'augmenter le moment cinétique d'un atome en gardant constant son nombre quantique principal $n$.
+L'effet Stark permet de lever la dégénérescence des différents niveaux $\ket{n,m,k}$ d'une même multiplicité.
+L'échelle de niveaux correspondante est représentée, pour l'atome d'hydrogène, en figure \eqref{fig:sigmap_hydrogen}.
+%
+\begin{figure}[t]
+\centering
+\includegraphics[width=.6\linewidth]{figures/circulars/sigmap_hydrogen}
+\caption[Échelle des niveaux Stark de l'atome d'hydrogène]{
+Échelle des niveaux Stark de l'atome d'hydrogène.
+Un champ radio-fréquence polarisé $\sigma^+$ permet de coupler les niveaux de la diagonale du bas, représentés en bleu.
+}
+\label{fig:sigmap_hydrogen}
+\end{figure} 
+%
+Au premier ordre, les niveaux $\ket{n,m,k}$ et $\ket{n,m+1,k+1}$ sont séparés d'une énergie
+\begin{equation}
+h\nu_{RF^+}(F) = \frac{3}{2}n|\vec{F}|\times 2E_I,
+\end{equation}
+où $\vec{F}$ est le champ électrique et $E_I$ l'énergie d'ionisation.
+Pour $n=50$ et un champ électrique de $\SI{2}{\V/cm}$, cette énergie est de l'ordre de $h\times\SI{200}{\MHz}$.
+Les niveaux $\ket{n,m,k}$ et $\ket{n,m+1,k+1}$ peuvent ainsi être couplés par un champ radio-fréquence $\sigma^+$ à la fréquence $\nu_{RF^+}(F)$.
+Une série de $n-1$ photons $\sigma^+$ à la fréquence $\nu_{RF^+}(F)$ permettrait donc de transférer un atome du niveau $\ket{n,m=0,k=-(n-1)}$ jusqu'au niveau circulaire $\ket{\mathrm{nC}}=\ket{n,m=n-1,k=0}$.
 
-\subsection{Le passage adiabatique rapide $\sigma^+$}
-
-\subsection{Contrôle du champ perpendiculaire à la puce}
-%Second circuit de contrôle de la tension d'ionisation}
-
-Toutes les expériences que nous décrirons dans la suite de cette thèse ayant trait au niveau $\mathrm{60S}$ ont été réalisées à l'aide de ce circuit.
-Une particularité de son fonctionnement réside dans le fait que la phase d'excitation des atomes de Rydberg se fait à tension constante, et que le contrôle dynamique de la tension n'est permis que lors de la phase de détection, qui nécessite une rampe de tension comme évoqué en \ref{subsec:detection}.
-Cette limitation sera corrigée plus tard par l'introduction d'un second circuit de contrôle, représenté en figure \eqref{fig:detectionbox_CdF} et son fonctionnement est détaillé ci-après.
-Ce second circuit, qui permet l'application de deux rampes de tensions indépendantes pour l'excitation et la détection, a été utilisé dans toutes les expériences que nous décrirons ayant trait au niveau circulaire $\mathrm{50C}$.
+Une approche plus robuste consiste à effectuer ce transfert par passage adiabatique.
+Cette technique s'explique intuitivement dans le formalisme de l'atome habillé.
+Habillons donc notre atome d'hydrogène, avec un champ radio-fréquence $\sigma^+$ à la fréquence $\nu_{RF^+}(F_0)$, où $F_0$ est une valeur arbitraire du champ électrique.
+Nous obtenons le diagramme de niveaux présenté en figure (\ref{fig:passage_adiab_hydrogen} a), représentant l'énergie des niveaux habillés $\ket{n,m,p}$ où $p$ est le nombre de photons radio-fréquence absorbés et où le nombre quantique $k$ est omis car toujours minimal.
 %
 \begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{figures/setup/rydberg/detectionbox_CdF}
-\caption[Second circuit de contrôle de la tension des électrodes d'ionisation]{
-Second circuit de contrôle de la tension des électrodes d'ionisation.
-Les tensions sont fournies par deux générateurs de fonctions arbitraires indépendants et appliquées directement aux électrodes par deux voies séparées (voie basse tension à gauche et voie haute tension à droite).
+\includegraphics[width=\linewidth]{figures/circulars/passage_adiab_hydrogen}
+\caption[Principe du passage adiabatique de circularisation]{
+Principe du passage adiabatique de circularisation.
+\textbf{a)} Diagramme d'énergie de l'atome habillé, sans couplage avec le champ RF.
+En augmentant le champ électrique $F$, le niveau habillé $\ket{n,0,N}$ suit les flèches roses.
+\textbf{b)} Diagramme d'énergie de l'atome habillé, couplé au champ RF.
+En diminuant le champ électrique, le niveau habillé $\ket{n,0,N}$ suit les flèches roses vers le niveau habillé $\ket{n,n-1,N-(n-1)}$. \`A l'extinction du champ RF, celui-ci est branché sur le niveau circulaire $\ket{\mathrm{nC}}$.
 }
-\label{fig:detectionbox_CdF}
-\end{figure}
+\label{fig:passage_adiab_hydrogen}
+\end{figure} 
+%
+En augmentant le champ électrique $F$ jusqu'à une valeur $F_{max}>F_0$, l'état $\ket{n,m=0,N}$ traverse la résonance $F=F_0$.
+En allumant le champ radio-fréquence% avec une fréquence de Rabi $\Omega_{RF}$
+, le croisement à résonance des niveaux habillés devient un anti-croisement, représenté en figure (\ref{fig:passage_adiab_hydrogen} b).
+En diminuant la valeur adiabatiquement du champ électrique, le niveau $\ket{n,m=0,N}$ est transféré vers le niveau $\ket{n,m=n-1,N-(n-1)}$ lors du passage par la résonance.
+Enfin, l'extinction du champ radio-fréquence branche le niveau $\ket{n,m=n-1,N-(n-1)}$ sur le niveau circulaire $\ket{\mathrm{nC}}$.
 
-Dans ce second circuit de contrôle de tension, l'ordinateur de contrôle permet de programmer une rampe arbitraire sur chacun des générateurs.
-La tension fournie par le générateur \og détection \fg{} est amplifiée $\num{50}$ fois et devient \og $\mathrm{V_{ion}}$ \fg{}.
-$\mathrm{V_{ion}}$ est introduite dans la voie haute tension du circuit de contrôle.
-La tension fournie par le générateur \og Stark \fg{} n'est pas amplifiée et est appelée \og $\mathrm{V_{Stark}}$ \fg{}.
-$\mathrm{V_{Stark}}$ est introduite dans la voie basse tension du circuit de contrôle.
-Pendant la phase d'excitation, le signal TTL est éteint. L'optocoupleur de la voie haute tension est alors bloquant, et les deux optocoupleurs de la voie basse tension sont passants.
-L'optocoupleur du haut sert à faire passer les tension négatives et celui du bas les tensions positives.
-Chacun est isolé par une diode à sa sortie, adaptée au sens de circulation du courant dans chaque voie.
-La tension $\mathrm{V_{Stark}}$ est alors directement appliquée aux électrodes.
-Pendant la phase de détection, le signal TTL est allumé. Les optocoupleurs de la voie basse tension deviennent bloquants et celui de la voie haute tension devient passant.
-La tension $\mathrm{V_{ion}}$ est alors directement appliquée aux électrodes.
-Les tensions en fin de rampe de détection peuvent aller de $\SI{-150}{\V}$ pour les niveaux voisins du $\mathrm{60S}$, et jusqu'à $\SI{-500}{\V}$ pour les niveaux voisins du $\mathrm{50C}$.
-Nous avons donc conçu ce circuit de contrôle en conséquence, en utilisant des optocoupleurs MOC8204M capables de bloquer des tensions élevées.
+
+ \subsection{Le passage adiabatique avec défaut quantique}
+\noindent Malheureusement, le défaut quantique du rubidium déplace les niveaux de faible $l$ et les niveaux situés en bas de l'échelle Stark ne sont plus couplés au reste de la multiplicité par le champ radio-fréquence à $\nu_{RF^+}$.
+Le niveau le plus bas qui puisse être couplé à la multiplicité se trouve être le niveau $\ket{n,m=2,k=2-(n-1)+2}$, que nous noterons $\ket{n,2,k_0}$.
+%Pour un champ électrique $F_0=\SI{2.4}{\V/\cm}$, la fréquence $\nu_{RF^+}$ vaut $\SI{230}{\MHz}$, et $\ket{n,2,k_0}$ est séparé de $\ket{n,3,k_0+1}$ par une énergie $h\times\SI{230}{\MHz}$.
+Le passage adiabatique de circularisation pour le rubidium, représenté en figure \eqref{fig:levels_circ}, commencera donc dans ce niveau.
+
+Il nous faut maintenant savoir comment exciter ce niveau de départ.
+\`A bas $l$, le défaut quantique est important et un très grand champ électrique serait nécessaire pour que les bons nombres quantiques deviennent $\ket{n,m,k}$ au lieu de $\ket{n,l,m}$.
+Nous pouvons alors identifier quel niveau $\ket{n,l_0,m_0}$ a la plus grande projection sur $\ket{n,2,k_0}$, puis allumer progressivement le champ électrique afin de brancher adiabatiquement $\ket{n,l_0,m_0}$ sur $\ket{n,2,k_0}$.
+Or le niveau $\ket{n,l_0,m_0}$ se trouve être le niveau $\ket{n,l=3,m=2}=\ket{nF,m=2}$.
+
+Ainsi, afin d'exciter le niveau circulaire $\mathrm{50C}$, nous devrons exciter le niveau $\ket{50F,m=2}$ puis lui faire subir un passage adiabatique radio-fréquence.
+Puisque nous disposons de deux lasers pour l'excitation des niveaux de Rydberg, nous ne pouvons adresser par laser la transition $\mathrm{5S}\rightarrow\mathrm{50F}$.
+Nous devrons donc exciter par laser le niveau $\mathrm{50D}$, puis transférer celui-ci vers le niveau $\mathrm{50F}$ par une impulsion microonde.
+Cette suite de transitions menant au niveau circulaire est résumée en figure \ref{fig:levels_circ}.
+
+\section{Modifications du dispositif expérimental}
+
+\noindent La réalisation du passage adiabatique de circularisation nécessite de pouvoir imposer un champ électrique radio-fréquence tournant au niveau des atomes.
+De plus, les niveaux de Rydberg circulaires ont un seuil d'ionisation des champs bien plus élevés que les niveaux de Rydberg de bas $l$\cite{TXT_GALLAGHER}.
+En raison de ces deux particularités, nous avons dû apporter des modifications au dispositif expérimental.
 
  \subsection{Contrôle du champ parallèle à la puce}% et électrodes RF de circularisation}
-\noindent Les dispositifs de contrôle des champs électriques que nous venons de présenter ont une lacune majeure :
-ils ne permettent de varier le champ électrique que perpendiculairement à la puce, soit dans la direction $y$.
-Lorsque nous avons commencé à travailler dans l'optique d'obtenir des atomes de Rydberg circulaires, nous avons souhaité pouvoir contrôler le champ électrique parallèlement à la puce.
-Cela a deux conséquences.
-En premier lieu, nous serons en mesure de compenser les champs résiduels dans les directions $x$ et $z$.
-En second lieu, cela permettra d'appliquer un champ électrique radio-fréquence polarisé, nécessaire à la circularisation des niveaux de Rydberg, qui sera discutée au chapitre \ref{chapter:50c}.
-
+\noindent Le dispositif de contrôle des champs électriques dont nous disposions auparavant, présenté au chapitre \ref{chapter:setup_coldatoms_Rydberg}, ne permettait de varier le champ électrique que perpendiculairement à la puce, soit dans la direction $y$.
+Un champ électrique statique $F$ est imposé par ce dispositif, qui définit l'axe de quantification du moment cinétique des atomes selon $Oy$.
+Afin de réaliser le passage adiabatique de circularisation, nous avons besoin de contrôler le champ dans le plan $xOz$, c'est-à-dire parallèlement à la puce. 
 
 Notre dispositif de contrôle du champ parallèle à la puce consiste en quatre électrodes cylindriques (\og électrodes RF \fg{}) , disposées en carré autour de la zone de piégeage des atomes.
-En appliquant des tensions arbitraires sur ces électrodes, nous pourrons compenser les champs résiduels dans les directions $x$ et $z$, et espérer compenser même les gradients de champ dans ces directions.
-En leur appliquant des tensions oscillant à une fréquence de $\SI{230}{\MHz}$ avec des phases bien optimisées, nous pourrons générer un champ électrique radio-fréquence arbitrairement polarisé au niveau des atomes.
+En appliquant à ces électrodes des tensions oscillantes avec des phases bien optimisées, nous pourrons générer un champ électrique radio-fréquence arbitrairement polarisé au niveau des atomes.
+En appliquant des tensions constantes arbitraires sur ces électrodes, nous pourrons aussi compenser les champs résiduels dans les directions $x$ et $z$.
 
 La figure \ref{fig:RF_ELECTRODES} montre la disposition de ces électrodes au c\oe ur du dispositif expérimental.
 %
@@ -184,22 +221,66 @@ Le détail des champs tournants pour la circularisation sera discuté au chapitr
 
 %EN VRAI, MERDE ! Gros gradients de champ selon E_y quand on est près de la puce !!
 
-Nous disposons ainsi d'un outil de contrôle du champ électrique dans toutes les directions, grâce aux électrodes d'ionisation et aux électrodes RF.
+\subsection{Contrôle du champ perpendiculaire à la puce}
+%Second circuit de contrôle de la tension d'ionisation}
+
+%Toutes les expériences que nous décrirons dans la suite de cette thèse ayant trait au niveau $\mathrm{60S}$ ont été réalisées à l'aide de ce circuit.
+%Une particularité de son fonctionnement réside dans le fait que la phase d'excitation des atomes de Rydberg se fait à tension constante, et que le contrôle dynamique de la tension n'est permis que lors de la phase de détection, qui nécessite une rampe de tension comme évoqué en \ref{subsec:detection}.
+%Cette limitation sera corrigée plus tard par l'introduction d'un second circuit de contrôle, représenté en figure \eqref{fig:detectionbox_CdF} et son fonctionnement est détaillé ci-après.
+%Ce second circuit, qui permet l'application de deux rampes de tensions indépendantes pour l'excitation et la détection, a été utilisé dans toutes les expériences que nous décrirons ayant trait au niveau circulaire $\mathrm{50C}$.
+
+\noindent Dans nos expériences sur les niveaux de Rydberg de bas $l$, une tension de $\SI{-150}{\V}$ était suffisante à l'ionisation de tous les niveaux d'intérêt.
+L'ionisation des niveaux circulaires se faisant à un seuil bien plus élevé que celle des niveaux de bas $l$, il nous a fallu adapter le dispositif générant les tensions d'ionisation.
+De plus, l'étape de branchement Stark et de passage adiabatique exigent un contrôle précis de la tension appliquée aux électrodes d'ionisation $I_1$ et $I_2$ pendant la phase d'excitation.
+Nous avons souhaité faire en sorte que ce contrôle soit le plus simple possible, et donc indépendant du contrôle de la tension pendant la phase de détection.
+\`A cette fin, nous avons conçu un circuit permettant de commuter rapidement entre deux générateurs de tension indépendants, l'un dédié au contrôle de la phase d'excitation (\og générateur Stark \fg{}), l'autre dédié au contrôle de la phase d'ionisation (\og générateur de détection \fg{}).
+Ce circuit de commutation est représenté en figure \ref{fig:detectionbox_CdF}.
+
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figures/setup/rydberg/detectionbox_CdF}
+\caption[Second circuit de contrôle de la tension des électrodes d'ionisation]{
+Second circuit de contrôle de la tension des électrodes d'ionisation.
+Les tensions sont fournies par deux générateurs de fonctions arbitraires indépendants et appliquées directement aux électrodes par deux voies séparées (voie basse tension à gauche et voie haute tension à droite).
+}
+\label{fig:detectionbox_CdF}
+\end{figure}
+
+Dans ce second circuit de contrôle de tension, l'ordinateur de contrôle permet de programmer une rampe arbitraire sur chacun des générateurs.
+La tension fournie par le générateur \og détection \fg{} est amplifiée $\SI{50}{}$ fois et devient \og $\mathrm{V_{ion}}$ \fg{}.
+L'amplification est réalisée par un amplificateur haute tension Trek 2205, pouvant fournir des tensions jusqu'à $\pm\SI{500}{\V}$.
+La tension $\mathrm{V_{ion}}$ est introduite dans la voie haute tension du circuit de contrôle.
+La tension fournie par le générateur \og Stark \fg{} n'est pas amplifiée et est appelée \og $\mathrm{V_{Stark}}$ \fg{}.
+$\mathrm{V_{Stark}}$ est introduite dans la voie basse tension du circuit de contrôle.
+Pendant la phase d'excitation, le signal TTL est éteint. L'optocoupleur de la voie haute tension est alors bloquant, et les deux optocoupleurs de la voie basse tension sont passants.
+L'optocoupleur du haut sert à faire passer les tension négatives et celui du bas les tensions positives.
+Chacun est isolé par une diode à sa sortie, adaptée au sens de circulation du courant dans chaque voie.
+La tension $\mathrm{V_{Stark}}$ est alors directement appliquée aux électrodes.
+Pendant la phase de détection, le signal TTL est allumé. Les optocoupleurs de la voie basse tension deviennent bloquants et celui de la voie haute tension devient passant.
+La tension $\mathrm{V_{ion}}$ est alors directement appliquée aux électrodes.
+Les tensions en fin de rampe de détection peuvent aller de $\SI{-150}{\V}$ pour les niveaux voisins du $\mathrm{60S}$, et jusqu'à $\SI{-500}{\V}$ pour les niveaux voisins du $\mathrm{50C}$.
+Nous avons donc conçu ce circuit de contrôle en conséquence, en utilisant des optocoupleurs MOC8204M capables de bloquer des tensions élevées.
+
+Nous disposons ainsi d'un outil de contrôle du champ électrique dans toutes les directions grâce aux électrodes RF.
+Le nouveau circuit de commutation des électrodes d'ionisation simplifie le contrôle de la tension lors des phases d'ionisation et de détection des atomes de Rydberg.
+Enfin, l'amplificateur haute tension Trek 2205 permet d'imposer des tensions suffisantes pour ioniser les atomes de Rydberg dans les niveaux voisins du $\mathrm{50C}$.
 
 
-\section{Comment exciter des atomes de Rydberg circulaires}
-	\subsection{Les niveaux atomiques du fondamental au Rydberg circulaire}
-		\noindent schéma de niveaux et Stark maps
-	\subsection{Spectroscopie 5s-50d}
+\section{Le chemin du niveau fondamental au niveau de Rydberg circulaire $\mathrm{50C}$}
+%	\subsection{Les niveaux atomiques du fondamental au Rydberg circulaire}
+%		\noindent schéma de niveaux et Stark maps
+	\subsection{La transition laser $\mathrm{5S \rightarrow 50D}$}
 		\noindent en champ nul et en champ non-nul -> choix de $m_j$
-	\subsection{Spectroscopie 50d-50f}
+	\subsection{La transition microonde $\mathrm{50D \rightarrow 50F}$}
 		\noindent en champ nul et en champ non-nul -> choix de $m_l$ et problème d'élargissement Stark
-	\subsection*{Le passage adiabatique}
-		\noindent présenter le principe du passage adiabatique (cf Jay, Brian, Eva) et le dispositif radio-fréquence tel qu'il est chez nous
+	\subsection{Le passage adiabatique $m=2\rightarrow m=n-1$}
+		\noindent présenter le dispositif radio-fréquence tel qu'il est chez nous
+		et les arrival times avec différentes puissances RF + la procédure d'optimisation
 
 \section{Comment caractériser les atomes de Rydberg circulaires}
 	\subsection{Spectroscopie microonde vers les niveaux voisins}
-		\noindent 50c-51c et optimisation de la RF\\
+		\noindent 50c-51c et optimisation fine de la RF\\
 		\noindent 50c-49c ?
 	\subsection{Temps de vie}
 		\noindent temps de vie théorique, temps de vie mesuré, température effective

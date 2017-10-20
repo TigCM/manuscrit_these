@@ -62,23 +62,25 @@
 \contentsline {subsection}{\numberline {IV.2.1}Interactions dip\IeC {\^o}le-dip\IeC {\^o}le entre atomes de Rydberg circulaires : m\IeC {\'e}lange de niveaux}{98}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {IV.2.2}Limitation du temps de vie des niveaux circulaires}{101}{subsection.4.2.2}
 \contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{105}{chapter.5}
-\contentsline {section}{\numberline {V.1}Principe du passage adiabatique et modifications du dispositif exp\IeC {\'e}rimental}{106}{section.5.1}
-\contentsline {subsection}{\numberline {V.1.1}Le passage adiabatique rapide $\sigma ^+$}{106}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {V.1.2}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{106}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {V.1.3}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{108}{subsection.5.1.3}
-\contentsline {section}{\numberline {V.2}Comment exciter des atomes de Rydberg circulaires}{112}{section.5.2}
-\contentsline {subsection}{\numberline {V.2.1}Les niveaux atomiques du fondamental au Rydberg circulaire}{112}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {V.2.2}Spectroscopie 5s-50d}{112}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {V.2.3}Spectroscopie 50d-50f}{112}{subsection.5.2.3}
-\contentsline {section}{\numberline {V.3}Comment caract\IeC {\'e}riser les atomes de Rydberg circulaires}{112}{section.5.3}
-\contentsline {subsection}{\numberline {V.3.1}Spectroscopie microonde vers les niveaux voisins}{112}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {V.3.2}Temps de vie}{112}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {V.3.3}Temps de coh\IeC {\'e}rence}{112}{subsection.5.3.3}
-\contentsline {section}{\numberline {V.4}\IeC {\'E}jectable : Premi\IeC {\`e}re \IeC {\'e}vidence du pi\IeC {\'e}geage des atomes circulaires}{113}{section.5.4}
-\contentsline {subsection}{\numberline {V.4.1}Dispositif laser de pi\IeC {\'e}geage}{113}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {V.4.2}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{113}{subsection.5.4.2}
-\contentsline {chapter}{Conclusion}{115}{chapter*.121}
-\contentsline {xchapter}{}{115}{chapter*.121}
+\contentsline {section}{\numberline {V.1}Principe du passage adiabatique}{106}{section.5.1}
+\contentsline {subsection}{\numberline {V.1.1}Le passage adiabatique id\IeC {\'e}al pour l'atome d'hydrog\IeC {\`e}ne}{106}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {V.1.2}Le passage adiabatique avec d\IeC {\'e}faut quantique}{108}{subsection.5.1.2}
+\contentsline {section}{\numberline {V.2}Modifications du dispositif exp\IeC {\'e}rimental}{108}{section.5.2}
+\contentsline {subsection}{\numberline {V.2.1}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{109}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {V.2.2}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{113}{subsection.5.2.2}
+\contentsline {section}{\numberline {V.3}Le chemin du niveau fondamental au niveau de Rydberg circulaire $\mathrm {50C}$}{114}{section.5.3}
+\contentsline {subsection}{\numberline {V.3.1}La transition laser $\mathrm {5S \rightarrow 50D}$}{114}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {V.3.2}La transition microonde $\mathrm {50D \rightarrow 50F}$}{114}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {V.3.3}Le passage adiabatique $m=2\rightarrow m=n-1$}{114}{subsection.5.3.3}
+\contentsline {section}{\numberline {V.4}Comment caract\IeC {\'e}riser les atomes de Rydberg circulaires}{114}{section.5.4}
+\contentsline {subsection}{\numberline {V.4.1}Spectroscopie microonde vers les niveaux voisins}{114}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {V.4.2}Temps de vie}{115}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {V.4.3}Temps de coh\IeC {\'e}rence}{115}{subsection.5.4.3}
+\contentsline {section}{\numberline {V.5}\IeC {\'E}jectable : Premi\IeC {\`e}re \IeC {\'e}vidence du pi\IeC {\'e}geage des atomes circulaires}{115}{section.5.5}
+\contentsline {subsection}{\numberline {V.5.1}Dispositif laser de pi\IeC {\'e}geage}{115}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {V.5.2}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{115}{subsection.5.5.2}
+\contentsline {chapter}{Conclusion}{117}{chapter*.122}
+\contentsline {xchapter}{}{117}{chapter*.122}
 \partbegin 
-\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{119}{appendix.A}
-\contentsline {chapter}{\numberline {B}Algorithme de simulation}{121}{appendix.B}
+\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{121}{appendix.A}
+\contentsline {chapter}{\numberline {B}Algorithme de simulation}{123}{appendix.B}

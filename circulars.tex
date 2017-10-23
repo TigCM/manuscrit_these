@@ -5,7 +5,7 @@
 \minitoc
 \newpage
 
-\noindent La première étape vers la réalisation de notre proposition de simulateur quantique est l'excitation d'atomes de Rydberg circulaires près de notre puce à atomes.
+\noindent La première étape vers la réalisation de notre proposition de simulateur quantique est l'excitation d'atomes de Rydberg circulaires près de la puce à atomes.
 Ceux-ci sont obtenus par passage adiabatique rapide, grâce à un champ radio-fréquence polarisé,  à partir de niveaux de Rydberg de bas moment cinétique excités par laser.
 Le principe de cette excitation est résumé en figure \eqref{fig:levels_circ}
 
@@ -154,7 +154,7 @@ Cela permet de réduire le bruit électrique de cette source à une amplitude in
 \subsubsection*{Simulation du champ créé par les électrodes RF}
 \noindent Il était important, afin de bien concevoir la géométrie de ces électrodes RF, de savoir quel serait l'effet des tensions appliquées dessus en termes de champ électrique au niveau des atomes.
 L'estimation du champ créé ne peut pas se faire simplement par les approximations de conducteurs infinis pour lesquels il suffirait de diviser la différence de potentiel entre eux par la distance les séparant.
-En effet, la géométrie des électrodes est assez éloignée de ce genre de modèle et limite ainsi déjà la validité qu'aurait une telle approximation.
+En effet, la géométrie des électrodes est assez éloignée de ce genre de modèle et limite ainsi la validité qu'aurait une telle approximation.
 De plus, la région où nous souhaitons créer du champ électrique est très proche de la puce, entre $\SI{0.5}{}$ et $\SI{2}{\mm}$ de celle-ci.
 C'est-à-dire que d'une part cette région est située en dehors du volume délimité par les quatre électrodes, et d'autre part que la présence proche d'une surface conductrice considérée comme infinie (la puce) perturbera grandement les lignes de champ dans cette région.
 
@@ -270,13 +270,121 @@ Enfin, l'amplificateur haute tension Trek 2205 permet d'imposer des tensions suf
 \section{Le chemin du niveau fondamental au niveau de Rydberg circulaire $\mathrm{50C}$}
 %	\subsection{Les niveaux atomiques du fondamental au Rydberg circulaire}
 %		\noindent schéma de niveaux et Stark maps
+\noindent Comme nous l'avons représenté en figure \eqref{fig:levels_circ}, l'excitation des niveaux circulaires passe par les étapes suivantes : excitation par laser du niveau $\mathrm{50D}$, transition microonde vers le niveau $\mathrm{50F,m=2}$ et passage adiabatique radio-fréquence.
+Nous présentons ici le détail de chacune de ces trois étapes.
+
 	\subsection{La transition laser $\mathrm{5S \rightarrow 50D}$}
-		\noindent en champ nul et en champ non-nul -> choix de $m_j$
+		\noindent fréquence de la transition, arrTimes, spectre en champ nul \\
+		
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/circulars/2photons_5S50D}
+\caption[Schéma d'excitation laser du niveau $\mathrm{50D}$]{
+Schéma d'excitation laser du niveau $\mathrm{50D}$.
+En champ nul, les niveaux $\mathrm{50D}_{3/2}$ et $\mathrm{50D}_{5/2}$ sont séparés de $\SI{92}{\MHz}$ sous l'effet du couplage fin.
+Chacun de ces deux niveaux se divise en sous-niveaux $m_j$.
+ATTENTION aux POLARS !!
+}
+\label{fig:2photons_5S50D}
+\end{figure}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/circulars/spectre_laser_champnul}
+\caption[Spectre laser de la transition $\mathrm{5S\rightarrow 50D_{5/2}}$ en champ nul]{
+Spectre laser de la transition $\mathrm{5S\rightarrow 50D_{5/2}}$ en champ nul.
+L'ajustement lorentzien en trait plein donne une largeur $w =\SI{347}{\kHz}$.
+}
+\label{fig:spectre_laser_champnul}
+\end{figure}
+		
+		\noindent arrTimes, arrTimes saturés, arrTimes élargis par interaction \\
+		
+		\noindent spectres en champ non-nul -> choix de $m_j$ \\
+		
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/circulars/Stark50D5_2}
+\caption[Diagramme Stark d'énergie du niveau $\mathrm{50D_{5/2}}$]{
+Diagramme Stark d'énergie du niveau $\mathrm{50D_{5/2}}$.
+Le champ électrique $|F|$ sépare le niveau $\mathrm{50D_{5/2}}$ en trois sous-niveau $m_j=1/2,3/2$ et $5/2$.
+Ici, la structure fine domine largement l'effet Stark.
+En champ nul, le niveau $\mathrm{50D_{3/2}}$ a une énergie inférieure de $\SI{90}{\MHz}$ à celle du $\mathrm{50D_{5/2}}$.
+L'effet Stark ne devient dominant par rapport à la structure fine qu'à partir de $\SI{2}{\V/\cm}$ (??).
+}
+\label{fig:Stark50D5_2}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/circulars/spectre_laser_champ}
+\caption[Spectre laser de la transition $\mathrm{5S\rightarrow 50D}$ en champ non nul]{
+Spectre laser de la transition $\mathrm{5S\rightarrow 50D}$ en champ non nul.
+}
+\label{fig:spectre_laser_champ}
+\end{figure}
+		
+
+
 	\subsection{La transition microonde $\mathrm{50D \rightarrow 50F}$}
-		\noindent en champ nul et en champ non-nul -> choix de $m_l$ et problème d'élargissement Stark
+		\noindent fréquence de la transition, arrTimes, spectre en champ nul, Rabi ?? \\
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/circulars/levels_50D50F}
+\caption[Schéma de niveaux de la transition $\mathrm{50D\rightarrow 50F}$]{
+Schéma de niveaux de la transition $\mathrm{50D\rightarrow 50F}$.
+La structure fine devient négligeable pour le $\mathrm{50F}$, qui se divise en sous-niveaux $m_l$.
+}
+\label{fig:levels_50D50F}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/circulars/arrTimes_50D-50F}
+\caption[Signal d'ionisation $\mathrm{50D\rightarrow 50F}$]{
+Signal d'ionisation $\mathrm{50D\rightarrow 50F}$.
+}
+\label{fig:arrTimes_50D50F}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/circulars/spectres_mw_champnul}
+\caption[Spectre microonde de la transition $\mathrm{50D\rightarrow 50F}$ en champ nul]{
+Spectre microonde de la transition $\mathrm{50D\rightarrow 50F}$ en champ nul.
+}
+\label{fig:spectres_mw_champnul}
+\end{figure}
+
+
+	\noindent en champ non-nul -> choix de $m_l$ et problème d'élargissement Stark, optimisation des champs
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/circulars/Stark50F}
+\caption[Diagramme Stark d'énergie du niveau $\mathrm{50F}$]{
+Diagramme Stark d'énergie du niveau $\mathrm{50F}$.
+Le champ électrique $|F|$ sépare le niveau $\mathrm{50F}$ en trois sous-niveau $m=1,2$ et $3$.
+Ici, la structure fine est négligeable.
+}
+\label{fig:Stark50F}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/circulars/spectre_mw_champ}
+\caption[Spectre microonde de la transition $\mathrm{50D\rightarrow 50F}$ en champ non nul]{
+Spectre microonde de la transition $\mathrm{50D\rightarrow 50F}$ en champ non nul.
+}
+\label{fig:spectre_mw_champ}
+\end{figure}
+
+
+
 	\subsection{Le passage adiabatique $m=2\rightarrow m=n-1$}
-		\noindent présenter le dispositif radio-fréquence tel qu'il est chez nous
-		et les arrival times avec différentes puissances RF + la procédure d'optimisation
+		\noindent présenter le dispositif radio-fréquence tel qu'il est chez nous \\
+		\noindent arrTimes avec différentes puissances RF + la procédure d'optimisation
 
 \section{Comment caractériser les atomes de Rydberg circulaires}
 	\subsection{Spectroscopie microonde vers les niveaux voisins}

@@ -2017,6 +2017,9 @@
     <bcf:citekey order="66">PHD_NGUYEN</bcf:citekey>
     <bcf:citekey order="67">ENS_PRE_CIRCSIM</bcf:citekey>
     <bcf:citekey order="68">TXT_GALLAGHER</bcf:citekey>
+    <bcf:citekey order="69">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="70">PHD_SIGNOLES</bcf:citekey>
+    <bcf:citekey order="70">PHD_FACON</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

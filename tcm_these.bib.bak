@@ -607,7 +607,7 @@
   url       = {http://link.aps.org/doi/10.1103/PhysRevLett.65.1317},
 }
 
-@Article{ION_WERTHCRYOION98,
+@Article{MX_WERTHCRYOION98,
   author    = {Diederich, M. and H{\"a}ffner, H. and Hermanspahn, N. and Immel, M. and Kluge, HJ and Ley, R. and Mann, R. and Quint, W. and Stahl, S. and Werth, G.},
   title     = {{Observing a single hydrogen-like ion in a Penning trap at T= 4 K}},
   journal   = {Hyperfine Interactions},
@@ -618,6 +618,36 @@
   file      = {ION_WERTHCRYOION98.pdf:ion/ION_WERTHCRYOION98.pdf:PDF;ION_WERTHCRYOION98.pdf:ion/ION_WERTHCRYOION98.pdf:PDF},
   keywords  = {ion,techniques},
   publisher = {Springer},
+}
+
+@PhdThesis{PHD_FACON,
+  author      = {Facon, Adrien},
+  title       = {{Schr{\"o}dinger cat states of a Rydberg atom for quantum metrology}},
+  school      = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
+  year        = {2015},
+  type        = {Theses},
+  month       = Dec,
+  hal_id      = {tel-01326581},
+  hal_version = {v1},
+  keywords    = {Spin cat states ; Quantum metrology ; Rydberg atoms ; Dynamique de Z{\'e}non quantique ; Limite de Heisenberg ; {\'E}tats Chat de Schr{\"o}dinger ; M{\'e}trologie quantique ; Atomes de Rydberg},
+  number      = {2015PA066534},
+  pdf         = {https://tel.archives-ouvertes.fr/tel-01326581/file/2015PA066534.pdf},
+  url         = {https://tel.archives-ouvertes.fr/tel-01326581},
+}
+
+@PhdThesis{signoles:tel-01146049,
+  author      = {Signoles, Adrien},
+  title       = {{Coherent manipulations of elliptic Rydberg states through quantum Zeno dynamics}},
+  school      = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
+  year        = {2014},
+  type        = {Theses},
+  month       = Dec,
+  hal_id      = {tel-01146049},
+  hal_version = {v1},
+  keywords    = {Spin coherent state ; Rydberg atoms ; Chat de Schr{\"o}dinger ; Dynamique Z{\'e}non quantique ; {\'E}tat coh{\'e}rent de spin ; Atome de Rydberg ; D{\'e}coh{\'e}rence ; {\'E}lectrodynamique quantique en cavit{\'e}},
+  number      = {2014PA066614},
+  pdf         = {https://tel.archives-ouvertes.fr/tel-01146049/file/these_archivage_2703454o.pdf},
+  url         = {https://tel.archives-ouvertes.fr/tel-01146049},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

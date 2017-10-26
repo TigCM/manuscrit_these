@@ -1332,6 +1332,60 @@
       \endverb
       \keyw{ion,techniques}
     \endentry
+    \entry{PHD_SIGNOLES}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=ad71a75d1ee416104eac174ba2f740fa}{Signoles}{S\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ad71a75d1ee416104eac174ba2f740fa}{Signoles}{S\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{ad71a75d1ee416104eac174ba2f740fa}
+      \strng{fullhash}{ad71a75d1ee416104eac174ba2f740fa}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Coherent manipulations of elliptic Rydberg states through quantum Zeno dynamics}}
+      \field{month}{12}
+      \field{number}{2014PA066614}
+      \field{title}{{Coherent manipulations of elliptic Rydberg states through quantum Zeno dynamics}}
+      \field{type}{Theses}
+      \field{year}{2014}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-01146049/file/these_archivage_2703454o.pdf
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01146049
+      \endverb
+      \keyw{Spin coherent state ; Rydberg atoms ; Chat de Schrödinger ; Dynamique Zénon quantique ; État cohérent de spin ; Atome de Rydberg ; Décohérence ; Électrodynamique quantique en cavité}
+    \endentry
+    \entry{PHD_FACON}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=e58fa92dce59119cb8ab3309e221e1ed}{Facon}{F\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e58fa92dce59119cb8ab3309e221e1ed}{Facon}{F\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{e58fa92dce59119cb8ab3309e221e1ed}
+      \strng{fullhash}{e58fa92dce59119cb8ab3309e221e1ed}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Schrödinger cat states of a Rydberg atom for quantum metrology}}
+      \field{month}{12}
+      \field{number}{2015PA066534}
+      \field{title}{{Schrödinger cat states of a Rydberg atom for quantum metrology}}
+      \field{type}{Theses}
+      \field{year}{2015}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-01326581/file/2015PA066534.pdf
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01326581
+      \endverb
+      \keyw{Spin cat states ; Quantum metrology ; Rydberg atoms ; Dynamique de Zénon quantique ; Limite de Heisenberg ; États Chat de Schrödinger ; Métrologie quantique ; Atomes de Rydberg}
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

@@ -467,6 +467,7 @@ La figure \eqref{fig:arrTimes_50D50F} représente les signaux d'ionisation obten
 Signal d'ionisation $\mathrm{50D\rightarrow 50F}$.
 La courbe rouge présente le signal d'ionisation obtenu après excitation laser du niveau $\mathrm{50D}$.
 La courbe noire présente le signal d'ionisation obtenu après excitation laser du niveau $\mathrm{50D}$ et application d'une impulsion microonde optimisée sur la transition $\mathrm{50D \rightarrow 50F}$.
+Les traits pointillés représentent les limites des fenêtres de détection.
 }
 \label{fig:arrTimes_50D50F}
 \end{figure}
@@ -582,7 +583,7 @@ Nous attribuons cela à l'élargissement Stark inhomogène plus important subi p
 En raison de celui-ci, la fréquence laser effectue une sélection spatiale des atomes excités de façon résonante depuis le niveau fondamental vers le $\mathrm{50D}_{5/2}, m_j = 5/2$.
 Le nuage d'atomes de Rydberg $\mathrm{50D}$ est par conséquent moins étendu spatialement, limitant ainsi l'élargissement Stark inhomogène de la transition $\mathrm{50D}\rightarrow\mathrm{50F}$.
 
-\newpage
+%\newpage
 	\subsection{Le passage adiabatique $m=2\rightarrow m=n-1$}
 %		\noindent passage adiabatique : séquence type
 \noindent \`A partir du sous-niveau $\mathrm{50F},m=2$, nous pouvons effectuer un passage adiabatique radio-fréquence vers le niveau circulaire $\mathrm{50C}$.
@@ -590,16 +591,16 @@ Pour cela, il nous faut augmenter fortement le champ électrique, de façon rend
 Après cette étape de \og branchement Stark \fg{}, des tensions oscillantes à $\nu_{RF} = \SI{230}{\MHz}$ sont appliquées aux quatre électrodes RF, générant le champ radio-fréquence nécessaire au passage adiabatique.
 La séquence d'excitation correspondante est représentée en figure \eqref{fig:seq_circul}.
 
-\begin{figure}
+\begin{figure}[!h]
 \centering
-\includegraphics[width=.6\linewidth]{figures/circulars/seq_circul}
+\includegraphics[width=.7\linewidth]{figures/circulars/seq_circul}
 \caption[Séquence d'excitation des atomes de Rydberg circulaires]{
 Séquence d'excitation des atomes de Rydberg circulaires.
 Le champ électrique initial est de $\SI{0.2}{\V/\cm}$.
 L'impulsion laser de $\SI{10}{\us}$ excite les atomes du niveau fondamental vers le niveau $\mathrm{50D}_{5/2},m_j=5/2$.
-L'impulsion microonde de $\SI{10}{\us}$ transfère $\SI{20}{\percent}$ des atomes de Rydberg vers le niveau $\mathrm{50F},m=2$.
-Le champ électrique est augmenté jusqu'à $\SI{2.7}{\V/\cm}$ lors du \og branchement Stark \fg{} puis la radio-fréquence est allumée pour le passage adiabatique.
-Pendant celui-ci, le champ électrique est diminué adiabatiquement jusqu'à $\SI{2.3}{\V/\cm}$.
+L'impulsion microonde de $\SI{6}{\us}$ transfère $\SI{20}{\percent}$ des atomes de Rydberg vers le niveau $\mathrm{50F},m=2$.
+Le module du champ électrique est augmenté jusqu'à $\SI{2.7}{\V/\cm}$ lors du \og branchement Stark \fg{} puis la radio-fréquence est allumée pour le passage adiabatique.
+Pendant celui-ci, le module du champ électrique est diminué jusqu'à $\SI{2.3}{\V/\cm}$ en $\SI{2}{\us}$.
 Enfin, la radio-fréquence est éteinte.
 }
 \label{fig:seq_circul}
@@ -612,7 +613,7 @@ Ce dispositif est représenté en figure \eqref{fig:RF_control}
 
 \begin{sidewaysfigure}
 \centering
-\includegraphics[width=.9\linewidth]{figures/circulars/RF_control}
+\includegraphics[width=\linewidth]{figures/circulars/RF_control}
 \caption[Dispositif de contrôle radio-fréquence]
 {Dispositif de contrôle radio-fréquence pour la circularisation des atomes de Rydberg}
 \label{fig:RF_control}
@@ -641,27 +642,169 @@ Cette tension passe par une filtre RC, identique à celui utilisé pour les tens
 
 
 \subsubsection*{Procédure initiale d'ajustement des amplitudes et phases RF}
-		\noindent arrTimes avec différentes puissances RF + la procédure d'optimisation
+%		\noindent arrTimes avec différentes puissances RF + la procédure d'optimisation
+\noindent La difficulté technique du passage adiabatique réside dans le contrôle des amplitudes et des phases du signal envoyé à chaque électrode afin de produire un champ polarisé $\sigma^+$ le plus pur possible.
+Nous avons utilisé une procédure d'optimisation mise au point par Sébastien Gleyzes, Adrien Signoles et Adrien Facon.
+L'objectif initial de cette optimisation est de progresser sur l'échelle de niveaux du passage adiabatique.
+Comme nous l'avons déjà mentionné, les niveaux à haut moment cinétique ont un seuil d'ionisation plus élevé que les niveaux à bas moment cinétique.
+En particulier, le seuil d'ionisation croît à mesure que les atomes progressent sur l'échelle du passage adiabatique en direction du niveau circulaire.
+Le signal d'ionisation des atomes de Rydberg permet ainsi d'estimer l'efficacité du passage adiabatique.
+%
+%%
+%\begin{figure}[h]
+%\centering
+%arr Times à différentes étapes de l'optimisation
+%29 aout cahier 20 pp.57-65
+%\caption[Signaux d'ionisation lors de l'optimisation RF]{
+%Signaux d'ionisation lors de l'optimisation RF
+%}
+%\label{fig:arrTimes_optim_RF}
+%\end{figure}
+%%
+%La figure \ref{fig:arrTimes_optim_RF} présente des signaux d'ionisation à différentes étapes de la procédure d'optimisation passage adiabatique, présentée ci-dessous :
+La procédure d'optimisation est détaillée ci-dessous :
+%
+\begin{enumerate}
+\item \label{item:RFoptim1} Régler la tension de commande $V_{ampl~1}$ de la puissance envoyée à l'électrode $1$ seulement, toutes les autres voies étant éteintes, de façon à pousser vers les plus hauts champs électriques le signal d'ionisation.
+\item Effectuer le même réglage sur les électrodes $2,3$ et $4$ chacune à son tour.
+\item Avec les électrodes $1$ et $2$ à $V_{ampl~1,2}$ respectivement, ajuster la tension de commande $V_{\phi~1-2}$ qui alimente règle la phase relative entre les voies $1$ et $2$, de façon à repousser vers les plus hauts champs et à affiner le pic d'ionisation.
+\item Effectuer de la même façon le réglage de $V_{\phi~3-4}$, avec les électrodes $3$ et $4$ seulement.
+\item Avec les quatre électrodes allumées, ajuster la phase $\phi_{A-B}$ pour obtenir une interférence constructive entre le champ $\sigma^+$ créé par la paire $1-2$ et le champ $\sigma^+$ créé par la paire $3-4$.
+\item Régler la tension $V_{env}$ qui crée l'enveloppe de l'impulsion radio-fréquence pour leq autres électrodes.
+\item Recommencer en \ref{item:RFoptim1}.
+\end{enumerate}
 
-\section{Comment caractériser les atomes de Rydberg circulaires}
-	\subsection{Spectroscopie microonde vers les niveaux voisins}
-		\noindent 50c-51c et optimisation fine de la RF\\
-		\noindent 50c-49c ?
+%
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/circulars/arrTimes_with-without_RF}
+\caption[Signaux d'ionisation des atomes circulaires]{
+Signaux d'ionisation à l'issue de la procédure d'optimisation.
+La courbe rouge présente le signal d'ionisation obtenu après excitation laser, impulsion microonde $\mathrm{50D \rightarrow 50F}$ et passage adiabatique radiofréquence.
+La courbe noire présente le signal d'ionisation obtenu en éteignant le champ radio-fréquence pendant le passage adiabatique.
+Les traits pointillés représentent les limites des fenêtres de détection.
+}
+\label{fig:arrTimes_with-without_RF}
+\end{figure}
+%
+\`A l'issue de l'optimisation RF, nous obtenons le signal d'ionisation présenté en figure \eqref{fig:arrTimes_with-without_RF}, qui montre un pic très clair $\SI{150}{\us}$ après le début de la rampe.
+Ce pic est \textit{a priori} dû à des atomes de Rydberg circulaires, mais la détection par ionisation n'est pas assez résolue pour les distinguer d'atomes dans le niveaux elliptiques proches du circulaire.
+
+%\newpage
+\section{Spectroscopie microonde des atomes de Rydberg circulaires}
+\noindent La caractérisation précise des atomes de Rydberg circulaires se fait par spectroscopie microonde des transitions vers les niveaux circulaires des multiplicités voisines.
+
+	\subsection{Transitions microonde vers les niveaux voisins}
+\noindent schéma de niveaux 49-50-51c, Stark différentiel et arrTimes
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.7\linewidth]{figures/circulars/levels_49-50-51C}
+\caption[Schéma de niveaux pour la spectroscopie microonde des Rydberg circulaires]{
+Schéma de niveaux pour la spectroscopie microonde des Rydberg circulaires.
+}
+\label{fig:levels_49-50-51C}
+\end{figure}
+		
+		
+%
+\begin{table}[!h]
+	\centering
+	\caption[Transitions microonde depuis le niveau $\mathrm{50C}$ et effet Stark différentiel]{
+	Transitions microonde depuis le niveau $\mathrm{50C}$ et effet Stark différentiel
+	}
+	\label{tab:Stark_49-50-51C}
+	\begin{tabular}{cccc}
+		\toprule\midrule
+		Transition
+		& Fréq. en champ nul
+		& Coef. Stark linéaire
+		& Coef. Stark quadratique
+		\\
+		atomique
+		& $\si{\GHz}$
+		& $\si{\MHz \per (\V \per\cm)}$
+		& $\si{\MHz \per (\V \per\cm) \squared}$ \\
+		\midrule
+		$\mathrm{50C \rightarrow 51C}$
+		& \SI{51.0991}{}
+		& \SI{0}{}
+		& \SI{-0.254}{} \\
+		$\mathrm{50E^+ \rightarrow 51E^+}$
+		& \SI{51.0991}{}
+		& \SI[retain-explicit-plus]{+1.92}{}
+		& \SI{-0.263}{} \\
+		$\mathrm{50E^- \rightarrow 51E^-}$
+		& \SI{51.0991}{}
+		& \SI[retain-explicit-plus]{-1.92}{}
+		& \SI{-0.263}{} \\
+		$\mathrm{50EE^+ \rightarrow 51EE^+}$
+		& \SI{51.0991}{}
+		& \SI[retain-explicit-plus]{+3.84}{}
+		& \SI{-0.272}{} \\
+		$\mathrm{50EE^- \rightarrow 51EE^-}$
+		& \SI{51.0991}{}
+		& \SI[retain-explicit-plus]{-3.84}{}
+		& \SI{-0.273}{} \\
+		\midrule
+		$\mathrm{50C \rightarrow 49C}$
+		& \SI{54.2594}{}
+		& \SI{0}{}
+		& \SI{-0.230}{} \\
+		$\mathrm{50E^+ \rightarrow 49E^+}$
+		& \SI{54.2594}{}
+		& \SI[retain-explicit-plus]{+1.92}{}
+		& \SI{-0.239}{} \\
+		$\mathrm{50E^- \rightarrow 49E^-}$
+		& \SI{54.2594}{}
+		& \SI[retain-explicit-plus]{-1.92}{}
+		& \SI{-0.239}{} \\
+		$\mathrm{50EE^+ \rightarrow 49EE^+}$
+		& \SI{54.2594}{}
+		& \SI[retain-explicit-plus]{+3.84}{}
+		& \SI{-0.247}{} \\
+		$\mathrm{50EE^- \rightarrow 49EE^-}$
+		& \SI{54.2594}{}
+		& \SI[retain-explicit-plus]{-3.84}{}
+		& \SI{-0.247}{} \\
+		\midrule
+		\bottomrule
+ 	\end{tabular}
+\end{table}
+%
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.85\linewidth]{figures/circulars/arrTimes_49-50-51C}
+%arrTimes 008 et 009 du 1er septembre (cahier 20 p.120) pour le 51C
+%arrTimes 023 et 024 du 31 aout (cahier 20 p.98) pour le 49C
+\caption[Signaux d'ionisation spectro microonde]{
+Signaux d'ionisation spectro microonde
+}
+\label{fig:arrTimes_49-50-51C}
+\end{figure}
+
+\newpage
+	\subsubsection*{Limite sur les tensions d'ionisation}
+	\noindent on peut pas dépasser $\sim 450-470V$ à cause des optocoupleurs -> limite déjà pour les 50C et on perd trop de signal pour les 49C -> choix du 51c pour la spectro, mais ça permet pas de faire une purif ..
+	
+	\subsection{Spectres microonde et optimisation fine de la RF}
+		\noindent spectres 50c-51c et optimisation fine de la RF \\
+		\noindent Rabi et spectre fin final -> borne inf sur le temps de cohérence
+
+\section{Perspectives expérimentales à court terme}
 	\subsection{Temps de vie}
-		\noindent temps de vie théorique, temps de vie mesuré, température effective
+		\noindent temps de vie théorique, temps de vie mesuré, température effective ?
 	\subsection{Temps de cohérence}
 		\noindent franges de Ramsey
-	
-
 %\section{Théorie de la force pondéro-motrice appliquée aux 50C} -> goes to chapter:circsim
 %	\noindent et description du laser de piégeage
 
-\section{Éjectable : Première évidence du piégeage des atomes circulaires}
+%\section{Éjectable : Première évidence du piégeage des atomes circulaires}
 	%\noindent chute par gravité et/ou expansion du nuage compensée par un tube de lumière
 	\subsection{Dispositif laser de piégeage}
 		\noindent description de l'optique de mise en forme \\
 		et caractérisation du faisceau de piégeage
 	\subsection{Comment observer le piégeage des atomes circulaires}
 		\noindent problème du temps de vie qui empêche d'observer l'absence de chute libre \\
-		\noindent comment observer un piégeage de niveaux qui ne vivent pas longtemps ? propositions envisagées\\
-		premiers signaux s'ils exsitent
+		\noindent comment observer un piégeage de niveaux qui ne vivent pas longtemps ? propositions envisagées

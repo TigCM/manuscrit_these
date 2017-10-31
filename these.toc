@@ -50,7 +50,7 @@
 \contentsline {section}{\numberline {III.4}Raffinement du mod\IeC {\`e}le : \IeC {\'e}quations de taux pour la dynamique d'excitation et chauffage du nuage}{79}{section.3.4}
 \contentsline {subsection}{\numberline {III.4.1}Mod\IeC {\`e}le d'\IeC {\'e}quation de taux et adaptation de l'algorithme}{79}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {III.4.2}Estimation et prise en compte du chauffage du nuage atomique}{81}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {III.4.3}Simulations}{83}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {III.4.3}Comparaison aux spectres optiques exp\IeC {\'e}rimentaux}{83}{subsection.3.4.3}
 \contentsline {subsection}{\numberline {III.4.4}Caract\IeC {\'e}ristiques des nuages simul\IeC {\'e}s}{83}{subsection.3.4.4}
 \contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{85}{chapter.4}
 \contentsline {section}{\numberline {IV.1}Principe g\IeC {\'e}n\IeC {\'e}ral du simulateur}{86}{section.4.1}
@@ -64,7 +64,7 @@
 \contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{105}{chapter.5}
 \contentsline {section}{\numberline {V.1}Principe du passage adiabatique}{106}{section.5.1}
 \contentsline {subsection}{\numberline {V.1.1}Le passage adiabatique id\IeC {\'e}al pour l'atome d'hydrog\IeC {\`e}ne}{106}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {V.1.2}Le passage adiabatique avec d\IeC {\'e}faut quantique}{108}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {V.1.2}Le passage adiabatique avec d\IeC {\'e}faut quantique}{107}{subsection.5.1.2}
 \contentsline {section}{\numberline {V.2}Modifications du dispositif exp\IeC {\'e}rimental}{108}{section.5.2}
 \contentsline {subsection}{\numberline {V.2.1}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{109}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {V.2.2}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{113}{subsection.5.2.2}
@@ -73,15 +73,14 @@
 \contentsline {subsection}{\numberline {V.3.2}La transition microonde $\mathrm {50D \rightarrow 50F}$}{120}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {V.3.3}Le passage adiabatique $m=2\rightarrow m=n-1$}{123}{subsection.5.3.3}
 \contentsline {section}{\numberline {V.4}Spectroscopie microonde des atomes de Rydberg circulaires}{127}{section.5.4}
-\contentsline {subsection}{\numberline {V.4.1}Transitions microonde vers les niveaux voisins}{127}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {V.4.2}Spectres microonde et optimisation fine de la RF}{128}{subsection.5.4.2}
-\contentsline {section}{\numberline {V.5}Perspectives exp\IeC {\'e}rimentales \IeC {\`a} court terme}{129}{section.5.5}
-\contentsline {subsection}{\numberline {V.5.1}Temps de vie}{129}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {V.5.2}Temps de coh\IeC {\'e}rence}{129}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {V.5.3}Dispositif laser de pi\IeC {\'e}geage}{129}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {V.5.4}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{129}{subsection.5.5.4}
-\contentsline {chapter}{Conclusion}{131}{chapter*.148}
-\contentsline {xchapter}{}{131}{chapter*.148}
+\contentsline {subsection}{\numberline {V.4.1}Spectres microonde et optimisation fine de la RF}{129}{subsection.5.4.1}
+\contentsline {section}{\numberline {V.5}Perspectives exp\IeC {\'e}rimentales \IeC {\`a} court terme}{132}{section.5.5}
+\contentsline {subsection}{\numberline {V.5.1}Temps de vie}{132}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {V.5.2}Temps de coh\IeC {\'e}rence}{132}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {V.5.3}Dispositif laser de pi\IeC {\'e}geage}{132}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {V.5.4}Comment observer le pi\IeC {\'e}geage des atomes circulaires}{132}{subsection.5.5.4}
+\contentsline {chapter}{Conclusion}{133}{chapter*.154}
+\contentsline {xchapter}{}{133}{chapter*.154}
 \partbegin 
-\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{135}{appendix.A}
-\contentsline {chapter}{\numberline {B}Algorithme de simulation}{137}{appendix.B}
+\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{137}{appendix.A}
+\contentsline {chapter}{\numberline {B}Algorithme de simulation}{139}{appendix.B}

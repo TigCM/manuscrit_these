@@ -51,7 +51,7 @@ Le confinement longitudinal étant réalisé par un réseau optique, il présent
 Le principe du piégeage laser des atomes de Rydberg circulaires, ainsi que la géométrie des lasers de piégeage, seront discutés en \ref{subsec:circ_laser_trapping}.
 
 Les atomes de Rydberg circulaires piégés sont placés à l'intérieur d'un condensateur formé par deux électrodes planes parallèles au plan $xOy$.
-En plus de permettre l'imposition d'un champ électrique dirigé selon $Oz$, cela inhibe l'émission spontanée $\sigma^+$ du niveau circulaire $\mathrm{nC}$ vers le niveau circulaire $\mathrm{(n-1)C}$.
+En plus de permettre l'application d'un champ électrique dirigé selon $Oz$, cela inhibe l'émission spontanée $\sigma^+$ du niveau circulaire $\mathrm{nC}$ vers le niveau circulaire $\mathrm{(n-1)C}$.
 Comme nous l'avons vu en \ref{subsec:level_50C}, ce canal d'émission est largement responsable de la durée de vie finie des niveaux circulaires.
 L'inhibition de ce canal par le condensateur permettra d'accroître significativement la durée de vie des niveaux de Rydberg, jusqu'à des temps de l'ordre de la centaine de secondes.
 Le temps de vie des atomes circulaires dans un tel condensateur sera discuté en \ref{subsec:inhibition}.
@@ -170,7 +170,7 @@ où les opérateurs de spin $\sigma_i^\alpha$ agissant sur l'atome $i$ sont déf
 \end{equation}
 %
 Le premier terme du hamiltonien \eqref{eq:XXZ_Natoms} provient d'un effet de bord :
-les atomes à chaque bout de la chaîne n'ont chacun qu'un seul voisin, cependant que les autres atomes en ont chacun deux.
+les atomes à chaque extrémité de la chaîne n'ont chacun qu'un seul voisin, cependant que les autres atomes en ont chacun deux.
 L'énergie d'interaction des atomes $1$ et $N$ est donc deux fois inférieure à celle des atomes du \og c\oe ur \fg{} de la chaîne, numérotés de $2$ à $N-1$.
 
 Le hamiltonien d'interaction \eqref{eq:XXZint_Natoms} ne décrit que l'interaction dipôle-dipôle entre ces atomes.
@@ -184,7 +184,7 @@ En se plaçant dans le référentiel tournant à la fréquence du champ microond
 %ce champ microonde agit sur chaque atome par le hamiltonien
 $\hat{H}_{\mu o}/h = \frac{\Omega}{2}\sigma_i^x + \frac{\delta\nu}{2} \sigma_i^z$.
 
-Cette évolution due à l'énergie atomique et au couplage microonde s'ajoute au hamiltonien d'interaction, et nous aboutissons à un hamiltonien total
+Cette évolution due à l'énergie atomique et au couplage microonde s'ajoute au hamiltonien d'interaction, dont la forme est inchangée dans le référentiel tournant, et nous aboutissons à un hamiltonien total
 %
 \begin{equation}
 \label{eq:hamilt_tot_N}
@@ -223,7 +223,7 @@ Le couplage microonde entre les niveaux atomiques est équivalent, pour des spin
 La composante longitudinale de ce \og champ \fg{} est représentée par le terme $\Delta/(2J)$ et sa composante transverse par le terme $\Omega/(2J)$.
 Le dernier terme du hamiltonien représente l'effet de bord de la chaîne évoqué plus haut, qui déplace l'énergie des atomes à chaque bout de la chaîne.
 
-Les paramètres permettant l'exploration de différents régimes d'interaction et d'évolution de la chaîne se réduisent en fin de compte aux trois rapports $J_z/J$, $\Omega/J$ et $\Delta/J$.
+En négligeant cet effet de bord, les paramètres permettant l'exploration de différents régimes d'interaction et d'évolution de la chaîne se réduisent en fin de compte aux trois rapports $J_z/J$, $\Omega/J$ et $\Delta/J$.
 Le paramètre $J$, qui rend compte de l'interaction d'échange, règle quant à lui le temps caractéristique d'évolution de la chaîne.
 Ce temps est donné par $\tau_{\text{\'ech}} = 1/(4J)$.
 
@@ -242,7 +242,7 @@ On se trouve alors dans une situation où $J_z/J$ est toujours petit devant $1$ 
 % et où, de plus, les interactions évoluent souvent en $1/r^3$.
 %De plus, une forte interaction d'échange a pour conséquence l'apparition d'une branche attractive forte, comme évoqué en \ref{subsec:inter_60Snl}.
 Lorsque $|n-n'|>2$ alors le terme d'échange devient vite négligeable et $J_z/J$ est toujours grand devant $1$.
-On se trouve alors dans une situation quasi-classique où l'interaction entre les particules se limite à un déplacement d'énergie répulsif.
+On se trouve alors dans une situation où l'interaction entre les particules se limite à un déplacement d'énergie répulsif.
 %Enfin, la situation $|n-n'|=2$ permet d'obtenir des termes d'échange et d'interaction directe qui sont comparables et évoluent tous deux en $1/r^6$.
 
 Lorsque l'on fait varier le champ électrique $F$ imposé aux atomes, l'effet Stark déplace les niveaux atomiques les uns par rapport aux autres.
@@ -320,9 +320,11 @@ Celle-ci étant très grande devant la masse $m_e$ de l'électron, l'effet du la
 En fin de compte, le potentiel pondéro-moteur \eqref{eq:pondero_energy} agit sur l'atome de Rydberg de sorte que celui-ci recherche les basses intensités lumineuses.
 
 La géométrie que nous cherchons à obtenir est une chaîne unidimensionnelle.
-Le confinement radial selon l'axe $Ox$ est assuré par un faisceau \og creux \fg{} de longueur d'onde $\lambda=\SI{1064}{\nano\meter}$, présentant un profil d'intensité de Laguerre-Gauss d'ordre $(0,1)$.
+Le confinement radial dans un plan perpendiculaire à l'axe $Ox$ est assuré par un faisceau \og creux \fg{} de longueur d'onde $\lambda=\SI{1064}{\nano\meter}$, présentant un profil d'intensité de Laguerre-Gauss d'ordre $(0,1)$.
 Ce profil d'intensité $LG_0^1$ est proportionnel à $(2\rho^2/w^4)\cdot e^{-2\rho^2/w^2}$, où $\rho$ est la distance à l'axe optique et $w$ le col du faisceau\footnote{
-La définition du col pour un profil de Laguerre-Gauss découle directement de celle pour un faisceau gaussien.
+La définition du col pour un profil de Laguerre-Gauss 
+%découle directement de celle 
+est la même que pour un faisceau gaussien.
 }.
 La figure (\ref{fig:pondero_trap} a) représente le potentiel créé par ce faisceau dans le plan $x=0$, pour une puissance laser de $\SI{0.5}{\watt}$ focalisée sur un col $w=\SI{7}{\um}$.
 Dans ces conditions, les atomes sont piégés transversalement à l'axe $Ox$ avec des fréquences de piégeage $\omega_y=\omega_z= 2\pi\times \SI{12}{\kHz}$.
@@ -341,7 +343,7 @@ Le potentiel est exprimé en unités de fréquence. L'échelle de couleur est co
 Le confinement longitudinal doit permettre de fixer la distance séparant les atomes de la chaîne.
 Ce piégeage doit donc être périodique.
 En effet, l'interaction de van der Waals répulsive entre atomes de Rydberg entraînerait un mouvement important des atomes le long de l'axe $Ox$ en l'absence de piégeage périodique longitudinal.
-Afin de réaliser ce confinement, nous proposons d'utiliser un réseau lumineux d'un pas ajustable de l'ordre de $d=\SI{5}{}$.
+Afin de réaliser ce confinement, nous proposons d'utiliser un réseau lumineux d'un pas ajustable de l'ordre de $d=\SI{5}{\um}$.
 Ce réseau est créé par l'interférence à petit angle de deux faisceaux gaussiens.
 Ceux-ci sont décalés en fréquence de quelques dizaines de $\SI{}{\MHz}$ par rapport au faisceau Laguerre-Gauss afin de ne pas interférer avec lui.
 Les deux faisceaux gaussiens se propagent dans le plan $xOy$ avec un angle $\pm \theta$ par rapport à l'axe $Oy$.
@@ -359,7 +361,7 @@ Nous disposons ainsi d'une chaîne de pièges profonds régulièrement espacés 
 Si l'on en reste au calcul de \ref{subsec:level_50C}, chaque atome dans le niveau $\mathrm{50C}$ a une durée de vie de $\SI{8.36}{\ms}$ à $\SI{4.2}{\K}$.
 Une chaîne de quarante atomes a ainsi une durée de vie de $\SI{8.36}{}/\SI{40}{} = \SI{0.21}{\ms}$.
 Avec des atomes séparés de $d=\SI{5}{\um}$ et donc un temps d'échange $\tau_{\text{éch}} = \SI{14.7}{\us}$, la chaîne d'atomes vit le temps d'une quinzaine d'échanges.
-C'est-à-dire qu'une excitation placée à un bout de la chaîne n'aurait pas le temps de se propager jusqu'au milieu de la chaîne.
+C'est-à-dire qu'une excitation placée à un bout de la chaîne de $\SI{40}{}$ atomes n'aurait pas le temps de se propager jusqu'au milieu de la chaîne.
 La solution la plus évidente pour rallonger la durée de vie d'un niveau de Rydberg consiste à refroidir l'environnement afin de réduire au mieux l'émission stimulée par le rayonnement du corps noir.
 Cependant, cela ne permettrait ici de l'améliorer que d'un facteur $%\SI{8.36}{}/\SI{28.65}{} \simeq 
 \SI{3.5}{}$ au maximum, la durée de vie à température nulle étant de $\SI{28.65}{\ms}$ pour le niveau $\mathrm{50C}$.
@@ -383,7 +385,7 @@ Or, lorsque l'on impose un champ électrique entre les deux plaques du condensat
 L'émission sur une transition $\sigma^+$ se fait alors nécessairement dans la direction normale aux plaques et peut être inhibée.
 %L'émission dans une direction parallèle aux plaques n'est pas inhibée.
 
-Les transitions $\mathrm{50C}\rightarrow \mathrm{49C}$ et $\mathrm{48C}\rightarrow \mathrm{47C}$ ont des fréquences respectives de $\SI{54.249}{\GHz}$ et $\SI{61.407}{\GHz}$, correspondant à des longueurs d'onde de $\SI{5.525}{\mm}$ et $\SI{4.882}{\mm}$.
+Les transitions $\mathrm{50C}\!\rightarrow \!\mathrm{49C}$ et $\mathrm{48C}\!\rightarrow\! \mathrm{47C}$ ont des fréquences respectives de $\SI{54.249}{\GHz}$ et $\SI{61.407}{\GHz}$, correspondant à des longueurs d'onde de $\SI{5.525}{\mm}$ et $\SI{4.882}{\mm}$.
 La condition \eqref{eq:condition_inhib} nous impose donc de placer les atomes de Rydberg circulaires dans un condensateur dont les deux plaques sont distantes de $D<\SI{2.4}{\mm}$.
 Dans le cas d'un condensateur infini idéal, cela suffirait à inhiber complètement le rayonnement à ces fréquences, et ainsi à rendre la durée de vie des niveaux circulaires infinie.
 

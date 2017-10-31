@@ -751,6 +751,9 @@ Cette étape permet de respecter les contraintes interactionnelles de l'excitati
 
 Ensuite, certains paramètres de simulation sont désormais exprimés différemment.
 La puissance des laser est prise en compte par un paramètre $\Omega_0$ de fréquence de Rabi au centre des faisceaux laser, de même que la largeur spectrale $\gamma$ d'excitation à un atome.
+Le faisceau laser bleu présente une bande latérale à $\SI{20}{\MHz}$, en raison du dispositif de verrouillage de la cavité de doublage de fréquence.
+Cette bande latérale est prise en compte dans les simulations, en ajoutant au taux d'excitation des atomes un terme désaccordé de $\SI{20}{\MHz}$ et pondéré par un facteur d'amplitude $x_{20}$ sur la fréquence de Rabi.
+
 L'extension spatiale du piège dans chacune des trois directions est calculée à partir de la fréquence de piégeage dans cette direction, elle-même mesurée expérimentalement, et de la température du piège.
 Nous pourrons ainsi utiliser la température du nuage atomique comme paramètre explicite de simulation et intégrer au calcul un processus de chauffage dû au laser rouge, tel qu'évoqué en \ref{subsec:2photon_excite}.
 
@@ -825,14 +828,64 @@ D'autre part, les vitesses atteintes par les atomes à $\SI{1}{\micro\K}$ sont d
 La densité atomique au centre du nuage étant de $\SI{1.7e12}{\per\raiseto{3}\cm}$, la distance inter-atomique minimale est de l'ordre de $\SI{0.6}{\um}$.
 En $\SI{100}{\us}$, les atomes se seront déplacés au maximum de deux fois la distance inter-atomique minimale, ce qui justifie de négliger l'effet de la vitesse sur la configuration à petite échelle du nuage.
 
-	\subsection{Simulations}
-		\noindent résultats de simulations comparés aux manips\\
-		paramètres de simulation correspondant \\
-		discussion
+	\subsection{Comparaison aux spectres optiques expérimentaux}
+\noindent Le modèle final de simulation intègre donc l'effet de chauffage que nous venons de décrire.
+Nous obtenons alors un bon accord des simulations avec les données expérimentales, tel que présenté en figure \eqref{fig:fitsim_spectresoptiques_0830126}.
+%
+\begin{figure}[!h]
+\centering
+\includegraphics[width=.8\linewidth]{figures/low_l/fitsim_spectresoptiques_0830126}
+\caption[Comparaison des spectres optiques aux simulations avec équations de taux]{
+Comparaison des spectres optiques aux simulations, pour différentes durées d'impulsion laser : $\SI{2}{},\SI{20}{},\SI{50}{}$ et $\SI{100}{\us}$.
+Les spectres expérimentaux sont ceux de la figure \ref{fig:data_spectresoptiques}.
+Les lignes pleines sont les résultats de la simulation.
+Le calcul tient compte du mouvement des atomes de Rydberg durant l'excitation.
+Les traits pointillés sont les résultats des simulations sans tenir compte de l'effet de chauffage du nuage atomique.
+}
+\label{fig:fitsim_spectresoptiques_0830126}
+\end{figure}
+%
+Les paramètres de simulation utilisés sont résumés en table \eqref{tab:fit_sim_finalparam}.
+%
+\begin{table}[!h]
+	\centering
+	\caption[Paramètres de simulation]{Valeurs expérimentales et de simulation des paramètres d'excitation des spectres.
+	}
+	\label{tab:fit_sim_finalparam}
+	\begin{tabular}{l c c}
+		\toprule\midrule
+		Paramètres fixes &	Valeur expérimentale & Valeur de simulation\\		
+		\midrule
+		Fréquence de piégeage $f_x$ & \SI{47}{\Hz} & \SI{47}{\Hz} \\
+		Fréquence de piégeage $f_y$ & \SI{244}{\Hz} & \SI{244}{\Hz} \\
+		Fréquence de piégeage $f_z$ & \SI{262}{\Hz} & \SI{262}{\Hz} \\
+		Nombre d'atomes $N$ & $\SI{12000}{}\pm\SI{2000}{}$ & $\SI{12000}{}\pm\SI{2000}{}$ \\
+		Col du laser bleu $w_{480}$ & \SI{22}{\um} & \SI{22}{\um} \\
+		Col du laser rouge $w_{780}$ & \SI{150}{\um} & $\infty$ \\
+		Largeur de raie $\gamma$ & \SI{626}{\kHz} & \SI{626}{\kHz}\\
+		Taux de chauffage $\partial _t T$ & \SI{12.6}{\nano\K/\us} & \SI{12.6}{\nano\K/\us} \\
+		\midrule
+		Paramètres d'ajustement & &\\\midrule
+		Amplitude de bande latérale $x_{20}$ & non mesurée & \SI{0.12}{} \\
+		Fréquence de Rabi max. $\Omega_0/(2\pi)$ & \SI{296}{\kHz} & \SI{60}{\kHz}\\
+		Température initiale $T_0$ & $\SI{0.5}{}\pm\SI{0.15}{\uK}$ & \SI{0.8}{\uK}\\
+		\midrule
+		\bottomrule
+ 	\end{tabular}
+\end{table}
+%
+
+		
+\noindent discussion : la température ça va, c'est cool d'avoir plein de paramètres pas libres, mais quand même la fréquence de Rabi elle nous embête -> dépôt de graisse sur les fenêtres ?Mauvaise mesure de la puissance du bleu ?\\
+Aussi, frequence de Rabi et température initiale ont été fittées sur le 2 us seulement !!! \\
+		Aussi, on rate un peu un truc à $100 µs$ côté basses fréquences
+
 
 	\subsection{Caractéristiques des nuages simulés}
 		\noindent on est content du modèle => on en déduit des infos sur la dynamique d'excitation, en particulier la configuration spatiale du nuage de Rydberg.
+		Aussi, sortir une simu aux temps très courts (plutôt NRyd en fonction du temps) et estimer une taille de super-atome ?
 
 \section*{Conclusion}
-		\noindent il faut prendre en compte le mouvement et le chauffage, mais aussi (peut-être ?) les transferts thermiques vers les niveaux $p$\\
+		\noindent il faut prendre en compte le mouvement et le chauffage\\
+		%, mais aussi (peut-être ?) les transferts thermiques vers les niveaux $p$\\
 		\noindent Le gaz gelé ne marche pas !

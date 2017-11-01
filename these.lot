@@ -19,15 +19,15 @@
 \contentsline {table}{\numberline {III.1}{\ignorespaces Coefficients de van der Waals pour diff\IeC {\'e}rents niveaux $60S-n'S$}}{70}{table.caption.83}
 \contentsline {table}{\numberline {III.2}{\ignorespaces Param\IeC {\`e}tres de simulation}}{84}{table.caption.98}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{85}{chapter.4}
-\contentsline {table}{\numberline {IV.1}{\ignorespaces Contributions des diff\IeC {\'e}rents effets limitant le temps de vie des atomes circulaires}}{103}{table.caption.113}
+\contentsline {xchapter}{Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{87}{chapter.4}
+\contentsline {table}{\numberline {IV.1}{\ignorespaces Contributions des diff\IeC {\'e}rents effets limitant le temps de vie des atomes circulaires}}{105}{table.caption.115}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Des atomes de Rydberg circulaires sur puce}{105}{chapter.5}
-\contentsline {table}{\numberline {V.1}{\ignorespaces Effet Stark quadratique des sous-niveaux du $\mathrm {50D}_{5/2}$}}{118}{table.caption.131}
-\contentsline {table}{\numberline {V.2}{\ignorespaces Effet Stark quadratique des sous-niveaux du $\mathrm {50F}$}}{122}{table.caption.138}
-\contentsline {table}{\numberline {V.3}{\ignorespaces Transitions microonde depuis le niveau $\mathrm {50C}$ et effet Stark diff\IeC {\'e}rentiel}}{128}{table.caption.147}
-\contentsline {xchapter}{}{133}{chapter*.154}
+\contentsline {xchapter}{Des atomes de Rydberg circulaires sur puce}{107}{chapter.5}
+\contentsline {table}{\numberline {V.1}{\ignorespaces Effet Stark quadratique des sous-niveaux du $\mathrm {50D}_{5/2}$}}{120}{table.caption.133}
+\contentsline {table}{\numberline {V.2}{\ignorespaces Effet Stark quadratique des sous-niveaux du $\mathrm {50F}$}}{124}{table.caption.140}
+\contentsline {table}{\numberline {V.3}{\ignorespaces Transitions microonde depuis le niveau $\mathrm {50C}$ et effet Stark diff\IeC {\'e}rentiel}}{130}{table.caption.149}
+\contentsline {xchapter}{}{135}{chapter*.156}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Syst\IeC {\`e}me de lock}{137}{appendix.A}
+\contentsline {xchapter}{Syst\IeC {\`e}me de lock}{139}{appendix.A}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Algorithme de simulation}{139}{appendix.B}
+\contentsline {xchapter}{Algorithme de simulation}{141}{appendix.B}

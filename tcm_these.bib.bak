@@ -635,7 +635,7 @@
   url         = {https://tel.archives-ouvertes.fr/tel-01326581},
 }
 
-@PhdThesis{signoles:tel-01146049,
+@PhdThesis{PHD_SIGNOLES,
   author      = {Signoles, Adrien},
   title       = {{Coherent manipulations of elliptic Rydberg states through quantum Zeno dynamics}},
   school      = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},

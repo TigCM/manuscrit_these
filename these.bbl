@@ -1065,6 +1065,27 @@
       \verb http://link.aps.org/doi/10.1103/PhysRevLett.112.013002
       \endverb
     \endentry
+    \entry{PHD_LEUPOLD_ETHZ}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=1764a0043ef6944ff74504e2dda4a42e}{Leupold}{L\bibinitperiod}{Florian\bibnamedelima Michael}{F\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=1764a0043ef6944ff74504e2dda4a42e}{Leupold}{L\bibinitperiod}{Florian\bibnamedelima Michael}{F\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {. ETH-Zürich}%
+      }
+      \strng{namehash}{1764a0043ef6944ff74504e2dda4a42e}
+      \strng{fullhash}{1764a0043ef6944ff74504e2dda4a42e}
+      \field{sortinit}{0}
+      \field{labeltitle}{Bang-bang Control of a Trapped-Ion Oscillator}
+      \field{title}{Bang-bang Control of a Trapped-Ion Oscillator}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+      \verb{doi}
+      \verb http://dx.doi.org/10.3929/ethz-a-010616440
+      \endverb
+    \endentry
     \entry{ENS_PRE_CIRCSIM}{article}{}
       \true{morelabelname}
       \name{labelname}{10}{}{%

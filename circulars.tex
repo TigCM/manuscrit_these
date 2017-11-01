@@ -689,6 +689,7 @@ Les traits pointillés représentent les limites des fenêtres de détection.
 %
 \`A l'issue de l'optimisation RF, nous obtenons le signal d'ionisation présenté en figure \eqref{fig:arrTimes_with-without_RF}, qui montre un pic très clair $\SI{150}{\us}$ après le début de la rampe.
 Ce pic est \textit{a priori} dû à des atomes de Rydberg circulaires, mais la détection par ionisation n'est pas assez résolue pour les distinguer d'atomes dans le niveaux elliptiques proches du circulaire.
+%Le nombre d'atomes circulaires excités ici est de $\SI{5}{}\pm\SI{1}{}$ après chaque impulsion laser.
 
 %\newpage
 \section{Spectroscopie microonde des atomes de Rydberg circulaires}
@@ -859,7 +860,7 @@ La courbe rouge est obtenue après réglage de la phase relative entre les élec
 %
 
 
-\subsubsection*{Première estimation du temps de cohérence}
+\subsection{Première estimation du temps de cohérence}
 		%\noindent Rabi(?) et spectre fin final -> borne inf sur le temps de cohérence\\
 \noindent Afin de caractériser les atomes de Rydberg circulaires, nous souhaitons faire une première estimation de leur temps de cohérence.
 Pour cela, nous avons cherché la limite de largeur du spectre de la transition $\mathrm{50C\rightarrow 51C}$.
@@ -881,20 +882,59 @@ Cela nous permet de donner une borne inférieure au temps de cohérence $\tau$ d
 \tau \geq \tau_0 = \frac{1}{\Delta\nu} = \SI{14.8}{\us}
 \end{equation}
 
-\newpage
-\section{Perspectives expérimentales à court terme}
-	\subsection{Temps de vie}
-		\noindent temps de vie théorique, temps de vie mesuré, température effective ?
-	\subsection{Temps de cohérence}
-		\noindent franges de Ramsey
-%\section{Théorie de la force pondéro-motrice appliquée aux 50C} -> goes to chapter:circsim
-%	\noindent et description du laser de piégeage
+Les premières mesures à prendre pour améliorer ce temps de cohérence consistent à réduire l'exposition de l'ensemble d'atomes de Rydberg à l'inhomogénéité du champ électrique.
+Pour cela, nous pouvons d'une part éloigner les atomes de la puce, et d'autre part réduire le volume d'excitation, en excitant les atomes de Rydberg à partir d'un nuage froid piégé magnétiquement.
 
-%\section{Éjectable : Première évidence du piégeage des atomes circulaires}
-	%\noindent chute par gravité et/ou expansion du nuage compensée par un tube de lumière
-	\subsection{Dispositif laser de piégeage}
-		\noindent description de l'optique de mise en forme \\
-		et caractérisation du faisceau de piégeage
-	\subsection{Comment observer le piégeage des atomes circulaires}
-		\noindent problème du temps de vie qui empêche d'observer l'absence de chute libre \\
-		\noindent comment observer un piégeage de niveaux qui ne vivent pas longtemps ? propositions envisagées
+Le nombre d'atomes circulaires excités ici est de $\SI{5}{}\pm\SI{1}{}$ après chaque impulsion laser.
+En même temps que le temps de cohérence des niveaux de Rydberg circulaires sera augmenté, nous devrions pouvoir en exciter un plus grand nombre.
+En effet, ce nombre est limité pour l'instant par le petit nombre d'atomes transférés du niveau $\mathrm{50D}_{5/2}$ au niveau $\mathrm{50F}$, en raison de l'élargissement de cette transition.
+La réduction des inhomogénéités de champ électrique permettra de remédier à cet élargissement, et ainsi de transférer une plus grande partie des atomes vers le niveau $\mathrm{50F}$.
+La bonne efficacité du passage adiabatique assurera ensuite le transfert de ceux-ci vers le niveau circulaires $\mathrm{50C}$.
+
+\section{Perspectives expérimentales à court terme}
+\noindent \`A court terme, les perspectives expérimentales visent en premier lieu à améliorer la qualité de l'excitation d'atomes de Rydberg circulaires.
+\`A cette fin, il sera nécessaire d'éloigner les atomes de la puce et d'envisager l'excitation à partir d'un nuage piégé magnétiquement.
+Cela limitera l'inhomogénéité du champ électrique au niveau des atomes et permettra d'en exciter plus et d'augmenter leur temps de cohérence.
+
+Il sera nécessaire d'estimer également le temps de vie des atomes de Rydberg circulaires.
+Des mesures très préliminaires montrent un temps de vie de l'ordre de $\SI{1}{}$ à $\SI{2}{\ms}$, qui est très inférieur au temps de vie de $\SI{8.36}{\ms}$ attendu à la température de $\SI{4.2}{\K}$.
+Une telle réduction du temps de vie, si elle se confirme, serait à attribuer au rayonnement de corps noir de l'environnement extérieur au cryostat qui entre dans la zone à $\SI{4.2}{\K}$ par les hublots d'accès optique.
+
+Enfin, l'objectif expérimental à moyen terme est de démontrer le piégeage des atomes de Rydberg circulaires par le faisceau laser Laguerre-Gauss à $\SI{1064}{\nano\meter}$.
+Une approche naïve pour ce faire serait de comparer une situation où, le faisceau de piégeage étant éteint, les atomes de Rydberg circulaires tombent par gravité, avec la situation où le faisceau de piégeage est allumé et retient les atomes.
+Or, avec un temps de vie du niveau circulaire inférieur à $\SI{2}{\ms}$, les atomes ne tombent que de $\SI{20}{\um}$ avant d'être désexcités, et ne sortent pas de la zone de détection.
+Il sera donc nécessaire de travailler à augmenter le temps de vie des niveaux circulaires afin de démontrer leur piégeage.
+
+\section*{Conclusion}
+\noindent Dans ce chapitre, nous avons exposé les conditions expérimentales qui nous ont permis d'exciter des atomes de Rydberg circulaires sur puce.
+Cette excitation est faite en trois étapes.
+Tout d'abord, une cinquantaine d'atomes sont excités par laser dans le niveau $\mathrm{50D}_{5/2},m_j=5/2$, à partir d'un nuage d'atomes refroidis par mélasse optique.
+Ensuite, environ $\SI{20}{\percent}$ de ces atomes sont transférés grâce à une impulsion microonde vers le niveau $\mathrm{50F},m=2$.
+Enfin, la moitié de ces derniers est transférée par passage adiabatique radio-fréquence vers le niveau circulaire $\mathrm{50C}$.
+
+Pour mettre en \oe uvre cette excitation, nous avons dû adapter le dispositif expérimental afin de pouvoir réaliser le passage adiabatique radio-fréquence.
+Nous avons installé de nouvelles électrodes permettant de contrôler le champ électrique selon les directions $x$ et $z$ parallèles à la puce.
+Lorsqu'on leur applique des tensions oscillant à $\SI{230}{\MHz}$, ces électrodes créent le champ radio-fréquence polarisé nécessaire au passage adiabatique.
+Des tensions constantes appliquées sur les mêmes électrodes permettent de compenser les champs électriques parasites résiduels selon les directions $x$ et $z$.
+
+La spectroscopie microonde du niveau $\mathrm{50C}$ vers le niveau $\mathrm{51C}$, en présence d'un champ électrique, permet de détecter la présence d'atomes dans les niveaux elliptiques proches du circulaires.
+En optimisant finement les paramètres du signal radio-fréquence, nous avons pu nous assurer que tous les atomes subissant le passage adiabatique étaient bien transférés vers le niveau circulaire $\mathrm{50C}$.
+Enfin, cette même technique de spectroscopie nous a fourni une première estimation du temps de cohérence des atomes de Rydberg circulaires près de la puce.
+
+\`A court terme, les travaux expérimentaux menés dans notre laboratoire viseront à améliorer ce temps de cohérence et à assurer un temps de vie suffisant au niveau circulaire afin de démontrer le piégeage par laser d'atomes de Rydberg circulaires.
+
+%	\subsection{Temps de vie}
+%		\noindent temps de vie théorique, temps de vie mesuré, température effective ?
+%	\subsection{Temps de cohérence}
+%		\noindent franges de Ramsey
+%%\section{Théorie de la force pondéro-motrice appliquée aux 50C} -> goes to chapter:circsim
+%%	\noindent et description du laser de piégeage
+%
+%%\section{Éjectable : Première évidence du piégeage des atomes circulaires}
+%	%\noindent chute par gravité et/ou expansion du nuage compensée par un tube de lumière
+%	\subsection{Dispositif laser de piégeage}
+%		\noindent description de l'optique de mise en forme \\
+%		et caractérisation du faisceau de piégeage
+%	\subsection{Comment observer le piégeage des atomes circulaires}
+%		\noindent problème du temps de vie qui empêche d'observer l'absence de chute libre \\
+%		\noindent comment observer un piégeage de niveaux qui ne vivent pas longtemps ? propositions envisagées

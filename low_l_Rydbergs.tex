@@ -834,7 +834,7 @@ Nous obtenons alors un bon accord des simulations avec les données expérimenta
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.8\linewidth]{figures/low_l/fitsim_spectresoptiques_0830126}
+\includegraphics[width=\linewidth]{figures/low_l/fitsim_spectresoptiques_0830126}
 \caption[Comparaison des spectres optiques aux simulations avec équations de taux]{
 Comparaison des spectres optiques aux simulations, pour différentes durées d'impulsion laser : $\SI{2}{},\SI{20}{},\SI{50}{}$ et $\SI{100}{\us}$.
 Les spectres expérimentaux sont ceux de la figure \ref{fig:data_spectresoptiques}.
@@ -867,21 +867,55 @@ Les paramètres de simulation utilisés sont résumés en table \eqref{tab:fit_s
 		\midrule
 		Paramètres d'ajustement & &\\\midrule
 		Amplitude de bande latérale $x_{20}$ & non mesurée & \SI{0.12}{} \\
-		Fréquence de Rabi max. $\Omega_0/(2\pi)$ & \SI{296}{\kHz} & \SI{60}{\kHz}\\
-		Température initiale $T_0$ & $\SI{0.5}{}\pm\SI{0.15}{\uK}$ & \SI{0.8}{\uK}\\
+		Fréquence de Rabi max. $\Omega_0/(2\pi)$ & \SI{296}{\kHz} & $\SI{60}{} \pm \SI{5}{\kHz}$\\
+		Température initiale $T_0$ & $\SI{0.5}{}\pm\SI{0.15}{\uK}$ & $\SI{0.8}{}\pm\SI{0.05}{\uK}$\\
 		\midrule
 		\bottomrule
  	\end{tabular}
 \end{table}
 %
 
-		
-\noindent discussion : la température ça va, c'est cool d'avoir plein de paramètres pas libres, mais quand même la fréquence de Rabi elle nous embête -> dépôt de graisse sur les fenêtres ?Mauvaise mesure de la puissance du bleu ?\\
-Aussi, frequence de Rabi et température initiale ont été fittées sur le 2 us seulement !!! \\
-		Aussi, on rate un peu un truc à $100 µs$ côté basses fréquences
+Les seuls paramètres d'ajustement sont la température initiale du nuage, qui a un effet très important sur les spectres, ainsi que la fréquence de Rabi $\Omega_0$ au centre des faisceaux laser.
+Ces deux paramètres sont ajustés sur le spectre à $\SI{2}{\us}$ uniquement.
+L'amplitude de bande latérale $x_{20}$ est ajustée sur le spectre à $\SI{20}{\us}$. % puisque le spectre expérimental à $\SI{2}{\us}$ 
+L'accord des simulations avec les données expérimentales est excellent pour les trois spectres enregistrés à $\SI{2}{},\SI{20}{}$ et $\SI{50}{\us}$.
+\`A $\SI{100}{\us}$, le spectre expérimental montre un nombre d'atomes excités plus important aux désaccords compris entre $\SI{-10}{}$ et $\SI[retain-explicit-plus]{+5}{\MHz}$.
+\`A $\SI{50}{}$ et $\SI{100}{\us}$, le chauffage du nuage atomique produit un effet très important sur les spectres.
 
+L'écart entre la fréquence de Rabi calculée à partir des puissances et des géométries des faisceaux lasers et la fréquence de Rabi simulée est très important.
+Nous attribuons cela à la mauvaise transmission du laser bleu à travers les hublots d'accès optique du cryostat.
+En effet, nous avons constaté un dépôt de gaz résiduel ou de graisse sur les hublots froids de la jupe d'azote.
+L'effet de ce dépôt est difficile à évaluer, car celui-ci disparaît dès que les hublots sont réchauffés à température ambiante.
+Un tel dépôt a été observé sur d'autres expériences en environnement cryogénique \cite{PHD_LEUPOLD_ETHZ}.
 
 	\subsection{Caractéristiques des nuages simulés}
+\noindent Le très bon accord entre les simulations et les données expérimentales nous autorise à déduire des simulations certaines caractéristiques des nuages d'atomes de Rydberg excités par laser.
+En particulier, nous nous intéressons ici à la distribution spatiale des atomes de Rydberg, ainsi qu'à la dynamique d'excitation aux temps courts.
+
+La distribution spatiale des atomes de Rydberg excités après une impulsion laser de $\SI{2}{\us}$ est représentée en figure \eqref{fig:spatial_distrib_sim}.
+%
+\begin{figure}[h]
+\centering
+distribution spatiale à résonance et à 2MHz, image2D + "gaussienne" selon une direction\\
+pour $\SI{2}{\us}$
+\caption[Distribution spatiale simulée des atomes de Rydberg]{
+Distribution spatiale simulée des atomes de Rydberg.
+}
+\label{fig:spatial_distrib_sim}
+\end{figure}
+%
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figures/low_l/satur_optical_sim}
+\caption[\'Evolution simulée du nombre d'atomes de Rydberg excités en fonction du temps]{
+\'Evolution simulée du nombre d'atomes de Rydberg excités en fonction du temps, pour différents désaccords laser : $\SI{0}{},\SI{2}{},\SI{4}{}$ et $\SI{8}{\MHz}$.
+}
+\label{fig:satur_optical_sim}
+\end{figure}
+
+\newpage	
 		\noindent on est content du modèle => on en déduit des infos sur la dynamique d'excitation, en particulier la configuration spatiale du nuage de Rydberg.
 		Aussi, sortir une simu aux temps très courts (plutôt NRyd en fonction du temps) et estimer une taille de super-atome ?
 

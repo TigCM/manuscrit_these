@@ -757,9 +757,15 @@ Cette bande latérale est prise en compte dans les simulations, en ajoutant au t
 L'extension spatiale du piège dans chacune des trois directions est calculée à partir de la fréquence de piégeage dans cette direction, elle-même mesurée expérimentalement, et de la température du piège.
 Nous pourrons ainsi utiliser la température du nuage atomique comme paramètre explicite de simulation et intégrer au calcul un processus de chauffage dû au laser rouge, tel qu'évoqué en \ref{subsec:2photon_excite}.
 
+Les simulations présentées dans la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN} n'incluaient pas cet effet de chauffage.
+Afin de reproduire les spectres d'excitation laser, il était alors nécessaire d'imposer une température du nuage atomique différente pour chaque durée d'impulsion laser.
+Nous avons alors souhaité intégrer le chauffage directement à la dynamique d'excitation, pour deux raisons.
+La première est que cela permet de limiter le nombre de paramètres d'ajustement, en n'imposant qu'une seule température du nuage atomique.
+La seconde est que l'excitation avec une température qui varie au cours du temps peut avoir une dynamique différente de l'excitation à température fixe.
+
 	\subsection{Estimation et prise en compte du chauffage du nuage atomique}
 \noindent Lors de l'excitation à deux photons du niveau de Rydberg $\mathrm{60S}$, les atomes du nuage absorbent des photons rouges à $\SI{780}{\nano\meter}$.
-Si l'atome qui a absorbé un photon rouge n'absorbe pas de photon bleu, c'est-à-dire s'il n'est pas excité au niveau de Rydberg, alors il réémettra le photon rouge.
+Si l'atome qui absorbe un photon rouge n'absorbe pas de photon bleu, c'est-à-dire s'il n'est pas excité au niveau de Rydberg, alors il réémettra le photon rouge.
 Cela mène à un chauffage du nuage atomique, caractérisé par deux grandeurs :
 le taux d'émission spontanée $\Gamma_{sp}$ des photons rouges par les atomes et la variation de température $\Delta T_{\text{1photon}}$ causée par l'émission spontanée d'un photon.
 
@@ -892,34 +898,116 @@ Un tel dépôt a été observé sur d'autres expériences en environnement cryog
 \noindent Le très bon accord entre les simulations et les données expérimentales nous autorise à déduire des simulations certaines caractéristiques des nuages d'atomes de Rydberg excités par laser.
 En particulier, nous nous intéressons ici à la distribution spatiale des atomes de Rydberg, ainsi qu'à la dynamique d'excitation aux temps courts.
 
-La distribution spatiale des atomes de Rydberg excités après une impulsion laser de $\SI{2}{\us}$ est représentée en figure \eqref{fig:spatial_distrib_sim}.
+\subsubsection*{Distribution radiale des nuages de Rydberg}
+
+\noindent La distribution spatiale des atomes de Rydberg excités dans un nuage peut être représentée par sa fonction de distribution radiale $g^{(2)}(r)$.
+Cette fonction décompte le nombre de paires d'atomes séparées d'une distance $r$ au sein d'un ensemble donné.
+Ici, nous la définissons comme
+\begin{equation}
+\label{eq:g2r_def}
+g^{(2)}(r) = \frac{1}{N(N-1)} \sum_{\langle i,j \rangle}{\delta (r-r_{ij})},
+\end{equation}
+où $N$ est le nombre d'atomes de l'ensemble et où la somme est faite sur les $N(N-1)$ paires $\langle i,j \rangle$ d'atomes.
+Les figures \ref{fig:spatial_distrib_sim} a) et c) représentent cette fonction $g^{(2)}(r)$ pour des nuages de Rydberg excités avec différents désaccords, pendant des durées de $\SI{2}{}$ et $\SI{20}{\us}$ respectivement.
+
+Il est d'usage de comparer la fonction de distribution radiale d'un ensemble à un cas idéal.
+Ce cas idéal est généralement celui du gaz parfait lorsque l'on s'intéresse à l'agencement de particules classiques dans un ensemble thermodynamique.
+Il est plus pertinent ici de comparer les distributions radiales des nuages de Rydberg à celle du nuage d'atomes dans l'état fondamental, notée $g^{(2)}_{~0}$.
+Les distributions radiales normalisées $g^{(2)}(r)/g^{(2)}_{~0}(r)$ des nuages de Rydberg excités avec différents désaccords et pendant des durées de $\SI{2}{}$ et $\SI{20}{\us}$ sont représentées en figures \ref{fig:spatial_distrib_sim} b) et d) respectivement.
 %
 \begin{figure}[h]
 \centering
-distribution spatiale à résonance et à 2MHz, image2D + "gaussienne" selon une direction\\
-pour $\SI{2}{\us}$
-\caption[Distribution spatiale simulée des atomes de Rydberg]{
-Distribution spatiale simulée des atomes de Rydberg.
+%fonctions de corrélation de paire
+\includegraphics[width=\linewidth]{figures/low_l/g2r_all}
+%distribution spatiale à résonance et à 2MHz, image2D + "gaussienne" selon une direction\\
+%pour $\SI{2}{\us}$
+\caption[Distribution radiale des nuages de Rydberg simulés]{
+Distribution radiale des nuages de Rydberg simulés.
+Les courbes représentent les fonctions $g^{(2)}(r)$ (\textbf{a} et \textbf{c}) et $g^{(2)}(r)/g^{(2)}_{~0}(r)$ (\textbf{b} et \textbf{d}) pour des nuages de Rydberg excités à différents désaccords : à résonance (bleu), à $\SI{2}{\MHz}$ (orange) et à $\SI{4}{\MHz}$ (vert).
+Les courbes rouges représentent la fonction de distribution radiale $g^{(2)}_{~0}$ du nuage d'atomes froids dans l'état fondamental.
+Les graphes \textbf{a)} et \textbf{b)} présentent les résultats pour un durée d'impulsion laser de $\SI{2}{\us}$ et les graphes \textbf{c)} et \textbf{d)} pour une durée d'impulsion laser de $\SI{20}{\us}$.
+Les résultats sont moyennés sur $100$ réalisations lorsque la durée d'impulsion est de $\SI{2}{\us}$ et sur $5$ réalisations lorsque la durée d'impulsion est de $\SI{20}{\us}$.
 }
 \label{fig:spatial_distrib_sim}
 \end{figure}
 %
+%
 
+Les fonctions de distribution radiale montrent très clairement les effets de blocage dipolaire et de facilitation.
+En effet, il n'y a jamais deux atomes de Rydberg excités à des distances inférieures au rayon de blocage $r_b=\sqrt[6]{2C_6/\gamma}$ (pour l'excitation à résonance) ou au rayon de facilitation $r_f=\sqrt[6]{C_6/\Delta}$ (pour l'excitation désaccordée), définis en \ref{subsec:excitation_bloc_facil}.
 
+Les fonctions de distribution radiale montrent également la saturation du nuage : l'ensemble d'atomes de Rydberg excité pendant $\SI{2}{\us}$ à résonance s'étend bien au-delà du nuage d'atomes dans l'état fondamental.
+En effet, le centre nuage gaussien d'atomes dans l'état fondamental est vite saturé d'atomes de Rydberg en raison du blocage dipolaire, et les atomes de Rydberg supplémentaires doivent être excités loin du centre, dans les ailes peu denses du nuage.
+
+Cette saturation se retrouve aussi pour l'excitation facilitée à désaccord positif si l'impulsion laser dure suffisamment longtemps.
+L'extension d'un ensemble d'atomes de Rydberg excité à $\SI{2}{\MHz}$
+est plus petite que celle du nuage d'atomes dans l'état fondamental pour une durée d'impulsion de $\SI{2}{\us}$, mais plus grande pour une durée d'impulsion de $\SI{20}{\us}$.
+L'ensemble d'atomes de Rydberg excité à $\Delta=\SI{4}{\MHz}$ montre lui aussi une telle saturation, mais de façon moins importante : il faudra attendre plus longtemps pour exciter des atomes de Rydberg loin dans les ailes du nuage.
+En effet, plus le désaccord laser est important, plus il faut de temps avant d'exciter un  permier atome de Rydberg (une \og graine \fg{}) et plus l'agrégat de Rydberg créé est compact car le rayon de facilitation est plus petit.
+
+\clearpage
+\subsubsection*{Dynamique d'excitation aux temps courts}
+\noindent L'observation de la dynamique d'excitation aux temps courts permet également de mettre en évidence une saturation.
+La figure \eqref{fig:satur_optical_sim} représente l'évolution du nombre  d'atomes de Rydberg excités en fonction de la durée d'impulsion laser pour différents désaccords.% : $\SI{0}{},\SI{2}{},\SI{4}{}$ et $\SI{8}{\MHz}$.
+%
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{figures/low_l/satur_optical_sim}
-\caption[\'Evolution simulée du nombre d'atomes de Rydberg excités en fonction du temps]{
-\'Evolution simulée du nombre d'atomes de Rydberg excités en fonction du temps, pour différents désaccords laser : $\SI{0}{},\SI{2}{},\SI{4}{}$ et $\SI{8}{\MHz}$.
+\caption[\'Evolution simulée du nombre d'atomes de Rydberg excités en fonction du temps pour différents désaccords laser]{
+\'Evolution simulée du nombre d'atomes de Rydberg excités en fonction du temps, pour différents désaccords laser : $\SI{0}{},\SI{2}{},\SI{4}{}$ et $\SI{8}{\MHz}$, tracés en noir, rouge, bleu et magenta respectivement.
+Les points sont les données extraites de simulations moyennées sur $\SI{5}{}$ réalisations. Les lignes qui les relient servent de guides visuels.
 }
 \label{fig:satur_optical_sim}
 \end{figure}
+%
 
-\newpage	
-		\noindent on est content du modèle => on en déduit des infos sur la dynamique d'excitation, en particulier la configuration spatiale du nuage de Rydberg.
-		Aussi, sortir une simu aux temps très courts (plutôt NRyd en fonction du temps) et estimer une taille de super-atome ?
+Lorsque le laser est à résonance, le nombre d'atomes de Rydberg croît très vite jusqu'à $\SI{1.5}{\us}$.
+Au-delà de cette durée, le nombre d'atomes de Rydberg croît de moins en moins rapidement.
+Le nombre d'atomes de Rydberg ne sature cependant pas, en raison de la présence d'atomes disponibles pour être excités dans les ailes peu denses du nuage d'atomes dans l'état fondamental et en raison du chauffage de ce nuage, qui fait croître son extension au cours du temps.
+Cette croissance rend sans cesse de nouveaux atomes dans l'état fondamental disponible pour être excités, en les éloignant des atomes de Rydberg déjà excités.
+
+Lorsque le laser est désaccordé, la croissance initiale du ,ombre d'atomes de Rydberg est plus lente.
+En effet, le désaccord du laser rend l'excitation du premier atome de Rydberg plus tardive.
+Le taux de croissance du nombre d'atomes de Rydberg dépend ensuite de la densité d'atomes dans l'état fondamental et de la largeur du laser : plus la densité est élevée et plus le laser est large, plus il y a d'atomes disponibles pour être excités dans la région de facilitation.
+Or, plus le désaccord laser est important, plus le comule de cette région de facilitation est petit.
+La croissance du nombre d'atomes de Rydberg excités est donc plus lente lorsque le désaccord laser augmente, même après excitation de la graine.
+
+\clearpage
 
 \section*{Conclusion}
-		\noindent il faut prendre en compte le mouvement et le chauffage\\
-		%, mais aussi (peut-être ?) les transferts thermiques vers les niveaux $p$\\
-		\noindent Le gaz gelé ne marche pas !
+\noindent Dans ce chapitre, nous avons discuté de l'influence des interactions sur l'excitation d'un ensemble d'atomes de Rydberg.
+Les interactions dipôle-dipôle entre atomes de Rydberg sont responsables du blocage dipolaire, qui interdit l'excitation d'un second atome de Rydberg à proximité d'un premier.
+Avec un laser désaccordé vers le bleu, l'excitation passe d'un régime de blocage dipolaire à un régime d'excitation facilitée : le désaccord du laser permet d'exciter de nouveaux atomes de Rydberg autour d'un premier, dans la région de l'espace où les interactions dipôle-dipôle et le désaccord du laser sont suffisamment proches.
+Enfin, les interactions répulsives entre atomes de Rydberg causent l'expansion mécanique de l'ensemble d'atomes de Rydberg déjà excités.
+
+Les effets de blocage dipolaire et d'excitation facilitée sont mis en évidence par la saturation et l'élargissement des spectres d'excitation optique lorsque la durée de l'impulsion laser augmente.
+L'expansion mécanique du nuage d'atomes de Rydberg est mise en évidence par la spectroscopie microonde de la transition $\mathrm{60S}\rightarrow\mathrm{57S}$.
+Le spectre de cette transition révèle directement le spectre des énergies d'interaction au sein de l'ensemble d'atomes de Rydberg.
+
+Afin de vérifier notre compréhension de la dynamique d'excitation et d'expansion des ensembles denses d'atomes de Rydberg, nous avons mis en \oe uvre des simulations numériques.
+Un premier modèle Monte-Carlo, fondé sur le tirage au sort d'atomes dans l'état fondamental au sein du nuage, montre un accord qualitatif correct aux temps d'excitation courts.
+Cela permet d'en extraire des conditions initiales pour simuler le mouvement de l'ensemble d'atomes de Rydberg après excitation, et comparer les résultats du modèle avec les données expérimentales de spectroscopie microonde.
+L'accord est ici bon.
+
+Ce premier modèle est cependant incapable de reproduire les spectres d'excitation optiques avec des durées d'impulsion laser longues.
+Nous avons donc développé un second modèle numérique, fondé sur des équations de taux issues des équations de Bloch optiques et calculées pour chaque atome, qu'il soit dans l'état fondamental ou dans un état de Rydberg, à chaque pas de temps.
+L'introduction d'une échelle de temps lors de l'excitation des atomes de Rydbderg permet de prendre en compte directement leur mouvement, dû aux interactions dipôle-dipôle, pendant la phase d'excitation.
+De plus, nous avons ajouté à ce modèle le chauffage du nuage d'atomes dans l'état fondamental dû au laser rouge d'excitation, et qui est responsable de l'accroissement de la taille de ce nuage au cours du temps.
+
+Grâce à ce modèle, nous avons pu reproduire les spectres d'excitation optique à temps long.
+La figure \eqref{fig:sim_nomvt_noheat} montre l'importance de prendre en compte le mouvement des atomes de Rydberg et le chauffage du nuage atomique pendant l'excitation.
+En particulier, l'approximation du gaz gelé, consistant à s'intéresser aux interactions entre atomes de Rydberg en considérant que ceux-ci sont immobiles, ne peut être justifiée qu'aux temps très courts, de l'ordre de $\SI{10}{\us}$.
+%
+\begin{figure}[h]
+\centering
+%\includegraphics[scale=•]{•}
+Résultats des simulations, 1.avec mvt et chauffage, 2. sans mvt, 3. sans chauffage.
+\caption[]{}
+\label{fig:sim_nomvt_noheat}
+\end{figure}
+%
+\clearpage
+
+Enfin, le bon accord des simulations avec les données expérimentales nous autorise à extrapoler, à partir du modèle numérique, certaines propriétés de l'excitation des ensembles denses d'atomes de Rydberg.
+L'évolution du nombre d'atomes de Rydberg dans les premiers temps de l'excitation montre un comportement de quasi-saturation du nuage, après quoi les atomes de Rydberg ne sont plus excités que dans les ailes peu denses du nuage atomique.
+La fonction de distribution radiale des nuages ainsi excités confirme cet effet de saturation, et montre très clairement les effets de blocage dipolaire et d'excitation facilitée.

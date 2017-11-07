@@ -258,7 +258,7 @@ Le graphe représente aussi un spectre d'excitation dans un nuage dilué et à f
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.85\linewidth]{figures/low_l/data_spectres_optiques}
+\includegraphics[width=\linewidth]{figures/low_l/data_spectres_optiques}
 \caption[Spectres optiques d'excitation en régime d'interaction dipolaire forte]{Spectres optiques d'excitation en régime d'interaction dipolaire forte.
 L'excitation est réalisée à différentes durées d'impulsion laser : $\SI{2}{}$, $\SI{20}{}$, $\SI{50}{}$ et $\SI{100}{\us}$.
 La courbe magenta en trait plein est un spectre de référence sans interaction, représenté avec une échelle différente (échelle de droite).
@@ -631,7 +631,7 @@ La figure \ref{fig:opt_spectra_firstTest} présente les résultats des simulatio
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.8\linewidth]{figures/low_l/raies_laser_vieilles_simus}
+\includegraphics[width=\linewidth]{figures/low_l/raies_laser_vieilles_simus}
 \caption[Comparaison des spectres optiques au premier modèle de simulation]{
 Comparaison des spectres optiques aux simulations, pour différentes durées d'impulsion laser : $\SI{2}{},\SI{20}{},\SI{50}{}$ et $\SI{100}{\us}$.
 Les spectres expérimentaux sont ceux de la figure \ref{fig:data_spectresoptiques}.
@@ -846,7 +846,7 @@ Comparaison des spectres optiques aux simulations, pour différentes durées d'i
 Les spectres expérimentaux sont ceux de la figure \ref{fig:data_spectresoptiques}.
 Les lignes pleines sont les résultats de la simulation.
 Le calcul tient compte du mouvement des atomes de Rydberg durant l'excitation.
-Les traits pointillés sont les résultats des simulations sans tenir compte de l'effet de chauffage du nuage atomique.
+%Les traits pointillés sont les résultats des simulations sans tenir compte de l'effet de chauffage du nuage atomique.
 }
 \label{fig:fitsim_spectresoptiques_0830126}
 \end{figure}
@@ -886,7 +886,7 @@ Ces deux paramètres sont ajustés sur le spectre à $\SI{2}{\us}$ uniquement.
 L'amplitude de bande latérale $x_{20}$ est ajustée sur le spectre à $\SI{20}{\us}$. % puisque le spectre expérimental à $\SI{2}{\us}$ 
 L'accord des simulations avec les données expérimentales est excellent pour les trois spectres enregistrés à $\SI{2}{},\SI{20}{}$ et $\SI{50}{\us}$.
 \`A $\SI{100}{\us}$, le spectre expérimental montre un nombre d'atomes excités plus important aux désaccords compris entre $\SI{-10}{}$ et $\SI[retain-explicit-plus]{+5}{\MHz}$.
-\`A $\SI{50}{}$ et $\SI{100}{\us}$, le chauffage du nuage atomique produit un effet très important sur les spectres.
+%\`A $\SI{50}{}$ et $\SI{100}{\us}$, le chauffage du nuage atomique produit un effet très important sur les spectres.
 
 L'écart entre la fréquence de Rabi calculée à partir des puissances et des géométries des faisceaux lasers et la fréquence de Rabi simulée est très important.
 Nous attribuons cela à la mauvaise transmission du laser bleu à travers les hublots d'accès optique du cryostat.
@@ -998,15 +998,23 @@ Grâce à ce modèle, nous avons pu reproduire les spectres d'excitation optique
 La figure \eqref{fig:sim_nomvt_noheat} montre l'importance de prendre en compte le mouvement des atomes de Rydberg et le chauffage du nuage atomique pendant l'excitation.
 En particulier, l'approximation du gaz gelé, consistant à s'intéresser aux interactions entre atomes de Rydberg en considérant que ceux-ci sont immobiles, ne peut être justifiée qu'aux temps très courts, de l'ordre de $\SI{10}{\us}$.
 %
-\begin{figure}[h]
+\begin{figure}[!h]
 \centering
-%\includegraphics[scale=•]{•}
-Résultats des simulations, 1.avec mvt et chauffage, 2. sans mvt, 3. sans chauffage.
-\caption[]{}
+\includegraphics[width=\linewidth]{figures/low_l/sim_nomvt_noheat}
+%Résultats des simulations, 1.avec mvt et chauffage, 2. sans mvt, 3. sans chauffage.
+\caption[Comparaison des différents effets pris en compte dans les simulations]{
+Comparaison des différents effets pris en compte dans les simulations, pour des durées d'impulsions laser de $\SI{50}{}$ (rouge) et $\SI{100}{\us}$ (noir).
+Les courbes en trait point-tiret représentent les résultats des simulations ne prenant en compte ni le mouvement des atomes de Rydberg par interaction répulsive, ni le chauffage des atomes dans l'état fondamental dû au laser rouge.
+Les courbes en pointillés représentent les résultats des simulations avec le mouvement des atomes de Rydberg mais sans chauffage du nuage atomique.
+Les courbes en trait plein représentent les résultats des simulations complètes, intégrant le mouvement des atomes de Rydberg et le chauffage du nuage atomique.
+\`A $\SI{50}{\us}$, l'effet du mouvement des atomes de Rydberg est assez faible mais l'effet du chauffage du nuage d'atomes dans l'état fondamental est déjà important.
+\`A $\SI{100}{\us}$, l'effet du mouvement des atomes de Rydberg devient lui aussi significatif.
+}
 \label{fig:sim_nomvt_noheat}
 \end{figure}
 %
-\clearpage
+%\clearpage
+\newpage
 
 Enfin, le bon accord des simulations avec les données expérimentales nous autorise à extrapoler, à partir du modèle numérique, certaines propriétés de l'excitation des ensembles denses d'atomes de Rydberg.
 L'évolution du nombre d'atomes de Rydberg dans les premiers temps de l'excitation montre un comportement de quasi-saturation du nuage, après quoi les atomes de Rydberg ne sont plus excités que dans les ailes peu denses du nuage atomique.

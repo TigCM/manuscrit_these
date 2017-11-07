@@ -7,77 +7,77 @@
 \contentsline {xchapter}{}{xi}{chapter*.3}
 \contentsline {chapter}{Introduction}{1}{chapter*.4}
 \contentsline {xchapter}{}{1}{chapter*.4}
-\contentsline {chapter}{\numberline {I}Atomes de Rydberg alcalins en interaction}{3}{chapter.1}
-\contentsline {section}{\numberline {I.1}Les atomes de Rydberg alcalins : des hydrog\IeC {\'e}no\IeC {\"\i }des g\IeC {\'e}ants}{4}{section.1.1}
-\contentsline {subsection}{\numberline {I.1.1}Hamiltonien de l'atome de Rydberg et d\IeC {\'e}faut quantique}{5}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {I.1.2}Partie radiale de la fonction d'onde et calcul du dip\IeC {\^o}le de transition}{6}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {I.1.3}L'effet Stark}{8}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {I.1.4}Temps de vie des niveaux de Rydberg}{9}{subsection.1.1.4}
-\contentsline {section}{\numberline {I.2}Les niveaux de Rydberg circulaires}{12}{section.1.2}
-\contentsline {subsection}{\numberline {I.2.1}La base des \IeC {\'e}tats paraboliques}{12}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {I.2.2}Le niveau de Rydberg 50C : $\mathbf {\mathinner {|{n=50,l=49,m_l=49}\delimiter "526930B }}$}{16}{subsection.1.2.2}
-\contentsline {section}{\numberline {I.3}Atomes de Rydberg en interaction}{18}{section.1.3}
-\contentsline {subsection}{\numberline {I.3.1}Deux atomes de Rydberg qui se parlent}{18}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {I.3.2}Deux atomes dans le m\IeC {\^e}me niveau de Rydberg}{20}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {I.3.3}Deux atomes dans des niveaux de Rydberg diff\IeC {\'e}rents}{21}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {I.3.4}Les interactions dipolaires du niveau 60S}{22}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {I.3.5}Les interactions dipolaires du niveau 50C}{23}{subsection.1.3.5}
-\contentsline {chapter}{\numberline {II}Des atomes de Rydberg froids en environnement cryog\IeC {\'e}nique}{27}{chapter.2}
-\contentsline {section}{\numberline {II.1}Un nuage d'atomes ultra-froids sur puce, du MOT de capture au condensat de Bose-Einstein}{28}{section.2.1}
-\contentsline {subsection}{\numberline {II.1.1}L'environnement cryog\IeC {\'e}nique : cryostat et puce \IeC {\`a} atomes supraconductrice}{29}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {II.1.2}S\IeC {\'e}quence de pi\IeC {\'e}geage et refroidissement}{34}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {II.1.3}Imagerie atomique par absorption}{39}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {II.1.4}Quelques nuages typiques}{45}{subsection.2.1.4}
-\contentsline {section}{\numberline {II.2}Excitation et d\IeC {\'e}tection d'atomes de Rydberg pr\IeC {\`e}s d'une puce}{46}{section.2.2}
-\contentsline {subsection}{\numberline {II.2.1}L'excitation \IeC {\`a} deux photons des atomes de Rydberg}{46}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {II.2.2}La d\IeC {\'e}tection par ionisation des atomes de Rydberg}{48}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {II.2.3}Les champs \IeC {\'e}lectriques parasites, d\IeC {\'e}fi des atomes de Rydberg sur puce}{49}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {II.2.4}Contr\IeC {\^o}le du champ \IeC {\'e}lectrique perpendiculaire \IeC {\`a} la puce}{53}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {II.2.5}Manipulation coh\IeC {\'e}rente des \IeC {\'e}tats de Rydberg}{54}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {II.2.6}Temps de vie des atomes de Rydberg et temp\IeC {\'e}rature effective}{57}{subsection.2.2.6}
-\contentsline {chapter}{\numberline {III}Interaction entre atomes de Rydberg sph\IeC {\'e}riques et excitation de gaz dense}{59}{chapter.3}
-\contentsline {section}{\numberline {III.1}Les effets de l'interaction dipolaire en nuage dense}{60}{section.3.1}
-\contentsline {subsection}{\numberline {III.1.1}Rappels sur l'interaction dipolaire}{60}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {III.1.2}Deux r\IeC {\'e}gimes d'excitation en interaction dipolaire forte}{60}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {III.1.3}Mouvement des atomes au sein d'un gaz dense de Rydberg}{63}{subsection.3.1.3}
-\contentsline {section}{\numberline {III.2}Observation exp\IeC {\'e}rimentale des interactions}{65}{section.3.2}
-\contentsline {subsection}{\numberline {III.2.1}Spectroscopie optique du nuage : diff\IeC {\'e}rents r\IeC {\'e}gimes d'excitation}{65}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {III.2.2}Spectroscopie microonde : une sonde pour l'\IeC {\'e}nergie d'interaction}{67}{subsection.3.2.2}
-\contentsline {section}{\numberline {III.3}Premier mod\IeC {\`e}le num\IeC {\'e}rique et accord qualitatif}{74}{section.3.3}
-\contentsline {subsection}{\numberline {III.3.1}Au c\oe ur du mod\IeC {\`e}le num\IeC {\'e}rique}{74}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {III.3.2}Comparaison aux spectres microonde exp\IeC {\'e}rimentaux}{76}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {III.3.3}La limite du mod\IeC {\`e}le : l'absence de temps}{76}{subsection.3.3.3}
-\contentsline {section}{\numberline {III.4}Raffinement du mod\IeC {\`e}le : \IeC {\'e}quations de taux pour la dynamique d'excitation et chauffage du nuage}{79}{section.3.4}
-\contentsline {subsection}{\numberline {III.4.1}Mod\IeC {\`e}le d'\IeC {\'e}quation de taux et adaptation de l'algorithme}{79}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {III.4.2}Estimation et prise en compte du chauffage du nuage atomique}{81}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {III.4.3}Comparaison aux spectres optiques exp\IeC {\'e}rimentaux}{83}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {III.4.4}Caract\IeC {\'e}ristiques des nuages simul\IeC {\'e}s}{85}{subsection.3.4.4}
-\contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{91}{chapter.4}
-\contentsline {section}{\numberline {IV.1}Principe g\IeC {\'e}n\IeC {\'e}ral du simulateur}{92}{section.4.1}
-\contentsline {subsection}{\numberline {IV.1.1}Le hamiltonien simul\IeC {\'e}}{93}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {IV.1.2}Pi\IeC {\'e}geage laser des atomes de Rydberg circulaires}{98}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {IV.1.3}Pr\IeC {\'e}servation des \IeC {\'e}tats de Rydberg}{100}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {IV.1.4}Pr\IeC {\'e}paration d\IeC {\'e}terministe d'une cha\IeC {\^\i }ne}{101}{subsection.4.1.4}
-\contentsline {section}{\numberline {IV.2}Le m\IeC {\'e}lange des niveaux de paire entre atomes de Rydberg circulaires}{104}{section.4.2}
-\contentsline {subsection}{\numberline {IV.2.1}Interactions dip\IeC {\^o}le-dip\IeC {\^o}le entre atomes de Rydberg circulaires : m\IeC {\'e}lange de niveaux}{104}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {IV.2.2}Limitation du temps de vie des niveaux circulaires}{107}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{111}{chapter.5}
-\contentsline {section}{\numberline {V.1}Principe du passage adiabatique}{112}{section.5.1}
-\contentsline {subsection}{\numberline {V.1.1}Le passage adiabatique id\IeC {\'e}al pour l'atome d'hydrog\IeC {\`e}ne}{112}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {V.1.2}Le passage adiabatique avec d\IeC {\'e}faut quantique}{113}{subsection.5.1.2}
-\contentsline {section}{\numberline {V.2}Modifications du dispositif exp\IeC {\'e}rimental}{114}{section.5.2}
-\contentsline {subsection}{\numberline {V.2.1}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{115}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {V.2.2}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{119}{subsection.5.2.2}
-\contentsline {section}{\numberline {V.3}Le chemin du niveau fondamental au niveau de Rydberg circulaire $\mathrm {50C}$}{120}{section.5.3}
-\contentsline {subsection}{\numberline {V.3.1}La transition laser $\mathrm {5S \rightarrow 50D}$}{120}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {V.3.2}La transition microonde $\mathrm {50D \rightarrow 50F}$}{126}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {V.3.3}Le passage adiabatique $m=2\rightarrow m=n-1$}{129}{subsection.5.3.3}
-\contentsline {section}{\numberline {V.4}Spectroscopie microonde des atomes de Rydberg circulaires}{133}{section.5.4}
-\contentsline {subsection}{\numberline {V.4.1}Spectres microonde et optimisation fine de la RF}{135}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {V.4.2}Premi\IeC {\`e}re estimation du temps de coh\IeC {\'e}rence}{137}{subsection.5.4.2}
-\contentsline {section}{\numberline {V.5}Perspectives exp\IeC {\'e}rimentales \IeC {\`a} court terme}{137}{section.5.5}
-\contentsline {chapter}{Conclusion}{139}{chapter*.159}
-\contentsline {xchapter}{}{139}{chapter*.159}
+\contentsline {chapter}{\numberline {I}Atomes de Rydberg alcalins en interaction}{5}{chapter.1}
+\contentsline {section}{\numberline {I.1}Les atomes de Rydberg alcalins : des hydrog\IeC {\'e}no\IeC {\"\i }des g\IeC {\'e}ants}{6}{section.1.1}
+\contentsline {subsection}{\numberline {I.1.1}Hamiltonien de l'atome de Rydberg et d\IeC {\'e}faut quantique}{7}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {I.1.2}Partie radiale de la fonction d'onde et calcul du dip\IeC {\^o}le de transition}{8}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {I.1.3}L'effet Stark}{10}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {I.1.4}Temps de vie des niveaux de Rydberg}{11}{subsection.1.1.4}
+\contentsline {section}{\numberline {I.2}Les niveaux de Rydberg circulaires}{14}{section.1.2}
+\contentsline {subsection}{\numberline {I.2.1}La base des \IeC {\'e}tats paraboliques}{14}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {I.2.2}Le niveau de Rydberg 50C : $\mathinner {|{n=50,l=49,m_l=49}\delimiter "526930B }$}{18}{subsection.1.2.2}
+\contentsline {section}{\numberline {I.3}Atomes de Rydberg en interaction}{20}{section.1.3}
+\contentsline {subsection}{\numberline {I.3.1}Deux atomes de Rydberg qui se parlent}{20}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {I.3.2}Deux atomes dans le m\IeC {\^e}me niveau de Rydberg}{22}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {I.3.3}Deux atomes dans des niveaux de Rydberg diff\IeC {\'e}rents}{23}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {I.3.4}Les interactions dipolaires du niveau 60S}{24}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {I.3.5}Les interactions dipolaires du niveau 50C}{25}{subsection.1.3.5}
+\contentsline {chapter}{\numberline {II}Des atomes de Rydberg froids en environnement cryog\IeC {\'e}nique}{29}{chapter.2}
+\contentsline {section}{\numberline {II.1}Un nuage d'atomes ultra-froids sur puce, du MOT de capture au condensat de Bose-Einstein}{30}{section.2.1}
+\contentsline {subsection}{\numberline {II.1.1}L'environnement cryog\IeC {\'e}nique : cryostat et puce \IeC {\`a} atomes supraconductrice}{31}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {II.1.2}S\IeC {\'e}quence de pi\IeC {\'e}geage et refroidissement}{36}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {II.1.3}Imagerie atomique par absorption}{41}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {II.1.4}Quelques nuages typiques}{47}{subsection.2.1.4}
+\contentsline {section}{\numberline {II.2}Excitation et d\IeC {\'e}tection d'atomes de Rydberg pr\IeC {\`e}s d'une puce}{48}{section.2.2}
+\contentsline {subsection}{\numberline {II.2.1}L'excitation \IeC {\`a} deux photons des atomes de Rydberg}{48}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {II.2.2}La d\IeC {\'e}tection par ionisation des atomes de Rydberg}{50}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {II.2.3}Les champs \IeC {\'e}lectriques parasites, d\IeC {\'e}fi des atomes de Rydberg sur puce}{51}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {II.2.4}Contr\IeC {\^o}le du champ \IeC {\'e}lectrique perpendiculaire \IeC {\`a} la puce}{55}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {II.2.5}Manipulation coh\IeC {\'e}rente des \IeC {\'e}tats de Rydberg}{56}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {II.2.6}Temps de vie des atomes de Rydberg et temp\IeC {\'e}rature effective}{59}{subsection.2.2.6}
+\contentsline {chapter}{\numberline {III}Interaction entre atomes de Rydberg sph\IeC {\'e}riques et excitation de gaz dense}{61}{chapter.3}
+\contentsline {section}{\numberline {III.1}Les effets de l'interaction dipolaire en nuage dense}{62}{section.3.1}
+\contentsline {subsection}{\numberline {III.1.1}Rappels sur l'interaction dipolaire}{62}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {III.1.2}Deux r\IeC {\'e}gimes d'excitation en interaction dipolaire forte}{62}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {III.1.3}Mouvement des atomes au sein d'un gaz dense de Rydberg}{65}{subsection.3.1.3}
+\contentsline {section}{\numberline {III.2}Observation exp\IeC {\'e}rimentale des interactions}{67}{section.3.2}
+\contentsline {subsection}{\numberline {III.2.1}Spectroscopie optique du nuage : diff\IeC {\'e}rents r\IeC {\'e}gimes d'excitation}{67}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {III.2.2}Spectroscopie microonde : une sonde pour l'\IeC {\'e}nergie d'interaction}{70}{subsection.3.2.2}
+\contentsline {section}{\numberline {III.3}Premier mod\IeC {\`e}le num\IeC {\'e}rique et accord qualitatif}{76}{section.3.3}
+\contentsline {subsection}{\numberline {III.3.1}Au c\oe ur du mod\IeC {\`e}le num\IeC {\'e}rique}{76}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {III.3.2}Comparaison aux spectres microonde exp\IeC {\'e}rimentaux}{78}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {III.3.3}La limite du mod\IeC {\`e}le : l'absence de temps}{78}{subsection.3.3.3}
+\contentsline {section}{\numberline {III.4}Raffinement du mod\IeC {\`e}le : \IeC {\'e}quations de taux pour la dynamique d'excitation et chauffage du nuage}{81}{section.3.4}
+\contentsline {subsection}{\numberline {III.4.1}Mod\IeC {\`e}le d'\IeC {\'e}quation de taux et adaptation de l'algorithme}{81}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {III.4.2}Estimation et prise en compte du chauffage du nuage atomique}{84}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {III.4.3}Comparaison aux spectres optiques exp\IeC {\'e}rimentaux}{85}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {III.4.4}Caract\IeC {\'e}ristiques des nuages simul\IeC {\'e}s}{87}{subsection.3.4.4}
+\contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{93}{chapter.4}
+\contentsline {section}{\numberline {IV.1}Principe g\IeC {\'e}n\IeC {\'e}ral du simulateur}{94}{section.4.1}
+\contentsline {subsection}{\numberline {IV.1.1}Le hamiltonien simul\IeC {\'e}}{95}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {IV.1.2}Pi\IeC {\'e}geage laser des atomes de Rydberg circulaires}{100}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {IV.1.3}Pr\IeC {\'e}servation des \IeC {\'e}tats de Rydberg}{102}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {IV.1.4}Pr\IeC {\'e}paration d\IeC {\'e}terministe d'une cha\IeC {\^\i }ne}{103}{subsection.4.1.4}
+\contentsline {section}{\numberline {IV.2}Le m\IeC {\'e}lange des niveaux de paire entre atomes de Rydberg circulaires}{106}{section.4.2}
+\contentsline {subsection}{\numberline {IV.2.1}Interactions dip\IeC {\^o}le-dip\IeC {\^o}le entre atomes de Rydberg circulaires : m\IeC {\'e}lange de niveaux}{106}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {IV.2.2}Limitation du temps de vie des niveaux circulaires}{109}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{113}{chapter.5}
+\contentsline {section}{\numberline {V.1}Principe du passage adiabatique}{114}{section.5.1}
+\contentsline {subsection}{\numberline {V.1.1}Le passage adiabatique id\IeC {\'e}al pour l'atome d'hydrog\IeC {\`e}ne}{114}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {V.1.2}Le passage adiabatique avec d\IeC {\'e}faut quantique}{115}{subsection.5.1.2}
+\contentsline {section}{\numberline {V.2}Modifications du dispositif exp\IeC {\'e}rimental}{116}{section.5.2}
+\contentsline {subsection}{\numberline {V.2.1}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{117}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {V.2.2}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{121}{subsection.5.2.2}
+\contentsline {section}{\numberline {V.3}Le chemin du niveau fondamental au niveau de Rydberg circulaire $\mathrm {50C}$}{122}{section.5.3}
+\contentsline {subsection}{\numberline {V.3.1}La transition laser $\mathrm {5S \rightarrow 50D}$}{122}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {V.3.2}La transition microonde $\mathrm {50D \rightarrow 50F}$}{128}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {V.3.3}Le passage adiabatique $m=2\rightarrow m=n-1$}{131}{subsection.5.3.3}
+\contentsline {section}{\numberline {V.4}Spectroscopie microonde des atomes de Rydberg circulaires}{135}{section.5.4}
+\contentsline {subsection}{\numberline {V.4.1}Spectres microonde et optimisation fine de la RF}{137}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {V.4.2}Premi\IeC {\`e}re estimation du temps de coh\IeC {\'e}rence}{139}{subsection.5.4.2}
+\contentsline {section}{\numberline {V.5}Perspectives exp\IeC {\'e}rimentales \IeC {\`a} court terme}{139}{section.5.5}
+\contentsline {chapter}{Conclusion}{141}{chapter*.163}
+\contentsline {xchapter}{}{141}{chapter*.163}
 \partbegin 
-\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{143}{appendix.A}
-\contentsline {chapter}{\numberline {B}Algorithme de simulation}{145}{appendix.B}
+\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{145}{appendix.A}
+\contentsline {chapter}{\numberline {B}Algorithme de simulation}{147}{appendix.B}

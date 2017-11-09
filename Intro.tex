@@ -49,15 +49,42 @@ L'exploitation de ce phénomène a été proposée pour réaliser des portes qua
 
 L'excitation désaccordée d'atomes de Rydberg au sein d'un gaz atomique ultra-froid subit un processus d'\og excitation facilitée \fg{} :
 à une certaine distance d'un atome de Rydberg déjà excité, l'interaction dipolaire est égale au désaccord du laser et rend résonante l'excitation d'un deuxième atome de Rydberg.
-RAUL fin p.4
+Ces calculs numériques sur de petits nuages, ou des simulations Monte Carlo de l'excitation dans de grands nuages, confirment ce phénomène de facilitation \cite{Robicheaux2005,Rost2007a,Evers2013,Cote2010}.
+Celui-ci entraîne l'excitation d'agrégats d'atomes de Rydberg spatialement corrélés qui ont été observés expérimentalement \cite{Weidemueller2013,Pillet2012}.
 
-Nous avons mené des expériences visant à mettre en évidence ces deux phénomènes complémentaires, en excitant des atomes de Rydberg à partir d'un nuage ultra-froid d'atomes de rubidium $\SI{87}{}$, piégés magnétiquement devant une puce atomique et refroidis près de la dégénérescence quantique.
+Au-delà de leur effet sur l'excitation d'un ensemble d'atomes de Rydberg, les interactions dipolaires produisent aussi un effet mécanique qui peut être important.
+En effet, les énergies d'interaction dipolaire au sein d'un ensemble en forte interaction peuvent être bien plus élevées que les énergies cinétiques initiales d'un gaz d'atomes froids.
+Le mouvement relatif entre les atomes de Rydberg induit par ces interactions vient ainsi remettre en question le domaine de validité de l'approximation du gaz gelé.
+
+Nous avons mené des expériences visant à mettre en évidence le blocage dipolaire, l'excitation facilitée et le mouvement relatif au sein d'un ensemble d'atomes de Rydberg, en excitant des atomes de Rydberg à partir d'un nuage ultra-froid d'atomes de rubidium $\SI{87}{}$, piégés magnétiquement devant une puce atomique et refroidis près de la dégénérescence quantique \cite{ENS_CHIPSPECTRO14,ENS_CHIPINTERACTION15}.
+Les subtilités de l'excitation d'atomes de Rydberg près d'une puce sont exposées dans la thèse de Carla Hermann Avigliano \cite{PHD_HERMANN}.
+Les expériences concernant l'influence des interactions sur l'excitation et la dynamique d'un nuage dense d'atomes de Rydberg sont présentées dans la thèse de Raul Celistrino Teixeira \cite{PHD_CELISTRINO}.
 
 \bigskip
-\section*{La simulation quantique}
+%\section*{La simulation quantique}
+Afin d'éclairer les expériences mentionnées ci-dessus, nous avons souhaité développer un modèle numérique, fondé sur les techniques de simulation Monte Carlo, permettant de prédire l'excitation et la dynamique d'un nuage dense et froid d'atomes de Rydberg.
+L'accord qualitatif de ce modèle simple avec les données expérimentales nous a poussés à envisager la conception d'une plateforme de simulation quantique à partir d'atomes de Rydberg.
+
+L'idée de la simulation quantique, proposée par R. Feynman en 1982 \cite{Feynman1982}, est d'utiliser un système quantique expérimentalement contrôlable et accessible, noté $A$, comme modèle, comme simulateur, d'un système quantique expérimentalement difficile à contrôler et à mesurer, noté $B$.
+Il s'agit alors d'imposer le hamiltonien du système $B$ au système $A$, de laisser ce dernier évoluer puis de mesurer ses propriétés, analogues à celles qu'aurait le système $B$ après la même évolution.
+
+L'intérêt de la simulation quantique se trouve dans l'étude de problèmes quantiques complexes.
+Les problèmes mettant en jeu $N$ corps en interaction en sont l'exemple parfait.
+L'état d'un ensemble de $N$ spins $1/2$ évolue au sein d'un espace de Hilbert de dimension $2^N$.
+Calculer, même numériquement, l'évolution temporelle d'un tel système demande alors la réalisation d'opérations lourdes, telles que l'exponentiation, sur des matrices de $2^N \times 2^N$ éléments.
+Dès lors que l'on dépasse un certain nombre $N$ de corps, de tels calculs ne sont plus à la portée des ordinateurs existant, même les plus puissants.
+Le seuil de $N=\SI{40}{}$ spins $1/2$ est communément admis \cite{Cirac2003,Friedenauer2008,Lloyd1996,Raedt2007} comme limite au-delà de laquelle les méthodes numériques classiques ne fonctionnent plus.
+Utiliser un simulateur quantique permettrait d'outrepasser ces limites et de résoudre ainsi des problèmes de matière condensée mettant en jeu un grand nombre de particules quantiques en interactions, comme les chaînes et réseaux de spins, ou comme les comportements de gaz d'électrons dans des solides.
+
+Un simulateur quantique idéal présente les caractéristiques suivantes : il est sous contrôle expérimental total, l'on peut faire varier les paramètres décisifs de son hamiltonien et mesurer toutes ses observables.
+De nombreux systèmes quantiques ont été proposés comme briques élémentaires d'un simulateur quantique, tels que les ions piégés \cite{Blatt2012,Schneider2012}, les atomes froids en réseau \cite{Jaksch2005,Lewenstein2007,Bloch2012,Bloch2008}, les circuits de qubits supra-conducteurs \cite{Houck2012}, les polaritons en cavité \cite{Tanese2014}, les réseaux de photons \cite{Aspuru-Guzik2012,Carusotto2013}, les molécules polaires \cite{Buechler2009}, les boîtes  quantiques \cite{Cai2013,Manousakis2002,Byrnes2007} et d'autres encore.
+
+
+%\bigskip
+%\section*{Notre idée de simulateur quantique}
 
 \bigskip
-\section*{Le piégeage des atomes de Rydberg}
+\section*{Notre idée de simulateur, les Rydberg circulaires et le piégeage des atomes de Rydberg}
 
-\section*{Problématisation}
+\section*{Problématisation ?}
 \section*{Annonce du plan}

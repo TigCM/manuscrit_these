@@ -754,14 +754,30 @@ La puissance des laser est prise en compte par un paramètre $\Omega_0$ de fréq
 Le faisceau laser bleu présente une bande latérale à $\SI{20}{\MHz}$, en raison du dispositif de verrouillage de la cavité de doublage de fréquence.
 Cette bande latérale est prise en compte dans les simulations, en ajoutant au taux d'excitation des atomes un terme désaccordé de $\SI{20}{\MHz}$ et pondéré par un facteur d'amplitude $x_{20}$ sur la fréquence de Rabi.
 
-L'extension spatiale du piège dans chacune des trois directions est calculée à partir de la fréquence de piégeage dans cette direction, elle-même mesurée expérimentalement, et de la température du piège.
-Nous pourrons ainsi utiliser la température du nuage atomique comme paramètre explicite de simulation et intégrer au calcul un processus de chauffage dû au laser rouge, tel qu'évoqué en \ref{subsec:2photon_excite}.
+L'extension spatiale du piège dans chacune des trois directions est calculée à partir de la fréquence de piégeage dans cette direction, elle-même mesurée expérimentalement, et de la température initiale $T_0$ du nuage.
+Nous pourrons ainsi utiliser la température du nuage atomique comme paramètre explicite de simulation.
+%et intégrer au calcul un processus de chauffage dû au laser rouge, tel qu'évoqué en \ref{subsec:2photon_excite}.
+%
+Les simulations présentées dans la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN} ont permis de reproduire les spectres d'excitation laser, pour toutes les durées d'impulsion laser, à la condition d'imposer une température du nuage atomique différente pour chaque durée d'impulsion.
+La température étant ici prise en compte uniquement comme paramètre de l'extension spatiale du piège, la reproduction des données expérimentales nécessitait d'adapter la taille du piège à chaque durée d'impulsion.
+%Les spectres simulés et expérimentaux, ainsi que la température optimale pour chaque durée d'impulsion laser, sont représentés en figure \ref{fig:Temp_fit_spectres_TL}.
+%
+%\begin{figure}[h]
+%\centering
+%%\includegraphics[scale=•]{•}
+%graphe températures TLN
+%\caption[]{}
+%\label{fig:Temp_fit_spectres_TL}
+%\end{figure}
 
-Les simulations présentées dans la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN} n'incluaient pas cet effet de chauffage.
-Afin de reproduire les spectres d'excitation laser, il était alors nécessaire d'imposer une température du nuage atomique différente pour chaque durée d'impulsion laser.
-Nous avons alors souhaité intégrer le chauffage directement à la dynamique d'excitation, pour deux raisons.
-La première est que cela permet de limiter le nombre de paramètres d'ajustement, en n'imposant qu'une seule température du nuage atomique.
-La seconde est que l'excitation avec une température qui varie au cours du temps peut avoir une dynamique différente de l'excitation à température fixe.
+L'interprétation la plus évidente d'une augmentation de la taille du nuage au cours d'une impulsion laser est la présence d'un processus de chauffage.
+%e la nécessité d'augmenter la température du piège avec la durée d'impulsion laser, est la présence d'un processus de chauffage du nuage d'atomes dans l'état fondamental.
+%De plus, l'ordre de grandeur de ce \og chauffage \fg{} est compatible avec l'effet du laser rouge d'excitation mentionné en \ref{subsec:2photon_excite}.
+La source de chauffage la plus évidente est l'absorption et la ré-émission de photons rouge par les atomes dans l'état fondamental.
+Nous avons alors souhaité intégrer ce chauffage directement à la dynamique d'excitation, afin d'estimer de façon réaliste son effet sur la taille du nuage atomique et sur l'excitation du nuage d'atomes de Rydberg.
+%, pour deux raisons.
+%La première est que cela permet de limiter le nombre de paramètres d'ajustement, en n'imposant qu'une seule température du nuage atomique.
+%La seconde est que l'excitation avec une température qui varie au cours du temps peut avoir une dynamique différente de l'excitation à température fixe.
 
 	\subsection{Estimation et prise en compte du chauffage du nuage atomique}
 \noindent Lors de l'excitation à deux photons du niveau de Rydberg $\mathrm{60S}$, les atomes du nuage absorbent des photons rouges à $\SI{780}{\nano\meter}$.
@@ -809,34 +825,68 @@ Dans les conditions de nos expériences, avec un laser à $\SI{780}{\nano\meter}
 \partial_t T \simeq \SI{12.6}{\nano\K / \micro\second}.
 \end{equation}
 
-\subsubsection*{Conséquences du chauffage et implémentation dans le modèle de simulation}
+\subsubsection*{Conséquences du chauffage sur la taille du nuage atomique}
+%et implémentation dans le modèle de simulation}
 \noindent La conséquence de ce chauffage pour la dynamique d'excitation réside dans l'accroissement de la taille du nuage atomique au cours du temps.
 En effet, l'effet Doppler dû à une température de l'ordre de $\SI{1}{\micro\kelvin}$ est au maximum de $\Delta \nu_{max} \sim \SI{42}{kHz}$ sur la transition $\mathrm{5S-60S}$.
-Cela étant très inférieur à la largeur de raie $\gamma$, l'effet Doppler est tout à fait négligeable malgré le chauffage.
+Cela étant très inférieur à la largeur de raie $\gamma$, l'effet Doppler est tout à fait négligeable. % malgré le chauffage.
 
-Le nuage atomique piégé dans un piège harmonique présente une distribution gaussienne de densité.
-Son extension est directement liée à la température par l'intermédiaire des fréquences de piégeage $f_{x,y,z}$ dans chaque direction :
+Un nuage atomique piégé dans un piège harmonique présente une distribution gaussienne de densité.
+Son extension, à l'équilibre thermique, est directement liée à la température par l'intermédiaire des fréquences de piégeage $f_{x,y,z}$ dans chaque direction :
 \begin{equation}
 \label{eq:trap_size_temp}
 \sigma_{x,y,z} = \sqrt{\frac{m\kb T}{(2\pi f_{x,y,z})^2}}.
 \end{equation}
 
-Il faut donc, pour prendre en compte le chauffage dans la simulation, recalculer la distribution des atomes dans le nuage à chaque pas de temps, selon l'évolution de la température.
-La façon la plus directe d'implémenter cela est de multiplier, à chaque pas de temps $dt$, le vecteur position de chaque atome par un facteur $\sqrt{T(t+dt)/T(t)}$.
-En effet, une distribution gaussienne de largeur $\sigma$ dont on multiplie l'axe des abscisses par un facteur $\alpha$ devient une distribution gaussienne de largeur $\alpha\sigma$.
-On obtient de cette façon un nuage atomique dont l'extension suit la variation de température tout au long du calcul de l'excitation.
+Une première approche consisterait à recalculer, au fur et à mesure qu'augmente la température du nuage, son extension spatiale d'après l'équation \eqref{eq:trap_size_temp}.
+On obtiendrait alors un gonflement du nuage au cours du temps :
+\begin{equation}
+\label{eq:bigsigma_t}
+\sigma(t) = \sigma_0\times\sqrt{T(t)/T_0} = \sigma_0\times\sqrt{1+t\cdot\partial_t T},
+\end{equation}
+où $\sigma_0$ et $T_0$ sont l'extension du nuage et sa température à l'instant initial $t=0$.
+Cependant, cette évolution de taille du nuage n'est valide que si, à chaque instant, le profil de densité du nuage est à l'équilibre thermique.
+Or, le temps caractéristique nécessaire pour atteindre cet équilibre est de l'ordre de l'inverse des fréquences de piégeage $f_{x,y,z}$ et est donc de l'ordre de quelques $\SI{}{\ms}$.
+Les durées qui nous intéressent étant au maximum de $\SI{0.1}{\ms}$, il est raisonnable de supposer que cet équilibre n'est pas atteint.
+
+Afin d'estimer de façon plus réaliste l'effet du chauffage sur le nuage atomique, nous avons simulé la dynamique des atomes dans l'état fondamental soumis aux processus d'absorption et d'émission spontanée responsables du chauffage.
+Cette simulation calcule les trajectoires des $\SI{12000}{}$ atomes du nuage en fonction du temps, en tenant compte de leur distribution de vitesse initiale, et des événements aléatoires d'absorption et émission spontanée d'un photon rouge.
+Les atomes sont considérés comme indépendants les uns des autres, et la probabilité d'absorber et ré-émettre un photon rouge est représentée par le taux $\Gamma_{sp}$ de l'équation \eqref{eq:Gamma_sp}.
+Le résultat de cette simulation pour l'extension spatiale du piège selon $y$ est représentée en figure \eqref{fig:sigma_real_heat}.
+%
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{figures/low_l/sigmaytime}
+\caption[Évolution de la taille du nuage sous l'effet du chauffage dû au laser rouge]{
+Évolution de la taille du nuage sous l'effet du chauffage dû au laser rouge.
+La courbe représente le rayon gaussien $\sigma_y$ du nuage atomique selon la direction $y$, en fonction de la durée d'impulsion laser $\Delta t$.
+Les photons rouges sont absorbés et ré-émis à un taux $\Gamma_{sp}$ estimé à $2\pi\times\SI{16.6}{\kHz}$.
+}
+\label{fig:sigma_real_heat}
+\end{figure}
+%
+L'effet du chauffage sur la taille du nuage atomique pour une durée d'impulsion laser de $\SI{100}{\us}$ reste très limité : l'extension spatiale transverse $\sigma_y$ augmente de moins de $\SI{2}{\percent}$.
+La même simulation montre que, pour atteindre les tailles de nuage correspondant aux températures optimales simulées par Thanh Long Nguyen \cite{PHD_NGUYEN}, il faudrait un taux de chauffage au moins $\SI{100}{}$ fois plus important.
+% afin d'atteindre les tailles de nuage permettant un bon accord des spectres optiques simulés avec les données expérimentales.
+
+En intégrant directement les trajectoires des atomes dans l'état fondamental à la simulation de l'excitation, nous avons pu confirmer le peu d'effet, sur les spectres optiques, du chauffage dû au laser rouge.
+
+%Il faut donc, pour prendre en compte le chauffage dans la simulation, recalculer la distribution des atomes dans le nuage à chaque pas de temps, selon l'évolution de la température.
+%La façon la plus directe d'implémenter cela est de multiplier, à chaque pas de temps $dt$, le vecteur position de chaque atome par un facteur $\sqrt{T(t+dt)/T(t)}$.
+%En effet, une distribution gaussienne de largeur $\sigma$ dont on multiplie l'axe des abscisses par un facteur $\alpha$ devient une distribution gaussienne de largeur $\alpha\sigma$.
+%On obtient de cette façon un nuage atomique dont l'extension suit la variation de température tout au long du calcul de l'excitation.
 %d'extension $\sigma_{x,y,z} (t) = \sqrt{m\kb T(t)/(2\pi f_{x,y,z})^2}$ tout au long du processus d'excitation.
 
-Notons que l'adaptation des quantités de mouvement des atomes n'est pas nécessaire.
-D'une part, les interactions dipolaires accélèrent les atomes de Rydberg à des vitesses très grandes devant les vitesses thermiques des atomes.
-Cela peut se mesurer en termes énergétiques : les énergies d'interaction entre atomes de Rydberg sont de l'ordre du $\SI{}{\MHz}$ alors que l'énergie cinétique thermique d'un atome à $\SI{1}{\micro\K}$ est de l'ordre de $h\times \SI{30}{\kHz}$.
-D'autre part, les vitesses atteintes par les atomes à $\SI{1}{\micro\K}$ sont de l'ordre de $v\sim \SI{1.5e-2}{\um/\us}$.
-La densité atomique au centre du nuage étant de $\SI{1.7e12}{\per\raiseto{3}\cm}$, la distance inter-atomique minimale est de l'ordre de $\SI{0.6}{\um}$.
-En $\SI{100}{\us}$, les atomes se seront déplacés au maximum de deux fois la distance inter-atomique minimale, ce qui justifie de négliger l'effet de la vitesse sur la configuration à petite échelle du nuage.
+%Notons que l'adaptation des quantités de mouvement des atomes n'est pas nécessaire.
+%D'une part, les interactions dipolaires accélèrent les atomes de Rydberg à des vitesses très grandes devant les vitesses thermiques des atomes.
+%Cela peut se mesurer en termes énergétiques : les énergies d'interaction entre atomes de Rydberg sont de l'ordre du $\SI{}{\MHz}$ alors que l'énergie cinétique thermique d'un atome à $\SI{1}{\micro\K}$ est de l'ordre de $h\times \SI{30}{\kHz}$.
+%D'autre part, les vitesses atteintes par les atomes à $\SI{1}{\micro\K}$ sont de l'ordre de $v\sim \SI{1.5e-2}{\um/\us}$.
+%La densité atomique au centre du nuage étant de $\SI{1.7e12}{\per\raiseto{3}\cm}$, la distance inter-atomique minimale est de l'ordre de $\SI{0.6}{\um}$.
+%En $\SI{100}{\us}$, les atomes se seront déplacés au maximum de deux fois la distance inter-atomique minimale, ce qui justifie de négliger l'effet de la vitesse sur la configuration à petite échelle du nuage.
 
 	\subsection{Comparaison aux spectres optiques expérimentaux}
 \noindent Le modèle final de simulation intègre donc l'effet de chauffage que nous venons de décrire.
-Nous obtenons alors un bon accord des simulations avec les données expérimentales, tel que présenté en figure \eqref{fig:fitsim_spectresoptiques_0830126}.
+Nous obtenons alors un bon accord des simulations avec les données expérimentales aux temps courts, tel que présenté en figure \eqref{fig:fitsim_spectresoptiques_0830126}.
 %
 \begin{figure}[!h]
 \centering
@@ -869,12 +919,12 @@ Les paramètres de simulation utilisés sont résumés en table \eqref{tab:fit_s
 		Col du laser bleu $w_{480}$ & \SI{22}{\um} & \SI{22}{\um} \\
 		Col du laser rouge $w_{780}$ & \SI{150}{\um} & $\infty$ \\
 		Largeur de raie $\gamma$ & \SI{626}{\kHz} & \SI{626}{\kHz}\\
-		Taux de chauffage $\partial _t T$ & \SI{12.6}{\nano\K/\us} & \SI{12.6}{\nano\K/\us} \\
+%		Taux de chauffage $\partial _t T$ & \SI{12.6}{\nano\K/\us} & \SI{12.6}{\nano\K/\us} \\
 		\midrule
 		Paramètres d'ajustement & &\\\midrule
 		Amplitude de bande latérale $x_{20}$ & non mesurée & \SI{0.12}{} \\
 		Fréquence de Rabi max. $\Omega_0/(2\pi)$ & \SI{296}{\kHz} & $\SI{60}{} \pm \SI{5}{\kHz}$\\
-		Température initiale $T_0$ & $\SI{0.5}{}\pm\SI{0.15}{\uK}$ & $\SI{0.8}{}\pm\SI{0.05}{\uK}$\\
+		Température initiale $T_0$ & $\SI{0.6}{}\pm\SI{0.3}{\uK}$ & $\SI{0.8}{}\pm\SI{0.05}{\uK}$\\
 		\midrule
 		\bottomrule
  	\end{tabular}
@@ -883,19 +933,36 @@ Les paramètres de simulation utilisés sont résumés en table \eqref{tab:fit_s
 
 Les seuls paramètres d'ajustement sont la température initiale du nuage, qui a un effet très important sur les spectres, ainsi que la fréquence de Rabi $\Omega_0$ au centre des faisceaux laser.
 Ces deux paramètres sont ajustés sur le spectre à $\SI{2}{\us}$ uniquement.
-L'amplitude de bande latérale $x_{20}$ est ajustée sur le spectre à $\SI{20}{\us}$. % puisque le spectre expérimental à $\SI{2}{\us}$ 
-L'accord des simulations avec les données expérimentales est excellent pour les trois spectres enregistrés à $\SI{2}{},\SI{20}{}$ et $\SI{50}{\us}$.
-\`A $\SI{100}{\us}$, le spectre expérimental montre un nombre d'atomes excités plus important aux désaccords compris entre $\SI{-10}{}$ et $\SI[retain-explicit-plus]{+5}{\MHz}$.
-%\`A $\SI{50}{}$ et $\SI{100}{\us}$, le chauffage du nuage atomique produit un effet très important sur les spectres.
-
 L'écart entre la fréquence de Rabi calculée à partir des puissances et des géométries des faisceaux lasers et la fréquence de Rabi simulée est très important.
-Nous attribuons cela à la mauvaise transmission du laser bleu à travers les hublots d'accès optique du cryostat.
+Nous attribuons cela à la mauvaise transmission des faisceaux laser à travers les hublots d'accès optique du cryostat.
 En effet, nous avons constaté un dépôt de gaz résiduel ou de graisse sur les hublots froids de la jupe d'azote.
 L'effet de ce dépôt est difficile à évaluer, car celui-ci disparaît dès que les hublots sont réchauffés à température ambiante.
 Un tel dépôt a été observé sur d'autres expériences en environnement cryogénique \cite{PHD_LEUPOLD_ETHZ}.
 
+
+L'amplitude de bande latérale $x_{20}$ est ajustée sur le spectre à $\SI{20}{\us}$. % puisque le spectre expérimental à $\SI{2}{\us}$ 
+L'accord des simulations avec les données expérimentales est excellent pour les deux spectres enregistrés à $\SI{2}{}$ et $\SI{20}{\us}$.
+L'accord est encore bon pour $\SI{50}{\us}$ d'impulsion laser, pour les désaccords laser supérieurs à $\SI{5}{\MHz}$.
+\`A $\SI{100}{\us}$, le spectre simulé présente un accord qualitatif avec le spectre expérimental, mais commence à s'en éloigner significativement :
+la simulation présente un nombre d'atomes excités trop faible aux faibles désaccord (de $\SI{-5}{}$ à $\SI{10}{\MHz}$). % et trop élevé aux grand désaccords
+%expérimental montre un nombre d'atomes excités plus important aux désaccords compris entre $\SI{-10}{}$ et $\SI[retain-explicit-plus]{+5}{\MHz}$.
+%\`A $\SI{50}{}$ et $\SI{100}{\us}$, le chauffage du nuage atomique produit un effet très important sur les spectres.
+
+En fin de compte, notre modèle numérique fonctionne très bien pour des durées d'excitation inférieures à $\SI{50}{\us}$.
+Cependant, pour les durées d'impulsion supérieures, le modèle ne fonctionne plus.
+%Soit il existe un phénomène physique que nous ignorons, 
+La très grande sensibilité de l'excitation à l'extension spatiale du nuage d'atomes dans l'état fondamental semble suggérer l'existence d'un phénomène qui déforme le nuage atomique au cours de l'impulsion laser et que nous ignorons, ou bien une trop grande variabilité de la taille du nuage au cours des acquisitions de données.
+
+Deux autres phénomènes pourraient être responsables de l'invalidité de notre modèle aux temps longs.
+\`A désaccord négatif, des états de Rydberg \og moléculaires \fg{} peuvent être excités \cite{MX_PFAUMOLECULES14} : l'atome de Rydberg est lié avec un atome dans l'état fondamental, voire plusieurs. Cette excitation est \textit{a priori} un processus lent, mais qui pourrait se révéler significatif aux temps longs.
+Ensuite, malgré les températures cryogéniques, des niveaux de Rydberg $n'P$ pourraient être excités au sein du nuage à partir des atomes dans le niveau $\mathrm{60S}$, à cause du rayonnement de corps noir dans le domaine microonde \cite{MX_PORTORYDDRESS16}.
+Ces atomes dans les niveaux $n'P$ entreraient alors en interaction dipôle-dipôle résonante avec les atomes dans le niveau $\mathrm{60S}$.
+Ces interactions résonantes auraient alors deux effets que l'on peut vite imaginer : elles modifieraient les conditions de blocage dipolaire et d'excitation facilitée, ainsi que le mouvement relatif des atomes de Rydberg. %, en introduisant des termes d'interaction attractifs.
+L'exploration de ces phénomènes mériterait une étude plus approfondie, qui dans tous les cas ferait perdre à notre modèle l'avantage de sa simplicité.
+%Comme nous l'avons déjà mentionné, les spectres d'excitation aux temps longs dépendent fortement de la taille du nuage.
+
 	\subsection{Caractéristiques des nuages simulés}
-\noindent Le très bon accord entre les simulations et les données expérimentales nous autorise à déduire des simulations certaines caractéristiques des nuages d'atomes de Rydberg excités par laser.
+\noindent Le très bon accord aux temps courts entre les simulations et les données expérimentales nous autorise à déduire des simulations certaines caractéristiques des nuages d'atomes de Rydberg excités par laser.
 En particulier, nous nous intéressons ici à la distribution spatiale des atomes de Rydberg, ainsi qu'à la dynamique d'excitation aux temps courts.
 
 \subsubsection*{Distribution radiale des nuages de Rydberg}
@@ -945,7 +1012,7 @@ est plus petite que celle du nuage d'atomes dans l'état fondamental pour une du
 L'ensemble d'atomes de Rydberg excité à $\Delta=\SI{4}{\MHz}$ montre lui aussi une telle saturation, mais de façon moins importante : il faudra attendre plus longtemps pour exciter des atomes de Rydberg loin dans les ailes du nuage.
 En effet, plus le désaccord laser est important, plus il faut de temps avant d'exciter un  permier atome de Rydberg (une \og graine \fg{}) et plus l'agrégat de Rydberg créé est compact car le rayon de facilitation est plus petit.
 
-\clearpage
+%\clearpage
 \subsubsection*{Dynamique d'excitation aux temps courts}
 \noindent L'observation de la dynamique d'excitation aux temps courts permet également de mettre en évidence une saturation.
 La figure \eqref{fig:satur_optical_sim} représente l'évolution du nombre  d'atomes de Rydberg excités en fonction de la durée d'impulsion laser pour différents désaccords.% : $\SI{0}{},\SI{2}{},\SI{4}{}$ et $\SI{8}{\MHz}$.
@@ -983,39 +1050,42 @@ Enfin, les interactions répulsives entre atomes de Rydberg causent l'expansion 
 Les effets de blocage dipolaire et d'excitation facilitée sont mis en évidence par la saturation et l'élargissement des spectres d'excitation optique lorsque la durée de l'impulsion laser augmente.
 L'expansion mécanique du nuage d'atomes de Rydberg est mise en évidence par la spectroscopie microonde de la transition $\mathrm{60S}\rightarrow\mathrm{57S}$.
 Le spectre de cette transition révèle directement le spectre des énergies d'interaction au sein de l'ensemble d'atomes de Rydberg.
+L'évolution de ce spectre des énergies d'interaction après l'excitation des atomes de Rydberg montre en particulier que l'approximation du gaz gelé, consistant à s'intéresser aux interactions entre atomes de Rydberg en considérant que ceux-ci sont immobiles, ne peut être justifiée qu'aux temps très courts, de l'ordre de $\SI{10}{\us}$.
 
 Afin de vérifier notre compréhension de la dynamique d'excitation et d'expansion des ensembles denses d'atomes de Rydberg, nous avons mis en \oe uvre des simulations numériques.
 Un premier modèle Monte-Carlo, fondé sur le tirage au sort d'atomes dans l'état fondamental au sein du nuage, montre un accord qualitatif correct aux temps d'excitation courts.
 Cela permet d'en extraire des conditions initiales pour simuler le mouvement de l'ensemble d'atomes de Rydberg après excitation, et comparer les résultats du modèle avec les données expérimentales de spectroscopie microonde.
 L'accord est ici bon.
 
-Ce premier modèle est cependant incapable de reproduire les spectres d'excitation optiques avec des durées d'impulsion laser longues.
+Ce premier modèle est cependant incapable de reproduire les spectres d'excitation optiques avec des durées d'impulsion laser longues, et ne présente qu'un accord qualitatif aux temps courts.
 Nous avons donc développé un second modèle numérique, fondé sur des équations de taux issues des équations de Bloch optiques et calculées pour chaque atome, qu'il soit dans l'état fondamental ou dans un état de Rydberg, à chaque pas de temps.
 L'introduction d'une échelle de temps lors de l'excitation des atomes de Rydbderg permet de prendre en compte directement leur mouvement, dû aux interactions dipôle-dipôle, pendant la phase d'excitation.
 De plus, nous avons ajouté à ce modèle le chauffage du nuage d'atomes dans l'état fondamental dû au laser rouge d'excitation, et qui est responsable de l'accroissement de la taille de ce nuage au cours du temps.
-
-Grâce à ce modèle, nous avons pu reproduire les spectres d'excitation optique à temps long.
-La figure \eqref{fig:sim_nomvt_noheat} montre l'importance de prendre en compte le mouvement des atomes de Rydberg et le chauffage du nuage atomique pendant l'excitation.
-En particulier, l'approximation du gaz gelé, consistant à s'intéresser aux interactions entre atomes de Rydberg en considérant que ceux-ci sont immobiles, ne peut être justifiée qu'aux temps très courts, de l'ordre de $\SI{10}{\us}$.
 %
-\begin{figure}[!h]
-\centering
-\includegraphics[width=\linewidth]{figures/low_l/sim_nomvt_noheat}
-%Résultats des simulations, 1.avec mvt et chauffage, 2. sans mvt, 3. sans chauffage.
-\caption[Comparaison des différents effets pris en compte dans les simulations]{
-Comparaison des différents effets pris en compte dans les simulations, pour des durées d'impulsions laser de $\SI{50}{}$ (rouge) et $\SI{100}{\us}$ (noir).
-Les courbes en trait point-tiret représentent les résultats des simulations ne prenant en compte ni le mouvement des atomes de Rydberg par interaction répulsive, ni le chauffage des atomes dans l'état fondamental dû au laser rouge.
-Les courbes en pointillés représentent les résultats des simulations avec le mouvement des atomes de Rydberg mais sans chauffage du nuage atomique.
-Les courbes en trait plein représentent les résultats des simulations complètes, intégrant le mouvement des atomes de Rydberg et le chauffage du nuage atomique.
-\`A $\SI{50}{\us}$, l'effet du mouvement des atomes de Rydberg est assez faible mais l'effet du chauffage du nuage d'atomes dans l'état fondamental est déjà important.
-\`A $\SI{100}{\us}$, l'effet du mouvement des atomes de Rydberg devient lui aussi significatif.
-}
-\label{fig:sim_nomvt_noheat}
-\end{figure}
+%Grâce à ce modèle, nous avons pu reproduire les spectres d'excitation optique à temps long.
+%La figure \eqref{fig:sim_nomvt_noheat} montre l'importance de prendre en compte le mouvement des atomes de Rydberg et le chauffage du nuage atomique pendant l'excitation.
+%En particulier, l'approximation du gaz gelé, consistant à s'intéresser aux interactions entre atomes de Rydberg en considérant que ceux-ci sont immobiles, ne peut être justifiée qu'aux temps très courts, de l'ordre de $\SI{10}{\us}$.
+%
+%
+Ce modèle permet de mieux reproduire les spectres à temps courts, voire même jusqu'à $\SI{50}{\us}$ de durée d'impulsion laser, mais n'est pas suffisant pour rendre compte du spectre laser à $\SI{100}{\us}$ d'impulsion.
+%\begin{figure}[!h]
+%\centering
+%\includegraphics[width=\linewidth]{figures/low_l/sim_nomvt_noheat}
+%%Résultats des simulations, 1.avec mvt et chauffage, 2. sans mvt, 3. sans chauffage.
+%\caption[Comparaison des différents effets pris en compte dans les simulations]{
+%Comparaison des différents effets pris en compte dans les simulations, pour des durées d'impulsions laser de $\SI{50}{}$ (rouge) et $\SI{100}{\us}$ (noir).
+%Les courbes en trait point-tiret représentent les résultats des simulations ne prenant en compte ni le mouvement des atomes de Rydberg par interaction répulsive, ni le chauffage des atomes dans l'état fondamental dû au laser rouge.
+%Les courbes en pointillés représentent les résultats des simulations avec le mouvement des atomes de Rydberg mais sans chauffage du nuage atomique.
+%Les courbes en trait plein représentent les résultats des simulations complètes, intégrant le mouvement des atomes de Rydberg et le chauffage du nuage atomique.
+%\`A $\SI{50}{\us}$, l'effet du mouvement des atomes de Rydberg est assez faible mais l'effet du chauffage du nuage d'atomes dans l'état fondamental est déjà important.
+%\`A $\SI{100}{\us}$, l'effet du mouvement des atomes de Rydberg devient lui aussi significatif.
+%}
+%\label{fig:sim_nomvt_noheat}
+%\end{figure}
 %
 %\clearpage
-\newpage
+%\newpage
 
-Enfin, le bon accord des simulations avec les données expérimentales nous autorise à extrapoler, à partir du modèle numérique, certaines propriétés de l'excitation des ensembles denses d'atomes de Rydberg.
+Enfin, le bon accord des simulations avec les données expérimentales aux temps courts nous autorise à extrapoler, à partir du modèle numérique, certaines propriétés de l'excitation des ensembles denses d'atomes de Rydberg.
 L'évolution du nombre d'atomes de Rydberg dans les premiers temps de l'excitation montre un comportement de quasi-saturation du nuage, après quoi les atomes de Rydberg ne sont plus excités que dans les ailes peu denses du nuage atomique.
 La fonction de distribution radiale des nuages ainsi excités confirme cet effet de saturation, et montre très clairement les effets de blocage dipolaire et d'excitation facilitée.

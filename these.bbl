@@ -19,6 +19,159 @@
 
 \refsection{0}
   \sortlist{entry}{none}
+    \entry{Ludlow2015}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=02005c3bc8f393cbeb7f9069e53e7250}{Ludlow}{L\bibinitperiod}{Andrew\bibnamedelima D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=e83cca0eb83cbfa2cce4b04d4af08bda}{Boyd}{B\bibinitperiod}{Martin\bibnamedelima M.}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=3737d32939a3f1581e3cba8bf0eb0adc}{Ye}{Y\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=24d311e58d8b9513f906a7345deb324b}{Peik}{P\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=7cb45891ab314348e4d97b6c0893d2a9}{Schmidt}{S\bibinitperiod}{P.\bibnamedelimi O.}{P\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=02005c3bc8f393cbeb7f9069e53e7250}{Ludlow}{L\bibinitperiod}{Andrew\bibnamedelima D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=e83cca0eb83cbfa2cce4b04d4af08bda}{Boyd}{B\bibinitperiod}{Martin\bibnamedelima M.}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=3737d32939a3f1581e3cba8bf0eb0adc}{Ye}{Y\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=24d311e58d8b9513f906a7345deb324b}{Peik}{P\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=7cb45891ab314348e4d97b6c0893d2a9}{Schmidt}{S\bibinitperiod}{P.\bibnamedelimi O.}{P\bibinitperiod\bibinitdelim O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a5348f3d5a9732847d462564e0f2bdaf}
+      \strng{fullhash}{95d38aa895ce25aba5c1e8e87171f0b1}
+      \field{sortinit}{0}
+      \field{labeltitle}{Optical atomic clocks}
+      \field{issue}{2}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{06}
+      \field{title}{Optical atomic clocks}
+      \field{volume}{87}
+      \field{year}{2015}
+      \field{pages}{637\bibrangedash 701}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.87.637
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.87.637
+      \endverb
+    \endentry
+    \entry{Oates2013}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=a880af2245f7d2bd9604998c4cd755cb}{Oates}{O\bibinitperiod}{Christopher\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=1e4660331ac8fefab6a36ddd9d1a6561}{Poli}{P\bibinitperiod}{N}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=393bb04ca310dd6b5de2b67761156920}{Gill}{G\bibinitperiod}{P}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=69ff2068df6b4b937f93dfd1662d4f9e}{Tino}{T\bibinitperiod}{GM}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=a880af2245f7d2bd9604998c4cd755cb}{Oates}{O\bibinitperiod}{Christopher\bibnamedelima W}{C\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=1e4660331ac8fefab6a36ddd9d1a6561}{Poli}{P\bibinitperiod}{N}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=393bb04ca310dd6b5de2b67761156920}{Gill}{G\bibinitperiod}{P}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=69ff2068df6b4b937f93dfd1662d4f9e}{Tino}{T\bibinitperiod}{GM}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1e2259c4e206eabd30998d01caaef560}
+      \strng{fullhash}{80030180e6565d2e1701eea439508b03}
+      \field{sortinit}{0}
+      \field{labeltitle}{Optical Atomic Clocks}
+      \field{journaltitle}{Rivista Del Nuovo Cimento}
+      \field{number}{12}
+      \field{title}{Optical Atomic Clocks}
+      \field{volume}{36}
+      \field{year}{2013}
+    \endentry
+    \entry{Feynman1982}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=6dbb2bc3236d7777e97e8b6bf3ad14fe}{Feynman}{F\bibinitperiod}{Richard\bibnamedelima P.}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=6dbb2bc3236d7777e97e8b6bf3ad14fe}{Feynman}{F\bibinitperiod}{Richard\bibnamedelima P.}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science $\mathplus$ Business Media}%
+      }
+      \strng{namehash}{6dbb2bc3236d7777e97e8b6bf3ad14fe}
+      \strng{fullhash}{6dbb2bc3236d7777e97e8b6bf3ad14fe}
+      \field{sortinit}{0}
+      \field{labeltitle}{Simulating physics with computers}
+      \field{journaltitle}{International Journal of Theoretical Physics}
+      \field{month}{06}
+      \field{number}{6-7}
+      \field{title}{Simulating physics with computers}
+      \field{volume}{21}
+      \field{year}{1982}
+      \field{pages}{467\bibrangedash 488}
+      \verb{doi}
+      \verb 10.1007/bf02650179
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/BF02650179
+      \endverb
+    \endentry
+    \entry{QM_BELL64}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=d3ebd51413583669fa8bf026c44b9969}{Bell}{B\bibinitperiod}{J.\bibnamedelimi S.}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=d3ebd51413583669fa8bf026c44b9969}{Bell}{B\bibinitperiod}{J.\bibnamedelimi S.}{J\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d3ebd51413583669fa8bf026c44b9969}
+      \strng{fullhash}{d3ebd51413583669fa8bf026c44b9969}
+      \field{sortinit}{0}
+      \field{labeltitle}{On the {E}instein {P}odolsky {R}osen paradox}
+      \field{journaltitle}{Phys. (N.Y.)}
+      \field{title}{On the {E}instein {P}odolsky {R}osen paradox}
+      \field{volume}{1}
+      \field{year}{1964}
+      \field{pages}{195}
+      \keyw{QM,EPRGHZ,history,theory}
+    \endentry
+    \entry{QM_ASPECTGRANGIEREPR82}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=e8ac2b25f3b20844442251c5e25ae581}{Aspect}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=20664db502d03bc31ab3c5253fb91a49}{Grangier}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=aa5c0f5b1b7a1382c1d61b37b541a09b}{Roger}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e8ac2b25f3b20844442251c5e25ae581}{Aspect}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=20664db502d03bc31ab3c5253fb91a49}{Grangier}{G\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=aa5c0f5b1b7a1382c1d61b37b541a09b}{Roger}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e824396179bc2449a5650111887471d6}
+      \strng{fullhash}{25cc91be64413776ec4fa686963e433c}
+      \field{sortinit}{0}
+      \field{labeltitle}{Experimental realization of {E}instein-{P}odolsky-{R}osen-{B}ohm gedankenexperiment: A new violation of {B}ell's inequalities}
+      \field{title}{Experimental realization of {E}instein-{P}odolsky-{R}osen-{B}ohm gedankenexperiment: A new violation of {B}ell's inequalities}
+      \field{volume}{49}
+      \field{year}{1982}
+      \field{pages}{91}
+      \verb{file}
+      \verb QM_ASPECTGRANGIEREPR82.pdf:qm/QM_ASPECTGRANGIEREPR82.pdf:PDF;QM_ASPECTGRANGIEREPR82.pdf:qm/QM_ASPECTGRANGIEREPR82.pdf:PDF
+      \endverb
+      \keyw{QM,EPRGHZ,history}
+    \endentry
+    \entry{QM_ASPECTEPR82}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=e8ac2b25f3b20844442251c5e25ae581}{Aspect}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ee0482da6c9ce8083d951d0f62f1a4b7}{Dalibard}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=aa5c0f5b1b7a1382c1d61b37b541a09b}{Roger}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e8ac2b25f3b20844442251c5e25ae581}{Aspect}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ee0482da6c9ce8083d951d0f62f1a4b7}{Dalibard}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=aa5c0f5b1b7a1382c1d61b37b541a09b}{Roger}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e824396179bc2449a5650111887471d6}
+      \strng{fullhash}{bfec407903df4556a487730cd2bd757a}
+      \field{sortinit}{0}
+      \field{labeltitle}{Experimental test of {B}ell's inequalities using time-varying analysers}
+      \field{title}{Experimental test of {B}ell's inequalities using time-varying analysers}
+      \field{volume}{49}
+      \field{year}{1982}
+      \field{pages}{1804}
+      \verb{file}
+      \verb QM_ASPECTEPR82.pdf:qm/QM_ASPECTEPR82.pdf:PDF;QM_ASPECTEPR82.pdf:qm/QM_ASPECTEPR82.pdf:PDF
+      \endverb
+      \keyw{QM,EPRGHZ,history}
+    \endentry
     \entry{ENS_EXPTWOPHOTON}{article}{}
       \name{labelname}{4}{}{%
         {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
@@ -1064,33 +1217,32 @@
       \endverb
       \keyw{dipole blockade ; microwave spectroscopy ; atom chip ; Rydberg atoms ; dipole-dipole interaction ; atomes de Rydberg ; interaction dipolaire ; puce à atomes ; spectroscopie microonde ; blocage dipolaire}
     \endentry
-    \entry{Feynman1982}{article}{}
+    \entry{PHD_NGUYEN}{thesis}{}
       \name{labelname}{1}{}{%
-        {{hash=6dbb2bc3236d7777e97e8b6bf3ad14fe}{Feynman}{F\bibinitperiod}{Richard\bibnamedelima P.}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=6dbb2bc3236d7777e97e8b6bf3ad14fe}{Feynman}{F\bibinitperiod}{Richard\bibnamedelima P.}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
       }
-      \list{publisher}{1}{%
-        {Springer Science $\mathplus$ Business Media}%
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
       }
-      \strng{namehash}{6dbb2bc3236d7777e97e8b6bf3ad14fe}
-      \strng{fullhash}{6dbb2bc3236d7777e97e8b6bf3ad14fe}
+      \strng{namehash}{ff3b5d5276beae6f337805de454e85e5}
+      \strng{fullhash}{ff3b5d5276beae6f337805de454e85e5}
       \field{sortinit}{0}
-      \field{labeltitle}{Simulating physics with computers}
-      \field{journaltitle}{International Journal of Theoretical Physics}
-      \field{month}{06}
-      \field{number}{6-7}
-      \field{title}{Simulating physics with computers}
-      \field{volume}{21}
-      \field{year}{1982}
-      \field{pages}{467\bibrangedash 488}
-      \verb{doi}
-      \verb 10.1007/bf02650179
+      \field{labeltitle}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
+      \field{month}{11}
+      \field{number}{2016PA066695}
+      \field{title}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
+      \field{type}{Theses}
+      \field{year}{2016}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1007/BF02650179
+      \verb https://tel.archives-ouvertes.fr/tel-01609840
       \endverb
+      \keyw{Quantum simulation ; Rydberg atoms ; Atom chip ; Simulation quantique ; Atomes de Rydberg ; Atomes circulaires ; Interaction dipolaire ; Puce à atome ; Spectroscopie micro-onde}
     \endentry
     \entry{Cirac2003}{article}{}
       \name{labelname}{2}{}{%
@@ -1691,6 +1843,546 @@
       \verb{url}
       \verb http://dx.doi.org/10.1103/PhysRevLett.99.016405
       \endverb
+    \endentry
+    \entry{SchAPnleber2015}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=33042aa692cd5ba66ab10fddb2370bf7}{Schönleber}{S\bibinitperiod}{D.\bibnamedelimi W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=8fba0ffc6cbdbe643e89262308823de6}{Eisfeld}{E\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=f4d833f0df6974b944b6ae9f36bf87c0}{Genkin}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef0242f9b777037b2e42ff1440fd54d}{Whitlock}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=03fed6aa7d3aea20d5694b3231b4a0e9}{Wüster}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=33042aa692cd5ba66ab10fddb2370bf7}{Schönleber}{S\bibinitperiod}{D.\bibnamedelimi W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=8fba0ffc6cbdbe643e89262308823de6}{Eisfeld}{E\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=f4d833f0df6974b944b6ae9f36bf87c0}{Genkin}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef0242f9b777037b2e42ff1440fd54d}{Whitlock}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=03fed6aa7d3aea20d5694b3231b4a0e9}{Wüster}{W\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Max Planck Institute for the Physics of Complex Systems, NÃ¶thnitzer Strasse 38, 01187 Dresden, Germany.}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({APS})}%
+      }
+      \strng{namehash}{6c97f9a3d78257ecae3804dbaadb4fe0}
+      \strng{fullhash}{82926200068c53815bfa41b1acb7b8da}
+      \field{sortinit}{0}
+      \field{labeltitle}{Quantum simulation of energy transport with embedded Rydberg aggregates.}
+      \field{abstract}{We show that an array of ultracold Rydberg atoms embedded in a laser driven background gas can serve as an aggregate for simulating exciton dynamics and energy transport with a controlled environment. Energetic disorder and decoherence introduced by the interaction with the background gas atoms can be controlled by the laser parameters. This allows for an almost ideal realization of a Haken-Reineker-Strobl-type model for energy transport. The transport can be monitored using the same mechanism that provides control over the environment. The degree of decoherence is traced back to information gained on the excitation location through the monitoring, turning the setup into an experimentally accessible model system for studying the effects of quantum measurements on the dynamics of a many-body quantum system.}
+      \field{journaltitle}{Phys Rev Lett}
+      \field{month}{03}
+      \field{number}{12}
+      \field{title}{Quantum simulation of energy transport with embedded Rydberg aggregates.}
+      \field{volume}{114}
+      \field{year}{2015}
+      \field{pages}{123005}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.114.123005
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.114.123005
+      \endverb
+    \endentry
+    \entry{Lesanovsky2012}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=948cecf20817d363f3cf9c43315a2715}{Lesanovsky}{L\bibinitperiod}{Igor}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=948cecf20817d363f3cf9c43315a2715}{Lesanovsky}{L\bibinitperiod}{Igor}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{2}{%
+        {Midlands Ultracold Atom Research Centre (MUARC), School of Physics}%
+        {Astronomy, The University of Nottingham, Nottingham, NG7 2RD, United Kingdom.}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{948cecf20817d363f3cf9c43315a2715}
+      \strng{fullhash}{948cecf20817d363f3cf9c43315a2715}
+      \field{sortinit}{0}
+      \field{labeltitle}{Liquid ground state, gap, and excited states of a strongly correlated spin chain.}
+      \field{abstract}{We present an exact solution of an experimentally realizable and strongly interacting one-dimensional spin system which is a limiting case of a quantum Ising model with long range interaction in a transverse and longitudinal field. Pronounced quantum fluctuations lead to a strongly correlated liquid ground state. For open boundary conditions the ground state manifold consists of four degenerate sectors whose quantum numbers are determined by the orientation of the edge spins. Explicit expressions for the entanglement properties, the exact excitation gap, as well as the exact wave functions for a couple of excited states are analytically derived and discussed. We outline how this system can be experimentally realized in a lattice gas of Rydberg atoms.}
+      \field{journaltitle}{Phys Rev Lett}
+      \field{month}{03}
+      \field{number}{10}
+      \field{title}{Liquid ground state, gap, and excited states of a strongly correlated spin chain.}
+      \field{volume}{108}
+      \field{year}{2012}
+      \field{pages}{105301}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.108.105301
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.108.105301
+      \endverb
+    \endentry
+    \entry{Dauphin2012}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=65c8f2db0ac0927c618bfbb236c1f27c}{Dauphin}{D\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c7ef0c547f171b6977877b36af6dc284}{Müller}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e04f02960b29ec416bca74240a9cb18a}{Martin-Delgado}{M\bibinithyphendelim D\bibinitperiod}{M.\bibnamedelimi A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=65c8f2db0ac0927c618bfbb236c1f27c}{Dauphin}{D\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c7ef0c547f171b6977877b36af6dc284}{Müller}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e04f02960b29ec416bca74240a9cb18a}{Martin-Delgado}{M\bibinithyphendelim D\bibinitperiod}{M.\bibnamedelimi A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{03ee78b1ce00ce6b8aa64f7920dfe786}
+      \strng{fullhash}{a3879b88f1b642b83cd03372b2363be7}
+      \field{sortinit}{0}
+      \field{labeltitle}{Rydberg-atom quantum simulation and Chern-number characterization of a topological Mott insulator}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{11}
+      \field{title}{Rydberg-atom quantum simulation and Chern-number characterization of a topological Mott insulator}
+      \field{volume}{86}
+      \field{year}{2012}
+      \field{pages}{053618}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.86.053618
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevA.86.053618
+      \endverb
+    \endentry
+    \entry{Hague2013}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=206fe6b55f6343250abe925484209c4a}{Hague}{H\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=21423e27b7bdf3d678a694921038a61e}{Downes}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d2b6f41e89f339b9d298c92a1d1a0fb6}{MacCormick}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=9c48a07b2c0e86583286850aa2cf55c4}{Kornilovitch}{K\bibinitperiod}{P.\bibnamedelimi E.}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=206fe6b55f6343250abe925484209c4a}{Hague}{H\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=21423e27b7bdf3d678a694921038a61e}{Downes}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d2b6f41e89f339b9d298c92a1d1a0fb6}{MacCormick}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=9c48a07b2c0e86583286850aa2cf55c4}{Kornilovitch}{K\bibinitperiod}{P.\bibnamedelimi E.}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science $\mathplus$ Business Media}%
+      }
+      \strng{namehash}{ca791af69cc951268b0a93c4d16dbca1}
+      \strng{fullhash}{63dd21c8c08630652a3e26ba29841d09}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cold Rydberg Atoms for Quantum Simulation of Exotic Condensed Matter Interactions}
+      \field{journaltitle}{J Supercond Nov Magn}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{Cold Rydberg Atoms for Quantum Simulation of Exotic Condensed Matter Interactions}
+      \field{volume}{27}
+      \field{year}{2013}
+      \field{pages}{937\bibrangedash 940}
+      \verb{doi}
+      \verb 10.1007/s10948-013-2414-y
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10948-013-2414-y
+      \endverb
+    \endentry
+    \entry{Barredo2015}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=85fee8f97c87a46ad8e800af73804ebd}{Barredo}{B\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=554405c5934e3507d22f21d88ca5470e}{Labuhn}{L\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=fad1fe179d78a86b7de8e1b9f811a1ed}{Ravets}{R\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6306a2c150b957113a918488726559ee}{Lahaye}{L\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f243eee2a4dbf763fb80352db4b92e9d}{Browaeys}{B\bibinitperiod}{Antoine}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b840bb07383a2a5ad9c789dab6c9ff13}{Adams}{A\bibinitperiod}{Charles\bibnamedelima S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=85fee8f97c87a46ad8e800af73804ebd}{Barredo}{B\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=554405c5934e3507d22f21d88ca5470e}{Labuhn}{L\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=fad1fe179d78a86b7de8e1b9f811a1ed}{Ravets}{R\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6306a2c150b957113a918488726559ee}{Lahaye}{L\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f243eee2a4dbf763fb80352db4b92e9d}{Browaeys}{B\bibinitperiod}{Antoine}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b840bb07383a2a5ad9c789dab6c9ff13}{Adams}{A\bibinitperiod}{Charles\bibnamedelima S.}{C\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7278b1c18a143daec89588270c7d500a}
+      \strng{fullhash}{0f8862ec9c3ff40097f1854cf1039985}
+      \field{sortinit}{0}
+      \field{labeltitle}{Coherent Excitation Transfer in a Spin Chain of Three Rydberg Atoms}
+      \field{issue}{11}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{03}
+      \field{title}{Coherent Excitation Transfer in a Spin Chain of Three Rydberg Atoms}
+      \field{volume}{114}
+      \field{year}{2015}
+      \field{pages}{113002}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.114.113002
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.114.113002
+      \endverb
+    \endentry
+    \entry{Labuhn2016}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=554405c5934e3507d22f21d88ca5470e}{Labuhn}{L\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=85fee8f97c87a46ad8e800af73804ebd}{Barredo}{B\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fad1fe179d78a86b7de8e1b9f811a1ed}{Ravets}{R\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3241c9eae4626650cd6312e5e5c7bf9b}{Léséleuc}{L\bibinitperiod}{Sylvain}{S\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{hash=6a7683a1107c13e43a17a2a893454450}{Macrì}{M\bibinitperiod}{Tommaso}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=6306a2c150b957113a918488726559ee}{Lahaye}{L\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f243eee2a4dbf763fb80352db4b92e9d}{Browaeys}{B\bibinitperiod}{Antoine}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=554405c5934e3507d22f21d88ca5470e}{Labuhn}{L\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=85fee8f97c87a46ad8e800af73804ebd}{Barredo}{B\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fad1fe179d78a86b7de8e1b9f811a1ed}{Ravets}{R\bibinitperiod}{Sylvain}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3241c9eae4626650cd6312e5e5c7bf9b}{Léséleuc}{L\bibinitperiod}{Sylvain}{S\bibinitperiod}{de}{d\bibinitperiod}{}{}}%
+        {{hash=6a7683a1107c13e43a17a2a893454450}{Macrì}{M\bibinitperiod}{Tommaso}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=6306a2c150b957113a918488726559ee}{Lahaye}{L\bibinitperiod}{Thierry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f243eee2a4dbf763fb80352db4b92e9d}{Browaeys}{B\bibinitperiod}{Antoine}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{46855ce1e3592788f3a8adf15b7dfa6a}
+      \strng{fullhash}{c47e1413dfcab28e46b054ebdf3f9b26}
+      \field{sortinit}{0}
+      \field{labeltitle}{Tunable two-dimensional arrays of single Rydberg atoms for realizing quantum Ising models}
+      \field{journaltitle}{Nature}
+      \field{month}{06}
+      \field{number}{7609}
+      \field{title}{Tunable two-dimensional arrays of single Rydberg atoms for realizing quantum Ising models}
+      \field{volume}{534}
+      \field{year}{2016}
+      \field{pages}{667\bibrangedash 670}
+      \verb{doi}
+      \verb 10.1038/nature18274
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nature18274
+      \endverb
+    \endentry
+    \entry{MX_RAITHELTRAPPERDYD05}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=45ff4b52e0661584c46e0d6ff733c935}{Choi}{C\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=3fb354a5aa808648b22a189f1a403c93}{Guest}{G\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=4e2f4b2f42ae55ae41456894c8a3c4e5}{Povilus}{P\bibinitperiod}{A.\bibnamedelimi P.}{A\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=b61ff9be5242e45cc3cb96385dc94c37}{Hansis}{H\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=a79b6b12602daa003c17009322b8c89e}{Raithel}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=45ff4b52e0661584c46e0d6ff733c935}{Choi}{C\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=3fb354a5aa808648b22a189f1a403c93}{Guest}{G\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=4e2f4b2f42ae55ae41456894c8a3c4e5}{Povilus}{P\bibinitperiod}{A.\bibnamedelimi P.}{A\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=b61ff9be5242e45cc3cb96385dc94c37}{Hansis}{H\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=a79b6b12602daa003c17009322b8c89e}{Raithel}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{dd63cf2a7c4aa8bd0b032c6788990a38}
+      \strng{fullhash}{a9b8ee0faa501275548d5286c9d1582a}
+      \field{sortinit}{0}
+      \field{labeltitle}{Magnetic trapping of long-lived cold {R}ydberg atoms}
+      \field{title}{Magnetic trapping of long-lived cold {R}ydberg atoms}
+      \field{volume}{95}
+      \field{year}{2005}
+      \field{pages}{243001}
+      \verb{file}
+      \verb MX_RAITHELTRAPPERDYD05.pdf:mx/MX_RAITHELTRAPPERDYD05.pdf:PDF;MX_RAITHELTRAPPERDYD05.pdf:mx/MX_RAITHELTRAPPERDYD05.pdf:PDF
+      \endverb
+      \keyw{MX,Rydberg,traps}
+    \endentry
+    \entry{muller2010trapping}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=1ee5805e4ffe94b064a5c002381a5195}{Müller}{M\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=14fd6c4762d5113df9a2a4c45d09c456}{Zhang}{Z\bibinitperiod}{B}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1fe17545de1f062535c939925b6cd07f}{Fermani}{F\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=d4d840fbb741e78e3aa0a4684d5301eb}{Chan}{C\bibinitperiod}{KS}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=caa73c233cd8223546c2cc3026ae9816}{Wang}{W\bibinitperiod}{ZW}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=757289d8f1d9092ebafbaee64b9ce3e7}{Zhang}{Z\bibinitperiod}{CB}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=a8433a54cc035be15dcbd65ff3f8d5f0}{Lim}{L\bibinitperiod}{MJ}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=823b9205cd44a1a54d6e4486adcf6013}{Dumke}{D\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=1ee5805e4ffe94b064a5c002381a5195}{Müller}{M\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=14fd6c4762d5113df9a2a4c45d09c456}{Zhang}{Z\bibinitperiod}{B}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=1fe17545de1f062535c939925b6cd07f}{Fermani}{F\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=d4d840fbb741e78e3aa0a4684d5301eb}{Chan}{C\bibinitperiod}{KS}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=caa73c233cd8223546c2cc3026ae9816}{Wang}{W\bibinitperiod}{ZW}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=757289d8f1d9092ebafbaee64b9ce3e7}{Zhang}{Z\bibinitperiod}{CB}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=a8433a54cc035be15dcbd65ff3f8d5f0}{Lim}{L\bibinitperiod}{MJ}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=823b9205cd44a1a54d6e4486adcf6013}{Dumke}{D\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{bfd90e19185a396880e007a3f7d0c54d}
+      \strng{fullhash}{f88eac517d657ab58d4ee7315b200887}
+      \field{sortinit}{0}
+      \field{labeltitle}{Trapping of ultra-cold atoms with the magnetic field of vortices in a thin-film superconducting micro-structure}
+      \field{journaltitle}{New Journal of Physics}
+      \field{number}{4}
+      \field{title}{Trapping of ultra-cold atoms with the magnetic field of vortices in a thin-film superconducting micro-structure}
+      \field{volume}{12}
+      \field{year}{2010}
+      \field{pages}{043016}
+    \endentry
+    \entry{Johnson2010}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=4219bed7e8d093e3f4b1ca3e62a6dc1b}{Johnson}{J\bibinitperiod}{J.\bibnamedelimi E.}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=bb29c56c34ee88279ac2e9f12cb237d6}{Rolston}{R\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=4219bed7e8d093e3f4b1ca3e62a6dc1b}{Johnson}{J\bibinitperiod}{J.\bibnamedelimi E.}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=bb29c56c34ee88279ac2e9f12cb237d6}{Rolston}{R\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9665cfdd64248a7d843d3c6674cd9f2b}
+      \strng{fullhash}{9665cfdd64248a7d843d3c6674cd9f2b}
+      \field{sortinit}{0}
+      \field{labeltitle}{Interactions between Rydberg-dressed atoms}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{09}
+      \field{title}{Interactions between Rydberg-dressed atoms}
+      \field{volume}{82}
+      \field{year}{2010}
+      \field{pages}{033412}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.82.033412
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevA.82.033412
+      \endverb
+    \endentry
+    \entry{Zeiher2016}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=ebd99a912e076a7dc696db17cf8b435f}{Zeiher}{Z\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5e5d9f35f4150d5a199206588f1f9bfe}{Bijnen}{B\bibinitperiod}{Rick}{R\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+        {{hash=603e530e271da48b67eec37283b4dac5}{Schauß}{S\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bf9e67b98f798f9f9b49a855acc96270}{Hild}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=cca745785e021470e6cf79cc8ff3ee42}{Choi}{C\bibinitperiod}{Jae-yoon}{J\bibinithyphendelim y\bibinitperiod}{}{}{}{}}%
+        {{hash=fe09948c5ae865eaa4acfdfa5bd3da6f}{Pohl}{P\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=ebd99a912e076a7dc696db17cf8b435f}{Zeiher}{Z\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5e5d9f35f4150d5a199206588f1f9bfe}{Bijnen}{B\bibinitperiod}{Rick}{R\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+        {{hash=603e530e271da48b67eec37283b4dac5}{Schauß}{S\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bf9e67b98f798f9f9b49a855acc96270}{Hild}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=cca745785e021470e6cf79cc8ff3ee42}{Choi}{C\bibinitperiod}{Jae-yoon}{J\bibinithyphendelim y\bibinitperiod}{}{}{}{}}%
+        {{hash=fe09948c5ae865eaa4acfdfa5bd3da6f}{Pohl}{P\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{579786b0a6a8d4aa9d381b3ed863ba84}
+      \strng{fullhash}{d6601ce492d5e83c6df6f56759a734f6}
+      \field{sortinit}{0}
+      \field{labeltitle}{Many-body interferometry of a Rydberg-dressed spin~lattice}
+      \field{journaltitle}{Nature Physics}
+      \field{month}{08}
+      \field{title}{Many-body interferometry of a Rydberg-dressed spin~lattice}
+      \field{volume}{advance online publication}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1038/nphys3835
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nphys3835
+      \endverb
+    \endentry
+    \entry{Bijnen2015}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0095d63a78c1eafe58d5861403b1be4f}{Bijnen}{B\bibinitperiod}{R.\bibnamedelimi M.\bibnamedelimi W.}{R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim W\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+        {{hash=1e6238a8be7b0d5aa7129dbc759ab4be}{Pohl}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0095d63a78c1eafe58d5861403b1be4f}{Bijnen}{B\bibinitperiod}{R.\bibnamedelimi M.\bibnamedelimi W.}{R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim W\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+        {{hash=1e6238a8be7b0d5aa7129dbc759ab4be}{Pohl}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{6eae2b1d92ef31545054c051e6b4e282}
+      \strng{fullhash}{6eae2b1d92ef31545054c051e6b4e282}
+      \field{sortinit}{0}
+      \field{labeltitle}{Quantum Magnetism and Topological Ordering via Rydberg Dressing near Förster Resonances}
+      \field{issue}{24}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{06}
+      \field{title}{Quantum Magnetism and Topological Ordering via Rydberg Dressing near Förster Resonances}
+      \field{volume}{114}
+      \field{year}{2015}
+      \field{pages}{243002}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.114.243002
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.114.243002
+      \endverb
+    \endentry
+    \entry{Glaetzle2015}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=f2127e16d2deeae7610acb07910a50bc}{Glaetzle}{G\bibinitperiod}{Alexander\bibnamedelima W.}{A\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=390b28c6d75583663f9ba9583f4e1edf}{Dalmonte}{D\bibinitperiod}{Marcello}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=23170f8b130f87b343b25ee2e307df6c}{Nath}{N\bibinitperiod}{Rejish}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=b4ca41dfe38aafa7194b66eaeabc6665}{Zoller}{Z\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=f2127e16d2deeae7610acb07910a50bc}{Glaetzle}{G\bibinitperiod}{Alexander\bibnamedelima W.}{A\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=390b28c6d75583663f9ba9583f4e1edf}{Dalmonte}{D\bibinitperiod}{Marcello}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=23170f8b130f87b343b25ee2e307df6c}{Nath}{N\bibinitperiod}{Rejish}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=b4ca41dfe38aafa7194b66eaeabc6665}{Zoller}{Z\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c34f14e222a52b3042282d53564eaf9e}
+      \strng{fullhash}{9accec018295965578c4c74d752d9550}
+      \field{sortinit}{0}
+      \field{labeltitle}{Designing Frustrated Quantum Magnets with Laser-Dressed Rydberg Atoms}
+      \field{issue}{17}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{04}
+      \field{title}{Designing Frustrated Quantum Magnets with Laser-Dressed Rydberg Atoms}
+      \field{volume}{114}
+      \field{year}{2015}
+      \field{pages}{173002}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.114.173002
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.114.173002
+      \endverb
+    \endentry
+    \entry{Macri2014}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=ad653081ab8432339c86029d779ce539}{Macrì}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1e6238a8be7b0d5aa7129dbc759ab4be}{Pohl}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=ad653081ab8432339c86029d779ce539}{Macrì}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1e6238a8be7b0d5aa7129dbc759ab4be}{Pohl}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{6a1790e0f401ac402dcfdcacb6e49557}
+      \strng{fullhash}{6a1790e0f401ac402dcfdcacb6e49557}
+      \field{sortinit}{0}
+      \field{labeltitle}{Rydberg dressing of atoms in optical lattices}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{01}
+      \field{title}{Rydberg dressing of atoms in optical lattices}
+      \field{volume}{89}
+      \field{year}{2014}
+      \field{pages}{011402}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.89.011402
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevA.89.011402
+      \endverb
+    \endentry
+    \entry{MX_RAITHELTRAP00}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=590b206fce5ddb24a2033db3e7de1523}{Dutta}{D\bibinitperiod}{S.\bibnamedelimi K.}{S\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=3fb354a5aa808648b22a189f1a403c93}{Guest}{G\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=7e9a3ff4b8662a44bf3c16b95160ad94}{Feldbaum}{F\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=839a9b314f91e13ea595080a883e5c6f}{Walz-Flannigan}{W\bibinithyphendelim F\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a79b6b12602daa003c17009322b8c89e}{Raithel}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=590b206fce5ddb24a2033db3e7de1523}{Dutta}{D\bibinitperiod}{S.\bibnamedelimi K.}{S\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=3fb354a5aa808648b22a189f1a403c93}{Guest}{G\bibinitperiod}{J.\bibnamedelimi R.}{J\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=7e9a3ff4b8662a44bf3c16b95160ad94}{Feldbaum}{F\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=839a9b314f91e13ea595080a883e5c6f}{Walz-Flannigan}{W\bibinithyphendelim F\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a79b6b12602daa003c17009322b8c89e}{Raithel}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b99a47a25112cf9405a68899007a47ae}
+      \strng{fullhash}{5bedae41bd87c63fd9b69a7f6163d309}
+      \field{sortinit}{0}
+      \field{labeltitle}{Ponderomotive optical lattice for {R}ydberg atoms}
+      \field{title}{Ponderomotive optical lattice for {R}ydberg atoms}
+      \field{volume}{85}
+      \field{year}{2000}
+      \field{pages}{5551}
+      \verb{file}
+      \verb MX_RAITHELTRAP00.pdf:mx/MX_RAITHELTRAP00.pdf:PDF;MX_RAITHELTRAP00.pdf:mx/MX_RAITHELTRAP00.pdf:PDF
+      \endverb
+      \keyw{MX,traps,theory,Rydberg,lattice}
+    \endentry
+    \entry{MX_RAITHELPHOTION13}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=ccd871b33ea4d639b1e672de288b71c1}{Anderson}{A\bibinitperiod}{Sarah\bibnamedelima E.}{S\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0502e4222b6c4852058d1d35c8322814}{Raithel}{R\bibinitperiod}{Georg}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=ccd871b33ea4d639b1e672de288b71c1}{Anderson}{A\bibinitperiod}{Sarah\bibnamedelima E.}{S\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0502e4222b6c4852058d1d35c8322814}{Raithel}{R\bibinitperiod}{Georg}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.}%
+      }
+      \strng{namehash}{7904403915620fe9bcb31bffb0310a08}
+      \strng{fullhash}{7904403915620fe9bcb31bffb0310a08}
+      \field{sortinit}{0}
+      \field{labeltitle}{Ionization of {R}ydberg atoms by standing-wave light fields}
+      \field{journaltitle}{Nat Commun}
+      \field{title}{Ionization of {R}ydberg atoms by standing-wave light fields}
+      \field{volume}{4}
+      \field{year}{2013}
+      \field{pages}{2967}
+      \verb{file}
+      \verb MX_RAITHELPHOTION13.pdf:mx/MX_RAITHELPHOTION13.pdf:PDF
+      \endverb
+      \keyw{rydberg,mx,traps}
+    \endentry
+    \entry{ENS_PRE_CIRCSIM}{article}{}
+      \true{morelabelname}
+      \name{labelname}{10}{}{%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=47ee5c326631af4387d6f16fe9485b6c}{Raimond}{R\bibinitperiod}{Jean-Michel}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=6eb2c837654fc899fd5ad6005058e8b4}{Sayrin}{S\bibinitperiod}{Clément}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=659f404514a812db7553ca90e16bf27f}{Cortinas}{C\bibinitperiod}{Rodrigo}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=50c35ff01cb6c11511d5ab2e9600ed79}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{Tigrane}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f0084c9a1b8e100216b1ab02f273f2f6}{Assemat}{A\bibinitperiod}{Fédéric}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=4e97cdff83e256b64b32910bd5c33470}{Dotsenko}{D\bibinitperiod}{Igor}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=36efa873b129cdc51e0f9d87007156c5}{Gleyzes}{G\bibinitperiod}{Sébastien}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=95f4489b413610dbe1c5717f5996a94b}{Haroche}{H\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d57bcd36ef117c2b1e6b7750011ac270}{Roux}{R\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{10}{}{%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=47ee5c326631af4387d6f16fe9485b6c}{Raimond}{R\bibinitperiod}{Jean-Michel}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=6eb2c837654fc899fd5ad6005058e8b4}{Sayrin}{S\bibinitperiod}{Clément}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=659f404514a812db7553ca90e16bf27f}{Cortinas}{C\bibinitperiod}{Rodrigo}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=50c35ff01cb6c11511d5ab2e9600ed79}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{Tigrane}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f0084c9a1b8e100216b1ab02f273f2f6}{Assemat}{A\bibinitperiod}{Fédéric}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=4e97cdff83e256b64b32910bd5c33470}{Dotsenko}{D\bibinitperiod}{Igor}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=36efa873b129cdc51e0f9d87007156c5}{Gleyzes}{G\bibinitperiod}{Sébastien}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=95f4489b413610dbe1c5717f5996a94b}{Haroche}{H\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d57bcd36ef117c2b1e6b7750011ac270}{Roux}{R\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d5e47f87a06f6d24c6679c01cfee354f}
+      \strng{fullhash}{9258160246e6bc581673608d2651d276}
+      \field{sortinit}{0}
+      \field{labeltitle}{Towards quantum simulation with circular Rydberg atoms}
+      \field{journaltitle}{arXiv preprint arXiv:1707.04397}
+      \field{title}{Towards quantum simulation with circular Rydberg atoms}
+      \field{year}{2017}
     \endentry
     \entry{ENS_ENHANCED}{article}{}
       \name{labelname}{4}{}{%
@@ -2374,33 +3066,6 @@
       \field{title}{Introduction to quantum optics: from the semi-classical approach to quantized light}
       \field{year}{2010}
     \endentry
-    \entry{PHD_NGUYEN}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {Université Pierre et Marie Curie - Paris VI}%
-      }
-      \strng{namehash}{ff3b5d5276beae6f337805de454e85e5}
-      \strng{fullhash}{ff3b5d5276beae6f337805de454e85e5}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
-      \field{month}{11}
-      \field{number}{2016PA066695}
-      \field{title}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
-      \field{type}{Theses}
-      \field{year}{2016}
-      \verb{file}
-      \verb https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf
-      \endverb
-      \verb{url}
-      \verb https://tel.archives-ouvertes.fr/tel-01609840
-      \endverb
-      \keyw{Quantum simulation ; Rydberg atoms ; Atom chip ; Simulation quantique ; Atomes de Rydberg ; Atomes circulaires ; Interaction dipolaire ; Puce à atome ; Spectroscopie micro-onde}
-    \endentry
     \entry{MX_TELLER_ADDITIVEVDW}{article}{}
       \name{labelname}{2}{}{%
         {{hash=214f689084dab06bcf4a61f106a9173d}{Axilrod}{A\bibinitperiod}{B.\bibnamedelimi M.}{B\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
@@ -2734,41 +3399,6 @@
       \endverb
       \keyw{mx,rydberg,dipole,collective}
     \endentry
-    \entry{ENS_PRE_CIRCSIM}{article}{}
-      \true{morelabelname}
-      \name{labelname}{10}{}{%
-        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=47ee5c326631af4387d6f16fe9485b6c}{Raimond}{R\bibinitperiod}{Jean-Michel}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=6eb2c837654fc899fd5ad6005058e8b4}{Sayrin}{S\bibinitperiod}{Clément}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=659f404514a812db7553ca90e16bf27f}{Cortinas}{C\bibinitperiod}{Rodrigo}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=50c35ff01cb6c11511d5ab2e9600ed79}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{Tigrane}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=f0084c9a1b8e100216b1ab02f273f2f6}{Assemat}{A\bibinitperiod}{Fédéric}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=4e97cdff83e256b64b32910bd5c33470}{Dotsenko}{D\bibinitperiod}{Igor}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=36efa873b129cdc51e0f9d87007156c5}{Gleyzes}{G\bibinitperiod}{Sébastien}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=95f4489b413610dbe1c5717f5996a94b}{Haroche}{H\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=d57bcd36ef117c2b1e6b7750011ac270}{Roux}{R\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \true{moreauthor}
-      \name{author}{10}{}{%
-        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=47ee5c326631af4387d6f16fe9485b6c}{Raimond}{R\bibinitperiod}{Jean-Michel}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=6eb2c837654fc899fd5ad6005058e8b4}{Sayrin}{S\bibinitperiod}{Clément}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=659f404514a812db7553ca90e16bf27f}{Cortinas}{C\bibinitperiod}{Rodrigo}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=50c35ff01cb6c11511d5ab2e9600ed79}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{Tigrane}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=f0084c9a1b8e100216b1ab02f273f2f6}{Assemat}{A\bibinitperiod}{Fédéric}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=4e97cdff83e256b64b32910bd5c33470}{Dotsenko}{D\bibinitperiod}{Igor}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=36efa873b129cdc51e0f9d87007156c5}{Gleyzes}{G\bibinitperiod}{Sébastien}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=95f4489b413610dbe1c5717f5996a94b}{Haroche}{H\bibinitperiod}{Serge}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=d57bcd36ef117c2b1e6b7750011ac270}{Roux}{R\bibinitperiod}{Guillaume}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{d5e47f87a06f6d24c6679c01cfee354f}
-      \strng{fullhash}{9258160246e6bc581673608d2651d276}
-      \field{sortinit}{0}
-      \field{labeltitle}{Towards quantum simulation with circular Rydberg atoms}
-      \field{journaltitle}{arXiv preprint arXiv:1707.04397}
-      \field{title}{Towards quantum simulation with circular Rydberg atoms}
-      \field{year}{2017}
-    \endentry
     \entry{MX_DMITRIEV02}{article}{}
       \name{labelname}{4}{}{%
         {{hash=296aa6ce181ac01f87704755874edd2c}{Dmitriev}{D\bibinitperiod}{D.\bibnamedelimi V.}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
@@ -3056,6 +3686,8 @@
       \keyw{Spin cat states ; Quantum metrology ; Rydberg atoms ; Dynamique de Zénon quantique ; Limite de Heisenberg ; États Chat de Schrödinger ; Métrologie quantique ; Atomes de Rydberg}
     \endentry
   \endsortlist
+  \missing{QM_ZUREKDECOH91}
+  \missing{deutsch1985}
 \endrefsection
 \endinput
 

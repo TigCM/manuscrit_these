@@ -314,14 +314,14 @@ Nous restreindrons donc notre choix aux niveaux $n'S$ voisins du $\mathrm{60S}$,
 Pour une paire d'atomes séparés de $r$, l'interaction $\mathrm{60S}-n'S$ prend la forme de l'équation \eqref{eq:MatrixCab_Aab} :
 \begin{equation}
 \label{eq:Matrix_60SnS}
-V_{eff}/h = \bordermatrix{~ 	&\ket{\mathrm{60S-n'S}} 	& \ket{\mathrm{n'S-60S}} \cr
-	\bra{\mathrm{60S-n'S}}		&C_{6,\mathrm{60S-n'S}}		&A_{6,\mathrm{60S-n'S}}	\cr 
-	\bra{\mathrm{n'S-60S}} 		&A_{6,\mathrm{60S-n'S}}		&C_{6,\mathrm{60S-n'S}} \cr} \ \cdot \frac{1}{r^6},
+V_{eff}/h = \bordermatrix{~ 	&\ket{\mathrm{60S,n'S}} 	& \ket{\mathrm{n'S,60S}} \cr
+	\bra{\mathrm{60S,n'S}}		&C_{6,\mathrm{60S-n'S}}		&A_{6,\mathrm{60S-n'S}}	\cr 
+	\bra{\mathrm{n'S,60S}} 		&A_{6,\mathrm{60S-n'S}}		&C_{6,\mathrm{60S-n'S}} \cr} \ \cdot \frac{1}{r^6},
 \end{equation}
 %
 où $C_6$ et $A_6$ sont les coefficients de van der Waals pour l'interaction directe et pour l'interaction d'échange respectivement.
-Les états $\ket{\mathrm{60S-n'S}}$ et $\ket{\mathrm{n'S-60S}}$ sont dégénérés et séparés en leurs combinaisons symétrique et antisymétrique, $(\ket{\mathrm{60S-n'S}}\pm\ket{\mathrm{n'S-60S}})/\sqrt{2}$.
-Ces deux états propres sont déplacés d'une énergie $h\cdot (C_{6,60S-n'S} \pm A_{6,60S-n'S}) / r^6$.
+Les états $\ket{\mathrm{60S,n'S}}$ et $\ket{\mathrm{n'S,60S}}$ sont dégénérés et séparés en leurs combinaisons symétrique et antisymétrique, $(\ket{\mathrm{60S,n'S}}\pm\ket{\mathrm{n'S,60S}})/\sqrt{2}$.
+Ces deux états propres sont déplacés d'une énergie $h\cdot (C_{6,\mathrm{60S-n'S}} \pm A_{6,\mathrm{60S-n'S}}) / r^6$.
 Cette structure de niveaux est représentée en figure (\ref{fig:60S-nS} a)).
 %
 \begin{figure}[h]
@@ -384,8 +384,8 @@ La table \eqref{tab:VdW-60SnS} répertorie les coefficients de van der Waals $C_
 On y trouve les niveaux $\mathrm{63S}$ et $\mathrm{57S}$, qui présentent des termes d'échanges avec le $\mathrm{60S}$ petits devant les termes d'interaction directe ($C_6 / A_6 \sim 150$).
 Étant donné le caractère attractif de l'interaction directe pour les paires $\mathrm{60S-57S}$ et $\mathrm{60S-63S}$, il est préférable de choisir la plus petite de ces interactions afin de limiter le processus d'ionisation de Penning que nous décrivions pour les paires $nS-n'P$.
 
-Nous choisirons donc, pour faire la spectroscopie microonde du nuage de Rydberg, la transition $\mathrm{60S-57}$.
-Nous disposerons ainsi d'un diagramme de niveaux simple, représenté pour deux atomes en figure (\ref{fig:60S-nS} b)), fournissant un système effectif à deux niveaux.
+Nous choisirons donc, pour faire la spectroscopie microonde du nuage de Rydberg, la transition $\mathrm{60S-57S}$.
+Nous disposerons ainsi d'un diagramme d'énergie simple, représenté pour deux atomes en figure (\ref{fig:60S-nS} b)), fournissant un système effectif à deux niveaux.
 Lorsque les deux atomes n'interagissent pas, la transition à deux photons du niveau de paire $\ket{\mathrm{60S,60S}}$ vers les niveaux de paire dégénérés $\ket{\mathrm{57S,60S}}$ et $\ket{\mathrm{60S,57S}}$ se fait à une fréquence $\nu_0 = 2\times \SI{58.229}{\GHz}$.
 En présence d'interactions, la transition est déplacée d'une quantité
 \begin{equation}
@@ -457,7 +457,7 @@ La détection est effectuée par une rampe d'ionisation déclenchée à l'instan
 \end{figure}
 %
 La fraction atomique transférée vers le niveau $\mathrm{57S}$ est tracée comme fonction de l'énergie d'interaction, c'est-à-dire du déplacement en fréquence de la transition renormalisé $\Delta\nu/\eta$.
-Le faible nombre d'excitations vers le $\mathrm{57S}$ (toujours $<3$) permet de confirmer l'hypothèse d'atome unique qui justifie la méthode de spectroscopie par l'équation \eqref{eq:DeltaNu_i}.
+Le faible nombre d'excitations vers le $\mathrm{57S}$ permet de confirmer l'hypothèse d'atome unique qui justifie la méthode de spectroscopie par l'équation \eqref{eq:DeltaNu_i} : nous ne transférons jamais plus de $\SI{3}{}$ atomes vers le niveau $\mathrm{57S}$ et ils sont suffisamment éloignés les uns des autres pour n'interagir qu'avec des atomes dans le niveau $\mathrm{60S}$.
 On peut redouter une ionisation de Penning entre les atomes dans le niveau $\mathrm{57S}$ et les atomes dans le niveau $\mathrm{60S}$ en raison de l'attractivité de leur interaction.
 Cependant, cette interaction est suffisamment faible pour estimer que les atomes sont détectés avant que cela ne se produise \footnote{
 Nous pouvons confirmer cela à l'étude des signaux d'ionisation, qui montrent l'absence d'ions préexistants à la rampe de détection.}.
@@ -659,10 +659,12 @@ Pour cela, la dynamique d'excitation est mise sous forme d'équations de taux po
 Un tel modèle a été proposé par l'équipe de M. Weidemüller \cite{MX_WEIDEMULLERRYDAGREGATES14} pour simuler des spectres optiques similaires à ceux que nous avons obtenus.
 Nous avons ainsi établi un modèle combinant les deux aspects des équations de taux et de la prise en compte du mouvement des atomes de Rydberg durant l'excitation.
 Le détail des équations de taux et de notre modèle numérique est discuté dans le chapitre 4 de la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN}.
-Nous en ferons ici une présentation succincte, et comparerons les résultats obtenus aux spectres laser expérimentaux.
+%Nous en ferons ici une présentation succincte, et comparerons les résultats obtenus aux spectres laser expérimentaux.
+Après en avoir fait une présentation succincte, nous tenterons de le compléter avec la prise en compte d'un effet de chauffage du nuage atomique dû au laser rouge d'excitation.
+Nous comparerons les résultats obtenus aux spectres expérimentaux, et extrairons des simulations certaines propriétés des nuages de Rydberg excités par des impulsions laser d'une durée inférieure à $\SI{20}{\us}$.
 	
 	\subsection{Modèle d'équation de taux et adaptation de l'algorithme}\label{subsec:rate_equation}
-\noindent Notre modèle d'équation de taux repose sur les équations de Bloch optiques, prises dans la limite de grand déphasage.
+\noindent Notre modèle d'équation de taux repose sur les équations de Bloch optiques, prises dans la limite de grand déphasage, où les processus de dissipation sont dominés par un terme de déphasage.
 Commençons par rappeler ces équations.
 
 \subsubsection*{Équations de Bloch optiques à grand déphasage}
@@ -715,7 +717,7 @@ Le problème quantique de l'excitation de l'atome est réduit ici un problème s
 \end{equation}
 La généralisation à $N$ atomes de Rydberg se fait en tenant compte des interactions entre eux.
 Pour chaque atome de Rydberg $i$, il conviendra de déduire du désaccord laser son énergie d'interaction $E_{int}(i)$ avec les atomes de Rydberg déjà présents.
-Le taux d'excitation pour l'atome $i$ deviennent :
+Les taux d'excitation et de désexcitation pour l'atome $i$ deviennent :
 \begin{equation}
 \label{eq:exc_de-exc_rate_atomi}
 \Gamma_{exc}(i) = \frac{(\Omega/2)^2 \gamma}{(\gamma/2)^2 + (\Delta - E_{int}(i))^2} \hfill \text{et} \hfill
@@ -725,7 +727,7 @@ où $E_{int}(i) = \sum_{j\neq i} C_6/r_{ij}^6$, la somme portant sur tous les at
 
 Afin d'appliquer ces équations de taux à notre système, il est nécessaire d'estimer le taux de déphasage $\gamma$.
 L'équation \eqref{eq:Bloch_approx}, établie pour un atome unique, reste valide dans le cas d'un nuage de Rydberg dilué, où les interactions dipolaires sont négligeables.
-L'approximation \eqref{eq:strong_dephasing} permet de vérifier la condition $\Gamma_{exc} \gg 1/\tau$, donc de négliger la désexcitation spontanée aux temps courts.
+L'hypothèse \eqref{eq:strong_dephasing} permet de vérifier la condition $\Gamma_{exc} \gg 1/\tau$, donc de négliger la désexcitation spontanée aux temps courts.
 La résolution de l'équation \eqref{eq:Bloch_approx} dans ces conditions et avec tous les atomes initialement dans l'état fondamental donne la solution 
 \begin{equation}
 \label{eq:Lorenztian_rhorr}
@@ -793,7 +795,7 @@ Le calcul du taux d'émission spontanée est discuté en \ref{subsec:2photon_exc
 où $\Omega_r$ et $\delta$ sont respectivement la fréquence de Rabi et le désaccord du laser rouge sur la transition $\ket{\mathrm{5S_{1/2},F=2,m_F=+2}} \rightarrow \ket{\mathrm{5P_{3/2},F'=3,m_F'=+3}}$, et $\Gamma$ est la lergeur naturelle de celle-ci.
 
 Le processus d'émission spontanée de photons rouges induit une variation de la quantité de mouvement des atomes du nuage, qui parcourt une marche aléatoire.
-Cette marche aléatoire a pour paramètres la taille $\Delta p$ d'un pas dans l'espace des quantités de mouvement et le taux de répétition de ces pas, qui vaut $\Gamma_{sp}$.
+Cette marche aléatoire a pour paramètres la taille $\Delta p$ d'un pas dans l'espace des quantités de mouvement, égale à l'impulsion de recul due à l'émission d'un photon, et le taux de répétition de ces pas, qui vaut $\Gamma_{sp}$.
 L'effet de la marche aléatoire est une augmentation au cours du temps de la variance $\braket{p^2}$.
 Chaque pas de la marche fait croître cette variance d'une quantité $(\Delta p)^2$, où $\Delta p = \hbar k$ est la quantité de mouvement du photon émis, avec $k$ la norme de son vecteur d'onde.
 En supposant une distribution de Maxwell-Boltzmann des vitesses au sein du nuage atomique, on en déduit que l'émission d'un photon cause une augmentation de température pour un atome de

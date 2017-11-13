@@ -75,8 +75,8 @@
 \contentsline {figure}{\numberline {IV.3}{\ignorespaces Diagramme de phase XXZ}}{106}{figure.caption.110}
 \contentsline {figure}{\numberline {IV.4}{\ignorespaces Potentiel de pi\IeC {\'e}geage pond\IeC {\'e}ro-moteur}}{107}{figure.caption.111}
 \contentsline {figure}{\numberline {IV.5}{\ignorespaces Inhibition de l'\IeC {\'e}mission spontan\IeC {\'e}e en fonction des dimensions du condensateur}}{109}{figure.caption.112}
-\contentsline {figure}{\numberline {IV.6}{\ignorespaces Sch\IeC {\'e}ma de l'\FB@og \IeC {\'e}vaporation van der Waals \fg {} }}{110}{figure.caption.113}
-\contentsline {figure}{\numberline {IV.7}{\ignorespaces Nombre d'atomes restant apr\IeC {\`e}s \IeC {\'e}vaporation van der Waals}}{111}{figure.caption.114}
+\contentsline {figure}{\numberline {IV.6}{\ignorespaces Sch\IeC {\'e}ma de l'\FB@og \IeC {\'e}vaporation van der Waals \fg {} }}{111}{figure.caption.113}
+\contentsline {figure}{\numberline {IV.7}{\ignorespaces Nombre d'atomes restant apr\IeC {\`e}s \IeC {\'e}vaporation van der Waals}}{112}{figure.caption.114}
 \contentsline {figure}{\numberline {IV.8}{\ignorespaces Diagammre d'\IeC {\'e}nergie des niveaux proches du $\mathrm {50C}$}}{113}{figure.caption.115}
 \contentsline {figure}{\numberline {IV.9}{\ignorespaces Interaction dipolaire 50C-50C en pr\IeC {\'e}sence d'un champ magn\IeC {\'e}tique}}{115}{figure.caption.116}
 \contentsline {figure}{\numberline {IV.10}{\ignorespaces Transitions spontan\IeC {\'e}es depuis les niveaux elliptiques $\mathrm {nE^\pm }$}}{116}{figure.caption.117}
@@ -109,9 +109,10 @@
 \contentsline {figure}{\numberline {V.25}{\ignorespaces Spectres microonde 50C-51C au cours de l'optimisation fine des param\IeC {\`e}tres RF}}{144}{figure.caption.156}
 \contentsline {figure}{\numberline {V.26}{\ignorespaces Spectre microonde 50C-51C optimis\IeC {\'e}}}{145}{figure.caption.157}
 \contentsline {xchapter}{}{147}{chapter*.159}
+\contentsline {figure}{\numberline {V.27}{\ignorespaces Sch\IeC {\'e}ma de principe du dispositif exp\IeC {\'e}rimental adapt\IeC {\'e} au simulateur quantique}}{149}{figure.caption.160}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Syst\IeC {\`e}me de lock}{151}{appendix.A}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers}}{151}{figure.caption.161}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers}}{152}{figure.caption.162}
+\contentsline {xchapter}{Syst\IeC {\`e}me de lock}{153}{appendix.A}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers}}{153}{figure.caption.162}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers}}{154}{figure.caption.163}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Algorithme de simulation}{153}{appendix.B}
+\contentsline {xchapter}{Algorithme de simulation}{155}{appendix.B}

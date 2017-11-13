@@ -2096,13 +2096,14 @@
     <bcf:citekey order="111">Purcell46_Purcelleffect</bcf:citekey>
     <bcf:citekey order="112">MX_KELPPNER_INHIBITION</bcf:citekey>
     <bcf:citekey order="112">MX_KLEPPNERINHIBITION85</bcf:citekey>
-    <bcf:citekey order="113">MX_GABRIELSEANTIPROTON90</bcf:citekey>
-    <bcf:citekey order="113">MX_WERTHCRYOION98</bcf:citekey>
-    <bcf:citekey order="114">ENS_PRE_CIRCSIM</bcf:citekey>
-    <bcf:citekey order="115">TXT_GALLAGHER</bcf:citekey>
-    <bcf:citekey order="116">PHD_CELISTRINO</bcf:citekey>
-    <bcf:citekey order="117">PHD_SIGNOLES</bcf:citekey>
-    <bcf:citekey order="117">PHD_FACON</bcf:citekey>
+    <bcf:citekey order="113">ENS_PRE_CIRCSIM</bcf:citekey>
+    <bcf:citekey order="114">MX_GABRIELSEANTIPROTON90</bcf:citekey>
+    <bcf:citekey order="114">MX_WERTHCRYOION98</bcf:citekey>
+    <bcf:citekey order="115">ENS_PRE_CIRCSIM</bcf:citekey>
+    <bcf:citekey order="116">TXT_GALLAGHER</bcf:citekey>
+    <bcf:citekey order="117">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="118">PHD_SIGNOLES</bcf:citekey>
+    <bcf:citekey order="118">PHD_FACON</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

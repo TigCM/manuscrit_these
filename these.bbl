@@ -78,6 +78,45 @@
       \field{volume}{36}
       \field{year}{2013}
     \endentry
+    \entry{deutsch1985}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=f6c8e450bcdca89973765cf5d2daf6f1}{Deutsch}{D\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f6c8e450bcdca89973765cf5d2daf6f1}{Deutsch}{D\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{f6c8e450bcdca89973765cf5d2daf6f1}
+      \strng{fullhash}{f6c8e450bcdca89973765cf5d2daf6f1}
+      \field{sortinit}{0}
+      \field{labeltitle}{Quantum theory, the Church-Turing principle and the universal quantum computer}
+      \field{booktitle}{Proceedings of the Royal Society of London A: Mathematical, Physical and Engineering Sciences}
+      \field{number}{1818}
+      \field{title}{Quantum theory, the Church-Turing principle and the universal quantum computer}
+      \field{volume}{400}
+      \field{year}{1985}
+      \field{pages}{97\bibrangedash 117}
+    \endentry
+    \entry{QM_ZUREKDECOH91}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=98275b60609543d77011429dd391d875}{Zurek}{Z\bibinitperiod}{W.\bibnamedelimi H.}{W\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=98275b60609543d77011429dd391d875}{Zurek}{Z\bibinitperiod}{W.\bibnamedelimi H.}{W\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{98275b60609543d77011429dd391d875}
+      \strng{fullhash}{98275b60609543d77011429dd391d875}
+      \field{sortinit}{0}
+      \field{labeltitle}{Decoherence and the transition from quantum to classical}
+      \field{month}{10}
+      \field{title}{Decoherence and the transition from quantum to classical}
+      \field{volume}{44}
+      \field{year}{1991}
+      \field{pages}{36}
+      \keyw{QM,history,decoherence,theory}
+    \endentry
     \entry{Feynman1982}{article}{}
       \name{labelname}{1}{}{%
         {{hash=6dbb2bc3236d7777e97e8b6bf3ad14fe}{Feynman}{F\bibinitperiod}{Richard\bibnamedelima P.}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
@@ -3686,8 +3725,6 @@
       \keyw{Spin cat states ; Quantum metrology ; Rydberg atoms ; Dynamique de Zénon quantique ; Limite de Heisenberg ; États Chat de Schrödinger ; Métrologie quantique ; Atomes de Rydberg}
     \endentry
   \endsortlist
-  \missing{QM_ZUREKDECOH91}
-  \missing{deutsch1985}
 \endrefsection
 \endinput
 

@@ -23,10 +23,10 @@ Nous pourrons déduire de ce modèle des caractéristiques importantes de l'exci
 
 
 	\subsection{Rappels sur l'interaction dipolaire}
-\noindent L'interaction dipolaire entre deux atomes de Rydberg dans le même état $\ket{a}$ et séparés d'une distance $r$ prend la forme suivante, établie en \ref{subsec:interaction_same_level} :
+\noindent L'interaction dipolaire entre deux atomes de Rydberg dans le même état $\ket{Ry}$ et séparés d'une distance $r$ prend la forme suivante, établie en \ref{subsec:interaction_same_level} :
 \begin{equation}
 \label{eq:Vdd_aa}
-\hat{V}_{dd}(r) = \frac{hC_6}{r^6} \cdot \ket{aa}\bra{aa}.
+\hat{V}_{dd}(r) = \frac{hC_6}{r^6} \cdot \ket{Ry,Ry}\bra{Ry,Ry}.
 \end{equation}
 Ce potentiel d'interaction agit comme un simple déplacement de l'énergie de la paire d'atomes par une quantité $E_{int} (r)=hC_6/r^6$ .
 Nous travaillerons dans l'hypothèse que cette interaction de van der Waals est additive pour un ensemble de $N$ atomes.
@@ -60,7 +60,7 @@ Lorsque l'excitation est faite à résonance, cet effet est connu sous le nom de
 Considérons deux atomes dans l'état fondamental $\ket{g}$, séparés d'une distance $r$.
 L'état de la paire est alors $\ket{g,g}$.
 Un laser est accordé à résonance pour exciter l'un quelconque de ces deux atomes vers le niveau de Rydberg $\ket{Ry}$.
-L'état de la paire devient ainsi $\ket{g,Ry}$.% ou $\ket{Ry,g}$.
+L'état de la paire devient ainsi $\ket{g,Ry}$. % ou $\ket{Ry,g}$.
 Si l'on souhaite exciter le second atome vers le niveau $\ket{Ry}$, alors il faut considérer l'énergie nécessaire à la transition $\ket{g,Ry} \rightarrow \ket{Ry,Ry}$.
 Or ce dernier état de paire subit un déplacement d'énergie dû à l'interaction de van der Waals
 %
@@ -91,7 +91,7 @@ Le mécanisme de blocage empêche l'excitation de deux atomes de Rydberg dans un
 %Le laser d'excitation n'est pas infiniment fin spectralement et l'effet de blocage dipolaire sera limité par sa largeur spectrale.
 La transition n'est pas infiniment fine spectralement et l'effet de blocage dipolaire sera limité par sa largeur spectrale $\gamma$, dominée en pratique par la largeur du laser.
 On peut en effet considérer que le laser est résonant avec la transition dès lors que le désaccord entre eux est inférieur à la demi-largeur spectrale $\gamma/2$ de la raie d'excitation.
-Nous définirons ainsi le \og rayon de blocage \fg{} $r_b$ comme étant la distance en-deçà de laquelle le désaccord est supérieur à la demi-largeur spectrale :
+Nous définissons ainsi le \og rayon de blocage \fg{} $r_b$ comme étant la distance en-deçà de laquelle le désaccord est supérieur à la demi-largeur spectrale :
 \begin{equation}
 \label{eq:def_condit_bloc}
 \Delta E_{int}(r_b) = \gamma /2 .
@@ -129,21 +129,26 @@ Reprenons le cas de deux atomes présenté ci-dessus en figure \eqref{fig:dip_bl
 Considérons cette fois un laser désaccordé de $\Delta$ par rapport à la transition $\ket{g,g} \rightarrow \ket{g,Ry}$, tel que représenté en figure \eqref{fig:dip_facil}.
 Le premier atome pourra toujours être excité hors résonance par le laser désaccordé.
 Le second atome sera ensuite excité, à résonance, si la condition
+%
 \begin{equation}
 \label{eq:condition_facil}
 \Delta = E_{int}(r)/h = \frac{C_6}{r^6} > 0
 \end{equation}
+%
 est satisfaite.
 \`A un désaccord laser $\Delta$ fixé correspond ainsi un \og rayon de facilitation \fg{}, défini par
+%
 \begin{equation}
 \label{eq:r_facil}
 r_f = \sqrt[6]{\frac{C_6}{\Delta}}.
 \end{equation}
+%
 L'excitation du second atome de Rydbegr est donc \og facilitée \fg{} par la présence du premier.
 %En raison de la largeur spectrale $\gamma$ du laser, l'excitation du second atome de Rydberg est donc \og facilitée \fg{} par la présence du premier, 
 En tenant compte de la largeur $\gamma$ de la raie d'excitation, la condition de facilitation est obtenue dès lors que les deux atomes sont séparés d'une distance $r_f \pm \delta r_f$,
-où $\delta r_f = \frac{1}{2} \left( \sqrt[6]{C_6/(\Delta-\gamma/2)} - \sqrt[6]{C_6/(\Delta+\gamma/2)} \right)$, soit $\delta r_f \simeq r_f \gamma / (3\Delta)$ au premier ordre en $\gamma / \Delta$.
-La figure (\ref{fig:dip_facil} a) )représente ce mécanisme d'\og excitation facilitée \fg{} .
+où %$\delta r_f = \frac{1}{2} \left( \sqrt[6]{C_6/(\Delta-\gamma/2)} - \sqrt[6]{C_6/(\Delta+\gamma/2)} \right)$, soit 
+$\delta r_f \simeq r_f \gamma / (12\Delta)$ au premier ordre en $\gamma / \Delta$.
+La figure (\ref{fig:dip_facil} a) représente ce mécanisme d'\og excitation facilitée \fg{} .
 %	
 \begin{figure}[!h]
 \centering
@@ -172,13 +177,8 @@ où la somme est faite sur tous les atomes de Rydberg $j$ déjà excités, situ�
 Le phénomène de blocage dipolaire est remplacé ici par la formation rapide d'un \og agrégat de Rydberg \fg{} fortement corrélé, autour du premer atome de Rydberg, la \og graine \fg{} de cet agrégat.
 Les distances relatives entre atomes de Rydberg sont déterminées par l'équation \eqref{eq:facil_Natomes} et donc contrôlées par le désaccord $\Delta$ du laser d'excitation.
 Les figures (\ref{fig:dip_facil} b)-e)) représentent cette excitation séquentielle facilitée d'un agrégat de Rydberg.
-%
-%\newpage
-%		\noindent les deux régimes d'excitation déterminée par les interactions :\\
-%		explication du blocage dipolaire, et des effets qui le limitent (ailes de la gaussienne du nuage) \\
-%		pourquoi c'est difficile dans un BEC : mention du Pfau shift \\
-%		mention de la négligeabilité des excitations de paires ?
 
+\newpage
 	\subsection{Mouvement des atomes au sein d'un gaz dense de Rydberg}
 	\noindent Le second effet des interactions dipolaires au sein d'un nuage d'atomes de Rydberg est un effet mécanique.
 Comme nous l'avons vu en \ref{sec:interacting_rydbergs}, l'interaction est répulsive entre atomes de Rydberg dans le même niveau $\ket{\mathrm{nS}}$.
@@ -188,7 +188,7 @@ Ainsi, deux atomes de Rydberg en interaction dipolaire subiront chacun une force
 F = - \frac{d E_{int}}{dr}  = + \frac{6hC_6}{r^7}.
 \end{equation}
 Cela équivaut à un traitement classique de l'effet mécanique de l'interaction dipolaire, bien que le calcul de cette même interaction ne le soit pas.
-Cela est permis par la forme de l'interaction dipolaire entre deux atomes dans le même état de Rydberg, donnée par l'équation \eqref{eq:Vdd_aa}, qui consiste en un simple déplacement d'énergie du niveau de paire $\ket{aa}$.
+Cela est permis par la forme de l'interaction dipolaire entre deux atomes dans le même état de Rydberg, donnée par l'équation \eqref{eq:Vdd_aa}, qui consiste en un simple déplacement d'énergie du niveau de paire $\ket{Ry,Ry}$.
 
 Prenons l'exemple de deux atomes dans le niveau $\mathrm{60S}$, séparés d'une distance de $\SI{5}{\um}$ : leur énergie d'interaction vaut $hC_6/r^6 = h\cdot {\SI{137.6}{\GHz\raiseto{6}\um}}/(\SI{5}{\um})^6 = h\times\SI{8.8}{\MHz}$.
 Ils se repoussent donc avec une force valant %$6hC_6/r^7 = 6h\cdot \SI{137.6}{\GHz\raiseto{6}\um}/(\SI{5}{\um})^7 = \SI{6.97e-27}{\mega\newton} = \SI{6.97e-21}{\newton}$.
@@ -214,7 +214,7 @@ Il est intéressant de noter qu'au sein d'un nuage de nombreux atomes de Rydberg
 Les atomes du bord du nuage seront alors expulsés en premier, puis petit à petit les atomes plus au centre pourront commencer à se déplacer.
 Le nuage subit ainsi une expansion hydrodynamique non triviale, que nous mesurerons expérimentalement et simulerons numériquement.
 
-
+\clearpage
 \section{Observation expérimentale des interactions}
 \noindent Afin de mettre en évidence les effets des interactions dipolaires, nous avons mené deux expériences complémentaires.
 En premier lieu, la spectroscopie optique du nuage permet de s'intéresser à l'excitation sous blocage dipolaire fort et à l'excitation facilitée à désaccord positif.
@@ -236,15 +236,16 @@ où $a_s$ est la longueur de diffusion caractérisant la force de l'interaction.
 Le groupe de T. Pfau a mis en évidence cette interaction et obtenu une longueur de diffusion pour le \Rb{87} valant $a_s = -\SI{16.1}{}~a_0~$, indépendante du nombre quantique principal $n$ \cite{MX_PFAURYDBERGBEC13}.
 %Le potentiel d'interaction $V_e$ étant négatif, nous avons ici affaire à une interaction qui abaisse l'énergie des niveaux de Rydberg.
 Dans un condensat de Bose-Einstein avec une densité atomique typique de $\SI{e13}{\per \raiseto{3}\centi\meter}$, l'énergie d'interaction est de l'ordre de $V_e/h = -\SI{1}{\MHz}$.
-Dans ce cas, nous serions en présence de deux interactions antagoniste de même ordre de grandeur : l'interaction dipôle-dipôle répulsive, qui augmente l'énergie des niveaux de Rydberg et l'interaction de l'électron de Rydberg avec les atomes dans l'état fondamental, qui abaisse l'énergie des niveaux de Rydberg.
+%Dans ce cas, nous serions en présence de deux interactions antagonistes de même ordre de grandeur : l'interaction dipôle-dipôle répulsive, qui augmente l'énergie des niveaux de Rydberg et l'interaction de l'électron de Rydberg avec les atomes dans l'état fondamental, qui abaisse l'énergie des niveaux de Rydberg.
+Les profils gaussiens de densité atomique avec lesquels nous travaillons causeraient alors un élargissement inhomogène de la raie spectrale d'excitation d'un seul atome de Rydberg.
 Cela aurait pour effet de réduire le rayon de blocage, qui dépend directement de la largeur spectrale de l'excitation sans interaction dipolaire.
 
 Il nous a fallu trouver une densité atomique permettant l'observation de l'excitation facilitée et du blocage dipolaire, tout en limitant l'effet d'interaction de l'électron de Rydberg avec les atomes dans l'état fondamental.
 La spectroscopie optique de l'excitation de Rydberg a été faite dans un nuage thermique froid proche de la dégénérescence et non dans un condensat de Bose Einstein.
 Ce nuage comporte $\SI{12000}{} \pm \SI{1000}{}$ atomes, piégés magnétiquement à environ $\SI{210}{\um}$ de la puce atomique.
-Le piège prend une forme très allongée dans la direction $x$ de propagation des lasers et les atomes sont refroidis à une température de $\SI{500}{} \pm \SI{150}{\nano\kelvin}$.
+Le piège prend une forme très allongée dans la direction $x$ de propagation des lasers et les atomes sont refroidis à une température de $\SI{600}{} \pm \SI{300}{\nano\kelvin}$.
 Le profil de densité atomique est alors gaussien dans les trois directions, avec des rayons à $e^{-1/2}$ valant respectivement $(\sigma_x;\sigma_y;\sigma_z) = (\num{23.2} ; \num{4.5} ; \num{4.2})\si{\um}$.
-La densité au centre vaut ici $n_0 = \num{1.7}\pm\SI{0.15e12}{\per\raiseto{3}\cm}$.
+La densité au centre vaut ici $n_0 = (\num{1.7}\pm\SI{0.15}{})\cdot \SI{e12}{\per\raiseto{3}\cm}$.
 Cela limite l'interaction de l'électron de Rydberg avec les atomes dans l'état fondamental à une énergie $V_e = -h\times\SI{168}{\kHz}$, très inférieure à la largeur spectrale d'excitation à un atome, estimée \footnote{
 Cette valeur est extraite de l'ajustement gaussien d'un spectre d'excitation optique dans un piège dilué et à faible excitation, donc sans interactions dipolaires.
 Ce spectre est présenté comme référence en figure \eqref{fig:data_spectresoptiques}.}
@@ -284,15 +285,15 @@ Les données sont extraites des spectres de la figure \eqref{fig:data_spectresop
 \label{fig:data_saturoptique}
 \end{figure}
 %
-On y remarque effectivement qu'à grand désaccord, le nombre d'atome de Rydberg présente un effet de seuil correspondant à l'excitation non résonante de la \og graine \fg{}.
+On y remarque effectivement qu'à grand désaccord, le nombre d'atomes de Rydberg présente un effet de seuil correspondant à l'excitation non résonante de la \og graine \fg{}.
 
 Le comportement à résonance montre une croissance rapide du nombre d'atomes excités dans les premiers instants, puis une augmentation plus lente.
 En effet, le centre du nuage est saturé de super-atomes en régime de blocage fort dès les premières microsecondes.
 Ensuite, de nouveaux atomes de Rydberg sont excités dans les ailes peu denses du nuage.
 Celles-ci contiennent beaucoup moins d'atomes dans l'état fondamental d'une part, et le laser bleu, dont le col gaussien vaut $\SI{22}{\um}$, y est un peu moins intense d'autre part.
 Ces deux facteurs contribuent à ralentir fortement la dynamique d'excitation dans ces régions-là.
-Enfin, le mouvement d'expansion du nuage de Rydberg dû aux interactions éloigne les super-atomes les uns des autres au centre du nuage, où de nouvelles excitations deviennent possibles après quelques dizaines de microsecondes.
-Cela explique pourquoi le nombre d'atomes de Rydberg continue d'augmenter, contrairement aux prédictions de l'approximation du \og gaz gelé \fg{}.% communément utilisée.
+Enfin, le mouvement d'expansion du nuage de Rydberg dû aux interactions les éloigne les uns des autres au centre du nuage, où de nouvelles excitations deviennent possibles après quelques dizaines de microsecondes.
+Cela peut expliquer pourquoi le nombre d'atomes de Rydberg continue d'augmenter, contrairement aux prédictions de l'approximation du \og gaz gelé \fg{}, qui consiste à considérer que les atomes de Rydberg qui interagissent sont immobiles.% communément utilisée.
 
 	\subsection{Spectroscopie microonde : une sonde pour l'énergie d'interaction} \label{subsec:mw_spectro_exp}
 \noindent Afin de mieux comprendre le mouvement au sein du nuage de Rydberg, nous avons réalisé la spectroscopie de la transition $\mathrm{60S} \rightarrow \mathrm{57S}$ dans différentes conditions.
@@ -308,10 +309,10 @@ Idéalement, un seul atome du nuage sera transféré vers un autre niveau de Ryd
 
 Cela requiert cependant un choix attentif du niveau vers lequel seront transférés les atomes de Rydberg.
 En premier lieu, les niveaux $P$ sont à éviter.
-La branche attractive de l'interaction $nS - n'P$ mène à une ionisation de Penning des atomes de Rydberg : l'atome dans le niveau $nS$ et l'atome dans le niveau $n'P$ s'attirent l'un l'autre, et s'ionisent mutuellement lorsqu'ils sont trop proches.
-Nous restreindrons donc notre choix aux niveaux $n'S$ voisins du $\mathrm{60S}$, accessibles par des transitions à deux photons.
+La branche attractive de l'interaction $n\mathrm{S} - n'\mathrm{P}$ mène à une ionisation de Penning des atomes de Rydberg : l'atome dans le niveau $nS$ et l'atome dans le niveau $n'\mathrm{P}$ s'attirent l'un l'autre, et s'ionisent mutuellement lorsqu'ils sont trop proches.
+Nous restreindrons donc notre choix aux niveaux $n'\mathrm{S}$ voisins du $\mathrm{60S}$, accessibles par des transitions à deux photons.
 
-Pour une paire d'atomes séparés de $r$, l'interaction $\mathrm{60S}-n'S$ prend la forme de l'équation \eqref{eq:MatrixCab_Aab} :
+Pour une paire d'atomes séparés de $r$, l'interaction $\mathrm{60S}-n'\mathrm{S}$ prend la forme de l'équation \eqref{eq:MatrixCab_Aab} :
 \begin{equation}
 \label{eq:Matrix_60SnS}
 V_{eff}/h = \bordermatrix{~ 	&\ket{\mathrm{60S,n'S}} 	& \ket{\mathrm{n'S,60S}} \cr
@@ -329,7 +330,7 @@ Cette structure de niveaux est représentée en figure (\ref{fig:60S-nS} a)).
 \includegraphics[width=\linewidth]{figures/low_l/60S-nS}
 \caption[Structure de niveau 60S-nS sous interaction dipolaire]{
 Structure de niveau 60S-nS sous interaction dipolaire
-\textbf{a)} La paire $\mathrm{60S-nS}$ est déplacée en énergie par le terme d'interaction directe $C_{6,\mathrm{60SnS}}/r^6$ et ses deux états dégénérés sont séparés par l'interaction d'échange, avec un écart d'énergie de $2A_{6,60SnS}/r^6$.
+\textbf{a)} La paire $\mathrm{60S}-n'\mathrm{S}$ est déplacée en énergie par le terme d'interaction directe $C_{6,\mathrm{60Sn'S}}/r^6$ et ses deux états dégénérés sont séparés par l'interaction d'échange, avec un écart d'énergie de $2A_{6,60Sn'S}/r^6$.
 \textbf{b)} Diagramme d'énergie d'une paire dans les niveaux $\mathrm{60S-60S}$ et $\mathrm{60S-57S}$.
 Le terme d'échange $A_{6,\mathrm{60S-57S}}$ étant quasi-nul, la dégénérescence des niveaux de paire $\ket{\mathrm{60S,57S}}$ et $\ket{\mathrm{57S,60S}}$ n'est pas levée et la paire se comporte comme un système à deux niveaux.
 La transition entre ces deux niveaux est déplacée par les interactions dipolaires.
@@ -342,7 +343,7 @@ Si l'on y ajoute un troisième atome de Rydberg, il y a alors trois paires en in
 Au sein d'un ensemble de $N$ atomes de Rydberg, les états propres du hamiltonien à une excitation formeront une base très différente de la base séparable $\{\ket{i} = 
 \ket{\mathrm{60S}}_1\otimes\dots\otimes\ket{n'S}_i\otimes\dots\otimes\ket{\mathrm{60S}}_N$.
 L'excitation de niveau $n'S$ sera ainsi délocalisée sur plusieurs atomes.
-On ne peut alors plus directement déduire, du spectre des déplacements d'énergie de cette excitation, la distribution des énergies d'interaction au sein du nuage.
+On ne peut alors pas directement déduire, du spectre des déplacements d'énergie de cette excitation, la distribution des énergies d'interaction au sein du nuage.
 
 %En fin de compte, au sein d'un ensemble de $N$ atomes de Rydberg dans le niveau $\mathrm{60S}$, une  excitation du niveau $n'S$ sera délocalisée sur des états propres à $N$ atomes.
 %Ces états propres sont des combinaisons linéaires de la base séparable $\{\ket{i} = 
@@ -351,20 +352,20 @@ On ne peut alors plus directement déduire, du spectre des déplacements d'éner
 %très dépendantes de la configuration du nuage.
 %Plus la base des états propres à une excitation est différente de la base des $\ket{i}$, plus le spectre d'excitation devient difficile à relier aux énergies d'interaction.
 
-Le niveau $n'S$ idéal serait donc celui pour lequel les états propres à une excitation sont ceux où l'excitation est localisée sur un atome.
+Le niveau $n'\mathrm{S}$ idéal serait donc celui pour lequel les états propres à une excitation sont ceux où l'excitation est localisée sur un atome.
 Pour cela, le terme d'échange $A_6$, responsable de la délocalisation de l'excitation, doit être le plus petit possible, c'est-à-dire très petit devant $C_6$.
-La table \eqref{tab:VdW-60SnS} répertorie les coefficients de van der Waals $C_{6,\mathrm{60S-n'S}}$ et $A_{6,\mathrm{60S-n'S}}$ pour les niveaux $n'S$ proches du $\mathrm{60S}$.
+La table \eqref{tab:VdW-60SnS} répertorie les coefficients de van der Waals $C_{6,\mathrm{60S-n'S}}$ et $A_{6,\mathrm{60S-n'S}}$ pour les niveaux $n'\mathrm{S}$ proches du $\mathrm{60S}$.
 %
 \begin{table}[!h]
 	\centering
-	\caption[Coefficients de van der Waals pour différents niveaux $60S-n'S$]{Coefficients de van der Waals pour différents niveaux $60S-n'S$
+	\caption[Coefficients de van der Waals pour différents niveaux $60S-n'\mathrm{S}$]{Coefficients de van der Waals pour différents niveaux $60S-n'\mathrm{S}$
 	}
 	\label{tab:VdW-60SnS}
 	\begin{tabular}{c c c}
 		\toprule\midrule
 		~
-		& $C_{6,60S-n'S}$
-		& $A_{6,60S-n'S}$\\		
+		& $C_{6,\mathrm{60S-n'S}}$
+		& $A_{6,\mathrm{60S-n'S}}$\\		
 		~
 		& $(\si{\GHz\raiseto{6}\um})$
 		& $(\si{\GHz\raiseto{6}\um})$\\
@@ -390,9 +391,9 @@ Lorsque les deux atomes n'interagissent pas, la transition à deux photons du ni
 En présence d'interactions, la transition est déplacée d'une quantité
 \begin{equation}
 \label{eq:60s-57s_2atoms}
-\Delta\nu (r) = \frac{C_{6,60S60S}-C_{6,60S-57S}}{r^6} = \eta \frac{C_{6,60S60S}}{r^6},
+\Delta\nu (r) = \frac{C_{6,\mathrm{60S-60S}}-C_{6,\mathrm{60S-57S}}}{r^6} = \eta \frac{C_{6,\mathrm{60S-60S}}}{r^6},
 \end{equation}
-avec $\eta = \num{1.317}$.
+avec $\eta = 1-C_{6,\mathrm{60S-57S}}/C_{6,\mathrm{60S-60S}} = \num{1.317}$.
 
 La généralisation à un ensemble de $N$ atomes de Rydberg se fait dans l'hypothèse d'additivité des interactions de van der Waals.
 Ils sont initialement tous dans l'état $\mathrm{60S}$, et l'on suppose que l'impulsion microonde de spectroscopie ne crée qu'une seule excitation $\mathrm{57S}$.
@@ -407,14 +408,15 @@ Lorsque l'atome $i$ est transféré dans l'état $\mathrm{57S}$, son énergie d'
 \label{eq:Eint_i57S}
 E_{int}(i,57S) = hC_{6,60S57S}\sum_{j\neq i} \frac{1}{r_{ij}^6}.
 \end{equation}
-Le déplacement en fréquence de la transition $\mathrm{60S-57S}$ de l'atome $i$, dû aux interactions dipolaires, vaut donc
+Le déplacement en fréquence de la transition $\mathrm{60S-57S}$ de l'atome $i$, dû aux interactions dipolaires, vaut donc, sous l'hypothèse \og d'atome unique \fg{} que l'atome $i$ est le seul transféré vers le niveau $\mathrm{57S}$,
 \begin{equation}
 \label{eq:DeltaNu_i}
 \Delta\nu (i) = \frac{1}{h}(E_{int}(i,60S)-E_{int}(i,57S)) = \eta \frac{E_{int}(i,60S)}{h}.
 \end{equation}
+
 Ce système à $N$ atomes est représenté en figure \eqref{fig:60S-57S_Nat}.
 %
-\begin{figure}[!h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=\linewidth]{figures/low_l/60S-57S_Nat}
 \caption[Structure de niveaux d'un nuage de $\mathrm{60S}$ contenant une excitation $\mathrm{57S}$]{
@@ -429,21 +431,22 @@ On peut ainsi sonder la distribution des énergies d'interaction au sein du nuag
 En effet, la probabilité qu'un atome $i$ voie sa fréquence de transition déplacée de $\Delta\nu (i) = \Delta \nu$ est égale à la probabilité que son énergie d'interaction ait été de $E_{int}(i,60S) = h\Delta\nu/\eta$ :
 \begin{equation}
 P\left( \frac{}{} \!\Delta\nu(i)=\Delta\nu \right )
-=P \left( \eta\frac{E_{int}(i,60S)}{h} = \Delta\nu \right) = P\left( E_{int}(i,60S) = \frac{h\Delta\nu}{\eta} = E_{int} \right).
+=P \left( \eta\frac{E_{int}(i,60S)}{h} = \Delta\nu \right) = P\left( E_{int}(i,60S) = \frac{h\Delta\nu}{\eta}% = E_{int}
+\right).
 \end{equation}
 %Le spectre de la transition microonde, qui mesure la distribution de probabilité $P(\Delta\nu)$ au sein d'un nuage, mesure à un facteur $\eta$ près la distribution de probabilité $P(E_{int}$ des énergies d'interactions dans le nuage.
 Du spectre microonde de la transition, qui représente la distribution $P(\Delta\nu)$, on déduit directement la distribution $P(E_{int})$ des énergies d'interaction dans le nuage par la transformation $\Delta\nu = \eta E_{int}/h$.
 
 	\subsubsection*{Spectres des énergies d'interaction}
 \noindent Cet outil de spectroscopie microonde nous a servi à sonder les énergies d'interaction au sein de différents nuages de Rydberg.
-\`A partir d'une excitation laser d'une durée de $\SI{2}{\us}$, telle que décrite en \ref{subsec:optical_spectra}, nous sélectionnons différents désaccords.
-Nous sonderons ainsi un nuage excité à résonance, un nuage excité avec un désaccord $\Delta = \SI{1}{MHz}$ et un nuage excité avec un désaccord $\Delta = \SI{2}{\MHz}$.
-Une impulsion microonde $\pi$ sur la transition $\mathrm{57S-60S}$ est envoyée immédiatement après l'impulsion laser d'excitation.
+\`A partir d'une excitation laser d'une durée de $\SI{2}{\us}$, telle que décrite en \ref{subsec:optical_spectra}, nous sélectionnons différents désaccords laser.
+%Nous sonderons ainsi un nuage excité à résonance $(\Delta = 0)$ en régime de blocage dipolaire fort, un nuage excité avec un désaccord $\Delta = \SI{1}{MHz}$ et un nuage excité avec un désaccord $\Delta = \SI{2}{\MHz}$.
+Une impulsion microonde sur la transition $\mathrm{57S-60S}$ est envoyée immédiatement après l'impulsion laser d'excitation.
 La fréquence de cette impulsion est balayée de façon à obtenir la distribution $P(h\Delta\nu/\eta)$ des énergies d'interaction.
 Nous en obtiendrons la distribution des énergies d'interaction dans trois cas  : sous blocage dipolaire fort ($\Delta = 0$), sous excitation facilitée ($\Delta = \SI{2}{\MHz}$), et dans un régime intermédiaire ($\Delta = \SI{1}{\MHz}$).
 La séquence expérimentale et les spectres obtenus sont représentés en figure \eqref{fig:microwave_probe_0delay}.
-%
-\begin{figure}[!h]
+
+\begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{figures/low_l/microwave_probe_0delay_wide}
 \caption[Spectroscopie microonde du nuage avec expansion]{
@@ -455,12 +458,12 @@ La détection est effectuée par une rampe d'ionisation déclenchée à l'instan
 }
 \label{fig:microwave_probe_0delay}
 \end{figure}
-%
+
 La fraction atomique transférée vers le niveau $\mathrm{57S}$ est tracée comme fonction de l'énergie d'interaction, c'est-à-dire du déplacement en fréquence de la transition renormalisé $\Delta\nu/\eta$.
 Le faible nombre d'excitations vers le $\mathrm{57S}$ permet de confirmer l'hypothèse d'atome unique qui justifie la méthode de spectroscopie par l'équation \eqref{eq:DeltaNu_i} : nous ne transférons jamais plus de $\SI{3}{}$ atomes vers le niveau $\mathrm{57S}$ et ils sont suffisamment éloignés les uns des autres pour n'interagir qu'avec des atomes dans le niveau $\mathrm{60S}$.
 On peut redouter une ionisation de Penning entre les atomes dans le niveau $\mathrm{57S}$ et les atomes dans le niveau $\mathrm{60S}$ en raison de l'attractivité de leur interaction.
-Cependant, cette interaction est suffisamment faible pour estimer que les atomes sont détectés avant que cela ne se produise \footnote{
-Nous pouvons confirmer cela à l'étude des signaux d'ionisation, qui montrent l'absence d'ions préexistants à la rampe de détection.}.
+Cependant, cette interaction est suffisamment faible pour que les atomes soient détectés avant que cela ne se produise. %\footnote{
+%Nous pouvons confirmer cela à l'étude des signaux d'ionisation, qui montrent l'absence d'ions préexistant à la rampe de détection.}.
 
 En figure (\ref{fig:microwave_probe_0delay} c)), l'axe des abscisses donne directement l'énergie d'interaction $E_{int}$ des atomes.
 Or, d'après l'équation \eqref{eq:Eint_i60S}, le plus proche voisin d'un atome ayant une énergie d'interaction $E_{int}$ ne peut être à une distance de celui-ci inférieure à $r_E(E_{int}) = (hC_{6,\mathrm{60S-60S}}/E_{int})^{1/6}$.
@@ -475,10 +478,10 @@ Le désaccord positif du laser produit ainsi un agrégat de Rydberg.
 Au c\oe ur de cet agrégat, chaque atome de Rydberg a plusieurs voisins, qui contribuent tous à augmenter son énergie d'interaction.
 De même que dans le cas $\Delta = 0$ du blocage dipolaire fort, les queues à haute fréquence  des spectres sont attribuées à ces atomes du centre du nuage.
 La figure \eqref{fig:clustering} représente la formation d'un tel agrégat de Rydberg et l'accumulation de l'énergie d'interaction qui s'en suit.
-%
-\begin{figure}[!h]
+
+\begin{figure}[h]
 \centering
-\includegraphics[width=.8\linewidth]{figures/low_l/accumulation_2D}
+\includegraphics[width=.7\linewidth]{figures/low_l/accumulation_2D}
 \caption[Formation d'un agrégat de Rydberg et accumulation de l'énergie d'interaction]{
 Formation d'un agrégat de Rydberg et accumulation de l'énergie d'interaction, de \textbf{a)} à \textbf{e)}.
 Les sphères bleues représentent des atomes dans l'état fondamental et les sphères rouges des atomes de Rydberg.
@@ -490,37 +493,17 @@ La taille de chaque sphère rouge représente l'énergie d'interaction totale de
 \end{figure}
 %
 
+\newpage
 \subsubsection*{Évolution au cours du temps : explosion du nuage}
 \noindent Après excitation, le nuage de Rydberg explose sous l'effet des interactions dipolaires répulsives entre atomes de Rydberg dans le niveau $\mathrm{60S}$.
 La spectroscopie microonde nous permet, de la même façon que précédemment, de mesurer les énergies d'interaction dans le nuage au cours de cette explosion.
 Il suffit pour cela d'introduire un délai variable $\Delta t$ entre l'excitation laser et l'impulsion microonde de sonde.
 
-Les spectres ainsi obtenus sont représentés en figure \ref{fig:microwave_explosion}, pour des désaccords laser de $\Delta = 0, 1$ et $\SI{2}{\MHz}$.
-%
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{figures/low_l/expansion_012MHz}
-\caption[Spectroscopie microonde de l'expansion du nuage]{
-Spectres microonde de la transition $\mathrm{60S-57S}$ au cours de l'évolution d'un nuage de Rydberg excité par un laser désaccordé à $\Delta= 0$ (gauche), $1$ (centre) et $\SI{2}{\MHz}$ (droite).
-L'origine des axes verticaux de chacun des spectres est décalée et l'échelle des abscisses et des ordonnées de chacun des graphes est différente, par souci de visibilité.
-}
-\label{fig:microwave_explosion}
-\end{figure}
-%
+Les spectres ainsi obtenus sont représentés en figure \eqref{fig:microwave_explosion}, pour des désaccords laser de $\Delta = 0, 1$ et $\SI{2}{\MHz}$.
 \`A mesure que le temps avance, les distributions d'énergie d'interaction s'affinent et tendent vers celle d'un nuage dilué sans interaction.
 Cette énergie d'interaction est convertie en énergie cinétique au cours de l'explosion du nuage de Rydberg.
 La figure \eqref{fig:avener_explosion} représente l'énergie moyenne d'un nuage au cours du temps, pour les trois mêmes désaccords laser.
-%
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{figures/low_l/energie_moyenne_explosion}
-\caption[Énergie moyenne au cours de l'expansion du nuage]{
-Énergie moyenne d'interaction (énergie totale rapportée au nombre d'atomes) de nuages de Rydberg excités à différents désaccords laser, en fonction du temps après excitation $\Delta t$.
-Les données sont calculées à partir des spectres de la figure \eqref{fig:microwave_explosion}.
-}
-\label{fig:avener_explosion}
-\end{figure}
-%
+
 L'énergie moyenne initiale est de l'ordre de $\SIrange{1}{10}{\MHz}$ dans les trois cas.
 En comparaison, l'énergie cinétique des atomes dans le niveau fondamental, refroidis à $\SI{500}{\nano\K}$ est de l'ordre de $\SI{10}{\kHz}$, donc négligeable.
 L'évolution des spectres microonde peut être entièrement attribuée à l'explosion du nuage de Rydberg en interaction.
@@ -529,7 +512,29 @@ Le mouvement des atomes de Rydberg devient important dès lors qu'il modifie sen
 Ainsi nous pouvons affirmer qu'après un délai aussi court que $\Delta t \sim \num{5}$ à $\SI{10}{\us}$, le mouvement a modifié la configuration énergétique du nuage, y compris lorsque celui-ci a été excité à résonance.
 L'approximation du \og gaz gelé \fg{} ne peut donc être considérée comme valide au delà de quelques microsecondes dans un nuage dense d'atomes de Rydberg.
 
+\clearpage
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{figures/low_l/expansion_012MHz}
+\caption[Spectroscopie microonde de l'expansion du nuage]{
+Spectres microonde de la transition $\mathrm{60S-57S}$ au cours de l'évolution d'un nuage de Rydberg excité par un laser désaccordé à $\Delta= 0$ (gauche), $\SI{1}{\MHz}$ (centre) et $\SI{2}{\MHz}$ (droite).
+L'origine des axes verticaux de chacun des spectres est décalée et l'échelle des abscisses et des ordonnées de chacun des graphes est différente, par souci de visibilité.
+}
+\label{fig:microwave_explosion}
+\end{figure}
+
+\begin{figure}[b]
+\centering
+\includegraphics[width=0.8\linewidth]{figures/low_l/energie_moyenne_explosion}
+\caption[Énergie moyenne au cours de l'expansion du nuage]{
+Énergie moyenne d'interaction (énergie totale rapportée au nombre d'atomes) de nuages de Rydberg excités à différents désaccords laser, en fonction du temps après excitation $\Delta t$.
+Les données sont calculées à partir des spectres de la figure \eqref{fig:microwave_explosion}.
+}
+\label{fig:avener_explosion}
+\end{figure}
+
+\clearpage
 \section{Premier modèle numérique et accord qualitatif}
 \noindent Afin d'affiner notre compréhension de ces phénomènes dûs aux interactions, nous avons développé un modèle numérique de nos expériences.
 L'intégration numérique de l'équation de Schrödinger dépendante du temps pour un nuage de $\SI{12000}{}$ atomes corrélés étant irréaliste, nous avons établi un modèle Monte Carlo.
@@ -543,14 +548,14 @@ Nous donnons ici une description fonctionnelle de l'algorithme et comparons ses 
 \noindent Le premier modèle de l'excitation que nous avons mis en \oe uvre est présenté en détail dans le chapitre IV de la thèse de Raul Celistrino Teixeira \cite{PHD_CELISTRINO}.
 Il fonctionne de la manière suivante :
 \begin{enumerate}
-	\item Un nuage de $N$ atomes dans l'état fondamental est tirée au sort selon une distribution gaussienne, dont les paramètres sont l'extension spatiale du piège selon chaque direction, $\sigma_x,\sigma_y,\sigma_z$.
+	\item Un nuage de $N$ atomes dans l'état fondamental est tiré au sort selon une distribution gaussienne, dont les paramètres sont l'extension spatiale du piège selon chaque direction, $\sigma_x,\sigma_y,\sigma_z$.
 	\item Le profil gaussien de l'intensité laser est spécifié, paramétrés par les cols des faisceaux bleus et rouges.
 	\item Le profil de la raie d'excitation à un atome est donné, correspondant au spectre \og référence piège dilué \fg{} de la figure \eqref{fig:data_spectresoptiques}.
 	\item \`A chaque itération, un atome $i$ de l'état fondamental est tiré au sort.
 	Son énergie d'interaction totale $E_{int}(i)$ avec les atomes de Rydberg déjà présents est calculée comme s'il était excité.
 	La probabilité d'excitation $p(i)$ de l'atome est calculée d'après le profil de raie laser, en fonction de l'intensité  et du désaccord $\Delta$ du laser et de l'énergie d'interaction $E_{int}(i)$.
-	\item La probabilité $p(i)$ est comparée à un nombre aléatoire $t$ entre $0$ et $1$. Si $p(i)>t$, la simulation passe à l'itération suivante.
-	Si $p(i)\leq t$, alors l'atome $i$ est excité au niveau de Rydberg et ajouté à la liste de ceux-ci.
+	\item La probabilité $p(i)$ est comparée à un nombre aléatoire $x$ entre $0$ et $1$. Si $x > p(i)$, la simulation passe à l'itération suivante.
+	Si $x\leq p(i)$, alors l'atome $i$ est excité au niveau de Rydberg et ajouté à la liste de ceux-ci.
 \end{enumerate}
 %
 Dans ce modèle, l'excitation d'un atome se fait sous la forme d'un \og saut \fg{} de l'état fondamental à l'état de Rydberg.
@@ -567,17 +572,18 @@ C'est ce nombre $\Nryd$ qui sert de critère à l'arrêt du calcul : une fois ce
 
 Le calcul de l'expansion du nuage se déroule de la manière suivante :
 \begin{enumerate}
-\item \label{item:init_explosion}Les données de départ sont les positions et quantités de mouvement des atomes de Rydberg excités à l'étape précédente de la simulations.
+\item \label{item:init_explosion}Les données de départ sont les positions et quantités de mouvement des atomes de Rydberg excités à l'étape précédente de la simulation.
 \`A partir de ces positions, les énergies d'interaction sont calculées pour chaque paire d'atomes de Rydberg.
 \item Ces énergies d'interaction sont dérivées d'après l'équation \eqref{eq:repuls_2atoms}, puis sommées pour chaque atome d'après l'équation \eqref{eq:repuls_Natomes}.
 La force mécanique appliquée à chaque atome de Rydberg par le reste du nuage est ainsi obtenue.
 \item Un routine Runge-Kutta d'ordre $4$ permet de calculer les positions et quantités de mouvement des atomes de Rydberg après un pas de temps $dt$.
-\item l'algorithme retourne à l'étape \ref{item:init_explosion} et réitère le calcul avec les positions et quantités de mouvement actualisées.
+\item L'algorithme retourne à l'étape \ref{item:init_explosion} et réitère le calcul avec les positions et quantités de mouvement actualisées.
 \end{enumerate}
 Lorsque le temps total d'évolution est atteint, les énergies d'interaction totales de chaque atomes sont calculées et compilées sous forme d'un spectre que l'on pourra comparer aux spectres microonde de la figure \eqref{fig:microwave_explosion}.
-Le temps de vie des atomes de Rydberg est pris en compte au cours de ce calcul, en permettant la désexcitation de chaque atome avec un taux de probabilité $e^{-t/\tau}$, ou $t$ est le temps écoulé depuis l'excitation, et $\tau = \SI{210}{\us}$ le temps de vie du niveau $\mathrm{60S}$ mesuré expérimentalement (cf \ref{subsec:lifetime}).
-Enfin, les spectres expérimentaux sont limités par transformée de Fourier en raison de la durée finie de l'impulsion microonde de sonde.
-Les spectres simulés seront donc convolués avec la transformée de Fourier de l'impulsion microonde, et pourront être confrontés aux spectres expérimentaux.
+Le temps de vie des atomes de Rydberg est pris en compte au cours de ce calcul, en permettant la désexcitation de chaque atome avec un taux de probabilité $e^{-t/\tau}$, où $t$ est le temps écoulé depuis l'excitation et $\tau = \SI{210}{\us}$ est le temps de vie du niveau $\mathrm{60S}$ mesuré expérimentalement (cf \ref{subsec:lifetime}).
+Enfin, les spectres expérimentaux sont réalisés avec des impulsions microonde de durée comprise entre $\SI{1}{}$ et $\SI{6}{\us}$.
+%limités par transformée de Fourier en raison de la durée finie de l'impulsion microonde de sonde.
+Les spectres microonde simulés seront donc finalement convolués avec la transformée de Fourier de l'impulsion microonde, et pourront être confrontés aux spectres expérimentaux.
 
 \subsection{Comparaison aux spectres microonde expérimentaux}
 \noindent Étant donnée que le modèle présenté ci-dessus ne tient pas compte du mouvement des atomes de Rydberg durant l'excitation, sa validité est \textit{a priori} restreinte aux durées d'impulsion laser courtes.
@@ -616,14 +622,16 @@ L'origine des axes verticaux de chacun des spectres est décalée et l'échelle 
 \end{figure}
 %
 L'accord est ici aussi bon, confirmant la pertinence de notre modèle simple pour simuler l'explosion d'un nuage de Rydberg sous interaction.
+\clearpage
 
 \subsection{La limite du modèle : l'absence de temps}
 \noindent Comme nous l'avons évoqué en \ref{subsec:algo_1}, ce modèle n'incorpore pas d'échelle de temps pour le processus d'excitation.
 Cela pose la question de savoir comment simuler les spectres d'excitation laser.
 En effet, on ne peut se permettre de fixer un nombre final d'atomes de Rydberg ici, car la simulation n'aurait plus de sens.
-Nous avons tenté pour remédier à cela de faire correspondre un nombre d'itérations à la durée d'excitation.
-Une approche naïve de cette correspondance supposerait une relation linéaire, où le nombre d'atomes dont on teste la probabilité d'excitation serait proportionnel à la durée de l'impulsion laser.
-Cette hypothèse permet d'intégrer le mouvement des atomes de Rydberg au cours même de l'excitation, ce qui est essentiel pour des durées d'impulsion supérieures à $\num{5}$ ou $\SI{10}{\us}$.
+Nous avons tenté pour remédier à cela de faire correspondre un nombre d'itérations à la durée d'excitation 
+%Une approche naïve de cette correspondance supposerait une relation linéaire, où le nombre d'atomes dont on teste la probabilité d'excitation serait proportionnel à la durée de l'impulsion laser.
+%Cette hypothèse permet d'
+de façon à intégrer le mouvement des atomes de Rydberg au cours même de l'excitation.%, ce qui est essentiel pour des durées d'impulsion supérieures à $\num{5}$ ou $\SI{10}{\us}$.
 Pour cela, après chaque tirage au sort d'un atome, le mouvement du nuage de Rydberg est calculé sur la durée correspondant à une itération.
 
 Les nombres d'itérations correspondant à chaque durée d'impulsion ont été choisis pour reproduire au mieux la queue à haute énergie des spectres, qui est due à une excitation facilitée à désaccord laser important.
@@ -642,9 +650,10 @@ Le calcul tient compte du mouvement des atomes de Rydberg durant l'excitation.
 \label{fig:opt_spectra_firstTest}
 \end{figure}
 %
-La relation linéaire supposée entre le temps et le nombre d'itérations semble raisonnablement vérifiée.
-Un ajustement linéaire donne un rapport de $\SI{198}{} \pm \SI{5}{~} \text{itérations}/\si{\us}$.
-En revanche, notre modèle sans échelle de temps explicite pendant l'excitation se montre incapable de rendre compte de la dynamique d'excitation à faible désaccord.
+%La relation linéaire supposée entre le temps et le nombre d'itérations semble raisonnablement vérifiée.
+%Un ajustement linéaire donne un rapport de $\SI{198}{} \pm \SI{5}{~} \text{itérations}/\si{\us}$.
+%En revanche, 
+Notre modèle sans échelle de temps explicite pendant l'excitation se montre incapable de reproduire les spectres expérimentaux d'excitation laser, et donc de rendre compte de la dynamique d'excitation de façon satisfaisante.
 Il ne pourra ainsi pas être utilisé pour prédire les spectres d'excitation sous différentes conditions, si l'on souhaitait faire varier la densité atomique ou les paramètres d'impulsion laser.
 
 Une seconde limite de ce modèle est l'absence de désexcitation stimulée des atomes de Rydberg sous l'effet du laser.
@@ -652,8 +661,8 @@ S'il y a suffisamment d'atomes dans l'état fondamental en résonance avec l'exc
 Cependant à désaccord laser important, les régions résonantes d'excitation facilitée sont très proches des atomes de Rydberg déjà excités et le nombre d'atomes dans l'état fondamental que ces régions contiennent est limité par la densité atomique.
 Les désexcitations d'atomes de Rydberg deviennent donc significatives dans le calcul du nombre final d'atomes de Rydberg et dans la configuration finale du nuage.
 
-
-\section{Raffinement du modèle : équations de taux pour la dynamique d'excitation et chauffage du nuage}
+\clearpage
+\section{Raffinement du modèle : équations de taux pour la dynamique d'excitation}
 \noindent Face à l'incapacité de notre premier modèle à simuler l'excitation laser de façon satisfaisante, nous y avons introduit une échelle de temps.
 Pour cela, la dynamique d'excitation est mise sous forme d'équations de taux pour chacun des atomes du nuage.
 Un tel modèle a été proposé par l'équipe de M. Weidemüller \cite{MX_WEIDEMULLERRYDAGREGATES14} pour simuler des spectres optiques similaires à ceux que nous avons obtenus.
@@ -682,7 +691,7 @@ La quantité $\rho_{g,Ry} = \rho_{Ry,g}^*$ représente la cohérence entre les �
 
 Les deux états atomiques sont distants en énergie d'une quantité $E_{Ry}-E_{g} = h\nu_{0} = \hbar\omega_0$.
 La fréquence du laser sera notée $\nu =\omega/ 2\pi$.
-En passant dans le référentiel tournant à la fréquence $\omega/2\pi$, par l'intermédiaire de l'opérateur d'évolution unitaire $\mathcal{U} = e^{i\omega t \ket{r}\bra{r}}$, les termes de populations restent inchangés et les termes de cohérence deviennent $\tilde{\rho}_{g,Ry} = \tilde{\rho}_{Ry,g}^* =  \rho_{g,Ry}e^{i\omega t}$.
+En passant dans le référentiel tournant à la fréquence $\omega/2\pi$, par l'intermédiaire de l'opérateur d'évolution unitaire $\mathcal{U} = e^{i\omega t \ket{Ry}\bra{Ry}}$, les termes de population restent inchangés et les termes de cohérence deviennent $\tilde{\rho}_{g,Ry} = \tilde{\rho}_{Ry,g}^* =  \rho_{g,Ry}e^{i\omega t}$.
 Dans ce référentiel, l'approximation séculaire permet de négliger les termes d'oscillation rapide en $\omega+\omega_0$, pour ne garder que les termes en $\omega-\omega_0 =\Delta$.
 On obtient ainsi les équations suivantes d'évolution
 \begin{equation}
@@ -886,7 +895,8 @@ En intégrant directement les trajectoires des atomes dans l'état fondamental �
 %La densité atomique au centre du nuage étant de $\SI{1.7e12}{\per\raiseto{3}\cm}$, la distance inter-atomique minimale est de l'ordre de $\SI{0.6}{\um}$.
 %En $\SI{100}{\us}$, les atomes se seront déplacés au maximum de deux fois la distance inter-atomique minimale, ce qui justifie de négliger l'effet de la vitesse sur la configuration à petite échelle du nuage.
 
-	\subsection{Comparaison aux spectres optiques expérimentaux}
+\clearpage
+\subsection{Comparaison aux spectres optiques expérimentaux}
 \noindent Le modèle final de simulation intègre donc l'effet de chauffage que nous venons de décrire.
 Nous obtenons alors un bon accord des simulations avec les données expérimentales aux temps courts, tel que présenté en figure \eqref{fig:fitsim_spectresoptiques_0830126}.
 %
@@ -1006,7 +1016,7 @@ Les fonctions de distribution radiale montrent très clairement les effets de bl
 En effet, il n'y a jamais deux atomes de Rydberg excités à des distances inférieures au rayon de blocage $r_b=\sqrt[6]{2C_6/\gamma}$ (pour l'excitation à résonance) ou au rayon de facilitation $r_f=\sqrt[6]{C_6/\Delta}$ (pour l'excitation désaccordée), définis en \ref{subsec:excitation_bloc_facil}.
 
 Les fonctions de distribution radiale montrent également la saturation du nuage : l'ensemble d'atomes de Rydberg excité pendant $\SI{2}{\us}$ à résonance s'étend bien au-delà du nuage d'atomes dans l'état fondamental.
-En effet, le centre nuage gaussien d'atomes dans l'état fondamental est vite saturé d'atomes de Rydberg en raison du blocage dipolaire, et les atomes de Rydberg supplémentaires doivent être excités loin du centre, dans les ailes peu denses du nuage.
+En effet, le centre du nuage gaussien d'atomes dans l'état fondamental est vite saturé d'atomes de Rydberg en raison du blocage dipolaire, et les atomes de Rydberg supplémentaires doivent être excités loin du centre, dans les ailes peu denses du nuage.
 
 Cette saturation se retrouve aussi pour l'excitation facilitée à désaccord positif si l'impulsion laser dure suffisamment longtemps.
 L'extension d'un ensemble d'atomes de Rydberg excité à $\SI{2}{\MHz}$
@@ -1017,7 +1027,7 @@ En effet, plus le désaccord laser est important, plus il faut de temps avant d'
 %\clearpage
 \subsubsection*{Dynamique d'excitation aux temps courts}
 \noindent L'observation de la dynamique d'excitation aux temps courts permet également de mettre en évidence une saturation.
-La figure \eqref{fig:satur_optical_sim} représente l'évolution du nombre  d'atomes de Rydberg excités en fonction de la durée d'impulsion laser pour différents désaccords.% : $\SI{0}{},\SI{2}{},\SI{4}{}$ et $\SI{8}{\MHz}$.
+La figure \eqref{fig:satur_optical_sim} représente l'évolution simulée du nombre  d'atomes de Rydberg excités en fonction de la durée d'impulsion laser pour différents désaccords.% : $\SI{0}{},\SI{2}{},\SI{4}{}$ et $\SI{8}{\MHz}$.
 %
 \begin{figure}[h]
 \centering
@@ -1033,16 +1043,15 @@ Les points sont les données extraites de simulations moyennées sur $\SI{5}{}$ 
 Lorsque le laser est à résonance, le nombre d'atomes de Rydberg croît très vite jusqu'à $\SI{1.5}{\us}$.
 Au-delà de cette durée, le nombre d'atomes de Rydberg croît de moins en moins rapidement.
 Le nombre d'atomes de Rydberg ne sature cependant pas, en raison de la présence d'atomes disponibles pour être excités dans les ailes peu denses du nuage d'atomes dans l'état fondamental et en raison du chauffage de ce nuage, qui fait croître son extension au cours du temps.
-Cette croissance rend sans cesse de nouveaux atomes dans l'état fondamental disponible pour être excités, en les éloignant des atomes de Rydberg déjà excités.
+Cette croissance rend sans cesse de nouveaux atomes dans l'état fondamental disponibles pour être excités, en les éloignant des atomes de Rydberg déjà excités.
 
-Lorsque le laser est désaccordé, la croissance initiale du ,ombre d'atomes de Rydberg est plus lente.
+Lorsque le laser est désaccordé, la croissance initiale du nombre d'atomes de Rydberg est plus lente.
 En effet, le désaccord du laser rend l'excitation du premier atome de Rydberg plus tardive.
 Le taux de croissance du nombre d'atomes de Rydberg dépend ensuite de la densité d'atomes dans l'état fondamental et de la largeur du laser : plus la densité est élevée et plus le laser est large, plus il y a d'atomes disponibles pour être excités dans la région de facilitation.
-Or, plus le désaccord laser est important, plus le comule de cette région de facilitation est petit.
+Or, plus le désaccord laser est important, plus le volume de cette région de facilitation est petit.
 La croissance du nombre d'atomes de Rydberg excités est donc plus lente lorsque le désaccord laser augmente, même après excitation de la graine.
 
 \clearpage
-
 \section*{Conclusion}
 \noindent Dans ce chapitre, nous avons discuté de l'influence des interactions sur l'excitation d'un ensemble d'atomes de Rydberg.
 Les interactions dipôle-dipôle entre atomes de Rydberg sont responsables du blocage dipolaire, qui interdit l'excitation d'un second atome de Rydberg à proximité d'un premier.

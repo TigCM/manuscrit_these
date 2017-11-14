@@ -27,8 +27,8 @@ Ce chapitre sera donc dédié à la description du dispositif expérimental sur 
 Nous nous intéresserons d'abord à l'aspect du dispositif qui nous sert à piéger et refroidir des atomes de \Rb{87} sur une puce atomique supraconductrice.
 Nous nous attacherons ensuite à décrire comment nous excitons, manipulons et détectons les atomes de Rydberg au sein de ce dispositif.
 
+%\clearpage
 \section{Un nuage d'atomes ultra-froids sur puce, du MOT de capture au condensat de Bose-Einstein}
-
 \noindent Le développement de notre plateforme d'atomes froids autour d'une puce supraconductrice a été l'objet de plusieurs thèse de doctorat précédant celle-ci.
 Les thèses de Thomas Nirrengarten \cite{PHD_NIRRENGARTEN}, de Cédric Roux \cite{PHD_ROUX} et d'Andreas Emmert \cite{PHD_EMMERT} sont dédiées à la question du piégeage et du refroidissement jusqu'au BEC d'atomes de \Rb{87} près d'une surface à l'aide de fils supraconducteurs.
 La thèse de Raul Celistrino Teixeira \cite{PHD_CELISTRINO} détaille la fabrication et les caractéristiques de la puce atomique que nous avons utilisée pour nos expériences.
@@ -37,8 +37,7 @@ Nous ferons donc ici une présentation rapide du cryostat et de la puce à atome
 Enfin, après avoir présenté la technique d'imagerie atomique par absorption, nous présenterons quelques chiffres typiques de nos nuages atomiques.
 
 
-	\subsection{L'environnement cryogénique : cryostat et puce à atomes supraconductrice}\label{subsec:cryopuce}
-	
+\subsection{L'environnement cryogénique : cryostat et puce à atomes supraconductrice}\label{subsec:cryopuce}
 \noindent L'environnement cryogénique présente un avantage incomparable pour la durée de vie des atomes de Rydberg, mais impose aussi quelques spécificités à notre dispositif d'atomes froids.
 Le piégeage d'atomes froids pendant des durées suffisantes à leur manipulation exige un vide très poussé dans l'enceinte expérimentale, car les collisions avec les molécules de gaz résiduel éjectent les atomes hors de leur piège.
 Les chambres de piégeage d'atomes neutres à température ambiante sont généralement étuvées pendant plusieurs semaines afin d'atteindre des pressions de gaz résiduel suffisamment faibles.
@@ -50,7 +49,7 @@ L'environnement cryogénique pour les atomes froids a cependant quelques inconv�
 en premier lieu, l'accès optique est limité car les parois de l'enceinte doivent être opaques pour le rayonnement du corps noir et donc métalliques, chaque hublot de verre réduisant l'isolation thermique du c\oe ur de l'expérience.
 En second lieu, l'utilisation d'hélium et d'azote liquide à proximité d'un vide poussé présente une lourdeur technique supplémentaire au quotidien.
 
-	\subsubsection*{Le cryostat}
+\subsubsection*{Le cryostat}
 \noindent Notre expérience est placée au c\oe ur du cryostat représenté en figure \eqref{fig:cryo}.
 %
 \begin{figure}
@@ -88,7 +87,8 @@ Cette compensation du champ constant de l'environnement est réalisée à l'aide
 Enfin, bien que les jupes ne soient pas parfaitement étanches, elles garantissent un vide différentiel entre la partie du cryostat à \SIvv{300}{\K}, où la pression vaut \SIvv{1.5e-7}{\milli\bar}, et la partie à \Khe, où la pression est inférieure à \SIvv{1e-10}{\milli\bar}\footnote{
 Cette valeur n'est pas mesurée en raison de l'absence de sonde de pression dans cette région du cryostat, mais inférée à partir du temps de vie des nuages d'atomes piégés, qui est de l'ordre de la minute \cite{ENS_CHIPLIFETIME}.}.
 
-	\subsubsection*{La puce à atomes}
+%\clearpage
+\subsubsection*{La puce à atomes}
 \noindent La puce à atome qui siège au c\oe ur de notre expérience est représentée en figure \eqref{fig:chip}.
 C'est une puce assez simple, conçue autour de trois fils supraconducteurs : le fil (LJ), en forme de \mcal{U}, le fil (LG) en forme de \mcal{Z}, et le fil (KM) droit.
 Ces fils sont fabriqués par dépôt de niobium d'une épaisseur de \SIvv{2}{\um} sur un substrat de silicium recouvert d'une couche d'oxyde SiO$_2$.
@@ -125,15 +125,7 @@ Cependant, le courant dans les deux bras verticaux circule dans le même sens et
 Le champ magnétique présente donc aussi un comportement quadrupolaire dans les trois directions, mais autour d'un minimum qui est cette fois non-nul (cf figure \ref{fig:magfields_chip}c)).
 Le champ total forme alors un piège magnétique de Ioffe-Pritchard.
 
-%Lors du passage d'un courant $I$ dans le fil \mcal{Z}, le segment parallèle à l'axe $x$ crée un champ qui, superposé avec un champ de biais $B_Z$ selon l'axe $z$, forme un champ quadrupolaire dans le plan $yz$.
-%Le courant dans les deux bras verticaux circule dans le même sens et crée un champ selon $x$, avec un  minimum non-nul au voisinage du centre du champ quadrupolaire.
-%Le champ total forme alors un piège magnétique de Ioffe-Pritchard (cf figure \ref{fig:magfields_chip}c)).
-%
-%De façon similaire, le fil en \mcal{U} crée aussi, avec l'aide d'un champ de biais $B_Z$, un champ quadrupolaire dans le plan $yz$.
-%Les courants dans les bras verticaux circulent cette fois dans des sens opposés, ce qui résulte en la présence d'un zéro de champ près du centre du champ quadrupolaire.
-%Le champ total permet ici la réalisation d'un piège magnéto-optique sur puce en trois dimensions (\og 3D-MOT miroir\fg{}, cf figure \ref{fig:magfields_chip}d)).
-
-\begin{figure}[]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=\linewidth]{figures/setup/coldatoms/magfields_chip}
 \caption[Champs magnétiques créés par la puce]{
@@ -160,6 +152,7 @@ et le gradient de champ magnétique à cet endroit vaut
 C'est là une caractéristique importante de la géométrie des pièges : plus le centre du piège est proche de la puce, plus le piège sera confinant dans le plan $yz$.
 Le piège s'allonge alors dans la direction $x$, prenant une forme de cigare de plus en plus anisotrope.
 
+\clearpage
 Comme nous l'avons mentionné, notre dispositif nous permet de mettre en \oe uvre des pièges magnéto-optiques en trois dimensions.
 Dans beaucoup d'expériences d'atomes froids, ceux-ci sont réalisés à l'aide de trois paires de faisceaux laser contra-propageants, une dans chaque direction de l'espace.
 Il nous est impossible d'envisager cette configuration, puisque l'axe $y$ est rendu inaccessible par la présence de la puce.
@@ -169,7 +162,7 @@ Deux autres faisceaux sont envoyés dans le plan $yz$ et viennent se réfléchir
 Ces réflexions sont équivalentes aux deux faisceaux manquants, réalisant ainsi la configuration à six faisceaux souhaitée.
 Le schéma de cette configuration, appelée \og MOT miroir \fg{}, est donné en figure \eqref{fig:mirror_MOT}.
 
-\begin{figure}[!h]
+\begin{figure}[h]
 \centering
 \includegraphics[width=0.6\linewidth]{figures/setup/coldatoms/mirror_MOT}
 \caption[Schéma de principe du MOT miroir]{Schéma de principe du MOT miroir :
@@ -182,8 +175,8 @@ On obtient bien ainsi une configuration de MOT à six faisceaux, avec les polari
 \end{figure}
 
 
-	\subsection{Séquence de piégeage et refroidissement}\label{subsec:exp_seq}
-	
+%\clearpage
+\subsection{Séquence de piégeage et refroidissement}\label{subsec:exp_seq}
 \noindent Grâce à ce dispositif, nous pouvons piéger des nuages d'atomes froids sur puce.
 Nous donnons dans ce paragraphe le détail des différentes étapes de piégeage et de refroidissement des atomes.
 Les atomes sont envoyés dans le cryostat à partir d'un piège magnéto-optique à deux-dimensions externe, puis ils sont capturés dans deux pièges magnéto-optiques sur puce successifs.
@@ -205,11 +198,12 @@ $\delta$ est le désaccord du laser en unité de la largeur de raie $\Gamma=\SI{
 \end{sidewaysfigure}
 
 
-	\subsubsection*{Système laser}
+\clearpage
+\subsubsection*{Système laser}
 \noindent Le piégeage magnéto-optique du rubidium 87 exploite la raie D2 de celui-ci.
 La raie D2 est représentée en figure \eqref{fig:D2lineRb87} avec le détail des sous-niveaux hyperfins des niveaux $\mathrm{5S_{1/2}}$ et $\mathrm{5P_{3/2}}$ du \Rb{87}.
 %	
-\begin{figure}[!h]
+\begin{figure}[t]
 \centering
 \includegraphics[width=0.8\linewidth]{figures/setup/coldatoms/D2lineRb87}
 \caption[Raie D2 du \Rb{87}]{Structure hyperfine de la raie D2 du \Rb{87}.
@@ -237,16 +231,16 @@ L'ensemble des faisceaux est transporté de la table optique de préparation au 
 Ils sont enfin mis en forme à proximité immédiate du cryostat. 
 
 
-
-
-	\subsubsection*{Piégeage magnéto-optique}
+%\clearpage
+\subsubsection*{Piégeage magnéto-optique}
 \noindent	Notre dispositif repose sur trois stades de piégeage magnéto-optique successifs.
 Les atomes de rubidium sont stockés dans une cellule en verre, ouverte vers une enceinte sous ultra-vide (UHV) située à l'extérieur du cryostat.
 Le travail en environnement cryogénique nous oblige en effet à utiliser une source externe : l'adsorption sur les surfaces froides à l'intérieur du cryostat interdit la présence d'une vapeur de rubidium à partir de laquelle capturer les atomes.
 Dans cette enceinte, les atomes sont piégés le long de l'axe $z$ par un piège magnéto-optique à deux dimensions (\og 2D-MOT \fg{}).
 Celui-ci est schématisé en figure \eqref{fig:2DMOT}.
+L'ensemble du 2D-MOT a été conçu et fabriqué par le laboratoire SYRTE de l'Observatoire de Paris.
 %	
-\begin{figure}[!h]
+\begin{figure}[h]
 \centering
 \includegraphics[width=0.6\linewidth]{figures/setup/coldatoms/2DMOT_2}
 \caption[Schéma du 2D-MOT]{Schéma du 2D-MOT avec ses trois étages de piégeage.
@@ -258,7 +252,6 @@ Le jet atomique produit par le 2D-MOT est représenté par une flèche violette 
 \label{fig:2DMOT}
 \end{figure}
 %
-L'ensemble du 2D-MOT a été conçu et fabriqué par la laboratoire SYRTE de l'Observatoire de Paris.
 
 Les atomes piégés dans le 2D-MOT se propagent librement selon l'axe $z$, formant un jet vertical qui arrive jusqu'à la puce atomique à l'intérieur du cryostat.
 Les atomes sont alors capturés dans un MOT de grand volume créé par les bobines de biais et le bas de la bobine \og QUAD \fg{}, représentée en figure \eqref{fig:cryo}.
@@ -275,7 +268,8 @@ Les gradients de champ étant plus forts, la force de rappel de la lumière s'en
 On peut alors se permettre d'augmenter le désaccord des faisceaux lasers afin de refroidir le nuage atomique.
 Les températures atteintes dans ce \og U-MOT proche\fg{} sont de l'ordre de $\SI{40}{\uK}$, pour un nuage d'environ $\numrange{e7}{e8}$ atomes.
 
-	\subsubsection*{Les étapes intermédiaires : mélasse optique et pompage Zeeman}
+%\clearpage
+\subsubsection*{Les étapes intermédiaires : mélasse optique et pompage Zeeman}
 \noindent L'objectif, après les étapes de piégeage magnéto-optique, est de transférer les atomes dans le piège de Ioffe-Pritchard créé par le fil \mcal{Z}.
 Cela sera d'autant plus efficace que le nuage atomique sera froid, et que les atomes seront bien polarisés dans le sous-niveau Zeeman $m_F=+2$ du niveau hyperfin $\mathrm{5S1/2,F=2}$.
 Avant de les transférer vers le \og piège Z \fg{}, nous faisons donc subir aux atomes deux étapes supplémentaires.
@@ -290,7 +284,8 @@ Après réflexion sur la puce ce faisceau laser repasse à travers le nuage atom
 Son hélicité a certes été inversée par la réflexion, mais sa polarisation du point de vue des atomes est restée la même.
 Les atomes sont donc encore pompés vers le sous-niveau $m_F=+2$.
 
-	\subsubsection*{Le piégeage magnétique et le refroidissement évaporatif}
+%\clearpage
+\subsubsection*{Le piégeage magnétique et le refroidissement évaporatif}
 \noindent Lorsque le nuage atomique est bien refroidi et polarisé par les étapes de mélasse et de pompage optique, le piège magnétique est allumé.
 Pour cela, un courant est imposé dans le fil \mcal{Z}.
 Un champ $B_z$ est généré par les bobines, qui permet d'obtenir un champ quadrupolaire comme nous l'avons évoqué en \ref{subsec:cryopuce}, centré sur la position du nuage atomique.
@@ -347,52 +342,20 @@ Cela permet de choisir soit une distance particulière du nuage atomique à la p
 Les atomes qui seraient restés dans le sous-niveau $m_F=+1$ peuvent à leur tour être éliminés du piège en envoyant sur le nuage un signal micro-onde à \SI{6.8}{\GHz} adressant la transition hyperfine $\ket{F=2,m_F=1} \rightarrow \ket{F=1,m_F=0}$.
 En présence d'un champ magnétique, les sous-niveaux Zeeman sont suffisamment résolus pour adresser uniquement cette transition, sans affecter les atomes dans le niveau $\ket{F=2,m_F=+2}$.
 
-%Une séquence expérimentale typique est présentée en figure \eqref{fig:exp_sequence}.
-%Cette figure détaille les paramètres expérimentaux à chaque étape du piégeage et du refroidissement des atomes.
-%L'étape d'élimination des atomes restant en $m_F=+1$ n'est pas représentée.
-%Les étapes d'excitation et détection Rydberg et d'imagerie atomique seront discutées dans la suite de ce chapitre.
-
-%%	
-%\begin{sidewaysfigure}
-%\centering
-%\includegraphics[width=\linewidth]{figures/setup/coldatoms/exp_sequence}
-%\caption[Séquence expérimentale typique]{Séquence expérimentale typique.% : la durée et les valeurs des paramètres à chaque étape sont précautionneusement optimisés.
-%Les étapes de piégeage et de refroidissement sont %numérotées de \numrange{1}{7} et 
-%discutées dans le texte.
-%Les étapes ultérieures seront décrites par la suite.
-%$I_{Q,U,Z}$ sont les courants dans la bobine QUAD, le fil \mcal{U} et le fil \mcal{Z}, en Ampères.
-%$B_{0~x,y,z}$ sont les champs de biais générés par les bobines dans les directions $x,y,z$, en Gauss.
-%$\delta$ est le désaccord du laser en unité de la largeur de raie $\Gamma=\SI{6.065}{\MHz}$, et $I_{master}$ son intensité en \si[per-mode=symbol]{\milli\watt \per\squared\cm}.
-%}
-%\label{fig:exp_sequence}
-%\end{sidewaysfigure}
-
-		
-	\subsection{Imagerie atomique par absorption}
-	
+%\clearpage	
+\subsection{Imagerie atomique par absorption}
 \noindent Dans une expérience d'atomes froids, il est essentiel de pouvoir imager et dénombrer correctement le nuage atomique.
 L'imagerie par absorption est une technique précise et efficace pour cela.
 %Elle consiste à envoyer sur les atomes un faisceau laser, résonnant avec une transition atomique choisie, et à mesurer quelle fraction de la lumière le nuage atomique a absorbé.
 Lorsqu'une telle expérience est menée au c\oe ur d'un cryostat, la tâche est rendue plus difficile en raison des accès optiques limités qui contraignent fortement l'optique d'imagerie.
 
-	\subsubsection*{Dispositif optique}
-
-Nous pouvons imager notre nuage atomique de deux façons différentes.
+\subsubsection*{Dispositif optique}
+\noindent Nous pouvons imager notre nuage atomique de deux façons différentes.
 Le dispositif optique d'imagerie est représenté en figure \eqref{fig:probes_CdF}.
-%
-\begin{figure}[!h]
-\centering
-\includegraphics[width=.7\linewidth]{figures/setup/coldatoms/probes_CdF}
-\caption[Faisceaux sonde]{Schéma optique des faisceaux sonde dans le cryostat.
-L'insert montre de plus près la réflexion du faisceau sonde côté sur la puce et la formation des deux images du nuage.
-}
-\label{fig:probes_CdF}
-\end{figure}
-%
+
 Un premier faisceau sonde (\og sonde face \fg{})  entre dans le cryostat et en ressort perpendiculairement à la puce après réflexion sur celle-ci, par le hublot de face.
 Un miroir percé permet de laisser passer le faisceau d'entrée et de collecter le faisceau de sortie, qui est ensuite envoyé vers une caméra CCD.
 Grâce à l'installation d'une lentille de focale $f=\SI{100}{\mm}$ à la place du hublot de face sur la jupe hélium du cryostat, soit à environ $\SI{100}{\mm}$ de la puce, cet axe d'imagerie peut collecter beaucoup de lumière, avec une limite de résolution de $\SI{1.6}{\um}$.
-%l'ordre du $\si{\um}$.% intéressante.
 
 Un deuxième faisceau sonde (\og sonde côté \fg{}) est envoyé par un hublot de côté ($+x$), se réfléchit sur la puce avec un angle de \SIrange{5}{10}{\degree}, et ressort par l'autre hublot de côté ($-x$). Il est ensuite envoyé vers une autre caméra CCD.
 Cet axe d'imagerie ne dispose pas d'une lentille interne au cryostat. Ainsi, la lumière collectée et la résolution optique sont limitées par le diamètre du hublot de sortie du cryostat.
@@ -401,9 +364,17 @@ Cette lentille est donc placée le plus près possible de l'enceinte du cryostat
 En raison de cette géométrie, l'imagerie des atomes par la sonde côté forme deux images du nuage atomique : celui absorbe à la fois le faisceau incident et le faisceau réfléchi sur la puce.
 Cela nous permet d'évaluer précisément la distance du nuage atomique à la puce : elle vaut la moitié de la distance entre les deux images du même nuage.
 La figure \eqref{fig:double_cloud} montre une image d'absorption de la sonde côté par un nuage froid (piégé magnétiquement et refroidi), après un temps de vol de \SI{16.5}{\ms}.
-%Le dispositif optique d'imagerie est représenté en figure \eqref{fig:probes_CdF}.
-%	
-\begin{figure}[!h]
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.7\linewidth]{figures/setup/coldatoms/probes_CdF}
+\caption[Faisceaux sonde]{Schéma optique des faisceaux sonde dans le cryostat.
+L'insert montre de plus près la réflexion du faisceau sonde côté sur la puce et la formation des deux images du nuage.
+}
+\label{fig:probes_CdF}
+\end{figure}
+
+\begin{figure}[h]
 \centering
 \includegraphics[width=.6\linewidth]{figures/setup/coldatoms/double_cloud_withWires}
 \caption[Image par absorption du nuage par la sonde côté]{Image par absorption d'un nuage froid après temps de vol, éclairé par la sonde de côté. Les deux images du nuage sont dues à la réflexion du faisceau sur la puce.
@@ -412,9 +383,9 @@ Les ombres portées des fils de la puce sont tracées en surimpression entre les
 \label{fig:double_cloud}
 \end{figure}
 
-	\subsubsection*{Principe de l'imagerie par absorption}
-	
-Les atomes peuvent être observés en temps réel par la collecte des photons qu'ils émettent par fluorescence, mais l'imagerie par absorption permet une meilleure précision sur l'estimation du nombre d'atome dans le nuage.
+%\clearpage
+\subsubsection*{Principe de l'imagerie par absorption}
+\noindent Les atomes peuvent être observés en temps réel par la collecte des photons qu'ils émettent par fluorescence, mais l'imagerie par absorption permet une meilleure précision sur l'estimation du nombre d'atome dans le nuage.
 Elle consiste à envoyer sur les atomes un faisceau laser, résonant avec une transition atomique choisie, et à mesurer quelle fraction de la lumière le nuage atomique a absorbé.
 
 Lorsque l'intensité lumineuse reçue par les atomes est largement inférieure à l'intensité de saturation, l'absorption de celle-ci est bien décrite par la loi de Beer-Lambert :
@@ -450,6 +421,7 @@ Dans le cas simple d'une lumière résonante avec la transition non-dégénéré
 où $\lambda$ est la longueur d'onde de la lumière résonante et $I_{sat,0}$ l'intensité de saturation de la transition dans ce cas idéal.
 Les atomes dans notre piège magnétique sont préparés dans l'état $\ket{5S1/2,F=2,m_F=+2}$, et la lumière de sonde est préparée de façon à adresser la transition $\sigma^+$ vers le niveau $\ket{5P3/2,F=3,m_F=+3}$.
 
+\clearpage
 \subsubsection*{Corrections et améliorations de l'imagerie par absorption}
 \noindent Malgré l'apparente simplicité du dispositif d'imagerie par absorption, plusieurs effets perturbent les mesures du nombre d'atomes et méritent d'être corrigés.
 
@@ -482,11 +454,11 @@ Ce problème se présente principalement sur l'imagerie par la sonde de face en 
 Afin d'y remédier, nous avons implémenté un algorithme de réduction des franges qui, à partir d'une base de plusieurs images du faisceau sonde seul, reconstitue la meilleure combinaison linéaire de celles-ci pour chaque image où le nuage atomique est présent. Cet algorithme est décrit en détail dans \cite{MX_WHITLOCK_FRINGEREDUCTION}.
 La figure \eqref{fig:Fringe_Reduction} montre une image d'un nuage froid par absorption de la sonde face, non traitée et après traitement par cet algorithme.
 
-\begin{figure}[!h]
+\begin{figure}[h]
 \centering
-\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/Normal_abs2_onlyPic}
-\hfill%\hspace{.0\linewidth}
-\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/RF_abs2_onlyPic}
+\includegraphics[width=0.35\linewidth]{figures/setup/coldatoms/Normal_abs2_onlyPic}
+\hspace{.15\linewidth}
+\includegraphics[width=0.35\linewidth]{figures/setup/coldatoms/RF_abs2_onlyPic}
 \caption[Effet de l'algorithme de réduction des franges]{
 Images du nuage atomique froid par absorption du faisceau sonde face.
 \`A gauche, l'image est traitée selon l'équation \eqref{eq:atomic_density}.
@@ -495,8 +467,9 @@ Les graphes sous les images sont les profils de densité du nuage en coupe horiz
 L'échelle de couleur est la même pour les deux images et a été optimisée pour l'image de droite.
 }
 \label{fig:Fringe_Reduction}
-\end{figure}		
+\end{figure}
 
+\newpage
 Troisièmement, %il peut être intéressant, pour caractériser des nuages très denses, de ne pas calculer la densité optique $OD$ comme à l'équation \eqref{eq:Beer-Lambert_integ}.
 %En effet, 
 dans le cas d'un nuage très dense optiquement, comme par exemple pour les mélasses optiques, le centre du nuage où la densité atomique est très haute peut absorber l'intégralité de l'intensité incidente $I_i$.
@@ -514,12 +487,13 @@ Ce traitement du signal permet de s'affranchir de \og l'amplification \fg{} du b
 Le profil de densité est alors ajusté à l'exponentielle d'un profil gaussien.
 %L'ajustement du profil de densité est alors meilleur sur les bords du nuages.
 La figure \eqref{fig:nolog_abs} montre l'image d'une mélasse optique par absorption de la sonde de côté, traitée d'après l'équation \eqref{eq:Beer-Lambert_integ} et d'après l'équation \eqref{eq:nolog_abs}.
+		
 
-\begin{figure}[!h]
+\begin{figure}[h]
 \centering
-\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/log_abs_onlyPic}
-\hfill
-\includegraphics[width=0.4\linewidth]{figures/setup/coldatoms/nolog_abs_onlyPic}
+\includegraphics[width=0.35\linewidth]{figures/setup/coldatoms/log_abs_onlyPic}
+\hspace{.15\linewidth}
+\includegraphics[width=0.35\linewidth]{figures/setup/coldatoms/nolog_abs_onlyPic}
 \caption[Absorption \og no-log \fg{} ]{
 Images du nuage atomique de mélasse optique par absorption du faisceau sonde côté.
 \`A gauche, l'image est traitée par absorption selon l'équation \eqref{eq:Beer-Lambert_integ}.
@@ -534,7 +508,8 @@ En absorption \og no-log \fg{}, le bruit est plus important dans les zones sombr
 \label{fig:nolog_abs}
 \end{figure}	
 
-	\subsubsection*{Estimation de la température}
+%\clearpage
+\subsubsection*{Estimation de la température}
 \noindent L'imagerie par absorption permet facilement d'estimer la température du nuage atomique.
 En effet, la distribution des impulsions dans le nuage suit la distribution de Maxwell-Boltzmann tant que celui-ci n'est pas condensé.
 L'évolution de la taille gaussienne du nuage après extinction du piège, dictée par l'impulsion moyenne dans le nuage,  nous renseigne alors sur sa température par l'équation de propagation balistique
@@ -557,8 +532,9 @@ L'ajustement selon l'équation \eqref{eq:tempfit} permet d'estimer la températu
 }
 \label{fig:Tempfit}
 \end{figure}
-		
-	\subsection{Quelques nuages typiques}
+	
+\clearpage	
+\subsection{Quelques nuages typiques}
 \noindent Nous avons décrit ici les éléments de notre dispositif qui servent à produire et caractériser des nuages d'atomes ultra-froids.
 Le tableau \ref{tab:nuages} présente les caractéristiques principales des différents types de nuages atomiques que nous utiliserons pour y exciter des atomes de Rydberg.
 
@@ -634,6 +610,7 @@ Le tableau \ref{tab:nuages} présente les caractéristiques principales des diff
 
 \noindent Ces différents nuages d'atomes froids, ou ultra-froids, vont nous permettre d'explorer l'excitation d'atomes de Rydberg dans différentes conditions.
 
+\clearpage
 \section{Excitation et détection d'atomes de Rydberg près d'une puce}
 
 \noindent Cette diversité de nuages atomiques nous permet d'exciter des atomes de Rydberg dans différentes conditions de densité atomique, de température et de distance à la puce.
@@ -645,8 +622,8 @@ Après avoir donné le principe de l'excitation à deux photons des niveaux de R
 Nous décrirons ensuite les techniques mises en place afin de contrôler les champs électriques près de la puce.
 Nous finirons ce chapitre par une présentation de la technique de spectroscopie microonde des niveaux de Rydberg et de son utilisation pour mesurer les champs électriques résiduels.
 
-	\subsection{L'excitation à deux photons des atomes de Rydberg}\label{subsec:2photon_excite}
-
+%\clearpage
+\subsection{L'excitation à deux photons des atomes de Rydberg}\label{subsec:2photon_excite}
 \noindent Les atomes de rubidium piégés dans un nuage près de la puce sont excités vers les niveaux de Rydberg par une transition laser à deux photons désaccordée par rapport au niveau intermédiaire.
 Dans nos expériences, deux niveaux de Rydberg différents ont été excités par laser à partir de l'état fondamental 5S$_{1/2}$ : le niveau 60S$_{1/2}$ et le niveau 50D$_{3/2}$.
 Nous décrivons ici l'excitation d'un nuage d'atomes de Rydberg au sein d'un nuage froid dans le piège magnétique, en négligeant les interactions entre atomes de Rydberg et en nous concentrant sur le niveau $\mathrm{60S_{1/2}}$.
@@ -717,8 +694,8 @@ Ce paramètre peut être varié simplement en ajustant la puissance du laser rou
 \label{fig:lasers_excit}
 \end{figure}
 
-		
-	\subsection{La détection par ionisation des atomes de Rydberg}\label{subsec:detection}
+%\clearpage	
+\subsection{La détection par ionisation des atomes de Rydberg}\label{subsec:detection}
 \noindent L'électron de valence d'un atome de Rydberg alcalin est très proche du seuil d'ionisation.
 Il est donc très facile de l'arracher au noyau en appliquant un champ électrique.
 Nous exploitons cette caractéristique pour détecter les atomes de Rydberg par ionisation en champ électrique :
@@ -749,6 +726,7 @@ Une électrode trouée mise à la masse est placée devant cette grille afin d'�
 Lorsque les ions arrivent dans le Channeltron, celui-ci génère par avalanche un signal électronique qui est envoyé vers un amplificateur et un discriminateur permettant de décompter les ions détectés.
 Le Channeltron est isolé thermiquement et chauffé à une température de $\SI{42}{\K}$ afin d'augmenter son efficacité.
 
+\newpage
 \subsubsection*{Sélectivité de niveau de la détection par ionisation}
 \noindent Chaque atome de Rydberg présente une énergie différente, telle que discutée en \ref{sec:alkalRydberg}.
 Cela signifie qu'ils sont tous à une distance différente du seuil d'ionisation, et \textit{in fine} que chaque niveau de Rydberg sera ionisé pour une valeur de champ électrique spécifique.
@@ -757,7 +735,7 @@ Alors, les ions correspondants seront détectés à des instants différents par
 Des fenêtres temporelles de détection peuvent alors être définies, qui permettent de compter les atomes détectés dans chacun des différents niveaux.
 La figure \eqref{fig:arrTimes6057} montre un signal de détection sélective des niveaux de Rydberg $\mathrm{60S_{1/2}}$ et $\mathrm{57S_{1/2}}$.
 La rampe de tension et les fenêtres temporelles de détection sont optimisées afin de distinguer au mieux les différents niveaux de Rydberg détectés.
-L'efficacité de détection de notre dispositif a été mesurée à $\SI{90}{} \pm \SI{10}{\percent}$ \cite{PHD_CELISTRINO}.
+L'efficacité de détection de notre dispositif a été mesurée à $\SI{90}{} \pm \SI{10}{\percent}$, en comparant le nombre d'atomes de Rydberg détectés par ionisation à la réduction du nombre d'atomes dans l'état fondamental mesuré par absorption \cite{PHD_CELISTRINO}.
 %
 \begin{figure}[!h]
 \centering
@@ -775,9 +753,8 @@ Les échelles de temps sont différentes en \textbf{a)} et \textbf{b)}.
 %
 
 
-%EJECTE : note sur l'ionisation diabatique vs adiabatique. 
-		
-	\subsection{Les champs électriques parasites, défi des atomes de Rydberg sur puce}\label{subsec:flashRb}
+\newpage		
+\subsection{Les champs électriques parasites, défi des atomes de Rydberg sur puce}\label{subsec:flashRb}
 	%problème des champs électriques et flash de Rb}
 \noindent Comme nous l'avons dit au chapitre \ref{chapter:Rydberg}, les atomes de Rydberg sont des objets extrêmement sensibles au champ électromagnétique.
 Or, dans notre expérience, nous souhaitons exciter et manipuler des atomes de Rydberg à proximité immédiate d'une surface, la puce à atomes.
@@ -804,96 +781,11 @@ De plus, une heure de fonctionnement de l'expérience cause un déplacement en f
 Cet effet est causé par la variation spatiale et temporelle du champ électrique dans la région du nuage atomique :
 %L'énergie des niveaux de Rydberg dépend fortement du champ électrique extérieur au niveau de chaque atome.Ainsi, 
 si les atomes dans différentes régions du nuage voient des champs électriques différents, la fréquence de la transition $\mathrm{5S}\rightarrow\mathrm{60S}$ sera déplacée différemment dans chaque région par l'effet Stark, et la raie spectrale s'en trouvera élargie.
-%
-%	\subsubsection*{L'effet Stark}
-%\noindent Afin de comprendre ce phénomène plus en détail, attardons-nous à décrire l'effet Stark.
-%La présence d'un champ électrique constant $\vec{F}$ dans l'environnement ajoute au hamiltonien atomique un terme de couplage entre le champ et l'opérateur dipolaire électrique.
-%En présence d'un champ électrique, le hamiltonien devient
-%\begin{equation}
-%\label{eq:hamilt_Stark}
-%\hat{H} = \hat{H}_0 - \vec{\hat{d} \cdot F} = \hat{H}_0 + q~\vec{\hat{r}\cdot F},
-%\end{equation}
-%où $\hat{H}_0$ est le hamiltonien libre de l'atome, dont les énergies propres sont calculées par la théorie du défaut quantique selon l'équation \eqref{eq:E_I_delta}, $\hat{\vec{r}}$ l'opérateur position de l'électron dans le potentiel atomique et $q$ la charge élémentaire, supposée positive.
-%
-%Le hamiltonien Stark \eqref{eq:hamilt_Stark} perd la symétrie sphérique de $\hat{H}_0$, au profit d'une symétrie cylindrique autour de l'axe défini par le vecteur de champ électrique $\vec{F}$.
-%Cet axe, que nous choisirons comme étant l'axe $(Oz)$, devient alors l'axe de quantification naturel du problème.
-%Dans la base construite autour de cet axe, le terme d'énergie Stark prend la forme
-%\begin{equation}
-%\label{eq:dipole_Stark}
-%\hat{H}_S = q\hat{z}|\vec{F}| = q\hat{r} \sqrt{\frac{4\pi}{3}} Y_1^0  |\vec{F}|.
-%\end{equation}
-%où $\hat{z}$ est la composante selon $z$ de l'opérateur position, $\hat{r}$ sa norme, et $Y_0^1$ l'harmonique sphérique $(l=0,m_l=1)$.
-%Ce hamiltonien ne couple que les états de même $m_l$ et vérifiant $\Delta l = \pm 1$.
-%
-%Le calcul de l'effet Stark par diagonalisation du hamiltonien pour un niveau de Rydberg donné est alors simple à mener numériquement, en réduisant le sous-espace à considérer grâce à la règle de sélection $\Delta m_l = 0$.
-%Cette même règle de sélection permet d'imposer la condition $\Delta m_j= \Delta m_l + \Delta m_s = 0$, car l'effet Stark n'introduit aucun terme permettant de coupler des états de spins électroniques différents.
-%La figure \eqref{fig:Stark_60S} montre les énergies propres trouvées par diagonalisation du hamiltonien \eqref{eq:hamilt_Stark}, pour les états d'énergie proche de celle du niveau $\mathrm{60S_{1/2},m_j=1/2}$ et de même $m_j$.
-%%
-%\begin{figure}[!h]
-%\centering
-%\includegraphics[width=\linewidth]{figures/setup/rydberg/Stark_60S}
-%\caption[Diagramme Stark autour du niveau $\mathrm{60S}$]{
-%Diagramme Stark autour du niveau $\mathrm{60S}$, pour les états de $m_j=1/2$.
-%Le défaut quantique déplace beaucoup les niveaux S,P et D.
-%Ces niveaux non-dégénérés ont un effet Stark quadratique en champ électrique.
-%Les niveaux de grand $l$ sont dégénérés et ont un effet Stark linéaire (ce sont les multiplicités qui s'ouvrent en éventail).
-%}
-%\label{fig:Stark_60S}
-%\end{figure}
-%%
-%Deux cas sont à distinguer. Les niveaux de faible moment orbital $l\leq 3$ sont déplacés en énergie par leur défaut quantique important.
-%Le terme d'interaction Stark ne couplant que des niveaux ayant la même énergie en l'absence de champ électrique, ces niveaux S,P et D ne sont perturbés qu'au second ordre par l'effet Stark.
-%Leur énergie varie donc de façon quadratique avec le champ électrique.
-%Les niveaux de grand nombre quantique orbital $l$ et de même nombre quantique principal $n$ sont, eux, dégénérés.
-%Le champ électrique sépare donc leurs énergies linéairement
-%\footnote{
-%Le cas de l'effet Stark pour les atomes de grand $l$ sera traité plus en détail dans le chapitre \ref{chapter:circsim}.
-%}.
-%La figure \eqref{fig:Stark_60S} montre deux telles multiplicités, $n=57$ et $n=58$.
-%
-%Les niveaux de bas $l$ présentent donc tous un effet Stark quadratique que l'on exprime sous la forme
-%\begin{equation}
-%\label{eq:Stark_quad}
-%\Delta \nu_S = A.\vec{F}^2
-%\end{equation}
-%On comprend mieux ainsi la forme des raies présentées en figure \eqref{fig:vieilles_raies} :
-%l'effet Stark ne peut que réduire la fréquence de transition $5S-60S$ et la raie n'est donc élargie que du côté des basses fréquences.
-%
-%La diagonalisation du hamiltonien \eqref{eq:hamilt_Stark} et l'ajustement des énergies propres ainsi calculées nous permettent d'extraire les coefficients d'effet Stark pour n'importe quel niveau.
-%La table \eqref{tab:Stark_60S} repertorie les coefficients d'effet Stark quadratique pour quelques niveaux autour du $\mathrm{60S}$.
-%
-%\begin{table}[!h]
-%	\centering
-%	\caption[Effet Stark quadratique des niveaux proches du $\mathrm{60S}$]{Coefficients d'effet Stark quadratique de niveaux proches du $\mathrm{60S}$.
-%	}
-%	\label{tab:Stark_60S}
-%	\begin{tabular}{c c }
-%		\toprule\midrule
-%		Niveau de Rydberg
-%		& Coefficient Stark quadratique
-%		\\
-%		$\ket{n,l,j}$
-%		& $A_{n,l,j,m_j}$ en $\si{\MHz \per (\V \per\cm) \squared}$ \\
-%		\midrule
-%		$\mathrm{60S_{1/2}}$
-%		& \SI{-89.9}{} \\
-%		$\mathrm{61S_{1/2}}$
-%		& \SI{-100.9}{} \\
-%		$\mathrm{60P_{3/2},m_j=\pm -1/2}$
-%		& \SI{-676}{} \\
-%		$\mathrm{60P_{3/2},m_j=\pm -3/2}$
-%		& \SI{-569}{} \\
-%		\midrule
-%		\bottomrule
-% 	\end{tabular}
-%\end{table}
-%
-%\noindent Si l'on suppose que la largeur des spectres de la figure \eqref{fig:vieilles_raies} est due principalement à l'effet Stark causé par des gradients de champ électrique, alors ceux-ci peuvent s'estimer grâce ax coefficients données en table \eqref{tab:Stark_60S}.
 Une largeur de raie de $\SI{40}{\MHz}$ correspond à un champ électrique variant de $\SIrange{0}{0.667}{\V/\cm}$ sur l'extension du nuage, d'après les coefficients Stark donnés en table \ref{tab:Stark_60S}.
 Or le nuage utilisé pour ces spectres était un MOT de $\sim \SI{200}{\um}$ de diamètre, ce qui nous donne une valeur de gradient de champ électrique de l'ordre de $\SI{35}{(\V/\cm)\per\cm}$.
 
-%DISCREPANCY avec Raul, qui trouve $14 V/cm^2$. Ca semble se corriger par un facteur $2\pi$ dans la largeur, qui viendrait du fait qu'il a appelé $\Delta\omega$ la largeur de raie au lieu de $\Dela \nu$.
 
+%\clearpage
 \subsubsection*{Potentiel de contact du rubidium sur l'or et dépôt contrôlé}
 \noindent La cause principale de l'inhomogénéité spatiale et temporelle des champs électriques est l'accumulation d'un dépôt d'atomes de rubidium sur la surface en or de la puce :
 lorsque les atomes du piège sont relâchés à la fin de chaque séquence, une partie d'entre eux entre en contact avec la surface froide de la puce et s'y dépose.
@@ -912,29 +804,32 @@ Pour que cela fonctionne, il est important que le rubidium déposé reste métal
 Ces contraintes nous ont décidés à faire le dépôt de rubidium à froid, lorsque le cryostat est sous vide et thermiquement stable.
 Le dépôt contrôlé a été réalisé grâce à l'installation de dispenseurs de rubidium dans le cryostat, orientés de façon à pouvoir couvrir la puce de rubidium métallique.
 La figure \eqref{fig:depotRb} illustre qualitativement la structure des champs électriques au voisinage de la puce avant et après le dépôt de rubidium.
+Les dispenseurs nous ont permis de déposer une couche de rubidium, estimée à environ $\SI{80}{\nano\meter}$ d'épaisseur, sur une partie importante de la surface de la puce.
+
 %
 \begin{figure}[h]
 \centering
-\includegraphics[width=.7\linewidth]{figures/setup/rydberg/depotRb}
+\includegraphics[width=\linewidth]{figures/setup/rydberg/depotRb}
 \caption[Dépôt contrôlé de rubidium sur la puce]{
 Schéma illustrant les dépôts de rubidium sur la puce et les champs électriques qui en résultent.
-Les dépôts de rubidium sont représentés en rouge et les traits gris fléchés représentent les lignes de champ électrique
+Les dépôts de rubidium sont représentés en rouge et les traits gris fléchés représentent les lignes de champ électrique.
 Les surfaces représentées en jaune (puce et électrode d'ionisation) sont mise à la masse.
 L'ovale orange représente la position du nuage atomique (les échelles ne sont pas respéctées).
-\`A gauche, dépôt non-contrôlé dû aux atomes piégés : le champ électrique est inhomogène  et varie dans le temps.
-\`A droite, dépôt contrôlé réalisé grâce aux dispenseurs de rubidium (indiqués par les cercles rouges) : le champ électrique créé par le potentiel de contact rubidium-or est homogène et stable dans le temps.
+\textbf{a)} Dépôt non-contrôlé dû aux atomes piégés : le champ électrique est inhomogène et varie dans le temps.
+\textbf{b)} Dépôt contrôlé réalisé grâce aux dispenseurs de rubidium (indiqués par les cercles rouges) : le champ électrique créé par le potentiel de contact rubidium-or est homogène et stable dans le temps.
 }
 \label{fig:depotRb}
 \end{figure}
 %
-Les dispenseurs nous ont permis de déposer une couche de rubidium, estimée à environ $\SI{80}{\nano\meter}$ d'épaisseur, sur une partie importante de la surface de la puce.
-%Une telle épaisseur représente quelques centaines de mono-couches atomiques, et justifie que l'on puisse traiter le dépôt comme bulk metal
 
-Un spectre d'excitation laser fait juste après ce dépôt de rubidium dans un MOT à $\SI{500}{\um}$ de la puce est présenté en figure \eqref{fig:raiefine_depot}.
+\clearpage
+Un spectre d'excitation laser enregistré juste après ce dépôt de rubidium dans un MOT à $\SI{500}{\um}$ de la puce est présenté en figure \eqref{fig:raiefine_depot}.
 Les conditions d'excitation sont similaires à celles des spectres présentés en figure \eqref{fig:vieilles_raies}, mais la largeur de raie spectrale est de seulement $\Delta\nu=\SI{1.7}{\MHz}$.
 Le dépôt de rubidium a donc eu un effet extrêmement bénéfique sur l'excitation d'atomes de Rydberg au voisinage de la puce.
-%
-\begin{figure}[!th]
+
+Des optimisations ultérieures des conditions d'excitation nous ont permis d'obtenir des raies spectrales d'une largeur de $\Delta\nu \simeq \SI{625}{\kHz}$, que nous attribuons majoritairement à une fluctuation lente de la fréquence des lasers \cite{PHD_CELISTRINO}.
+
+\begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{figures/setup/rydberg/avant-apres-coating}
 %setup/rydberg/raiefine_depot}
@@ -947,11 +842,9 @@ la largeur de raie a été considérablement réduite par le dépôt contrôlé 
 \label{fig:raiefine_depot}
 \end{figure}
 
-Des optimisations ultérieures des conditions d'excitation nous ont permis d'obtenir des raies spectrales d'une largeur de $\Delta\nu \simeq \SI{625}{\kHz}$, que nous attribuons majoritairement à une fluctuation lente de la fréquence des lasers \cite{PHD_CELISTRINO}.
 
-		
-	\subsection{Contrôle du champ électrique perpendiculaire à la puce}\label{subsec:compensation}
-	% et compensation}
+%\clearpage	
+\subsection{Contrôle du champ électrique perpendiculaire à la puce}\label{subsec:compensation}
 \noindent Le dépôt saturé de rubidium sur la puce nous a permis de réduire considérablement les inhomogénéités de champ électrique.
 % mais ne garantit en rien un champ nul
 Nous souhaitons néanmoins pouvoir contrôler la valeur moyenne du champ à la position du nuage atomique, dans deux optiques.
@@ -997,162 +890,8 @@ La tension appliquée aux électrodes est alors directement la tension en sortie
 \end{figure}
 %
 
-%Toutes les expériences que nous décrirons dans la suite de cette thèse ayant trait au niveau $\mathrm{60S}$ ont été réalisées à l'aide de ce circuit.
-%Une particularité de son fonctionnement réside dans le fait que la phase d'excitation des atomes de Rydberg se fait à tension constante, et que le contrôle dynamique de la tension n'est permis que lors de la phase de détection, qui nécessite une rampe de tension comme évoqué en \ref{subsec:detection}.
-%Cette limitation sera corrigée plus tard par l'introduction d'un second circuit de contrôle, représenté en figure \eqref{fig:detectionbox_CdF} et son fonctionnement est détaillé ci-après.
-%Ce second circuit, qui permet l'application de deux rampes de tensions indépendantes pour l'excitation et la détection, a été utilisé dans toutes les éxpériences que nous décrirons ayant trait au niveau circulaire $\mathrm{50C}$.
-%%
-%\begin{figure}[h]
-%\centering
-%\includegraphics[width=\linewidth]{figures/setup/rydberg/detectionbox_CdF}
-%\caption[Second circuit de contrôle de la tension des électrodes d'ionisation]{
-%Second circuit de contrôle de la tension des électrodes d'ionisation.
-%Les tensions sont fournies par deux générateurs de fonctions arbitraires indépendants et appliquées directement aux électrodes par deux voies séparées (voie basse tension à gauche et voie haute tension à droite).
-%}
-%\label{fig:detectionbox_CdF}
-%\end{figure}
-%
-%Dans ce second circuit de contrôle de tension, l'ordinateur de contrôle permet de programmer une rampe arbitraire sur chacun des générateurs.
-%La tension fournie par le générateur \og détection \fg{} est amplifiée $\num{50}$ fois et devient \og $\mathrm{V_{ion}}$ \fg{}.
-%$\mathrm{V_{ion}}$ est introduite dans la voie haute tension du circuit de contrôle.
-%La tension fournie par le générateur \og Stark \fg{} n'est pas amplifiée et est appelée \og $\mathrm{V_{Stark}}$ \fg{}.
-%$\mathrm{V_{Stark}}$ est introduite dans la voie basse tension du circuit de contrôle.
-%Pendant la phase d'excitation, le signal TTL est éteint. L'optocoupleur de la voie haute tension est alors bloquant, et les deux optocoupleurs de la voie basse tension sont passants.
-%L'optocoupleur du haut sert à faire passer les tension négatives et celui du bas les tensions positives.
-%Chacun est isolé par une diode à sa sortie, adaptée au sens de circulation du courant dans chaque voie.
-%La tension $\mathrm{V_{Stark}}$ est alors directement appliquée aux électrodes.
-%Pendant la phase de détection, le signal TTL est allumé. Les optocoupleurs de la voie basse tension deviennent bloquants et celui de la voie haute tension devient passant.
-%La tension $\mathrm{V_{ion}}$ est alors directement appliquée aux électrodes.
-%Les tensions en fin de rampe de détection peuvent aller de $\SI{-150}{\V}$ pour les niveaux voisins du $\mathrm{60S}$, et jusqu'à $\SI{-500}{\V}$ pour les niveaux voisins du $\mathrm{50C}$.
-%Nous avons donc conçu ce circuit de contrôle en conséquence, en utilisant des optocoupleurs capables de bloquer des tensions élevées.
-	
-% \subsection{Contrôle du champ parallèle à la puce}% et électrodes RF de circularisation}
-%\noindent Les dispositifs de contrôle des champs électriques que nous venons de présenter ont une lacune majeure :
-%ils ne permettent de varier le champ électrique que perpendiculairement à la puce, soit dans la direction $y$.
-%Lorsque nous avons commencé à travailler dans l'optique d'obtenir des atomes de Rydberg circulaires, nous avons souhaité pouvoir contrôler le champ électrique parallèlement à la puce.
-%Cela a deux conséquences.
-%En premier lieu, nous serons en mesure de compenser les champs résiduels dans les directions $x$ et $z$.
-%En second lieu, cela permettra d'appliquer un champ électrique radio-fréquence polarisé, nécessaire à la circularisation des niveaux de Rydberg, qui sera discutée au chapitre \ref{chapter:50c}.
-%
-%
-%Notre dispositif de contrôle du champ parallèle à la puce consiste en quatre électrodes cylindriques (\og électrodes RF \fg{}) , disposées en carré autour de la zone de piégeage des atomes.
-%En appliquant des tensions arbitraires sur ces électrodes, nous pourrons compenser les champs résiduels dans les directions $x$ et $z$, et espérer compenser même les gradients de champ dans ces directions.
-%En leur appliquant des tensions oscillant à une fréquence de $\SI{230}{\MHz}$ avec avec des phases bien optimisés, nous pourrons générer un champ électrique radio-fréquence arbitrairement polarisé au niveau des atomes.
-%
-%La figure \ref{fig:RF_ELECTRODES} montre la disposition de ces électrodes au c\oe ur du dispositif expérimental.
-%%
-%\begin{figure}[h]
-%\centering
-%\includegraphics[width=.4\linewidth]{figures/setup/rydberg/electrodes_RF_3D_labeled.jpg}
-%\includegraphics[width=.4\linewidth]{figures/setup/rydberg/electrodes_RF_photo}
-%\caption[Électrodes de circularisation et de contrôle du champ parallèle]{
-%Électrodes \og RF \fg{} de circularisation et de contrôle du champ parallèle à la puce.
-%\`A gauche, schéma représentant les électrodes RF, fixées sur l'électrode d'ionisation $I_1$, et numérotées de $1$ à $4$.
-%\`A droite, photographie du c\oe ur de l'expérience.
-%On y voit la \og boîte \fg{} de protection de l'un des dispenseurs de rubidium, les bobines de biais $B_z$ et l'une des bobines de biais $B_x$, les deux électrodes d'ionisation, et les deux électrodes RF du bas (3 et 4).
-%}
-%\label{fig:RF_ELECTRODES}
-%\end{figure}
-%%
-%
-%\subsubsection*{Description technique du dispositif}
-%\noindent Chaque électrode RF est un cylindre de $\SI{6}{\mm}$ de diamètre et de $\SI{12}{\mm}$ de long, en cuivre doré.
-%Les quatre cylindres sont disposés perpendiculairement à la puce en un carré de $\SI{30}{\mm}$ de côté.
-%Afin de fixer les cylindres au sein du dispositif, nous avons percé des trous dans l'électrode d'ionisation $I_1$.
-%Chaque électrode est fixée par une tige filetée traversant l'un de ces trous et maintenue par un écrou.
-%Or les électrodes RF doivent être isolées de l'électrode $I_1$.
-%Les écrous de fixation sont ainsi isolés de $I_1$ par des rondelles en nylon.
-%Les tiges filetées sont quant à elles isolées par des espaceurs en céramique MACOR, logés dans la base élargie et évidée de chaque cylindre et traversant l'électrode $I_1$.
-%Le recouvrement de ces pièces diélectriques par les électrodes elles-mêmes est crucial, afin de limiter au maximum l'exposition des atomes à des surfaces non-conductrices susceptibles d'emmagasiner des charges électriques et de créer ainsi des champs parasites.
-%La longueur des cylindres en cuivre et l'épaisseur des espaceurs en céramique sont calculés pour que le bout de chaque cylindre arrive à une distance d'environ $\SI{2}{\mm}$ de la surface de la puce.
-%
-%La tension appliquée à chacune des électrodes RF est amenée \textit{via} des câbles coaxiaux,  permettant de propager des signaux radio-fréquence aussi bien que des tensions constantes.
-%Ces câbles coaxiaux semi-rigides fins traversent le cryostat, sont thermalisés à $\SI{4.2}{\K}$ au fond de la jupe hélium.
-%\`A l'approche du c\oe ur de l'expérience, ils sont terminées par des connecteurs SMA, auxquels viennent se brancher des câbles plus courts et plus épais.
-%Cette deuxième section de câblage a deux intérêts.
-%Premièrement, la connexion des câbles aux cosses qui sont en contact avec les électrodes est facilitée par l'épaisseur et la solidité de ces deuxièmes câbles.
-%Ces cosses sont intercalées entre l'écrou de fixation de chaque électrode et un second écrou de blocage, qui garantit le contact électrique avec la tige filetée et ainsi avec l'électrode.
-%Deuxièmement, cela nous permet, au prix d'une simple déconnexion de connecteurs SMA, de démonter ou ajuster indépendamment les câbles coaxiaux semi-rigides et le porte-puce assorti de ses électrodes.
-%%La construction de ce dispositif a été l'occasion de repenser le système de fixation des électrodes d'ionisation.
-%%Celles-ci sont désormais fixées directement au porte-puce, par l'intermédiaire d'espaceurs métalliques isolés. Cela a permis de stabiliser le montage et la distance séparant les différents éléments.
-%
-%Les tensions constantes appliquées aux électrodes sont fournies par une source analogique contrôlée par ordinateur, dont les sorties sont filtrées par un circuit RC de temps caractéristique $\tau=\SI{1}{\us}$.
-%Cela permet de réduire le bruit électrique de cette source à une amplitude inférieure à $\SI{5}{\milli\V}_{\mathrm{pp}}$.
-%
-%\subsubsection*{Simulation du champ créé par les électrodes RF}
-%\noindent Il était important, afin de bien concevoir la géométrie de ces électrodes RF, de savoir quel serait l'effet des tensions appliquées dessus en termes de champ électrique au niveau des atomes.
-%L'estimation du champ créé ne peut pas se faire simplement par les approximations de conducteurs infinis pour lesquels il suffirait de diviser la différence de potentiel entre eux par la distance les séparant.
-%En effet, la géométrie des électrodes est assez éloignée de ce genre de modèle et limite ainsi déjà la validité qu'aurait une telle approximation.
-%De plus, la région où nous souhaitons créer du champ électrique est très proche de la puce, entre $\SI{0.5}{}$ et $\SI{2}{\mm}$ de celle-ci.
-%C'est-à-dire que d'une part cette région est située en dehors du volume délimité par les quatre électrodes, et d'autre part que la présence proche d'une surface conductrice considérée comme infinie (la puce) perturbera grandement les lignes de champ dans cette région.
-%
-%Afin d'estimer le champ créé par les électrodes, nous avons utilisé le logiciel SIMION, destiné au calcul de potentiels et champs électriques et de trajectoires de particules chargées dans des structures arbitraires.
-%Les éléments que nous y avons programmés sont les suivants : la surface de la puce, les électrodes RF et les électrodes d'ionisation.
-%Cette structure simplifiée est représentée en figure \eqref{fig:RF_elec_SIMION}.
-%%
-%\begin{figure}[h]
-%\centering
-%\includegraphics[width=\linewidth]{figures/setup/rydberg/RF_electrodes_Simion}
-%\caption[Électrodes de circularisation et de contrôle du champ parallèle]{
-%Électrodes \og RF \fg{} et leur environnement tels que programmés dans nos simulations SIMION.
-%Les quatre électrodes RF sont représentées, dans l'ordre de leur numérotation, en bleu foncé (1), rose (2), violet (3) et bleu turquoise (4).
-%La puce est représentée par une surface jaune, et les électrodes d'ionisation en vert clair ($I_1$) et vert foncé ($I_2$).
-%Les axes indiqués par les lettres $X$, $Y$ et $Z$ sont les axes que nous utilisons habituellement, bien que l'origine $O$ du repère ne soit pas la même.
-%Par souci de clarté visuelle, la figure de gauche représente les électrodes RF et d'ionisation sans la puce, et la figure de droite représente les électrodes RF et la puce, sans les électrodes d'ionisation.
-%}
-%\label{fig:RF_elec_SIMION}
-%\end{figure}
-%%
-%
-%Nous présentons ci-dessous un exemple de simulation où l'on impose les potentiels suivants :
-%$\SI{+10}{\V}$ aux deux électrodes RF du haut (1 et 2), $\SI{-10}{\V}$ aux deux électrodes RF du bas (3 et 4), et $\SI{0}{\V}$ à la puce et aux électrodes d'ionisation.
-%%\begin{tabular}{cc}
-%%$10$ & $10$\\
-%%$-10$ & $-10$
-%%\end{tabular}
-%On espère alors appliquer un champ électrique vertical dirigé vers le bas au niveau des atomes.
-%
-%La figure \eqref{fig:simion_fullregion} présente le résultat de la simulation.
-%%
-%\begin{figure}[!h]
-%\centering
-%\includegraphics[width=\linewidth]{figures/setup/rydberg/simion_4quadrants}
-%\caption[Champ électrique créé par les électrodes RF]{
-%Champ électrique créé par les électrodes RF, dans le plan $(yOz),x=0$. Les échelles de longueur en $y$ et en $z$ sont différentes.
-%\`A gauche la composante $F_z$, à droite la composante $F_x$.
-%En haut, une grande région est représentée, sur laquelle sont marquées la puce et les électrodes d'ionisation(les traits épais sont les endroits où ces électrodes sont dans le plan $(x=0)$ et les traits fins sont la projection des électrodes entières sur ce plan). Les projections des électrodes RF sur le plan $(x=0)$ sont représentées en filigrane gris (rectangles), de même que la zone de piégeage des atomes (petit ovale proche de la puce).
-%En bas, une région beaucoup plus petite est représentée, englobant la région typique de piégeage des atomes, représentée en filigrane gris.
-%\`A des fins de lisibilité, les échelles de couleur sont différentes sur chacun des graphes.
-%}
-%\label{fig:simion_fullregion}
-%\end{figure}
-%%
-%Les deux graphes à grande échelle (en haut), permettent de confirmer que le champ créé est largement selon $z$.
-%En effet, la composante $F_z$ varie de $\SIrange{+3}{-5}{\V/\cm}$ lorsque la composante $F_x$ varie de $\SIrange{-0.08}{+0.08}{\V/\cm}$.
-%L'on retrouve le comportement idéal des conducteurs infinis dans la zone au centre des électrodes RF, autour du point $(y= \SI{8}{\mm}, z=\SI{0}{})$ : le champ y est homogène avec des valeurs de $F_z=\SI{-5}{\V/\cm}$ et $F_x=0$.
-%Malheureusement, nous piégeons habituellement les atomes bien plus près de la puce, à des distance comprises entre $y=\SI{0.3}{\mm}$ et $y=\SI{1.5}{\mm}$.
-%Il est donc important de vérifier que, dans nos régions habituelles de piégeage, notre dispositif sera suffisamment performant.
-%Les deux graphes à petite échelle (en bas), nous confirment cela :
-%nous serons capables de créer un champ de l'ordre de $F_z=\SIrange{-0.5}{-1.5}{\V/\cm}$, avec une composante $F_x$ quasi-nulle, de l'ordre du $\SI{}{\milli\V/\cm}$.
-%
-%La symétrie de la structure en $x$ et en $z$ est un argument suffisant pour affirmer que nous pourrons tout aussi bien créer un champ opposé à celui-ci, c'est-à-dire avec une composant $F_z$ positive, ou encore un champ très largement orienté selon $x$.
-%Nous avons néanmoins occulté dans notre description un effet indésirable :
-%Les électrodes RF créent également un champ selon $y$ dans la région qui les sépare de la puce.
-%Les atomes étant piégés dans cette région, délimitée par $\num{0} < y \leq \SI{2}{\mm}$, ils subiront un champ $F_y$ dû à ces électrodes.
-%Dans les mêmes conditions de tensions appliquées, le champ $F_y$ varie selon $z$, dans un intervalle compris entre $\SI{-0.4}{\V/\cm}$ en $z=\SI{+0.4}{\mm}$ et $\SI{+0.4}{\V/\cm}$ en $z=\SI{-0.5}{\mm}$.
-%Fort heureusement le champ $F_y$ reste suffisamment homogène à l'échelle de taille des nuages atomiques de diamètre $\Delta z < \SI{300}{\um}$, une taille qui est atteinte dès le stade de mélasse optique.
-%De plus, nous pouvons compenser sa valeur moyenne grâce aux électrodes d'ionisation, comme nous l'avons expliqué en \ref{subsec:compensation}.
-%
-%Enfin, la simulation confirme que nous pourrons appliquer un champ radio-fréquence tournant dans le plan $(xOz)$ perpendiculaire à la puce, en vue de la circularisation des atomes de Rydberg sous un champ statique selon $y$.
-%En effet, une différence de potentiel entre les électrodes du haut (1 et 2) et celles du bas (3 et 4) crée un champ $F_z$ quasi-pur et une différence de potentiel entre les électrodes de gauche (1 et 3) et celles de droite (2 et 4) crée un champ $F_x$ quasi-pur.
-%Le détail des champs tournants pour la circularisation sera discuté au chapitre \ref{chapter:50c}.
-%
-%%EN VRAI, MERDE ! Gros gradients de champ selon E_y quand on est près de la puce !!
-%
-%Nous disposons ainsi d'un outil de contrôle du champ électrique dans toutes les directions, grâce aux électrodes d'ionisation et aux électrodes RF.
-
-	\subsection{Manipulation cohérente des états de Rydberg}% par spectroscopie microonde}
-	\label{subsec:mw_spectro}
+%\clearpage
+\subsection{Manipulation cohérente des états de Rydberg}\label{subsec:mw_spectro}
 
 \noindent Nous avons jusqu'ici limité notre exposé à l'excitation laser d'atomes vers un niveau de Rydberg déterminé.
 Or nos expériences reposent sur la manipulation des atomes de Rydberg entre plusieurs états, en vue de deux objectifs.
@@ -1169,6 +908,7 @@ Ces deux expériences
 %ont été menées avant l'installation des électrodes RF, et avec le premier circuit de contrôle du champ électrique (cf. \ref{subsec:compensation}). Elles 
 sont décrites en détail dans la thèse de Carla Hermann Avigliano \cite{PHD_HERMANN}.
 
+%\clearpage
 \subsubsection*{Un qubit de Rydberg d'une grande longévité}
 \noindent Au sein de notre dispositif, la cohérence d'un système quantique à deux niveaux réalisé entre deux niveaux de Rydberg est limitée en premier lieu par l'inhomogénéité du champ électrique résiduel.
 De bons candidats à la réalisation d'un tel qubit seront donc des niveaux dont la sensibilité au champ sera la plus faible possible ou, à défaut, la plus similaire possible.
@@ -1176,7 +916,10 @@ Les coefficients d'effet Stark quadratique synthétisés en table \eqref{tab:Sta
 La quantité pertinente ici est le décalage en fréquence de la transition par l'effet Stark différentiel entre ces deux niveaux.
 Celui-ci vaut $A_{\mathrm{60S1/2,61S1/2}} = \SI{-11}{\MHz \per (\V \per\cm) \squared}$.
 La spectroscopie de la transition $\ket{g}=\ket{\mathrm{60S_{1/2},m_j=1/2}} \rightarrow \ket{e}=\ket{\mathrm{61S_{1/2},m_j=1/2}}$ est présentée en figure \eqref{fig:spectro_60S61S}.
-%
+
+La largeur de raie de $\Delta\nu=\SI{6.6}{\kHz}$ est de bon augure pour la manipulation cohérente de ce qubit.
+Afin d'estimer son temps de cohérence de façon plus précise, nous avons effectué une spectroscopie Ramsey avec écho de spin entre les deux niveaux, dont le principe est schématisé en figure \eqref{fig:spinEcho_60S61S}.
+
 \begin{figure}[h]
 \centering
 \vspace{1em}
@@ -1188,10 +931,7 @@ Spectroscopie de la transition 60S-61S.
 }
 \label{fig:spectro_60S61S}
 \end{figure}
-%
-La largeur de raie de $\Delta\nu=\SI{6.6}{\kHz}$ est de bon augure pour la manipulation cohérente de ce qubit.
-Afin d'estimer son temps de cohérence de façon plus précise, nous avons effectué une spectroscopie Ramsey avec écho de spin entre les deux niveaux, schématisée en figure \eqref{fig:spinEcho_60S61S}
-%
+
 \begin{figure}[!h]
 \centering
 \vspace{1em}
@@ -1203,22 +943,22 @@ Spectroscopie Ramsey avec écho de spin sur la transition 60S-61S.
 }
 \label{fig:spinEcho_60S61S}
 \end{figure}
-%
+
+\newpage
 La technique d'écho de spin permet de se libérer des sources de décohérence stables dans le temps, telles que l'inhomogénéité spatiale du champ électrique.
 L'impulsion $\pi$ intercalée à la moitié de l'évolution de la superposition d'état agit comme un renversement du temps.
 Les effets de déphasage de la superposition ne variant pas dans le temps sont ainsi compensés dans la deuxième moitié de son évolution.
 L'ajustement gaussien du contraste des franges de Ramsey en fonction du temps total d'évolution permet d'extraire un temps de cohérence à $1/e$ de la superposition de $T_2 = \SI{631}{\us}$.
 Ce temps de cohérence est trois fois supérieur à la durée de vie des niveaux de Rydberg, qui est de l'ordre de $\SI{200}{\us}$.
-Cela signifie que, même lorsque que la plupart des atomes de Rydberg ont été perdus par désexcitation radiative, ce qui ne l'ont pas été restent cohérents pendant une durée $T_2$.
+Cela signifie que, alors que la plupart des atomes de Rydberg ont été perdus par désexcitation radiative, ceux qui ne l'ont pas été, donc ceux que nous détectons, gardent leur cohérence pendant une durée $T_2$.
 
+%\clearpage
 \subsubsection*{Mesure des champs électriques résiduels}
 \noindent La même technique de spectroscopie microonde nous a permis de mesurer les champs électriques résiduels.
 Pour cela, à l'inverse de l'expérience précédente, nous voulions une transition aussi sensible que possible à l'effet Stark.
-Nous avons donc choisi la transition $\mathrm{60S}\rightarrow\mathrm{60P}$.
-Celle-ci se sépare par effet Zeeman entre les transitions $\mathrm{60S_{1/2},m_j=1/2} \rightarrow \mathrm{60P_{3/2},m_j=-1/2}$,
-%présentant un effet Stark différentiel de $\SI{586.1}{\MHz \per (\V \per\cm) \squared}$, 
-et $\mathrm{60S_{1/2},m_j=1/2} \rightarrow \mathrm{60P_{3/2},m_j=+3/2}$.
-% présentant un effet Stark différentiel de $\SI{479.1}{\MHz \per (\V \per\cm) \squared}$.
+Nous avons donc choisi la transition $\mathrm{60S}\rightarrow\mathrm{60P}$., qui présente un effet Stark quadratique de .
+Celle-ci se sépare par effet Zeeman entre les transitions $\mathrm{60S_{1/2},m_j=1/2} \rightarrow \mathrm{60P_{3/2},m_j=-1/2}$ %, présentant un effet Stark différentiel de $\SI{586.1}{\MHz \per (\V \per\cm) \squared}$ 
+et $\mathrm{60S_{1/2},m_j=1/2} \rightarrow \mathrm{60P_{3/2},m_j=+3/2}$, qui présentent des effets Stark différentiels de $\SI{586.1}{}$ et $\SI{479.1}{\MHz \per (\V \per\cm) \squared}$ respectivement.
 %Les atomes étant piégés dans le piège magnétique, l'effet Zeeman est ici important.
 %En particulier, c'est le champ magnétique qui détermine l'axe de quantification, et donc l'axe de symétrie de la fonction d'onde des niveaux $P$.
 %Pour cette raison, un champ électrique parallèle au champ magnétique produira un déplacement d'énergie par effet Stark différent d'un champ électrique perpendiculaire au champ magnétique.
@@ -1262,17 +1002,7 @@ Nous pouvons en déduire que la distance à la puce à laquelle nous choisissons
 \subsection{Temps de vie des atomes de Rydberg et température effective}\label{subsec:lifetime}
 \noindent Nous avons calculé, au chapitre \ref{chapter:Rydberg}, la durée de vie du niveau $\mathrm{60S}$ à différentes températures.
 La figure \ref{fig:lifetime_60S} montre une mesure expérimentale du nombre d'atomes de Rydberg détectés dans le nuage atomique, en fonction du délai entre l'excitation et la détection des atomes de Rydberg.
-%
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.8\linewidth]{figures/setup/rydberg/lifetime_60S}
-\caption[Durée de vie du niveau 60S]{
-Nombre d'atomes de Rydberg dans le niveau $\mathrm{60S}$ détectés, en fonction du délai entre l'impulsion laser d'excitation et la rampe d'ionisation servant à leur détection.
-L'ajustement exponentielle donne un temps de vie de $\SI{210}{} \pm \SI{4}{\us}$.
-}
-\label{fig:lifetime_60S}
-\end{figure}
-%
+
 L'ajustement exponentiel de cette mesure donne un temps de vie de $\tau_{\mathrm{60S}} = \SI{210}{} \pm \SI{4}{\us}$, alors que le temps de vie théorique calculé à la température de l'hélium liquide vaut $\SI{239.8}{\us}$ (cf table \ref{tab:lifetime_60S}).
 La différence de temps de vie peut s'expliquer par différents effets :
 les atomes sont exposés au rayonnement du corps noir à température ambiante et à la température de l'azote liquide, qui peut entrer par les hublots d'accès optique.
@@ -1282,6 +1012,15 @@ Afin de rendre compte simplement de ces effets, nous calculons une température 
 C'est la température pour laquelle le calcul du temps de vie théorique présenté au chapitre \ref{chapter:Rydberg} donnerait la valeur de temps de vie mesurée.
 Cette température effective pour le niveau $\mathrm{60S}$ dans notre cryostat est de $\SI{36}{\kelvin}$.
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\linewidth]{figures/setup/rydberg/lifetime_60S}
+\caption[Durée de vie du niveau 60S]{
+Nombre d'atomes de Rydberg dans le niveau $\mathrm{60S}$ détectés, en fonction du délai entre l'impulsion laser d'excitation et la rampe d'ionisation servant à leur détection.
+L'ajustement exponentielle donne un temps de vie de $\SI{210}{} \pm \SI{4}{\us}$.
+}
+\label{fig:lifetime_60S}
+\end{figure}
 
 \section*{Conclusion}
 \noindent Nous avons, dans le présent chapitre, décrit le fonctionnement du dispositif expérimental sur lequel nous avons effectué nos travaux.

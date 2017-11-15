@@ -1,10 +1,10 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {french}
-\contentsline {chapter}{Table des figures}{vii}{chapter*.2}
-\contentsline {xchapter}{}{ix}{chapter*.2}
-\contentsline {chapter}{Liste des tableaux}{xi}{chapter*.3}
-\contentsline {xchapter}{}{xi}{chapter*.3}
+\contentsline {chapter}{Table des figures}{v}{chapter*.2}
+\contentsline {xchapter}{}{v}{chapter*.2}
+\contentsline {chapter}{Liste des tableaux}{vii}{chapter*.3}
+\contentsline {xchapter}{}{vii}{chapter*.3}
 \contentsline {chapter}{Introduction}{1}{chapter*.4}
 \contentsline {xchapter}{}{1}{chapter*.4}
 \contentsline {chapter}{\numberline {I}Atomes de Rydberg alcalins en interaction}{9}{chapter.1}
@@ -31,10 +31,10 @@
 \contentsline {section}{\numberline {II.2}Excitation et d\IeC {\'e}tection d'atomes de Rydberg pr\IeC {\`e}s d'une puce}{55}{section.2.2}
 \contentsline {subsection}{\numberline {II.2.1}L'excitation \IeC {\`a} deux photons des atomes de Rydberg}{55}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {II.2.2}La d\IeC {\'e}tection par ionisation des atomes de Rydberg}{57}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {II.2.3}Les champs \IeC {\'e}lectriques parasites, d\IeC {\'e}fi des atomes de Rydberg sur puce}{59}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {II.2.4}Contr\IeC {\^o}le du champ \IeC {\'e}lectrique perpendiculaire \IeC {\`a} la puce}{62}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {II.2.5}Manipulation coh\IeC {\'e}rente des \IeC {\'e}tats de Rydberg}{63}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {II.2.6}Temps de vie des atomes de Rydberg et temp\IeC {\'e}rature effective}{66}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {II.2.3}Les champs \IeC {\'e}lectriques parasites, d\IeC {\'e}fi des atomes de Rydberg sur puce}{60}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {II.2.4}Contr\IeC {\^o}le du champ \IeC {\'e}lectrique perpendiculaire \IeC {\`a} la puce}{63}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {II.2.5}Manipulation coh\IeC {\'e}rente des \IeC {\'e}tats de Rydberg}{64}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {II.2.6}Temps de vie des atomes de Rydberg et temp\IeC {\'e}rature effective}{67}{subsection.2.2.6}
 \contentsline {chapter}{\numberline {III}Interaction entre atomes de Rydberg sph\IeC {\'e}riques et excitation de gaz dense}{69}{chapter.3}
 \contentsline {section}{\numberline {III.1}Les effets de l'interaction dipolaire en nuage dense}{70}{section.3.1}
 \contentsline {subsection}{\numberline {III.1.1}Rappels sur l'interaction dipolaire}{70}{subsection.3.1.1}
@@ -55,30 +55,27 @@
 \contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{105}{chapter.4}
 \contentsline {section}{\numberline {IV.1}Principe g\IeC {\'e}n\IeC {\'e}ral du simulateur}{106}{section.4.1}
 \contentsline {subsection}{\numberline {IV.1.1}Le hamiltonien simul\IeC {\'e}}{107}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {IV.1.2}Pi\IeC {\'e}geage laser des atomes de Rydberg circulaires}{112}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {IV.1.2}Pi\IeC {\'e}geage laser des atomes de Rydberg circulaires}{113}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {IV.1.3}Pr\IeC {\'e}servation des \IeC {\'e}tats de Rydberg}{114}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {IV.1.4}Pr\IeC {\'e}paration d\IeC {\'e}terministe d'une cha\IeC {\^\i }ne}{116}{subsection.4.1.4}
-\contentsline {section}{\numberline {IV.2}Les limites de la dur\IeC {\'e}e de vie des atomes de Rydberg circulaires dans un condensateur}{118}{section.4.2}
+\contentsline {section}{\numberline {IV.2}Les limites de la dur\IeC {\'e}e de vie des atomes de Rydberg circulaires dans un condensateur}{119}{section.4.2}
 \contentsline {subsection}{\numberline {IV.2.1}Interactions dip\IeC {\^o}le-dip\IeC {\^o}le entre atomes de Rydberg circulaires : le m\IeC {\'e}lange de niveaux}{119}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {IV.2.2}Limitation du temps de vie des niveaux circulaires par m\IeC {\'e}lange de niveaux}{122}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {IV.2.3}Autres effets limitants et estimation finale du temps de vie}{122}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{125}{chapter.5}
-\contentsline {section}{\numberline {V.1}Principe du passage adiabatique}{126}{section.5.1}
-\contentsline {subsection}{\numberline {V.1.1}Le passage adiabatique id\IeC {\'e}al pour l'atome d'hydrog\IeC {\`e}ne}{126}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {V.1.2}Le passage adiabatique avec d\IeC {\'e}faut quantique}{127}{subsection.5.1.2}
-\contentsline {section}{\numberline {V.2}Modifications du dispositif exp\IeC {\'e}rimental}{128}{section.5.2}
-\contentsline {subsection}{\numberline {V.2.1}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{129}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {V.2.2}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{133}{subsection.5.2.2}
-\contentsline {section}{\numberline {V.3}Le chemin du niveau fondamental au niveau de Rydberg circulaire $\mathrm {50C}$}{134}{section.5.3}
-\contentsline {subsection}{\numberline {V.3.1}La transition laser $\mathrm {5S \rightarrow 50D}$}{134}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {V.3.2}La transition microonde $\mathrm {50D \rightarrow 50F}$}{140}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {V.3.3}Le passage adiabatique $m=2\rightarrow m=n-1$}{143}{subsection.5.3.3}
-\contentsline {section}{\numberline {V.4}Spectroscopie microonde des atomes de Rydberg circulaires}{147}{section.5.4}
-\contentsline {subsection}{\numberline {V.4.1}Spectres microonde et optimisation fine de la RF}{149}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {V.4.2}Premi\IeC {\`e}re estimation du temps de coh\IeC {\'e}rence}{151}{subsection.5.4.2}
-\contentsline {section}{\numberline {V.5}Perspectives exp\IeC {\'e}rimentales \IeC {\`a} court terme}{151}{section.5.5}
-\contentsline {chapter}{Conclusion}{153}{chapter*.159}
-\contentsline {xchapter}{}{153}{chapter*.159}
-\partbegin 
-\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de lock}{159}{appendix.A}
-\contentsline {chapter}{\numberline {B}Algorithme de simulation}{161}{appendix.B}
+\contentsline {chapter}{\numberline {V}Des atomes de Rydberg circulaires sur puce}{127}{chapter.5}
+\contentsline {section}{\numberline {V.1}Principe du passage adiabatique}{128}{section.5.1}
+\contentsline {subsection}{\numberline {V.1.1}Le passage adiabatique id\IeC {\'e}al pour l'atome d'hydrog\IeC {\`e}ne}{128}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {V.1.2}Le passage adiabatique avec d\IeC {\'e}faut quantique}{130}{subsection.5.1.2}
+\contentsline {section}{\numberline {V.2}Modifications du dispositif exp\IeC {\'e}rimental}{131}{section.5.2}
+\contentsline {subsection}{\numberline {V.2.1}Contr\IeC {\^o}le du champ parall\IeC {\`e}le \IeC {\`a} la puce}{131}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {V.2.2}Contr\IeC {\^o}le du champ perpendiculaire \IeC {\`a} la puce}{138}{subsection.5.2.2}
+\contentsline {section}{\numberline {V.3}Le chemin du niveau fondamental au niveau de Rydberg circulaire $\mathrm {50C}$}{140}{section.5.3}
+\contentsline {subsection}{\numberline {V.3.1}La transition laser $\mathrm {5S \rightarrow 50D}$}{140}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {V.3.2}La transition microonde $\mathrm {50D \rightarrow 50F}$}{146}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {V.3.3}Le passage adiabatique $m=2\rightarrow m=n-1$}{149}{subsection.5.3.3}
+\contentsline {section}{\numberline {V.4}Spectroscopie microonde des atomes de Rydberg circulaires}{154}{section.5.4}
+\contentsline {subsection}{\numberline {V.4.1}Spectres microonde et optimisation fine de la RF}{155}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {V.4.2}Premi\IeC {\`e}re estimation du temps de coh\IeC {\'e}rence}{156}{subsection.5.4.2}
+\contentsline {section}{\numberline {V.5}Perspectives exp\IeC {\'e}rimentales \IeC {\`a} court terme}{158}{section.5.5}
+\contentsline {chapter}{Conclusion}{161}{chapter*.158}
+\contentsline {xchapter}{}{161}{chapter*.158}

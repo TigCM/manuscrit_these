@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {french}
-\contentsline {xchapter}{}{v}{chapter*.2}
-\contentsline {xchapter}{}{vii}{chapter*.3}
+\contentsline {xchapter}{}{ix}{chapter*.2}
+\contentsline {xchapter}{}{xi}{chapter*.3}
 \contentsline {xchapter}{}{1}{chapter*.4}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Atomes de Rydberg alcalins en interaction}{9}{chapter.1}
@@ -64,48 +64,49 @@
 \contentsline {figure}{\numberline {III.12}{\ignorespaces Comparaison des simulations aux spectres microonde imm\IeC {\'e}diatement apr\IeC {\`e}s excitation laser}}{88}{figure.caption.91}
 \contentsline {figure}{\numberline {III.13}{\ignorespaces Comparaison des simulations aux spectres microonde lors de l'explosion du nuage}}{88}{figure.caption.92}
 \contentsline {figure}{\numberline {III.14}{\ignorespaces Comparaison des spectres optiques au premier mod\IeC {\`e}le de simulation}}{89}{figure.caption.93}
-\contentsline {figure}{\numberline {III.15}{\ignorespaces \IeC {\'E}volution de la taille du nuage sous l'effet du chauffage d\IeC {\^u} au laser rouge}}{96}{figure.caption.97}
-\contentsline {figure}{\numberline {III.16}{\ignorespaces Comparaison des spectres optiques aux simulations avec \IeC {\'e}quations de taux}}{97}{figure.caption.98}
-\contentsline {figure}{\numberline {III.17}{\ignorespaces Distribution radiale des nuages de Rydberg simul\IeC {\'e}s}}{101}{figure.caption.101}
-\contentsline {figure}{\numberline {III.18}{\ignorespaces \'Evolution simul\IeC {\'e}e du nombre d'atomes de Rydberg excit\IeC {\'e}s en fonction du temps pour diff\IeC {\'e}rents d\IeC {\'e}saccords laser}}{102}{figure.caption.103}
+\contentsline {figure}{\numberline {III.15}{\ignorespaces Comparaison des spectres optiques aux simulations avec \IeC {\'e}quations de taux}}{95}{figure.caption.96}
+\contentsline {figure}{\numberline {III.16}{\ignorespaces \IeC {\'E}volution de la taille du nuage sous l'effet du chauffage d\IeC {\^u} au laser rouge}}{97}{figure.caption.98}
+\contentsline {figure}{\numberline {III.17}{\ignorespaces Comparaison des spectres optiques aux simulations avec \IeC {\'e}quations de taux}}{99}{figure.caption.99}
+\contentsline {figure}{\numberline {III.18}{\ignorespaces Distribution radiale des nuages de Rydberg simul\IeC {\'e}s}}{101}{figure.caption.102}
+\contentsline {figure}{\numberline {III.19}{\ignorespaces \'Evolution simul\IeC {\'e}e du nombre d'atomes de Rydberg excit\IeC {\'e}s en fonction du temps pour diff\IeC {\'e}rents d\IeC {\'e}saccords laser}}{102}{figure.caption.104}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{105}{chapter.4}
-\contentsline {figure}{\numberline {IV.1}{\ignorespaces Sch\IeC {\'e}ma de principe du simulateur quantique}}{107}{figure.caption.105}
-\contentsline {figure}{\numberline {IV.2}{\ignorespaces Variation de $J_z/J$}}{111}{figure.caption.109}
-\contentsline {figure}{\numberline {IV.3}{\ignorespaces Diagramme de phase XXZ}}{112}{figure.caption.110}
-\contentsline {figure}{\numberline {IV.4}{\ignorespaces Potentiel de pi\IeC {\'e}geage pond\IeC {\'e}ro-moteur}}{113}{figure.caption.111}
-\contentsline {figure}{\numberline {IV.5}{\ignorespaces Inhibition de l'\IeC {\'e}mission spontan\IeC {\'e}e en fonction des dimensions du condensateur}}{115}{figure.caption.112}
-\contentsline {figure}{\numberline {IV.6}{\ignorespaces Sch\IeC {\'e}ma de l'\FB@og \IeC {\'e}vaporation van der Waals \fg {} }}{117}{figure.caption.113}
-\contentsline {figure}{\numberline {IV.7}{\ignorespaces Nombre d'atomes restant apr\IeC {\`e}s \IeC {\'e}vaporation van der Waals}}{118}{figure.caption.114}
-\contentsline {figure}{\numberline {IV.8}{\ignorespaces Diagammre d'\IeC {\'e}nergie des niveaux proches du $\mathrm {50C}$}}{120}{figure.caption.115}
-\contentsline {figure}{\numberline {IV.9}{\ignorespaces Interaction dipolaire 50C-50C en pr\IeC {\'e}sence d'un champ magn\IeC {\'e}tique}}{122}{figure.caption.116}
-\contentsline {figure}{\numberline {IV.10}{\ignorespaces Transitions spontan\IeC {\'e}es depuis les niveaux elliptiques $\mathrm {nE^\pm }$}}{123}{figure.caption.117}
+\contentsline {figure}{\numberline {IV.1}{\ignorespaces Sch\IeC {\'e}ma de principe du simulateur quantique}}{107}{figure.caption.106}
+\contentsline {figure}{\numberline {IV.2}{\ignorespaces Variation de $J_z/J$}}{111}{figure.caption.110}
+\contentsline {figure}{\numberline {IV.3}{\ignorespaces Diagramme de phase XXZ}}{112}{figure.caption.111}
+\contentsline {figure}{\numberline {IV.4}{\ignorespaces Potentiel de pi\IeC {\'e}geage pond\IeC {\'e}ro-moteur}}{113}{figure.caption.112}
+\contentsline {figure}{\numberline {IV.5}{\ignorespaces Inhibition de l'\IeC {\'e}mission spontan\IeC {\'e}e en fonction des dimensions du condensateur}}{115}{figure.caption.113}
+\contentsline {figure}{\numberline {IV.6}{\ignorespaces Sch\IeC {\'e}ma de l'\FB@og \IeC {\'e}vaporation van der Waals \fg {} }}{117}{figure.caption.114}
+\contentsline {figure}{\numberline {IV.7}{\ignorespaces Nombre d'atomes restant apr\IeC {\`e}s \IeC {\'e}vaporation van der Waals}}{118}{figure.caption.115}
+\contentsline {figure}{\numberline {IV.8}{\ignorespaces Diagammre d'\IeC {\'e}nergie des niveaux proches du $\mathrm {50C}$}}{120}{figure.caption.116}
+\contentsline {figure}{\numberline {IV.9}{\ignorespaces Interaction dipolaire 50C-50C en pr\IeC {\'e}sence d'un champ magn\IeC {\'e}tique}}{122}{figure.caption.117}
+\contentsline {figure}{\numberline {IV.10}{\ignorespaces Transitions spontan\IeC {\'e}es depuis les niveaux elliptiques $\mathrm {nE^\pm }$}}{123}{figure.caption.118}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Des atomes de Rydberg circulaires sur puce}{127}{chapter.5}
-\contentsline {figure}{\numberline {V.1}{\ignorespaces \IeC {\'E}chelle des niveaux Stark de l'atome d'hydrog\IeC {\`e}ne}}{128}{figure.caption.120}
-\contentsline {figure}{\numberline {V.2}{\ignorespaces Principe du passage adiabatique de circularisation}}{129}{figure.caption.121}
-\contentsline {figure}{\numberline {V.3}{\ignorespaces \IeC {\'E}lectrodes de circularisation et de contr\IeC {\^o}le du champ parall\IeC {\`e}le}}{133}{figure.caption.123}
-\contentsline {figure}{\numberline {V.4}{\ignorespaces Champ \IeC {\'e}lectrique cr\IeC {\'e}\IeC {\'e} par les \IeC {\'e}lectrodes RF}}{135}{figure.caption.124}
-\contentsline {figure}{\numberline {V.5}{\ignorespaces \IeC {\'E}lectrodes de circularisation et de contr\IeC {\^o}le du champ parall\IeC {\`e}le}}{137}{figure.caption.126}
-\contentsline {figure}{\numberline {V.6}{\ignorespaces Second circuit de contr\IeC {\^o}le de la tension des \IeC {\'e}lectrodes d'ionisation}}{139}{figure.caption.127}
-\contentsline {figure}{\numberline {V.7}{\ignorespaces Sch\IeC {\'e}ma de niveaux pour l'excitation d'atomes de Rydberg circulaires}}{140}{figure.caption.128}
-\contentsline {figure}{\numberline {V.8}{\ignorespaces Sch\IeC {\'e}ma d'excitation laser du niveau $\mathrm {50D}$}}{141}{figure.caption.129}
-\contentsline {figure}{\numberline {V.9}{\ignorespaces Spectre laser de la transition $\mathrm {5S\rightarrow 50D_{5/2}}$ en champ nul}}{142}{figure.caption.130}
-\contentsline {figure}{\numberline {V.10}{\ignorespaces Signal d'ionisation \IeC {\'e}largi par interactions du niveau $\mathrm {50D}$}}{143}{figure.caption.132}
-\contentsline {figure}{\numberline {V.11}{\ignorespaces Diagramme Stark du niveau $\mathrm {50D_{5/2}}$}}{144}{figure.caption.134}
-\contentsline {figure}{\numberline {V.12}{\ignorespaces Spectre laser de la transition $\mathrm {5S\rightarrow 50D}$ en champ non nul}}{145}{figure.caption.136}
-\contentsline {figure}{\numberline {V.13}{\ignorespaces Signal d'ionisation $\mathrm {50D\rightarrow 50F}$}}{146}{figure.caption.137}
-\contentsline {figure}{\numberline {V.14}{\ignorespaces Spectre microonde de la transition $\mathrm {50D\rightarrow 50F}$ en champ nul}}{147}{figure.caption.138}
-\contentsline {figure}{\numberline {V.15}{\ignorespaces Sch\IeC {\'e}ma de niveaux de la transition $\mathrm {50D\rightarrow 50F}$}}{148}{figure.caption.140}
-\contentsline {figure}{\numberline {V.16}{\ignorespaces Diagramme Stark d'\IeC {\'e}nergie du niveau $\mathrm {50F}$}}{148}{figure.caption.141}
-\contentsline {figure}{\numberline {V.17}{\ignorespaces Spectre microonde de la transition $\mathrm {50D\rightarrow 50F}$ en champ non nul}}{149}{figure.caption.143}
-\contentsline {figure}{\numberline {V.18}{\ignorespaces S\IeC {\'e}quence d'excitation des atomes de Rydberg circulaires}}{150}{figure.caption.145}
-\contentsline {figure}{\numberline {V.19}{\ignorespaces Dispositif de contr\IeC {\^o}le radio-fr\IeC {\'e}quence}}{151}{figure.caption.147}
-\contentsline {figure}{\numberline {V.20}{\ignorespaces Signaux d'ionisation des atomes circulaires}}{153}{figure.caption.149}
-\contentsline {figure}{\numberline {V.21}{\ignorespaces Sch\IeC {\'e}ma de niveaux pour la spectroscopie microonde des Rydberg circulaires}}{154}{figure.caption.150}
-\contentsline {figure}{\numberline {V.22}{\ignorespaces Signaux d'ionisation pour la spectroscopie microonde des niveaux circulaires}}{156}{figure.caption.153}
-\contentsline {figure}{\numberline {V.23}{\ignorespaces Premiers spectres microonde 50C-51C}}{157}{figure.caption.154}
-\contentsline {figure}{\numberline {V.24}{\ignorespaces Spectres microonde 50C-51C au cours de l'optimisation fine des param\IeC {\`e}tres RF}}{157}{figure.caption.155}
-\contentsline {figure}{\numberline {V.25}{\ignorespaces Spectre microonde 50C-51C optimis\IeC {\'e}}}{158}{figure.caption.156}
-\contentsline {xchapter}{}{161}{chapter*.158}
-\contentsline {figure}{\numberline {V.26}{\ignorespaces Sch\IeC {\'e}ma de principe du dispositif exp\IeC {\'e}rimental adapt\IeC {\'e} au simulateur quantique}}{163}{figure.caption.159}
+\contentsline {figure}{\numberline {V.1}{\ignorespaces \IeC {\'E}chelle des niveaux Stark de l'atome d'hydrog\IeC {\`e}ne}}{128}{figure.caption.121}
+\contentsline {figure}{\numberline {V.2}{\ignorespaces Principe du passage adiabatique de circularisation}}{129}{figure.caption.122}
+\contentsline {figure}{\numberline {V.3}{\ignorespaces \IeC {\'E}lectrodes de circularisation et de contr\IeC {\^o}le du champ parall\IeC {\`e}le}}{133}{figure.caption.124}
+\contentsline {figure}{\numberline {V.4}{\ignorespaces Champ \IeC {\'e}lectrique cr\IeC {\'e}\IeC {\'e} par les \IeC {\'e}lectrodes RF}}{135}{figure.caption.125}
+\contentsline {figure}{\numberline {V.5}{\ignorespaces \IeC {\'E}lectrodes de circularisation et de contr\IeC {\^o}le du champ parall\IeC {\`e}le}}{137}{figure.caption.127}
+\contentsline {figure}{\numberline {V.6}{\ignorespaces Second circuit de contr\IeC {\^o}le de la tension des \IeC {\'e}lectrodes d'ionisation}}{139}{figure.caption.128}
+\contentsline {figure}{\numberline {V.7}{\ignorespaces Sch\IeC {\'e}ma de niveaux pour l'excitation d'atomes de Rydberg circulaires}}{140}{figure.caption.129}
+\contentsline {figure}{\numberline {V.8}{\ignorespaces Sch\IeC {\'e}ma d'excitation laser du niveau $\mathrm {50D}$}}{141}{figure.caption.130}
+\contentsline {figure}{\numberline {V.9}{\ignorespaces Spectre laser de la transition $\mathrm {5S\rightarrow 50D_{5/2}}$ en champ nul}}{142}{figure.caption.131}
+\contentsline {figure}{\numberline {V.10}{\ignorespaces Signal d'ionisation \IeC {\'e}largi par interactions du niveau $\mathrm {50D}$}}{143}{figure.caption.133}
+\contentsline {figure}{\numberline {V.11}{\ignorespaces Diagramme Stark du niveau $\mathrm {50D_{5/2}}$}}{144}{figure.caption.135}
+\contentsline {figure}{\numberline {V.12}{\ignorespaces Spectre laser de la transition $\mathrm {5S\rightarrow 50D}$ en champ non nul}}{145}{figure.caption.137}
+\contentsline {figure}{\numberline {V.13}{\ignorespaces Signal d'ionisation $\mathrm {50D\rightarrow 50F}$}}{146}{figure.caption.138}
+\contentsline {figure}{\numberline {V.14}{\ignorespaces Spectre microonde de la transition $\mathrm {50D\rightarrow 50F}$ en champ nul}}{147}{figure.caption.139}
+\contentsline {figure}{\numberline {V.15}{\ignorespaces Sch\IeC {\'e}ma de niveaux de la transition $\mathrm {50D\rightarrow 50F}$}}{148}{figure.caption.141}
+\contentsline {figure}{\numberline {V.16}{\ignorespaces Diagramme Stark d'\IeC {\'e}nergie du niveau $\mathrm {50F}$}}{148}{figure.caption.142}
+\contentsline {figure}{\numberline {V.17}{\ignorespaces Spectre microonde de la transition $\mathrm {50D\rightarrow 50F}$ en champ non nul}}{149}{figure.caption.144}
+\contentsline {figure}{\numberline {V.18}{\ignorespaces S\IeC {\'e}quence d'excitation des atomes de Rydberg circulaires}}{151}{figure.caption.146}
+\contentsline {figure}{\numberline {V.19}{\ignorespaces Dispositif de contr\IeC {\^o}le radio-fr\IeC {\'e}quence}}{153}{figure.caption.148}
+\contentsline {figure}{\numberline {V.20}{\ignorespaces Signaux d'ionisation des atomes circulaires}}{155}{figure.caption.150}
+\contentsline {figure}{\numberline {V.21}{\ignorespaces Sch\IeC {\'e}ma de niveaux pour la spectroscopie microonde des Rydberg circulaires}}{156}{figure.caption.151}
+\contentsline {figure}{\numberline {V.22}{\ignorespaces Signaux d'ionisation pour la spectroscopie microonde des niveaux circulaires}}{157}{figure.caption.154}
+\contentsline {figure}{\numberline {V.23}{\ignorespaces Premiers spectres microonde 50C-51C}}{158}{figure.caption.155}
+\contentsline {figure}{\numberline {V.24}{\ignorespaces Spectres microonde 50C-51C au cours de l'optimisation fine des param\IeC {\`e}tres RF}}{159}{figure.caption.156}
+\contentsline {figure}{\numberline {V.25}{\ignorespaces Spectre microonde 50C-51C optimis\IeC {\'e}}}{160}{figure.caption.157}
+\contentsline {xchapter}{}{163}{chapter*.159}
+\contentsline {figure}{\numberline {V.26}{\ignorespaces Sch\IeC {\'e}ma de principe du dispositif exp\IeC {\'e}rimental adapt\IeC {\'e} au simulateur quantique}}{165}{figure.caption.160}

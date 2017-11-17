@@ -273,9 +273,9 @@ Les niveaux de Rydberg circulaires ont un seuil d'ionisation des champs bien plu
 Nous avons donc conçu ce circuit de contrôle en conséquence, en utilisant des optocoupleurs MOC8204M capables de bloquer des tensions élevées.
 
 La rampe de potentiel que nous appliquons aux électrodes d'ionisation est programmée pour atteindre $\SI{-500}{\V}$, ce qui est la limité de fonctionnement de l'amplificateur Trek 2205 que nous utilisons.
-Cependant, les optocoupleurs MOC8204M ne bloquent les tensions que jusqu'à $\SI{-465}{\V}$ environ.
+Cependant, les optocoupleurs MOC8204M ne bloquent les tensions que jusqu'à $\SI{-480}{\V}$ environ.
 Si la tension à leurs bornes est supérieure, les optocoupleurs de la voie basse tension redeviennent passants et l'excès de tension est mis automatiquement à la masse par la sortie du générateur \og Stark \fg{}  basse tension.
-Le potentiel maximal que nous pourrons appliquer aux électrodes d'ionisation sera donc de $\SI{-465}{\V}$.
+Le potentiel maximal que nous pourrons appliquer aux électrodes d'ionisation sera donc de $\SI{-480}{\V}$.
 
 %Nous disposons ainsi d'un outil de contrôle du champ électrique dans toutes les directions grâce aux électrodes RF.
 %Le nouveau circuit de commutation des électrodes d'ionisation simplifie le contrôle de la tension lors des phases d'ionisation et de détection des atomes de Rydberg.
@@ -294,7 +294,7 @@ Les tensions sont fournies par deux générateurs de fonctions arbitraires indé
 
 En fin de compte, la voie basse tension du circuit de contrôle des électrodes d'ionisation permet un contrôle fin du champ électrique selon la direction $y$ perpendiculaire à la puce.
 Les électrodes RF permettent le contrôle du champ selon les directions $x$ et $z$, y compris afin de créer un champ radio-fréquence arbitrairement polarisé.
-La voie haute tension du circuit de contrôle permet d'appliquer un potentiel d'ionisation allant jusqu'à $\SI{-465}{\V}$ aux électrodes d'ionisation lors de la phase de détection.
+La voie haute tension du circuit de contrôle permet d'appliquer un potentiel d'ionisation allant jusqu'à $\SI{-480}{\V}$ aux électrodes d'ionisation lors de la phase de détection.
 
 
 \clearpage
@@ -510,7 +510,7 @@ Plutôt que d'effectuer un réaménagement de l'optique d'excitation, ou des rot
 
 
 \clearpage
-	\subsection{La transition microonde $\mathrm{50D \rightarrow 50F}$}
+	\subsection{La transition microonde $\mathrm{50D \rightarrow 50F}$}\label{subsec:50D50F}
 \noindent %fréquence de la transition, arrTimes, spectre en champ nul, Rabi ?? \\
 Après avoir excité le niveau de Rydberg $\mathrm{50D}_{5/2}$, nous souhaitons transférer les atomes dans le sous-niveau $\mathrm{50F},m=2$.
 Intéressons-nous en premier lieu à la transition microonde $\mathrm{50D_{5/2} \rightarrow 50F}$ en champ électrique nul.
@@ -532,7 +532,8 @@ La séparation entre les signaux d'ionisation de chaque niveau est suffisante po
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.85\linewidth]{figures/circulars/arrTimes_50D50F}
+\includegraphics[width=0.85\linewidth]{figures/circulars/arrTimes_50D-50F}
+%Ryd0097 et 0098 du 28-08-2017
 \caption[Signal d'ionisation $\mathrm{50D\rightarrow 50F}$]{
 Signal d'ionisation $\mathrm{50D\rightarrow 50F}$.
 La courbe rouge présente le signal d'ionisation obtenu après excitation laser du niveau $\mathrm{50D}$.
@@ -545,8 +546,8 @@ Les traits pointillés représentent les limites des fenêtres de détection.
 La difficulté principale pour induire efficacement cette transition $\mathrm{50D} \rightarrow\mathrm{50F}$ réside dans la très grande sensibilité Stark du niveau $\mathrm{50F}$, due à sa proximité avec la multiplicité $n=50$.
 Aux champs faibles, inférieurs à $\SI{0.3}{\V/\cm}$, les différents sous-niveaux du $\mathrm{50F}$ présentent des coefficients Stark quadratiques compris entre $\SI {-4}{}$ et $\SI{-8}{\GHz/(\V/\cm)\squared}$.
 
-\`A cause de cette sensibilité au champ électrique, bien plus grande que celle du $\mathrm{50D}$, la transition vers le niveau $\mathrm{50F}$ subit un élargissement Stark inhomogène très important.
-Il nous faudra donc commencer par la caractériser en champ électrique nul, puis nous pourrons dans un second temps augmenter progressivement la valeur du champ $F_y$.
+\`A cause de cette sensibilité au champ électrique, bien plus grande que celle du $\mathrm{50D}$, la transition vers le niveau $\mathrm{50F}$ subit un élargissement Stark inhomogène très important dû aux champs électriques parasites résiduels.
+Il nous faudra donc commencer par cette transition caractériser en champ électrique nul, puis nous pourrons dans un second temps augmenter progressivement la valeur du champ $F_y$ afin de lever la dégénérescence entre les sous-niveaux du $\mathrm{50F}$.
 
 Nous avons dû effectuer une optimisation fine des potentiels appliqués d'une part aux électrodes d'ionisation, afin d'obtenir un champ nul selon la direction $y$, et d'autre part aux quatre électrodes RF, afin d'obtenir un champ nul selon les directions $x$ et $z$.
 L'optimisation du seul champ selon $y$ nous permet d'obtenir une largeur spectrale de l'ordre de $\SI{6}{\MHz}$.
@@ -558,34 +559,40 @@ Le spectre ainsi obtenu, pour une durée d'impulsion $\Delta t _{mo} = \SI{4}{\u
 \includegraphics[width=0.85\linewidth]{figures/circulars/spectres_mw_champnul}
 \caption[Spectre microonde de la transition $\mathrm{50D\rightarrow 50F}$ en champ nul]{
 Spectre microonde de la transition $\mathrm{50D\rightarrow 50F}$ en champ nul.
+Les paramètres de la source microonde ont été d'abord optimisés pour affiner au maximum le spectre (courbe noire).
+Le pic principal de ce spectre affiné, centré en $\SI{72.9592}{\GHz}$, correspond au niveau $\mathrm{50F}_{5/2}$. Ce pic présente la forme asymétrique caractéristique d'un élargissement Stark inhomogène.
+Le petit pic centré en $\SI{72.9607}{\GHz}$ correspond au niveau $\mathrm{50F}_{5/2}$.
+Dans un second temps, les paramètres de la source microonde ont été optimisés pour transférer le plus d'atomes possible vers le niveau $\mathrm{50F}$ en effectuant une impulsion $\pi$ de grande fréquence de Rabi (spectre rouge).
 }
 \label{fig:spectres_mw_champnul}
 \end{figure}
 
-À partir de ce spectre résolu, nous avons pu mesurer des oscillations de Rabi sur cette transition, en suivant le taux de transfert $\mathrm{50D \rightarrow 50F}$ en fonction de la durée de l'impulsion microonde, pour différentes puissances.
+À partir de ce spectre optimisé, nous avons pu mesurer des oscillations de Rabi sur cette transition, en suivant le taux de transfert $\mathrm{50D \rightarrow 50F}$ en fonction de la durée de l'impulsion microonde, pour différentes puissances.
 Cela nous a permis de définir une impulsion $\pi$ à grande fréquence de Rabi permettant de transférer jusqu'à $\SI{90}{\percent}$ des atomes vers le niveau $\mathrm{50F}$.
 Le spectre ainsi obtenu, pour $\Delta t_{mo} = \SI{0.3}{\us}$ et $P_{\text{Anritsu}} = \SI{13}{\dBm}$, est représenté en figure \eqref{fig:spectres_mw_champnul}.
 
+\newpage
 \subsubsection*{Les sous-niveaux $m$ séparés par effet Stark}
 %	\noindent en champ non-nul -> choix de $m_l$ et problème d'élargissement Stark, optimisation des champs
 \noindent \`A partir des spectres optimisés en champ électrique nul, nous avons progressivement augmenté le champ électrique selon la direction $y$ afin de lever la dégénérescence des sous-niveau $m$ du $\mathrm{50F}$.
+Cela nous permettra d'exciter sélectivement le sous-niveau \linebreak $m=2$ qui nous intéresse.
 Le couplage fin pour le niveau $\mathrm{50F}$ est de l'ordre de $\SI{1.3}{\MHz}$.
 Ce couplage est dominé par l'effet Stark dès lors que le champ électrique dépasse $\SI{0.02}{\V/\cm}$.
-Pour cette raison, bien que nous continuions à considérer les sous-niveaux $m_j$ du niveau $\mathrm{50D}_{5/2}$, la base adaptée pour le niveau $\mathrm{50F}$ est celle des sous-niveaux $m$.
+Pour cette raison, bien que nous continuions à considérer les sous-niveaux $m_j$ du niveau $\mathrm{50D}_{5/2}$, la base adaptée pour le niveau $\mathrm{50F}$ est la base parabolique, soit celle des sous-niveaux $m$.
 Le schéma de niveaux de la transition $\mathrm{50D}_{5/2}\rightarrow\mathrm{50F}$ est présenté en figure \eqref{fig:levels_50D50F}.
 La figure \eqref{fig:Stark50F} représente les énergies calculées des sous-niveaux du $\mathrm{50F}$ en fonction du champ électrique.
 Un ajustement parabolique donne les coefficients Stark quadratiques présentés en table \eqref{tab:Stark_50F}.
 
-\begin{figure}[!h]
+\begin{figure}[h]
 \centering
 \includegraphics[width=0.7\linewidth]{figures/circulars/levels_50D50F}
 \caption[Schéma de niveaux de la transition $\mathrm{50D\rightarrow 50F}$]{
 Schéma de niveaux de la transition $\mathrm{50D_{5/2}\rightarrow 50F}$.
-La structure fine est négligeable pour le $\mathrm{50F}$, qui se divise en sous-niveaux $m_l$.
+Dès que le champ électrique dépasse $\SI{0.02}{\V/\cm}$, la structure fine est négligeable pour le $\mathrm{50F}$, qui se divise en sous-niveaux Stark $m_l$.
 }
 \label{fig:levels_50D50F}
 \end{figure}
-%
+
 \begin{figure}[!h]
 \centering
 \includegraphics[width=\linewidth]{figures/circulars/Stark50F}
@@ -593,12 +600,12 @@ La structure fine est négligeable pour le $\mathrm{50F}$, qui se divise en sous
 Diagramme Stark d'énergie du niveau $\mathrm{50F}$.
 Les traits pleins sont des guides visuels entre les points calculés.
 Le champ électrique $|F|$ sépare le niveau $\mathrm{50F}$ en trois sous-niveau $m=1,2$ et $3$.
-La structure fine est négligeable.
+La structure fine du $\mathrm{50F}$, de l'ordre de $\SI{1.5}{\MHz}$, n'est pas visible à cette échelle.
 L'origine des énergies est définie par le niveau $\mathrm{50D}_{5/2}$ en champ nul.
 }
 \label{fig:Stark50F}
 \end{figure}
-%
+
 \begin{table}[!h]
 	\centering
 	\caption[Effet Stark quadratique des sous-niveaux du $\mathrm{50F}$]{Coefficients d'effet Stark quadratique des des sous-niveaux du $\mathrm{50F}$.
@@ -626,38 +633,49 @@ L'origine des énergies est définie par le niveau $\mathrm{50D}_{5/2}$ en champ
 \end{table}
 %
 
-La figure \eqref{fig:spectre_mw_champ} présente un spectre de la transition $\mathrm{50D}_{5/2},m_j=5/2 \rightarrow \mathrm{50F}$ sous un champ électrique de $\SI{0.19}{\V/\cm}$.
+La figure \eqref{fig:spectre_mw_champ} présente un spectre de la transition $\mathrm{50D}_{5/2} \rightarrow \mathrm{50F}$, à partir des sous-niveaux $m_j = 3/2$ et $m_j = 5/2$, sous un champ électrique de $\SI{0.19}{\V/\cm}$.
 %
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.85\linewidth]{figures/circulars/spectre_mw_champ}
+\includegraphics[width=\linewidth]{figures/circulars/spectre_mw_champ_52et32}
 \caption[Spectre microonde de la transition $\mathrm{50D\rightarrow 50F}$ en champ non nul]{
 Spectre microonde de la transition $\mathrm{50D\rightarrow 50F}$ en champ non nul.
-Le champ électrique vaut $|F| = \SI{0.19}{\V/\cm}$.
-Les trois sous-niveaux $m=1,2,3$ sont résolus malgré l'élargissement Stark important.}
+Le champ électrique vaut $|F_y| = \SI{0.19}{\V/\cm}$.
+La courbe noire présente le spectre de la transition $\mathrm{50D_{5/2}},m_j=3/2 \rightarrow \mathrm{50F}$.
+La courbe rouge présente le spectre, plus fin, de la transition $\mathrm{50D_{5/2}},m_j=5/2 \rightarrow \mathrm{50F}$.
+Les trois sous-niveaux $m_l=1,2,3$ du $\mathrm{50F}$ sont résolus malgré l'élargissement Stark important.
+Les pics correspondants sont étiquetés.
+}
 \label{fig:spectre_mw_champ}
 \end{figure}
 %
 L'élargissement Stark inhomogène est tel que nous n'avons pu obtenir des taux de transferts supérieurs à $\SI{25}{\percent}$.
 Le facteur limitant ici est la puissance microonde disponible.
-En effet, le quadrupleur amplifié Militech AMC-15-RFH00 admet une puissance nominale de $\SI[retain-explicit-plus]{+3}{\dBm}$ en entrée et nous ne disposons pas d'amplificateur fonctionnant aux fréquences utilisées.
-De plus, le champ microonde est émis à l'extérieur du cryostat.
+En effet, le quadrupleur amplifié Militech AMC-15-RFH00 admet une puissance nominale de $\SI[retain-explicit-plus]{+3}{\dBm}$ en entrée et nous ne disposons pas actuellement d'autre amplificateur fonctionnant aux fréquences voisines de $\SI{70}{\GHz}$ que nous utilisons.
+De plus, le champ microonde est émis à l'extérieur du cryostat, à plusieurs dizaines de centimètres des atomes.
+Enfin, la propagation de ce champ depuis l'extérieur du crysotat jusqu'aux atomes est gênée par les nombreuses surfaces métalliques internes au cryostat.
 L'installation d'un guide d'onde débouchant à l'intérieur du cryostat au plus près des atomes permettrait d'augmenter significativement la puissance microonde disponible.
-
-\subsubsection*{Les paramètres choisis}
-\noindent En optimisant les conditions d'excitation, nous avons pu porter à $\SI{12}{}$ le nombre d'atomes excités après chaque impulsion laser dans le sous-niveau $\mathrm{50F},m=2$, sous un champ électrique de $\SI{0.19}{\V/cm}$.
-Une valeur de champ électrique plus petite permettrait d'en exciter beaucoup plus, mais nous ne pourrions plus résoudre les différents sous-niveaux $m$ du niveau $\mathrm{50F}$.
 
 De façon surprenante, l'excitation du $\mathrm{50F}$ depuis le sous-niveau $\mathrm{50D}_{5/2}, m_j = 3/2$ donne un spectre plus large et donc moins résolu.
 Nous attribuons cela à l'élargissement Stark inhomogène plus important subi par le sous-niveau $\mathrm{50D}_{5/2}, m_j = 5/2$.
 En raison de celui-ci, la fréquence laser effectue une sélection spatiale des atomes excités de façon résonante depuis le niveau fondamental vers le $\mathrm{50D}_{5/2}, m_j = 5/2$.
 Le nuage d'atomes de Rydberg $\mathrm{50D}$ est par conséquent moins étendu spatialement, limitant ainsi l'élargissement Stark inhomogène de la transition $\mathrm{50D}\rightarrow\mathrm{50F}$.
 
-%\newpage
-	\subsection{Le passage adiabatique $m=2\rightarrow m=n-1$}
+\subsubsection*{Les paramètres choisis}
+\noindent Il est particulièrement important, lorsque nous induisons la transition $\mathrm{50D \rightarrow 50F}$, de ne pas exciter les sous-niveaux $m=1$ et $m=3$, mais seulement le sous-niveau $m=2$.
+En effet, le sous-niveau $m=1$ ne peut pas être couplé à la multiplicité lors du passage adiabatique radio-fréquence, et il est donc inutile qu'il soit peuplé.
+Le sous-niveau $m=3$, pour sa part, est couplé à la multiplicité lors du passage adiabatique, mais il serait alors transféré vers le niveau elliptique $\mathrm{50E^+}$ plutôt que vers le niveau circulaire $\mathrm{50C}$, ce qui nous souhaitons éviter.
+Nous choisissons donc d'exciter le sous-niveau $\mathrm{50F},m=2$ à partir du sous-niveau $m_j=5/2$ du $\mathrm{50D}_{5/2}$, car c'est la solution qui offre le spectre de transition le mieux résolu.
+
+En optimisant les conditions d'excitation, nous avons pu porter à $\SI{12}{}$ le nombre d'atomes excités après chaque impulsion laser dans le sous-niveau $\mathrm{50F},m=2$, sous un champ électrique de $\SI{0.19}{\V/cm}$.
+Une valeur de champ électrique plus petite permettrait d'en exciter beaucoup plus, mais nous ne pourrions plus résoudre les différents sous-niveaux $m$ du niveau $\mathrm{50F}$.
+
+
+\clearpage
+\subsection{Le passage adiabatique $m=2\rightarrow m=n-1$}
 %		\noindent passage adiabatique : séquence type
 \noindent \`A partir du sous-niveau $\mathrm{50F},m=2$, nous pouvons effectuer un passage adiabatique radio-fréquence vers le niveau circulaire $\mathrm{50C}$.
-Pour cela, il nous faut augmenter fortement le champ électrique, de façon rendre la transition depuis le sous-niveau $\mathrm{50F},m=2$ vers le reste de la multiplicité résonante avec les transitions $\sigma^+$ à l'intérieur de cette même multiplicité, comme nous l'avons expliqué en \ref{subsec:adiab_Qdefect}.
+Pour cela, il nous faut augmenter fortement le champ électrique jusqu'à une valeur de $\SI{2.64}{\V/\cm}$, de façon à rendre la transition depuis le sous-niveau $\mathrm{50F},m=2$ vers le reste de la multiplicité résonante avec les transitions $\sigma^+$ à l'intérieur de cette même multiplicité, comme nous l'avons expliqué en \ref{subsec:adiab_Qdefect}.
 Après cette étape de \og branchement Stark \fg{}, des tensions oscillantes à $\nu_{RF} = \SI{230}{\MHz}$ sont appliquées aux quatre électrodes RF, générant le champ radio-fréquence nécessaire au passage adiabatique.
 La séquence d'excitation correspondante est représentée en figure \eqref{fig:seq_circul}.
 
@@ -676,8 +694,10 @@ Enfin, la radio-fréquence est éteinte.
 \label{fig:seq_circul}
 \end{figure}
 
+\clearpage
 \subsubsection*{Le dispositif radio-fréquence}
-\noindent Afin de réaliser le passage adiabatique, nous devons appliquer aux quatre électrodes RF des tensions oscillantes dont les phases relatives et les amplitudes sont bien contrôlées.
+\noindent %Afin de réaliser le passage adiabatique, nous devons appliquer aux quatre électrodes RF des tensions oscillantes dont 
+Les phases relatives et les amplitudes des tensions oscillantes appliquées aux électrodes RF doivent être bien contrôlées, afin de créer un champ électrique polarisé $\sigma^+$ pour le passage adiabatique.
 Pour cela, nous avons mis au point un dispositif d'émission et de contrôle radio-fréquence, inspiré de celui mis au point dans notre laboratoire par Sébastien Gleyzes, Adrien Signoles et Adrien Facon \cite{PHD_SIGNOLES,PHD_FACON}.
 Ce dispositif est représenté en figure \eqref{fig:RF_control}
 
@@ -691,12 +711,13 @@ Ce dispositif est représenté en figure \eqref{fig:RF_control}
 
 Une carte PCI Acquitek Synth-3000 génère, sur chacune de ses deux voies de sortie, un signal électrique oscillant à $\SI{230}{\MHz}$.
 La phase relative entre ces deux voies $A$ et $B$ est contrôlée par le logiciel de contrôle de la carte PCI.
-Le signal généré par chacune de ces deux voies est envoyé vers un déphaseur PULSAR ST-H85-444A, qui sépare le signal sur deux voies avec une phase relative contrôlée par une tension continue.
-Nous disposons ainsi de quatre voies radio-fréquence dont les phases relatives sont contrôlées.
+Le signal généré par chacune de ces deux voies est envoyé vers un diviseur de puissance PULSAR P2-08-411 qui divise le signal sur deux voies d'égale amplitude.
+La phase relative entre ces deux nouvelles voies est contrôlée par un déphaseur PULSAR ST-H85-444A, commandé en tension continue.
+Nous disposons ainsi de quatre voies radio-fréquence dont les phases relatives sont toutes contrôlées.
 
 Chacune de ces quatre voies suit ensuite parallèlement le même chemin.
-Le signal est envoyé sur un mélangeur PULSAR X2L-06-411 alimenté par une tension continue, et est ainsi modulé en amplitude.
-Ensuite, deux mélangeurs PULSAR X2L-06-411 successifs servent d'interrupteur pour bloquer ou laisser passer le signal radio-fréquence.
+Le signal est envoyé sur un mélangeur PULSAR X2L-06-411 alimenté par une tension continue, ce qui permet d'ajuster les amplitudes relatives entre les quatre voies.
+Ensuite, deux mélangeurs successifs servent d'interrupteur pour bloquer ou laisser passer le signal radio-fréquence.
 Le signal est ensuite amplifié par un amplificateur WENTEQ ABP0100-10-3029, puis passe dans un circulateur HYTEM 09-02-57, qui protège l'amplificateur en redirigeant le signal réfléchi vers une terminaison $\SI{50}{\ohm}$ ou vers une voie d'oscilloscope.
 Enfin, le signal est superposé à une tension constante dans un té de polarisation PULSAR BT-20-411.
 Cette tension constante sert au contrôle des champs statiques au niveau des atomes selon les directions $x$ et $z$.
@@ -705,18 +726,18 @@ La sortie du té de polarisation est ensuite câblée à travers le cryostat jus
 Toutes les tensions continues sont générées par des cartes DAC contrôlées par ordinateur.
 Les tensions des deux déphaseurs et les tensions contrôlant l'amplitude radio-fréquence sur chaque voie passent par des résistances de charge de $\SI{220}{\ohm}$.
 Les tensions envoyées directement aux électrodes sont passées par un filtre RC passe-bas constitué d'une résistance de $\SI{47}{\ohm}$ et d'un condensateur de $\SI{15}{\nano\farad}$.
-La constante de temps de ce filtre est de $\SI{0.7}{\us}$ et permet de limiter le bruit haute fréquence au niveau des électrodes à moins de $\SI{5}{\milli\volt}$ pic à pic.
+La constante de temps de ce filtre est de $\SI{0.7}{\us}$ et permet de limiter le bruit haute fréquence au niveau des électrodes.% à moins de $\SI{5}{\milli\volt}$ pic à pic.
 
 La tension $V_{env}$ alimentant les mélangeurs \og interrupteurs \fg{} est générée par un générateur de fonctions arbitraires qui nous permet de mettre en forme l'impulsion RF et de contrôler la vitesse de l'allumage et de l'extinction du champ radio-fréquence.
 Cette tension passe par une filtre RC, identique à celui utilisé pour les tensions continues appliquées aux électrodes.
 
-
+\clearpage
 \subsubsection*{Procédure initiale d'ajustement des amplitudes et phases RF}
 %		\noindent arrTimes avec différentes puissances RF + la procédure d'optimisation
 \noindent La difficulté technique du passage adiabatique réside dans le contrôle des amplitudes et des phases du signal envoyé à chaque électrode afin de produire un champ polarisé $\sigma^+$ le plus pur possible.
 Nous avons utilisé une procédure d'optimisation mise au point par Sébastien Gleyzes, Adrien Signoles et Adrien Facon.
 L'objectif initial de cette optimisation est de progresser sur l'échelle de niveaux du passage adiabatique.
-Comme nous l'avons déjà mentionné, les niveaux à haut moment cinétique ont un seuil d'ionisation plus élevé que les niveaux à bas moment cinétique.
+Comme nous l'avons déjà mentionné, les niveaux à haut moment cinétique ont un seuil d'ionisation plus élevé que les niveaux à bas moment cinétique \cite{TXT_GALLAGHER}.
 En particulier, le seuil d'ionisation croît à mesure que les atomes progressent sur l'échelle du passage adiabatique en direction du niveau circulaire.
 Le signal d'ionisation des atomes de Rydberg permet ainsi d'estimer l'efficacité du passage adiabatique.
 %
@@ -735,31 +756,39 @@ Le signal d'ionisation des atomes de Rydberg permet ainsi d'estimer l'efficacit�
 La procédure d'optimisation est détaillée ci-dessous :
 %
 \begin{enumerate}
-\item \label{item:RFoptim1} Régler la tension de commande $V_{ampl~1}$ de la puissance envoyée à l'électrode $1$ seulement, toutes les autres voies étant éteintes, de façon à pousser vers les plus hauts champs électriques le signal d'ionisation.
-\item Effectuer le même réglage sur les électrodes $2,3$ et $4$ chacune à son tour.
-\item Avec les électrodes $1$ et $2$ à $V_{ampl~1,2}$ respectivement, ajuster la tension de commande $V_{\phi~1-2}$ qui alimente règle la phase relative entre les voies $1$ et $2$, de façon à repousser vers les plus hauts champs et à affiner le pic d'ionisation.
-\item Effectuer de la même façon le réglage de $V_{\phi~3-4}$, avec les électrodes $3$ et $4$ seulement.
-\item Avec les quatre électrodes allumées, ajuster la phase $\phi_{A-B}$ pour obtenir une interférence constructive entre le champ $\sigma^+$ créé par la paire $1-2$ et le champ $\sigma^+$ créé par la paire $3-4$.
-\item Régler la tension $V_{env}$ qui crée l'enveloppe de l'impulsion radio-fréquence pour leq autres électrodes.
-\item Recommencer en \ref{item:RFoptim1}.
+\item \label{item:RFoptim1} Régler la tension de commande $V_{ampl~1}$ de la puissance envoyée à l'électrode $1$ seulement, toutes les autres voies étant éteintes, de façon à obtenir un signal atomique à des champs d'ionisation de plus en plus forts.
+Le signal d'ionisation s'élargit car les atomes se répartissent sur plusieurs niveaux de l'échelle de circularisation.
+S'arrêter lorsque le signal se perd ;
+%pousser vers les plus hauts champs électriques le signal d'ionisation ;
+\item Effectuer le même réglage sur les électrodes $2,3$ et $4$ chacune à son tour, de façon à obtenir un signal d'ionisation similaire à celui obtenu en \ref{item:RFoptim1} ;
+\item Avec les électrodes $1$ et $2$ à $V_{ampl~1,2}$ respectivement et les électrodes $3$ et $4$ éteintes, ajuster la tension de commande $V_{\phi~1-2}$ qui alimente règle la phase relative entre les voies $1$ et $2$, de façon à déplacer le signal atomique vers les champs d'ionisation plus forts.
+Le signal d'ionisation doit aussi s'affiner, ce qui traduit le fait que les atomes  reviennent tous vers un même niveau ;
+\item Effectuer de la même façon le réglage de $V_{\phi~3-4}$, avec les électrodes $3$ et $4$ seulement ;
+\item Avec les quatre électrodes allumées, ajuster la phase $\phi_{A-B}$ pour obtenir une interférence constructive entre le champ $\sigma^+$ créé par la paire $1-2$ et le champ $\sigma^+$ créé par la paire $3-4$ ;
+\item Régler la tension $V_{env}$ qui crée l'enveloppe de l'impulsion radio-fréquence pour les quatre électrodes.
+%\item Refaire les étapes une par une 
 \end{enumerate}
 
 %
-\begin{figure}[!h]
+\begin{figure}[b]
 \centering
-\includegraphics[width=0.85\linewidth]{figures/circulars/arrTimes_with-without_RF}
+\includegraphics[width=\linewidth]{figures/circulars/arrTimes_with-without_RF}
 \caption[Signaux d'ionisation des atomes circulaires]{
 Signaux d'ionisation à l'issue de la procédure d'optimisation.
 La courbe rouge présente le signal d'ionisation obtenu après excitation laser, impulsion microonde $\mathrm{50D \rightarrow 50F}$ et passage adiabatique radiofréquence.
 La courbe noire présente le signal d'ionisation obtenu en éteignant le champ radio-fréquence pendant le passage adiabatique.
+La courbe noire présente un taux de transfert $\mathrm{50D\rightarrow 50F}$ bien moindre que celui de la figure \eqref{fig:arrTimes_50D50F}, car la transition est élargie par effet Stark inhomogène (cf \ref{subsec:50D50F}).
 Les traits pointillés représentent les limites des fenêtres de détection.
 }
 \label{fig:arrTimes_with-without_RF}
 \end{figure}
-%
-\`A l'issue de l'optimisation RF, nous obtenons le signal d'ionisation présenté en figure \eqref{fig:arrTimes_with-without_RF}, qui montre un pic très clair $\SI{150}{\us}$ après le début de la rampe.
-Ce pic est \textit{a priori} dû à des atomes de Rydberg circulaires, mais la détection par ionisation n'est pas assez résolue pour les distinguer d'atomes dans le niveaux elliptiques proches du circulaire.
+
+\`A l'issue de l'optimisation RF, nous obtenons le signal d'ionisation présenté en figure \eqref{fig:arrTimes_with-without_RF}, qui montre un pic très clair autour d'une valeur de champ d'ionisation de  $\SI{155}{\V/\cm}$.
+Ce pic est \textit{a priori} dû à des atomes de Rydberg circulaires, mais la détection par ionisation n'est pas assez résolue pour les distinguer d'atomes dans les niveaux elliptiques proches du circulaire.
 %Le nombre d'atomes circulaires excités ici est de $\SI{5}{}\pm\SI{1}{}$ après chaque impulsion laser.
+
+Remarquons néanmoins qu'une fraction importante des atomes qui se trouvaient dans le niveau $\mathrm{50F}$ a été \og circularisée \fg{}.
+Après optimisation, nous pouvons espérer atteindre une efficacité de l'ordre de $\SI{98}{\percent}$ pour le passage adiabatique \cite{PHD_DIETSCHE}.
 
 \clearpage
 \section{Spectroscopie microonde des atomes de Rydberg circulaires}
@@ -777,17 +806,13 @@ Schéma de niveaux pour la spectroscopie microonde des Rydberg circulaires.
 \end{figure}
 %
 
-En champ électrique nul, toutes les transitions depuis la multiplicité $n$ vers la multiplicité $n-1$ ont la même fréquence.
+En champ électrique nul, toutes les transitions depuis les niveaux proches du circulaires de la multiplicité $n$ vers les niveaux proches du circulaires de la multiplicité $n-1$ ont la même fréquence.
 Grâce à l'effet Stark, qui lève la dégénérescence entre les niveaux d'une même multiplicité, ces transitions deviennent discernables.
 Les coefficients Stark linéaires et quadratiques pour les transitions $50-49$ et $50-51$ sont résumés en table \eqref{tab:Stark_49-50-51C}.		
 
 %
 \begin{table}[!h]
 	\centering
-	\caption[Transitions microonde depuis le niveau $\mathrm{50C}$ et effet Stark différentiel]{
-	Transitions microonde depuis le niveau $\mathrm{50C}$ et effet Stark différentiel
-	}
-	\label{tab:Stark_49-50-51C}
 	\begin{tabular}{cccc}
 		\toprule\midrule
 		Transition
@@ -805,19 +830,19 @@ Les coefficients Stark linéaires et quadratiques pour les transitions $50-49$ e
 		& \SI{0}{}
 		& \SI{-0.254}{} \\
 		$\mathrm{50E^+ \rightarrow 51E^+}$
-		& \SI{51.0991}{}
+		& $-$%\SI{51.0991}{}
 		& \SI[retain-explicit-plus]{+1.92}{}
 		& \SI{-0.263}{} \\
 		$\mathrm{50E^- \rightarrow 51E^-}$
-		& \SI{51.0991}{}
+		& $-$%\SI{51.0991}{}
 		& \SI[retain-explicit-plus]{-1.92}{}
 		& \SI{-0.263}{} \\
 		$\mathrm{50EE^+ \rightarrow 51EE^+}$
-		& \SI{51.0991}{}
+		& $-$%\SI{51.0991}{}
 		& \SI[retain-explicit-plus]{+3.84}{}
 		& \SI{-0.272}{} \\
 		$\mathrm{50EE^- \rightarrow 51EE^-}$
-		& \SI{51.0991}{}
+		& $-$%\SI{51.0991}{}
 		& \SI[retain-explicit-plus]{-3.84}{}
 		& \SI{-0.273}{} \\
 		\midrule
@@ -826,24 +851,28 @@ Les coefficients Stark linéaires et quadratiques pour les transitions $50-49$ e
 		& \SI{0}{}
 		& \SI{-0.230}{} \\
 		$\mathrm{50E^+ \rightarrow 49E^+}$
-		& \SI{54.2594}{}
+		& $-$%\SI{54.2594}{}
 		& \SI[retain-explicit-plus]{+1.92}{}
 		& \SI{-0.239}{} \\
 		$\mathrm{50E^- \rightarrow 49E^-}$
-		& \SI{54.2594}{}
+		& $-$%\SI{54.2594}{}
 		& \SI[retain-explicit-plus]{-1.92}{}
 		& \SI{-0.239}{} \\
 		$\mathrm{50EE^+ \rightarrow 49EE^+}$
-		& \SI{54.2594}{}
+		& $-$%\SI{54.2594}{}
 		& \SI[retain-explicit-plus]{+3.84}{}
 		& \SI{-0.247}{} \\
 		$\mathrm{50EE^- \rightarrow 49EE^-}$
-		& \SI{54.2594}{}
+		& $-$%\SI{54.2594}{}
 		& \SI[retain-explicit-plus]{-3.84}{}
 		& \SI{-0.247}{} \\
 		\midrule
 		\bottomrule
  	\end{tabular}
+ 	\caption[Transitions microonde depuis le niveau $\mathrm{50C}$ et effet Stark différentiel]{
+	Transitions microonde depuis le niveau $\mathrm{50C}$ et effet Stark différentiel
+	}
+	\label{tab:Stark_49-50-51C}
 \end{table}
 %
 La spectroscopie de l'une de ces deux transitions en champ électrique non nul nous permettra ainsi de repérer les atomes dans les niveaux elliptiques proches du $\mathrm{50C}$.
@@ -852,10 +881,12 @@ Une optimisation fine des amplitudes et phases radio-fréquence lors du passage 
 	\subsubsection*{Signaux d'ionisation et limite sur les tensions d'ionisation}
 %	\noindent on peut pas dépasser $\sim 450-470V$ à cause des optocoupleurs -> limite déjà pour les 50C et on perd trop de signal pour les 49C -> choix du 51c pour la spectro, mais ça permet pas de faire une purif ..
 \noindent La figure \eqref{fig:arrTimes_49-50-51C} présente les signaux d'ionisation des atomes de Rydberg après circularisation vers le niveau $\mathrm{50C}$, et après circularisation puis transition du $\mathrm{50C}$ vers les niveaux $\mathrm{49C}$ et $\mathrm{51C}$.
+Comme attendu, le niveau $\mathrm{51C}$ s'ionise avant le $\mathrm{50C}$, donc à champ plus faible, et le $\mathrm{49C}$ s'ionise après le $\mathrm{50C}$, donc à champ plus fort.
 
-\begin{figure}[h]
+\begin{figure}[!h]
+%\vspace{.03\textheight}
 \centering
-\includegraphics[width=.85\linewidth]{figures/circulars/arrTimes_49-50-51C}
+\includegraphics[width=\linewidth]{figures/circulars/arrTimes_49-50-51C}
 %arrTimes 008 et 009 du 1er septembre (cahier 20 p.120) pour le 51C
 %arrTimes 023 et 024 du 31 aout (cahier 20 p.98) pour le 49C
 \caption[Signaux d'ionisation pour la spectroscopie microonde des niveaux circulaires]{
@@ -867,28 +898,29 @@ Les traits pointillés représentent les limites des fenêtres de détection.
 }
 \label{fig:arrTimes_49-50-51C}
 \end{figure}
-%
-Comme attendu, le niveau $\mathrm{51C}$ s'ionise avant le $\mathrm{50C}$, donc à champ plus faible, et le $\mathrm{49C}$ s'ionise après le $\mathrm{50C}$, donc à champ plus fort.
 
-%La rampe de potentiel que nous appliquons aux électrodes d'ionisation est d'une durée de $\SI{170}{\us}$.
+
 La rampe de potentiel que nous appliquons aux électrodes d'ionisation est programmée de façon à ce que le potentiel atteigne $\SI{-500}{\V}$, ce qui est la limite de fonctionnement de l'amplificateur.
-Malheureusement, les optocoupleurs MOC8204M utilisés dans le circuit de commutation ne bloquent pas les tensions aussi hautes.
-Lorsque la tension à leurs bornes atteint $\SI{-465}{\V}$ environ, les optocoupleurs qui servent à bloquer la voie basse tension du circuit de commutation deviennent passants.
-L'excès de tension est alors automatiquement mis à la masse par la sortie du générateur "Stark" basse tension.
-On ne peut ainsi imposer un potentiel supérieur en valeur absolue à $\SI{465}{\V}$ aux électrodes d'ionisation.
-Or le pic d'ionisation du niveau $\mathrm{49C}$ se situe tout à la fin de la rampe d'ionisation, dont la durée totale est de $\SI{160}{\us}$.
+Malheureusement, les optocoupleurs MOC8204M ne permettent de descendre en tension que jusqu'à $\SI{-480}{\V}$, ce qui crée un champ électrique d'ionisation maximum de $F_y = \SI{169}{\V/\cm}$ au niveau des atomes.
+% optocoupleurs MOC8204M utilisés dans le circuit de commutation ne bloquent pas les tensions aussi hautes.
+%Lorsque la tension à leurs bornes atteint $\SI{-465}{\V}$ environ, les optocoupleurs qui servent à bloquer la voie basse tension du circuit de commutation deviennent passants.
+%L'excès de tension est alors automatiquement mis à la masse par la sortie du générateur "Stark" basse tension.
+%On ne peut ainsi imposer un potentiel supérieur en valeur absolue à $\SI{465}{\V}$ aux électrodes d'ionisation.
+Or le pic d'ionisation du niveau $\mathrm{49C}$ se situe tout à la fin de la rampe d'ionisation, autour de $\SI{165}{\V/\cm}$
 L'ionisation du $\mathrm{49C}$ a donc lieu alors que le potentiel d'ionisation est proche de la saturation et nous risquons de perdre significativement en efficacité de détection pour ce niveau.
 Nous privilégierons pour cette raison la spectroscopie de la transition $\mathrm{50C \rightarrow 51C}$.
 
+\clearpage
 	\subsection{Spectres microonde et optimisation fine de la RF}
 
 \noindent Les impulsions microonde pour la spectroscopie des niveaux circulaires ont été générées par la source Anritsu MG3692C que nous utilisions pour adresser la transition $\mathrm{50D \rightarrow 50F}$.
 Nous avons ajouté une source microonde Anapico APSYN420 pour générer le champ microonde nécessaire à cette première transition, libérant ainsi la source Anritsu pour la spectroscopie.
-Les premiers spectres  de la transition $\mathrm{50C-51C}$ sont représentés en figure \eqref{fig:spectre_50C51C_nofield-field} pour deux valeurs de champ électrique : $\SI{0.19}{}$ et $\SI{0.9}{\V/\cm}$.
-%
+
+Les premiers spectres de la transition $\mathrm{50C-51C}$ que nous avons enregistrés sont représentés en figure \eqref{fig:spectre_50C51C_nofield-field} pour deux valeurs de champ électrique : $\SI{0.19}{}$ et $\SI{0.9}{\V/\cm}$.
+
 \begin{figure}[h]
 \centering
-\includegraphics[width=.85\linewidth]{figures/circulars/spectre_50C51C_nofield-field}
+\includegraphics[width=.9\linewidth]{figures/circulars/spectre_50C51C_nofield-field}
 %Ryd0068 et 0070 du 31 aout (cahier 20 p.108)
 \caption[Premiers spectres microonde 50C-51C]{
 %$P_Anritsu = -1.5 dBm	\Delta t = 0.9 \mus$
@@ -902,27 +934,29 @@ Le spectre en champ \og fort \fg{} montre quatre pics, indicatifs d'une populati
 }
 \label{fig:spectre_50C51C_nofield-field}
 \end{figure}
-%
+
 Alors que le spectre en champ faible ne présente qu'un seul pic, proche de la fréquence de transition $\mathrm{50C-51C}$, le spectre en champ fort présente quatre pics.
 Les fréquences de ces quatre pics correspondent très bien aux fréquences des transitions
 $\mathrm{\ket{50C}\rightarrow\ket{51C}, \ket{50E^+}\rightarrow\ket{51E^+}, \ket{50EE^+}\rightarrow\ket{51EE^+}}$ et $\mathrm{\ket{50EEE^+}\rightarrow\ket{51EEE^+}}$.
-Ces quatre pics ayant une amplitude du même ordre, on peut en déduire que les populations dans les états
-$\mathrm{\ket{50C}, \ket{50E^+}, \ket{50EE^+}}$ et $\mathrm{\ket{50EEE^+}}$ sont comparables à la fin du passage adiabatique radio-fréquence.
+Ces quatre pics ayant des amplitudes comparables, on peut en déduire que les populations dans les états
+$\mathrm{\ket{50C}, \ket{50E^+}, \ket{50EE^+}}$ et $\mathrm{\ket{50EEE^+}}$ à la fin du passage adiabatique radio-fréquence sont de même ordre.
 
 Ainsi, nous pouvons reprendre une optimisation fine des paramètres du champ radio-fréquence, c'est-à-dire des amplitudes et phases relatives des quatre voies de signal.
 Le critère d'optimisation est désormais de faire diminuer au mieux les pics du spectre microonde de la figure \eqref{fig:spectre_50C51C_nofield-field} qui ne correspondent pas au niveau circulaire.
 La figure \eqref{fig:spectre_50C51C_optimRFfine} montre les spectres microonde obtenus à différentes étapes de cette optimisation fine.
-\`A l'issue de cette optimisation fine, presque tous les atomes circularisés par le passage adiabatique finissent dans l'état circulaire.
-%
+\`A l'issue de cette optimisation fine, presque tous les atomes circularisés par le passage adiabatique finissent dans l'état circulaire \footnote{
+Des mesures plus précises seront nécessaires à l'estimation quantitative de cette fraction.
+}.
+
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.85\linewidth]{figures/circulars/spectre_50C51C_optimRFfine}
+\includegraphics[width=.9\linewidth]{figures/circulars/spectre_50C51C_optimRFfine}
 %Ryd0107,(0119),0127,0149 du 31 aout (cahier 20 p.117)
 \caption[Spectres microonde 50C-51C au cours de l'optimisation fine des paramètres RF]{
 Spectres microonde 50C-51C au cours de l'optimisation fine des paramètres RF.
 Les spectres sont enregistrés avec un champ électrique de $\SI{0.9}{\V/\cm}$, une puissance microonde $P_{\text{Anritsu}} = \SI{-1.5}{\dBm}$ à la sortie de la source et une durée d'impulsion $\Delta t _{mo} = \SI{0.9}{\us}$, correspondant à une impulsion $\pi$.
 La courbe noire, reprise de la figure \eqref{fig:spectre_50C51C_nofield-field}, montre le spectre avant optimisation.
-La courbe bleue est obtenue après réglage de la phase relative entre les électrodes RF $3$ et $4$.
+%La courbe bleue est obtenue après réglage de la phase relative entre les électrodes RF $3$ et $4$.
 La courbe rouge est obtenue après réglage de la phase relative entre les électrodes RF $1$ et $2$, de la phase entre les deux paires d'électrodes RF $1,2$ et $3,4$ et de la puissance du signal radio-fréquence de chaque voie.
 }
 \label{fig:spectre_50C51C_optimRFfine}
@@ -930,51 +964,64 @@ La courbe rouge est obtenue après réglage de la phase relative entre les élec
 %
 
 
-\subsection{Première estimation du temps de cohérence}
-		%\noindent Rabi(?) et spectre fin final -> borne inf sur le temps de cohérence\\
+\subsection{Première étape vers l'estimation du temps de cohérence}
+%\noindent Rabi(?) et spectre fin final -> borne inf sur le temps de cohérence\\
 \noindent Afin de caractériser les atomes de Rydberg circulaires, nous souhaitons faire une première estimation de leur temps de cohérence.
 Pour cela, nous avons cherché la limite de largeur du spectre de la transition $\mathrm{50C\rightarrow 51C}$.
-Nous avons obtenu, pour une puissance microonde $P_{\text{Anritsu}} = \SI{-7.5}{\dBm}$ à la sortie de la source et une durée d'impulsion $\Delta t _{mo} = \SI{12}{\us}$, le spectre présenté en figure \eqref{fig:spectre_50C51C_narrow_final}.
-%
+Nous avons obtenu, pour une puissance microonde $P_{\text{Anritsu}} = \SI{-7.5}{\dBm}$ à la sortie de la source et une durée d'impulsion $\Delta t_{\text{mo}} = \SI{12}{\us}$, le spectre présenté en figure \eqref{fig:spectre_50C51C_narrow_final}.
+
 \begin{figure}[h]
 \centering
-\includegraphics[width=.85\linewidth]{figures/circulars/spectre_50C51C_narrow_final}
+\includegraphics[width=.9\linewidth]{figures/circulars/spectre_50C51C_narrow_final}
 %Ryd0052 du 1er septembre (cahier 20 p.125)
 \caption[Spectre microonde 50C-51C optimisé]{
 Spectre microonde 50C-51C optimisé.
+Le pic principal centre en \SI{51.0989}{\GHz} correspond à la transition $\mathrm{50C \rightarrow 51C}$. Un ajustement lorentzien donne une largeur spectrale est de $\SI{67.5}{\kHz}$.
+Le petit pic centré en $\SI{51.1007}{\GHz}$ correspond au transfert vers le niveau $\mathrm{51E^+}$ des quelques atomes que le passage adiabatique a amené dans le niveau $\mathrm{50E^+}$.
 }
 \label{fig:spectre_50C51C_narrow_final}
 \end{figure}
-%		
+	
 Un ajustement lorentzien du spectre donne une largeur $\Delta\nu = \SI{67.5}{\kHz}$.
 Cela nous permet de donner une borne inférieure au temps de cohérence $\tau$ des atomes dans le niveau $\mathrm{50C}$ :
 \begin{equation}
-\tau \geq \tau_0 = \frac{1}{\Delta\nu} = \SI{14.8}{\us}
+\tau \geq \tau_0 = \frac{1}{\Delta\nu} = \SI{14.8}{\us}.
 \end{equation}
 
-Les premières mesures à prendre pour améliorer ce temps de cohérence consistent à réduire l'exposition de l'ensemble d'atomes de Rydberg à l'inhomogénéité du champ électrique.
-Pour cela, nous pouvons d'une part éloigner les atomes de la puce, et d'autre part réduire le volume d'excitation, en excitant les atomes de Rydberg à partir d'un nuage froid piégé magnétiquement.
+%Cette estimation est cependant bien pessimiste.
+Cette mesure fournit une borne inférieure pessimiste plutôt qu'une estimation du temps de cohérence.
+En effet, la durée finie $\Delta t_{\text{mo}}$ de l'impulsion microonde impose une largeur spectrale minimale dont l'ordre de grandeur est donné par $1/\Delta t_{\text{mo}}$, c'est-à-dire ici $\SI{83}{\kHz}$ \cite{PHD_NGUYEN}.
+La durée de l'impulsion microonde semble ainsi contribuer dans une vaste mesure à la largeur du spectre présenté en figure \eqref{fig:spectre_50C51C_narrow_final}.
+Des mesures supplémentaires seront nécessaires afin d'affiner encore ce spectre jusqu'à obtenir une largeur limitée par la cohérence.
+Une estimation réaliste du temps de cohérence $\tau$ sera alors possible.
+
+Si le temps de cohérence mesuré n'est pas satisfaisant, les premières mesures à prendre pour l'améliorer consisteront à réduire l'exposition de l'ensemble d'atomes de Rydberg à l'inhomogénéité du champ électrique.
+Or les atomes sont pour l'instant situés à environ $\SI{600}{\um}$ de la puce et le nuage atomique a une taille de l'ordre de $\SI{200}{\um}$ de diamètre.
+Nous pourrions donc éloigner les atomes de la puce.
+\`A une distance de l'ordre du millimètre, les inhomogénéités du champ électriques sont déjà bien moins importantes \cite{PHD_HERMANN}.
+Une autre possibilité serait de réduire le volume d'excitation, en excitant les atomes de Rydberg à partir d'un nuage froid piégé magnétiquement.
 
 Le nombre d'atomes circulaires excités ici est de $\SI{5}{}\pm\SI{1}{}$ après chaque impulsion laser.
 En même temps que le temps de cohérence des niveaux de Rydberg circulaires sera augmenté, nous devrions pouvoir en exciter un plus grand nombre.
 En effet, ce nombre est limité pour l'instant par le petit nombre d'atomes transférés du niveau $\mathrm{50D}_{5/2}$ au niveau $\mathrm{50F}$, en raison de l'élargissement de cette transition.
 La réduction des inhomogénéités de champ électrique permettra de remédier à cet élargissement, et ainsi de transférer une plus grande partie des atomes vers le niveau $\mathrm{50F}$.
-La bonne efficacité du passage adiabatique assurera ensuite le transfert de ceux-ci vers le niveau circulaires $\mathrm{50C}$.
+La bonne efficacité du passage adiabatique assurera ensuite le transfert de ceux-ci vers le niveau circulaire $\mathrm{50C}$.
 
-\section{Perspectives expérimentales à court terme}
-\noindent \`A court terme, les perspectives expérimentales visent en premier lieu à améliorer la qualité de l'excitation d'atomes de Rydberg circulaires.
-\`A cette fin, il sera nécessaire d'éloigner les atomes de la puce et d'envisager l'excitation à partir d'un nuage piégé magnétiquement.
-Cela limitera l'inhomogénéité du champ électrique au niveau des atomes et permettra d'en exciter plus et d'augmenter leur temps de cohérence.
+%\section{Perspectives expérimentales à court terme}
+%\noindent \`A court terme, les perspectives expérimentales visent en premier lieu à améliorer la qualité de l'excitation d'atomes de Rydberg circulaires.
+%\`A cette fin, il sera nécessaire d'éloigner les atomes de la puce et d'envisager l'excitation à partir d'un nuage piégé magnétiquement.
+%Cela limitera l'inhomogénéité du champ électrique au niveau des atomes et permettra d'en exciter plus et d'augmenter leur temps de cohérence.
+%
+%Il sera nécessaire d'estimer également le temps de vie des atomes de Rydberg circulaires.
+%Des mesures très préliminaires montrent un temps de vie de l'ordre de $\SI{1}{}$ à $\SI{2}{\ms}$, qui est très inférieur au temps de vie de $\SI{8.36}{\ms}$ attendu à la température de $\SI{4.2}{\K}$.
+%Une telle réduction du temps de vie, si elle se confirme, serait à attribuer au rayonnement de corps noir de l'environnement extérieur au cryostat qui entre dans la zone à $\SI{4.2}{\K}$ par les hublots d'accès optique.
+%
+%Enfin, l'objectif expérimental à moyen terme est de démontrer le piégeage des atomes de Rydberg circulaires par le faisceau laser Laguerre-Gauss à $\SI{1064}{\nano\meter}$.
+%Une approche naïve pour ce faire serait de comparer une situation où, le faisceau de piégeage étant éteint, les atomes de Rydberg circulaires tombent par gravité, avec la situation où le faisceau de piégeage est allumé et retient les atomes.
+%Or, avec un temps de vie du niveau circulaire inférieur à $\SI{2}{\ms}$, les atomes ne tombent que de $\SI{20}{\um}$ avant d'être désexcités, et ne sortent pas de la zone de détection.
+%Il sera donc nécessaire de travailler à augmenter le temps de vie des niveaux circulaires afin de démontrer leur piégeage.
 
-Il sera nécessaire d'estimer également le temps de vie des atomes de Rydberg circulaires.
-Des mesures très préliminaires montrent un temps de vie de l'ordre de $\SI{1}{}$ à $\SI{2}{\ms}$, qui est très inférieur au temps de vie de $\SI{8.36}{\ms}$ attendu à la température de $\SI{4.2}{\K}$.
-Une telle réduction du temps de vie, si elle se confirme, serait à attribuer au rayonnement de corps noir de l'environnement extérieur au cryostat qui entre dans la zone à $\SI{4.2}{\K}$ par les hublots d'accès optique.
-
-Enfin, l'objectif expérimental à moyen terme est de démontrer le piégeage des atomes de Rydberg circulaires par le faisceau laser Laguerre-Gauss à $\SI{1064}{\nano\meter}$.
-Une approche naïve pour ce faire serait de comparer une situation où, le faisceau de piégeage étant éteint, les atomes de Rydberg circulaires tombent par gravité, avec la situation où le faisceau de piégeage est allumé et retient les atomes.
-Or, avec un temps de vie du niveau circulaire inférieur à $\SI{2}{\ms}$, les atomes ne tombent que de $\SI{20}{\um}$ avant d'être désexcités, et ne sortent pas de la zone de détection.
-Il sera donc nécessaire de travailler à augmenter le temps de vie des niveaux circulaires afin de démontrer leur piégeage.
-
+\clearpage
 \section*{Conclusion}
 \noindent Dans ce chapitre, nous avons exposé les conditions expérimentales qui nous ont permis d'exciter des atomes de Rydberg circulaires sur puce.
 Cette excitation est faite en trois étapes.
@@ -989,9 +1036,21 @@ Des tensions constantes appliquées sur les mêmes électrodes permettent de com
 
 La spectroscopie microonde du niveau $\mathrm{50C}$ vers le niveau $\mathrm{51C}$, en présence d'un champ électrique, permet de détecter la présence d'atomes dans les niveaux elliptiques proches du circulaires.
 En optimisant finement les paramètres du signal radio-fréquence, nous avons pu nous assurer que tous les atomes subissant le passage adiabatique étaient bien transférés vers le niveau circulaire $\mathrm{50C}$.
-Enfin, cette même technique de spectroscopie nous a fourni une première estimation du temps de cohérence des atomes de Rydberg circulaires près de la puce.
+Enfin, cette même technique de spectroscopie nous a fourni une première borne inférieure du temps de cohérence des atomes de Rydberg circulaires près de la puce.
 
-\`A court terme, les travaux expérimentaux menés dans notre laboratoire viseront à améliorer ce temps de cohérence et à assurer un temps de vie suffisant au niveau circulaire afin de démontrer le piégeage par laser d'atomes de Rydberg circulaires.
+%\`A court terme, les travaux expérimentaux menés dans notre laboratoire viseront à améliorer ce temps de cohérence et à assurer un temps de vie suffisant au niveau circulaire afin de démontrer le piégeage par laser d'atomes de Rydberg circulaires.
+\`A court terme, les perspectives expérimentales visent en premier lieu à améliorer la qualité de l'excitation d'atomes de Rydberg circulaires.
+\`A cette fin, il sera nécessaire d'éloigner les atomes de la puce et d'envisager l'excitation à partir d'un nuage piégé magnétiquement.
+Cela limitera l'inhomogénéité du champ électrique au niveau des atomes et permettra d'en exciter plus et d'augmenter leur temps de cohérence.
+
+Il sera nécessaire d'estimer également le temps de vie des atomes de Rydberg circulaires.
+Des mesures très préliminaires montrent un temps de vie de l'ordre de $\SI{1}{}$ à $\SI{2}{\ms}$, qui est très inférieur au temps de vie de $\SI{8.36}{\ms}$ attendu à la température de $\SI{4.2}{\K}$.
+Une telle réduction du temps de vie est à attribuer au rayonnement de corps noir de l'environnement extérieur au cryostat qui entre dans la zone à $\SI{4.2}{\K}$ par les hublots d'accès optique.
+
+Enfin, l'objectif expérimental à moyen terme est de démontrer le piégeage des atomes de Rydberg circulaires par le faisceau laser Laguerre-Gauss à $\SI{1064}{\nano\meter}$.
+%Une approche naïve pour ce faire serait de comparer une situation où, le faisceau de piégeage étant éteint, les atomes de Rydberg circulaires tombent par gravité, avec la situation où le faisceau de piégeage est allumé et retient les atomes.
+%Or, avec un temps de vie du niveau circulaire inférieur à $\SI{2}{\ms}$, les atomes ne tombent que de $\SI{20}{\um}$ avant d'être désexcités, et ne sortent pas de la zone de détection.
+%Il sera donc nécessaire de travailler à augmenter le temps de vie des niveaux circulaires afin de démontrer leur piégeage.
 
 %	\subsection{Temps de vie}
 %		\noindent temps de vie théorique, temps de vie mesuré, température effective ?

@@ -1,10 +1,10 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {french}
-\contentsline {chapter}{Table des figures}{v}{chapter*.2}
-\contentsline {xchapter}{}{v}{chapter*.2}
-\contentsline {chapter}{Liste des tableaux}{vii}{chapter*.3}
-\contentsline {xchapter}{}{vii}{chapter*.3}
+\contentsline {chapter}{Table des figures}{vii}{chapter*.2}
+\contentsline {xchapter}{}{ix}{chapter*.2}
+\contentsline {chapter}{Liste des tableaux}{xi}{chapter*.3}
+\contentsline {xchapter}{}{xi}{chapter*.3}
 \contentsline {chapter}{Introduction}{1}{chapter*.4}
 \contentsline {xchapter}{}{1}{chapter*.4}
 \contentsline {chapter}{\numberline {I}Atomes de Rydberg alcalins en interaction}{9}{chapter.1}
@@ -49,9 +49,11 @@
 \contentsline {subsection}{\numberline {III.3.3}La limite du mod\IeC {\`e}le : l'absence de temps}{89}{subsection.3.3.3}
 \contentsline {section}{\numberline {III.4}Raffinement du mod\IeC {\`e}le : \IeC {\'e}quations de taux pour la dynamique d'excitation}{91}{section.3.4}
 \contentsline {subsection}{\numberline {III.4.1}Mod\IeC {\`e}le d'\IeC {\'e}quation de taux et adaptation de l'algorithme}{91}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {III.4.2}Estimation et prise en compte du chauffage du nuage atomique}{94}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {III.4.3}Comparaison aux spectres optiques exp\IeC {\'e}rimentaux}{97}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {III.4.4}Caract\IeC {\'e}ristiques des nuages simul\IeC {\'e}s}{98}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {III.4.2}R\IeC {\'e}sultats simulant une expansion du nuage atomique}{94}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {III.4.3}Chauffage et expansion r\IeC {\'e}alistes du nuage atomique}{96}{subsection.3.4.3}
+\contentsline {section}{\numberline {III.5}R\IeC {\'e}sultats du mod\IeC {\`e}le final de simulation}{98}{section.3.5}
+\contentsline {subsection}{\numberline {III.5.1}Comparaison aux r\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{98}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {III.5.2}Caract\IeC {\'e}ristiques des nuages simul\IeC {\'e}s}{100}{subsection.3.5.2}
 \contentsline {chapter}{\numberline {IV}Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{105}{chapter.4}
 \contentsline {section}{\numberline {IV.1}Principe g\IeC {\'e}n\IeC {\'e}ral du simulateur}{106}{section.4.1}
 \contentsline {subsection}{\numberline {IV.1.1}Le hamiltonien simul\IeC {\'e}}{107}{subsection.4.1.1}
@@ -72,10 +74,9 @@
 \contentsline {section}{\numberline {V.3}Le chemin du niveau fondamental au niveau de Rydberg circulaire $\mathrm {50C}$}{140}{section.5.3}
 \contentsline {subsection}{\numberline {V.3.1}La transition laser $\mathrm {5S \rightarrow 50D}$}{140}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {V.3.2}La transition microonde $\mathrm {50D \rightarrow 50F}$}{146}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {V.3.3}Le passage adiabatique $m=2\rightarrow m=n-1$}{149}{subsection.5.3.3}
-\contentsline {section}{\numberline {V.4}Spectroscopie microonde des atomes de Rydberg circulaires}{154}{section.5.4}
-\contentsline {subsection}{\numberline {V.4.1}Spectres microonde et optimisation fine de la RF}{155}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {V.4.2}Premi\IeC {\`e}re estimation du temps de coh\IeC {\'e}rence}{156}{subsection.5.4.2}
-\contentsline {section}{\numberline {V.5}Perspectives exp\IeC {\'e}rimentales \IeC {\`a} court terme}{158}{section.5.5}
-\contentsline {chapter}{Conclusion}{161}{chapter*.158}
-\contentsline {xchapter}{}{161}{chapter*.158}
+\contentsline {subsection}{\numberline {V.3.3}Le passage adiabatique $m=2\rightarrow m=n-1$}{151}{subsection.5.3.3}
+\contentsline {section}{\numberline {V.4}Spectroscopie microonde des atomes de Rydberg circulaires}{156}{section.5.4}
+\contentsline {subsection}{\numberline {V.4.1}Spectres microonde et optimisation fine de la RF}{158}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {V.4.2}Premi\IeC {\`e}re \IeC {\'e}tape vers l'estimation du temps de coh\IeC {\'e}rence}{159}{subsection.5.4.2}
+\contentsline {chapter}{Conclusion}{163}{chapter*.159}
+\contentsline {xchapter}{}{163}{chapter*.159}

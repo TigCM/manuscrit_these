@@ -110,6 +110,7 @@
       \strng{fullhash}{98275b60609543d77011429dd391d875}
       \field{sortinit}{0}
       \field{labeltitle}{Decoherence and the transition from quantum to classical}
+      \field{journaltitle}{Physics Today}
       \field{month}{10}
       \field{title}{Decoherence and the transition from quantum to classical}
       \field{volume}{44}
@@ -1114,174 +1115,6 @@
       \verb{url}
       \verb http://link.aps.org/doi/10.1103/PhysRevLett.109.053002
       \endverb
-    \endentry
-    \entry{ENS_CHIPSPECTRO14}{article}{}
-      \name{labelname}{10}{}{%
-        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=c245e2781362b93a573b4288e3934e68}{Nogues}{N\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=97bdb4b35a5718a77e34b7b6202662a9}{Dotsenko}{D\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{10}{}{%
-        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=c245e2781362b93a573b4288e3934e68}{Nogues}{N\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=97bdb4b35a5718a77e34b7b6202662a9}{Dotsenko}{D\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{3daa0f796f369bafcf8020f3c3b3e52e}
-      \strng{fullhash}{0e7c497f01c515278ddeb6a29bfc18ab}
-      \field{sortinit}{0}
-      \field{labeltitle}{Long coherence times for Rydberg qubits on a superconducting atom chip}
-      \field{issue}{4}
-      \field{journaltitle}{Phys. Rev. A}
-      \field{month}{10}
-      \field{title}{Long coherence times for Rydberg qubits on a superconducting atom chip}
-      \field{volume}{90}
-      \field{year}{2014}
-      \field{pages}{040502}
-      \verb{doi}
-      \verb 10.1103/PhysRevA.90.040502
-      \endverb
-      \verb{url}
-      \verb http://link.aps.org/doi/10.1103/PhysRevA.90.040502
-      \endverb
-    \endentry
-    \entry{ENS_CHIPINTERACTION15}{article}{}
-      \name{labelname}{8}{}{%
-        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{8}{}{%
-        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{c8dd25340b3da7ce863424fce300c923}
-      \strng{fullhash}{a4695b4be43e7f47756784f1aa0530cf}
-      \field{sortinit}{0}
-      \field{labeltitle}{Microwaves Probe Dipole Blockade and van der Waals Forces in a Cold Rydberg Gas}
-      \field{issue}{1}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{06}
-      \field{title}{Microwaves Probe Dipole Blockade and van der Waals Forces in a Cold Rydberg Gas}
-      \field{volume}{115}
-      \field{year}{2015}
-      \field{pages}{013001}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.115.013001
-      \endverb
-      \verb{url}
-      \verb http://link.aps.org/doi/10.1103/PhysRevLett.115.013001
-      \endverb
-    \endentry
-    \entry{PHD_HERMANN}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=62009545a9ae63f3c1378297883ceeb9}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{Carla}{C\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=62009545a9ae63f3c1378297883ceeb9}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{Carla}{C\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {Université Pierre et Marie Curie - Paris VI}%
-      }
-      \strng{namehash}{62009545a9ae63f3c1378297883ceeb9}
-      \strng{fullhash}{62009545a9ae63f3c1378297883ceeb9}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Towards deterministic preparation of single Rydberg atoms and applications to quantum information processing}}
-      \field{month}{11}
-      \field{number}{2014PA066351}
-      \field{title}{{Towards deterministic preparation of single Rydberg atoms and applications to quantum information processing}}
-      \field{type}{phdthesis}
-      \field{year}{2014}
-      \verb{file}
-      \verb these_archivage_3072019opti.pdf:https\://tel.archives-ouvertes.fr/tel-01165050/file/these_archivage_3072019opti.pdf:PDF
-      \endverb
-      \verb{url}
-      \verb https://tel.archives-ouvertes.fr/tel-01165050
-      \endverb
-      \keyw{Rydberg atoms ; Superconducting atom-chip ; Superpositions d'etats mésoscopiques ; CQED ; Spectroscopie micro-ondes ; Puce à atomes supraconductrice ; Atomes de Rydberg}
-    \endentry
-    \entry{PHD_CELISTRINO}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {Université Pierre et Marie Curie - Paris VI}%
-      }
-      \strng{namehash}{bffd6165fdb9dbce81c97035804449be}
-      \strng{fullhash}{bffd6165fdb9dbce81c97035804449be}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
-      \field{month}{09}
-      \field{title}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
-      \field{type}{phdthesis}
-      \field{year}{2014}
-      \verb{file}
-      \verb PHD_Raul.pdf:https\://tel.archives-ouvertes.fr/tel-01076337/file/PHD_Raul.pdf:PDF
-      \endverb
-      \verb{url}
-      \verb https://tel.archives-ouvertes.fr/tel-01076337
-      \endverb
-      \keyw{dipole blockade ; microwave spectroscopy ; atom chip ; Rydberg atoms ; dipole-dipole interaction ; atomes de Rydberg ; interaction dipolaire ; puce à atomes ; spectroscopie microonde ; blocage dipolaire}
-    \endentry
-    \entry{PHD_NGUYEN}{thesis}{}
-      \name{labelname}{1}{}{%
-        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-      }
-      \list{institution}{1}{%
-        {Université Pierre et Marie Curie - Paris VI}%
-      }
-      \strng{namehash}{ff3b5d5276beae6f337805de454e85e5}
-      \strng{fullhash}{ff3b5d5276beae6f337805de454e85e5}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
-      \field{month}{11}
-      \field{number}{2016PA066695}
-      \field{title}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
-      \field{type}{Theses}
-      \field{year}{2016}
-      \verb{file}
-      \verb https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf
-      \endverb
-      \verb{url}
-      \verb https://tel.archives-ouvertes.fr/tel-01609840
-      \endverb
-      \keyw{Quantum simulation ; Rydberg atoms ; Atom chip ; Simulation quantique ; Atomes de Rydberg ; Atomes circulaires ; Interaction dipolaire ; Puce à atome ; Spectroscopie micro-onde}
     \endentry
     \entry{Cirac2003}{article}{}
       \name{labelname}{2}{}{%
@@ -2334,6 +2167,77 @@
       \verb http://link.aps.org/doi/10.1103/PhysRevA.89.011402
       \endverb
     \endentry
+    \entry{MX_PORTORYDDRESS16}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=96126cb977d3f7f8bb70907af3cda9c4}{Goldschmidt}{G\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1f7c2f548e2d3943b37cc23bb1d8be97}{Boulier}{B\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=cae70fe2d7dac3e67ef86439092a06bd}{Brown}{B\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=f475162dc7b9a1008b335c6af6a596bb}{Koller}{K\bibinitperiod}{S.\bibnamedelimi B.}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=0131ffff4f1173e260d3c7852bacc9a7}{Young}{Y\bibinitperiod}{J.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=5c3059b1cf4ad5b701324ccd35e01826}{Gorshkov}{G\bibinitperiod}{A.\bibnamedelimi V.}{A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=bb29c56c34ee88279ac2e9f12cb237d6}{Rolston}{R\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=351c5c5291ec734bdf77e1f549fe71ae}{Porto}{P\bibinitperiod}{J.\bibnamedelimi V.}{J\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=96126cb977d3f7f8bb70907af3cda9c4}{Goldschmidt}{G\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1f7c2f548e2d3943b37cc23bb1d8be97}{Boulier}{B\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=cae70fe2d7dac3e67ef86439092a06bd}{Brown}{B\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=f475162dc7b9a1008b335c6af6a596bb}{Koller}{K\bibinitperiod}{S.\bibnamedelimi B.}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=0131ffff4f1173e260d3c7852bacc9a7}{Young}{Y\bibinitperiod}{J.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=5c3059b1cf4ad5b701324ccd35e01826}{Gorshkov}{G\bibinitperiod}{A.\bibnamedelimi V.}{A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=bb29c56c34ee88279ac2e9f12cb237d6}{Rolston}{R\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=351c5c5291ec734bdf77e1f549fe71ae}{Porto}{P\bibinitperiod}{J.\bibnamedelimi V.}{J\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f9185ea01c5ef2689a6fdbe443ea1f47}
+      \strng{fullhash}{d989df4410b9e84ba937a6a7e39b4125}
+      \field{sortinit}{0}
+      \field{labeltitle}{Anomalous Broadening in Driven Dissipative {R}ydberg Systems}
+      \field{issue}{11}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Anomalous Broadening in Driven Dissipative {R}ydberg Systems}
+      \field{volume}{116}
+      \field{year}{2016}
+      \field{pages}{113001}
+      \verb{file}
+      \verb MX_PORTORYDDRESS16.pdf:mx/MX_PORTORYDDRESS16.pdf:PDF
+      \endverb
+      \keyw{mx,rydberg,dipole,collective}
+    \endentry
+    \entry{zeiher2016many}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=ebd99a912e076a7dc696db17cf8b435f}{Zeiher}{Z\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5e5d9f35f4150d5a199206588f1f9bfe}{Bijnen}{B\bibinitperiod}{Rick}{R\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+        {{hash=603e530e271da48b67eec37283b4dac5}{Schauß}{S\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bf9e67b98f798f9f9b49a855acc96270}{Hild}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=cca745785e021470e6cf79cc8ff3ee42}{Choi}{C\bibinitperiod}{Jae-yoon}{J\bibinithyphendelim y\bibinitperiod}{}{}{}{}}%
+        {{hash=fe09948c5ae865eaa4acfdfa5bd3da6f}{Pohl}{P\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=ebd99a912e076a7dc696db17cf8b435f}{Zeiher}{Z\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5e5d9f35f4150d5a199206588f1f9bfe}{Bijnen}{B\bibinitperiod}{Rick}{R\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
+        {{hash=603e530e271da48b67eec37283b4dac5}{Schauß}{S\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bf9e67b98f798f9f9b49a855acc96270}{Hild}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=cca745785e021470e6cf79cc8ff3ee42}{Choi}{C\bibinitperiod}{Jae-yoon}{J\bibinithyphendelim y\bibinitperiod}{}{}{}{}}%
+        {{hash=fe09948c5ae865eaa4acfdfa5bd3da6f}{Pohl}{P\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Research}%
+      }
+      \strng{namehash}{579786b0a6a8d4aa9d381b3ed863ba84}
+      \strng{fullhash}{d6601ce492d5e83c6df6f56759a734f6}
+      \field{sortinit}{0}
+      \field{labeltitle}{Many-body interferometry of a Rydberg-dressed spin lattice}
+      \field{journaltitle}{Nature Physics}
+      \field{number}{12}
+      \field{title}{Many-body interferometry of a Rydberg-dressed spin lattice}
+      \field{volume}{12}
+      \field{year}{2016}
+      \field{pages}{1095\bibrangedash 1099}
+    \endentry
     \entry{MX_RAITHELTRAP00}{article}{}
       \name{labelname}{5}{}{%
         {{hash=590b206fce5ddb24a2033db3e7de1523}{Dutta}{D\bibinitperiod}{S.\bibnamedelimi K.}{S\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
@@ -2387,6 +2291,174 @@
       \verb MX_RAITHELPHOTION13.pdf:mx/MX_RAITHELPHOTION13.pdf:PDF
       \endverb
       \keyw{rydberg,mx,traps}
+    \endentry
+    \entry{ENS_CHIPSPECTRO14}{article}{}
+      \name{labelname}{10}{}{%
+        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=c245e2781362b93a573b4288e3934e68}{Nogues}{N\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=97bdb4b35a5718a77e34b7b6202662a9}{Dotsenko}{D\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=c245e2781362b93a573b4288e3934e68}{Nogues}{N\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=97bdb4b35a5718a77e34b7b6202662a9}{Dotsenko}{D\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{3daa0f796f369bafcf8020f3c3b3e52e}
+      \strng{fullhash}{0e7c497f01c515278ddeb6a29bfc18ab}
+      \field{sortinit}{0}
+      \field{labeltitle}{Long coherence times for Rydberg qubits on a superconducting atom chip}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{10}
+      \field{title}{Long coherence times for Rydberg qubits on a superconducting atom chip}
+      \field{volume}{90}
+      \field{year}{2014}
+      \field{pages}{040502}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.90.040502
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevA.90.040502
+      \endverb
+    \endentry
+    \entry{ENS_CHIPINTERACTION15}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=0ae5ff237054dc4e788d8e8cf417c170}{Teixeira}{T\bibinitperiod}{R.\bibnamedelimi Celistrino}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=153ab76606eccd4c79ed0b0629d29688}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=b78dca0991966952e840ce95be9f7a3c}{Nguyen}{N\bibinitperiod}{T.\bibnamedelimi L.}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b3eb155314119c6548c94a8869260a2}{Cantat-Moltrecht}{C\bibinithyphendelim M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=953ed447ddae496a2876c4512f9e1c95}{Raimond}{R\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=f2c30c5a741af9670d914f0c7b512d87}{Haroche}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=f7bacea4656b1d0a5bf8bccef1b6efbd}{Gleyzes}{G\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=31b3a580d024f2761dc43a9cc10299b7}{Brune}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c8dd25340b3da7ce863424fce300c923}
+      \strng{fullhash}{a4695b4be43e7f47756784f1aa0530cf}
+      \field{sortinit}{0}
+      \field{labeltitle}{Microwaves Probe Dipole Blockade and van der Waals Forces in a Cold Rydberg Gas}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{06}
+      \field{title}{Microwaves Probe Dipole Blockade and van der Waals Forces in a Cold Rydberg Gas}
+      \field{volume}{115}
+      \field{year}{2015}
+      \field{pages}{013001}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.115.013001
+      \endverb
+      \verb{url}
+      \verb http://link.aps.org/doi/10.1103/PhysRevLett.115.013001
+      \endverb
+    \endentry
+    \entry{PHD_HERMANN}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=62009545a9ae63f3c1378297883ceeb9}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{Carla}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=62009545a9ae63f3c1378297883ceeb9}{Hermann-Avigliano}{H\bibinithyphendelim A\bibinitperiod}{Carla}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{62009545a9ae63f3c1378297883ceeb9}
+      \strng{fullhash}{62009545a9ae63f3c1378297883ceeb9}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Towards deterministic preparation of single Rydberg atoms and applications to quantum information processing}}
+      \field{month}{11}
+      \field{number}{2014PA066351}
+      \field{title}{{Towards deterministic preparation of single Rydberg atoms and applications to quantum information processing}}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \verb{file}
+      \verb these_archivage_3072019opti.pdf:https\://tel.archives-ouvertes.fr/tel-01165050/file/these_archivage_3072019opti.pdf:PDF
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01165050
+      \endverb
+      \keyw{Rydberg atoms ; Superconducting atom-chip ; Superpositions d'etats mésoscopiques ; CQED ; Spectroscopie micro-ondes ; Puce à atomes supraconductrice ; Atomes de Rydberg}
+    \endentry
+    \entry{PHD_CELISTRINO}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bffd6165fdb9dbce81c97035804449be}{Celistrino\bibnamedelima Teixeira}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{Raul}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{bffd6165fdb9dbce81c97035804449be}
+      \strng{fullhash}{bffd6165fdb9dbce81c97035804449be}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
+      \field{month}{09}
+      \field{title}{{Effets mécaniques de l'interaction dipolaire des atomes de Rydberg sondés par spectroscopie microonde }}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \verb{file}
+      \verb PHD_Raul.pdf:https\://tel.archives-ouvertes.fr/tel-01076337/file/PHD_Raul.pdf:PDF
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01076337
+      \endverb
+      \keyw{dipole blockade ; microwave spectroscopy ; atom chip ; Rydberg atoms ; dipole-dipole interaction ; atomes de Rydberg ; interaction dipolaire ; puce à atomes ; spectroscopie microonde ; blocage dipolaire}
+    \endentry
+    \entry{PHD_NGUYEN}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ff3b5d5276beae6f337805de454e85e5}{Nguyen}{N\bibinitperiod}{Thanh\bibnamedelima Long}{T\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{ff3b5d5276beae6f337805de454e85e5}
+      \strng{fullhash}{ff3b5d5276beae6f337805de454e85e5}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
+      \field{month}{11}
+      \field{number}{2016PA066695}
+      \field{title}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
+      \field{type}{Theses}
+      \field{year}{2016}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01609840
+      \endverb
+      \keyw{Quantum simulation ; Rydberg atoms ; Atom chip ; Simulation quantique ; Atomes de Rydberg ; Atomes circulaires ; Interaction dipolaire ; Puce à atome ; Spectroscopie micro-onde}
     \endentry
     \entry{ENS_PRE_CIRCSIM}{article}{}
       \true{morelabelname}
@@ -3355,7 +3427,7 @@
         {{hash=1764a0043ef6944ff74504e2dda4a42e}{Leupold}{L\bibinitperiod}{Florian\bibnamedelima Michael}{F\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
       }
       \list{institution}{1}{%
-        {. ETH-Zürich}%
+        {ETH-Zürich}%
       }
       \strng{namehash}{1764a0043ef6944ff74504e2dda4a42e}
       \strng{fullhash}{1764a0043ef6944ff74504e2dda4a42e}
@@ -3401,42 +3473,6 @@
       \verb MX_PFAUMOLECULES14.pdf:mx/MX_PFAUMOLECULES14.pdf:PDF
       \endverb
       \keyw{rydberg,mx,dipole}
-    \endentry
-    \entry{MX_PORTORYDDRESS16}{article}{}
-      \name{labelname}{8}{}{%
-        {{hash=96126cb977d3f7f8bb70907af3cda9c4}{Goldschmidt}{G\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=1f7c2f548e2d3943b37cc23bb1d8be97}{Boulier}{B\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=cae70fe2d7dac3e67ef86439092a06bd}{Brown}{B\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=f475162dc7b9a1008b335c6af6a596bb}{Koller}{K\bibinitperiod}{S.\bibnamedelimi B.}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=0131ffff4f1173e260d3c7852bacc9a7}{Young}{Y\bibinitperiod}{J.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=5c3059b1cf4ad5b701324ccd35e01826}{Gorshkov}{G\bibinitperiod}{A.\bibnamedelimi V.}{A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-        {{hash=bb29c56c34ee88279ac2e9f12cb237d6}{Rolston}{R\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=351c5c5291ec734bdf77e1f549fe71ae}{Porto}{P\bibinitperiod}{J.\bibnamedelimi V.}{J\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{8}{}{%
-        {{hash=96126cb977d3f7f8bb70907af3cda9c4}{Goldschmidt}{G\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=1f7c2f548e2d3943b37cc23bb1d8be97}{Boulier}{B\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=cae70fe2d7dac3e67ef86439092a06bd}{Brown}{B\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=f475162dc7b9a1008b335c6af6a596bb}{Koller}{K\bibinitperiod}{S.\bibnamedelimi B.}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=0131ffff4f1173e260d3c7852bacc9a7}{Young}{Y\bibinitperiod}{J.\bibnamedelimi T.}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=5c3059b1cf4ad5b701324ccd35e01826}{Gorshkov}{G\bibinitperiod}{A.\bibnamedelimi V.}{A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-        {{hash=bb29c56c34ee88279ac2e9f12cb237d6}{Rolston}{R\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=351c5c5291ec734bdf77e1f549fe71ae}{Porto}{P\bibinitperiod}{J.\bibnamedelimi V.}{J\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{f9185ea01c5ef2689a6fdbe443ea1f47}
-      \strng{fullhash}{d989df4410b9e84ba937a6a7e39b4125}
-      \field{sortinit}{0}
-      \field{labeltitle}{Anomalous Broadening in Driven Dissipative {R}ydberg Systems}
-      \field{issue}{11}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{title}{Anomalous Broadening in Driven Dissipative {R}ydberg Systems}
-      \field{volume}{116}
-      \field{year}{2016}
-      \field{pages}{113001}
-      \verb{file}
-      \verb MX_PORTORYDDRESS16.pdf:mx/MX_PORTORYDDRESS16.pdf:PDF
-      \endverb
-      \keyw{mx,rydberg,dipole,collective}
     \endentry
     \entry{MX_DMITRIEV02}{article}{}
       \name{labelname}{4}{}{%
@@ -3723,6 +3759,24 @@
       \verb https://tel.archives-ouvertes.fr/tel-01326581
       \endverb
       \keyw{Spin cat states ; Quantum metrology ; Rydberg atoms ; Dynamique de Zénon quantique ; Limite de Heisenberg ; États Chat de Schrödinger ; Métrologie quantique ; Atomes de Rydberg}
+    \endentry
+    \entry{PHD_DIETSCHE}{thesis}{}
+      \name{labelname}{1}{}{%
+        {{hash=b2ee461caa640e7b7743c3edeb5cac26}{Dietsche}{D\bibinitperiod}{Eva-Katharina}{E\bibinithyphendelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=b2ee461caa640e7b7743c3edeb5cac26}{Dietsche}{D\bibinitperiod}{Eva-Katharina}{E\bibinithyphendelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{b2ee461caa640e7b7743c3edeb5cac26}
+      \strng{fullhash}{b2ee461caa640e7b7743c3edeb5cac26}
+      \field{sortinit}{0}
+      \field{labeltitle}{Quantum Sensing with Rydberg Cat States}
+      \field{title}{Quantum Sensing with Rydberg Cat States}
+      \field{type}{phdthesis}
+      \field{year}{2017}
     \endentry
   \endsortlist
 \endrefsection

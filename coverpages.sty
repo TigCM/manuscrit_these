@@ -58,7 +58,8 @@
     \ifx\empty\@logoone
         \relax%
     \else%
-        \centerline\bgroup\hfill{\includegraphics[height=4cm]{\@logoone}}\hfill%
+        \centerline\bgroup\hfill{\includegraphics%[height=4cm]{\@logoone}}\hfill%
+        [width=.7\linewidth]{\@logoone}}\hfill%
         \ifx\empty\@logotwo
             \relax
         \else%

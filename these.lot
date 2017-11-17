@@ -1,8 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {french}
-\contentsline {xchapter}{}{v}{chapter*.2}
-\contentsline {xchapter}{}{vii}{chapter*.3}
+\contentsline {xchapter}{}{ix}{chapter*.2}
+\contentsline {xchapter}{}{xi}{chapter*.3}
 \contentsline {xchapter}{}{1}{chapter*.4}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Atomes de Rydberg alcalins en interaction}{9}{chapter.1}
@@ -17,13 +17,14 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Interaction entre atomes de Rydberg sph\IeC {\'e}riques et excitation de gaz dense}{69}{chapter.3}
 \contentsline {table}{\numberline {III.1}{\ignorespaces Coefficients de van der Waals pour diff\IeC {\'e}rents niveaux $60S-n'\mathrm {S}$}}{80}{table.caption.83}
-\contentsline {table}{\numberline {III.2}{\ignorespaces Param\IeC {\`e}tres de simulation}}{98}{table.caption.99}
+\contentsline {table}{\numberline {III.2}{\ignorespaces Param\IeC {\`e}tres de simulation}}{95}{table.caption.97}
+\contentsline {table}{\numberline {III.3}{\ignorespaces Param\IeC {\`e}tres de simulation}}{99}{table.caption.100}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Les atomes de Rydberg circulaires en interaction : vers un simulateur quantique}{105}{chapter.4}
-\contentsline {table}{\numberline {IV.1}{\ignorespaces Contributions des diff\IeC {\'e}rents effets limitant le temps de vie des atomes circulaires}}{124}{table.caption.118}
+\contentsline {table}{\numberline {IV.1}{\ignorespaces Contributions des diff\IeC {\'e}rents effets limitant le temps de vie des atomes circulaires}}{124}{table.caption.119}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Des atomes de Rydberg circulaires sur puce}{127}{chapter.5}
-\contentsline {table}{\numberline {V.1}{\ignorespaces Effet Stark quadratique des sous-niveaux du $\mathrm {50D}_{5/2}$}}{144}{table.caption.135}
-\contentsline {table}{\numberline {V.2}{\ignorespaces Effet Stark quadratique des sous-niveaux du $\mathrm {50F}$}}{148}{table.caption.142}
-\contentsline {table}{\numberline {V.3}{\ignorespaces Transitions microonde depuis le niveau $\mathrm {50C}$ et effet Stark diff\IeC {\'e}rentiel}}{155}{table.caption.151}
-\contentsline {xchapter}{}{161}{chapter*.158}
+\contentsline {table}{\numberline {V.1}{\ignorespaces Effet Stark quadratique des sous-niveaux du $\mathrm {50D}_{5/2}$}}{144}{table.caption.136}
+\contentsline {table}{\numberline {V.2}{\ignorespaces Effet Stark quadratique des sous-niveaux du $\mathrm {50F}$}}{149}{table.caption.143}
+\contentsline {table}{\numberline {V.3}{\ignorespaces Transitions microonde depuis le niveau $\mathrm {50C}$ et effet Stark diff\IeC {\'e}rentiel}}{157}{table.caption.152}
+\contentsline {xchapter}{}{163}{chapter*.159}

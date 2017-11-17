@@ -653,7 +653,7 @@
 @PhdThesis{PHD_LEUPOLD_ETHZ,
   author    = {Leupold, Florian Michael},
   title     = {Bang-bang Control of a Trapped-Ion Oscillator},
-  school    = {. ETH-Zürich},
+  school    = {ETH-Zürich},
   year      = {2015},
   doi       = {http://dx.doi.org/10.3929/ethz-a-010616440},
   owner     = {absenthe},
@@ -1654,6 +1654,26 @@
   number    = {4},
   pages     = {043016},
   publisher = {IOP Publishing},
+}
+
+@Article{QM_ZUREKDECOH91,
+  author   = {W. H. Zurek},
+  title    = {Decoherence and the transition from quantum to classical},
+  journal  = pt,
+  year     = {1991},
+  volume   = {44},
+  pages    = {36},
+  month    = {octobre},
+  comment  = {The physics today paper on decoherence},
+  keywords = {QM,history,decoherence,theory},
+}
+
+@PhdThesis{PHD_DIETSCHE,
+  author = {Eva-Katharina Dietsche},
+  title  = {Quantum Sensing with Rydberg Cat States},
+  school = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
+  year   = {2017},
+  type   = {phdthesis},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

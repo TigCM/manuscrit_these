@@ -110,3 +110,10 @@
 \contentsline {figure}{\numberline {V.25}{\ignorespaces Spectre microonde 50C-51C optimis\IeC {\'e}}}{160}{figure.caption.157}
 \contentsline {xchapter}{}{163}{chapter*.159}
 \contentsline {figure}{\numberline {V.26}{\ignorespaces Sch\IeC {\'e}ma de principe du dispositif exp\IeC {\'e}rimental adapt\IeC {\'e} au simulateur quantique}}{165}{figure.caption.160}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Syst\IeC {\`e}me de stabilisation en fr\IeC {\'e}quence et de distribution des faisceaux laser}{169}{appendix.A}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers d'excitation Rydberg}}{169}{figure.caption.162}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers de pi\IeC {\'e}geage et refroidissement}}{171}{figure.caption.163}
+\addvspace {10\p@ }
+\contentsline {xchapter}{D\IeC {\'e}tails du fonctionnement de l'algorithme de simulation}{173}{appendix.B}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Sch\IeC {\'e}ma fonctionnel de l'algorithme de simulation}}{174}{figure.caption.164}

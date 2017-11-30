@@ -1,0 +1,347 @@
+\documentclass[11pt,a4paper,twoside]{book}
+%\usepackage[utf8]{inputenc}
+%\usepackage[francais]{babel}
+%\usepackage[T1]{fontenc}
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+%\usepackage{amssymb}
+%\author{Tigrane Cantat-Moltrecht}
+%\title{Atomes de Rydberg piégés}
+
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage[T1]{fontenc}
+\usepackage[includeheadfoot, width=144mm,top=23mm,bottom=20mm,bindingoffset=4mm]{geometry}
+\renewcommand{\topfraction}{0.5}     % autorise 1/2 page de graphique en haut
+\renewcommand{\bottomfraction}{0.3}  % autorise 1/3 page de graphique en bas
+\usepackage[fleqn]{amsmath}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage[detect-all]{siunitx}
+\sisetup{math-micro=\text{µ},text-micro=µ}
+\usepackage[font={small}, labelsep=space, labelfont=sf,bf,up,belowskip=14pt,aboveskip=12pt]{caption}
+\usepackage{verbatim}
+\usepackage[nottoc]{tocbibind}
+\usepackage[cmyk]{xcolor} 
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{rotating}
+
+\usepackage{fancyvrb}
+\usepackage{adjustbox} 
+\usepackage{grffile}
+%\include{./0_preamble}
+\usepackage{bbm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% En-têtes et redéfinition des environnements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% En-têtes %%%
+%%%%%%%%%%%%%%%%
+%\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{Chapitre {\thechapter}. #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection. #1}}
+\renewcommand{\subsectionmark}[1]{}%\markright{\thesubsection. #1}}
+
+\renewcommand{\labelitemi}{$\bullet$}
+
+
+\lhead{\footnotesize \bfseries \leftmark}
+\cfoot{\footnotesize \bfseries \thepage} 
+\rhead{\footnotesize \bfseries \rightmark}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\renewcommand{\theenumi}{\roman{enumi}}
+
+
+\usepackage{hyperxmp}
+\usepackage[pdfpagelayout=TwoPageRight,pdfpagelabels=true]{hyperref}
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=true,          % non-Latin characters in Acrobat�s bookmarks
+    pdftitle={Laser trapping of circular Rydberg atoms},    % title
+    pdfauthor={Tigrane Cantat-Moltrecht},     % author
+    pdfsubject={PhD thesis},   % subject of the document
+    pdfkeywords={Rydberg} {Atom chip} {Quantum simulation}, % list of keywords
+    pdfnewwindow=false,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=black,          % color of internal links
+    citecolor=green,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+\usepackage{booktabs}
+\usepackage{csquotes}
+\csname endofdump\endcsname
+\usepackage{enumitem}
+\usepackage{setspace}
+\newcommand\epigraph[3]{
+	\vspace{-2em}\hfill{}\begin{minipage}{#1}{\begin{spacing}{0.9}
+				\small\noindent\textit{#2}\end{spacing}
+			\vspace{1em}
+			\hfill{}{--- #3}}\vspace{6em}
+			\end{minipage}\\
+			
+			\noindent}
+\usepackage{afterpage}
+\usepackage{braket}
+%\usepackage{physics}
+
+\usepackage[backend=biber,style=phys,%
+articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
+]{biblatex}
+\DeclareFieldFormat{titlecase}{{#1}}
+\usepackage{chngcntr}
+\addbibresource{tcm_these.bib}
+%\usepackage{fontspec}
+\linespread{1.05}
+%\usepackage{unicode-math}
+%\setmainfont
+%[ BoldFont     = TeX Gyre Pagella-Bold,
+%ItalicFont     = TeX Gyre Pagella-Italic ,
+%BoldItalicFont = TeX Gyre Pagella-Bold Italic ]
+%{TeX Gyre Pagella-Regular}
+%\setmathfont{TeX Gyre Pagella Math}
+%\setmathfont[range=\mathcal]{TeX Gyre Termes  Math}
+%\setmathfont[range=\sqrt]{Asana Math}
+%\setmathfont[range=\tilde]{Asana Math}
+\newcommand{\CoverName}{Cover}%
+\newcommand{\BackCoverName}{Back Cover}%
+\title{Atomes de Rydberg piégés}
+\usepackage{coverpages}
+\input{coverdata}
+
+%%%%********************************************************************
+% fancy quotes
+\definecolor{quotemark}{gray}{0.7}
+\makeatletter
+\def\fquote{%
+    \@ifnextchar[{\fquote@i}{\fquote@i[]}%]
+           }%
+\def\fquote@i[#1]{%
+    \def\tempa{#1}%
+    \@ifnextchar[{\fquote@ii}{\fquote@ii[]}%]
+                 }%
+\def\fquote@ii[#1]{%
+    \def\tempb{#1}%
+    \@ifnextchar[{\fquote@iii}{\fquote@iii[]}%]
+                      }%
+\def\fquote@iii[#1]{%
+    \def\tempc{#1}%
+    \vspace{1em}%
+    \noindent%
+    \begin{list}{}{%
+         \setlength{\leftmargin}{0.1\textwidth}%
+         \setlength{\rightmargin}{0.1\textwidth}%
+                  }%
+         \item[]%
+         \begin{picture}(0,0)%
+         \put(-15,-5){\makebox(0,0){\scalebox{3}{\textcolor{quotemark}{``}}}}%
+         \end{picture}%
+         \begingroup\itshape}%
+ %%%%********************************************************************
+  \def\endfquote{%
+ \endgroup\par%
+ \makebox[0pt][l]{%
+ \hspace{0.8\textwidth}%
+ \begin{picture}(0,0)(0,0)%
+ \put(15,15){\makebox(0,0){%
+ \scalebox{3}{\color{quotemark}''}}}%
+ \end{picture}}%
+ \ifx\tempa\empty%
+ \else%
+    \ifx\tempc\empty%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb}%
+
+   \else%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb},\ \tempc%
+   \fi\fi\par%
+   \vspace{0.5em}%
+ \end{list}%
+ }%
+ \makeatother
+ 
+ %%%%********************************************************************
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%------------
+\sisetup{output-decimal-marker = {,}}
+\sisetup{group-separator = \text{~}}
+\sisetup{range-phrase = \text{ à }}
+\sisetup{exponent-product = .}
+%\sisetup{separate-uncertainty =true}
+\DeclareSIUnit\gauss{G}
+\DeclareSIUnit\dBm{dBm}
+
+\newcommand{\numv}[1]{\num[output-decimal-marker={,}]{#1}~}
+\newcommand{\numvv}[1]{\num[output-decimal-marker={,}]{#1}}
+\newcommand{\SIv}[2]{\SI[output-decimal-marker={,}]{#1}{#2}~}
+\newcommand{\SIvv}[2]{\SI[output-decimal-marker={,}]{#1}{#2}}
+\newcommand{\SIvvSym}[2]{\SI[output-decimal-marker={,},per-mode=symbol]{#1}{#2}}
+\newcommand{\Kel}{\si{\kelvin}}
+\newcommand{\mK}{\si{\milli\kelvin}}
+\newcommand{\uK}{\si{\micro\kelvin}}
+\newcommand{\citefr}[1]{\cite{#1}}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\dip}{d}
+\newcommand{\VdW}{van der Waals }
+\newcommand{\umx}{\si{\um^6} }
+\newcommand{\Rb}[1]{${}^{#1}$Rb}
+\newcommand{\Ryd}{\textnormal{Ryd }}
+\newcommand{\pdt}{\partial_t}
+\newcommand{\eff}{\textnormal{eff }}
+\newcommand{\Id}{\mathbb{I}}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand \thechapter{\Roman{chapter}}
+\newcommand{\kb}{\mathrm{k_B}}
+\newcommand{\Khe}{\SIvv{4.2}{\K}}
+\newcommand{\mcal}[1]{$\mathcal{#1}$}
+\newcommand{\Nryd}{N_{Ryd}}
+
+
+\usepackage[francais,shortext]{minitoc}
+%\usepackage{mtcoff}
+\setcounter{minitocdepth}{2}
+\setlength{\mtcindent}{24pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%------------
+\begin{document}
+
+\frontmatter
+\pagenumbering{roman}
+\thispagestyle{empty}
+%\topskip0pt
+\vspace*{0.2\textheight}
+\begin{flushright}
+\emph{\`A Alexandra,}
+\end{flushright}
+\vspace*{\fill}\clearpage
+\makeatletter
+\let\ps@plain\ps@empty
+
+\makeatother
+
+\dominitoc
+%\include{}%0_Acknowledgement}
+\tableofcontents
+\thispagestyle{fancyplain}
+\listoffigures \mtcaddchapter
+\listoftables \mtcaddchapter
+\thispagestyle{fancyplain}
+%%\pagebreak
+\mainmatter
+\pagenumbering{arabic}
+
+%\include{Intro}
+%
+%\include{Rydbergs}
+%
+%\include{Setup_total}
+%
+%\include{low_l_Rydbergs}
+%
+%\include{circsim}
+%
+%\include{circulars}
+%
+%\include{Conclusion}
+
+
+%\phantomsection
+%\titleformat{\part}[block]
+%{\bfseries\fontsize{26}{28}\selectfont}
+%{}
+%{10pt}
+%{
+%	\begin{tikzpicture}[remember picture, overlay]
+%	\node[anchor=south west, inner sep =0pt, outer sep =25pt](partnum) at (0,3){\partnumfont\itshape };
+%	\end{tikzpicture}\parbox[c]{.95\textwidth}%\justify
+%}
+
+
+\part*{Annexes}
+\appendix
+\renewcommand{\chaptermark}[1]{\markboth{\appendixname\ \thechapter: #1}{}}
+
+\chapter{Système de stabilisation en fréquence et de distribution des faisceaux laser}\label{app:laserlock}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figures/apx/stabil_laser_1}
+\caption[Schéma de stabilisation en fréquence des lasers d'excitation Rydberg]
+{
+Schéma de stabilisation en fréquence des lasers d'excitation Rydberg.
+}
+\label{fig:laserlock1}
+\end{figure}
+
+\noindent La figure \eqref{fig:laserlock1} présente le schéma de stabilisation en fréquence et de distribution des faisceaux laser qui servent à l'excitation des niveaux de Rydberg.
+Le laser \og spectro \fg{} à $\SI{780}{\nano\meter}$ est généré par un système Toptica DL Pro.
+Sa fréquence est stabilisée par un circuit Pound-Drever-Hall (PDH), sur un pic de transmission d'une cavité Fabry-Pérot.
+La stabilisation PDH nécessite de moduler la phase du faisceau envoyé dans la cavité, ce qui est réalisé grâce à un modulateur électro-optique (EOM), à une fréquence de $\SI{20}{\MHz}$.
+La longueur de cette cavité est elle-même stabilisée par absorption saturée, sur le pic intermédiaire (\textit{crossover}) entre les transitions $F=2 \rightarrow F'=2$ et $F=2 \rightarrow F'=3$ du \Rb{87}.
+
+Le laser bleu à $\SI{480}{\nano\meter}$, généré par un système Toptica TA-SHG 110, est obtenu par amplification puis doublage de fréquence de la lumière laser issue d'une diode à $\SI{960}{\nano\meter}$. Le doublage de fréquence est opéré par un cristal non-linéaire de $\mathrm{KNbO_3}$ inséré dans une cavité de doublage \og papillon \fg{}. La fréquence de la diode à $\SI{960}{\nano\meter}$ est stabilisée sur la même cavité Fabry-Pérot que le laser \og spectro \fg{}.
+La stabilisation de la diode à $\SI{960}{\nano\meter}$ sur la acvité Fabry-Pérot nécessite de moduler le courant passant dans la diode. Cette modulation est effectuée directement par l'électronique d'alimentation, à une fréquence de $\SI{10}{\MHz}$.
+La lumière à $\SI{480}{\nano\meter}$, issue du doublage de la lumière à $\SI{960}{\nano\meter}$ subit ainsi une modulation à une fréquence de $\SI{20}{\MHz}$.
+
+Les deux lasers d'excitation sont finalement déplacés en fréquence par des modulateurs acousto-optiques (AOM) et injectés dans des fibres optiques permettant de les envoyer vers l'expérience.
+
+%\clearpage
+La figure \eqref{fig:laserlock2} présente le schéma de stabilisation en fréquence et de distribution des faisceaux laser qui servent au piégeage et au refroidissement du \Rb{87} dans l'état fondamental.
+Le laser \og MOPA \fg{} à $\SI{780}{\nano\meter}$ est généré par un système Toptica TA 100.
+Sa fréquence est stabilisée par battement (\textit{beatlock}) avec la référence de fréquence donnée par le laser \og spectro \fg{}.
+La fréquence du MOPA est décalée de $\SI{-160}{\MHz}$ par rapport à celle du spectro.
+La lumière laser issue du MOPA est ensuite divisée afin de fournir les faisceaux de piégeage et de refroidissement pour le piège magnéto-optique 2D, qui fournit le jet atomique vertical permettant d'alimenter l'expérience ;
+les faisceaux de piégeage et de refroidissement pour le piège magnéto-optique 3D sur puce ;
+le faisceau de pompage optique, permettant de polariser le nuage atomique dans le sous-niveau Zeeman $m_F=+2$ afin de le charger dans le piège magnétique ;
+et les deux faisceaux sonde, utilisés pour l'imagerie par absorption.
+
+Tous ces faisceaux sont décalés en fréquence par des AOM puis transportés par fibre optique jusqu'à l'expérience.
+Une seule fibre est utilisé pour les faisceaux \og 3D-MOT \fg{} : elle alimente, près de l'expérience, un diviseur de faisceau (\textit{cluster}) qui permet d'obtenir les quatre faisceaux nécessaires au piégeage magnéto-optique des atomes sur la puce.
+
+Enfin, le laser \og repompeur \fg{} à $\SI{780}{\nano\meter}$ est généré par un système Toptica DL Pro.
+Sa fréquence est stabilisée par absorption saturée sur la transition $F=1 \rightarrow F'=2$ du \Rb{87}.
+Après décalage en fréquence par un AOM, une partie de ce faisceau est transporté par fibre optique à proximité de l'expérience, où il est superposé aux faisceaux du 3D-MOT au sein du \textit{cluster}.
+La deuxième partie du faisceau repompeur est superposée aux faisceaux du 2D-MOT avant injection dans leurs fibres optiques respectives.
+
+Tous les coupleurs de fibre optique sont précédés d'obturateurs mécaniques (\textit{shutters}), afin de s'assurer de pouvoir \og éteindre \fg{} complètement chacun des faisceaux qui atteignent l'expérience.
+Ces obturateurs ne sont pas représentés sur les figures.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{figures/apx/stabil_laser_2}
+\caption[Schéma de stabilisation en fréquence des lasers de piégeage et refroidissement]
+{
+Schéma de stabilisation en fréquence des lasers de piégeage et refroidissement des atomes dans l'état fondamental.
+}
+\label{fig:laserlock2}
+\end{figure}
+
+\chapter{Détails du fonctionnement de l'algorithme de simulation}\label{app:algo}
+
+\noindent La figure \eqref{fig:algo_sim_spectresoptiques} représente le fonctionnement détaillé de l'algorithme de simulation présenté au chapitre \ref{chapter:60s}.
+
+\begin{figure}[h]
+%\centering
+\hspace{-.18\linewidth}
+\includegraphics[width=1.3\linewidth]{figures/apx/simus_interactions}
+\caption[Schéma fonctionnel de l'algorithme de simulation]
+{
+Schéma fonctionnel de l'algorithme de simulation.
+Cette routine est répétée le nombre d'itérations souhaité, pour différents désaccords laser $\Delta$, afin d'obtenir les spectres simulés.
+À chaque fois que le temps $t$ correspond à une durée d'impulsion laser qui nous intéresse, le nombre d'atomes de Rydberg à cet instant est écrit dans un fichier de sortie.
+}
+\label{fig:algo_sim_spectresoptiques}
+\end{figure}
+\clearpage
+
+\newpage $ $
+
+\renewcommand{\bibname}{Bibliographie}
+\printbibliography
+
+\backmatter
+
+\end{document}

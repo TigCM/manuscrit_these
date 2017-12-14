@@ -31,10 +31,10 @@
 \contentsline {section}{\numberline {II.2}Excitation et d\IeC {\'e}tection d'atomes de Rydberg pr\IeC {\`e}s d'une puce}{55}{section.2.2}
 \contentsline {subsection}{\numberline {II.2.1}L'excitation \IeC {\`a} deux photons des atomes de Rydberg}{55}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {II.2.2}La d\IeC {\'e}tection par ionisation des atomes de Rydberg}{57}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {II.2.3}Les champs \IeC {\'e}lectriques parasites, d\IeC {\'e}fi des atomes de Rydberg sur puce}{60}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {II.2.4}Contr\IeC {\^o}le du champ \IeC {\'e}lectrique perpendiculaire \IeC {\`a} la puce}{63}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {II.2.5}Manipulation coh\IeC {\'e}rente des \IeC {\'e}tats de Rydberg}{64}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {II.2.6}Temps de vie des atomes de Rydberg et temp\IeC {\'e}rature effective}{67}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {II.2.3}Les champs \IeC {\'e}lectriques parasites, d\IeC {\'e}fi des atomes de Rydberg sur puce}{59}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {II.2.4}Contr\IeC {\^o}le du champ \IeC {\'e}lectrique perpendiculaire \IeC {\`a} la puce}{62}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {II.2.5}Manipulation coh\IeC {\'e}rente des \IeC {\'e}tats de Rydberg}{63}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {II.2.6}Temps de vie des atomes de Rydberg et temp\IeC {\'e}rature effective}{66}{subsection.2.2.6}
 \contentsline {chapter}{\numberline {III}Interaction entre atomes de Rydberg sph\IeC {\'e}riques et excitation de gaz dense}{69}{chapter.3}
 \contentsline {section}{\numberline {III.1}Les effets de l'interaction dipolaire en nuage dense}{70}{section.3.1}
 \contentsline {subsection}{\numberline {III.1.1}Rappels sur l'interaction dipolaire}{70}{subsection.3.1.1}
@@ -81,5 +81,6 @@
 \contentsline {chapter}{Conclusion}{163}{chapter*.159}
 \contentsline {xchapter}{}{163}{chapter*.159}
 \partbegin 
-\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de stabilisation en fr\IeC {\'e}quence et de distribution des faisceaux laser}{169}{appendix.A}
-\contentsline {chapter}{\numberline {B}D\IeC {\'e}tails du fonctionnement de l'algorithme de simulation}{173}{appendix.B}
+\contentsline {part}{Annexes}{173}{part*.161}
+\contentsline {chapter}{\numberline {A}Syst\IeC {\`e}me de stabilisation en fr\IeC {\'e}quence et de distribution des faisceaux laser}{173}{appendix.A}
+\contentsline {chapter}{\numberline {B}D\IeC {\'e}tails du fonctionnement de l'algorithme de simulation}{177}{appendix.B}

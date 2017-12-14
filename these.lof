@@ -39,15 +39,15 @@
 \contentsline {figure}{\numberline {II.14}{\ignorespaces Estimation de la temp\IeC {\'e}rature d'un nuage par temps de vol}}{53}{figure.caption.52}
 \contentsline {figure}{\numberline {II.15}{\ignorespaces Excitation du niveau 60S}}{56}{figure.caption.54}
 \contentsline {figure}{\numberline {II.16}{\ignorespaces Faisceaux laser pour l'excitation des Rydberg}}{57}{figure.caption.55}
-\contentsline {figure}{\numberline {II.17}{\ignorespaces Syst\IeC {\`e}me de d\IeC {\'e}tection des atomes de Rydberg}}{57}{figure.caption.56}
+\contentsline {figure}{\numberline {II.17}{\ignorespaces Syst\IeC {\`e}me de d\IeC {\'e}tection des atomes de Rydberg}}{58}{figure.caption.56}
 \contentsline {figure}{\numberline {II.18}{\ignorespaces D\IeC {\'e}tection s\IeC {\'e}lective des niveaux $\mathrm {60S_{1/2}}$ et $\mathrm {57S_{1/2}}$}}{59}{figure.caption.58}
 \contentsline {figure}{\numberline {II.19}{\ignorespaces Spectres d'excitation laser 5S-60S avant le d\IeC {\'e}p\IeC {\^o}t de rubidium sur la puce}}{60}{figure.caption.60}
-\contentsline {figure}{\numberline {II.20}{\ignorespaces D\IeC {\'e}p\IeC {\^o}t contr\IeC {\^o}l\IeC {\'e} de rubidium sur la puce}}{62}{figure.caption.62}
-\contentsline {figure}{\numberline {II.21}{\ignorespaces Spectres d'excitations laser 5S-60S avant et apr\IeC {\`e}s le d\IeC {\'e}p\IeC {\^o}t de rubidium sur la puce}}{63}{figure.caption.63}
-\contentsline {figure}{\numberline {II.22}{\ignorespaces Premier circuit de contr\IeC {\^o}le de la tension des \IeC {\'e}lectrodes d'ionisation}}{64}{figure.caption.64}
-\contentsline {figure}{\numberline {II.23}{\ignorespaces Spectroscopie de la transition 60S-61S}}{65}{figure.caption.66}
-\contentsline {figure}{\numberline {II.24}{\ignorespaces \IeC {\'E}cho de spin 60S-61S}}{66}{figure.caption.67}
-\contentsline {figure}{\numberline {II.25}{\ignorespaces Dur\IeC {\'e}e de vie du niveau 60S}}{68}{figure.caption.70}
+\contentsline {figure}{\numberline {II.20}{\ignorespaces D\IeC {\'e}p\IeC {\^o}t contr\IeC {\^o}l\IeC {\'e} de rubidium sur la puce}}{61}{figure.caption.62}
+\contentsline {figure}{\numberline {II.21}{\ignorespaces Spectres d'excitations laser 5S-60S avant et apr\IeC {\`e}s le d\IeC {\'e}p\IeC {\^o}t de rubidium sur la puce}}{62}{figure.caption.63}
+\contentsline {figure}{\numberline {II.22}{\ignorespaces Premier circuit de contr\IeC {\^o}le de la tension des \IeC {\'e}lectrodes d'ionisation}}{63}{figure.caption.64}
+\contentsline {figure}{\numberline {II.23}{\ignorespaces Spectroscopie de la transition 60S-61S}}{64}{figure.caption.66}
+\contentsline {figure}{\numberline {II.24}{\ignorespaces \IeC {\'E}cho de spin 60S-61S}}{65}{figure.caption.67}
+\contentsline {figure}{\numberline {II.25}{\ignorespaces Dur\IeC {\'e}e de vie du niveau 60S}}{67}{figure.caption.70}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Interaction entre atomes de Rydberg sph\IeC {\'e}riques et excitation de gaz dense}{69}{chapter.3}
 \contentsline {figure}{\numberline {III.1}{\ignorespaces Ensemble de $N$ atomes de Rydberg en interaction van der Waals}}{71}{figure.caption.72}
@@ -111,9 +111,9 @@
 \contentsline {xchapter}{}{163}{chapter*.159}
 \contentsline {figure}{\numberline {V.26}{\ignorespaces Sch\IeC {\'e}ma de principe du dispositif exp\IeC {\'e}rimental adapt\IeC {\'e} au simulateur quantique}}{165}{figure.caption.160}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Syst\IeC {\`e}me de stabilisation en fr\IeC {\'e}quence et de distribution des faisceaux laser}{169}{appendix.A}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers d'excitation Rydberg}}{169}{figure.caption.162}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers de pi\IeC {\'e}geage et refroidissement}}{171}{figure.caption.163}
+\contentsline {xchapter}{Syst\IeC {\`e}me de stabilisation en fr\IeC {\'e}quence et de distribution des faisceaux laser}{173}{appendix.A}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers d'excitation Rydberg}}{173}{figure.caption.162}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Sch\IeC {\'e}ma de stabilisation en fr\IeC {\'e}quence des lasers de pi\IeC {\'e}geage et refroidissement}}{175}{figure.caption.163}
 \addvspace {10\p@ }
-\contentsline {xchapter}{D\IeC {\'e}tails du fonctionnement de l'algorithme de simulation}{173}{appendix.B}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Sch\IeC {\'e}ma fonctionnel de l'algorithme de simulation}}{174}{figure.caption.164}
+\contentsline {xchapter}{D\IeC {\'e}tails du fonctionnement de l'algorithme de simulation}{177}{appendix.B}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Sch\IeC {\'e}ma fonctionnel de l'algorithme de simulation}}{178}{figure.caption.164}

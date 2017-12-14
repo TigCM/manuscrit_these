@@ -193,7 +193,8 @@ articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
 \newcommand{\pdt}{\partial_t}
 \newcommand{\eff}{\textnormal{eff }}
 \newcommand{\Id}{\mathbb{I}}
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand{\thefootnote}{$\star$}
 \renewcommand \thechapter{\Roman{chapter}}
 \newcommand{\kb}{\mathrm{k_B}}
 \newcommand{\Khe}{\SIvv{4.2}{\K}}
@@ -225,27 +226,116 @@ articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
 \dominitoc
 %\include{}%0_Acknowledgement}
 \tableofcontents
-\thispagestyle{fancyplain}
+
+\newpage $ $
+\thispagestyle{empty}
+
+%\thispagestyle{fancyplain}
 \listoffigures \mtcaddchapter
+
+\newpage $ $
+\thispagestyle{empty}
+
 \listoftables \mtcaddchapter
-\thispagestyle{fancyplain}
+
+\newpage $ $
+\thispagestyle{empty}
+
+%\thispagestyle{fancyplain}
 %%\pagebreak
 \mainmatter
 \pagenumbering{arabic}
 
 \include{Intro}
 
+\newpage $ $
+\thispagestyle{empty}
+
 \include{Rydbergs}
 
 \include{Setup_total}
+
+\newpage $ $
+\thispagestyle{empty}
 
 \include{low_l_Rydbergs}
 
 \include{circsim}
 
+\newpage $ $
+\thispagestyle{empty}
+
 \include{circulars}
 
+\newpage $ $
+\thispagestyle{empty}
+
 \include{Conclusion}
+
+\newpage $ $
+
+\newcommand{\Cyr}[1]{\begin{center}\textsc{Cyrano}#1.\end{center}}
+\newcommand{\DeG}[1]{\begin{center}\textsc{De Guiche}#1.\end{center}}
+\thispagestyle{empty}
+\begin{fquote}[Edmond Rostand][Cyrano de Bergerac]
+\Cyr{}
+J'inventai six moyens de violer l'azur vierge !\\
+\DeG{, se retournant}
+Six ?
+\Cyr{, avec volubilité}
+\hspace{.1\linewidth}Je pouvais, mettant mon corps nu comme un cierge,\\
+Le carapaçonner de fioles de cristal\\
+Toutes pleines des pleurs d'un ciel matutinal,\\
+Et ma personne, alors, au soleil exposée,\\
+L'astre l'aurait humée en humant la rosée !
+\DeG{, surpris et faisant un pas vers Cyrano}
+Tiens ! Oui, cela fait un !
+\Cyr{, reculant pour l'entraîner de l'autre côté}
+\hspace{.4\linewidth} Et je pouvais encor\\
+Faire engouffrer du vent, pour prendre mon essor,\\
+En raréfiant l'air dans un coffre de cèdre\\
+Par des miroirs ardents, mis en isocaèdre !
+\DeG{, fait encor un pas}
+Deux !
+\Cyr{, reculant toujours}
+\hspace{.1\linewidth} Ou bien, machiniste autant qu'artificier,\\
+Sur une sauterelle aux détentes d'acier,\\
+Me faire par des feux successifs de salpêtre,\\
+Lancer dans les prés bleus où les astres vont paître !
+\DeG{, le suivant, sans s'en douter, et comptant sur ses doigts}
+Trois !
+\Cyr{}
+\hspace{.1\linewidth} Puisque la fumée a tendance à monter,\\
+En souffler dans un globe assez pour m'emporter !
+\DeG{, même jeu, de plus en plus étonné}
+Quatre !
+\Cyr{}
+\hspace{.1\linewidth} Puisque Ph\oe bé, quand son acte est le moindre,\\
+Aime sucer, ô b\oe ufs, votre moëlle ... m'en oindre !
+\DeG{, stupéfait}
+Cinq !
+\Cyr{, qui en parlant l'a amené jusqu'à l'autre côté de la place, près d'un banc}
+\hspace{.1\linewidth} Enfin, me plaçant sur un plateau de fer,\\
+Pendre un morceau d'aimant et le lancer en l'air !\\
+\c{C}a, c'est un bon moyen : le fer se précipite,\\
+Aussitôt que l'aimant s'envole, à sa poursuite\\
+On relance l'aimant bien vite, et cadédis !\\
+On peut monter ainsi indéfiniment.
+\DeG{}
+\hspace{.6\linewidth} Six !\\
+-- Mais voilà six moyens excellents !... Quel système\\
+Choisîtes-vous des six, Monsieur ?
+\Cyr{}
+\hspace{.5\linewidth} Un septième !
+\end{fquote}
+\thispagestyle{empty}
+
+
+\newpage $ $
+\thispagestyle{empty}
+\newpage $ $
+\thispagestyle{empty}
+
 
 \include{annexes}
 
@@ -263,9 +353,13 @@ articletitle=true,biblabel=brackets,chaptertitle=true,pageranges=false
 
 
 \newpage $ $
+\thispagestyle{empty}
+\newpage $ $
+\thispagestyle{empty}
 
 \renewcommand{\bibname}{Bibliographie}
 \printbibliography
+\thispagestyle{empty}
 
 \backmatter
 

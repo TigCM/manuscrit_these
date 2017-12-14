@@ -750,7 +750,7 @@ Cela nous permet d'identifier le taux de déphasage des équations de Bloch à l
 	\subsubsection*{Fonctionnement de l'algorithme}
 \noindent Il nous est désormais possible d'inclure une échelle de temps à notre algorithme de simulation, sous la forme des taux d'excitation et de désexcitation donnés par l'équation \eqref{eq:exc_de-exc_rate_atomi}.
 Au lieu de tirer au sort un atome à chaque étape, le calcul de l'excitation nécessite désormais de calculer les taux $\Gamma_{exc}(i)$ et $\Gamma_{de-exc}(i)$ à chaque pas de temps et pour chaque atome du nuage, qu'il soit dans l'état fondamental ou dans l'état excité.
-Le détail de l'algorithme est expliqué dans la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN}. % et présenté en annexe \ref{app:algo}.
+Le détail de l'algorithme est expliqué dans la thèse de Thanh Long Nguyen \cite{PHD_NGUYEN}, et présenté en annexe \ref{app:algo}.
 
 Quelques spécificités de cette nouvelle version méritent d'être discutées ici.
 En premier lieu, le choix d'exciter ou non un nouvel atome de Rydberg ne peut se faire uniquement d'après le calcul de son taux d'excitation $\Gamma_{exc}(i)$.

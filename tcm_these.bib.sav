@@ -295,6 +295,7 @@
   title     = {Pi\'egeage magn\'etique d'atomes de Rubidium au voisinage d'une surface supraconductrice},
   school    = {Universit\'e Paris VI},
   year      = {2007},
+  type      = {phdthesis},
   owner     = {Raul},
   timestamp = {2014.06.01},
 }
@@ -304,6 +305,7 @@
   title     = {Condensation de Bose-Einstein sur une puce \`a atomes supraconductrice},
   school    = {Universit\'e Paris VI},
   year      = {2008},
+  type      = {phdthesis},
   owner     = {Raul},
   timestamp = {2014.06.01},
 }
@@ -389,6 +391,7 @@
   title     = {Puce à atomes supraconductrice : Atomes froids dans un environnement cryogénique et excitation d'atomes de Rydberg},
   school    = {Universit\'e Paris VI},
   year      = {2009},
+  type      = {phdthesis},
   owner     = {Raul},
   timestamp = {2014.06.01},
 }
@@ -502,7 +505,7 @@
   title       = {{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}},
   school      = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
   year        = {2016},
-  type        = {Theses},
+  type        = {phdthesis},
   month       = Nov,
   hal_id      = {tel-01609840},
   hal_version = {v1},
@@ -625,7 +628,7 @@
   title       = {{Schr{\"o}dinger cat states of a Rydberg atom for quantum metrology}},
   school      = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
   year        = {2015},
-  type        = {Theses},
+  type        = {phdthesis},
   month       = Dec,
   hal_id      = {tel-01326581},
   hal_version = {v1},
@@ -640,7 +643,7 @@
   title       = {{Coherent manipulations of elliptic Rydberg states through quantum Zeno dynamics}},
   school      = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
   year        = {2014},
-  type        = {Theses},
+  type        = {phdthesis},
   month       = Dec,
   hal_id      = {tel-01146049},
   hal_version = {v1},
@@ -653,8 +656,9 @@
 @PhdThesis{PHD_LEUPOLD_ETHZ,
   author    = {Leupold, Florian Michael},
   title     = {Bang-bang Control of a Trapped-Ion Oscillator},
-  school    = {. ETH-Zürich},
+  school    = {ETH-Zürich},
   year      = {2015},
+  type      = {phdthesis},
   doi       = {http://dx.doi.org/10.3929/ethz-a-010616440},
   owner     = {absenthe},
   timestamp = {2016.08.30},
@@ -1659,13 +1663,41 @@
 @Article{QM_ZUREKDECOH91,
   author   = {W. H. Zurek},
   title    = {Decoherence and the transition from quantum to classical},
-  journal  = pt,
+  journal  = {Physics Today},
   year     = {1991},
   volume   = {44},
   pages    = {36},
   month    = {octobre},
   comment  = {The physics today paper on decoherence},
   keywords = {QM,history,decoherence,theory},
+}
+
+@PhdThesis{PHD_DIETSCHE,
+  author = {Eva-Katharina Dietsche},
+  title  = {Quantum Sensing with Rydberg Cat States},
+  school = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
+  year   = {2017},
+  type   = {phdthesis},
+}
+
+@article{zeiher2016many,
+  title={Many-body interferometry of a Rydberg-dressed spin lattice},
+  author={Zeiher, Johannes and van Bijnen, Rick and Schau{\ss}, Peter and Hild, Sebastian and Choi, Jae-yoon and Pohl, Thomas and Bloch, Immanuel and Gross, Christian},
+  journal={Nature Physics},
+  volume={12},
+  number={12},
+  pages={1095--1099},
+  year={2016},
+  publisher={Nature Research}
+}
+
+@article{schmiegelow2016transfer,
+  title={Transfer of optical orbital angular momentum to a bound electron},
+  author={Schmiegelow, Christian T and Schulz, Jonas and Kaufmann, Henning and Ruster, Thomas and Poschinger, Ulrich G and Schmidt-Kaler, Ferdinand},
+  journal={Nature communications},
+  volume={7},
+  year={2016},
+  publisher={Nature Research}
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

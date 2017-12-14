@@ -100,7 +100,7 @@ Dans le cas plus général où les deux atomes peuvent être dans le même état
 	}.
 \end{equation}
 Afin de simuler une chaîne de spins $1/2$, nous pouvons encoder les états de spin $\ket{\uparrow}$ et $\ket{\downarrow}$ sur les états atomiques $\ket{\mathrm{nC}}$ et $\ket{\mathrm{n'C}}$ respectivement.
-L'état de la paire de spins $1/2$ est alors décrit sur la base $\{ \ket{\uparrow \uparrow},\ket{\uparrow \downarrow}, \ket{\downarrow\uparrow}, \ket{\downarrow\downarrow} \}$ et obéit au hamiltonien\eqref{eq:V_eff_nCnC_n'Cn'c}.
+L'état de la paire de spins $1/2$ est alors décrit sur la base $\{ \ket{\uparrow \uparrow},\ket{\uparrow \downarrow}, \ket{\downarrow\uparrow}, \ket{\downarrow\downarrow} \}$ et obéit au hamiltonien \eqref{eq:V_eff_nCnC_n'Cn'c}.
 %
 %Étant donné que nous souhaitons simuler une chaîne de spins $1/2$, il nous faut étendre la base des états accessibles afin de considérer le cas général, où les deux atomes peuvent être dans le même état, $\mathrm{nC}$ ou $\mathrm{n'C}$.
 %L'état d'un spin $1/2$ est décrit sur la base $\{\ket{\uparrow},\ket{\downarrow}\}$ et l'état d'une paire de spins $1/2$ est décrit sur la base $\{ \ket{\uparrow \uparrow},\ket{\uparrow \downarrow}, \ket{\downarrow\uparrow}, \ket{\downarrow\downarrow} \}$.
@@ -337,7 +337,7 @@ Il subit ainsi un déplacement d'énergie positif, proportionnel à l'intensité
 = \frac{h\alpha}{m_e\omega_L^2}I_L,
 \end{equation}
 où $\omega_L/2\pi$ est la fréquence du laser et $\alpha = q^2/(4\pi\hbar\epsilon_0 c)$ est la constante de structure fine.
-Le c\oe ur positif de l'atome de Rydberg subit un déplacement d'énergie négatif $\mathcal{E}_{\text{c\oe ur}} = - h\alpha I_L/(M\omega_l^2)$, où $M$ est la masse du c\oe ur atomique.
+Le c\oe ur positif de l'atome de Rydberg subit un déplacement d'énergie négatif $\mathcal{E}_{\text{c\oe ur}} = h\alpha I_L/(M\omega_l^2)$, où $M$ est la masse du c\oe ur atomique.
 Celle-ci étant très grande devant la masse $m_e$ de l'électron, l'effet du laser sur le c\oe ur atomique peut être négligé.
 En fin de compte, le potentiel pondéro-moteur \eqref{eq:pondero_energy} agit sur l'atome de Rydberg de sorte que celui-ci recherche les basses intensités lumineuses.
 
@@ -395,7 +395,7 @@ L'effet Purcell, observé en 1946 \cite{Purcell46_Purcelleffect}, consiste à au
 Cet effet repose sur l'augmentation des fluctuations du vide électromagnétique dans le mode d'émission.
 Au contraire, il s'agit pour nous de réduire le plus possible ces fluctuations afin d'inhiber l'émission.
 Pour cela, il suffit que la cavité soit de dimensions plus petites que la longueur d'onde du rayonnement que l'on souhaite inhiber.
-Cet effet d'inhibition a été confirmé expérimentalement pour les atomes de Rydberg circulaire \cite{MX_KELPPNER_INHIBITION,MX_KLEPPNERINHIBITION85}.
+Cet effet d'inhibition a été confirmé expérimentalement pour les atomes de Rydberg circulaires \cite{MX_KELPPNER_INHIBITION,MX_KLEPPNERINHIBITION85}.
 Plus précisément, dans le cas d'un condensateur formé de deux plans parallèles, la distance $D$ entre ces deux plans doit être inférieure à la moitié de la longueur d'onde $\lambda$ du rayonnement :
 %
 \begin{equation}
@@ -453,7 +453,7 @@ Le bouchon de droite ($x=+L/2$) est plus bas en énergie que celui de gauche.
 Le piège est ensuite comprimé en réduisant $L$.
 Ce faisant, les atomes de Rydberg sont approchés les uns des autres ce qui fait augmenter l'interaction répulsive de van der Waals.
 Lorsque la chaîne d'atomes est suffisamment comprimée, l'atome en bout de chaîne à droite% a une énergie d'interaction qui devient supérieure à la hauteur de la barrière créée par le bouchon laser, et cet atome est ainsi éjecté de la chaîne, comme cela est représenté en figure (\ref{fig:plugs_evap} b).
-subit une force de van der Waals répulsive suffisante pour être éjecté de la chaîne malgré la barrière créée par le bouhon laser, comme cela est représenté en figure (\ref{fig:plugs_evap} b).
+subit une force de van der Waals répulsive suffisante pour être éjecté de la chaîne malgré la barrière créée par le bouchon laser, comme cela est représenté en figure (\ref{fig:plugs_evap} b).
 Les atomes restants se redistribuent selon l'axe $x$ et l'énergie totale de la chaîne se trouve diminuée par cette \og évaporation \fg{} d'un atome.
 Le nombre final d'atomes dans la chaîne est déterminé par la valeur finale de $L$ et par la hauteur en énergie du bouchon laser.
 %
@@ -683,7 +683,7 @@ En effet, les niveaux elliptiques $\mathrm{nE^{\pm}}$ peuvent se désexciter spo
 Aucune de ces deux transitions, représentées sur la figure \ref{fig:sigma_pi}, n'étant inhibée par le condensateur, il est essentiel pour la durée de vie de notre chaîne atomique de limiter le mélange des niveaux de paire.
 Pour cela, il faudrait imposer de grands champs électrique et magnétique.
 Les valeurs de ces champs doivent toutefois être limitées, car nous souhaitons conserver la possibilité de faire varier le paramètre d'interaction $J_z/J$.
-La gamme de champs présentée en \ref{subsec:XXZhamiltonian}, de $\SI{2}{}$ à $\SI{12}{\V/\cm}$ pour le champ électrique et de $\SI{9}{}$ à $\SI{13}{\gauss}$ pour le champ électrique, est un bon compromis entre ces deux exigences : $J_z/J$ peut être balayé de $\SI{-3}{}$ à $\SI[retain-explicit-plus]{+3}{}$ et la durée de vie par atome y est toujours supérieure à $\SI{60}{\s}$ \cite{ENS_PRE_CIRCSIM}.
+La gamme de champs présentée en \ref{subsec:XXZhamiltonian}, de $\SI{2}{}$ à $\SI{12}{\V/\cm}$ pour le champ électrique et de $\SI{9}{}$ à $\SI{13}{\gauss}$ pour le champ magnétique, est un bon compromis entre ces deux exigences : $J_z/J$ peut être balayé de $\SI{-3}{}$ à $\SI[retain-explicit-plus]{+3}{}$ et la durée de vie par atome y est toujours supérieure à $\SI{60}{\s}$ \cite{ENS_PRE_CIRCSIM}.
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7 \linewidth]{figures/circsim/sigma_pi}
@@ -737,7 +737,7 @@ Le tableau \ref{tab:lifetime_circsim} en fait la synthèse
 		& Temps de vie (\si{\second})\\
 		\midrule
 		Émission spontanée résiduelle & \SI{2500}{} \\
-		Émission stimulée par rayonnement du corps noir & \SI{630}{} \\
+		Processus dus au rayonnement du corps noir & \SI{630}{} \\
 		Collisions avec le gaz résiduel à $\SI{e-14}{\milli\bar}$ & \SI{400}{} \\
 		Photo-ionisation & $\infty$ \\
 		Diffusion élastique des photons du piège & \SI{> 180}{} \\

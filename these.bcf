@@ -2102,14 +2102,15 @@
     <bcf:citekey order="115">MX_GABRIELSEANTIPROTON90</bcf:citekey>
     <bcf:citekey order="115">MX_WERTHCRYOION98</bcf:citekey>
     <bcf:citekey order="116">ENS_PRE_CIRCSIM</bcf:citekey>
-    <bcf:citekey order="117">TXT_GALLAGHER</bcf:citekey>
-    <bcf:citekey order="118">PHD_CELISTRINO</bcf:citekey>
-    <bcf:citekey order="119">PHD_SIGNOLES</bcf:citekey>
-    <bcf:citekey order="119">PHD_FACON</bcf:citekey>
-    <bcf:citekey order="120">TXT_GALLAGHER</bcf:citekey>
-    <bcf:citekey order="121">PHD_DIETSCHE</bcf:citekey>
-    <bcf:citekey order="122">PHD_NGUYEN</bcf:citekey>
-    <bcf:citekey order="123">PHD_HERMANN</bcf:citekey>
+    <bcf:citekey order="117">schmiegelow2016transfer</bcf:citekey>
+    <bcf:citekey order="118">TXT_GALLAGHER</bcf:citekey>
+    <bcf:citekey order="119">PHD_CELISTRINO</bcf:citekey>
+    <bcf:citekey order="120">PHD_SIGNOLES</bcf:citekey>
+    <bcf:citekey order="120">PHD_FACON</bcf:citekey>
+    <bcf:citekey order="121">TXT_GALLAGHER</bcf:citekey>
+    <bcf:citekey order="122">PHD_DIETSCHE</bcf:citekey>
+    <bcf:citekey order="123">PHD_NGUYEN</bcf:citekey>
+    <bcf:citekey order="124">PHD_HERMANN</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>

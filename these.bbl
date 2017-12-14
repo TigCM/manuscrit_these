@@ -2450,7 +2450,7 @@
       \field{month}{11}
       \field{number}{2016PA066695}
       \field{title}{{Study of dipole-dipole interaction between Rydberg atoms : toward quantum simulation with Rydberg atoms}}
-      \field{type}{Theses}
+      \field{type}{phdthesis}
       \field{year}{2016}
       \verb{file}
       \verb https://tel.archives-ouvertes.fr/tel-01609840/file/2016PA066695.pdf
@@ -3706,6 +3706,35 @@
       \endverb
       \keyw{ion,techniques}
     \endentry
+    \entry{schmiegelow2016transfer}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=518aca7eec66939cca04f79a1361563d}{Schmiegelow}{S\bibinitperiod}{Christian\bibnamedelima T}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=beb9182a4cbad3c42c4a0c3d06fcd348}{Schulz}{S\bibinitperiod}{Jonas}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=f4c069b7ab9e6f67f74fe7e6e96ce11d}{Kaufmann}{K\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=392d173937357af80d67b063481d2893}{Ruster}{R\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=7ea6bcb005e3153e5283f4f5e0cc155d}{Poschinger}{P\bibinitperiod}{Ulrich\bibnamedelima G}{U\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=9f1ca3f4c4165c8787943b2bc367ba38}{Schmidt-Kaler}{S\bibinithyphendelim K\bibinitperiod}{Ferdinand}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=518aca7eec66939cca04f79a1361563d}{Schmiegelow}{S\bibinitperiod}{Christian\bibnamedelima T}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=beb9182a4cbad3c42c4a0c3d06fcd348}{Schulz}{S\bibinitperiod}{Jonas}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=f4c069b7ab9e6f67f74fe7e6e96ce11d}{Kaufmann}{K\bibinitperiod}{Henning}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=392d173937357af80d67b063481d2893}{Ruster}{R\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=7ea6bcb005e3153e5283f4f5e0cc155d}{Poschinger}{P\bibinitperiod}{Ulrich\bibnamedelima G}{U\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=9f1ca3f4c4165c8787943b2bc367ba38}{Schmidt-Kaler}{S\bibinithyphendelim K\bibinitperiod}{Ferdinand}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Research}%
+      }
+      \strng{namehash}{bf56dca9a04f607367405e56f59b06d4}
+      \strng{fullhash}{cc87cf1e843bef5bb994a9239a4fd490}
+      \field{sortinit}{0}
+      \field{labeltitle}{Transfer of optical orbital angular momentum to a bound electron}
+      \field{journaltitle}{Nature communications}
+      \field{title}{Transfer of optical orbital angular momentum to a bound electron}
+      \field{volume}{7}
+      \field{year}{2016}
+    \endentry
     \entry{PHD_SIGNOLES}{thesis}{}
       \name{labelname}{1}{}{%
         {{hash=ad71a75d1ee416104eac174ba2f740fa}{Signoles}{S\bibinitperiod}{Adrien}{A\bibinitperiod}{}{}{}{}}%
@@ -3723,7 +3752,7 @@
       \field{month}{12}
       \field{number}{2014PA066614}
       \field{title}{{Coherent manipulations of elliptic Rydberg states through quantum Zeno dynamics}}
-      \field{type}{Theses}
+      \field{type}{phdthesis}
       \field{year}{2014}
       \verb{file}
       \verb https://tel.archives-ouvertes.fr/tel-01146049/file/these_archivage_2703454o.pdf
@@ -3750,7 +3779,7 @@
       \field{month}{12}
       \field{number}{2015PA066534}
       \field{title}{{Schrödinger cat states of a Rydberg atom for quantum metrology}}
-      \field{type}{Theses}
+      \field{type}{phdthesis}
       \field{year}{2015}
       \verb{file}
       \verb https://tel.archives-ouvertes.fr/tel-01326581/file/2015PA066534.pdf

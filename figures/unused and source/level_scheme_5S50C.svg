@@ -27,15 +27,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="118.5125"
-     inkscape:cy="167.45099"
+     inkscape:zoom="0.35"
+     inkscape:cx="-967.60592"
+     inkscape:cy="-437.38508"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
+     inkscape:window-width="1600"
      inkscape:window-height="1181"
-     inkscape:window-x="1596"
+     inkscape:window-x="-4"
      inkscape:window-y="-4"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
@@ -361,6 +361,38 @@
          id="path7124"
          inkscape:connector-curvature="0" />
     </clipPath>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5990-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5988-3" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker48685-9"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path48683-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <metadata
      id="metadata5">
@@ -370,7 +402,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6163,5 +6195,601 @@
        id="path6242"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="caac" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6402-2"
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:#c2c2c2;stroke-width:0.15797004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.63188012, 0.31594004;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 161.21166,-105.20748 h 9.3171 c 0.59226,0 1.06989,0.28413 1.06989,0.63671 v 29.541079 c 0,0.35346 -0.47763,0.63762 -1.06989,0.63762 h -9.3171 c -0.59266,0 -1.0703,-0.28416 -1.0703,-0.63762 v -29.541079 c 0,-0.35258 0.47764,-0.63671 1.0703,-0.63671 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6406-8"
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:#c2c2c2;stroke-width:0.16500555;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.66002219, 0.3300111;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 148.37247,-105.20396 h 9.30682 c 0.59229,0 1.06877,0.28401 1.06877,0.63641 v 33.29861 c 0,0.352189 -0.47648,0.63619 -1.06877,0.63619 h -9.30682 c -0.59382,0 -1.0703,-0.284001 -1.0703,-0.63619 v -33.29861 c 0,-0.3524 0.47648,-0.63641 1.0703,-0.63641 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6410-4"
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:#c2c2c2;stroke-width:0.16449326;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.65797305, 0.32898653;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 135.54992,-105.20422 h 9.29806 c 0.59231,0 1.06845,0.28134 1.06845,0.63153 v 36.715769 c 0,0.349062 -0.47614,0.631301 -1.06845,0.631301 h -9.29806 c -0.59271,0 -1.07036,-0.282239 -1.07036,-0.631301 v -36.715769 c 0,-0.35019 0.47765,-0.63153 1.07036,-0.63153 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6414-7"
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:#c2c2c2;stroke-width:0.16658841;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.66635364, 0.33317681;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 114.97722,-105.20318 h 9.28607 c 0.59218,0 1.06825,0.28861 1.06825,0.64693 v 43.090551 c 0,0.359249 -0.47607,0.647859 -1.06825,0.647859 h -9.28607 c -0.59103,0 -1.06863,-0.28861 -1.06863,-0.647859 v -43.090551 c 0,-0.35832 0.4776,-0.64693 1.06863,-0.64693 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6418-4"
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:#c2c2c2;stroke-width:0.16767679;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.6707072, 0.3353536;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 102.1431,-105.20262 h 9.27905 c 0.591,0 1.06698,0.29242 1.06698,0.65546 v 47.452049 c 0,0.363041 -0.47598,0.655461 -1.06698,0.655461 h -9.27905 c -0.59254,0 -1.06701,-0.29242 -1.06701,-0.655461 v -47.452049 c 0,-0.36304 0.47447,-0.65546 1.06701,-0.65546 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6422-2"
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:nonzero;stroke:#c2c2c2;stroke-width:0.18425786;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.7370314, 0.36851571;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 98.57193,-105.19434 h -9.256562 c -0.58994,0 -1.065079,0.35375 -1.065079,0.79294 v 61.990429 c 0,0.438891 0.475139,0.792631 1.065079,0.792631 h 9.256562 c 0.58992,0 1.06354,-0.35374 1.06354,-0.792631 V -104.4014 c 0,-0.43919 -0.47362,-0.79294 -1.06354,-0.79294 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6534-7"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 102.37954,-62.738551 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6538-4"
+       style="fill:none;stroke:#001bff;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 161.44764,-80.10368 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6542-8"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 135.23515,-72.583901 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6546-3"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 115.21565,-66.498331 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6550-0"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 148.65471,-83.73134 h 9.17028"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6554-7"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 135.39219,-87.604911 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6558-8"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 135.31883,-80.519281 h 9.17028"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6562-2"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 129.84112,-80.258461 c 0.14175,0 0.25828,0.0698 0.25828,0.155701 0,0.0859 -0.11653,0.15547 -0.25828,0.15547 -0.1433,0 -0.25983,-0.0696 -0.25983,-0.15547 0,-0.0859 0.11653,-0.155701 0.25983,-0.155701 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6566-8"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 132.09929,-80.258461 c 0.14328,0 0.2583,0.0698 0.2583,0.155701 0,0.0859 -0.11502,0.15547 -0.2583,0.15547 -0.14328,0 -0.25944,-0.0696 -0.25944,-0.15547 0,-0.0859 0.11616,-0.155701 0.25944,-0.155701 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6570-4"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 127.5814,-80.258461 c 0.14329,0 0.25983,0.0698 0.25983,0.155701 0,0.0859 -0.11654,0.15547 -0.25983,0.15547 -0.14175,0 -0.2583,-0.0696 -0.2583,-0.15547 0,-0.0859 0.11655,-0.155701 0.2583,-0.155701 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6574-6"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442744;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130.45,-90.943651 c 0.12859,0.0384 0.17918,0.13229 0.11359,0.20831 -0.0641,0.077 -0.22077,0.10737 -0.34761,0.068 -0.12877,-0.0393 -0.17918,-0.13228 -0.11377,-0.20921 0.0642,-0.0761 0.22094,-0.10645 0.34779,-0.0671 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6578-8"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442744;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 132.46366,-90.329991 c 0.12685,0.0393 0.17744,0.1332 0.11185,0.20922 -0.0641,0.0759 -0.22094,0.10644 -0.348,0.0679 -0.12819,-0.0394 -0.17898,-0.13252 -0.11319,-0.20933 0.0642,-0.0761 0.22095,-0.10645 0.34934,-0.0678 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6582-5"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442744;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 128.43808,-91.558211 c 0.12839,0.0386 0.17899,0.13251 0.11339,0.20853 -0.0654,0.0769 -0.22075,0.10737 -0.34895,0.0679 -0.12705,-0.0385 -0.17764,-0.1324 -0.11223,-0.20933 0.0642,-0.0761 0.22095,-0.10645 0.34779,-0.0671 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6586-7"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 89.54076,-58.97947 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6590-5"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 148.64134,-76.395639 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6602-2"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.21381,-80.384611 c 0,0.0859 -0.11616,0.155691 -0.25944,0.155691 -0.14329,0 -0.2583,-0.0698 -0.2583,-0.155691 0,-0.0859 0.11501,-0.155699 0.2583,-0.155699 0.14328,0 0.25944,0.0698 0.25944,0.155699 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6606-4"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.21381,-79.03145 c 0,0.0859 -0.11616,0.155689 -0.25944,0.155689 -0.14329,0 -0.2583,-0.0698 -0.2583,-0.155689 0,-0.0859 0.11501,-0.154781 0.2583,-0.154781 0.14328,0 0.25944,0.0689 0.25944,0.154781 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6610-8"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 107.21381,-81.737771 c 0,0.0859 -0.11616,0.15569 -0.25944,0.15569 -0.14329,0 -0.2583,-0.0698 -0.2583,-0.15569 0,-0.0859 0.11501,-0.1557 0.2583,-0.1557 0.14328,0 0.25944,0.0698 0.25944,0.1557 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6614-0"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 94.66466,-80.384611 c 0,0.0859 -0.11501,0.155691 -0.2583,0.155691 -0.14328,0 -0.25982,-0.0698 -0.25982,-0.155691 0,-0.0859 0.11654,-0.155699 0.25982,-0.155699 0.14329,0 0.2583,0.0698 0.2583,0.155699 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6618-0"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 94.66466,-79.03145 c 0,0.0859 -0.11501,0.155689 -0.2583,0.155689 -0.14328,0 -0.25982,-0.0698 -0.25982,-0.155689 0,-0.0859 0.11654,-0.154781 0.25982,-0.154781 0.14329,0 0.2583,0.0689 0.2583,0.154781 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6622-4"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.08442738;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 94.66466,-81.737771 c 0,0.0859 -0.11501,0.15569 -0.2583,0.15569 -0.14328,0 -0.25982,-0.0698 -0.25982,-0.15569 0,-0.0859 0.11654,-0.1557 0.25982,-0.1557 0.14329,0 0.2583,0.0698 0.2583,0.1557 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6626-4"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 115.21565,-86.761231 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6630-6"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 111.36796,-90.532911 h -9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6634-2"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 98.52879,-94.219421 H 89.358499"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6638-3"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 115.21565,-93.930891 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6642-3"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 102.19767,-97.702571 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6646-7"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 89.358499,-101.28719 H 98.52879"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6650-2"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 98.52879,-69.030589 H 89.358499"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6654-3"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 102.19767,-72.273129 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6658-6"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 115.21565,-75.503962 h 9.17029"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <path
+       d="M 89.074439,-46.43209 H 98.24473"
+       style="fill:none;stroke:#000000;stroke-width:0.27680007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path43250-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
+    <g
+       transform="matrix(0.26768385,0,0,0.26768385,149.58259,-106.22089)"
+       id="g18970-4"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="g18968-2"
+         transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
+         xml:space="preserve"
+         stroke-miterlimit="10.433"
+         font-style="normal"
+         font-variant="normal"
+         font-weight="normal"
+         font-stretch="normal"
+         font-size-adjust="none"
+         letter-spacing="normal"
+         word-spacing="normal"><path
+           style="fill:#000000;stroke-width:0"
+           inkscape:connector-curvature="0"
+           d="m 463.44,441.78 v 0.16 0.17 l -0.01,0.16 v 0.08 0.08 l -0.01,0.08 -0.01,0.08 -0.01,0.07 -0.01,0.07 -0.02,0.07 -0.01,0.07 -0.02,0.07 -0.02,0.06 -0.03,0.06 -0.03,0.06 -0.03,0.06 -0.03,0.05 -0.04,0.05 -0.04,0.05 -0.05,0.04 -0.05,0.04 -0.03,0.01 -0.03,0.02 -0.03,0.02 -0.03,0.01 -0.03,0.01 -0.03,0.02 -0.03,0.01 -0.04,0.01 -0.04,0.01 -0.03,0.01 h -0.04 l -0.04,0.01 h -0.04 l -0.05,0.01 h -0.04 -0.05 c -1,0 -1,-0.89 -1,-1.78 v -46.24 c 0,-0.9 0,-1.79 1,-1.79 1,0 1,0.89 1,1.79 z"
+           id="path18958-0" /><path
+           style="fill:#000000;stroke-width:0"
+           inkscape:connector-curvature="0"
+           d="m 491.69,416.21 -0.01,0.56 -0.04,0.54 -0.05,0.54 -0.09,0.53 -0.1,0.53 -0.12,0.51 -0.15,0.5 -0.16,0.5 -0.19,0.48 -0.2,0.47 -0.23,0.46 -0.24,0.44 -0.26,0.43 -0.27,0.41 -0.3,0.4 -0.31,0.38 -0.32,0.36 -0.34,0.35 -0.36,0.32 -0.37,0.31 -0.38,0.29 -0.4,0.26 -0.41,0.25 -0.42,0.22 -0.43,0.2 -0.45,0.17 -0.45,0.15 -0.47,0.13 -0.47,0.09 -0.48,0.07 -0.5,0.05 -0.5,0.01 c -2.39,0 -4.53,-0.8 -6.33,-2.53 v 9.7 c 1,-0.29 2.65,-0.64 4.24,-0.64 6.12,0 9.61,4.53 9.61,5.19 0,0.3 -0.14,0.55 -0.5,0.55 -0.05,0 -0.14,0 -0.39,-0.16 -1,-0.45 -3.44,-1.44 -6.78,-1.44 -1.99,0 -4.28,0.35 -6.63,1.39 -0.39,0.14 -0.5,0.14 -0.59,0.14 -0.5,0 -0.5,-0.39 -0.5,-1.18 v -14.75 c 0,-0.89 0,-1.3 0.7,-1.3 0.34,0 0.44,0.16 0.64,0.45 0.55,0.8 2.39,3.49 6.42,3.49 2.6,0 3.85,-2.3 4.24,-3.19 0.81,-1.84 0.9,-3.78 0.9,-6.28 0,-1.74 0,-4.74 -1.2,-6.83 -1.19,-1.94 -3.03,-3.23 -5.33,-3.23 -3.64,0 -6.47,2.64 -7.33,5.57 0.16,-0.04 0.32,-0.09 0.86,-0.09 1.64,0 2.49,1.25 2.49,2.44 0,1.2 -0.85,2.44 -2.49,2.44 -0.7,0 -2.45,-0.35 -2.45,-2.65 0,-4.28 3.44,-9.1 9.03,-9.1 5.77,0 10.86,4.78 10.86,11.1 z"
+           id="path18960-0" /><path
+           style="fill:#000000;stroke-width:0"
+           inkscape:connector-curvature="0"
+           d="m 517.2,422.14 -0.01,0.74 -0.01,0.75 -0.02,0.75 -0.03,0.74 -0.05,0.75 -0.06,0.74 -0.07,0.74 -0.1,0.73 -0.11,0.73 -0.14,0.73 -0.17,0.72 -0.18,0.72 -0.22,0.72 -0.25,0.7 -0.27,0.7 -0.16,0.35 -0.15,0.34 c -2.29,4.8 -6.38,5.6 -8.47,5.6 -2.99,0 -6.63,-1.3 -8.68,-5.94 -1.59,-3.44 -1.84,-7.33 -1.84,-11.31 0,-3.74 0.2,-8.22 2.25,-12 2.14,-4.03 5.78,-5.03 8.22,-5.03 v 1.09 c -1.94,0 -4.89,1.25 -5.78,6.03 -0.55,2.98 -0.55,7.56 -0.55,10.52 0,3.18 0,6.46 0.41,9.15 0.94,5.94 4.67,6.38 5.92,6.38 1.64,0 4.94,-0.89 5.87,-5.83 0.5,-2.78 0.5,-6.58 0.5,-9.7 0,-3.75 0,-7.13 -0.54,-10.32 -0.75,-4.73 -3.6,-6.23 -5.83,-6.23 v 0 -1.09 c 2.69,0 6.47,1.04 8.67,5.78 1.6,3.43 1.85,7.31 1.85,11.25 z"
+           id="path18962-6" /><path
+           style="fill:#000000;stroke-width:0"
+           inkscape:connector-curvature="0"
+           d="m 522.03,423.23 0.02,-0.96 0.07,-0.94 0.11,-0.93 0.16,-0.91 0.2,-0.89 0.24,-0.87 0.28,-0.85 0.32,-0.83 0.36,-0.81 0.39,-0.78 0.43,-0.76 0.46,-0.74 0.49,-0.7 0.52,-0.68 0.56,-0.66 0.58,-0.62 0.61,-0.59 0.63,-0.56 0.66,-0.53 0.68,-0.5 0.71,-0.46 0.72,-0.43 0.75,-0.39 0.76,-0.35 0.78,-0.32 0.8,-0.28 0.81,-0.23 0.82,-0.2 0.84,-0.15 0.84,-0.11 0.86,-0.07 0.86,-0.02 c 8.13,0 13,6.92 13,12.7 0,0.5 0,0.84 -0.63,0.84 -0.55,0 -0.55,-0.29 -0.6,-0.79 -0.4,-7.13 -5.73,-11.21 -11.17,-11.21 -3.03,0 -12.8,1.69 -12.8,16.53 0,14.91 9.72,16.6 12.75,16.6 5.44,0 9.88,-4.53 10.86,-11.82 0.11,-0.68 0.11,-0.84 0.8,-0.84 0.79,0 0.79,0.16 0.79,1.2 v 11.8 c 0,0.86 0,1.2 -0.54,1.2 -0.19,0 -0.39,0 -0.8,-0.59 l -2.48,-3.69 c -1.85,1.8 -4.39,4.28 -9.18,4.28 -9.31,0 -17.32,-7.92 -17.32,-18.09 z"
+           id="path18964-4" /><path
+           style="fill:#000000;stroke-width:0"
+           inkscape:connector-curvature="0"
+           d="m 568.82,417.81 0.02,0.03 0.01,0.02 0.01,0.03 0.01,0.02 0.01,0.03 0.01,0.02 0.01,0.03 0.01,0.02 0.01,0.02 v 0.02 l 0.01,0.02 0.01,0.03 0.01,0.03 0.02,0.04 0.01,0.04 0.01,0.03 0.01,0.03 0.01,0.03 0.01,0.03 0.01,0.02 0.01,0.03 v 0.02 l 0.01,0.02 v 0.02 l 0.01,0.02 v 0.02 0.02 l 0.01,0.01 v 0.02 0.01 0.02 0.01 0.03 0.03 0.02 c 0,0.16 0,0.25 -0.25,0.85 l -8.72,22.92 c -0.29,0.84 -0.59,1.14 -1.13,1.14 -0.55,0 -1,-0.44 -1,-0.99 0,-0.15 0,-0.25 0.25,-0.79 l 8.82,-23.13 -8.82,-23.01 c -0.25,-0.55 -0.25,-0.64 -0.25,-0.89 0,-0.55 0.45,-1 1,-1 0.65,0 0.84,0.5 1.04,1 z"
+           id="path18966-4" /></g>    </g>
+    <g
+       id="g50781-9"
+       transform="matrix(0.19146084,0,0,0.19146084,73.982797,-121.86345)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <g
+         id="g50779-0"
+         transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
+         xml:space="preserve"
+         stroke-miterlimit="10.433"
+         font-style="normal"
+         font-variant="normal"
+         font-weight="normal"
+         font-stretch="normal"
+         font-size-adjust="none"
+         letter-spacing="normal"
+         word-spacing="normal"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path
+           d="m 459.91,409.14 -0.02,-0.07 -0.01,-0.08 -0.02,-0.07 -0.01,-0.08 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.02,-0.08 -0.02,-0.07 -0.02,-0.07 -0.01,-0.07 -0.02,-0.07 -0.01,-0.07 -0.01,-0.06 -0.01,-0.06 -0.01,-0.06 -0.01,-0.05 -0.01,-0.05 -0.01,-0.04 -0.01,-0.04 v -0.04 -0.03 -0.02 c 0,-0.89 0.7,-1.35 1.43,-1.35 0.61,0 1.5,0.39 1.85,1.39 0.06,0.11 0.65,2.44 0.95,3.69 l 1.1,4.48 c 0.29,1.1 0.59,2.19 0.84,3.35 0.2,0.84 0.61,2.28 0.66,2.48 0.75,1.55 3.39,6.08 8.1,6.08 2.25,0 2.71,-1.84 2.71,-3.48 0,-1.25 -0.36,-2.64 -0.75,-4.14 l -1.39,-5.79 -1,-3.78 c -0.21,-1 -0.66,-2.68 -0.66,-2.93 0,-0.89 0.7,-1.35 1.45,-1.35 1.55,0 1.85,1.25 2.24,2.85 0.7,2.78 2.55,10.06 3,12 0.14,0.65 2.78,6.62 8.22,6.62 2.14,0 2.68,-1.69 2.68,-3.48 0,-2.85 -2.09,-8.52 -3.09,-11.16 -0.45,-1.2 -0.64,-1.75 -0.64,-2.75 0,-2.33 1.73,-4.08 4.08,-4.08 4.69,0 6.53,7.27 6.53,7.67 0,0.5 -0.45,0.5 -0.59,0.5 -0.5,0 -0.5,-0.15 -0.75,-0.9 -0.75,-2.64 -2.35,-6.17 -5.08,-6.17 -0.86,0 -1.21,0.5 -1.21,1.64 0,1.25 0.46,2.45 0.9,3.54 0.95,2.58 3.04,8.11 3.04,10.96 0,3.23 -2,5.32 -5.73,5.32 -3.74,0 -6.27,-2.18 -8.11,-4.82 -0.06,0.65 -0.2,2.34 -1.61,3.53 -1.24,1.04 -2.83,1.29 -4.08,1.29 -4.48,0 -6.92,-3.18 -7.76,-4.32 -0.25,2.84 -2.35,4.32 -4.6,4.32 -2.28,0 -3.23,-1.93 -3.69,-2.82 -0.89,-1.75 -1.54,-4.69 -1.54,-4.85 0,-0.5 0.5,-0.5 0.61,-0.5 0.5,0 0.54,0.07 0.84,1.16 0.84,3.53 1.84,5.92 3.64,5.92 0.8,0 1.55,-0.39 1.55,-2.28 0,-1.05 -0.16,-1.61 -0.8,-4.19 z"
+           id="path50771-2"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 547.35,422.5 h 0.15 0.14 0.14 l 0.08,0.01 h 0.07 l 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.07,0.02 0.05,0.03 0.06,0.03 0.05,0.04 0.05,0.03 0.05,0.05 0.04,0.04 0.04,0.05 0.02,0.03 0.02,0.03 0.01,0.02 0.02,0.03 0.01,0.03 0.02,0.04 0.01,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.04 0.05 c 0,1 -0.95,1 -1.64,1 h -29.84 c -0.71,0 -1.64,0 -1.64,-1 0,-0.98 0.93,-0.98 1.68,-0.98 z"
+           id="path50773-7"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 547.4,412.82 h 0.07 0.06 l 0.14,0.01 h 0.14 0.07 l 0.07,0.01 0.07,0.01 h 0.07 l 0.07,0.01 0.06,0.02 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.06,0.02 0.06,0.03 0.05,0.03 0.06,0.04 0.04,0.04 0.05,0.04 0.04,0.05 0.02,0.02 0.02,0.03 0.02,0.02 0.02,0.03 0.02,0.03 0.01,0.03 0.01,0.03 0.02,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.05 0.04 c 0,1 -0.95,1 -1.69,1 H 517.6 c -0.75,0 -1.68,0 -1.68,-1 0,-1 0.93,-1 1.64,-1 z"
+           id="path50775-4"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 572,410.04 5.28,5.13 c 7.77,6.87 10.77,9.56 10.77,14.54 0,5.69 -4.48,9.68 -10.56,9.68 -5.64,0 -9.33,-4.6 -9.33,-9.03 0,-2.79 2.5,-2.79 2.64,-2.79 0.86,0 2.6,0.6 2.6,2.64 0,1.3 -0.9,2.6 -2.65,2.6 -0.39,0 -0.5,0 -0.64,-0.05 1.14,3.24 3.83,5.08 6.72,5.08 4.53,0 6.69,-4.05 6.69,-8.13 0,-3.98 -2.5,-7.92 -5.24,-11.01 l -9.56,-10.66 c -0.56,-0.54 -0.56,-0.64 -0.56,-1.84 h 18.49 l 1.4,8.67 h -1.25 c -0.25,-1.5 -0.59,-3.69 -1.09,-4.44 -0.36,-0.39 -3.64,-0.39 -4.74,-0.39 z"
+           id="path50777-5"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /></g>    </g>
+    <g
+       id="g52729-7"
+       transform="matrix(0.19146084,0,0,0.19146084,86.811327,-121.87896)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <g
+         word-spacing="normal"
+         letter-spacing="normal"
+         font-size-adjust="none"
+         font-stretch="normal"
+         font-weight="normal"
+         font-variant="normal"
+         font-style="normal"
+         stroke-miterlimit="10.433"
+         xml:space="preserve"
+         transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
+         id="g52727-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path
+           id="path52719-2"
+           d="m 459.91,409.14 -0.02,-0.07 -0.01,-0.08 -0.02,-0.07 -0.01,-0.08 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.02,-0.08 -0.02,-0.07 -0.02,-0.07 -0.01,-0.07 -0.02,-0.07 -0.01,-0.07 -0.01,-0.06 -0.01,-0.06 -0.01,-0.06 -0.01,-0.05 -0.01,-0.05 -0.01,-0.04 -0.01,-0.04 v -0.04 -0.03 -0.02 c 0,-0.89 0.7,-1.35 1.43,-1.35 0.61,0 1.5,0.39 1.85,1.39 0.06,0.11 0.65,2.44 0.95,3.69 l 1.1,4.48 c 0.29,1.1 0.59,2.19 0.84,3.35 0.2,0.84 0.61,2.28 0.66,2.48 0.75,1.55 3.39,6.08 8.1,6.08 2.25,0 2.71,-1.84 2.71,-3.48 0,-1.25 -0.36,-2.64 -0.75,-4.14 l -1.39,-5.79 -1,-3.78 c -0.21,-1 -0.66,-2.68 -0.66,-2.93 0,-0.89 0.7,-1.35 1.45,-1.35 1.55,0 1.85,1.25 2.24,2.85 0.7,2.78 2.55,10.06 3,12 0.14,0.65 2.78,6.62 8.22,6.62 2.14,0 2.68,-1.69 2.68,-3.48 0,-2.85 -2.09,-8.52 -3.09,-11.16 -0.45,-1.2 -0.64,-1.75 -0.64,-2.75 0,-2.33 1.73,-4.08 4.08,-4.08 4.69,0 6.53,7.27 6.53,7.67 0,0.5 -0.45,0.5 -0.59,0.5 -0.5,0 -0.5,-0.15 -0.75,-0.9 -0.75,-2.64 -2.35,-6.17 -5.08,-6.17 -0.86,0 -1.21,0.5 -1.21,1.64 0,1.25 0.46,2.45 0.9,3.54 0.95,2.58 3.04,8.11 3.04,10.96 0,3.23 -2,5.32 -5.73,5.32 -3.74,0 -6.27,-2.18 -8.11,-4.82 -0.06,0.65 -0.2,2.34 -1.61,3.53 -1.24,1.04 -2.83,1.29 -4.08,1.29 -4.48,0 -6.92,-3.18 -7.76,-4.32 -0.25,2.84 -2.35,4.32 -4.6,4.32 -2.28,0 -3.23,-1.93 -3.69,-2.82 -0.89,-1.75 -1.54,-4.69 -1.54,-4.85 0,-0.5 0.5,-0.5 0.61,-0.5 0.5,0 0.54,0.07 0.84,1.16 0.84,3.53 1.84,5.92 3.64,5.92 0.8,0 1.55,-0.39 1.55,-2.28 0,-1.05 -0.16,-1.61 -0.8,-4.19 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path52721-5"
+           d="m 547.35,422.5 h 0.15 0.14 0.14 l 0.08,0.01 h 0.07 l 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.07,0.02 0.05,0.03 0.06,0.03 0.05,0.04 0.05,0.03 0.05,0.05 0.04,0.04 0.04,0.05 0.02,0.03 0.02,0.03 0.01,0.02 0.02,0.03 0.01,0.03 0.02,0.04 0.01,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.04 0.05 c 0,1 -0.95,1 -1.64,1 h -29.84 c -0.71,0 -1.64,0 -1.64,-1 0,-0.98 0.93,-0.98 1.68,-0.98 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path52723-4"
+           d="m 547.4,412.82 h 0.07 0.06 l 0.14,0.01 h 0.14 0.07 l 0.07,0.01 0.07,0.01 h 0.07 l 0.07,0.01 0.06,0.02 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.06,0.02 0.06,0.03 0.05,0.03 0.06,0.04 0.04,0.04 0.05,0.04 0.04,0.05 0.02,0.02 0.02,0.03 0.02,0.02 0.02,0.03 0.02,0.03 0.01,0.03 0.01,0.03 0.02,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.05 0.04 c 0,1 -0.95,1 -1.69,1 H 517.6 c -0.75,0 -1.68,0 -1.68,-1 0,-1 0.93,-1 1.64,-1 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path52725-8"
+           d="m 580.13,423.73 0.38,0.13 0.37,0.15 0.36,0.15 0.36,0.17 0.35,0.18 0.34,0.19 0.33,0.2 0.32,0.22 0.31,0.22 0.3,0.23 0.29,0.24 0.29,0.25 0.27,0.26 0.26,0.27 0.25,0.27 0.23,0.29 0.23,0.29 0.21,0.3 0.2,0.3 0.19,0.32 0.17,0.32 0.16,0.32 0.15,0.33 0.13,0.34 0.12,0.34 0.1,0.34 0.09,0.35 0.08,0.36 0.05,0.36 0.04,0.36 0.03,0.36 0.01,0.37 c 0,4.08 -4.39,6.88 -9.17,6.88 -5.03,0 -8.82,-3 -8.82,-6.78 0,-1.65 1.1,-2.6 2.55,-2.6 1.53,0 2.53,1.1 2.53,2.55 0,2.48 -2.34,2.48 -3.08,2.48 1.54,2.44 4.83,3.1 6.63,3.1 2.03,0 4.78,-1.1 4.78,-5.58 0,-0.61 -0.11,-3.49 -1.41,-5.69 -1.48,-2.39 -3.18,-2.53 -4.42,-2.59 -0.41,-0.05 -1.59,-0.14 -1.95,-0.14 -0.39,-0.05 -0.75,-0.1 -0.75,-0.6 0,-0.54 0.36,-0.54 1.2,-0.54 h 2.19 c 4.09,0 5.94,-3.39 5.94,-8.29 0,-6.76 -3.44,-8.21 -5.64,-8.21 -2.15,0 -5.88,0.84 -7.61,3.78 1.73,-0.24 3.28,0.86 3.28,2.75 0,1.79 -1.35,2.78 -2.8,2.78 -1.19,0 -2.78,-0.69 -2.78,-2.89 0,-4.53 4.63,-7.81 10.06,-7.81 6.08,0 10.61,4.53 10.61,9.6 0,4.1 -3.14,7.97 -8.31,9.02 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /></g>    </g>
+    <g
+       id="g54689-3"
+       transform="matrix(0.19146084,0,0,0.19146084,99.62839,-121.84794)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <g
+         id="g54687-4"
+         transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
+         xml:space="preserve"
+         stroke-miterlimit="10.433"
+         font-style="normal"
+         font-variant="normal"
+         font-weight="normal"
+         font-stretch="normal"
+         font-size-adjust="none"
+         letter-spacing="normal"
+         word-spacing="normal"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path
+           d="m 459.91,409.14 -0.02,-0.07 -0.01,-0.08 -0.02,-0.07 -0.01,-0.08 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.02,-0.08 -0.02,-0.07 -0.02,-0.07 -0.01,-0.07 -0.02,-0.07 -0.01,-0.07 -0.01,-0.06 -0.01,-0.06 -0.01,-0.06 -0.01,-0.05 -0.01,-0.05 -0.01,-0.04 -0.01,-0.04 v -0.04 -0.03 -0.02 c 0,-0.89 0.7,-1.35 1.43,-1.35 0.61,0 1.5,0.39 1.85,1.39 0.06,0.11 0.65,2.44 0.95,3.69 l 1.1,4.48 c 0.29,1.1 0.59,2.19 0.84,3.35 0.2,0.84 0.61,2.28 0.66,2.48 0.75,1.55 3.39,6.08 8.1,6.08 2.25,0 2.71,-1.84 2.71,-3.48 0,-1.25 -0.36,-2.64 -0.75,-4.14 l -1.39,-5.79 -1,-3.78 c -0.21,-1 -0.66,-2.68 -0.66,-2.93 0,-0.89 0.7,-1.35 1.45,-1.35 1.55,0 1.85,1.25 2.24,2.85 0.7,2.78 2.55,10.06 3,12 0.14,0.65 2.78,6.62 8.22,6.62 2.14,0 2.68,-1.69 2.68,-3.48 0,-2.85 -2.09,-8.52 -3.09,-11.16 -0.45,-1.2 -0.64,-1.75 -0.64,-2.75 0,-2.33 1.73,-4.08 4.08,-4.08 4.69,0 6.53,7.27 6.53,7.67 0,0.5 -0.45,0.5 -0.59,0.5 -0.5,0 -0.5,-0.15 -0.75,-0.9 -0.75,-2.64 -2.35,-6.17 -5.08,-6.17 -0.86,0 -1.21,0.5 -1.21,1.64 0,1.25 0.46,2.45 0.9,3.54 0.95,2.58 3.04,8.11 3.04,10.96 0,3.23 -2,5.32 -5.73,5.32 -3.74,0 -6.27,-2.18 -8.11,-4.82 -0.06,0.65 -0.2,2.34 -1.61,3.53 -1.24,1.04 -2.83,1.29 -4.08,1.29 -4.48,0 -6.92,-3.18 -7.76,-4.32 -0.25,2.84 -2.35,4.32 -4.6,4.32 -2.28,0 -3.23,-1.93 -3.69,-2.82 -0.89,-1.75 -1.54,-4.69 -1.54,-4.85 0,-0.5 0.5,-0.5 0.61,-0.5 0.5,0 0.54,0.07 0.84,1.16 0.84,3.53 1.84,5.92 3.64,5.92 0.8,0 1.55,-0.39 1.55,-2.28 0,-1.05 -0.16,-1.61 -0.8,-4.19 z"
+           id="path54679-5"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 547.35,422.5 h 0.15 0.14 0.14 l 0.08,0.01 h 0.07 l 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.07,0.02 0.05,0.03 0.06,0.03 0.05,0.04 0.05,0.03 0.05,0.05 0.04,0.04 0.04,0.05 0.02,0.03 0.02,0.03 0.01,0.02 0.02,0.03 0.01,0.03 0.02,0.04 0.01,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.04 0.05 c 0,1 -0.95,1 -1.64,1 h -29.84 c -0.71,0 -1.64,0 -1.64,-1 0,-0.98 0.93,-0.98 1.68,-0.98 z"
+           id="path54681-2"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 547.4,412.82 h 0.07 0.06 l 0.14,0.01 h 0.14 0.07 l 0.07,0.01 0.07,0.01 h 0.07 l 0.07,0.01 0.06,0.02 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.06,0.02 0.06,0.03 0.05,0.03 0.06,0.04 0.04,0.04 0.05,0.04 0.04,0.05 0.02,0.02 0.02,0.03 0.02,0.02 0.02,0.03 0.02,0.03 0.01,0.03 0.01,0.03 0.02,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.05 0.04 c 0,1 -0.95,1 -1.69,1 H 517.6 c -0.75,0 -1.68,0 -1.68,-1 0,-1 0.93,-1 1.64,-1 z"
+           id="path54683-1"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 580.32,414.42 v -4.33 c 0,-1.8 -0.1,-2.34 -3.79,-2.34 h -1.04 v -1.55 c 2.04,0.16 4.64,0.16 6.73,0.16 2.1,0 4.74,0 6.77,-0.16 v 1.55 h -1.05 c -3.69,0 -3.78,0.54 -3.78,2.34 v 4.33 h 4.99 v 1.54 h -4.99 v 22.68 c 0,1 0,1.29 -0.8,1.29 -0.45,0 -0.59,0 -1,-0.61 l -15.29,-23.36 h 1.4 l 12.16,18.58 v -18.58 h -12.16 -1.4 v -1.54 z"
+           id="path54685-1"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /></g>    </g>
+    <g
+       id="g56663-6"
+       transform="matrix(0.19146084,0,0,0.19146084,145.1819,-121.86345)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <g
+         word-spacing="normal"
+         letter-spacing="normal"
+         font-size-adjust="none"
+         font-stretch="normal"
+         font-weight="normal"
+         font-variant="normal"
+         font-style="normal"
+         stroke-miterlimit="10.433"
+         xml:space="preserve"
+         transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
+         id="g56661-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path
+           id="path56651-3"
+           d="m 459.91,409.14 -0.02,-0.07 -0.01,-0.08 -0.02,-0.07 -0.01,-0.08 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.02,-0.08 -0.02,-0.07 -0.02,-0.07 -0.01,-0.07 -0.02,-0.07 -0.01,-0.07 -0.01,-0.06 -0.01,-0.06 -0.01,-0.06 -0.01,-0.05 -0.01,-0.05 -0.01,-0.04 -0.01,-0.04 v -0.04 -0.03 -0.02 c 0,-0.89 0.7,-1.35 1.43,-1.35 0.61,0 1.5,0.39 1.85,1.39 0.06,0.11 0.65,2.44 0.95,3.69 l 1.1,4.48 c 0.29,1.1 0.59,2.19 0.84,3.35 0.2,0.84 0.61,2.28 0.66,2.48 0.75,1.55 3.39,6.08 8.1,6.08 2.25,0 2.71,-1.84 2.71,-3.48 0,-1.25 -0.36,-2.64 -0.75,-4.14 l -1.39,-5.79 -1,-3.78 c -0.21,-1 -0.66,-2.68 -0.66,-2.93 0,-0.89 0.7,-1.35 1.45,-1.35 1.55,0 1.85,1.25 2.24,2.85 0.7,2.78 2.55,10.06 3,12 0.14,0.65 2.78,6.62 8.22,6.62 2.14,0 2.68,-1.69 2.68,-3.48 0,-2.85 -2.09,-8.52 -3.09,-11.16 -0.45,-1.2 -0.64,-1.75 -0.64,-2.75 0,-2.33 1.73,-4.08 4.08,-4.08 4.69,0 6.53,7.27 6.53,7.67 0,0.5 -0.45,0.5 -0.59,0.5 -0.5,0 -0.5,-0.15 -0.75,-0.9 -0.75,-2.64 -2.35,-6.17 -5.08,-6.17 -0.86,0 -1.21,0.5 -1.21,1.64 0,1.25 0.46,2.45 0.9,3.54 0.95,2.58 3.04,8.11 3.04,10.96 0,3.23 -2,5.32 -5.73,5.32 -3.74,0 -6.27,-2.18 -8.11,-4.82 -0.06,0.65 -0.2,2.34 -1.61,3.53 -1.24,1.04 -2.83,1.29 -4.08,1.29 -4.48,0 -6.92,-3.18 -7.76,-4.32 -0.25,2.84 -2.35,4.32 -4.6,4.32 -2.28,0 -3.23,-1.93 -3.69,-2.82 -0.89,-1.75 -1.54,-4.69 -1.54,-4.85 0,-0.5 0.5,-0.5 0.61,-0.5 0.5,0 0.54,0.07 0.84,1.16 0.84,3.53 1.84,5.92 3.64,5.92 0.8,0 1.55,-0.39 1.55,-2.28 0,-1.05 -0.16,-1.61 -0.8,-4.19 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path56653-6"
+           d="m 547.35,422.5 h 0.15 0.14 0.14 l 0.08,0.01 h 0.07 l 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.07,0.02 0.05,0.03 0.06,0.03 0.05,0.04 0.05,0.03 0.05,0.05 0.04,0.04 0.04,0.05 0.02,0.03 0.02,0.03 0.01,0.02 0.02,0.03 0.01,0.03 0.02,0.04 0.01,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.04 0.05 c 0,1 -0.95,1 -1.64,1 h -29.84 c -0.71,0 -1.64,0 -1.64,-1 0,-0.98 0.93,-0.98 1.68,-0.98 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path56655-9"
+           d="m 547.4,412.82 h 0.07 0.06 l 0.14,0.01 h 0.14 0.07 l 0.07,0.01 0.07,0.01 h 0.07 l 0.07,0.01 0.06,0.02 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.06,0.02 0.06,0.03 0.05,0.03 0.06,0.04 0.04,0.04 0.05,0.04 0.04,0.05 0.02,0.02 0.02,0.03 0.02,0.02 0.02,0.03 0.02,0.03 0.01,0.03 0.01,0.03 0.02,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.05 0.04 c 0,1 -0.95,1 -1.69,1 H 517.6 c -0.75,0 -1.68,0 -1.68,-1 0,-1 0.93,-1 1.64,-1 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path56657-5"
+           d="m 580.32,414.42 v -4.33 c 0,-1.8 -0.1,-2.34 -3.79,-2.34 h -1.04 v -1.55 c 2.04,0.16 4.64,0.16 6.73,0.16 2.1,0 4.74,0 6.77,-0.16 v 1.55 h -1.05 c -3.69,0 -3.78,0.54 -3.78,2.34 v 4.33 h 4.99 v 1.54 h -4.99 v 22.68 c 0,1 0,1.29 -0.8,1.29 -0.45,0 -0.59,0 -1,-0.61 l -15.29,-23.36 h 1.4 l 12.16,18.58 v -18.58 h -12.16 -1.4 v -1.54 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path56659-7"
+           d="m 608.91,422.04 v -1.59 c 0,-11.66 -5.17,-13.95 -8.06,-13.95 -0.86,0 -3.55,0.11 -4.89,1.79 2.19,0 2.59,1.44 2.59,2.3 0,1.53 -1.2,2.28 -2.29,2.28 -0.8,0 -2.28,-0.44 -2.28,-2.39 0,-3.33 2.68,-5.37 6.92,-5.37 6.42,0 12.5,6.76 12.5,17.48 0,13.41 -5.74,16.8 -10.16,16.8 -2.75,0 -5.19,-0.91 -7.33,-3.14 -2.04,-2.25 -3.18,-4.35 -3.18,-8.08 0,-6.22 4.39,-11.11 9.97,-11.11 l 0.04,1.14 c -0.79,0 -3.09,0 -4.64,3.14 -0.89,1.84 -0.89,4.34 -0.89,6.78 0,2.69 0,5.03 1.05,6.88 1.34,2.48 3.23,3.14 4.98,3.14 2.28,0 3.94,-1.71 4.78,-3.94 0.6,-1.59 0.8,-4.74 0.8,-7.03 0,-4.13 -1.7,-8.97 -6.08,-8.97 v 0 l -0.04,-1.14 c 3.03,0 5.07,2.09 6.21,4.98 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /></g>    </g>
+    <g
+       id="g58651-6"
+       transform="matrix(0.19146084,0,0,0.19146084,132.33701,-121.86345)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <g
+         id="g58649-5"
+         transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
+         xml:space="preserve"
+         stroke-miterlimit="10.433"
+         font-style="normal"
+         font-variant="normal"
+         font-weight="normal"
+         font-stretch="normal"
+         font-size-adjust="none"
+         letter-spacing="normal"
+         word-spacing="normal"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path
+           d="m 459.91,409.14 -0.02,-0.07 -0.01,-0.08 -0.02,-0.07 -0.01,-0.08 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.02,-0.08 -0.02,-0.07 -0.02,-0.07 -0.01,-0.07 -0.02,-0.07 -0.01,-0.07 -0.01,-0.06 -0.01,-0.06 -0.01,-0.06 -0.01,-0.05 -0.01,-0.05 -0.01,-0.04 -0.01,-0.04 v -0.04 -0.03 -0.02 c 0,-0.89 0.7,-1.35 1.43,-1.35 0.61,0 1.5,0.39 1.85,1.39 0.06,0.11 0.65,2.44 0.95,3.69 l 1.1,4.48 c 0.29,1.1 0.59,2.19 0.84,3.35 0.2,0.84 0.61,2.28 0.66,2.48 0.75,1.55 3.39,6.08 8.1,6.08 2.25,0 2.71,-1.84 2.71,-3.48 0,-1.25 -0.36,-2.64 -0.75,-4.14 l -1.39,-5.79 -1,-3.78 c -0.21,-1 -0.66,-2.68 -0.66,-2.93 0,-0.89 0.7,-1.35 1.45,-1.35 1.55,0 1.85,1.25 2.24,2.85 0.7,2.78 2.55,10.06 3,12 0.14,0.65 2.78,6.62 8.22,6.62 2.14,0 2.68,-1.69 2.68,-3.48 0,-2.85 -2.09,-8.52 -3.09,-11.16 -0.45,-1.2 -0.64,-1.75 -0.64,-2.75 0,-2.33 1.73,-4.08 4.08,-4.08 4.69,0 6.53,7.27 6.53,7.67 0,0.5 -0.45,0.5 -0.59,0.5 -0.5,0 -0.5,-0.15 -0.75,-0.9 -0.75,-2.64 -2.35,-6.17 -5.08,-6.17 -0.86,0 -1.21,0.5 -1.21,1.64 0,1.25 0.46,2.45 0.9,3.54 0.95,2.58 3.04,8.11 3.04,10.96 0,3.23 -2,5.32 -5.73,5.32 -3.74,0 -6.27,-2.18 -8.11,-4.82 -0.06,0.65 -0.2,2.34 -1.61,3.53 -1.24,1.04 -2.83,1.29 -4.08,1.29 -4.48,0 -6.92,-3.18 -7.76,-4.32 -0.25,2.84 -2.35,4.32 -4.6,4.32 -2.28,0 -3.23,-1.93 -3.69,-2.82 -0.89,-1.75 -1.54,-4.69 -1.54,-4.85 0,-0.5 0.5,-0.5 0.61,-0.5 0.5,0 0.54,0.07 0.84,1.16 0.84,3.53 1.84,5.92 3.64,5.92 0.8,0 1.55,-0.39 1.55,-2.28 0,-1.05 -0.16,-1.61 -0.8,-4.19 z"
+           id="path58639-0"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 547.35,422.5 h 0.15 0.14 0.14 l 0.08,0.01 h 0.07 l 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.07,0.02 0.05,0.03 0.06,0.03 0.05,0.04 0.05,0.03 0.05,0.05 0.04,0.04 0.04,0.05 0.02,0.03 0.02,0.03 0.01,0.02 0.02,0.03 0.01,0.03 0.02,0.04 0.01,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.04 0.05 c 0,1 -0.95,1 -1.64,1 h -29.84 c -0.71,0 -1.64,0 -1.64,-1 0,-0.98 0.93,-0.98 1.68,-0.98 z"
+           id="path58641-6"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 547.4,412.82 h 0.07 0.06 l 0.14,0.01 h 0.14 0.07 l 0.07,0.01 0.07,0.01 h 0.07 l 0.07,0.01 0.06,0.02 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.06,0.02 0.06,0.03 0.05,0.03 0.06,0.04 0.04,0.04 0.05,0.04 0.04,0.05 0.02,0.02 0.02,0.03 0.02,0.02 0.02,0.03 0.02,0.03 0.01,0.03 0.01,0.03 0.02,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.05 0.04 c 0,1 -0.95,1 -1.69,1 H 517.6 c -0.75,0 -1.68,0 -1.68,-1 0,-1 0.93,-1 1.64,-1 z"
+           id="path58643-1"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 580.32,414.42 v -4.33 c 0,-1.8 -0.1,-2.34 -3.79,-2.34 h -1.04 v -1.55 c 2.04,0.16 4.64,0.16 6.73,0.16 2.1,0 4.74,0 6.77,-0.16 v 1.55 h -1.05 c -3.69,0 -3.78,0.54 -3.78,2.34 v 4.33 h 4.99 v 1.54 h -4.99 v 22.68 c 0,1 0,1.29 -0.8,1.29 -0.45,0 -0.59,0 -1,-0.61 l -15.29,-23.36 h 1.4 l 12.16,18.58 v -18.58 h -12.16 -1.4 v -1.54 z"
+           id="path58645-1"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           d="m 606.02,424.23 0.34,0.18 0.32,0.17 0.32,0.19 0.31,0.19 0.31,0.19 0.29,0.2 0.29,0.2 0.28,0.2 0.27,0.21 0.26,0.22 0.26,0.21 0.24,0.23 0.23,0.22 0.23,0.24 0.21,0.23 0.21,0.24 0.19,0.24 0.18,0.25 0.17,0.25 0.16,0.26 0.15,0.26 0.14,0.27 0.12,0.27 0.12,0.27 0.1,0.28 0.09,0.28 0.07,0.28 0.06,0.29 0.05,0.29 0.04,0.3 0.02,0.3 v 0.31 c 0,4.59 -4.43,7.44 -8.96,7.44 l -0.05,-1.25 c 3.64,0 6.83,-2.6 6.83,-6.19 0,-2.83 -1.96,-5.22 -4.94,-6.97 l -6.17,3.98 c -2.3,1.5 -2.5,3.19 -2.5,4.04 0,3.04 3.25,5.14 6.78,5.14 l 0.05,1.25 c -4.99,0 -9.02,-3.69 -9.02,-8.33 0,-0.89 0.09,-3.14 2.19,-5.49 0.54,-0.59 2.39,-1.84 3.64,-2.68 l 1.14,-0.75 6.14,-3.88 c 1.39,-0.95 3.73,-2.45 3.73,-5.48 0,-3.69 -3.73,-6.28 -7.82,-6.28 -4.29,0 -7.88,3.09 -7.88,7.21 0,2.9 1.59,6.08 5.83,8.43 v 0 l -1.14,0.75 c -2.89,-1.44 -7.17,-4.24 -7.17,-9.18 0,-5.28 5.07,-8.6 10.31,-8.6 5.62,0 10.36,4.14 10.36,9.46 0,1.79 -0.55,4.04 -2.44,6.13 -0.95,1.05 -1.75,1.55 -4.94,3.53 z"
+           id="path58647-7"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /></g>    </g>
+    <g
+       id="g60653-8"
+       transform="matrix(0.19146084,0,0,0.19146084,119.46997,-121.86345)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <g
+         word-spacing="normal"
+         letter-spacing="normal"
+         font-size-adjust="none"
+         font-stretch="normal"
+         font-weight="normal"
+         font-variant="normal"
+         font-style="normal"
+         stroke-miterlimit="10.433"
+         xml:space="preserve"
+         transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
+         id="g60651-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path
+           id="path60641-2"
+           d="m 459.91,409.14 -0.02,-0.07 -0.01,-0.08 -0.02,-0.07 -0.01,-0.08 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.02,-0.08 -0.02,-0.07 -0.02,-0.07 -0.01,-0.07 -0.02,-0.07 -0.01,-0.07 -0.01,-0.06 -0.01,-0.06 -0.01,-0.06 -0.01,-0.05 -0.01,-0.05 -0.01,-0.04 -0.01,-0.04 v -0.04 -0.03 -0.02 c 0,-0.89 0.7,-1.35 1.43,-1.35 0.61,0 1.5,0.39 1.85,1.39 0.06,0.11 0.65,2.44 0.95,3.69 l 1.1,4.48 c 0.29,1.1 0.59,2.19 0.84,3.35 0.2,0.84 0.61,2.28 0.66,2.48 0.75,1.55 3.39,6.08 8.1,6.08 2.25,0 2.71,-1.84 2.71,-3.48 0,-1.25 -0.36,-2.64 -0.75,-4.14 l -1.39,-5.79 -1,-3.78 c -0.21,-1 -0.66,-2.68 -0.66,-2.93 0,-0.89 0.7,-1.35 1.45,-1.35 1.55,0 1.85,1.25 2.24,2.85 0.7,2.78 2.55,10.06 3,12 0.14,0.65 2.78,6.62 8.22,6.62 2.14,0 2.68,-1.69 2.68,-3.48 0,-2.85 -2.09,-8.52 -3.09,-11.16 -0.45,-1.2 -0.64,-1.75 -0.64,-2.75 0,-2.33 1.73,-4.08 4.08,-4.08 4.69,0 6.53,7.27 6.53,7.67 0,0.5 -0.45,0.5 -0.59,0.5 -0.5,0 -0.5,-0.15 -0.75,-0.9 -0.75,-2.64 -2.35,-6.17 -5.08,-6.17 -0.86,0 -1.21,0.5 -1.21,1.64 0,1.25 0.46,2.45 0.9,3.54 0.95,2.58 3.04,8.11 3.04,10.96 0,3.23 -2,5.32 -5.73,5.32 -3.74,0 -6.27,-2.18 -8.11,-4.82 -0.06,0.65 -0.2,2.34 -1.61,3.53 -1.24,1.04 -2.83,1.29 -4.08,1.29 -4.48,0 -6.92,-3.18 -7.76,-4.32 -0.25,2.84 -2.35,4.32 -4.6,4.32 -2.28,0 -3.23,-1.93 -3.69,-2.82 -0.89,-1.75 -1.54,-4.69 -1.54,-4.85 0,-0.5 0.5,-0.5 0.61,-0.5 0.5,0 0.54,0.07 0.84,1.16 0.84,3.53 1.84,5.92 3.64,5.92 0.8,0 1.55,-0.39 1.55,-2.28 0,-1.05 -0.16,-1.61 -0.8,-4.19 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path60643-4"
+           d="m 547.35,422.5 h 0.15 0.14 0.14 l 0.08,0.01 h 0.07 l 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.07,0.02 0.05,0.03 0.06,0.03 0.05,0.04 0.05,0.03 0.05,0.05 0.04,0.04 0.04,0.05 0.02,0.03 0.02,0.03 0.01,0.02 0.02,0.03 0.01,0.03 0.02,0.04 0.01,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.04 0.05 c 0,1 -0.95,1 -1.64,1 h -29.84 c -0.71,0 -1.64,0 -1.64,-1 0,-0.98 0.93,-0.98 1.68,-0.98 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path60645-7"
+           d="m 547.4,412.82 h 0.07 0.06 l 0.14,0.01 h 0.14 0.07 l 0.07,0.01 0.07,0.01 h 0.07 l 0.07,0.01 0.06,0.02 0.07,0.01 0.07,0.02 0.06,0.02 0.06,0.02 0.06,0.02 0.06,0.03 0.05,0.03 0.06,0.04 0.04,0.04 0.05,0.04 0.04,0.05 0.02,0.02 0.02,0.03 0.02,0.02 0.02,0.03 0.02,0.03 0.01,0.03 0.01,0.03 0.02,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.05 0.04 c 0,1 -0.95,1 -1.69,1 H 517.6 c -0.75,0 -1.68,0 -1.68,-1 0,-1 0.93,-1 1.64,-1 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path60647-3"
+           d="m 580.32,414.42 v -4.33 c 0,-1.8 -0.1,-2.34 -3.79,-2.34 h -1.04 v -1.55 c 2.04,0.16 4.64,0.16 6.73,0.16 2.1,0 4.74,0 6.77,-0.16 v 1.55 h -1.05 c -3.69,0 -3.78,0.54 -3.78,2.34 v 4.33 h 4.99 v 1.54 h -4.99 v 22.68 c 0,1 0,1.29 -0.8,1.29 -0.45,0 -0.59,0 -1,-0.61 l -15.29,-23.36 h 1.4 l 12.16,18.58 v -18.58 h -12.16 -1.4 v -1.54 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path60649-1"
+           d="m 614.35,436.54 0.04,0.06 0.04,0.05 0.03,0.05 0.04,0.05 0.03,0.04 0.02,0.04 0.03,0.05 0.02,0.04 0.03,0.04 0.02,0.04 0.02,0.04 0.01,0.04 0.02,0.04 0.01,0.04 0.01,0.04 0.01,0.04 0.01,0.04 0.01,0.05 0.01,0.05 0.01,0.04 v 0.06 l 0.01,0.05 v 0.06 0.06 0.06 l 0.01,0.07 v 0.07 0.08 0.08 0.08 0.09 0.05 0.05 H 602.7 c -6.08,0 -6.19,0.65 -6.4,1.59 h -1.23 l -1.64,-10.25 h 1.23 c 0.16,0.8 0.61,3.94 1.25,4.53 0.35,0.3 4.24,0.3 4.88,0.3 h 10.33 c -0.57,-0.8 -4.49,-6.24 -5.6,-7.88 -4.48,-6.71 -6.12,-13.65 -6.12,-18.73 0,-0.5 0,-2.73 2.3,-2.73 2.29,0 2.29,2.23 2.29,2.73 v 2.55 c 0,2.73 0.14,5.48 0.55,8.17 0.19,1.14 0.89,5.42 3.08,8.51 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /></g>    </g>
+    <g
+       transform="matrix(1.0122424,0,0,0.86134554,39.272614,-236.31606)"
+       id="g5596-3"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5592-4"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48685-9)"
+         d="M 45.725217,229.1691 V 148.50076"
+         sodipodi:nodetypes="cc" />
+      <path
+         d="m 50.405646,148.75407 c 0.0073,-0.0204 0.02039,-0.05 0.02039,-0.0594 0,-0.003 0,-0.0466 -0.05113,-0.0466 -0.03926,0 -0.04625,0.0261 -0.05599,0.0499 -0.278134,0.63722 -0.437286,0.92479 -1.173095,0.92479 h -0.626562 c -0.06056,0 -0.06756,0 -0.09373,-0.003 -0.0429,-0.006 -0.05599,-0.01 -0.05599,-0.0429 0,-0.0131 0,-0.0225 0.02252,-0.0998 l 0.291219,-1.1734 H 49.109 c 0.364861,0 0.364861,0.0904 0.364861,0.19872 0,0.0295 0,0.0806 -0.03104,0.20905 -0.0094,0.0225 -0.01309,0.0356 -0.01309,0.0487 0,0.0216 0.01673,0.0478 0.05721,0.0478 0.03317,0 0.04625,-0.0229 0.063,-0.0867 l 0.244965,-1.00451 c 0,-0.0261 -0.02282,-0.0478 -0.05234,-0.0478 -0.03682,0 -0.04656,0.0253 -0.05964,0.0773 -0.09007,0.32591 -0.166149,0.42451 -0.560833,0.42451 H 48.71676 l 0.258963,-1.03433 c 0.03682,-0.14972 0.04291,-0.16616 0.23188,-0.16616 h 0.60374 c 0.524317,0 0.653951,0.12234 0.653951,0.47411 0,0.10346 0,0.1129 -0.01673,0.22944 0,0.0261 -0.0036,0.056 -0.0036,0.0761 0,0.0225 0.01096,0.0524 0.0499,0.0524 0.04656,0 0.05234,-0.0261 0.05964,-0.10803 l 0.08673,-0.74312 c 0.01308,-0.11654 -0.0094,-0.11654 -0.116548,-0.11654 h -2.168171 c -0.08673,0 -0.129633,0 -0.129633,0.0867 0,0.049 0.03926,0.049 0.121417,0.049 0.157935,0 0.279352,0 0.279352,0.0761 0,0.0164 0,0.0261 -0.02252,0.10317 l -0.567223,2.27163 c -0.0426,0.16645 -0.05113,0.20206 -0.391031,0.20206 -0.07242,0 -0.119896,0 -0.119896,0.0809 0,0.0524 0.03895,0.0524 0.119896,0.0524 h 2.231161 c 0.09646,0 0.102246,-0.003 0.132068,-0.0737 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.30430457"
+         id="path5594-8"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5986-2"
+       transform="matrix(0,1.0122424,-0.86134554,0,282.72763,-85.43265)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <path
+         sodipodi:nodetypes="cc"
+         d="M 45.725217,229.1691 V 117.78331"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5990-8)"
+         id="path5982-7"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 177.99718,-42.271512 -10e-4,0.0053 -7.2e-4,0.006 -0.001,0.0053 -7.2e-4,0.006 -0.003,0.01198 -0.003,0.01198 -0.003,0.01198 -0.003,0.01198 -0.003,0.01198 -0.003,0.01198 -0.001,0.006 -0.001,0.0053 -0.001,0.0053 -7.2e-4,0.0053 -10e-4,0.0053 -7.2e-4,0.0053 -7.2e-4,0.0045 -7.1e-4,0.0045 -7.2e-4,0.0045 -7.2e-4,0.0037 -7.2e-4,0.0037 -7.2e-4,0.0029 -7.2e-4,0.0029 v 0.0029 0.0023 0.0016 c 0,0.06692 0.0526,0.101491 0.10747,0.101491 0.0459,0 0.11276,-0.02932 0.1391,-0.104507 0.004,-0.0082 0.0488,-0.183441 0.0714,-0.277418 l 0.0827,-0.336813 c 0.0218,-0.0827 0.0443,-0.164647 0.0631,-0.251858 0.0151,-0.06315 0.0459,-0.171414 0.0496,-0.18645 0.0565,-0.116528 0.25487,-0.457103 0.60896,-0.457103 0.16917,0 0.20374,0.138333 0.20374,0.261631 0,0.09398 -0.0271,0.198479 -0.0563,0.311252 l -0.10451,0.4353 -0.0751,0.284186 c -0.0159,0.07518 -0.0496,0.201486 -0.0496,0.220282 0,0.06692 0.0526,0.101491 0.10901,0.101491 0.1165,0 0.13908,-0.09398 0.16842,-0.214267 0.0526,-0.209004 0.1917,-0.756326 0.22554,-0.902179 0.0103,-0.04886 0.20899,-0.4977 0.61799,-0.4977 0.16088,0 0.20148,0.127057 0.20148,0.261631 0,0.214267 -0.15713,0.640546 -0.23232,0.839026 -0.0339,0.09021 -0.0481,0.131567 -0.0481,0.206749 0,0.175173 0.13006,0.30674 0.30673,0.30674 0.3526,0 0.49094,-0.54657 0.49094,-0.576641 0,-0.03759 -0.0338,-0.03759 -0.0443,-0.03759 -0.0376,0 -0.0376,0.01134 -0.0565,0.06766 -0.0565,0.198479 -0.17668,0.46387 -0.38193,0.46387 -0.0647,0 -0.091,-0.03759 -0.091,-0.123294 0,-0.09398 0.0345,-0.184195 0.0677,-0.266143 0.0714,-0.193968 0.22855,-0.609721 0.22855,-0.82399 0,-0.242835 -0.15037,-0.399964 -0.4308,-0.399964 -0.28117,0 -0.47138,0.163896 -0.60972,0.362373 -0.004,-0.04886 -0.0151,-0.175923 -0.12099,-0.265391 -0.0932,-0.07819 -0.21277,-0.09698 -0.30674,-0.09698 -0.33683,0 -0.52026,0.239077 -0.58341,0.324782 -0.0188,-0.213514 -0.17668,-0.324782 -0.34583,-0.324782 -0.17142,0 -0.24285,0.1451 -0.27743,0.212011 -0.0669,0.131567 -0.11572,0.352601 -0.11572,0.36463 0,0.03759 0.0376,0.03759 0.0459,0.03759 0.0377,0 0.0406,-0.0053 0.0632,-0.08721 0.0632,-0.26539 0.13833,-0.445074 0.27366,-0.445074 0.0602,0 0.1165,0.02932 0.1165,0.171414 0,0.07894 -0.0116,0.121039 -0.0602,0.315009 z"
+       id="path5804-3"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\Stark_spearhead_Rb.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000" />
   </g>
 </svg>

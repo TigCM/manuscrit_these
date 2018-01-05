@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="448.62076"
-     inkscape:cy="296.81027"
+     inkscape:cx="55.542793"
+     inkscape:cy="558.42989"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -43,13 +43,147 @@
   <defs
      id="defs2">
     <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6821"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6819"
+         style="fill:#0200ff;fill-opacity:1;fill-rule:evenodd;stroke:#0200ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6691"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6689"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#0200ff;stroke-width:1pt;stroke-opacity:1;fill:#0200ff;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6515"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6513"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6397"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6395"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6231"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#00a417;fill-opacity:1;fill-rule:evenodd;stroke:#00a417;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path6229" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6125"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#00a417;stroke-width:1pt;stroke-opacity:1;fill:#00a417;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6123" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5851"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5849"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5757"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5755"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5633"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5631"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
        inkscape:isstock="true"
        style="overflow:visible"
        id="marker13144"
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow1Lstart">
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:collect="always">
       <path
          transform="scale(0.8) translate(12.5,0)"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
@@ -106,7 +240,8 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow1Mend">
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
       <path
          inkscape:connector-curvature="0"
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
@@ -121,7 +256,8 @@
        refX="0"
        id="marker12301"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path12299"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
@@ -136,7 +272,8 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow2Lend">
+       inkscape:stockid="Arrow2Lend"
+       inkscape:collect="always">
       <path
          inkscape:connector-curvature="0"
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
@@ -231,7 +368,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2847,5 +2984,655 @@
        id="path12343"
        style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.30126444"
        d="m -294.01772,-51.723349 v 0.634178 c -0.67133,-0.24724 -1.20297,-0.958857 -1.62348,-2.168813 -0.41875,-1.209955 -0.62407,-2.519475 -0.62407,-3.992622 0,-0.773877 0.0385,-1.653237 0.11713,-2.680272 0.0797,-1.027291 0.11853,-1.807086 0.11853,-2.376947 0,-0.774648 -0.11465,-1.481121 -0.3489,-2.153633 -0.23283,-0.671225 -0.54821,-1.073343 -0.96026,-1.223077 v -0.634949 c 0.41205,-0.149734 0.72743,-0.546706 0.96026,-1.210214 0.23425,-0.66325 0.3489,-1.368693 0.3489,-2.149517 0,-0.566773 -0.0388,-1.339621 -0.11853,-2.355593 -0.0787,-1.015972 -0.11713,-1.89456 -0.11713,-2.676413 0,-1.454108 0.20532,-2.754623 0.62407,-3.96355 0.42051,-1.208927 0.95215,-1.914369 1.62348,-2.149517 v 0.634178 c -0.46602,0.298437 -0.8008,0.773621 -1.01847,1.448962 -0.21625,0.674314 -0.32385,1.399052 -0.32385,2.20689 0,0.627231 0.0385,1.435326 0.11854,2.461332 0.0787,1.027035 0.11712,1.881181 0.11712,2.604891 0,1.073344 -0.14323,2.090344 -0.43815,3.101428 -0.29351,1.009797 -0.72214,1.773641 -1.30634,2.326521 0.57185,0.565744 0.99766,1.348626 1.29787,2.385694 0.30057,1.037068 0.44662,2.070277 0.44662,3.149538 0,0.727569 -0.0385,1.585832 -0.11712,2.616983 -0.0801,1.031151 -0.11854,1.843104 -0.11854,2.474195 0,0.811955 0.1076,1.53978 0.32385,2.217952 0.21767,0.67843 0.55245,1.161846 1.01847,1.472375" />
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-340.09016,-161.81317)"
+       id="g5121"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5119"
+         style="fill:none;stroke:#231f20;stroke-width:0.70963901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.5;stroke-dasharray:none;stroke-opacity:1"
+         d="m 102.98,-0.777 2.067,-0.52 m 3.441,-0.859 2.067,-0.516 m 3.441,-0.859 2.066,-0.52 m 3.442,-0.859 2.066,-0.516 m 3.442,-0.859 2.066,-0.52 m 3.442,-0.859 1.203,-0.301" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-340.1837,-180.66052)"
+       id="g5125"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5123"
+         style="fill:none;stroke:#231f20;stroke-width:0.70963901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.5;stroke-dasharray:none;stroke-opacity:1"
+         d="m 102.98,-120.512 2.067,0.516 m 3.441,0.863 2.067,0.516 m 3.441,0.859 2.066,0.516 m 3.442,0.863 2.066,0.516 m 3.442,0.859 2.066,0.52 m 3.442,0.859 1.203,0.301" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5127"
+       style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.30126444"
+       d="m -307.4881,-136.57524 v 0.63418 c -0.67133,-0.24724 -1.20297,-0.95886 -1.62348,-2.16882 -0.41875,-1.20995 -0.62407,-2.51947 -0.62407,-3.99262 0,-0.77388 0.0385,-1.65324 0.11713,-2.68027 0.0797,-1.0273 0.11853,-1.80709 0.11853,-2.37695 0,-0.77465 -0.11465,-1.48113 -0.3489,-2.15364 -0.23283,-0.67122 -0.54821,-1.07334 -0.96026,-1.22307 v -0.63495 c 0.41205,-0.14974 0.72743,-0.54671 0.96026,-1.21022 0.23425,-0.66325 0.3489,-1.36869 0.3489,-2.14952 0,-0.56677 -0.0388,-1.33962 -0.11853,-2.35559 -0.0787,-1.01597 -0.11713,-1.89456 -0.11713,-2.67642 0,-1.4541 0.20532,-2.75462 0.62407,-3.96355 0.42051,-1.20893 0.95215,-1.91437 1.62348,-2.14952 v 0.63418 c -0.46602,0.29844 -0.8008,0.77362 -1.01847,1.44896 -0.21625,0.67432 -0.32385,1.39906 -0.32385,2.2069 0,0.62723 0.0385,1.43532 0.11854,2.46133 0.0787,1.02704 0.11712,1.88118 0.11712,2.60489 0,1.07335 -0.14323,2.09035 -0.43815,3.10143 -0.29351,1.0098 -0.72214,1.77364 -1.30634,2.32652 0.57185,0.56575 0.99766,1.34863 1.29787,2.3857 0.30057,1.03707 0.44662,2.07028 0.44662,3.14954 0,0.72757 -0.0385,1.58583 -0.11712,2.61698 -0.0801,1.03116 -0.11854,1.84311 -0.11854,2.4742 0,0.81196 0.1076,1.53978 0.32385,2.21795 0.21767,0.67843 0.55245,1.16185 1.01847,1.47238"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <g
+       transform="translate(15.808992,-101.94664)"
+       id="g5137"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <text
+         y="-47.149437"
+         x="-341.46494"
+         style="font-style:italic;font-variant:normal;font-size:4.5061698px;font-family:TeXGyrePagella;-inkscape-font-specification:TeXGyrePagella-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text5131">
+        <tspan
+           style="stroke-width:0.35277778"
+           x="-341.46494"
+           y="-47.149437"
+           id="tspan5129">n</tspan>
+      </text>
+      <text
+         y="-47.149437"
+         x="-337.83295"
+         style="font-variant:normal;font-weight:normal;font-size:4.5061698px;font-family:TeXGyrePagella;-inkscape-font-specification:TeXGyrePagella-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="text5135">
+        <tspan
+           y="-47.149437"
+           x="-337.83295"
+           style="stroke-width:0.35277778"
+           sodipodi:role="line"
+           id="tspan5133">= 50</tspan>
+      </text>
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-367.03824,-170.62562)"
+       id="g5141"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5139"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         d="m 212.41,-84.52 h 31.223" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-367.03824,-170.62562)"
+       id="g5145"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5143"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         d="m 212.41,-34.168 h 31.223" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-367.03824,-170.62562)"
+       id="g5149"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5147"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         d="m 212.41,-59.344 h 31.223" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-367.03824,-170.62562)"
+       id="g5153"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5151"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         d="m 250.375,-47.27 h 31.223" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-367.03824,-170.62562)"
+       id="g5157"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5155"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         d="m 250.375,-72.188 h 31.223" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-367.03824,-170.62562)"
+       id="g5161"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5159"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         d="m 290.379,-59.344 h 31.226" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-354.33825,-225.65899)"
+       id="g5209"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5205"
+         style="fill:none;stroke:#000000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 69.926001,-283.836 H 378.043"
+         sodipodi:nodetypes="cc" />
+      <path
+         d="m 70.726825,-283.56859 0.461768,250.072331"
+         style="fill:none;stroke:#000000;stroke-width:1.59874022;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5633)"
+         id="path5207"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-354.33825,-225.65899)"
+       id="g5213" />
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-354.33825,-225.65899)"
+       id="g5217"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5215"
+         style="fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 191.449,-282.031 v -3.614" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-354.33825,-225.65899)"
+       id="g5221"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5219"
+         style="fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 230.348,-282.031 v -3.614" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-354.33825,-225.65899)"
+       id="g5225"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5223"
+         style="fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 269.242,-282.031 v -3.614" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-354.33825,-225.65899)"
+       id="g5229"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5227"
+         style="fill:none;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 307.582,-282.031 v -3.614" />
+    </g>
+    <g
+       transform="matrix(-0.35277777,0,0,0.35277777,-354.33825,-225.65899)"
+       id="g5233"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5231"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -371.645,283.836 3.204,-3.199 -11.204,3.199 11.204,3.203 z" />
+    </g>
+    <text
+       id="text5237"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+       x="-223.30557"
+       y="-118.96198"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <tspan
+         id="tspan5235"
+         y="-118.96198"
+         x="-223.30557"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.35277778">m</tspan>
+    </text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5239"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+       d="m -300.39498,-126.1399 h 0.7373 v 0.94686 h -0.7373 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5241"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+       d="m -300.65392,-126.1399 h 0.56903 v 0.5842 h -0.56903 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5243"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+       d="m -299.91662,-125.37507 h 0.56903 v 0.5842 h -0.56903 z"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-343.75491,-225.65899)"
+       id="g5247"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5245"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 122.648,-275.836 c -8,-6.402 8,-9.602 0,-16" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-343.75491,-225.65899)"
+       id="g5251"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5249"
+         style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 125.234,-275.836 c -8,-6.402 8,-9.602 0,-16" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-289.53821"
+       y="-121.06732"
+       id="text5255"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         sodipodi:role="line"
+         id="tspan5253"
+         x="-289.53821"
+         y="-121.06732"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">47       48       49       50</tspan></text>
+    <text
+       id="text5259"
+       y="-208.32021"
+       x="-326.78857"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:100%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px"
+         y="-208.32021"
+         x="-326.78857"
+         id="tspan5257"
+         sodipodi:role="line">Énergie</tspan></text>
+    <g
+       id="g5263"
+       transform="matrix(0.35277777,0,0,-0.35277777,-326.71332,-199.34822)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         d="m 102.98,-0.777 2.067,-0.52 m 3.441,-0.859 2.067,-0.516 m 3.441,-0.859 2.066,-0.52 m 3.442,-0.859 2.066,-0.516 m 3.442,-0.859 2.066,-0.52 m 3.442,-0.859 1.203,-0.301"
+         style="fill:none;stroke:#231f20;stroke-width:0.70963901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.5;stroke-dasharray:none;stroke-opacity:1"
+         id="path5261"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5267"
+       transform="matrix(0.35277777,0,0,-0.35277777,-326.33914,-218.24418)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         d="m 102.98,-120.512 2.067,0.516 m 3.441,0.863 2.067,0.516 m 3.441,0.859 2.066,0.516 m 3.442,0.863 2.066,0.516 m 3.442,0.859 2.066,0.52 m 3.442,0.859 1.203,0.301"
+         style="fill:none;stroke:#231f20;stroke-width:0.70963901;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.5;stroke-dasharray:none;stroke-opacity:1"
+         id="path5265"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(28.811655,-85.295749)"
+       id="g5277"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <text
+         id="text5271"
+         style="font-style:italic;font-variant:normal;font-size:4.5061698px;font-family:TeXGyrePagella;-inkscape-font-specification:TeXGyrePagella-Italic;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         x="-341.46494"
+         y="-100.59525">
+        <tspan
+           id="tspan5269"
+           y="-100.59525"
+           x="-341.46494"
+           style="stroke-width:0.35277778">n</tspan>
+      </text>
+      <text
+         id="text5275"
+         style="font-variant:normal;font-weight:normal;font-size:4.5061698px;font-family:TeXGyrePagella;-inkscape-font-specification:TeXGyrePagella-Regular;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         x="-337.83295"
+         y="-100.59525">
+        <tspan
+           id="tspan5273"
+           sodipodi:role="line"
+           style="stroke-width:0.35277778"
+           x="-337.83295"
+           y="-100.59525">= 51</tspan>
+      </text>
+    </g>
+    <g
+       id="g5281"
+       transform="matrix(0.35277777,0,0,-0.35277777,-353.27991,-207.13811)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         d="m 212.41,-84.52 h 31.223"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         id="path5279"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5285"
+       transform="matrix(0.35277777,0,0,-0.35277777,-353.27991,-209.25479)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         d="m 212.41,-34.168 h 31.223"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         id="path5283"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5289"
+       transform="matrix(0.35277777,0,0,-0.35277777,-353.27991,-208.19645)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         d="m 212.41,-59.344 h 31.223"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         id="path5287"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5293"
+       transform="matrix(0.35277777,0,0,-0.35277777,-353.27991,-208.72562)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         d="m 250.375,-47.27 h 31.223"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         id="path5291"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5297"
+       transform="matrix(0.35277777,0,0,-0.35277777,-353.27991,-207.66728)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         d="m 250.375,-72.188 h 31.223"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         id="path5295"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5301"
+       transform="matrix(0.35277777,0,0,-0.35277777,-353.27991,-208.19645)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         d="m 290.379,-59.344 h 31.226"
+         style="fill:none;stroke:#231f20;stroke-width:1.41926396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:14.30000019;stroke-dasharray:none;stroke-opacity:1"
+         id="path5299"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5323"
+       transform="matrix(0.88224243,0,0,0.88224243,-286.63586,-210.34224)"
+       style="fill:#ff0000;fill-opacity:1"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <g
+         word-spacing="normal"
+         letter-spacing="normal"
+         font-size-adjust="none"
+         font-stretch="normal"
+         font-weight="normal"
+         font-variant="normal"
+         font-style="normal"
+         stroke-miterlimit="10.433"
+         xml:space="preserve"
+         transform="matrix(0.15204229,0,0,-0.15204229,-26.6074,111.82495)"
+         id="g5321"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path
+           id="path5303"
+           d="m 477.89,416.21 -0.01,0.56 -0.03,0.54 -0.06,0.54 -0.08,0.53 -0.1,0.53 -0.13,0.51 -0.14,0.5 -0.17,0.5 -0.18,0.48 -0.21,0.47 -0.22,0.46 -0.24,0.44 -0.26,0.43 -0.28,0.41 -0.29,0.4 -0.31,0.38 -0.33,0.36 -0.34,0.35 -0.36,0.32 -0.37,0.31 -0.38,0.29 -0.4,0.26 -0.41,0.25 -0.42,0.22 -0.43,0.2 -0.44,0.17 -0.46,0.15 -0.46,0.13 -0.48,0.09 -0.48,0.07 -0.49,0.05 -0.5,0.01 c -2.39,0 -4.54,-0.8 -6.33,-2.53 v 9.7 c 1,-0.29 2.64,-0.64 4.23,-0.64 6.13,0 9.61,4.53 9.61,5.19 0,0.3 -0.14,0.55 -0.5,0.55 -0.05,0 -0.14,0 -0.39,-0.16 -1,-0.45 -3.44,-1.44 -6.78,-1.44 -1.98,0 -4.28,0.35 -6.63,1.39 -0.39,0.14 -0.5,0.14 -0.59,0.14 -0.5,0 -0.5,-0.39 -0.5,-1.18 v -14.75 c 0,-0.89 0,-1.3 0.7,-1.3 0.35,0 0.44,0.16 0.64,0.45 0.55,0.8 2.4,3.49 6.43,3.49 2.59,0 3.84,-2.3 4.23,-3.19 0.81,-1.84 0.91,-3.78 0.91,-6.28 0,-1.74 0,-4.74 -1.21,-6.83 -1.18,-1.94 -3.03,-3.23 -5.32,-3.23 -3.64,0 -6.47,2.64 -7.33,5.57 0.15,-0.04 0.31,-0.09 0.86,-0.09 1.64,0 2.48,1.25 2.48,2.44 0,1.2 -0.84,2.44 -2.48,2.44 -0.71,0 -2.46,-0.35 -2.46,-2.65 0,-4.28 3.44,-9.1 9.04,-9.1 5.76,0 10.85,4.78 10.85,11.1 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;stroke-width:0;fill-opacity:1" /><path
+           id="path5305"
+           d="m 495.12,438.09 v 0.05 0.06 0.05 0.05 0.05 0.05 0.04 l -0.01,0.05 v 0.04 0.04 0.04 0.04 0.04 0.03 l -0.01,0.04 v 0.03 l -0.01,0.07 -0.01,0.06 -0.01,0.05 -0.01,0.05 -0.02,0.05 -0.02,0.04 -0.02,0.04 -0.03,0.03 -0.02,0.03 -0.04,0.03 -0.03,0.03 -0.04,0.02 -0.05,0.02 -0.02,0.01 -0.02,0.01 h -0.03 l -0.03,0.01 -0.02,0.01 h -0.03 l -0.03,0.01 h -0.04 l -0.03,0.01 h -0.03 -0.04 l -0.04,0.01 h -0.04 -0.04 -0.04 -0.04 -0.05 l -0.04,0.01 h -0.05 -0.05 -0.05 -0.05 c -3.1,-3.19 -7.47,-3.19 -9.07,-3.19 v -1.55 c 1,0 3.94,0 6.52,1.3 v -25.81 c 0,-1.8 -0.14,-2.39 -4.63,-2.39 h -1.59 v -1.55 c 1.75,0.16 6.08,0.16 8.06,0.16 2,0 6.33,0 8.08,-0.16 v 1.55 h -1.59 c -4.49,0 -4.64,0.54 -4.64,2.39 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;stroke-width:0;fill-opacity:1" /><path
+           id="path5307"
+           d="m 515.54,406.25 v 0.3 l -0.01,0.3 -0.02,0.29 -0.02,0.28 -0.04,0.27 -0.03,0.26 -0.05,0.26 -0.05,0.24 -0.06,0.24 -0.06,0.23 -0.07,0.22 -0.08,0.21 -0.08,0.2 -0.09,0.19 -0.1,0.19 -0.1,0.17 -0.1,0.16 -0.12,0.16 -0.11,0.14 -0.13,0.13 -0.13,0.13 -0.13,0.11 -0.14,0.1 -0.14,0.1 -0.15,0.08 -0.16,0.07 -0.15,0.06 -0.17,0.05 -0.16,0.04 -0.18,0.03 -0.17,0.01 -0.19,0.01 c -1.64,0 -2.64,-1.25 -2.64,-2.64 0,-1.34 1,-2.64 2.64,-2.64 0.6,0 1.25,0.2 1.75,0.64 0.15,0.11 0.21,0.16 0.25,0.16 0.05,0 0.1,-0.05 0.1,-0.75 0,-3.69 -1.73,-6.68 -3.39,-8.32 -0.55,-0.54 -0.55,-0.65 -0.55,-0.79 0,-0.36 0.25,-0.55 0.5,-0.55 0.55,0 4.53,3.83 4.53,9.66 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;stroke-width:0;fill-opacity:1" /><path
+           id="path5309"
+           d="m 542.15,422.14 v 0.74 l -0.01,0.75 -0.02,0.75 -0.03,0.74 -0.05,0.75 -0.06,0.74 -0.08,0.74 -0.09,0.73 -0.12,0.73 -0.14,0.73 -0.16,0.72 -0.19,0.72 -0.21,0.72 -0.25,0.7 -0.28,0.7 -0.15,0.35 -0.16,0.34 c -2.28,4.8 -6.37,5.6 -8.47,5.6 -2.98,0 -6.62,-1.3 -8.67,-5.94 -1.59,-3.44 -1.84,-7.33 -1.84,-11.31 0,-3.74 0.2,-8.22 2.25,-12 2.14,-4.03 5.78,-5.03 8.22,-5.03 v 1.09 c -1.94,0 -4.89,1.25 -5.79,6.03 -0.54,2.98 -0.54,7.56 -0.54,10.52 0,3.18 0,6.46 0.41,9.15 0.93,5.94 4.67,6.38 5.92,6.38 1.64,0 4.93,-0.89 5.87,-5.83 0.5,-2.78 0.5,-6.58 0.5,-9.7 0,-3.75 0,-7.13 -0.54,-10.32 -0.75,-4.73 -3.6,-6.23 -5.83,-6.23 v 0 -1.09 c 2.68,0 6.46,1.04 8.67,5.78 1.59,3.43 1.84,7.31 1.84,11.25 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;stroke-width:0;fill-opacity:1" /><path
+           id="path5311"
+           d="m 562.47,422.04 v -1.59 c 0,-11.66 -5.17,-13.95 -8.06,-13.95 -0.86,0 -3.55,0.11 -4.89,1.79 2.18,0 2.59,1.44 2.59,2.3 0,1.53 -1.2,2.28 -2.3,2.28 -0.79,0 -2.28,-0.44 -2.28,-2.39 0,-3.33 2.69,-5.37 6.92,-5.37 6.43,0 12.5,6.76 12.5,17.48 0,13.41 -5.73,16.8 -10.15,16.8 -2.75,0 -5.19,-0.91 -7.33,-3.14 -2.05,-2.25 -3.19,-4.35 -3.19,-8.08 0,-6.22 4.39,-11.11 9.97,-11.11 l 0.05,1.14 c -0.8,0 -3.1,0 -4.64,3.14 -0.89,1.84 -0.89,4.34 -0.89,6.78 0,2.69 0,5.03 1.04,6.88 1.35,2.48 3.24,3.14 4.99,3.14 2.28,0 3.93,-1.71 4.78,-3.94 0.59,-1.59 0.8,-4.74 0.8,-7.03 0,-4.13 -1.71,-8.97 -6.08,-8.97 v 0 l -0.05,-1.14 c 3.03,0 5.08,2.09 6.22,4.98 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;stroke-width:0;fill-opacity:1" /><path
+           id="path5313"
+           d="m 587.43,422.04 v -1.59 c 0,-11.66 -5.18,-13.95 -8.07,-13.95 -0.86,0 -3.54,0.11 -4.89,1.79 2.19,0 2.6,1.44 2.6,2.3 0,1.53 -1.21,2.28 -2.3,2.28 -0.8,0 -2.28,-0.44 -2.28,-2.39 0,-3.33 2.69,-5.37 6.92,-5.37 6.42,0 12.5,6.76 12.5,17.48 0,13.41 -5.73,16.8 -10.16,16.8 -2.75,0 -5.18,-0.91 -7.32,-3.14 -2.05,-2.25 -3.19,-4.35 -3.19,-8.08 0,-6.22 4.39,-11.11 9.97,-11.11 l 0.04,1.14 c -0.79,0 -3.09,0 -4.64,3.14 -0.89,1.84 -0.89,4.34 -0.89,6.78 0,2.69 0,5.03 1.05,6.88 1.34,2.48 3.23,3.14 4.98,3.14 2.28,0 3.94,-1.71 4.78,-3.94 0.6,-1.59 0.8,-4.74 0.8,-7.03 0,-4.13 -1.7,-8.97 -6.08,-8.97 v 0 l -0.04,-1.14 c 3.03,0 5.07,2.09 6.22,4.98 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;stroke-width:0;fill-opacity:1" /><path
+           id="path5315"
+           d="m 631.81,409.34 0.06,-0.11 0.07,-0.11 0.08,-0.11 0.09,-0.12 0.09,-0.12 0.09,-0.12 0.1,-0.13 0.11,-0.12 0.11,-0.13 0.11,-0.13 0.23,-0.26 0.24,-0.25 0.25,-0.25 0.12,-0.11 0.12,-0.12 0.12,-0.11 0.12,-0.1 0.11,-0.1 0.11,-0.1 0.11,-0.08 0.11,-0.08 0.1,-0.08 0.09,-0.06 0.09,-0.06 0.09,-0.05 0.08,-0.03 0.07,-0.03 0.03,-0.01 0.03,-0.01 h 0.03 0.03 c 0.45,0 0.45,0.4 0.45,1.15 v 8.66 c 0,1.95 0.19,2.2 3.44,2.2 v 1.53 c -1.85,-0.04 -4.6,-0.14 -6.08,-0.14 -2,0 -6.24,0 -8.03,0.14 v -1.53 h 1.59 c 4.48,0 4.64,-0.55 4.64,-2.39 v -3.19 c 0,-5.59 -6.33,-6.03 -7.72,-6.03 -3.25,0 -13.11,1.74 -13.11,16.58 0,14.91 9.82,16.55 12.8,16.55 5.34,0 9.87,-4.49 10.87,-11.82 0.1,-0.68 0.1,-0.84 0.8,-0.84 0.8,0 0.8,0.16 0.8,1.2 v 11.8 c 0,0.86 0,1.2 -0.55,1.2 -0.2,0 -0.4,0 -0.81,-0.59 l -2.49,-3.69 c -1.59,1.6 -4.28,4.28 -9.21,4.28 -9.27,0 -17.33,-7.87 -17.33,-18.09 0,-10.2 7.97,-18.12 17.44,-18.12 3.62,0 7.6,1.29 9.31,4.23 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;stroke-width:0;fill-opacity:1" /><path
+           id="path5317"
+           d="m 671.93,436.34 v 0.16 0.16 0.15 l 0.01,0.15 0.01,0.13 0.01,0.13 0.02,0.13 0.02,0.11 0.03,0.12 0.03,0.1 0.05,0.1 0.05,0.09 0.06,0.09 0.06,0.08 0.08,0.08 0.09,0.07 0.1,0.06 0.11,0.06 0.06,0.03 0.07,0.03 0.06,0.02 0.07,0.03 0.08,0.02 0.08,0.02 0.08,0.02 0.08,0.02 0.09,0.02 0.09,0.02 0.1,0.02 0.1,0.01 0.1,0.01 0.11,0.02 0.12,0.01 0.11,0.01 0.13,0.01 0.12,0.01 0.13,0.01 0.14,0.01 h 0.14 l 0.15,0.01 h 0.15 l 0.15,0.01 h 0.16 0.17 0.17 0.18 1.2 v 1.55 c -1.75,-0.16 -5.44,-0.16 -7.33,-0.16 -1.89,0 -5.62,0 -7.37,0.16 v -1.55 h 1.2 c 3.83,0 3.94,-0.54 3.94,-2.34 v -11.66 h -14.91 v 11.66 c 0,1.8 0.11,2.34 3.94,2.34 h 1.2 v 1.55 c -1.75,-0.16 -5.44,-0.16 -7.32,-0.16 -1.9,0 -5.63,0 -7.38,0.16 v -1.55 h 1.2 c 3.83,0 3.94,-0.54 3.94,-2.34 v -26.25 c 0,-1.8 -0.11,-2.34 -3.94,-2.34 h -1.2 v -1.55 c 1.75,0.16 5.44,0.16 7.33,0.16 1.89,0 5.62,0 7.37,-0.16 v 1.55 h -1.2 c -3.83,0 -3.94,0.54 -3.94,2.34 v 13.05 h 14.91 v -13.05 c 0,-1.8 -0.11,-2.34 -3.94,-2.34 h -1.2 v -1.55 c 1.75,0.16 5.43,0.16 7.33,0.16 1.89,0 5.62,0 7.37,-0.16 v 1.55 h -1.2 c -3.83,0 -3.92,0.54 -3.92,2.34 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;stroke-width:0;fill-opacity:1" /><path
+           id="path5319"
+           d="m 698.13,426.18 0.02,0.03 0.02,0.02 0.02,0.03 0.02,0.02 0.02,0.02 0.01,0.03 0.02,0.02 0.02,0.02 0.01,0.02 0.02,0.02 0.01,0.02 0.02,0.02 0.01,0.02 0.01,0.01 0.03,0.04 0.02,0.03 0.02,0.03 0.02,0.03 0.01,0.03 0.02,0.02 0.01,0.03 0.01,0.02 0.02,0.02 v 0.03 l 0.01,0.02 0.01,0.02 0.01,0.02 v 0.01 l 0.01,0.02 v 0.02 0.02 l 0.01,0.03 v 0.03 0.04 0.04 c 0,0.64 -0.39,0.64 -1.3,0.64 h -15.93 l -0.55,-8.02 h 1.25 c 0.3,5.08 1.23,6.92 6.72,6.92 h 5.69 l -13.91,-18.78 c -0.45,-0.54 -0.45,-0.64 -0.45,-0.89 0,-0.7 0.36,-0.7 1.29,-0.7 h 16.44 l 0.86,9.31 h -1.25 c -0.45,-5.87 -1.5,-8.06 -7.28,-8.06 h -5.88 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;stroke-width:0;fill-opacity:1" /></g>    </g>
+    <g
+       id="g5369"
+       transform="translate(-225.47343,-177.7994)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -22.455939,-14.059152 v -0.01285 -0.01365 l -8.03e-4,-0.01285 v -0.0064 l -8.03e-4,-0.0064 -8.03e-4,-0.0064 v -0.0064 l -8.03e-4,-0.0056 -0.0016,-0.0056 -8.03e-4,-0.0056 -0.0016,-0.0056 -0.0016,-0.0056 -0.0016,-0.0048 -0.0016,-0.0048 -0.0024,-0.0048 -0.0024,-0.0048 -0.0032,-0.004 -0.0032,-0.004 -0.0032,-0.004 -0.0032,-0.0032 -0.004,-0.0032 -0.0024,-8.03e-4 -0.0024,-0.0016 -0.0024,-0.0016 -0.0024,-8.03e-4 -0.0024,-8.03e-4 -0.0024,-0.0016 -0.0032,-8.04e-4 -0.0024,-8.03e-4 -0.0032,-8.03e-4 -0.0032,-8.03e-4 h -0.0032 l -0.0032,-8.03e-4 h -0.0032 l -0.0032,-8.03e-4 h -0.004 -0.0032 c -0.0803,0 -0.0803,0.07147 -0.0803,0.142943 v 3.713311 c 0,0.07227 0,0.143746 0.0803,0.143746 0.0803,0 0.0803,-0.07147 0.0803,-0.143746 z"
+         id="path5359" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -20.187318,-12.005749 -8.03e-4,-0.04497 -0.0032,-0.04336 -0.0048,-0.04336 -0.0064,-0.04256 -0.008,-0.04256 -0.01044,-0.04096 -0.01124,-0.04015 -0.01365,-0.04015 -0.01446,-0.03855 -0.01686,-0.03774 -0.01767,-0.03694 -0.01927,-0.03533 -0.02088,-0.03453 -0.02248,-0.03292 -0.02329,-0.03212 -0.02489,-0.03052 -0.0265,-0.02891 -0.0273,-0.02811 -0.02811,-0.0257 -0.02971,-0.02489 -0.03132,-0.02329 -0.03132,-0.02088 -0.03293,-0.02008 -0.03373,-0.01767 -0.03533,-0.01606 -0.03533,-0.01365 -0.03694,-0.01205 -0.03694,-0.01044 -0.03855,-0.0072 -0.03855,-0.0056 -0.03935,-0.004 -0.04015,-8.03e-4 c -0.191929,0 -0.363782,0.06424 -0.508332,0.203172 v -0.77896 c 0.08031,0.02329 0.212006,0.05139 0.340494,0.05139 0.491468,0 0.77093,-0.363782 0.77093,-0.416783 0,-0.02409 -0.01124,-0.04417 -0.04015,-0.04417 -0.0032,0 -0.01124,0 -0.03132,0.01285 -0.08031,0.03614 -0.275447,0.115639 -0.544469,0.115639 -0.159004,0 -0.343706,-0.02811 -0.53162,-0.111624 -0.03132,-0.01124 -0.04015,-0.01124 -0.04818,-0.01124 -0.04015,0 -0.04015,0.03132 -0.04015,0.09476 v 1.184501 c 0,0.07147 0,0.104397 0.05702,0.104397 0.0273,0 0.03453,-0.01285 0.0514,-0.03614 0.04336,-0.06424 0.19193,-0.280265 0.515559,-0.280265 0.207991,0 0.308372,0.184702 0.339691,0.256173 0.06585,0.147762 0.07308,0.303554 0.07308,0.504317 0,0.139731 0,0.380646 -0.09637,0.548484 -0.09556,0.155792 -0.244128,0.259385 -0.428027,0.259385 -0.292311,0 -0.519574,-0.212005 -0.588637,-0.447299 0.01285,0.0032 0.0249,0.0072 0.06906,0.0072 0.1317,0 0.199157,-0.100381 0.199157,-0.195944 0,-0.09637 -0.06746,-0.195945 -0.199157,-0.195945 -0.05621,0 -0.196748,0.02811 -0.196748,0.212809 0,0.343706 0.275447,0.730777 0.725156,0.730777 0.462557,0 0.872114,-0.383859 0.872114,-0.891388 z"
+         id="path5361" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -18.804463,-13.762826 v -0.004 -0.0048 -0.004 -0.004 -0.004 -0.004 -0.0032 -0.004 -0.0032 -0.0032 l -8.03e-4,-0.0032 v -0.0032 -0.0032 -0.0024 -0.0032 l -8.03e-4,-0.0024 -8.04e-4,-0.0056 v -0.0048 l -0.0016,-0.004 -8.03e-4,-0.004 -0.0016,-0.004 -0.0016,-0.0032 -0.0016,-0.0032 -0.0016,-0.0024 -0.0024,-0.0024 -0.0024,-0.0024 -0.0032,-0.0024 -0.0032,-0.0016 -0.0032,-0.0016 -0.0024,-8.03e-4 -0.0016,-8.03e-4 h -0.0024 l -0.0016,-8.03e-4 -0.0024,-8.03e-4 h -0.0024 l -0.0024,-8.03e-4 h -0.0024 l -0.0032,-8.03e-4 h -0.0024 -0.0032 l -0.0032,-8.03e-4 h -0.0024 -0.0032 -0.004 -0.0032 -0.0032 l -0.004,-8.03e-4 h -0.004 -0.004 -0.004 -0.004 c -0.248143,0.256173 -0.59988,0.256173 -0.727565,0.256173 v 0.124473 c 0.0803,0 0.315599,0 0.522787,-0.104397 v 2.072677 c 0,0.144549 -0.01124,0.191929 -0.37101,0.191929 h -0.128489 v 0.124473 c 0.140535,-0.01285 0.488256,-0.01285 0.648063,-0.01285 0.16061,0 0.507529,0 0.648063,0.01285 v -0.124473 h -0.127685 c -0.359768,0 -0.372616,-0.04337 -0.372616,-0.191929 z"
+         id="path5363" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -17.751663,-12.569491 0.0024,0.07709 0.0056,0.07549 0.0088,0.07468 0.01285,0.07308 0.01606,0.07147 0.01927,0.06987 0.02249,0.06826 0.0257,0.06665 0.02811,0.06505 0.03212,0.06264 0.03373,0.06103 0.03694,0.05943 0.04015,0.05621 0.04176,0.05461 0.04417,0.053 0.04658,0.04979 0.04899,0.04738 0.0514,0.04497 0.0522,0.04256 0.05541,0.04015 0.05621,0.03694 0.05862,0.03453 0.05943,0.03132 0.06103,0.02811 0.06344,0.0257 0.06344,0.02249 0.06505,0.01847 0.06665,0.01606 0.06665,0.01205 0.06826,0.0088 0.06906,0.0056 0.06906,0.0016 c 0.652881,0 1.043967,-0.555712 1.043967,-1.019876 0,-0.04015 0,-0.06746 -0.0514,-0.06746 -0.04417,0 -0.04417,0.02329 -0.04738,0.06344 -0.03293,0.572576 -0.460951,0.900221 -0.897811,0.900221 -0.243325,0 -1.027103,-0.135716 -1.027103,-1.327445 0,-1.19735 0.780566,-1.333065 1.023891,-1.333065 0.43686,0 0.792611,0.363782 0.872114,0.949207 0.0088,0.05461 0.0088,0.06746 0.06424,0.06746 0.06344,0 0.06344,-0.01285 0.06344,-0.09637 V -13.9259 c 0,-0.06906 0,-0.09637 -0.04336,-0.09637 -0.01526,0 -0.03212,0 -0.06424,0.04738 l -0.19996,0.296326 c -0.147761,-0.144549 -0.35254,-0.343706 -0.736398,-0.343706 -0.747641,0 -1.391689,0.636017 -1.391689,1.45272 z"
+         id="path5365" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -13.993381,-12.134237 8.03e-4,-0.0024 8.03e-4,-0.0016 8.03e-4,-0.0024 8.03e-4,-0.0016 8.03e-4,-0.0024 8.03e-4,-0.0016 8.03e-4,-0.0024 8.03e-4,-0.0016 8.03e-4,-0.0016 8.03e-4,-0.0016 8.03e-4,-0.0016 8.03e-4,-0.0024 8.03e-4,-0.0024 8.03e-4,-0.0032 0.0016,-0.0032 8.03e-4,-0.0024 8.03e-4,-0.0024 8.03e-4,-0.0024 8.03e-4,-0.0024 8.03e-4,-0.0016 v -0.0024 l 8.03e-4,-0.0016 v -0.0016 l 8.03e-4,-0.0016 v -0.0016 l 8.03e-4,-0.0016 v -0.0016 -8.04e-4 -0.0016 l 8.03e-4,-8.03e-4 v -0.0016 -8.03e-4 -0.0024 -0.0024 -0.0016 c 0,-0.01285 0,-0.02008 -0.02008,-0.06826 l -0.700261,-1.840594 c -0.02329,-0.06746 -0.04738,-0.09155 -0.09155,-0.09155 -0.04417,0 -0.0803,0.03533 -0.0803,0.0795 0,0.01205 0,0.02008 0.02008,0.06344 l 0.709095,1.857459 -0.709095,1.847821 c -0.02008,0.04417 -0.02008,0.0514 -0.02008,0.07147 0,0.04417 0.03614,0.08031 0.0803,0.08031 0.053,0 0.06826,-0.04015 0.08432,-0.08031 z"
+         id="path5367" />
+    </g>
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6397);marker-end:url(#marker6515)"
+       d="m -245.86235,-187.21528 -13.97944,37.00846"
+       id="path5611"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <g
+       id="g5617"
+       transform="rotate(-18.023979,-430.06965,595.48216)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5613"
+         d="m -26.507595,-77.381355 h 3.8041 m 0,0.91483 h -3.8041"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         ry="0"
+         y="-77.131844"
+         x="-26.506971"
+         height="0.41714326"
+         width="3.8043718"
+         id="rect5615"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <path
+       d="m -294.01772,-173.43173 v 0.63418 c -0.67133,-0.24724 -1.20297,-0.95886 -1.62348,-2.16882 -0.41875,-1.20995 -0.62407,-2.51947 -0.62407,-3.99262 0,-0.77388 0.0385,-1.65324 0.11713,-2.68027 0.0797,-1.02729 0.11853,-1.80709 0.11853,-2.37695 0,-0.77465 -0.11465,-1.48112 -0.3489,-2.15364 -0.23283,-0.67122 -0.54821,-1.07334 -0.96026,-1.22307 v -0.63495 c 0.41205,-0.14974 0.72743,-0.54671 0.96026,-1.21022 0.23425,-0.66325 0.3489,-1.36869 0.3489,-2.14952 0,-0.56677 -0.0388,-1.33962 -0.11853,-2.35559 -0.0787,-1.01597 -0.11713,-1.89456 -0.11713,-2.67642 0,-1.4541 0.20532,-2.75462 0.62407,-3.96355 0.42051,-1.20893 0.95215,-1.91437 1.62348,-2.14952 v 0.63418 c -0.46602,0.29844 -0.8008,0.77362 -1.01847,1.44897 -0.21625,0.67431 -0.32385,1.39905 -0.32385,2.20689 0,0.62723 0.0385,1.43532 0.11854,2.46133 0.0787,1.02704 0.11712,1.88118 0.11712,2.60489 0,1.07335 -0.14323,2.09035 -0.43815,3.10143 -0.29351,1.0098 -0.72214,1.77365 -1.30634,2.32653 0.57185,0.56574 0.99766,1.34862 1.29787,2.38569 0.30057,1.03707 0.44662,2.07028 0.44662,3.14954 0,0.72757 -0.0385,1.58583 -0.11712,2.61698 -0.0801,1.03116 -0.11854,1.84311 -0.11854,2.4742 0,0.81196 0.1076,1.53978 0.32385,2.21795 0.21767,0.67843 0.55245,1.16185 1.01847,1.47238"
+       style="fill:#231f20;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.30126444"
+       id="path5629"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6371"
+       d="m -259.62069,-191.5809 -13.97944,37.00846"
+       style="fill:none;fill-rule:evenodd;stroke:#0200ff;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6691);marker-end:url(#marker6821)"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <g
+       transform="rotate(-18.023979,-446.80586,639.00367)"
+       id="g6377"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0200ff;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -26.507595,-77.381355 h 3.8041 m 0,0.91483 h -3.8041"
+         id="path6373"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect6375"
+         width="3.8043718"
+         height="0.41714326"
+         x="-26.506971"
+         y="-77.131844"
+         ry="0" />
+    </g>
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;fill-rule:evenodd;stroke:#00a417;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6125);marker-end:url(#marker6231)"
+       d="m -272.84986,-196.3434 -13.97944,37.00846"
+       id="path6381"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <g
+       id="g6387"
+       transform="rotate(-18.023979,-478.19984,672.50456)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path6383"
+         d="m -26.507595,-77.381355 h 3.8041 m 0,0.91483 h -3.8041"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#00a417;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         ry="0"
+         y="-77.131844"
+         x="-26.506971"
+         height="0.41714326"
+         width="3.8043718"
+         id="rect6385"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g7305"
+       transform="translate(-229.09219,-134.77436)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\levels_50C51C.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -33.344516,-14.059152 v -0.01285 -0.01365 l -8.03e-4,-0.01285 v -0.0064 -0.0064 l -8.03e-4,-0.0064 -8.03e-4,-0.0064 -8.03e-4,-0.0056 -8.03e-4,-0.0056 -0.0016,-0.0056 -8.03e-4,-0.0056 -0.0016,-0.0056 -0.0016,-0.0048 -0.0024,-0.0048 -0.0024,-0.0048 -0.0024,-0.0048 -0.0024,-0.004 -0.0032,-0.004 -0.0032,-0.004 -0.004,-0.0032 -0.004,-0.0032 -0.0024,-8.03e-4 -0.0024,-0.0016 -0.0024,-0.0016 -0.0024,-8.03e-4 -0.0024,-8.03e-4 -0.0024,-0.0016 -0.0024,-8.04e-4 -0.0032,-8.03e-4 -0.0032,-8.03e-4 -0.0024,-8.03e-4 h -0.0032 l -0.0032,-8.03e-4 h -0.0032 l -0.004,-8.03e-4 h -0.0032 -0.004 c -0.0803,0 -0.0803,0.07147 -0.0803,0.142943 v 3.713311 c 0,0.07227 0,0.143746 0.0803,0.143746 0.08031,0 0.08031,-0.07147 0.08031,-0.143746 z"
+         id="path7295" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -31.075895,-12.005749 -8.03e-4,-0.04497 -0.0032,-0.04336 -0.004,-0.04336 -0.0072,-0.04256 -0.008,-0.04256 -0.0096,-0.04096 -0.01205,-0.04015 -0.01285,-0.04015 -0.01526,-0.03855 -0.01606,-0.03774 -0.01847,-0.03694 -0.01927,-0.03533 -0.02088,-0.03453 -0.02168,-0.03292 -0.02409,-0.03212 -0.0249,-0.03052 -0.0257,-0.02891 -0.0273,-0.02811 -0.02891,-0.0257 -0.02971,-0.02489 -0.03052,-0.02329 -0.03212,-0.02088 -0.03293,-0.02008 -0.03373,-0.01767 -0.03453,-0.01606 -0.03614,-0.01365 -0.03614,-0.01205 -0.03774,-0.01044 -0.03774,-0.0072 -0.03855,-0.0056 -0.04015,-0.004 -0.04015,-8.03e-4 c -0.191929,0 -0.363782,0.06424 -0.508331,0.203172 v -0.77896 c 0.0803,0.02329 0.212808,0.05139 0.340493,0.05139 0.491468,0 0.771733,-0.363782 0.771733,-0.416783 0,-0.02409 -0.01124,-0.04417 -0.04015,-0.04417 -0.004,0 -0.01124,0 -0.03132,0.01285 -0.08031,0.03614 -0.276249,0.115639 -0.544469,0.115639 -0.159807,0 -0.343706,-0.02811 -0.532423,-0.111624 -0.03132,-0.01124 -0.04015,-0.01124 -0.04738,-0.01124 -0.04015,0 -0.04015,0.03132 -0.04015,0.09476 v 1.184501 c 0,0.07147 0,0.104397 0.05621,0.104397 0.0273,0 0.03534,-0.01285 0.0514,-0.03614 0.04417,-0.06424 0.191929,-0.280265 0.515559,-0.280265 0.208793,0 0.309175,0.184702 0.340494,0.256173 0.06505,0.147762 0.07227,0.303554 0.07227,0.504317 0,0.139731 0,0.380646 -0.09637,0.548484 -0.09556,0.155792 -0.243325,0.259385 -0.428026,0.259385 -0.292311,0 -0.519575,-0.212005 -0.588637,-0.447299 0.01285,0.0032 0.0257,0.0072 0.06906,0.0072 0.131701,0 0.19996,-0.100381 0.19996,-0.195944 0,-0.09637 -0.06826,-0.195945 -0.19996,-0.195945 -0.05621,0 -0.196748,0.02811 -0.196748,0.212809 0,0.343706 0.27625,0.730777 0.725156,0.730777 0.463361,0 0.872114,-0.383859 0.872114,-0.891388 z"
+         id="path7297" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -29.02731,-12.481958 -8.03e-4,-0.05943 -8.03e-4,-0.06023 -0.0016,-0.06023 -0.0024,-0.05943 -0.004,-0.06023 -0.0048,-0.05943 -0.0056,-0.05943 -0.008,-0.05862 -0.0088,-0.05862 -0.01124,-0.05862 -0.01365,-0.05782 -0.01446,-0.05782 -0.01767,-0.05782 -0.02008,-0.05621 -0.02168,-0.05621 -0.01285,-0.02811 -0.01205,-0.0273 c -0.183898,-0.385465 -0.512346,-0.449709 -0.680184,-0.449709 -0.240113,0 -0.532423,0.104396 -0.697049,0.477012 -0.127685,0.27625 -0.147762,0.588637 -0.147762,0.908252 0,0.300341 0.01606,0.660108 0.180687,0.963662 0.171853,0.323629 0.464164,0.403935 0.660108,0.403935 v -0.08753 c -0.155792,0 -0.392692,-0.100381 -0.464163,-0.48424 -0.04417,-0.239309 -0.04417,-0.607107 -0.04417,-0.84481 0,-0.255371 0,-0.518772 0.03292,-0.734793 0.07549,-0.477012 0.375025,-0.512347 0.475406,-0.512347 0.131701,0 0.396708,0.07147 0.471392,0.46818 0.04015,0.223248 0.04015,0.528408 0.04015,0.77896 0,0.301144 0,0.572575 -0.04336,0.828749 -0.06023,0.379843 -0.289099,0.500301 -0.46818,0.500301 v 0 0.08753 c 0.216021,0 0.519575,-0.08352 0.696246,-0.464164 0.128488,-0.275447 0.148565,-0.587031 0.148565,-0.903433 z"
+         id="path7299" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -28.639436,-12.569491 0.0016,0.07709 0.0056,0.07549 0.0088,0.07468 0.01285,0.07308 0.01606,0.07147 0.01927,0.06987 0.02248,0.06826 0.0257,0.06665 0.02891,0.06505 0.03132,0.06264 0.03453,0.06103 0.03694,0.05943 0.03935,0.05621 0.04176,0.05461 0.04497,0.053 0.04658,0.04979 0.04899,0.04738 0.05059,0.04497 0.053,0.04256 0.05461,0.04015 0.05702,0.03694 0.05782,0.03453 0.06023,0.03132 0.06103,0.02811 0.06264,0.0257 0.06424,0.02249 0.06505,0.01847 0.06585,0.01606 0.06746,0.01205 0.06746,0.0088 0.06906,0.0056 0.06906,0.0016 c 0.652881,0 1.043967,-0.555712 1.043967,-1.019876 0,-0.04015 0,-0.06746 -0.05059,-0.06746 -0.04417,0 -0.04417,0.02329 -0.04818,0.06344 -0.03212,0.572576 -0.460149,0.900221 -0.897009,0.900221 -0.243324,0 -1.027906,-0.135716 -1.027906,-1.327445 0,-1.19735 0.780566,-1.333065 1.023891,-1.333065 0.43686,0 0.793415,0.363782 0.872114,0.949207 0.0088,0.05461 0.0088,0.06746 0.06424,0.06746 0.06344,0 0.06344,-0.01285 0.06344,-0.09637 V -13.9259 c 0,-0.06906 0,-0.09637 -0.04336,-0.09637 -0.01526,0 -0.03132,0 -0.06424,0.04738 l -0.199157,0.296326 c -0.148564,-0.144549 -0.352539,-0.343706 -0.737201,-0.343706 -0.747641,0 -1.390885,0.636017 -1.390885,1.45272 z"
+         id="path7301" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m -24.881958,-12.134237 0.0016,-0.0024 8.03e-4,-0.0016 8.03e-4,-0.0024 8.03e-4,-0.0016 8.03e-4,-0.0024 8.03e-4,-0.0016 8.04e-4,-0.0024 8.03e-4,-0.0016 8.03e-4,-0.0016 v -0.0016 l 8.03e-4,-0.0016 8.03e-4,-0.0024 8.03e-4,-0.0024 0.0016,-0.0032 8.03e-4,-0.0032 8.03e-4,-0.0024 8.03e-4,-0.0024 8.03e-4,-0.0024 8.03e-4,-0.0024 8.03e-4,-0.0016 8.03e-4,-0.0024 v -0.0016 l 8.03e-4,-0.0016 v -0.0016 l 8.03e-4,-0.0016 v -0.0016 -0.0016 l 8.03e-4,-8.04e-4 v -0.0016 -8.03e-4 -0.0016 -8.03e-4 -0.0024 -0.0024 -0.0016 c 0,-0.01285 0,-0.02008 -0.02008,-0.06826 l -0.700261,-1.840594 c -0.02329,-0.06746 -0.04738,-0.09155 -0.09075,-0.09155 -0.04417,0 -0.0803,0.03533 -0.0803,0.0795 0,0.01205 0,0.02008 0.02008,0.06344 l 0.708292,1.857459 -0.708292,1.847821 c -0.02008,0.04417 -0.02008,0.0514 -0.02008,0.07147 0,0.04417 0.03614,0.08031 0.0803,0.08031 0.0522,0 0.06746,-0.04015 0.08352,-0.08031 z"
+         id="path7303" />
+    </g>
   </g>
 </svg>

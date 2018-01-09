@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="234.50934mm"
-   height="117.30152mm"
-   viewBox="0 0 234.50934 117.30152"
+   width="176.12645mm"
+   height="137.91525mm"
+   viewBox="0 0 176.12645 137.91525"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="inhib.svg">
+   sodipodi:docname="inhib.svg"
+   inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib_mix.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,15 +27,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="426.34204"
-     inkscape:cy="898.92107"
+     inkscape:zoom="0.7"
+     inkscape:cx="546.40761"
+     inkscape:cy="215.76517"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
+     inkscape:window-width="1600"
      inkscape:window-height="1181"
-     inkscape:window-x="1596"
+     inkscape:window-x="-4"
      inkscape:window-y="-4"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
@@ -44,173 +47,337 @@
      id="defs2">
     <marker
        inkscape:isstock="true"
-       style="overflow:visible;"
-       id="marker8502"
-       refX="0.0"
-       refY="0.0"
+       style="overflow:visible"
+       id="marker7003"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7001"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6851"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path6849"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4950"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6357"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path6355"
+         style="fill:#ff0000;fill-opacity:0.6;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:0.59817349"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6293"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Mend">
       <path
-         transform="scale(0.4) rotate(180) translate(10,0)"
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#808080;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path8500" />
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-opacity:0.6;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;stroke-opacity:0.59817349"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6291"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6175"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-opacity:0.6;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;stroke-opacity:0.59817349"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6173"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6051"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#ff0000;fill-opacity:0.6;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;stroke-opacity:0.59817349"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6049"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5895"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-opacity:0.6;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;stroke-opacity:0.59817349"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5893"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5795"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#ff0000;fill-opacity:0.6;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.00000003pt;stroke-opacity:0.59817349"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5793"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5509"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:0.6;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:0.59817349"
+         id="path5507"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker8502"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8500"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
        id="marker8492"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Mstart">
       <path
-         transform="scale(0.4) translate(10,0)"
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#808080;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path8490" />
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8490"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:isstock="true"
-       style="overflow:visible;"
+       style="overflow:visible"
        id="marker8148"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Mend">
       <path
-         transform="scale(0.4) rotate(180) translate(10,0)"
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#808080;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path8146" />
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8146"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
        id="marker8138"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Mstart">
       <path
-         transform="scale(0.4) translate(10,0)"
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#808080;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path8136" />
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path8136"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker7773"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path7771"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#808080;fill-opacity:1"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker7743"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path7741"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#808080;fill-opacity:1"
-         transform="scale(0.4) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker7709"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true"
        inkscape:collect="always">
       <path
          id="path7707"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#808080;fill-opacity:1"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker7683"
        style="overflow:visible"
        inkscape:isstock="true"
        inkscape:collect="always">
       <path
          id="path7681"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#808080;fill-opacity:1"
-         transform="scale(0.4) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker7653"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path7651"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#666666;stroke-width:1pt;stroke-opacity:1;fill:#666666;fill-opacity:1"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker7631"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path7629"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#666666;stroke-width:1pt;stroke-opacity:1;fill:#666666;fill-opacity:1"
-         transform="scale(0.4) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Mend"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path7330"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#004cff;stroke-width:1pt;stroke-opacity:1;fill:#004cff;fill-opacity:1"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#004cff;fill-opacity:1;fill-rule:evenodd;stroke:#004cff;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Mstart"
        style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path7327"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#004cff;stroke-width:1pt;stroke-opacity:1;fill:#004cff;fill-opacity:1"
-         transform="scale(0.4) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#004cff;fill-opacity:1;fill-rule:evenodd;stroke:#004cff;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <clipPath
        id="clipPath4711"
@@ -265,7 +432,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -273,7 +440,7 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(48.539598,-66.330797)">
+     transform="translate(37.025764,72.330067)">
     <g
        id="g5594"
        transform="translate(173.86905,-91.470238)">
@@ -463,7 +630,7 @@
            inkscape:connector-curvature="0"
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4501">
       <path
          inkscape:connector-curvature="0"
@@ -472,7 +639,7 @@
          d="m 778.914,-303.77 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4505">
       <path
          inkscape:connector-curvature="0"
@@ -481,7 +648,7 @@
          d="m 778.914,-175.582 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4509">
       <path
          inkscape:connector-curvature="0"
@@ -490,7 +657,7 @@
          d="m 778.914,-159.219 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4513">
       <path
          inkscape:connector-curvature="0"
@@ -499,7 +666,7 @@
          d="m 778.914,-74.672 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4517">
       <path
          inkscape:connector-curvature="0"
@@ -508,7 +675,7 @@
          d="m 778.914,-58.309 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4521">
       <path
          inkscape:connector-curvature="0"
@@ -517,7 +684,7 @@
          d="m 778.914,-41.941 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4525">
       <path
          inkscape:connector-curvature="0"
@@ -526,7 +693,7 @@
          d="m 976.52,-161.578 -0.305,100.922" />
     </g>
     <g
-       transform="matrix(-0.00106185,-0.35277777,-0.35277777,0.00106185,-240.73328,52.016021)"
+       transform="matrix(-0.00106185,-0.35277777,-0.35277777,0.00106185,-240.73328,168.43273)"
        id="g4529">
       <path
          inkscape:connector-curvature="0"
@@ -535,7 +702,7 @@
          d="m -156.516,-976.025 4,-4 -14,3.999 14,4.001 z" />
     </g>
     <g
-       transform="matrix(0.00106185,0.35277777,0.35277777,-0.00106185,-240.73328,52.016021)"
+       transform="matrix(0.00106185,0.35277777,0.35277777,-0.00106185,-240.73328,168.43273)"
        id="g4533">
       <path
          inkscape:connector-curvature="0"
@@ -547,9 +714,9 @@
        inkscape:connector-curvature="0"
        id="path4537"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       d="m 103.45259,90.045655 1.69756,0.740128 -0.98954,1.630186 -1.69756,-0.740127 z" />
+       d="m 103.45259,206.46239 1.69756,0.74013 -0.98954,1.63018 -1.69756,-0.74012 z" />
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4539">
       <path
          inkscape:connector-curvature="0"
@@ -558,7 +725,7 @@
          d="m 993.016,113.734 c -19.614,9.809 -14.707,-9.804 -34.325,0 m 0,-5.882 c 19.618,-9.809 14.711,9.804 34.325,0" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4547">
       <path
          inkscape:connector-curvature="0"
@@ -567,7 +734,7 @@
          d="m 1088.016,-58.309 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4551">
       <path
          inkscape:connector-curvature="0"
@@ -576,7 +743,7 @@
          d="m 933.465,167.402 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4555">
       <path
          inkscape:connector-curvature="0"
@@ -585,7 +752,7 @@
          d="m 933.465,67.852 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4559">
       <path
          inkscape:connector-curvature="0"
@@ -594,7 +761,7 @@
          d="m 933.465,51.488 h 81.82" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4563">
       <path
          inkscape:connector-curvature="0"
@@ -603,7 +770,7 @@
          d="m 624.363,311.953 h 81.821" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4567">
       <path
          inkscape:connector-curvature="0"
@@ -612,7 +779,7 @@
          d="m 624.363,295.586 h 81.821" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4571">
       <path
          inkscape:connector-curvature="0"
@@ -621,7 +788,7 @@
          d="m 624.363,183.766 h 81.821" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4575">
       <path
          inkscape:connector-curvature="0"
@@ -630,7 +797,7 @@
          d="m 624.363,167.402 h 81.821" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4579">
       <path
          inkscape:connector-curvature="0"
@@ -642,28 +809,28 @@
        id="text4589"
        style="font-variant:normal;font-size:15.3944521px;font-family:Century;-inkscape-font-specification:CenturySchL-Roma;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
        x="-40.176407"
-       y="160.11253">
+       y="276.52927">
       <tspan
          id="tspan4583"
          sodipodi:role="line"
-         y="160.11253"
+         y="276.52927"
          x="-40.176407 -35.896748 -31.61709"
          style="stroke-width:0.35277778">...</tspan>
       <tspan
          id="tspan4585"
          sodipodi:role="line"
-         y="112.00487"
+         y="228.42163"
          x="-40.176407 -35.896748 -31.61709"
          style="stroke-width:0.35277778">...</tspan>
       <tspan
          id="tspan4587"
          sodipodi:role="line"
-         y="73.332077"
+         y="189.74879"
          x="12.996016 17.275675 21.555334"
          style="stroke-width:0.35277778">...</tspan>
     </text>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4599">
       <path
          inkscape:connector-curvature="0"
@@ -672,7 +839,7 @@
          d="M 822.891,-302.422 968.82,-62.551" />
     </g>
     <g
-       transform="matrix(0.21461518,-0.35277777,-0.35277777,-0.21461518,-240.73328,52.016021)"
+       transform="matrix(0.21461518,-0.35277777,-0.35277777,-0.21461518,-240.73328,168.43273)"
        id="g4603">
       <path
          inkscape:connector-curvature="0"
@@ -681,7 +848,7 @@
          d="m 151.488,-734.892 3.418,-3.417 -11.962,3.418 11.96,3.417 z" />
     </g>
     <g
-       transform="matrix(-0.21461518,0.35277777,0.35277777,0.21461518,-240.73328,52.016021)"
+       transform="matrix(-0.21461518,0.35277777,0.35277777,0.21461518,-240.73328,168.43273)"
        id="g4607">
       <path
          inkscape:connector-curvature="0"
@@ -690,7 +857,7 @@
          d="m -377.694,734.891 3.418,-3.417 -11.96,3.416 11.96,3.416 z" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4615">
       <path
          inkscape:connector-curvature="0"
@@ -699,7 +866,7 @@
          d="M 800.258,-166.055 959.875,-58.309" />
     </g>
     <g
-       transform="matrix(0.35277777,-0.2381444,-0.2381444,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,-0.2381444,-0.2381444,-0.35277777,-240.73328,168.43273)"
        id="g4619">
       <path
          inkscape:connector-curvature="0"
@@ -708,7 +875,7 @@
          d="m 479.368,-485.178 3.314,-3.315 -11.604,3.313 11.602,3.317 z" />
     </g>
     <g
-       transform="matrix(-0.35277777,0.2381444,0.2381444,0.35277777,-240.73328,52.016021)"
+       transform="matrix(-0.35277777,0.2381444,0.2381444,0.35277777,-240.73328,168.43273)"
        id="g4623">
       <path
          inkscape:connector-curvature="0"
@@ -720,9 +887,9 @@
        inkscape:connector-curvature="0"
        id="path4627"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
-       d="m 73.303846,118.29539 1.697567,0.74013 -0.989542,1.63019 -1.696155,-0.74013 z" />
+       d="m 73.303846,234.71213 1.697567,0.74013 -0.989542,1.63019 -1.696155,-0.74013 z" />
     <g
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4629">
       <path
          inkscape:connector-curvature="0"
@@ -731,7 +898,7 @@
          d="m 907.559,193.812 c -19.614,9.805 -14.711,-9.808 -34.325,0 m 0,-5.886 c 19.614,-9.805 14.711,9.808 34.325,0" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4637">
       <path
          inkscape:connector-curvature="0"
@@ -741,7 +908,7 @@
          sodipodi:nodetypes="cc" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4641">
       <path
          inkscape:connector-curvature="0"
@@ -750,7 +917,7 @@
          d="m 663.617,-360.09 v -12.328" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4645">
       <path
          inkscape:connector-curvature="0"
@@ -759,7 +926,7 @@
          d="m 817.793,-360.09 v -12.328" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4649">
       <path
          inkscape:connector-curvature="0"
@@ -768,7 +935,7 @@
          d="m 972.152,-360.09 v -12.328" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4653">
       <path
          inkscape:connector-curvature="0"
@@ -777,7 +944,7 @@
          d="m 1125.406,-360.09 v -12.328" />
     </g>
     <g
-       transform="matrix(-0.35277777,0,0,0.35277777,-240.73328,52.016021)"
+       transform="matrix(-0.35277777,0,0,0.35277777,-240.73328,168.43273)"
        id="g4657">
       <path
          inkscape:connector-curvature="0"
@@ -786,7 +953,7 @@
          d="m -1183.668,366.254 5.457,-5.457 -19.094,5.457 19.094,5.453 z" />
     </g>
     <g
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,52.016021)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,168.43273)"
        id="g4681">
       <path
          inkscape:connector-curvature="0"
@@ -796,7 +963,7 @@
     </g>
     <g
        id="g6116"
-       transform="matrix(0.66483834,0,0,0.66483834,15.922687,62.406963)">
+       transform="matrix(0.66483834,0,0,0.66483834,15.922687,178.82368)">
       <g
          word-spacing="normal"
          letter-spacing="normal"
@@ -820,7 +987,7 @@
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
        id="g6382"
-       transform="matrix(0.75688764,0,0,0.75688764,47.015425,16.252241)">
+       transform="matrix(0.75688764,0,0,0.75688764,47.015425,132.66893)">
       <g
          id="g6380"
          transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
@@ -840,7 +1007,7 @@
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
        id="g6654"
-       transform="matrix(0.73877065,0,0,0.73877065,105.62959,103.1277)">
+       transform="matrix(0.73877065,0,0,0.73877065,105.62959,219.54444)">
       <g
          word-spacing="normal"
          letter-spacing="normal"
@@ -860,7 +1027,7 @@
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
        id="g7840"
-       transform="matrix(0.64438919,0,0,0.64438919,119.97913,9.8046653)">
+       transform="matrix(0.64438919,0,0,0.64438919,119.97913,126.22135)">
       <g
          word-spacing="normal"
          letter-spacing="normal"
@@ -884,7 +1051,7 @@
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
        id="g9214"
-       transform="matrix(0.66920965,0,0,0.66920965,9.1270276,94.163264)">
+       transform="matrix(0.66920965,0,0,0.66920965,9.1270276,210.58)">
       <g
          word-spacing="normal"
          letter-spacing="normal"
@@ -924,7 +1091,7 @@
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
        id="g9922"
-       transform="matrix(0.66920965,0,0,0.66920965,63.933578,46.055666)">
+       transform="matrix(0.66920965,0,0,0.66920965,63.933578,162.47237)">
       <g
          word-spacing="normal"
          letter-spacing="normal"
@@ -963,7 +1130,7 @@
            inkscape:connector-curvature="0"
            style="fill:#000000;stroke-width:0" /></g>    </g>
     <g
-       transform="matrix(0.66483834,0,0,0.66483834,14.59977,18.750714)"
+       transform="matrix(0.66483834,0,0,0.66483834,14.59977,135.16741)"
        id="g10104">
       <g
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -988,7 +1155,7 @@
            id="path10100" /></g>    </g>
     <g
        id="g10108"
-       transform="matrix(0.35277777,0,0,-0.35277777,-177.23324,52.016021)">
+       transform="matrix(0.35277777,0,0,-0.35277777,-177.23324,168.43273)">
       <path
          d="M 800.258,-166.055 959.875,-58.309"
          style="fill:none;stroke:#666666;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -997,7 +1164,7 @@
     </g>
     <g
        id="g10112"
-       transform="matrix(0.35277777,-0.2381444,-0.2381444,-0.35277777,-177.23324,52.016021)">
+       transform="matrix(0.35277777,-0.2381444,-0.2381444,-0.35277777,-177.23324,168.43273)">
       <path
          d="m 479.368,-485.178 3.314,-3.315 -11.604,3.313 11.602,3.317 z"
          style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:0.82882702;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1006,7 +1173,7 @@
     </g>
     <g
        id="g10116"
-       transform="matrix(-0.35277777,0.2381444,0.2381444,0.35277777,-177.23324,52.016021)">
+       transform="matrix(-0.35277777,0.2381444,0.2381444,0.35277777,-177.23324,168.43273)">
       <path
          d="m -625.721,485.177 3.318,-3.314 -11.606,3.316 11.605,3.314 z"
          style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:0.82882702;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1015,7 +1182,7 @@
     </g>
     <g
        id="g10120"
-       transform="matrix(0.35277777,0,0,-0.35277777,-177.23324,52.016021)">
+       transform="matrix(0.35277777,0,0,-0.35277777,-177.23324,168.43273)">
       <path
          d="m 886.324,-104.844 -22.695,-22.695 m 28.375,11.879 c 0,-9.113 -7.387,-16.496 -16.496,-16.496 -9.11,0 -16.496,7.383 -16.496,16.496 0,9.109 7.386,16.492 16.496,16.492 9.109,0 16.496,-7.383 16.496,-16.492 z"
          style="fill:none;stroke:#ff0000;stroke-width:6.05721998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1024,7 +1191,7 @@
     </g>
     <g
        id="g10128"
-       transform="matrix(0.66483834,0,0,0.66483834,78.477748,18.372738)">
+       transform="matrix(0.66483834,0,0,0.66483834,78.477748,134.78943)">
       <g
          word-spacing="normal"
          letter-spacing="normal"
@@ -1060,69 +1227,77 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g4651"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-96.150653)"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         d="m 778.914,-175.582 h 81.82"
-         style="fill:none;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-         id="path4649"
-         inkscape:connector-curvature="0" />
+       id="g6655"
+       style="stroke:#ff0000;stroke-opacity:1">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-opacity:1"
+         transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-96.150653)"
+         id="g4651">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4649"
+           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 778.914,-175.582 h 81.82" />
+      </g>
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-opacity:1"
+         transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-96.150653)"
+         id="g4655">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4653"
+           style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 778.914,-159.219 h 81.82" />
+      </g>
     </g>
     <g
-       id="g4655"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-96.150653)"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         d="m 778.914,-159.219 h 81.82"
-         style="fill:none;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-         id="path4653"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g4659"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-96.150653)"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         d="m 778.914,-74.672 h 81.82"
-         style="fill:none;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-         id="path4657"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g4663"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-96.150653)"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         d="m 778.914,-58.309 h 81.82"
-         style="fill:none;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-         id="path4661"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g4667"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-96.150653)"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         d="m 778.914,-41.941 h 81.82"
-         style="fill:none;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-         id="path4665"
-         inkscape:connector-curvature="0" />
+       id="g6649"
+       transform="translate(0,-0.06763396)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         transform="matrix(0.35277777,0,0,-0.35277777,-289.41662,-57.597081)"
+         id="g4659">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4657"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 778.914,-74.672 h 81.82" />
+      </g>
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         transform="matrix(0.35277777,0,0,-0.35277777,-289.41662,-57.597081)"
+         id="g4663">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4661"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 778.914,-58.309 h 81.82" />
+      </g>
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         transform="matrix(0.35277777,0,0,-0.35277777,-289.41662,-57.597081)"
+         id="g4667">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4665"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 778.914,-41.941 h 81.82" />
+      </g>
     </g>
     <g
        id="g4675"
@@ -1132,7 +1307,7 @@
        transform="matrix(0.00106185,0.35277777,0.35277777,-0.00106185,-240.73328,-96.150653)" />
     <g
        id="g4690"
-       transform="matrix(0.35277777,0,0,-0.35277777,-246.02495,-96.150653)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-246.02495,-170.23403)"
        style="stroke:#000000;stroke-opacity:1"
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        inkscape:export-xdpi="200"
@@ -1157,43 +1332,34 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g4698"
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,-96.150653)"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         d="m 933.465,67.852 h 81.82"
-         style="fill:none;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-         id="path4696"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g4702"
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,-96.150653)"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         d="m 933.465,51.488 h 81.82"
-         style="fill:none;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
-         id="path4700"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g4734"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-96.150653)"
-       style="stroke:#808080;stroke-opacity:1;stroke-width:2.83464573;stroke-miterlimit:4;stroke-dasharray:none;fill:none"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         d="M 822.891,-302.422 968.82,-62.551"
-         style="fill:none;stroke:#808080;stroke-width:2.83464573;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker7743);marker-end:url(#marker7773)"
-         id="path4732"
-         inkscape:connector-curvature="0" />
+       id="g6661"
+       transform="translate(-103.2055,86.113054)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         transform="matrix(0.35277777,0,0,0.35277777,-240.73328,-96.150653)"
+         id="g4698">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4696"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 933.465,67.852 h 81.82" />
+      </g>
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         transform="matrix(0.35277777,0,0,0.35277777,-240.73328,-96.150653)"
+         id="g4702">
+        <path
+           inkscape:connector-curvature="0"
+           id="path4700"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.72736406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 933.465,51.488 h 81.82" />
+      </g>
     </g>
     <path
        d="m 73.303846,-29.871293 1.697567,0.74013 -0.989542,1.63019 -1.696155,-0.74013 z"
@@ -1204,37 +1370,11 @@
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200" />
     <g
-       id="g4760"
-       transform="matrix(0.35277777,0,0,0.35277777,-240.73328,-96.150653)"
-       style="stroke:#808080;stroke-opacity:1"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         d="m 907.559,193.812 c -19.614,9.805 -14.711,-9.808 -34.325,0 m 0,-5.886 c 19.614,-9.805 14.711,9.808 34.325,0"
-         style="fill:none;stroke:#808080;stroke-width:1.60474896;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path4758"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g4764"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-101.44232)"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <path
-         sodipodi:nodetypes="cc"
-         d="m 739.801,-366.254 h 442.504"
-         style="fill:none;stroke:#000000;stroke-width:1.36368203;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path4762"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
        id="g4768"
        transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-96.150653)" />
     <g
        id="g4772"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-101.44232)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-288.70013,-65.912558)"
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200">
@@ -1246,7 +1386,7 @@
     </g>
     <g
        id="g4776"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-101.44232)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-294.47121,-65.912558)"
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200">
@@ -1258,7 +1398,7 @@
     </g>
     <g
        id="g4780"
-       transform="matrix(0.35277777,0,0,-0.35277777,-240.73328,-101.44232)"
+       transform="matrix(0.35277777,0,0,-0.35277777,-294.01366,-65.912558)"
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200">
@@ -1269,26 +1409,28 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g4784"
-       transform="matrix(-0.35277777,0,0,0.35277777,-240.73328,-101.44232)"
+       id="g4734"
+       transform="matrix(0.35277777,0,0,-0.35277777,-297.33226,-58.505779)"
+       style="fill:none;stroke:#808080;stroke-width:2.83464575;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200">
       <path
-         d="m -1183.668,366.254 5.457,-5.457 -19.094,5.457 19.094,5.453 z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.36368203;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path4782"
+         sodipodi:nodetypes="cc"
+         d="M 840.891,-302.422 968.82,-62.551"
+         style="fill:none;stroke:#808080;stroke-width:2.83464575;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker7743);marker-end:url(#marker7773)"
+         id="path4732"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(0.66483834,0,0,0.66483834,1.5595918,-86.137687)"
+       transform="matrix(0.66483834,0,0,0.66483834,-43.379114,-66.754244)"
        id="g4796"
-       style="fill:#808080;fill-opacity:1;stroke:none"
+       style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-opacity:1"
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200">
       <g
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="g4794"
          transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
          xml:space="preserve"
@@ -1300,18 +1442,19 @@
          font-size-adjust="none"
          letter-spacing="normal"
          word-spacing="normal"><path
-           style="fill:#808080;stroke-width:0;fill-opacity:1;stroke:none"
+           style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:0;stroke-opacity:1"
            inkscape:connector-curvature="0"
            d="m 481.33,424.78 h 0.07 0.07 0.07 0.08 0.09 l 0.09,0.01 h 0.09 l 0.09,0.01 0.1,0.01 0.1,0.02 0.1,0.02 0.11,0.02 0.1,0.02 0.1,0.03 0.1,0.03 0.1,0.04 0.1,0.04 0.1,0.05 0.09,0.05 0.09,0.06 0.08,0.07 0.08,0.07 0.04,0.04 0.04,0.04 0.03,0.04 0.04,0.05 0.03,0.04 0.03,0.05 0.03,0.05 0.03,0.05 0.03,0.05 0.02,0.06 0.02,0.06 0.02,0.06 0.02,0.06 0.02,0.06 0.01,0.07 0.01,0.07 0.01,0.07 v 0.08 l 0.01,0.07 v 0.08 c 0,1.19 -1.05,1.19 -1.94,1.19 h -11.36 c -7.53,0 -13.06,-8.22 -13.06,-14.14 0,-4.39 2.94,-7.88 7.47,-7.88 l 0.06,1.1 c -2.45,0 -4.44,1.79 -4.44,5.37 0,1.5 0.6,5.59 2.35,8.53 2.09,3.44 5.08,4.13 6.76,4.13 4.19,0 4.6,-3.28 4.6,-4.83 0,-2.34 -1,-6.42 -2.69,-8.97 -1.95,-2.94 -4.64,-4.23 -6.58,-4.23 v 0 l -0.06,-1.1 c 5.89,0 12.51,6.03 12.51,13.71 0,0.84 0,3.23 -1.54,5.42 z"
            id="path4790" /><path
-           style="fill:#808080;stroke-width:0;fill-opacity:1;stroke:none"
+           style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:0;stroke-opacity:1"
            inkscape:connector-curvature="0"
            d="m 501.9,432.07 h 10.66 c 0.45,0 1.28,0 1.28,0.85 0,0.86 -0.8,0.86 -1.28,0.86 H 501.9 v 10.7 c 0,0.45 0,1.28 -0.84,1.28 -0.88,0 -0.88,-0.8 -0.88,-1.28 v -10.7 H 489.5 c -0.46,0 -1.3,0 -1.3,-0.83 0,-0.88 0.8,-0.88 1.3,-0.88 h 10.68 v -10.7 c 0,-0.45 0,-1.28 0.85,-1.28 0.87,0 0.87,0.8 0.87,1.28 z"
            id="path4792" /></g>    </g>
     <g
        id="g8470"
        inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
+       inkscape:export-ydpi="200"
+       transform="translate(0,-74.083337)">
       <g
          inkscape:export-ydpi="200"
          inkscape:export-xdpi="200"
@@ -1337,13 +1480,13 @@
          inkscape:export-ydpi="200"
          inkscape:export-xdpi="200"
          inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-         style="stroke:#808080;stroke-opacity:1;fill:#fffcfc;fill-opacity:1"
+         style="fill:#fffcfc;fill-opacity:1;stroke:#808080;stroke-opacity:1"
          transform="matrix(0.35277777,0,0,0.35277777,-240.73328,-96.150653)"
          id="g4686">
         <path
            inkscape:connector-curvature="0"
            id="path4684"
-           style="fill:#fffcfc;stroke:#808080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+           style="fill:#fffcfc;fill-opacity:1;stroke:#808080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 993.016,113.734 c -19.614,9.809 -14.707,-9.804 -34.325,0 m 0,-5.882 c 19.618,-9.809 14.711,9.804 34.325,0" />
       </g>
       <g
@@ -1371,29 +1514,6 @@
              inkscape:connector-curvature="0"
              style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:0;stroke-opacity:1" /></g>      </g>
     </g>
-    <g
-       transform="matrix(0.73877065,0,0,0.73877065,105.62959,-50.330641)"
-       id="g4808"
-       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <g
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="g4806"
-         transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
-         xml:space="preserve"
-         stroke-miterlimit="10.433"
-         font-style="normal"
-         font-variant="normal"
-         font-weight="normal"
-         font-stretch="normal"
-         font-size-adjust="none"
-         letter-spacing="normal"
-         word-spacing="normal"><path
-           style="fill:#000000;stroke-width:0"
-           inkscape:connector-curvature="0"
-           d="m 459.91,409.14 -0.02,-0.07 -0.01,-0.08 -0.02,-0.07 -0.01,-0.08 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.04,-0.16 -0.04,-0.16 -0.03,-0.16 -0.02,-0.08 -0.02,-0.07 -0.02,-0.07 -0.01,-0.07 -0.02,-0.07 -0.01,-0.07 -0.01,-0.06 -0.01,-0.06 -0.01,-0.06 -0.01,-0.05 -0.01,-0.05 -0.01,-0.04 -0.01,-0.04 v -0.04 -0.03 -0.02 c 0,-0.89 0.7,-1.35 1.43,-1.35 0.61,0 1.5,0.39 1.85,1.39 0.06,0.11 0.65,2.44 0.95,3.69 l 1.1,4.48 c 0.29,1.1 0.59,2.19 0.84,3.35 0.2,0.84 0.61,2.28 0.66,2.48 0.75,1.55 3.39,6.08 8.1,6.08 2.25,0 2.71,-1.84 2.71,-3.48 0,-1.25 -0.36,-2.64 -0.75,-4.14 l -1.39,-5.79 -1,-3.78 c -0.21,-1 -0.66,-2.68 -0.66,-2.93 0,-0.89 0.7,-1.35 1.45,-1.35 1.55,0 1.85,1.25 2.24,2.85 0.7,2.78 2.55,10.06 3,12 0.14,0.65 2.78,6.62 8.22,6.62 2.14,0 2.68,-1.69 2.68,-3.48 0,-2.85 -2.09,-8.52 -3.09,-11.16 -0.45,-1.2 -0.64,-1.75 -0.64,-2.75 0,-2.33 1.73,-4.08 4.08,-4.08 4.69,0 6.53,7.27 6.53,7.67 0,0.5 -0.45,0.5 -0.59,0.5 -0.5,0 -0.5,-0.15 -0.75,-0.9 -0.75,-2.64 -2.35,-6.17 -5.08,-6.17 -0.86,0 -1.21,0.5 -1.21,1.64 0,1.25 0.46,2.45 0.9,3.54 0.95,2.58 3.04,8.11 3.04,10.96 0,3.23 -2,5.32 -5.73,5.32 -3.74,0 -6.27,-2.18 -8.11,-4.82 -0.06,0.65 -0.2,2.34 -1.61,3.53 -1.24,1.04 -2.83,1.29 -4.08,1.29 -4.48,0 -6.92,-3.18 -7.76,-4.32 -0.25,2.84 -2.35,4.32 -4.6,4.32 -2.28,0 -3.23,-1.93 -3.69,-2.82 -0.89,-1.75 -1.54,-4.69 -1.54,-4.85 0,-0.5 0.5,-0.5 0.61,-0.5 0.5,0 0.54,0.07 0.84,1.16 0.84,3.53 1.84,5.92 3.64,5.92 0.8,0 1.55,-0.39 1.55,-2.28 0,-1.05 -0.16,-1.61 -0.8,-4.19 z"
-           id="path4804" /></g>    </g>
     <g
        transform="matrix(0.64438919,0,0,0.64438919,73.110084,-99.430483)"
        id="g4816"
@@ -1461,7 +1581,7 @@
          d="m 593.9,423.23 0.03,-0.96 0.06,-0.94 0.12,-0.93 0.16,-0.91 0.2,-0.89 0.24,-0.87 0.28,-0.85 0.32,-0.83 0.35,-0.81 0.39,-0.78 0.43,-0.76 0.46,-0.74 0.49,-0.7 0.53,-0.68 0.55,-0.66 0.58,-0.62 0.61,-0.59 0.63,-0.56 0.66,-0.53 0.69,-0.5 0.7,-0.46 0.73,-0.43 0.74,-0.39 0.76,-0.35 0.78,-0.32 0.8,-0.28 0.81,-0.23 0.83,-0.2 0.83,-0.15 0.85,-0.11 0.86,-0.07 0.86,-0.02 c 8.12,0 13,6.92 13,12.7 0,0.5 0,0.84 -0.64,0.84 -0.55,0 -0.55,-0.29 -0.59,-0.79 -0.41,-7.13 -5.74,-11.21 -11.18,-11.21 -3.03,0 -12.79,1.69 -12.79,16.53 0,14.91 9.72,16.6 12.75,16.6 5.44,0 9.87,-4.53 10.86,-11.82 0.11,-0.68 0.11,-0.84 0.79,-0.84 0.8,0 0.8,0.16 0.8,1.2 v 11.8 c 0,0.86 0,1.2 -0.55,1.2 -0.18,0 -0.39,0 -0.79,-0.59 l -2.49,-3.69 c -1.84,1.8 -4.39,4.28 -9.17,4.28 -9.31,0 -17.33,-7.92 -17.33,-18.09 z"
          inkscape:connector-curvature="0"
          style="fill:#000000;stroke-width:0" /></g>    <g
-       transform="matrix(1.198058,0,0,1.198058,113.09713,-201.80877)"
+       transform="matrix(1.198058,0,0,1.198058,113.09713,-275.89215)"
        id="g6977"
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        inkscape:export-xdpi="200"
@@ -1506,14 +1626,14 @@
     <g
        transform="matrix(0.35277777,0,0,-0.35277777,-231.66181,-48.903629)"
        id="g4860"
-       style="stroke:#004cff;stroke-opacity:1;fill:none"
+       style="fill:none;stroke:#004cff;stroke-opacity:1"
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200">
       <path
          inkscape:connector-curvature="0"
          id="path4858"
-         style="fill:none;stroke:#004cff;stroke-width:2.83464573;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)"
+         style="fill:none;stroke:#004cff;stroke-width:2.83464575;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)"
          d="M 800.258,-166.055 951.30357,-35.809"
          sodipodi:nodetypes="cc" />
     </g>
@@ -1532,7 +1652,7 @@
     <g
        transform="matrix(0.66483834,0,0,0.66483834,33.120606,-84.814783)"
        id="g4880"
-       style="stroke:none;fill:#004cff;fill-opacity:1"
+       style="fill:#004cff;fill-opacity:1;stroke:none"
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200">
@@ -1549,11 +1669,11 @@
          font-size-adjust="none"
          letter-spacing="normal"
          word-spacing="normal"><path
-           style="fill:#004cff;stroke-width:0;stroke:none;fill-opacity:1"
+           style="fill:#004cff;fill-opacity:1;stroke:none;stroke-width:0"
            inkscape:connector-curvature="0"
            d="m 481.33,424.78 h 0.07 0.07 0.07 0.08 0.09 l 0.09,0.01 h 0.09 l 0.09,0.01 0.1,0.01 0.1,0.02 0.1,0.02 0.11,0.02 0.1,0.02 0.1,0.03 0.1,0.03 0.1,0.04 0.1,0.04 0.1,0.05 0.09,0.05 0.09,0.06 0.08,0.07 0.08,0.07 0.04,0.04 0.04,0.04 0.03,0.04 0.04,0.05 0.03,0.04 0.03,0.05 0.03,0.05 0.03,0.05 0.03,0.05 0.02,0.06 0.02,0.06 0.02,0.06 0.02,0.06 0.02,0.06 0.01,0.07 0.01,0.07 0.01,0.07 v 0.08 l 0.01,0.07 v 0.08 c 0,1.19 -1.05,1.19 -1.94,1.19 h -11.36 c -7.53,0 -13.06,-8.22 -13.06,-14.14 0,-4.39 2.94,-7.88 7.47,-7.88 l 0.06,1.1 c -2.45,0 -4.44,1.79 -4.44,5.37 0,1.5 0.6,5.59 2.35,8.53 2.09,3.44 5.08,4.13 6.76,4.13 4.19,0 4.6,-3.28 4.6,-4.83 0,-2.34 -1,-6.42 -2.69,-8.97 -1.95,-2.94 -4.64,-4.23 -6.58,-4.23 v 0 l -0.06,-1.1 c 5.89,0 12.51,6.03 12.51,13.71 0,0.84 0,3.23 -1.54,5.42 z"
            id="path4874" /><path
-           style="fill:#004cff;stroke-width:0;stroke:none;fill-opacity:1"
+           style="fill:#004cff;fill-opacity:1;stroke:none;stroke-width:0"
            inkscape:connector-curvature="0"
            d="m 501.9,432.07 h 10.66 c 0.45,0 1.28,0 1.28,0.85 0,0.86 -0.8,0.86 -1.28,0.86 H 501.9 v 10.7 c 0,0.45 0,1.28 -0.84,1.28 -0.88,0 -0.88,-0.8 -0.88,-1.28 v -10.7 H 489.5 c -0.46,0 -1.3,0 -1.3,-0.83 0,-0.88 0.8,-0.88 1.3,-0.88 h 10.68 v -10.7 c 0,-0.45 0,-1.28 0.85,-1.28 0.87,0 0.87,0.8 0.87,1.28 z"
            id="path4876" /></g>    </g>
@@ -1598,7 +1718,7 @@
        inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
        style="fill:#808080;fill-opacity:1;stroke:none;stroke-opacity:1"
        id="g8486"
-       transform="matrix(0.75688764,0,0,0.75688764,-8.2635929,-93.455373)">
+       transform="matrix(0.75688764,0,0,0.75688764,4.9655738,-93.833349)">
       <g
          id="g8484"
          transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
@@ -1616,5 +1736,166 @@
            id="path8482"
            inkscape:connector-curvature="0"
            style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:0;stroke-opacity:1" /></g>    </g>
+    <path
+       style="fill:#ff0000;fill-opacity:0.6;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:0.59817349;marker-end:url(#marker5509)"
+       d="M 88.280908,-37.137684 64.78268,-40.072276"
+       id="path4831"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5505"
+       d="m 88.279833,-37.113996 -23.498228,2.934592"
+       style="fill:#ff0000;fill-opacity:0.6;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:0.59817349;marker-end:url(#marker6357)"
+       sodipodi:nodetypes="cc" />
+    <g
+       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+       style="stroke:#000000;stroke-opacity:1"
+       transform="matrix(0.35277777,0,0,-0.35277777,-289.41662,-56.992319)"
+       id="g6499">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6497"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 778.914,-303.77 h 81.82" />
+    </g>
+    <g
+       id="g6641">
+      <g
+         word-spacing="normal"
+         letter-spacing="normal"
+         font-size-adjust="none"
+         font-stretch="normal"
+         font-weight="normal"
+         font-variant="normal"
+         font-style="normal"
+         stroke-miterlimit="10.433"
+         xml:space="preserve"
+         transform="matrix(0.2007629,0,0,-0.2007629,-69.398143,134.8727)"
+         id="g6513"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+         inkscape:export-xdpi="200"
+         inkscape:export-ydpi="200"><path
+           id="path6501"
+           d="m 472,394.25 v 0.02 0.03 0.01 0.02 0.01 l -0.01,0.02 v 0.01 l -0.01,0.02 -0.01,0.02 -0.01,0.02 -0.01,0.02 -0.02,0.03 -0.01,0.02 -0.02,0.03 -0.02,0.03 -0.03,0.03 -0.02,0.03 -0.03,0.04 -0.02,0.02 -0.01,0.02 -0.02,0.02 -0.02,0.02 -0.02,0.02 -0.02,0.03 -0.02,0.02 -0.02,0.02 -0.02,0.03 -0.03,0.02 -0.02,0.03 -0.03,0.03 -0.03,0.03 -0.02,0.03 -0.03,0.03 -0.03,0.03 -0.03,0.03 -0.03,0.03 -0.04,0.04 -0.03,0.03 -0.04,0.04 -0.03,0.03 -0.04,0.04 -0.04,0.04 c -6.22,6.28 -7.81,15.69 -7.81,23.31 0,8.67 1.89,17.35 8.01,23.56 0.64,0.61 0.64,0.71 0.64,0.86 0,0.35 -0.18,0.49 -0.48,0.49 -0.5,0 -4.98,-3.38 -7.92,-9.7 -2.55,-5.49 -3.14,-11.02 -3.14,-15.21 0,-3.89 0.54,-9.9 3.28,-15.54 2.98,-6.13 7.28,-9.36 7.78,-9.36 0.3,0 0.48,0.14 0.48,0.5 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path6503"
+           d="m 480.32,423.34 v -13.36 c 0,-2.23 -0.55,-2.23 -3.89,-2.23 v -1.55 c 1.75,0.05 4.28,0.16 5.62,0.16 1.3,0 3.9,-0.11 5.58,-0.16 v 1.55 c -3.33,0 -3.87,0 -3.87,2.23 v 9.17 c 0,5.19 3.53,7.97 6.72,7.97 3.14,0 3.68,-2.69 3.68,-5.53 v -11.61 c 0,-2.23 -0.54,-2.23 -3.89,-2.23 v -1.55 c 1.75,0.05 4.3,0.16 5.64,0.16 1.3,0 3.88,-0.11 5.58,-0.16 v 1.55 c -2.59,0 -3.84,0 -3.89,1.5 v 9.51 c 0,4.28 0,5.83 -1.55,7.61 -0.68,0.86 -2.34,1.84 -5.21,1.84 -3.64,0 -5.99,-2.14 -7.38,-5.21 v 5.21 l -7.03,-0.54 v -1.55 c 3.48,0 3.89,-0.34 3.89,-2.78 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path6505"
+           d="m 538.15,417.65 h 0.15 0.16 l 0.16,0.01 h 0.08 l 0.07,0.01 h 0.08 l 0.07,0.01 0.08,0.01 0.07,0.01 0.07,0.02 0.07,0.02 0.06,0.02 0.07,0.02 0.06,0.02 0.06,0.03 0.05,0.03 0.05,0.04 0.05,0.03 0.05,0.05 0.04,0.04 0.04,0.05 0.02,0.03 0.01,0.03 0.02,0.03 0.02,0.03 0.01,0.03 0.01,0.03 0.01,0.04 0.01,0.03 0.01,0.04 0.01,0.04 0.01,0.04 v 0.04 l 0.01,0.04 v 0.04 0.05 l 0.01,0.04 c 0,1 -0.91,1 -1.75,1 h -26.96 c -0.84,0 -1.73,0 -1.73,-1 0,-1 0.89,-1 1.73,-1 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path6509"
+           d="m 586.18,418.65 v 0.37 l -0.01,0.39 -0.01,0.39 -0.01,0.41 -0.04,0.84 -0.06,0.88 -0.08,0.92 -0.11,0.95 -0.13,0.97 -0.17,1.01 -0.19,1.02 -0.23,1.03 -0.27,1.05 -0.31,1.06 -0.34,1.07 -0.4,1.07 -0.21,0.53 -0.22,0.53 -0.24,0.53 -0.25,0.53 c -2.99,6.12 -7.27,9.36 -7.77,9.36 -0.29,0 -0.5,-0.19 -0.5,-0.49 0,-0.15 0,-0.25 0.94,-1.15 4.89,-4.92 7.73,-12.85 7.73,-23.27 0,-8.51 -1.84,-17.28 -8.03,-23.56 -0.64,-0.59 -0.64,-0.7 -0.64,-0.84 0,-0.3 0.21,-0.5 0.5,-0.5 0.5,0 4.97,3.39 7.92,9.71 2.54,5.47 3.13,11 3.13,15.19 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /><path
+           id="path6511"
+           d="m 593.9,423.23 0.03,-0.96 0.06,-0.94 0.12,-0.93 0.16,-0.91 0.2,-0.89 0.24,-0.87 0.28,-0.85 0.32,-0.83 0.35,-0.81 0.39,-0.78 0.43,-0.76 0.46,-0.74 0.49,-0.7 0.53,-0.68 0.55,-0.66 0.58,-0.62 0.61,-0.59 0.63,-0.56 0.66,-0.53 0.69,-0.5 0.7,-0.46 0.73,-0.43 0.74,-0.39 0.76,-0.35 0.78,-0.32 0.8,-0.28 0.81,-0.23 0.83,-0.2 0.83,-0.15 0.85,-0.11 0.86,-0.07 0.86,-0.02 c 8.12,0 13,6.92 13,12.7 0,0.5 0,0.84 -0.64,0.84 -0.55,0 -0.55,-0.29 -0.59,-0.79 -0.41,-7.13 -5.74,-11.21 -11.18,-11.21 -3.03,0 -12.79,1.69 -12.79,16.53 0,14.91 9.72,16.6 12.75,16.6 5.44,0 9.87,-4.53 10.86,-11.82 0.11,-0.68 0.11,-0.84 0.79,-0.84 0.8,0 0.8,0.16 0.8,1.2 v 11.8 c 0,0.86 0,1.2 -0.55,1.2 -0.18,0 -0.39,0 -0.79,-0.59 l -2.49,-3.69 c -1.84,1.8 -4.39,4.28 -9.17,4.28 -9.31,0 -17.33,-7.92 -17.33,-18.09 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;stroke-width:0" /></g>      <path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         inkscape:connector-curvature="0"
+         d="m 41.701035,52.551879 1.060028,-1.029914 c 1.559927,-1.379241 2.162216,-1.919293 2.162216,-2.919092 0,-1.142341 -0.901425,-1.943385 -2.120056,-1.943385 -1.13431,0 -1.873118,0.923509 -1.873118,1.812889 0,0.560129 0.501907,0.560129 0.530014,0.560129 0.172656,0 0.519976,-0.120458 0.519976,-0.530015 0,-0.260991 -0.178679,-0.521983 -0.530014,-0.521983 -0.0783,0 -0.100381,0 -0.128488,0.01004 0.228869,-0.650472 0.768922,-1.019876 1.349126,-1.019876 0.909456,0 1.343104,0.81309 1.343104,1.632203 0,0.799036 -0.501907,1.590042 -1.051997,2.2104 l -1.919294,2.140132 c -0.112427,0.108412 -0.112427,0.128488 -0.112427,0.369404 h 3.710098 l 0.283076,-1.740615 h -0.250954 c -0.05019,0.301145 -0.120457,0.740815 -0.220839,0.891388 -0.07227,0.0783 -0.730777,0.0783 -0.949608,0.0783 z"
+         id="path9206-0" />
+    </g>
+    <path
+       d="m 22.849167,2.0244417 1.69756,0.740129 -0.98954,1.630186 -1.69756,-0.740127 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+       id="path6663"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200" />
+    <g
+       id="g4760"
+       transform="matrix(0.35277777,0,0,0.35277777,-290.52869,-63.986434)"
+       style="stroke:#808080;stroke-opacity:1"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         d="m 907.559,193.812 c -19.614,9.805 -14.711,-9.808 -34.325,0 m 0,-5.886 c 19.614,-9.805 14.711,9.808 34.325,0"
+         style="fill:none;stroke:#808080;stroke-width:1.60474896;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4758"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+       transform="matrix(0,-0.35277777,-0.35277777,0,-163.94904,329.76041)"
+       id="g6667">
+      <path
+         inkscape:connector-curvature="0"
+         id="path6665"
+         style="fill:none;stroke:#000000;stroke-width:1.36368203;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         d="m 754.801,-366.254 h 337.504"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+       transform="matrix(0,-0.35277777,-0.35277777,0,-206.51435,279.22147)"
+       id="g6671" />
+    <g
+       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+       transform="matrix(0,-0.35277777,-0.35277777,0,-157.83101,333.67589)"
+       id="g6675" />
+    <g
+       inkscape:export-ydpi="200"
+       inkscape:export-xdpi="200"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+       id="g6689"
+       transform="matrix(0,-0.73877065,0.73877065,0,-32.560981,51.797674)">
+      <g
+         word-spacing="normal"
+         letter-spacing="normal"
+         font-size-adjust="none"
+         font-stretch="normal"
+         font-weight="normal"
+         font-variant="normal"
+         font-style="normal"
+         stroke-miterlimit="10.433"
+         xml:space="preserve"
+         transform="matrix(0.3,0,0,-0.3,-52.5,222.75)"
+         id="g6687"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />    </g>
+    <g
+       id="g6999"
+       transform="matrix(0.35277777,0,0,-0.35277777,-295.91781,-65.921032)"
+       inkscape:export-filename="D:\Documents Tigrane\manuscrit-git\soutenance\figures\inhib.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <path
+         sodipodi:nodetypes="cc"
+         d="m 739.801,-366.254 h 442.504"
+         style="fill:none;stroke:#000000;stroke-width:1.36368203;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7003)"
+         id="path6997"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       id="path6650-9"
+       d="m 118.83866,55.822025 -0.006,0.02016 -0.003,0.02305 -0.006,0.02018 -0.003,0.02305 -0.0117,0.0461 -0.0117,0.04609 -0.009,0.04609 -0.0117,0.0461 -0.0117,0.04609 -0.009,0.04609 -0.006,0.02305 -0.006,0.02016 -0.006,0.02016 -0.003,0.02018 -0.006,0.02016 -0.003,0.02018 -0.003,0.01729 -0.003,0.01729 -0.003,0.01729 -0.003,0.0144 -0.003,0.0144 -0.003,0.01157 -0.003,0.01157 v 0.01157 0.0085 0.0058 c 0,0.256427 0.20168,0.388962 0.41201,0.388962 0.17574,0 0.43218,-0.112372 0.53303,-0.400486 0.0173,-0.03169 0.18727,-0.703014 0.27371,-1.063164 l 0.31694,-1.290785 c 0.0836,-0.316934 0.16999,-0.630985 0.24202,-0.965204 0.0576,-0.242021 0.17576,-0.656914 0.19016,-0.714537 0.21609,-0.446588 0.97673,-1.751772 2.33378,-1.751772 0.64826,0 0.7808,0.530142 0.7808,1.002659 0,0.360151 -0.10374,0.760637 -0.21609,1.192817 l -0.40049,1.668216 -0.28811,1.089095 c -0.0605,0.28812 -0.19017,0.772162 -0.19017,0.844193 0,0.256426 0.20168,0.388962 0.41778,0.388962 0.44658,0 0.53301,-0.360151 0.64538,-0.821144 0.20169,-0.800974 0.73471,-2.898489 0.86436,-3.457442 0.0403,-0.187278 0.80098,-1.907356 2.36835,-1.907356 0.61657,0 0.77216,0.486924 0.77216,1.002659 0,0.821143 -0.60217,2.454785 -0.89029,3.215421 -0.12961,0.345744 -0.1844,0.50421 -0.1844,0.792331 0,0.671319 0.49845,1.175531 1.17555,1.175531 1.35127,0 1.88141,-2.094635 1.88141,-2.209883 0,-0.14406 -0.12961,-0.14406 -0.16999,-0.14406 -0.14406,0 -0.14406,0.04322 -0.21609,0.259308 -0.21609,0.760637 -0.67707,1.777703 -1.46366,1.777703 -0.24778,0 -0.34861,-0.144061 -0.34861,-0.472518 0,-0.360151 0.13253,-0.705895 0.2593,-1.019945 0.27372,-0.743351 0.8759,-2.336656 0.8759,-3.157799 0,-0.930628 -0.57625,-1.532799 -1.65094,-1.532799 -1.07757,0 -1.80652,0.628102 -2.33666,1.388739 -0.0173,-0.187278 -0.0576,-0.674201 -0.46386,-1.017064 -0.35728,-0.299645 -0.81538,-0.371675 -1.17554,-0.371675 -1.29078,0 -1.99379,0.916222 -2.23581,1.244679 -0.0721,-0.818261 -0.67708,-1.244679 -1.32535,-1.244679 -0.65692,0 -0.93064,0.556072 -1.06317,0.812499 -0.25643,0.504211 -0.4437,1.351283 -0.4437,1.397383 0,0.14406 0.14405,0.14406 0.17575,0.14406 0.14406,0 0.15558,-0.02016 0.24201,-0.334218 0.24203,-1.017065 0.53014,-1.705673 1.04877,-1.705673 0.2305,0 0.44659,0.112372 0.44659,0.656914 0,0.302527 -0.0461,0.463874 -0.2305,1.207224 z"
+       inkscape:connector-curvature="0"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:100%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-31.434347"
+       y="-61.186562"
+       id="text7202"><tspan
+         sodipodi:role="line"
+         id="tspan7204"
+         x="-31.434347"
+         y="-61.186562">Énergie</tspan></text>
   </g>
 </svg>

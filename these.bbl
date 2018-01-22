@@ -77,6 +77,12 @@
       \field{title}{Optical Atomic Clocks}
       \field{volume}{36}
       \field{year}{2013}
+      \verb{doi}
+      \verb 10.1393/ncr/i2013-10095-x
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1393/ncr/i2013-10095-x
+      \endverb
     \endentry
     \entry{deutsch1985}{inproceedings}{}
       \name{labelname}{1}{}{%
@@ -98,6 +104,12 @@
       \field{volume}{400}
       \field{year}{1985}
       \field{pages}{97\bibrangedash 117}
+      \verb{doi}
+      \verb 10.1098/rspa.1985.0070
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1098/rspa.1985.0070
+      \endverb
     \endentry
     \entry{QM_ZUREKDECOH91}{article}{}
       \name{labelname}{1}{}{%
@@ -157,7 +169,7 @@
       \strng{fullhash}{d3ebd51413583669fa8bf026c44b9969}
       \field{sortinit}{0}
       \field{labeltitle}{On the {E}instein {P}odolsky {R}osen paradox}
-      \field{journaltitle}{Phys. (N.Y.)}
+      \field{journaltitle}{Physics (N.Y.)}
       \field{title}{On the {E}instein {P}odolsky {R}osen paradox}
       \field{volume}{1}
       \field{year}{1964}
@@ -179,12 +191,16 @@
       \strng{fullhash}{25cc91be64413776ec4fa686963e433c}
       \field{sortinit}{0}
       \field{labeltitle}{Experimental realization of {E}instein-{P}odolsky-{R}osen-{B}ohm gedankenexperiment: A new violation of {B}ell's inequalities}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{title}{Experimental realization of {E}instein-{P}odolsky-{R}osen-{B}ohm gedankenexperiment: A new violation of {B}ell's inequalities}
       \field{volume}{49}
       \field{year}{1982}
       \field{pages}{91}
-      \verb{file}
-      \verb QM_ASPECTGRANGIEREPR82.pdf:qm/QM_ASPECTGRANGIEREPR82.pdf:PDF;QM_ASPECTGRANGIEREPR82.pdf:qm/QM_ASPECTGRANGIEREPR82.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.49.91
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.49.91
       \endverb
       \keyw{QM,EPRGHZ,history}
     \endentry
@@ -202,13 +218,17 @@
       \strng{namehash}{e824396179bc2449a5650111887471d6}
       \strng{fullhash}{bfec407903df4556a487730cd2bd757a}
       \field{sortinit}{0}
-      \field{labeltitle}{Experimental test of {B}ell's inequalities using time-varying analysers}
-      \field{title}{Experimental test of {B}ell's inequalities using time-varying analysers}
+      \field{labeltitle}{Experimental test of Bell's inequalities using time-varying analysers}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Experimental test of Bell's inequalities using time-varying analysers}
       \field{volume}{49}
       \field{year}{1982}
       \field{pages}{1804}
-      \verb{file}
-      \verb QM_ASPECTEPR82.pdf:qm/QM_ASPECTEPR82.pdf:PDF;QM_ASPECTEPR82.pdf:qm/QM_ASPECTEPR82.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.49.1804
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.49.1804
       \endverb
       \keyw{QM,EPRGHZ,history}
     \endentry
@@ -234,8 +254,11 @@
       \field{volume}{59}
       \field{year}{1987}
       \field{pages}{1899}
-      \verb{file}
-      \verb ENS_EXPTWOPHOTON.pdf:ens/ENS_EXPTWOPHOTON.pdf:PDF;ENS_EXPTWOPHOTON.pdf:ens/ENS_EXPTWOPHOTON.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.59.1899
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.59.1899
       \endverb
       \keyw{CQED,micromaser,ENS}
     \endentry
@@ -260,12 +283,16 @@
       \strng{fullhash}{7a0eb9092d4aa115160707d4f66aa449}
       \field{sortinit}{0}
       \field{labeltitle}{Quantum {R}abi Oscillation: a Direct Test of Field Quantizationin a Cavity}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{title}{Quantum {R}abi Oscillation: a Direct Test of Field Quantizationin a Cavity}
       \field{volume}{76}
       \field{year}{1996}
       \field{pages}{1800}
-      \verb{file}
-      \verb ENS_QRABI.pdf:ens/ENS_QRABI.pdf:PDF;ENS_QRABI.pdf:ens/ENS_QRABI.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.76.1800
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.76.1800
       \endverb
       \keyw{CQED,Rabi,Fock,ENS}
     \endentry
@@ -294,12 +321,16 @@
       \strng{fullhash}{a0d0a394ce2e51d4af31a28820c20223}
       \field{sortinit}{0}
       \field{labeltitle}{Observing the progressive decoherence of the meter in a quantum measurement}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{title}{Observing the progressive decoherence of the meter in a quantum measurement}
       \field{volume}{77}
       \field{year}{1996}
       \field{pages}{4887}
-      \verb{file}
-      \verb ENS_CAT.pdf:ens/ENS_CAT.pdf:PDF;ENS_CAT.pdf:ens/ENS_CAT.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.77.4887
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.77.4887
       \endverb
       \keyw{CQED,decoherence,cats,ENS,history}
     \endentry
@@ -323,8 +354,11 @@
       \field{volume}{73}
       \field{year}{2001}
       \field{pages}{565}
-      \verb{file}
-      \verb ENS_RMP.pdf:ens/ENS_RMP.pdf:PDF;ENS_RMP.pdf:ens/ENS_RMP.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/RevModPhys.73.565
+      \endverb
+      \verb{url}
+      \verb https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.73.565
       \endverb
       \keyw{CQED,QI,entanglement,ENS}
     \endentry
@@ -349,12 +383,16 @@
       \strng{fullhash}{c1cabbe055ba6953c2a5a2a39d7fa097}
       \field{sortinit}{0}
       \field{labeltitle}{Seeing a single photon without destroying it}
+      \field{journaltitle}{Nature}
       \field{title}{Seeing a single photon without destroying it}
       \field{volume}{400}
       \field{year}{1999}
       \field{pages}{239}
-      \verb{file}
-      \verb ENS_QND.pdf:ens/ENS_QND.pdf:PDF;ENS_QND.pdf:ens/ENS_QND.pdf:PDF
+      \verb{doi}
+      \verb 10.1038/22275
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/22275
       \endverb
       \keyw{CQED,QND,Fock,ENS}
     \endentry
@@ -383,12 +421,16 @@
       \strng{fullhash}{11988aa630107e97071d2156f6d85727}
       \field{sortinit}{0}
       \field{labeltitle}{Non-destructive {R}ydberg atom counting with mesoscopic fields in a cavity}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{title}{Non-destructive {R}ydberg atom counting with mesoscopic fields in a cavity}
       \field{volume}{94}
       \field{year}{2005}
       \field{pages}{113601}
-      \verb{file}
-      \verb ENS_COUNT05.pdf:ens/ENS_COUNT05.pdf:PDF;ENS_COUNT05.pdf:ens/ENS_COUNT05.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.94.113601
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.94.113601
       \endverb
       \keyw{CQED,cats,ENS}
     \endentry
@@ -424,8 +466,11 @@
       \field{volume}{446}
       \field{year}{2007}
       \field{pages}{297}
-      \verb{file}
-      \verb ENS_QNDZEROUN07.pdf:ens/ENS_QNDZEROUN07.pdf:PDF;ENS_QNDZEROUN07.pdf:ens/ENS_QNDZEROUN07.pdf:PDF
+      \verb{doi}
+      \verb 10.1038/nature05589
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nature05589
       \endverb
       \keyw{CQED,QND,ENS}
     \endentry
@@ -461,8 +506,11 @@
       \field{volume}{448}
       \field{year}{2007}
       \field{pages}{889}
-      \verb{file}
-      \verb ENS_QNDCOLLAPSE07.pdf:ens/ENS_QNDCOLLAPSE07.pdf:PDF;ENS_QNDCOLLAPSE07.pdf:ens/ENS_QNDCOLLAPSE07.pdf:PDF
+      \verb{doi}
+      \verb 10.1038/nature06057
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nature06057
       \endverb
       \keyw{CQED,QND,Fock,decoherence,ENS}
     \endentry
@@ -494,8 +542,11 @@
       \field{volume}{455}
       \field{year}{2008}
       \field{pages}{510}
-      \verb{file}
-      \verb ENS_FULLWIGNER08.pdf:ens/ENS_FULLWIGNER08.pdf:PDF;ENS_FULLWIGNER08.pdf:ens/ENS_FULLWIGNER08.pdf:PDF
+      \verb{doi}
+      \verb 10.1038/nature07288
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nature07288
       \endverb
       \keyw{CQED,Wigner,decoherence,cats,ENS}
     \endentry
@@ -519,8 +570,11 @@
       \field{volume}{14}
       \field{year}{1981}
       \field{pages}{L655}
-      \verb{file}
-      \verb ENS_DENSEGAS.pdf:ens/ENS_DENSEGAS.pdf:PDF
+      \verb{doi}
+      \verb 10.1088/0022-3700/14/21/003
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/0022-3700/14/21/003
       \endverb
       \keyw{ENS,spectroscopy,Rydberg}
     \endentry
@@ -549,13 +603,10 @@
       \strng{namehash}{d7a89028928cf92e134aeaa7788811da}
       \strng{fullhash}{06ce7acf0040409e3d4e4cb2dc787e2e}
       \field{sortinit}{0}
-      \field{labeltitle}{{R}ydberg-{R}ydberg Interactions in a Dense System of Very Excited Atoms}
+      \field{labeltitle}{Rydberg-Rydberg Interactions in a Dense System of Very Excited Atoms}
       \field{booktitle}{Laser Spectroscopy {V}}
-      \field{title}{{R}ydberg-{R}ydberg Interactions in a Dense System of Very Excited Atoms}
+      \field{title}{Rydberg-Rydberg Interactions in a Dense System of Very Excited Atoms}
       \field{year}{1980}
-      \verb{file}
-      \verb ENS_LASERSPEC5SP.pdf:ens/ENS_LASERSPEC5SP.pdf:PDF
-      \endverb
       \keyw{ENS,spectroscopy,Rydberg}
     \endentry
     \entry{Pritchard1983}{article}{}
@@ -610,6 +661,12 @@
       \field{volume}{47}
       \field{year}{1983}
       \field{pages}{395\bibrangedash 399}
+      \verb{doi}
+      \verb 10.1016/0030-4018(83)90314-0
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/0030-4018(83)90314-0
+      \endverb
     \endentry
     \entry{Dalibard1984}{article}{}
       \name{labelname}{3}{}{%
@@ -632,6 +689,9 @@
       \field{volume}{17}
       \field{year}{1984}
       \field{pages}{4577}
+      \verb{doi}
+      \verb 10.1088/0022-3700/17/22/018
+      \endverb
       \verb{url}
       \verb http://stacks.iop.org/0022-3700/17/i=22/a=018
       \endverb
@@ -689,6 +749,12 @@
       \field{volume}{43}
       \field{year}{1990}
       \field{pages}{33\bibrangedash 40}
+      \verb{doi}
+      \verb 10.1063/1.881239
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1063/1.881239
+      \endverb
     \endentry
     \entry{Gallagher1998}{article}{}
       \name{labelname}{3}{}{%
@@ -1171,7 +1237,7 @@
       \strng{fullhash}{1a7cb3c44be4c873f1cef83c9689c6e8}
       \field{sortinit}{0}
       \field{labeltitle}{Simulating a quantum magnet with trapped~ions}
-      \field{journaltitle}{Nat Phys}
+      \field{journaltitle}{Nature Physics}
       \field{month}{07}
       \field{number}{10}
       \field{title}{Simulating a quantum magnet with trapped~ions}
@@ -1211,6 +1277,12 @@
       \field{volume}{273}
       \field{year}{1996}
       \field{pages}{1073\bibrangedash 1078}
+      \verb{doi}
+      \verb 10.1126/science.273.5278.1073
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1126/science.273.5278.1073
+      \endverb
     \endentry
     \entry{Raedt2007}{article}{}
       \name{labelname}{9}{}{%
@@ -1518,7 +1590,7 @@
       \field{sortinit}{0}
       \field{labeltitle}{Fractal energy spectrum of a polariton gas in a Fibonacci quasiperiodic potential.}
       \field{abstract}{We report on the study of a polariton gas confined in a quasiperiodic one-dimensional cavity, described by a Fibonacci sequence. Imaging the polariton modes both in real and reciprocal space, we observe features characteristic of their fractal energy spectrum such as the opening of minigaps obeying the gap labeling theorem and log-periodic oscillations of the integrated density of states. These observations are accurately reproduced solving an effective 1D Schrödinger equation, illustrating the potential of cavity polaritons as a quantum simulator in complex topological geometries.}
-      \field{journaltitle}{Phys Rev Lett}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{month}{04}
       \field{number}{14}
       \field{title}{Fractal energy spectrum of a polariton gas in a Fibonacci quasiperiodic potential.}
@@ -1587,6 +1659,9 @@
       \endverb
       \verb{eprint}
       \verb 1205.6500
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/RevModPhys.85.299
       \endverb
     \endentry
     \entry{Buechler2009}{incollection}{}
@@ -1745,7 +1820,7 @@
       \field{sortinit}{0}
       \field{labeltitle}{Quantum simulation of energy transport with embedded Rydberg aggregates.}
       \field{abstract}{We show that an array of ultracold Rydberg atoms embedded in a laser driven background gas can serve as an aggregate for simulating exciton dynamics and energy transport with a controlled environment. Energetic disorder and decoherence introduced by the interaction with the background gas atoms can be controlled by the laser parameters. This allows for an almost ideal realization of a Haken-Reineker-Strobl-type model for energy transport. The transport can be monitored using the same mechanism that provides control over the environment. The degree of decoherence is traced back to information gained on the excitation location through the monitoring, turning the setup into an experimentally accessible model system for studying the effects of quantum measurements on the dynamics of a many-body quantum system.}
-      \field{journaltitle}{Phys Rev Lett}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{month}{03}
       \field{number}{12}
       \field{title}{Quantum simulation of energy transport with embedded Rydberg aggregates.}
@@ -1778,7 +1853,7 @@
       \field{sortinit}{0}
       \field{labeltitle}{Liquid ground state, gap, and excited states of a strongly correlated spin chain.}
       \field{abstract}{We present an exact solution of an experimentally realizable and strongly interacting one-dimensional spin system which is a limiting case of a quantum Ising model with long range interaction in a transverse and longitudinal field. Pronounced quantum fluctuations lead to a strongly correlated liquid ground state. For open boundary conditions the ground state manifold consists of four degenerate sectors whose quantum numbers are determined by the orientation of the edge spins. Explicit expressions for the entanglement properties, the exact excitation gap, as well as the exact wave functions for a couple of excited states are analytically derived and discussed. We outline how this system can be experimentally realized in a lattice gas of Rydberg atoms.}
-      \field{journaltitle}{Phys Rev Lett}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{month}{03}
       \field{number}{10}
       \field{title}{Liquid ground state, gap, and excited states of a strongly correlated spin chain.}
@@ -1955,12 +2030,16 @@
       \strng{fullhash}{a9b8ee0faa501275548d5286c9d1582a}
       \field{sortinit}{0}
       \field{labeltitle}{Magnetic trapping of long-lived cold {R}ydberg atoms}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{title}{Magnetic trapping of long-lived cold {R}ydberg atoms}
       \field{volume}{95}
       \field{year}{2005}
       \field{pages}{243001}
-      \verb{file}
-      \verb MX_RAITHELTRAPPERDYD05.pdf:mx/MX_RAITHELTRAPPERDYD05.pdf:PDF;MX_RAITHELTRAPPERDYD05.pdf:mx/MX_RAITHELTRAPPERDYD05.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.95.243001
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.95.243001
       \endverb
       \keyw{MX,Rydberg,traps}
     \endentry
@@ -1998,6 +2077,12 @@
       \field{volume}{12}
       \field{year}{2010}
       \field{pages}{043016}
+      \verb{doi}
+      \verb 10.1088/1367-2630/12/4/043016
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1367-2630/12/4/043016
+      \endverb
     \endentry
     \entry{Johnson2010}{article}{}
       \name{labelname}{2}{}{%
@@ -2060,8 +2145,9 @@
       \field{journaltitle}{Nature Physics}
       \field{month}{08}
       \field{title}{Many-body interferometry of a Rydberg-dressed spin~lattice}
-      \field{volume}{advance online publication}
+      \field{volume}{12}
       \field{year}{2016}
+      \field{pages}{1095\bibrangedash 1099}
       \verb{doi}
       \verb 10.1038/nphys3835
       \endverb
@@ -2198,45 +2284,13 @@
       \field{volume}{116}
       \field{year}{2016}
       \field{pages}{113001}
-      \verb{file}
-      \verb MX_PORTORYDDRESS16.pdf:mx/MX_PORTORYDDRESS16.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.116.113001
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.116.113001
       \endverb
       \keyw{mx,rydberg,dipole,collective}
-    \endentry
-    \entry{zeiher2016many}{article}{}
-      \name{labelname}{8}{}{%
-        {{hash=ebd99a912e076a7dc696db17cf8b435f}{Zeiher}{Z\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=5e5d9f35f4150d5a199206588f1f9bfe}{Bijnen}{B\bibinitperiod}{Rick}{R\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
-        {{hash=603e530e271da48b67eec37283b4dac5}{Schauß}{S\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=bf9e67b98f798f9f9b49a855acc96270}{Hild}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=cca745785e021470e6cf79cc8ff3ee42}{Choi}{C\bibinitperiod}{Jae-yoon}{J\bibinithyphendelim y\bibinitperiod}{}{}{}{}}%
-        {{hash=fe09948c5ae865eaa4acfdfa5bd3da6f}{Pohl}{P\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{8}{}{%
-        {{hash=ebd99a912e076a7dc696db17cf8b435f}{Zeiher}{Z\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=5e5d9f35f4150d5a199206588f1f9bfe}{Bijnen}{B\bibinitperiod}{Rick}{R\bibinitperiod}{van}{v\bibinitperiod}{}{}}%
-        {{hash=603e530e271da48b67eec37283b4dac5}{Schauß}{S\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=bf9e67b98f798f9f9b49a855acc96270}{Hild}{H\bibinitperiod}{Sebastian}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=cca745785e021470e6cf79cc8ff3ee42}{Choi}{C\bibinitperiod}{Jae-yoon}{J\bibinithyphendelim y\bibinitperiod}{}{}{}{}}%
-        {{hash=fe09948c5ae865eaa4acfdfa5bd3da6f}{Pohl}{P\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=2706649dd73bd9e5cf6ed59802894f8c}{Bloch}{B\bibinitperiod}{Immanuel}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=008ddc88933a3b855bacf53a9f7b4faf}{Gross}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Research}%
-      }
-      \strng{namehash}{579786b0a6a8d4aa9d381b3ed863ba84}
-      \strng{fullhash}{d6601ce492d5e83c6df6f56759a734f6}
-      \field{sortinit}{0}
-      \field{labeltitle}{Many-body interferometry of a Rydberg-dressed spin lattice}
-      \field{journaltitle}{Nature Physics}
-      \field{number}{12}
-      \field{title}{Many-body interferometry of a Rydberg-dressed spin lattice}
-      \field{volume}{12}
-      \field{year}{2016}
-      \field{pages}{1095\bibrangedash 1099}
     \endentry
     \entry{MX_RAITHELTRAP00}{article}{}
       \name{labelname}{5}{}{%
@@ -2257,12 +2311,16 @@
       \strng{fullhash}{5bedae41bd87c63fd9b69a7f6163d309}
       \field{sortinit}{0}
       \field{labeltitle}{Ponderomotive optical lattice for {R}ydberg atoms}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{title}{Ponderomotive optical lattice for {R}ydberg atoms}
       \field{volume}{85}
       \field{year}{2000}
       \field{pages}{5551}
-      \verb{file}
-      \verb MX_RAITHELTRAP00.pdf:mx/MX_RAITHELTRAP00.pdf:PDF;MX_RAITHELTRAP00.pdf:mx/MX_RAITHELTRAP00.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.85.5551
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.85.5551
       \endverb
       \keyw{MX,traps,theory,Rydberg,lattice}
     \endentry
@@ -2282,13 +2340,16 @@
       \strng{fullhash}{7904403915620fe9bcb31bffb0310a08}
       \field{sortinit}{0}
       \field{labeltitle}{Ionization of {R}ydberg atoms by standing-wave light fields}
-      \field{journaltitle}{Nat Commun}
+      \field{journaltitle}{Nature Communications}
       \field{title}{Ionization of {R}ydberg atoms by standing-wave light fields}
       \field{volume}{4}
       \field{year}{2013}
       \field{pages}{2967}
-      \verb{file}
-      \verb MX_RAITHELPHOTION13.pdf:mx/MX_RAITHELPHOTION13.pdf:PDF
+      \verb{doi}
+      \verb 10.1038/ncomms3967
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/ncomms3967
       \endverb
       \keyw{rydberg,mx,traps}
     \endentry
@@ -2491,9 +2552,13 @@
       \strng{fullhash}{9258160246e6bc581673608d2651d276}
       \field{sortinit}{0}
       \field{labeltitle}{Towards quantum simulation with circular Rydberg atoms}
-      \field{journaltitle}{arXiv preprint arXiv:1707.04397}
+      \field{journaltitle}{Phys. Rev. X}
       \field{title}{Towards quantum simulation with circular Rydberg atoms}
-      \field{year}{2017}
+      \field{volume}{in print}
+      \field{year}{2018}
+      \verb{url}
+      \verb https://arxiv.org/abs/1707.04397v1
+      \endverb
     \endentry
     \entry{ENS_ENHANCED}{article}{}
       \name{labelname}{4}{}{%
@@ -2517,8 +2582,11 @@
       \field{volume}{50}
       \field{year}{1983}
       \field{pages}{1903}
-      \verb{file}
-      \verb ENS_ENHANCED.pdf:ens/ENS_ENHANCED.pdf:PDF;ENS_ENHANCED.pdf:ens/ENS_ENHANCED.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physrevlett.50.1903
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physrevlett.50.1903
       \endverb
       \keyw{CQED,ENS,history,Purcell}
     \endentry
@@ -2541,6 +2609,12 @@
       \field{labeltitle}{Rydberg Atoms}
       \field{title}{Rydberg Atoms}
       \field{year}{1994}
+      \verb{doi}
+      \verb 10.1017/cbo9780511524530
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1017/cbo9780511524530
+      \endverb
       \keyw{TXT,Rydberg}
     \endentry
     \entry{MX_CODATA14}{article}{}
@@ -2564,8 +2638,11 @@
       \field{volume}{88}
       \field{year}{2016}
       \field{pages}{035009}
-      \verb{file}
-      \verb MX_CODATA14.pdf:Users/jean-michel.raimond/Documents/bibliography/mx/MX_CODATA14.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/RevModPhys.88.035009
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103/RevModPhys.88.035009
       \endverb
       \keyw{mx,metrology,review}
     \endentry
@@ -2644,8 +2721,11 @@
       \field{volume}{67}
       \field{year}{2003}
       \field{pages}{052502}
-      \verb{file}
-      \verb MX_GALLAGHERSPECRBNSND03.pdf:mx/MX_GALLAGHERSPECRBNSND03.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physreva.67.052502
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physreva.67.052502
       \endverb
       \keyw{mx,Rydberg,spectroscopy}
     \endentry
@@ -2674,8 +2754,11 @@
       \field{volume}{74}
       \field{year}{2006}
       \field{pages}{054502}
-      \verb{file}
-      \verb MX_GALLAGHERSPECRBNF06.pdf:mx/MX_GALLAGHERSPECRBNF06.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physreva.74.054502
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physreva.74.054502
       \endverb
       \keyw{mx,Rydberg,spectroscopy}
     \endentry
@@ -2706,7 +2789,7 @@
       \field{sortinit}{0}
       \field{labeltitle}{{M}easurement of absolute transition frequencies of $^{87}\mathrm{Rb}$ to $\mathit{nS}$ and $\mathit{nD}$ {R}ydberg states by means of electromagnetically induced transparency}
       \field{issue}{5}
-      \field{journaltitle}{{P}hys. {R}ev. {A}}
+      \field{journaltitle}{Phys. Rev. A}
       \field{month}{05}
       \field{title}{{M}easurement of absolute transition frequencies of $^{87}\mathrm{Rb}$ to $\mathit{nS}$ and $\mathit{nD}$ {R}ydberg states by means of electromagnetically induced transparency}
       \field{volume}{83}
@@ -2733,13 +2816,17 @@
       \strng{namehash}{ccf2edfb18bfc99747dcc1184d9f1c16}
       \strng{fullhash}{6e4bd7f5b2f7d92816dc0e59df9685d2}
       \field{sortinit}{0}
-      \field{labeltitle}{Millimeter Spectroscopy in {S}odium {R}ydberg states:Quantum Defects, Fine Structure and PolarisabilityMeasurements}
-      \field{title}{Millimeter Spectroscopy in {S}odium {R}ydberg states:Quantum Defects, Fine Structure and PolarisabilityMeasurements}
+      \field{labeltitle}{Millimeter spectroscopy in sodium Rydberg states: Quantum-defect, fine-structure, and polarizability measurements}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{title}{Millimeter spectroscopy in sodium Rydberg states: Quantum-defect, fine-structure, and polarizability measurements}
       \field{volume}{18}
       \field{year}{1978}
-      \field{pages}{229}
-      \verb{file}
-      \verb ENS_SPECNA2.pdf:ens/ENS_SPECNA2.pdf:PDF;ENS_SPECNA2.pdf:ens/ENS_SPECNA2.pdf:PDF
+      \field{pages}{229\bibrangedash 237}
+      \verb{doi}
+      \verb 10.1103/physreva.18.229
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.18.229
       \endverb
       \keyw{ENS,Rydberg,spectroscopy}
     \endentry
@@ -2760,12 +2847,16 @@
       \strng{fullhash}{971593e5387dd4115999804f30d770f8}
       \field{sortinit}{0}
       \field{labeltitle}{Millimeter-Wave Spectroscopy in Cesium {R}ydberg states.Quantum Defects, Fine- and Hyperfine Structure Measurements}
+      \field{journaltitle}{Phys. Rev. A}
       \field{title}{Millimeter-Wave Spectroscopy in Cesium {R}ydberg states.Quantum Defects, Fine- and Hyperfine Structure Measurements}
       \field{volume}{26}
       \field{year}{1982}
       \field{pages}{2733}
-      \verb{file}
-      \verb ENS_SPECCS.pdf:ens/ENS_SPECCS.pdf:PDF;ENS_SPECCS.pdf:ens/ENS_SPECCS.pdf:PDF
+      \verb{doi}
+      \verb 10.1103/physreva.26.2733
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/physreva.26.2733
       \endverb
       \keyw{ENS,spectroscopy,Rydberg}
     \endentry
@@ -2785,8 +2876,11 @@
       \field{volume}{4}
       \field{year}{1987}
       \field{pages}{413}
-      \verb{file}
-      \verb MX_MECHEDERYDSPECTRO87.pdf:mx/MX_MECHEDERYDSPECTRO87.pdf:PDF;MX_MECHEDERYDSPECTRO87.pdf:mx/MX_MECHEDERYDSPECTRO87.pdf:PDF
+      \verb{doi}
+      \verb 10.1364/josab.4.000413
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1364/josab.4.000413
       \endverb
       \keyw{Rydberg,Spectroscopy}
     \endentry
@@ -2890,6 +2984,12 @@
       \field{labeltitle}{Quantum mechanics of one-and two-electron atoms}
       \field{title}{Quantum mechanics of one-and two-electron atoms}
       \field{year}{2012}
+      \verb{doi}
+      \verb 10.1007/978-3-662-12869-5
+      \endverb
+      \verb{url}
+      \verb http://doi.org/10.1007/978-3-662-12869-5
+      \endverb
     \endentry
     \entry{TXT_JACKSON}{book}{}
       \name{labelname}{1}{}{%
@@ -2939,8 +3039,11 @@
       \field{volume}{10}
       \field{year}{2014}
       \field{pages}{914\bibrangedash 917}
-      \verb{file}
-      \verb MX_BROWAEYSDD14.pdf:mx/MX_BROWAEYSDD14.pdf:PDF
+      \verb{doi}
+      \verb 10.1038/nphys3119
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nphys3119
       \endverb
       \keyw{mx,rydberg,dipole}
     \endentry
@@ -3006,9 +3109,6 @@
       \name{author}{2}{}{%
         {{hash=ae868bd80925068a0d089a94ee6ed0c9}{Meissner}{M\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
         {{hash=83c29bf2ec46a59fd1e2e9ca85716c1e}{Ochsenfeld}{O\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{language}{1}{%
-        {German}%
       }
       \list{publisher}{1}{%
         {Springer-Verlag}%
@@ -3080,6 +3180,7 @@
       \strng{fullhash}{c667d11f181c8a7236e877d6aacd31df}
       \field{sortinit}{0}
       \field{labeltitle}{Rubidium 87 D line data}
+      \field{note}{http://www.steck.us/alkalidata/rubidium87numbers.1.6.pdf}
       \field{title}{Rubidium 87 D line data}
       \field{year}{2001}
       \verb{url}
@@ -3176,6 +3277,12 @@
       \field{labeltitle}{Introduction to quantum optics: from the semi-classical approach to quantized light}
       \field{title}{Introduction to quantum optics: from the semi-classical approach to quantized light}
       \field{year}{2010}
+      \verb{doi}
+      \verb 10.1017/cbo9780511778261
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1017/cbo9780511778261
+      \endverb
     \endentry
     \entry{MX_TELLER_ADDITIVEVDW}{article}{}
       \name{labelname}{2}{}{%
@@ -3235,14 +3342,14 @@
       \strng{namehash}{f5ce9bb13d8579cc4723a4ef426cb045}
       \strng{fullhash}{37091e08f7e79d2347692369d6024c51}
       \field{sortinit}{0}
-      \field{labeltitle}{{Observation of collective excitation of two individual atoms in the Rydberg blockade regime}}
+      \field{labeltitle}{Observation of collective excitation of two individual atoms in the Rydberg blockade regime}
       \field{abstract}{{When two quantum systems interact strongly with each other, their simultaneous excitation by the same driving pulse may be forbidden. The phenomenon is known as blockade of excitation. Recently, extensive studies have been devoted to the so-called Rydberg blockade between neutral atoms, which appears when the atoms are in highly excited electronic states, owing to the interaction induced by the accompanying large dipole moments. Rydberg blockade has been proposed as a basic tool in quantum-information processing with neutral atoms1, 2, 3, 4, 5, and can be used to deterministically generate entanglement of several atoms. Here, we demonstrate Rydberg blockade between two atoms individually trapped in optical tweezers at a distance of 4 m. Moreover, we show experimentally that collective two-atom behaviour, associated with the excitation of an entangled state between the ground and Rydberg levels, enhances the allowed single-atom excitation. These observations should be a crucial step towards the deterministic manipulation of entanglement of two or more atoms, with possible implications for quantum-information science, as well as for quantum metrology, the study of strongly correlated systems in many-body physics, and fundamental studies in quantum physics.}}
       \field{day}{11}
       \field{issn}{1745-2473}
-      \field{journaltitle}{{N}at {P}hys}
+      \field{journaltitle}{Nature Physics}
       \field{month}{02}
       \field{number}{2}
-      \field{title}{{Observation of collective excitation of two individual atoms in the Rydberg blockade regime}}
+      \field{title}{Observation of collective excitation of two individual atoms in the Rydberg blockade regime}
       \field{volume}{5}
       \field{year}{2009}
       \field{pages}{115\bibrangedash 118}
@@ -3322,7 +3429,7 @@
       \strng{fullhash}{ed10271ae74c3551e5edcba7ec507b46}
       \field{sortinit}{0}
       \field{labeltitle}{Mesoscopic Rydberg-blockaded ensembles in the superatom regime and beyond}
-      \field{journaltitle}{Nat Phys}
+      \field{journaltitle}{Nature Physics}
       \field{month}{01}
       \field{number}{2}
       \field{title}{Mesoscopic Rydberg-blockaded ensembles in the superatom regime and beyond}
@@ -3366,8 +3473,11 @@
       \field{volume}{502}
       \field{year}{2013}
       \field{pages}{664\bibrangedash 667}
-      \verb{file}
-      \verb MX_PFAURYDBERGBEC13.pdf:mx/MX_PFAURYDBERGBEC13.pdf:PDF;MX_PFAURYDBERGBEC13.pdf:mx/MX_PFAURYDBERGBEC13.pdf:PDF
+      \verb{doi}
+      \verb 10.1038/nature12592
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nature12592
       \endverb
       \keyw{Mx,Rydberg,Bec,Dipole}
     \endentry
@@ -3437,6 +3547,9 @@
       \field{type}{phdthesis}
       \field{year}{2015}
       \verb{doi}
+      \verb 10.3929/ethz-a-010616440
+      \endverb
+      \verb{url}
       \verb http://dx.doi.org/10.3929/ethz-a-010616440
       \endverb
     \endentry
@@ -3445,7 +3558,7 @@
         {{hash=0b9839d94bb712b38d4172f4fe1add3e}{Gaj}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
         {{hash=bbea498096e28a0bea86c7d21adebda5}{Krupp}{K\bibinitperiod}{A.\bibnamedelimi T.}{A\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
         {{hash=1e6713ee986aefe42453bdc4a78085e2}{Balewski}{B\bibinitperiod}{J.\bibnamedelimi B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=0dec63ff191b060602b2c99c63d6e789}{LÃ¶w}{L\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=dc7fb53bade944f73c6b5bead2034012}{Löw}{L\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
         {{hash=79dbbaaae94df835e8caa8263a23f390}{Hofferberth}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
         {{hash=2a46497520fee2c930bdb702ea66c8d6}{Pfau}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
       }
@@ -3453,7 +3566,7 @@
         {{hash=0b9839d94bb712b38d4172f4fe1add3e}{Gaj}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
         {{hash=bbea498096e28a0bea86c7d21adebda5}{Krupp}{K\bibinitperiod}{A.\bibnamedelimi T.}{A\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
         {{hash=1e6713ee986aefe42453bdc4a78085e2}{Balewski}{B\bibinitperiod}{J.\bibnamedelimi B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=0dec63ff191b060602b2c99c63d6e789}{LÃ¶w}{L\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=dc7fb53bade944f73c6b5bead2034012}{Löw}{L\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
         {{hash=79dbbaaae94df835e8caa8263a23f390}{Hofferberth}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
         {{hash=2a46497520fee2c930bdb702ea66c8d6}{Pfau}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
       }
@@ -3461,16 +3574,19 @@
         {Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.}%
       }
       \strng{namehash}{aa8ea699fb45cd8b8eda6207024dee0b}
-      \strng{fullhash}{33391bb2bad95ff2b0d362dbeb64b3be}
+      \strng{fullhash}{4b993e51a5a7dd23608fe07289792e5b}
       \field{sortinit}{0}
       \field{labeltitle}{From molecular spectra to a density shift in dense Rydberg gases}
-      \field{journaltitle}{Nat Commun}
+      \field{journaltitle}{Nature Communications}
       \field{title}{From molecular spectra to a density shift in dense Rydberg gases}
       \field{volume}{5}
       \field{year}{2014}
       \field{pages}{pages}
-      \verb{file}
-      \verb MX_PFAUMOLECULES14.pdf:mx/MX_PFAUMOLECULES14.pdf:PDF
+      \verb{doi}
+      \verb 10.1038/ncomms5546
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/ncomms5546
       \endverb
       \keyw{rydberg,mx,dipole}
     \endentry
@@ -3497,8 +3613,11 @@
       \field{volume}{95}
       \field{year}{2002}
       \field{pages}{538\bibrangedash 549}
-      \verb{file}
-      \verb MX_DMITRIEV02.pdf:mx/MX_DMITRIEV02.pdf:PDF
+      \verb{doi}
+      \verb 10.1134/1.1513828
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1134/1.1513828
       \endverb
       \keyw{mx,transport,theory}
     \endentry
@@ -3524,8 +3643,11 @@
       \field{volume}{37}
       \field{year}{1976}
       \field{pages}{993\bibrangedash 1009}
-      \verb{file}
-      \verb MX_FABRERYDHF76.pdf:Users/jean-michel.raimond/Documents/bibliography/mx/MX_FABRERYDHF76.pdf:PDF
+      \verb{doi}
+      \verb 10.1051/jphys:01976003709099300
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1051/jphys:01976003709099300
       \endverb
       \keyw{mx,Rydberg,theory}
     \endentry
@@ -3655,9 +3777,6 @@
       \verb{doi}
       \verb 10.1103/PhysRevLett.65.1317
       \endverb
-      \verb{file}
-      \verb MX_GABRIELSEANTIPROTON90.pdf:mx/MX_GABRIELSEANTIPROTON90.pdf:PDF;MX_GABRIELSEANTIPROTON90.pdf:mx/MX_GABRIELSEANTIPROTON90.pdf:PDF
-      \endverb
       \verb{url}
       \verb http://link.aps.org/doi/10.1103/PhysRevLett.65.1317
       \endverb
@@ -3701,8 +3820,11 @@
       \field{volume}{115}
       \field{year}{1998}
       \field{pages}{185\bibrangedash 192}
-      \verb{file}
-      \verb ION_WERTHCRYOION98.pdf:ion/ION_WERTHCRYOION98.pdf:PDF;ION_WERTHCRYOION98.pdf:ion/ION_WERTHCRYOION98.pdf:PDF
+      \verb{doi}
+      \verb 10.1023/A:1012665109427
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/A:1012665109427
       \endverb
       \keyw{ion,techniques}
     \endentry
@@ -3730,10 +3852,16 @@
       \strng{fullhash}{cc87cf1e843bef5bb994a9239a4fd490}
       \field{sortinit}{0}
       \field{labeltitle}{Transfer of optical orbital angular momentum to a bound electron}
-      \field{journaltitle}{Nature communications}
+      \field{journaltitle}{Nature Communications}
       \field{title}{Transfer of optical orbital angular momentum to a bound electron}
       \field{volume}{7}
       \field{year}{2016}
+      \verb{doi}
+      \verb 10.1038/ncomms12998
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/ncomms12998
+      \endverb
     \endentry
     \entry{PHD_SIGNOLES}{thesis}{}
       \name{labelname}{1}{}{%

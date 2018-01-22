@@ -47,6 +47,7 @@
     \newgeometry{left=12mm,right=12mm,bottom=12mm}
     \pagestyle{empty}%
 \renewcommand{\thepage}{\CoverName}
+
 \begin{minipage}{1\textwidth}
 \begin{center}\vspace{-20pt}
 \@lab \vskip 0.2\th@skip%
@@ -55,11 +56,12 @@
     \else%
         {\large\bfseries\@head\par}%
     \fi
+    \vspace{1cm}
     \ifx\empty\@logoone
         \relax%
     \else%
         \centerline\bgroup\hfill{\includegraphics%[height=4cm]{\@logoone}}\hfill%
-        [width=.7\linewidth]{\@logoone}}\hfill%
+        [width=.8\linewidth]{\@logoone}}\hfill%
         \ifx\empty\@logotwo
             \relax
         \else%
@@ -71,19 +73,20 @@
 \end{center}
 \end{minipage}
 %%%%%%%%%%%%%%%%%
-\vspace{7mm}
+\vspace{10mm}
 \begin{center}
 {\large 
-\uline{\@thesis} \vskip 0.2\th@skip%
+\@thesis \vskip 0.2\th@skip%
  Spécialité~:~ \textbf{\@specialite}
 }\\[0.8cm]
-{\huge\bfseries{\textsf{%\vspace*{0.5cm}
-\@title}}}\vskip 0.7\th@skip
 
-présentée par \vskip 0.5\th@skip
+présentée par \vskip 0.2\th@skip
 \textbf{\LARGE \@author}\\[1cm]
-pour obtenir le grade de \vskip .5\th@skip%
-\textbf{\@phdname}\\[1.5cm]
+pour obtenir le grade de \vskip .2\th@skip%
+\Large\textbf{{\@phdname}}\\[1.5cm]
+
+{\huge\bfseries{\@title}}\vskip 0.7\th@skip
+
 Soutenue le \@date ~ devant le jury composé de~:~\par%
    \vskip 0.5\th@skip%
     \begin{large}
@@ -109,41 +112,41 @@ Soutenue le \@date ~ devant le jury composé de~:~\par%
     \pagestyle{empty}%
     \renewcommand{\thepage}{\BackCoverName}
     \linespread{1.0}
-    \sffamily
+%    \sffamily
 
     \vskip \th@skip%
-     \begin{center}\Large\bfseries
+    \begin{center}\Large\bfseries
 	\begin{quote}
-	\begin{minipage}[l]{0.8\linewidth}
-   	{\Large\bfseries\sffamily {\@titleen}\par}
-   	\end{minipage}\\
-   	\color{gray!50}\rule{\linewidth}{2pt}%\hrulefill
+	\begin{minipage}[l]{1.\linewidth}
+   	{\Large\bfseries{\@titlefr}\par}
+   	\end{minipage}\\[0.3em]
+   	\color{gray!50}\rule{\linewidth}{1pt}%\hrulefill
 	\color{black}
    	\end{quote}
    	\begin{quote}
-   	\noindent\normalsize\textbf{Abstract}:~\normalfont%
-   	\@abstract\par
+   	\noindent\normalsize\textbf{Résumé}:~\normalfont%
+   	\@resume\par
    	\bigskip
-   	\noindent\bfseries\sffamily{Keywords}:~\normalfont\normalsize%
-   	\@keywords
+   	\noindent\bfseries{Mots-clé}:~\normalfont\normalsize%
+   	\@motscles
    	\end{quote}
    	   	\end{center}
       		\vskip\th@skip%
       	\vfill
     \begin{center}\Large\bfseries
 	\begin{quote}
-		\begin{minipage}[l]{.8\linewidth}
-			{\Large\bfseries\sffamily {\@titlefr}\par}
+		\begin{minipage}[l]{1.\linewidth}
+			{\Large\bfseries{\@titleen}\par}
 		\end{minipage}\\
-		\color{gray!50}\rule{\linewidth}{2pt}%\hrulefill
+		\color{gray!50}\rule{\linewidth}{1pt}%\hrulefill
 		\color{black}
 	\end{quote}
 	\begin{quote}
-		\noindent\normalsize\textbf{Résumé}~:~\normalfont%
-		\@resume\par
+		\noindent\normalsize\textbf{Abstract}~:~\normalfont%
+		\@abstract\par
 		\bigskip
-		\noindent\bfseries\sffamily{Mots-clés}~:~\normalfont\normalsize%
-		\@motscles\par
+		\noindent\bfseries{Keywords}~:~\normalfont\normalsize%
+		\@keywords\par
 	\end{quote}
 
 \end{center}
